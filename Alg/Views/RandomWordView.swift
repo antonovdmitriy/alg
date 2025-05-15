@@ -2,56 +2,57 @@ import SwiftUI
 
 struct RandomWordView: View {
     let categories: [Category]
-    let allEntries: [WordEntry]
     @State private var currentEntry: WordEntry
+    @State private var currentCategoryId: UUID
+    @State private var showCard = false
+    @State private var entryHistory: [(WordEntry, UUID)] = []
 
     init(categories: [Category]) {
         self.categories = categories
-        self.allEntries = categories.flatMap { $0.entries }
-        _currentEntry = State(initialValue: categories.flatMap { $0.entries }.randomElement() ?? WordEntry(
-            id: UUID(),
-            word: "–",
-            translation: "–",
-            examples: []
-        ))
+        let randomCategory = categories.randomElement()!
+        let randomEntry = randomCategory.entries.randomElement()!
+        _currentCategoryId = State(initialValue: randomCategory.id)
+        _currentEntry = State(initialValue: randomEntry)
     }
 
     var body: some View {
-        VStack(spacing: 0) {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
-                    if let category = categoryFor(entry: currentEntry) {
-                        WordCardView(entry: currentEntry, categoryId: category.id.uuidString)
-                    } else {
-                        Text("category_not_found")
+        ZStack {
+            WordPreviewView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased())
+                .edgesIgnoringSafeArea(.all)
+        }
+        .onAppear {
+            AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
+        }
+        .gesture(
+            DragGesture(minimumDistance: 30, coordinateSpace: .local)
+                .onEnded { value in
+                    if value.translation.height < -50 {
+                        showCard = true
+                    } else if value.translation.width < -50 {
+                        withAnimation {
+                            entryHistory.append((currentEntry, currentCategoryId))
+                            let newCategory = categories.randomElement()!
+                            let newEntry = newCategory.entries.randomElement()!
+                            currentEntry = newEntry
+                            currentCategoryId = newCategory.id
+                            AudioPlayerHelper.playAudio(categoryId: newCategory.id.uuidString, entryId: newEntry.id)
+                        }
+                    } else if value.translation.width > 50, !entryHistory.isEmpty {
+                        withAnimation {
+                            let previous = entryHistory.removeLast()
+                            currentEntry = previous.0
+                            currentCategoryId = previous.1
+                            AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
+                        }
                     }
                 }
-                .padding()
-            }
-
-            Divider()
-
-            Button(action: {
-                if let newWord = allEntries.randomElement() {
-                    currentEntry = newWord
-                }
-            }) {
-                HStack {
-                    Image(systemName: "arrow.triangle.2.circlepath")
-                    Text("next_random_word")
-                }
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.blue.opacity(0.2))
-                .cornerRadius(12)
-            }
-            .padding()
+        )
+        .sheet(isPresented: $showCard) {
+            WordCardView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased(), onClose: {
+                showCard = false
+            })
         }
         .navigationTitle(Text("random_word_title"))
         .navigationBarTitleDisplayMode(.inline)
-    }
-
-    func categoryFor(entry: WordEntry) -> Category? {
-        categories.first { $0.entries.contains(where: { $0.id == entry.id }) }
     }
 }
