@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+
+# Xcode build system
+DerivedData/
+build/
+
+# User-specific Xcode settings
+*.xcuserdatad/
+*.xcuserdata/
+*.xcuserstate
+
+# Xcode workspace & schemes
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# Audio files (temporary or large assets)
+audio/
+*.mp3
