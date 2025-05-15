@@ -6,7 +6,7 @@ struct WordDetailView: View {
 
     var body: some View {
         ScrollView {
-            WordCardView(entry: entry, categoryId: categoryId)
+            WordCardView(entry: entry, categoryId: categoryId, onClose: {})
         }
         .navigationTitle(entry.word)
         .navigationBarTitleDisplayMode(.inline)
