@@ -14,7 +14,7 @@ private enum Keys {
 
     static var translationLanguage: String {
         get {
-            UserDefaults.standard.string(forKey: Keys.translationLanguage) ?? "ru"
+            UserDefaults.standard.string(forKey: Keys.translationLanguage) ?? "en"
         }
         set {
             UserDefaults.standard.set(newValue, forKey: Keys.translationLanguage)
