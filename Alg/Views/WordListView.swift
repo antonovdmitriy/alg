@@ -9,6 +9,6 @@ struct WordListView: View {
                 Text(entry.word)
             }
         }
-        .navigationTitle(category.name)
+        .navigationTitle(retrieveTranslation(from: category.translations))
     }
 }

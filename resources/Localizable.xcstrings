@@ -179,6 +179,7 @@
       }
     },
     "word_forms %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

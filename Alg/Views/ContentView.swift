@@ -1,5 +1,6 @@
 import SwiftUI
 
+
 struct ContentView: View {
     let categories = DataLoader.loadCategories()
 
@@ -9,7 +10,7 @@ struct ContentView: View {
                 List {
                     ForEach(categories) { category in
                         NavigationLink(destination: WordListView(category: category)) {
-                            Text(category.name)
+                            Text(retrieveTranslation(from: category.translations))
                         }
                     }
                 }
