@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct AlgApp: App {
     @State private var showSplash = true
+    @AppStorage("hasSelectedTranslationLanguage") private var hasSelectedLanguage = false
 
     var body: some Scene {
         WindowGroup {
@@ -22,6 +23,8 @@ struct AlgApp: App {
                             }
                         }
                     }
+            } else if !hasSelectedLanguage {
+                LanguageSelectionView()
             } else {
                 ContentView()
             }

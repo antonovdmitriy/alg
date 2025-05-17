@@ -8,6 +8,6 @@ import Foundation
 
 struct Category: Identifiable, Decodable {
     let id: UUID
-    let name: String
+    let translations: [String: String]
     let entries: [WordEntry]
 }

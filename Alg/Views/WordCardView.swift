@@ -3,6 +3,7 @@ import AVFoundation
 import CryptoKit
 
 struct WordCardView: View {
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let entry: WordEntry
     let categoryId: String
     var onClose: () -> Void
@@ -12,7 +13,7 @@ struct WordCardView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
                     HStack {
-                        Text(entry.word.components(separatedBy: ",").first ?? entry.word)
+                        Text(entry.word)
                             .font(.largeTitle)
                             .bold()
 
@@ -26,13 +27,7 @@ struct WordCardView: View {
                         .buttonStyle(.plain)
                     }
 
-                    if entry.word.contains(",") {
-                        Text("word_forms \(entry.word)")
-                            .font(.subheadline)
-                            .foregroundColor(.gray)
-                    }
-
-                    Text("word_translation \(entry.translation)")
+                    Text("word_translation \(retrieveTranslation(from: entry.translations, lang: selectedLanguage))")
                         .font(.title3)
 
                     Text("word_examples")
