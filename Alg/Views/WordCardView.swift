@@ -3,6 +3,7 @@ import AVFoundation
 import CryptoKit
 
 struct WordCardView: View {
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let entry: WordEntry
     let categoryId: String
     var onClose: () -> Void
@@ -26,7 +27,7 @@ struct WordCardView: View {
                         .buttonStyle(.plain)
                     }
 
-                    Text("word_translation \(retrieveTranslation(from: entry.translations))")
+                    Text("word_translation \(retrieveTranslation(from: entry.translations, lang: selectedLanguage))")
                         .font(.title3)
 
                     Text("word_examples")

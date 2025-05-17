@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct WordListView: View {
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let category: Category
 
     var body: some View {
@@ -9,6 +10,6 @@ struct WordListView: View {
                 Text(entry.word)
             }
         }
-        .navigationTitle(retrieveTranslation(from: category.translations))
+        .navigationTitle(retrieveTranslation(from: category.translations, lang: selectedLanguage))
     }
 }

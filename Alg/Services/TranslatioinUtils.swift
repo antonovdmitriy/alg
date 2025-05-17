@@ -6,7 +6,6 @@
 //
 
 
-func retrieveTranslation(from translations: [String: String]) -> String {
-    let currentLanguage = AppSettings.translationLanguage
-    return translations[currentLanguage] ?? ""
+func retrieveTranslation(from translations: [String: String], lang: String) -> String {
+    return translations[lang] ?? ""
 }

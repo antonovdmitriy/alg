@@ -1,7 +1,7 @@
 import SwiftUI
 
-
 struct ContentView: View {
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let categories = DataLoader.loadCategories()
 
     var body: some View {
@@ -10,21 +10,28 @@ struct ContentView: View {
                 List {
                     ForEach(categories) { category in
                         NavigationLink(destination: WordListView(category: category)) {
-                            Text(retrieveTranslation(from: category.translations))
+                            Text(retrieveTranslation(from: category.translations, lang: selectedLanguage))
                         }
                     }
                 }
                 .navigationTitle("category_list_title")
             }
             .tabItem {
-                Label("tab_dictionary", systemImage: "book")
+                Image(systemName: "book")
             }
 
             NavigationView {
                 RandomWordView(categories: categories)
             }
             .tabItem {
-                Label("tab_random", systemImage: "shuffle")
+                Image(systemName: "shuffle")
+            }
+
+            NavigationView {
+                SettingsView()
+            }
+            .tabItem {
+                Image(systemName: "gearshape")
             }
         }
     }
