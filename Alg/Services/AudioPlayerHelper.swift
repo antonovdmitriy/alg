@@ -63,4 +63,9 @@ struct AudioPlayerHelper {
             print("❌ Ошибка воспроизведения локального файла: \(error)")
         }
     }
+    
+    static func playWordForm(categoryId: String, entryId: UUID, index: Int) {
+        let fileName = "\(entryId.uuidString.lowercased())_form\(index).mp3"
+        playAudioFile(named: fileName, categoryId: categoryId)
+    }
 }
