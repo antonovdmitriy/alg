@@ -105,6 +105,7 @@ struct WordPreviewView: View {
 // MARK: - AnimatedGradientView
 struct AnimatedGradientView: View {
     @State private var animate = false
+    @State private var timer: Timer?
     private let gradientPalettes: [([Color], [Color])] = [
         ([Color.purple, Color.blue], [Color.blue, Color.purple]),
         ([Color.orange, Color.pink], [Color.pink, Color.yellow]),
@@ -126,14 +127,24 @@ struct AnimatedGradientView: View {
         )
         .animation(.linear(duration: animationDuration).repeatForever(autoreverses: true), value: animate)
         .onAppear {
-            selectedColors = gradientPalettes.randomElement() ?? ([Color.purple, Color.blue], [Color.blue, Color.purple])
             animate = true
+            selectedColors = gradientPalettes.randomElement() ?? selectedColors
+            timer = Timer.scheduledTimer(withTimeInterval: 20.0, repeats: true) { _ in
+                withAnimation(.linear(duration: animationDuration)) {
+                    selectedColors = gradientPalettes.randomElement() ?? selectedColors
+                }
+            }
+        }
+        .onDisappear {
+            timer?.invalidate()
+            timer = nil
         }
     }
 }
 
 struct AnimatedAuroraView: View {
     @State private var animate = false
+    @State private var timer: Timer?
     @State private var selectedColors: ([Color], [Color]) = ([.black], [.black])
 
     private let colorPalettes: [([Color], [Color])] = [
@@ -153,8 +164,17 @@ struct AnimatedAuroraView: View {
         )
         .animation(.easeInOut(duration: animationDuration).repeatForever(autoreverses: true), value: animate)
         .onAppear {
-            selectedColors = colorPalettes.randomElement() ?? ([Color.black], [Color.black])
             animate = true
+            selectedColors = colorPalettes.randomElement() ?? selectedColors
+            timer = Timer.scheduledTimer(withTimeInterval: 20.0, repeats: true) { _ in
+                withAnimation(.easeInOut(duration: animationDuration)) {
+                    selectedColors = colorPalettes.randomElement() ?? selectedColors
+                }
+            }
+        }
+        .onDisappear {
+            timer?.invalidate()
+            timer = nil
         }
     }
 }

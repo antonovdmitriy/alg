@@ -7,6 +7,13 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
+                RandomWordView(categories: categories)
+            }
+            .tabItem {
+                Image(systemName: "shuffle")
+            }
+
+            NavigationView {
                 List {
                     ForEach(categories) { category in
                         NavigationLink(destination: WordListView(category: category)) {
@@ -18,13 +25,6 @@ struct ContentView: View {
             }
             .tabItem {
                 Image(systemName: "book")
-            }
-
-            NavigationView {
-                RandomWordView(categories: categories)
-            }
-            .tabItem {
-                Image(systemName: "shuffle")
             }
 
             NavigationView {
