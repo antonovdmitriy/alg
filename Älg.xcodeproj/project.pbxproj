@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0474E9312DDA537200DBE6E4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474E9302DDA537200DBE6E4 /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0474E55E2DD4BC9B00DBE6E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,13 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0474E5502DD4BC9900DBE6E4 /* Alg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0474E5502DD4BC9900DBE6E4 /* Älg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Älg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0474E55D2DD4BC9B00DBE6E4 /* AlgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0474E5672DD4BC9B00DBE6E4 /* AlgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0474E9302DDA537200DBE6E4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Alg" target */ = {
+		0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Älg" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				audio,
@@ -40,7 +45,7 @@
 				generate_tts.py,
 				upload_audio_to_azure.sh,
 			);
-			target = 0474E54F2DD4BC9900DBE6E4 /* Alg */;
+			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -63,7 +68,7 @@
 		0474E5902DD4CCB500DBE6E4 /* resources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Alg" target */,
+				0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Älg" target */,
 			);
 			explicitFolders = (
 				audio,
@@ -101,6 +106,7 @@
 		0474E5472DD4BC9900DBE6E4 = {
 			isa = PBXGroup;
 			children = (
+				0474E9302DDA537200DBE6E4 /* Media.xcassets */,
 				0474E5902DD4CCB500DBE6E4 /* resources */,
 				0474E5522DD4BC9900DBE6E4 /* Alg */,
 				0474E5602DD4BC9B00DBE6E4 /* AlgTests */,
@@ -112,7 +118,7 @@
 		0474E5512DD4BC9900DBE6E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0474E5502DD4BC9900DBE6E4 /* Alg.app */,
+				0474E5502DD4BC9900DBE6E4 /* Älg.app */,
 				0474E55D2DD4BC9B00DBE6E4 /* AlgTests.xctest */,
 				0474E5672DD4BC9B00DBE6E4 /* AlgUITests.xctest */,
 			);
@@ -122,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0474E54F2DD4BC9900DBE6E4 /* Alg */ = {
+		0474E54F2DD4BC9900DBE6E4 /* Älg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0474E5712DD4BC9B00DBE6E4 /* Build configuration list for PBXNativeTarget "Alg" */;
+			buildConfigurationList = 0474E5712DD4BC9B00DBE6E4 /* Build configuration list for PBXNativeTarget "Älg" */;
 			buildPhases = (
 				0474E54C2DD4BC9900DBE6E4 /* Sources */,
 				0474E54D2DD4BC9900DBE6E4 /* Frameworks */,
@@ -138,11 +144,11 @@
 				0474E5522DD4BC9900DBE6E4 /* Alg */,
 				0474E5902DD4CCB500DBE6E4 /* resources */,
 			);
-			name = Alg;
+			name = "Älg";
 			packageProductDependencies = (
 			);
 			productName = Alg;
-			productReference = 0474E5502DD4BC9900DBE6E4 /* Alg.app */;
+			productReference = 0474E5502DD4BC9900DBE6E4 /* Älg.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0474E55C2DD4BC9B00DBE6E4 /* AlgTests */ = {
@@ -214,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0474E54B2DD4BC9900DBE6E4 /* Build configuration list for PBXProject "Alg" */;
+			buildConfigurationList = 0474E54B2DD4BC9900DBE6E4 /* Build configuration list for PBXProject "Älg" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -230,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0474E54F2DD4BC9900DBE6E4 /* Alg */,
+				0474E54F2DD4BC9900DBE6E4 /* Älg */,
 				0474E55C2DD4BC9B00DBE6E4 /* AlgTests */,
 				0474E5662DD4BC9B00DBE6E4 /* AlgUITests */,
 			);
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474E9312DDA537200DBE6E4 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +295,12 @@
 /* Begin PBXTargetDependency section */
 		0474E55F2DD4BC9B00DBE6E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0474E54F2DD4BC9900DBE6E4 /* Alg */;
+			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
 			targetProxy = 0474E55E2DD4BC9B00DBE6E4 /* PBXContainerItemProxy */;
 		};
 		0474E5692DD4BC9B00DBE6E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0474E54F2DD4BC9900DBE6E4 /* Alg */;
+			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
 			targetProxy = 0474E5682DD4BC9B00DBE6E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -547,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0474E54B2DD4BC9900DBE6E4 /* Build configuration list for PBXProject "Alg" */ = {
+		0474E54B2DD4BC9900DBE6E4 /* Build configuration list for PBXProject "Älg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0474E56F2DD4BC9B00DBE6E4 /* Debug */,
@@ -556,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0474E5712DD4BC9B00DBE6E4 /* Build configuration list for PBXNativeTarget "Alg" */ = {
+		0474E5712DD4BC9B00DBE6E4 /* Build configuration list for PBXNativeTarget "Älg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0474E5722DD4BC9B00DBE6E4 /* Debug */,

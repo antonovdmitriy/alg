@@ -52,7 +52,6 @@ struct RandomWordView: View {
                 showCard = false
             })
         }
-        .navigationTitle(Text("random_word_title"))
         .navigationBarTitleDisplayMode(.inline)
     }
 }

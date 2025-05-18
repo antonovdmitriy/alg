@@ -105,18 +105,28 @@ struct WordPreviewView: View {
 // MARK: - AnimatedGradientView
 struct AnimatedGradientView: View {
     @State private var animate = false
-    private let gradientColors1 = [Color.purple, Color.blue]
-    private let gradientColors2 = [Color.blue, Color.purple]
-    private let animationDuration: Double = 4.0
+    private let gradientPalettes: [([Color], [Color])] = [
+        ([Color.purple, Color.blue], [Color.blue, Color.purple]),
+        ([Color.orange, Color.pink], [Color.pink, Color.yellow]),
+        ([Color.red, Color.orange], [Color.yellow, Color.red]),
+        ([Color.teal, Color.mint], [Color.green, Color.blue]),
+        ([Color.cyan, Color.indigo], [Color.indigo, Color.cyan]),
+        ([Color.yellow, Color.green], [Color.green, Color.yellow]),
+        ([Color.pink, Color.mint], [Color.mint, Color.pink]),
+        ([Color.brown, Color.orange], [Color.orange, Color.brown])
+    ]
+    @State private var selectedColors: ([Color], [Color]) = ([Color.purple, Color.blue], [Color.blue, Color.purple])
+    private let animationDuration: Double = 10.0
 
     var body: some View {
         LinearGradient(
-            gradient: Gradient(colors: animate ? gradientColors2 : gradientColors1),
+            gradient: Gradient(colors: animate ? selectedColors.1 : selectedColors.0),
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
         .animation(.linear(duration: animationDuration).repeatForever(autoreverses: true), value: animate)
         .onAppear {
+            selectedColors = gradientPalettes.randomElement() ?? ([Color.purple, Color.blue], [Color.blue, Color.purple])
             animate = true
         }
     }
