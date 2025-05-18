@@ -1,0 +1,52 @@
+import json
+import subprocess
+import os
+import argparse
+from pathlib import Path
+
+# Конфигурация
+INPUT_JSON = "../Alg/Data/word.json"              # путь к JSON-файлу
+OUTPUT_DIR = "audio"                  # куда сохранять mp3
+TTS_SCRIPT = "generate_tts.py"        # скрипт озвучки
+
+
+def main(category_filter=None, overwrite=False):
+    with open(INPUT_JSON, encoding="utf-8") as f:
+        data = json.load(f)
+
+    for category in data:
+        category_id = category["id"]
+        category_name = category.get("translations", {}).get("ru") or category.get("translations", {}).get("en") or "Unnamed"
+
+        if category_filter and category_name not in category_filter:
+            continue
+
+        for entry in category["entries"]:
+            word_base = entry["id"]
+            for index, form in enumerate(entry.get("forms", [])):
+                filename = f"{word_base}_form{index + 1}.mp3"
+                full_dir = Path(OUTPUT_DIR) / category_id
+                full_dir.mkdir(parents=True, exist_ok=True)
+                output_path = full_dir / filename
+
+                if output_path.exists() and not overwrite:
+                    print(f"⏩ Skipped (already exists): {output_path.name}")
+                    continue
+
+                print(f"🔊 Generating form audio: {form} → {output_path.name}")
+                try:
+                    subprocess.run([
+                        "/usr/bin/python3", TTS_SCRIPT,
+                        form,
+                        str(output_path)
+                    ], check=True)
+                except subprocess.CalledProcessError as e:
+                    print(f"❌ Failed to generate audio for form '{form}' → {output_path.name}: {e}")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate audio for all word forms.")
+    parser.add_argument("--categories", nargs="*", help="List of category names to limit generation (optional)")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files if they already exist")
+    args = parser.parse_args()
+
+    main(category_filter=args.categories, overwrite=args.overwrite)

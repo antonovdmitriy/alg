@@ -27,6 +27,28 @@ struct WordCardView: View {
                         .buttonStyle(.plain)
                     }
 
+                    if let forms = entry.forms, !forms.isEmpty {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("word_forms")
+                                .font(.headline)
+
+                            ForEach(Array(forms.enumerated()), id: \.offset) { index, form in
+                                HStack {
+                                    Text(form)
+                                    Spacer()
+                                    Button(action: {
+                                        AudioPlayerHelper.playWordForm(categoryId: categoryId, entryId: entry.id, index: index + 1)
+                                    }) {
+                                        Image(systemName: "speaker.wave.2.fill")
+                                            .foregroundColor(.blue)
+                                    }
+                                    .buttonStyle(.plain)
+                                }
+                            }
+                        }
+                    }
+
+
                     Text("word_translation \(retrieveTranslation(from: entry.translations, lang: selectedLanguage))")
                         .font(.title3)
 
