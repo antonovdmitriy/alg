@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct CategorySelectionView: View {
+    @Environment(\.dismiss) private var dismiss
     let availableCategories: [Category]
 
     
@@ -104,6 +105,7 @@ struct CategorySelectionView: View {
             Button(action: {
                 saveSelectedCategories()
                 hasSelectedCategories = true
+                dismiss()
             }) {
                 Text("continue")
                     .font(.headline)

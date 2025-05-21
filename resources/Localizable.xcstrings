@@ -24,7 +24,39 @@
 
     },
     "category_all" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "All" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Все" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Alla" } }
+      }
+    },
+    "select_categories" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose study topics" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Выберите темы для изучения" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Välj studieteman" } }
+      }
+    },
+    "continue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Continue" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Продолжить" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Fortsätt" } }
+      }
+    },
+    "settings_category_section" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Study Topics" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Темы для изучения" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Studieteman" } }
+      }
+    },
+    "settings_edit_categories" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose study topics" } },
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Выбрать темы для изучения" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Välj studieteman" } }
+      }
     },
     "category_list_title" : {
       "extractionState" : "manual",
@@ -71,9 +103,6 @@
           }
         }
       }
-    },
-    "continue" : {
-
     },
     "Key" : {
       "extractionState" : "manual"
@@ -169,9 +198,6 @@
           }
         }
       }
-    },
-    "select_categories" : {
-
     },
     "select_translation_language" : {
       "extractionState" : "manual",
