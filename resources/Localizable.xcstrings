@@ -23,6 +23,9 @@
     "🇷🇺" : {
 
     },
+    "category_all" : {
+
+    },
     "category_list_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -68,6 +71,9 @@
           }
         }
       }
+    },
+    "continue" : {
+
     },
     "Key" : {
       "extractionState" : "manual"
@@ -163,6 +169,9 @@
           }
         }
       }
+    },
+    "select_categories" : {
+
     },
     "select_translation_language" : {
       "extractionState" : "manual",

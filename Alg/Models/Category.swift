@@ -10,4 +10,6 @@ struct Category: Identifiable, Decodable {
     let id: UUID
     let translations: [String: String]
     let entries: [WordEntry]
+    
+    static let allCategoryId = UUID(uuidString: "00000000-0000-0000-0000-000000000000")!
 }

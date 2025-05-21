@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    let categories = DataLoader.loadCategories()
+    let categories: [Category]
 
     var body: some View {
         TabView {

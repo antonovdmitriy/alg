@@ -2,6 +2,7 @@ import SwiftUI
 
 struct RandomWordView: View {
     let categories: [Category]
+    @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
     @State private var showCard = false
@@ -9,9 +10,8 @@ struct RandomWordView: View {
 
     init(categories: [Category]) {
         self.categories = categories
-        let (randomEntry, randomCategoryId) = Self.pickRandomEntry(from: categories)
-        _currentCategoryId = State(initialValue: randomCategoryId)
-        _currentEntry = State(initialValue: randomEntry)
+        _currentCategoryId = State(initialValue: UUID())
+        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: []))
     }
 
     var body: some View {
@@ -20,6 +20,12 @@ struct RandomWordView: View {
                 .edgesIgnoringSafeArea(.all)
         }
         .onAppear {
+            if currentEntry.word.isEmpty {
+                let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+                let (randomEntry, randomCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+                currentEntry = randomEntry
+                currentCategoryId = randomCategoryId
+            }
             AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
         }
         .gesture(
@@ -42,11 +48,30 @@ struct RandomWordView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
     
-    private static func pickRandomEntry(from categories: [Category]) -> (WordEntry, UUID) {
-        let allEntriesWithCategory = categories.flatMap { category in
-            category.entries.map { entry in (entry, category.id) }
+    private static func pickRandomEntry(from categories: [Category], selectedCategoryIds: [UUID]) -> (WordEntry, UUID) {
+        let useAll = selectedCategoryIds.contains(Category.allCategoryId)
+        let otherIds = selectedCategoryIds.filter { $0 != Category.allCategoryId }
+
+        var categoryChoices: [UUID] = []
+        if useAll {
+            categoryChoices.append(Category.allCategoryId)
         }
-        return allEntriesWithCategory.randomElement()!
+        categoryChoices.append(contentsOf: otherIds)
+
+        let chosenCategoryId = categoryChoices.randomElement()!
+
+        let chosenCategory: Category
+        if chosenCategoryId == Category.allCategoryId {
+            chosenCategory = categories.randomElement()!
+        } else {
+            guard let category = categories.first(where: { $0.id == chosenCategoryId }) else {
+                fatalError("Selected category not found.")
+            }
+            chosenCategory = category
+        }
+
+        let entry = chosenCategory.entries.randomElement()!
+        return (entry, chosenCategory.id)
     }
 
     private func isSwipeUp(_ value: DragGesture.Value) -> Bool {
@@ -68,7 +93,8 @@ struct RandomWordView: View {
     private func showNextWord() {
         withAnimation {
             entryHistory.append((currentEntry, currentCategoryId))
-            let (newEntry, newCategoryId) = Self.pickRandomEntry(from: categories)
+            let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+            let (newEntry, newCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
             currentEntry = newEntry
             currentCategoryId = newCategoryId
             AudioPlayerHelper.playAudio(categoryId: newCategoryId.uuidString, entryId: newEntry.id)
