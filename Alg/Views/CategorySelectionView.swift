@@ -25,35 +25,71 @@ struct CategorySelectionView: View {
                 .font(.title2)
                 .multilineTextAlignment(.center)
 
-            List {
-                Toggle(isOn: Binding(
-                    get: { selected.contains(allCategoryId) },
-                    set: { isOn in
-                        if isOn {
-                            selected.insert(allCategoryId)
-                        } else {
-                            selected.remove(allCategoryId)
-                        }
-                    }
-                )) {
-                    Text("category_all")
-                }
+            ScrollView {
+                VStack {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 12)
+                            .fill(Color(UIColor.secondarySystemBackground))
+                            .shadow(radius: 1)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .stroke(selected.contains(allCategoryId) ? Color.accentColor : Color.clear, lineWidth: 2)
+                            )
 
-                ForEach(availableCategories, id: \.id) { category in
-                    Toggle(isOn: Binding(
-                        get: { selected.contains(category.id) },
-                        set: { isOn in
-                            if isOn {
-                                selected.insert(category.id)
-                            } else {
-                                selected.remove(category.id)
+                        Toggle(isOn: Binding(
+                            get: { selected.contains(allCategoryId) },
+                            set: { isOn in
+                                if isOn {
+                                    selected.insert(allCategoryId)
+                                } else {
+                                    selected.remove(allCategoryId)
+                                }
                             }
+                        )) {
+                            Text("category_all")
+                                .font(.body)
+                                .foregroundColor(.primary)
                         }
-                    )) {
-                        Text(retrieveTranslation(from: category.translations, lang: selectedLanguage).capitalized)
+                        .padding()
+                        .toggleStyle(SwitchToggleStyle(tint: .accentColor))
+                    }
+                    .padding(.horizontal)
+                    .padding(.vertical, 4)
+
+                    ForEach(availableCategories, id: \.id) { category in
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 12)
+                                .fill(Color(UIColor.secondarySystemBackground))
+                                .shadow(radius: 1)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .stroke(selected.contains(category.id) ? Color.accentColor : Color.clear, lineWidth: 2)
+                                )
+
+                            Toggle(isOn: Binding(
+                                get: { selected.contains(category.id) },
+                                set: { isOn in
+                                    if isOn {
+                                        selected.insert(category.id)
+                                    } else {
+                                        selected.remove(category.id)
+                                    }
+                                }
+                            )) {
+                                Text(retrieveTranslation(from: category.translations, lang: selectedLanguage).capitalized)
+                                    .font(.body)
+                                    .foregroundColor(.primary)
+                            }
+                            .padding()
+                            .toggleStyle(SwitchToggleStyle(tint: .accentColor))
+                        }
+                        .padding(.horizontal)
+                        .padding(.vertical, 4)
                     }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color(UIColor.systemBackground))
 
             Button(action: {
                 saveSelectedCategories()
