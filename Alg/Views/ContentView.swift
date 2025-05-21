@@ -28,7 +28,7 @@ struct ContentView: View {
             }
 
             NavigationView {
-                SettingsView()
+                SettingsView(categories: categories)
             }
             .tabItem {
                 Image(systemName: "gearshape")

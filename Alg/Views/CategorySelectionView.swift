@@ -53,7 +53,8 @@ struct CategorySelectionView: View {
                             .multilineTextAlignment(.center)
                             .lineLimit(2)
                             .foregroundColor(.primary)
-                            .frame(width: 150, height: 100)
+                            .frame(maxWidth: .infinity)
+                            .frame(height: 100)
                             .background(
                                 RoundedRectangle(cornerRadius: 16)
                                     .fill(
@@ -85,33 +86,20 @@ struct CategorySelectionView: View {
                                 .multilineTextAlignment(.center)
                                 .lineLimit(2)
                                 .foregroundColor(.primary)
-                                .frame(width: 150, height: 100)
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 100)
                                 .background(
-                                    RoundedRectangle(cornerRadius: 16)
-                                        .fill(
-                                            LinearGradient(
-                                                gradient: Gradient(colors: [
-                                                    tileColors[index % tileColors.count],
-                                                    tileColors[index % tileColors.count].opacity(0.4)
-                                                ]),
-                                                startPoint: .topLeading,
-                                                endPoint: .bottomTrailing
-                                            )
-                                        )
-                                        .overlay(
-                                            RoundedRectangle(cornerRadius: 16)
-                                                .strokeBorder(Color.primary.opacity(selected.contains(category.id) ? 0.3 : 0), lineWidth: selected.contains(category.id) ? 2 : 0)
-                                        )
-                                        .shadow(color: Color.black.opacity(colorScheme == .dark ? 0.2 : 0.05), radius: 4, x: 0, y: 2)
+                                    backgroundForTile(color: tileColors[index % tileColors.count], isSelected: selected.contains(category.id))
                                 )
                         }
                         .buttonStyle(PlainButtonStyle())
                     }
                 }
-                .padding(.horizontal, 8)
+                .padding(.bottom, 16)
+                // Removed .padding(.horizontal, 8) to let grid stretch to safe area edges
             }
             .scrollContentBackground(.hidden)
-            .background(Color(UIColor.systemBackground))
+            // Background now applied to root VStack instead of just ScrollView
 
             Button(action: {
                 saveSelectedCategories()
@@ -125,14 +113,36 @@ struct CategorySelectionView: View {
                     .cornerRadius(10)
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(UIColor.systemBackground))
         .padding()
         .onAppear {
             loadSelectedCategories()
         }
     }
 
+    func backgroundForTile(color: Color, isSelected: Bool) -> some View {
+        RoundedRectangle(cornerRadius: 16)
+            .fill(
+                LinearGradient(
+                    gradient: Gradient(colors: [color, color.opacity(0.4)]),
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(Color.primary.opacity(isSelected ? 0.3 : 0), lineWidth: isSelected ? 2 : 0)
+            )
+            .shadow(color: Color.black.opacity(colorScheme == .dark ? 0.2 : 0.05), radius: 4, x: 0, y: 2)
+    }
+
     func saveSelectedCategories() {
-        if let data = try? JSONEncoder().encode(Array(selected)) {
+        var toSave = selected
+        if toSave.isEmpty {
+            toSave.insert(Category.allCategoryId)
+        }
+        if let data = try? JSONEncoder().encode(Array(toSave)) {
             selectedCategoriesData = data
         }
     }
