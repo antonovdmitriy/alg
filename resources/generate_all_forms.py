@@ -10,9 +10,14 @@ OUTPUT_DIR = "audio"                  # куда сохранять mp3
 TTS_SCRIPT = "generate_tts.py"        # скрипт озвучки
 
 
-def main(category_filter=None, overwrite=False):
+def main(category_filter=None, overwrite=False, single_id=None):
     with open(INPUT_JSON, encoding="utf-8") as f:
         data = json.load(f)
+
+    if single_id:
+        data = [category for category in data if any(entry["id"] == single_id for entry in category["entries"])]
+        for category in data:
+            category["entries"] = [entry for entry in category["entries"] if entry["id"] == single_id]
 
     for category in data:
         category_id = category["id"]
@@ -47,6 +52,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate audio for all word forms.")
     parser.add_argument("--categories", nargs="*", help="List of category names to limit generation (optional)")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files if they already exist")
+    parser.add_argument("--id", help="Generate audio only for entry with this id")
     args = parser.parse_args()
 
-    main(category_filter=args.categories, overwrite=args.overwrite)
+    main(category_filter=args.categories, overwrite=args.overwrite, single_id=args.id)

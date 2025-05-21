@@ -9852,7 +9852,10 @@
       },
       {
         "id": "b3d2dd6c-38f4-4509-9a54-43050202a21e",
-        "word": "en bonde bönder",
+        "word": "en bonde",
+        "forms": [
+          "bönder"
+        ],
         "translations": {
           "ru": "фермер",
           "en": "farmer"
