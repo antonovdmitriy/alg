@@ -9,9 +9,8 @@ struct RandomWordView: View {
 
     init(categories: [Category]) {
         self.categories = categories
-        let randomCategory = categories.randomElement()!
-        let randomEntry = randomCategory.entries.randomElement()!
-        _currentCategoryId = State(initialValue: randomCategory.id)
+        let (randomEntry, randomCategoryId) = Self.pickRandomEntry(from: categories)
+        _currentCategoryId = State(initialValue: randomCategoryId)
         _currentEntry = State(initialValue: randomEntry)
     }
 
@@ -26,24 +25,12 @@ struct RandomWordView: View {
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
                 .onEnded { value in
-                    if value.translation.height < -50 {
-                        showCard = true
-                    } else if value.translation.width < -50 {
-                        withAnimation {
-                            entryHistory.append((currentEntry, currentCategoryId))
-                            let newCategory = categories.randomElement()!
-                            let newEntry = newCategory.entries.randomElement()!
-                            currentEntry = newEntry
-                            currentCategoryId = newCategory.id
-                            AudioPlayerHelper.playAudio(categoryId: newCategory.id.uuidString, entryId: newEntry.id)
-                        }
-                    } else if value.translation.width > 50, !entryHistory.isEmpty {
-                        withAnimation {
-                            let previous = entryHistory.removeLast()
-                            currentEntry = previous.0
-                            currentCategoryId = previous.1
-                            AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
-                        }
+                    if isSwipeUp(value) {
+                        showWordCard()
+                    } else if isSwipeLeft(value) {
+                        showNextWord()
+                    } else if isSwipeRight(value), !entryHistory.isEmpty {
+                        showPreviousWord()
                     }
                 }
         )
@@ -53,5 +40,47 @@ struct RandomWordView: View {
             })
         }
         .navigationBarTitleDisplayMode(.inline)
+    }
+    
+    private static func pickRandomEntry(from categories: [Category]) -> (WordEntry, UUID) {
+        let allEntriesWithCategory = categories.flatMap { category in
+            category.entries.map { entry in (entry, category.id) }
+        }
+        return allEntriesWithCategory.randomElement()!
+    }
+
+    private func isSwipeUp(_ value: DragGesture.Value) -> Bool {
+        value.translation.height < -50
+    }
+
+    private func isSwipeLeft(_ value: DragGesture.Value) -> Bool {
+        value.translation.width < -50
+    }
+
+    private func isSwipeRight(_ value: DragGesture.Value) -> Bool {
+        value.translation.width > 50
+    }
+
+    private func showWordCard() {
+        showCard = true
+    }
+
+    private func showNextWord() {
+        withAnimation {
+            entryHistory.append((currentEntry, currentCategoryId))
+            let (newEntry, newCategoryId) = Self.pickRandomEntry(from: categories)
+            currentEntry = newEntry
+            currentCategoryId = newCategoryId
+            AudioPlayerHelper.playAudio(categoryId: newCategoryId.uuidString, entryId: newEntry.id)
+        }
+    }
+
+    private func showPreviousWord() {
+        withAnimation {
+            let previous = entryHistory.removeLast()
+            currentEntry = previous.0
+            currentCategoryId = previous.1
+            AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
+        }
     }
 }
