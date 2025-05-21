@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    let categories = DataLoader.loadCategories()
+    let categories: [Category]
 
     var body: some View {
         TabView {
@@ -28,7 +28,7 @@ struct ContentView: View {
             }
 
             NavigationView {
-                SettingsView()
+                SettingsView(categories: categories)
             }
             .tabItem {
                 Image(systemName: "gearshape")

@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    let categories: [Category]
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
 
     var body: some View {
@@ -19,6 +20,11 @@ struct SettingsView: View {
                     Text("language_english").tag("en")
                 }
                 .pickerStyle(SegmentedPickerStyle())
+            }
+            Section(header: Text("settings_category_section")) {
+                NavigationLink(destination: CategorySelectionView(availableCategories: categories)) {
+                    Text("settings_edit_categories")
+                }
             }
         }
         .navigationTitle("settings_title")
