@@ -11,13 +11,27 @@ import SwiftUI
 struct CategorySelectionView: View {
     let availableCategories: [Category]
 
-    let allCategoryId = UUID(uuidString: "00000000-0000-0000-0000-000000000000")!
+    
+    let tileColors: [Color] = [
+        .red.opacity(0.2),
+        .green.opacity(0.2),
+        .blue.opacity(0.2),
+        .orange.opacity(0.2),
+        .purple.opacity(0.2),
+        .pink.opacity(0.2),
+        .teal.opacity(0.2),
+        .indigo.opacity(0.2)
+    ]
 
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("hasSelectedCategories") private var hasSelectedCategories = false
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
 
     @State private var selected: Set<UUID> = []
+
+    let columns = [GridItem(.flexible()), GridItem(.flexible())]
+    
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(spacing: 24) {
@@ -26,67 +40,75 @@ struct CategorySelectionView: View {
                 .multilineTextAlignment(.center)
 
             ScrollView {
-                VStack {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 12)
-                            .fill(Color(UIColor.secondarySystemBackground))
-                            .shadow(radius: 1)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .stroke(selected.contains(allCategoryId) ? Color.accentColor : Color.clear, lineWidth: 2)
+                LazyVGrid(columns: columns, spacing: 12) {
+                    Button(action: {
+                        if selected.contains(Category.allCategoryId) {
+                            selected.remove(Category.allCategoryId)
+                        } else {
+                            selected.insert(Category.allCategoryId)
+                        }
+                    }) {
+                        Text("category_all")
+                            .font(.system(size: 16, weight: .medium))
+                            .multilineTextAlignment(.center)
+                            .lineLimit(2)
+                            .foregroundColor(.primary)
+                            .frame(width: 150, height: 100)
+                            .background(
+                                RoundedRectangle(cornerRadius: 16)
+                                    .fill(
+                                        LinearGradient(
+                                            gradient: Gradient(colors: colorScheme == .dark ? [.gray.opacity(0.4), .black.opacity(0.3)] : [.gray.opacity(0.2), .white.opacity(0.2)]),
+                                            startPoint: .topLeading,
+                                            endPoint: .bottomTrailing
+                                        )
+                                    )
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 16)
+                                            .strokeBorder(Color.primary.opacity(selected.contains(Category.allCategoryId) ? 0.3 : 0), lineWidth: selected.contains(Category.allCategoryId) ? 2 : 0)
+                                    )
+                                    .shadow(color: Color.black.opacity(colorScheme == .dark ? 0.2 : 0.05), radius: 4, x: 0, y: 2)
                             )
-
-                        Toggle(isOn: Binding(
-                            get: { selected.contains(allCategoryId) },
-                            set: { isOn in
-                                if isOn {
-                                    selected.insert(allCategoryId)
-                                } else {
-                                    selected.remove(allCategoryId)
-                                }
-                            }
-                        )) {
-                            Text("category_all")
-                                .font(.body)
-                                .foregroundColor(.primary)
-                        }
-                        .padding()
-                        .toggleStyle(SwitchToggleStyle(tint: .accentColor))
                     }
-                    .padding(.horizontal)
-                    .padding(.vertical, 4)
+                    .buttonStyle(PlainButtonStyle())
 
-                    ForEach(availableCategories, id: \.id) { category in
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 12)
-                                .fill(Color(UIColor.secondarySystemBackground))
-                                .shadow(radius: 1)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 12)
-                                        .stroke(selected.contains(category.id) ? Color.accentColor : Color.clear, lineWidth: 2)
-                                )
-
-                            Toggle(isOn: Binding(
-                                get: { selected.contains(category.id) },
-                                set: { isOn in
-                                    if isOn {
-                                        selected.insert(category.id)
-                                    } else {
-                                        selected.remove(category.id)
-                                    }
-                                }
-                            )) {
-                                Text(retrieveTranslation(from: category.translations, lang: selectedLanguage).capitalized)
-                                    .font(.body)
-                                    .foregroundColor(.primary)
+                    ForEach(Array(availableCategories.enumerated()), id: \.element.id) { index, category in
+                        Button(action: {
+                            if selected.contains(category.id) {
+                                selected.remove(category.id)
+                            } else {
+                                selected.insert(category.id)
                             }
-                            .padding()
-                            .toggleStyle(SwitchToggleStyle(tint: .accentColor))
+                        }) {
+                            Text(retrieveTranslation(from: category.translations, lang: selectedLanguage).capitalized)
+                                .font(.system(size: 16, weight: .medium))
+                                .multilineTextAlignment(.center)
+                                .lineLimit(2)
+                                .foregroundColor(.primary)
+                                .frame(width: 150, height: 100)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .fill(
+                                            LinearGradient(
+                                                gradient: Gradient(colors: [
+                                                    tileColors[index % tileColors.count],
+                                                    tileColors[index % tileColors.count].opacity(0.4)
+                                                ]),
+                                                startPoint: .topLeading,
+                                                endPoint: .bottomTrailing
+                                            )
+                                        )
+                                        .overlay(
+                                            RoundedRectangle(cornerRadius: 16)
+                                                .strokeBorder(Color.primary.opacity(selected.contains(category.id) ? 0.3 : 0), lineWidth: selected.contains(category.id) ? 2 : 0)
+                                        )
+                                        .shadow(color: Color.black.opacity(colorScheme == .dark ? 0.2 : 0.05), radius: 4, x: 0, y: 2)
+                                )
                         }
-                        .padding(.horizontal)
-                        .padding(.vertical, 4)
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
+                .padding(.horizontal, 8)
             }
             .scrollContentBackground(.hidden)
             .background(Color(UIColor.systemBackground))
