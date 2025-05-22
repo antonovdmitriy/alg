@@ -4458,7 +4458,7 @@
       },
       {
         "id": "7dd36048-1759-4444-9df1-1531beaf68d0",
-        "word": "Hur skrivar man ... ?",
+        "word": "Hur skriver man ... ?",
         "translations": {
           "ru": "Как пишется ...",
           "en": "How is ... spelled"
@@ -50264,8 +50264,8 @@
   {
     "id": "ca8705aa-a4a9-4bbc-9c0f-3a7f113d2380",
     "translations": {
-      "ru": "Переписка, текст, письменная речь, языковые понятия",
-      "en": "Writing, text, correspondence, linguistic concepts"
+      "ru": "Текст, языковые понятия",
+      "en": "Text, linguistic concepts"
     },
     "entries": [
       {
