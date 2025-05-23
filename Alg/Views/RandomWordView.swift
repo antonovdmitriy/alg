@@ -1,15 +1,19 @@
 import SwiftUI
 
 struct RandomWordView: View {
+    @Binding var showTabBar: Bool
     let categories: [Category]
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
     @State private var showCard = false
     @State private var entryHistory: [(WordEntry, UUID)] = []
+    @State private var lastTapDate = Date.distantPast
+    private let tapThreshold: TimeInterval = 0.4
 
-    init(categories: [Category]) {
+    init(categories: [Category], showTabBar: Binding<Bool>) {
         self.categories = categories
+        self._showTabBar = showTabBar
         _currentCategoryId = State(initialValue: UUID())
         _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: []))
     }
@@ -18,8 +22,26 @@ struct RandomWordView: View {
         ZStack {
             WordPreviewView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased())
                 .edgesIgnoringSafeArea(.all)
+
+            Image(systemName: "chevron.compact.up")
+                .font(.system(size: 28, weight: .semibold))
+                .foregroundColor(.white.opacity(0.6))
+                .frame(maxHeight: .infinity, alignment: .bottom)
+                .padding(.bottom, 20)
+                .ignoresSafeArea(edges: .bottom)
+                .allowsHitTesting(false)
+        }
+        .onTapGesture {
+            let now = Date()
+            if now.timeIntervalSince(lastTapDate) > tapThreshold {
+                lastTapDate = now
+                withAnimation {
+                    showTabBar.toggle()
+                }
+            }
         }
         .onAppear {
+            showTabBar = false
             if currentEntry.word.isEmpty {
                 let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
                 let (randomEntry, randomCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
@@ -45,6 +67,7 @@ struct RandomWordView: View {
                 showCard = false
             })
         }
+        .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
     }
     

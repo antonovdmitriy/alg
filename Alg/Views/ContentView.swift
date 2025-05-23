@@ -3,11 +3,23 @@ import SwiftUI
 struct ContentView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let categories: [Category]
+    @State private var showTabBar = false
+
+    init(categories: [Category]) {
+        self.categories = categories
+
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = UIColor.systemBackground
+
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
+    }
 
     var body: some View {
         TabView {
             NavigationView {
-                RandomWordView(categories: categories)
+                RandomWordView(categories: categories, showTabBar: $showTabBar)
             }
             .tabItem {
                 Image(systemName: "shuffle")
@@ -34,5 +46,6 @@ struct ContentView: View {
                 Image(systemName: "gearshape")
             }
         }
+        .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
     }
 }
