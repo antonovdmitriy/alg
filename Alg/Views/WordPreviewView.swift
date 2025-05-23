@@ -26,6 +26,8 @@ struct WordPreviewView: View {
                     .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
                     .scaleEffect(1.1)
                     .padding(.horizontal, 24)
+
+
                 Spacer()
             }
         }
