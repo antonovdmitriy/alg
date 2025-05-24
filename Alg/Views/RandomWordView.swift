@@ -10,6 +10,7 @@ struct RandomWordView: View {
     @State private var entryHistory: [(WordEntry, UUID)] = []
     @State private var lastTapDate = Date.distantPast
     private let tapThreshold: TimeInterval = 0.4
+    @State private var feedbackMessage: String?
 
     init(categories: [Category], showTabBar: Binding<Bool>) {
         self.categories = categories
@@ -31,6 +32,19 @@ struct RandomWordView: View {
                 .ignoresSafeArea(edges: .bottom)
                 .allowsHitTesting(false)
             
+            if let message = feedbackMessage {
+                Text(message)
+                    .font(.subheadline)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 10)
+                    .background(Color.black.opacity(0.7))
+                    .foregroundColor(.white)
+                    .cornerRadius(12)
+                    .transition(.opacity)
+                    .padding(.bottom, 100)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+            }
+
             if showTabBar {
                 VStack {
                     HStack {
@@ -39,8 +53,13 @@ struct RandomWordView: View {
                             Button(action: {
                                 if !WordLearningStateManager.shared.isKnown(currentEntry.id) {
                                     WordLearningStateManager.shared.markKnown(currentEntry.id)
+                                    feedbackMessage = "Отмечено как выученное"
                                 }
-                                showNextWord()
+                                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                    feedbackMessage = nil
+                                    showNextWord()
+                                }
                             }) {
                                 Image(systemName: "checkmark")
                                     .font(.system(size: 20, weight: .semibold))
@@ -53,8 +72,13 @@ struct RandomWordView: View {
                             Button(action: {
                                 if !WordLearningStateManager.shared.isIgnored(currentEntry.id) {
                                     WordLearningStateManager.shared.markIgnored(currentEntry.id)
+                                    feedbackMessage = "Будет скрыто"
                                 }
-                                showNextWord()
+                                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                    feedbackMessage = nil
+                                    showNextWord()
+                                }
                             }) {
                                 Image(systemName: "nosign")
                                     .font(.system(size: 20, weight: .semibold))
@@ -65,8 +89,14 @@ struct RandomWordView: View {
                             }
 
                             Button(action: {
+                                let isAlreadyFavorite = WordLearningStateManager.shared.isFavorite(currentEntry.id)
                                 WordLearningStateManager.shared.toggleFavorite(currentEntry.id)
-                                showNextWord()
+                                feedbackMessage = isAlreadyFavorite ? "Удалено из избранного" : "Добавлено в избранное"
+                                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                    feedbackMessage = nil
+                                    showNextWord()
+                                }
                             }) {
                                 Image(systemName: WordLearningStateManager.shared.isFavorite(currentEntry.id) ? "star.fill" : "star")
                                     .font(.system(size: 20, weight: .semibold))
