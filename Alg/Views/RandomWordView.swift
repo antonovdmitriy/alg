@@ -11,6 +11,23 @@ struct RandomWordView: View {
     @State private var lastTapDate = Date.distantPast
     private let tapThreshold: TimeInterval = 0.4
 
+    private var favoriteWords: Set<UUID> {
+        let stored = UserDefaults.standard.data(forKey: "favoriteWords")
+        return (try? JSONDecoder().decode([UUID].self, from: stored ?? Data())).map(Set.init) ?? []
+    }
+
+    private func toggleFavorite(for id: UUID) {
+        var favorites = favoriteWords
+        if favorites.contains(id) {
+            favorites.remove(id)
+        } else {
+            favorites.insert(id)
+        }
+        if let data = try? JSONEncoder().encode(Array(favorites)) {
+            UserDefaults.standard.set(data, forKey: "favoriteWords")
+        }
+    }
+
     init(categories: [Category], showTabBar: Binding<Bool>) {
         self.categories = categories
         self._showTabBar = showTabBar
@@ -30,6 +47,67 @@ struct RandomWordView: View {
                 .padding(.bottom, 20)
                 .ignoresSafeArea(edges: .bottom)
                 .allowsHitTesting(false)
+            
+            if showTabBar {
+                VStack {
+                    HStack {
+                        Spacer()
+                        VStack(spacing: 16) {
+                            Button(action: {
+                                var known = (try? JSONDecoder().decode([UUID].self, from: UserDefaults.standard.data(forKey: "knownWords") ?? Data())) ?? []
+                                if !known.contains(currentEntry.id) {
+                                    known.append(currentEntry.id)
+                                    if let data = try? JSONEncoder().encode(known) {
+                                        UserDefaults.standard.set(data, forKey: "knownWords")
+                                    }
+                                }
+                                showNextWord()
+                            }) {
+                                Image(systemName: "checkmark")
+                                    .font(.system(size: 20, weight: .semibold))
+                                    .frame(width: 44, height: 44)
+                                    .foregroundColor(.primary)
+                                    .background(.ultraThinMaterial, in: Circle())
+                                    .shadow(radius: 2)
+                            }
+
+                            Button(action: {
+                                var ignored = (try? JSONDecoder().decode([UUID].self, from: UserDefaults.standard.data(forKey: "ignoredWords") ?? Data())) ?? []
+                                if !ignored.contains(currentEntry.id) {
+                                    ignored.append(currentEntry.id)
+                                    if let data = try? JSONEncoder().encode(ignored) {
+                                        UserDefaults.standard.set(data, forKey: "ignoredWords")
+                                    }
+                                }
+                                showNextWord()
+                            }) {
+                                Image(systemName: "nosign")
+                                    .font(.system(size: 20, weight: .semibold))
+                                    .frame(width: 44, height: 44)
+                                    .foregroundColor(.primary)
+                                    .background(.ultraThinMaterial, in: Circle())
+                                    .shadow(radius: 2)
+                            }
+
+                            Button(action: {
+                                toggleFavorite(for: currentEntry.id)
+                                showNextWord()
+                            }) {
+                                Image(systemName: favoriteWords.contains(currentEntry.id) ? "star.fill" : "star")
+                                    .font(.system(size: 20, weight: .semibold))
+                                    .frame(width: 44, height: 44)
+                                    .foregroundColor(.primary)
+                                    .background(.ultraThinMaterial, in: Circle())
+                                    .shadow(radius: 2)
+                            }
+                        }
+                        .padding(.top, 60)
+                        .padding(.trailing)
+                    }
+                    Spacer()
+                }
+                .transition(.move(edge: .trailing).combined(with: .opacity))
+            }
         }
         .onTapGesture {
             let now = Date()
