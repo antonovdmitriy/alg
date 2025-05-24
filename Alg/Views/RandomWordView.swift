@@ -11,23 +11,6 @@ struct RandomWordView: View {
     @State private var lastTapDate = Date.distantPast
     private let tapThreshold: TimeInterval = 0.4
 
-    private var favoriteWords: Set<UUID> {
-        let stored = UserDefaults.standard.data(forKey: "favoriteWords")
-        return (try? JSONDecoder().decode([UUID].self, from: stored ?? Data())).map(Set.init) ?? []
-    }
-
-    private func toggleFavorite(for id: UUID) {
-        var favorites = favoriteWords
-        if favorites.contains(id) {
-            favorites.remove(id)
-        } else {
-            favorites.insert(id)
-        }
-        if let data = try? JSONEncoder().encode(Array(favorites)) {
-            UserDefaults.standard.set(data, forKey: "favoriteWords")
-        }
-    }
-
     init(categories: [Category], showTabBar: Binding<Bool>) {
         self.categories = categories
         self._showTabBar = showTabBar
@@ -54,12 +37,8 @@ struct RandomWordView: View {
                         Spacer()
                         VStack(spacing: 16) {
                             Button(action: {
-                                var known = (try? JSONDecoder().decode([UUID].self, from: UserDefaults.standard.data(forKey: "knownWords") ?? Data())) ?? []
-                                if !known.contains(currentEntry.id) {
-                                    known.append(currentEntry.id)
-                                    if let data = try? JSONEncoder().encode(known) {
-                                        UserDefaults.standard.set(data, forKey: "knownWords")
-                                    }
+                                if !WordLearningStateManager.shared.isKnown(currentEntry.id) {
+                                    WordLearningStateManager.shared.markKnown(currentEntry.id)
                                 }
                                 showNextWord()
                             }) {
@@ -72,12 +51,8 @@ struct RandomWordView: View {
                             }
 
                             Button(action: {
-                                var ignored = (try? JSONDecoder().decode([UUID].self, from: UserDefaults.standard.data(forKey: "ignoredWords") ?? Data())) ?? []
-                                if !ignored.contains(currentEntry.id) {
-                                    ignored.append(currentEntry.id)
-                                    if let data = try? JSONEncoder().encode(ignored) {
-                                        UserDefaults.standard.set(data, forKey: "ignoredWords")
-                                    }
+                                if !WordLearningStateManager.shared.isIgnored(currentEntry.id) {
+                                    WordLearningStateManager.shared.markIgnored(currentEntry.id)
                                 }
                                 showNextWord()
                             }) {
@@ -90,10 +65,10 @@ struct RandomWordView: View {
                             }
 
                             Button(action: {
-                                toggleFavorite(for: currentEntry.id)
+                                WordLearningStateManager.shared.toggleFavorite(currentEntry.id)
                                 showNextWord()
                             }) {
-                                Image(systemName: favoriteWords.contains(currentEntry.id) ? "star.fill" : "star")
+                                Image(systemName: WordLearningStateManager.shared.isFavorite(currentEntry.id) ? "star.fill" : "star")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
                                     .foregroundColor(.primary)
@@ -171,8 +146,22 @@ struct RandomWordView: View {
             chosenCategory = category
         }
 
-        let entry = chosenCategory.entries.randomElement()!
-        return (entry, chosenCategory.id)
+        let allIgnored = WordLearningStateManager.shared.ignoredWords
+        let allKnown = WordLearningStateManager.shared.knownWords
+        let filteredEntries = chosenCategory.entries.filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
+
+        if let entry = filteredEntries.randomElement() {
+            return (entry, chosenCategory.id)
+        } else {
+            let placeholderEntry = WordEntry(
+                id: UUID(),
+                word: "🎉 Все слова выучены!",
+                forms: [],
+                translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
+                examples: []
+            )
+            return (placeholderEntry, chosenCategory.id)
+        }
     }
 
     private func isSwipeUp(_ value: DragGesture.Value) -> Bool {

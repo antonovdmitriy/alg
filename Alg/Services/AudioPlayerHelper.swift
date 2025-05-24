@@ -56,6 +56,9 @@ struct AudioPlayerHelper {
 
     private static func playLocalFile(from url: URL) {
         do {
+            if player?.isPlaying == true {
+                player?.stop()
+            }
             player = try AVAudioPlayer(contentsOf: url)
             player?.prepareToPlay()
             player?.play()
