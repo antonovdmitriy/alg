@@ -12,6 +12,7 @@ struct AlgApp: App {
     @State private var showSplash = true
     @AppStorage("hasSelectedTranslationLanguage") private var hasSelectedLanguage = false
     @AppStorage("hasSelectedCategories") private var hasSelectedCategories = false
+    @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
     @State private var categories: [Category] = []
     
     private let splashScreenDelay: TimeInterval = 2
@@ -52,6 +53,10 @@ struct AlgApp: App {
             LanguageSelectionView()
         } else if !hasSelectedCategories {
             CategorySelectionView(availableCategories: categories)
+        } else if !hasSelectedDailyGoal {
+            DailyGoalSelectionView(allowsDismiss: false) {
+                hasSelectedDailyGoal = true
+            }
         } else {
             ContentView(categories: categories)
         }

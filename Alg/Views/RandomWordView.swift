@@ -4,6 +4,7 @@ struct RandomWordView: View {
     @Binding var showTabBar: Bool
     let categories: [Category]
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
+    @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
     @State private var showCard = false
@@ -21,6 +22,10 @@ struct RandomWordView: View {
 
     var body: some View {
         ZStack {
+            VStack {
+                Spacer()
+            }
+
             WordPreviewView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased())
                 .edgesIgnoringSafeArea(.all)
 
@@ -109,6 +114,31 @@ struct RandomWordView: View {
                         .padding(.trailing)
                     }
                     Spacer()
+                    if dailyGoal > 0 {
+                        GeometryReader { geometry in
+                            ZStack(alignment: .leading) {
+                                RoundedRectangle(cornerRadius: 4)
+                                    .fill(Color.gray.opacity(0.2))
+                                    .frame(height: 8)
+
+                                RoundedRectangle(cornerRadius: 4)
+                                    .fill(LinearGradient(
+                                        gradient: Gradient(colors: [.red, .orange, .yellow, .green, .blue, .purple]),
+                                        startPoint: .leading,
+                                        endPoint: .trailing
+                                    ))
+                                    .frame(
+                                        width: max(
+                                            min(CGFloat(LearningGoalManager.shared.learnedToday) / CGFloat(max(dailyGoal, 1)), 1.0),
+                                            0.0
+                                        ) * geometry.size.width,
+                                        height: 8
+                                    )
+                            }
+                        }
+                        .frame(height: 8)
+                        .padding(.horizontal, 0)
+                    }
                 }
                 .transition(.move(edge: .trailing).combined(with: .opacity))
             }
@@ -210,6 +240,7 @@ struct RandomWordView: View {
     }
 
     private func showNextWord() {
+        LearningGoalManager.shared.incrementProgress()
         withAnimation {
             entryHistory.append((currentEntry, currentCategoryId))
             let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
