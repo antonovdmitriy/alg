@@ -21,6 +21,9 @@ struct ContentView: View {
             NavigationView {
                 RandomWordView(categories: categories, showTabBar: $showTabBar)
             }
+            .onAppear {
+                AudioPlayerHelper.stop()
+            }
             .tabItem {
                 Image(systemName: "shuffle")
             }
@@ -35,12 +38,18 @@ struct ContentView: View {
                 }
                 .navigationTitle("category_list_title")
             }
+            .onAppear {
+                AudioPlayerHelper.stop()
+            }
             .tabItem {
                 Image(systemName: "book")
             }
 
             NavigationView {
                 SettingsView(categories: categories)
+            }
+            .onAppear {
+                AudioPlayerHelper.stop()
             }
             .tabItem {
                 Image(systemName: "gearshape")

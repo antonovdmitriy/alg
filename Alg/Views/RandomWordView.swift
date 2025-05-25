@@ -53,7 +53,7 @@ struct RandomWordView: View {
                             Button(action: {
                                 if !WordLearningStateManager.shared.isKnown(currentEntry.id) {
                                     WordLearningStateManager.shared.markKnown(currentEntry.id)
-                                    feedbackMessage = "Отмечено как выученное"
+                                    feedbackMessage = NSLocalizedString("marked_as_known", comment: "")
                                 }
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
@@ -72,7 +72,7 @@ struct RandomWordView: View {
                             Button(action: {
                                 if !WordLearningStateManager.shared.isIgnored(currentEntry.id) {
                                     WordLearningStateManager.shared.markIgnored(currentEntry.id)
-                                    feedbackMessage = "Будет скрыто"
+                                    feedbackMessage = NSLocalizedString("marked_as_ignored", comment: "")
                                 }
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
@@ -91,7 +91,7 @@ struct RandomWordView: View {
                             Button(action: {
                                 let isAlreadyFavorite = WordLearningStateManager.shared.isFavorite(currentEntry.id)
                                 WordLearningStateManager.shared.toggleFavorite(currentEntry.id)
-                                feedbackMessage = isAlreadyFavorite ? "Удалено из избранного" : "Добавлено в избранное"
+                                feedbackMessage = isAlreadyFavorite ? NSLocalizedString("removed_from_favorites", comment: "") : NSLocalizedString("added_to_favorites", comment: "")
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
@@ -185,7 +185,7 @@ struct RandomWordView: View {
         } else {
             let placeholderEntry = WordEntry(
                 id: UUID(),
-                word: "🎉 Все слова выучены!",
+                word: NSLocalizedString("all_words_completed_title", comment: ""),
                 forms: [],
                 translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
                 examples: []

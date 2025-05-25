@@ -297,12 +297,6 @@
         }
       }
     },
-    "settings_favorite_words" : {
-
-    },
-    "settings_ignored_words" : {
-
-    },
     "settings_language_label" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -326,11 +320,52 @@
         }
       }
     },
-    "settings_learned_words" : {
-
-    },
     "settings_my_words_section" : {
-
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My words"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мои слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mina ord"
+          }
+        }
+      }
+    },
+    "settings_learned_words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Learned words" }},
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Выученные слова" }},
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Inlärda ord" }}
+      }
+    },
+    "settings_favorite_words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorite words" }},
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Избранные слова" }},
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Favoritord" }}
+      }
+    },
+    "settings_ignored_words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hidden words" }},
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Скрытые слова" }},
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Dolda ord" }}
+      }
     },
     "settings_title" : {
       "extractionState" : "manual",
@@ -514,12 +549,62 @@
         }
       }
     },
-    "Очистить" : {
-
+    "empty_word_list" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The list is empty" }},
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Список пуст" }},
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Listan är tom" }}
+      }
     },
-    "Список пуст" : {
-
+    "clear_button_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear" }},
+        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Очистить" }},
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Rensa" }}
+      }
+    },
+  "marked_as_known" : {
+    "extractionState" : "manual",
+    "localizations" : {
+      "en" : { "stringUnit" : { "state" : "translated", "value" : "Marked as learned" }},
+      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Отмечено как выученное" }},
+      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Markerad som inlärd" }}
     }
+  },
+  "marked_as_ignored" : {
+    "extractionState" : "manual",
+    "localizations" : {
+      "en" : { "stringUnit" : { "state" : "translated", "value" : "Will be hidden" }},
+      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Будет скрыто" }},
+      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Kommer att döljas" }}
+    }
+  },
+  "removed_from_favorites" : {
+    "extractionState" : "manual",
+    "localizations" : {
+      "en" : { "stringUnit" : { "state" : "translated", "value" : "Removed from favorites" }},
+      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Удалено из избранного" }},
+      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Borttaget från favoriter" }}
+    }
+  },
+  "added_to_favorites" : {
+    "extractionState" : "manual",
+    "localizations" : {
+      "en" : { "stringUnit" : { "state" : "translated", "value" : "Added to favorites" }},
+      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Добавлено в избранное" }},
+      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Lagt till i favoriter" }}
+    }
+  },
+  "all_words_completed_title" : {
+    "extractionState" : "manual",
+    "localizations" : {
+      "en" : { "stringUnit" : { "state" : "translated", "value" : "🎉 All words completed!" }},
+      "ru" : { "stringUnit" : { "state" : "translated", "value" : "🎉 Все слова выучены!" }},
+      "sv" : { "stringUnit" : { "state" : "translated", "value" : "🎉 Alla ord är inlärda!" }}
+    }
+  },
   },
   "version" : "1.0"
 }

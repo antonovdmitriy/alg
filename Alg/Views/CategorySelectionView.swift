@@ -10,6 +10,7 @@ import SwiftUI
 
 struct CategorySelectionView: View {
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.locale) private var locale
     let availableCategories: [Category]
 
     
@@ -26,7 +27,6 @@ struct CategorySelectionView: View {
 
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("hasSelectedCategories") private var hasSelectedCategories = false
-    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
 
     @State private var selected: Set<UUID> = []
 
@@ -82,7 +82,7 @@ struct CategorySelectionView: View {
                                 selected.insert(category.id)
                             }
                         }) {
-                            Text(retrieveTranslation(from: category.translations, lang: selectedLanguage).capitalized)
+                            Text(retrieveTranslation(from: category.translations, lang: locale.language.languageCode?.identifier ?? "en").capitalized)
                                 .font(.system(size: 16, weight: .medium))
                                 .multilineTextAlignment(.center)
                                 .lineLimit(2)

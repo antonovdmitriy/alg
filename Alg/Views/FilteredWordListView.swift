@@ -17,71 +17,28 @@ enum WordListType {
 
 struct FilteredWordListView: View {
     let title: String
-    let allEntries: [WordEntry]
-    let type: WordListType
-    let categoryIdProvider: (UUID) -> String
-
+    let entries: [(WordEntry, UUID)]
+    let onDelete: (UUID) -> Void
+    let onClear: () -> Void
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    @State private var refreshTrigger = false
 
     var body: some View {
-        let words: [WordEntry] = {
-            _ = refreshTrigger // чтобы зависеть от состояния
-            let ids: Set<UUID>
-            switch type {
-            case .favorite:
-                ids = WordLearningStateManager.shared.favoriteWords
-            case .known:
-                ids = WordLearningStateManager.shared.knownWords
-            case .ignored:
-                ids = WordLearningStateManager.shared.ignoredWords
-            }
-            return allEntries.filter { ids.contains($0.id) }
-        }()
-
-        let onDelete: (UUID) -> Void = { id in
-            switch type {
-            case .favorite:
-                WordLearningStateManager.shared.toggleFavorite(id)
-            case .known:
-                var set = WordLearningStateManager.shared.knownWords
-                set.remove(id)
-                WordLearningStateManager.shared.knownWords = set
-            case .ignored:
-                var set = WordLearningStateManager.shared.ignoredWords
-                set.remove(id)
-                WordLearningStateManager.shared.ignoredWords = set
-            }
-        }
-
-        let onClear: () -> Void = {
-            switch type {
-            case .favorite:
-                WordLearningStateManager.shared.favoriteWords = []
-            case .known:
-                WordLearningStateManager.shared.knownWords = []
-            case .ignored:
-                WordLearningStateManager.shared.ignoredWords = []
-            }
-            refreshTrigger.toggle()
-        }
-
         VStack {
-            if words.isEmpty {
+            if entries.isEmpty {
                 Spacer()
                 VStack(spacing: 16) {
                     Image(systemName: "checkmark.seal")
                         .font(.system(size: 48))
                         .foregroundColor(.green.opacity(0.7))
-                    Text("Список пуст")
+                    Text(NSLocalizedString("empty_word_list", comment: ""))
                         .font(.headline)
                         .foregroundColor(.secondary)
                 }
                 Spacer()
             } else {
                 List {
-                    ForEach(words) { entry in
-                        NavigationLink(destination: WordDetailView(entry: entry, categoryId: categoryIdProvider(entry.id))) {
+                    ForEach(entries, id: \.0.id) { (entry, categoryId) in
+                        NavigationLink(destination: WordDetailView(entry: entry, categoryId: categoryId.uuidString)) {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(entry.word)
                                     .font(.headline)
@@ -96,7 +53,7 @@ struct FilteredWordListView: View {
                     }
                     .onDelete { indexSet in
                         for index in indexSet {
-                            onDelete(words[index].id)
+                            onDelete(entries[index].0.id)
                         }
                     }
                 }
@@ -105,9 +62,9 @@ struct FilteredWordListView: View {
         }
         .navigationTitle(title)
         .toolbar {
-            if !words.isEmpty {
+            if !entries.isEmpty {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Очистить") {
+                    Button(NSLocalizedString("clear_button_title", comment: "")) {
                         onClear()
                     }
                 }

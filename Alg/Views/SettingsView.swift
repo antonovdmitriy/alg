@@ -13,7 +13,6 @@ struct SettingsView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
 
     var body: some View {
-        let allEntries = categories.flatMap { $0.entries }
         Form {
             Section(header: Text("settings_translation_section")) {
                 Picker("settings_language_label", selection: $selectedLanguage) {
@@ -28,13 +27,13 @@ struct SettingsView: View {
                 }
             }
             Section(header: Text("settings_my_words_section")) {
-                NavigationLink(destination: LearnedWordsView(entries: allEntries)) {
+                NavigationLink(destination: LearnedWordsView(categories: categories)) {
                     Label("settings_learned_words", systemImage: "checkmark")
                 }
-                NavigationLink(destination: FavoriteWordsView(entries: allEntries)) {
+                NavigationLink(destination: FavoriteWordsView(categories: categories)) {
                     Label("settings_favorite_words", systemImage: "star")
                 }
-                NavigationLink(destination: IgnoredWordsView(entries: allEntries)) {
+                NavigationLink(destination: IgnoredWordsView(categories: categories)) {
                     Label("settings_ignored_words", systemImage: "nosign")
                 }
             }
@@ -44,37 +43,71 @@ struct SettingsView: View {
 }
 
 struct LearnedWordsView: View {
-    let entries: [WordEntry]
+    let categories: [Category]
     var body: some View {
+        let words = categories.flatMap { category in
+            category.entries
+                .filter { WordLearningStateManager.shared.knownWords.contains($0.id) }
+                .map { ($0, category.id) }
+        }
+
         FilteredWordListView(
-            title: "Выученные слова",
-            allEntries: entries,
-            type: .known,
-            categoryIdProvider: { _ in "learned" }
+            title: NSLocalizedString("settings_learned_words", comment: ""),
+            entries: words,
+            onDelete: { id in
+                var set = WordLearningStateManager.shared.knownWords
+                set.remove(id)
+                WordLearningStateManager.shared.knownWords = set
+            },
+            onClear: {
+                WordLearningStateManager.shared.knownWords = []
+            }
         )
     }
 }
 
 struct FavoriteWordsView: View {
-    let entries: [WordEntry]
+    let categories: [Category]
     var body: some View {
+        let words = categories.flatMap { category in
+            category.entries
+                .filter { WordLearningStateManager.shared.favoriteWords.contains($0.id) }
+                .map { ($0, category.id) }
+        }
+
         FilteredWordListView(
-            title: "Избранные слова",
-            allEntries: entries,
-            type: .favorite,
-            categoryIdProvider: { _ in "favorite" }
+            title: NSLocalizedString("settings_favorite_words", comment: ""),
+            entries: words,
+            onDelete: { id in
+                WordLearningStateManager.shared.toggleFavorite(id)
+            },
+            onClear: {
+                WordLearningStateManager.shared.favoriteWords = []
+            }
         )
     }
 }
 
 struct IgnoredWordsView: View {
-    let entries: [WordEntry]
+    let categories: [Category]
     var body: some View {
+        let words = categories.flatMap { category in
+            category.entries
+                .filter { WordLearningStateManager.shared.ignoredWords.contains($0.id) }
+                .map { ($0, category.id) }
+        }
+
         FilteredWordListView(
-            title: "Скрытые слова",
-            allEntries: entries,
-            type: .ignored,
-            categoryIdProvider: { _ in "ignored" }
+            title: NSLocalizedString("settings_ignored_words", comment: ""),
+            entries: words,
+            onDelete: { id in
+                var set = WordLearningStateManager.shared.ignoredWords
+                set.remove(id)
+                WordLearningStateManager.shared.ignoredWords = set
+            },
+            onClear: {
+                WordLearningStateManager.shared.ignoredWords = []
+            }
         )
     }
 }
