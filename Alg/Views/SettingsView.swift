@@ -44,13 +44,9 @@ struct SettingsView: View {
 
 struct LearnedWordsView: View {
     let categories: [Category]
-    var body: some View {
-        let words = categories.flatMap { category in
-            category.entries
-                .filter { WordLearningStateManager.shared.knownWords.contains($0.id) }
-                .map { ($0, category.id) }
-        }
+    @State private var words: [(WordEntry, UUID)] = []
 
+    var body: some View {
         FilteredWordListView(
             title: NSLocalizedString("settings_learned_words", comment: ""),
             entries: words,
@@ -58,45 +54,55 @@ struct LearnedWordsView: View {
                 var set = WordLearningStateManager.shared.knownWords
                 set.remove(id)
                 WordLearningStateManager.shared.knownWords = set
+                words.removeAll { $0.0.id == id }
             },
             onClear: {
                 WordLearningStateManager.shared.knownWords = []
+                words = []
             }
         )
+        .onAppear {
+            words = categories.flatMap { category in
+                category.entries
+                    .filter { WordLearningStateManager.shared.knownWords.contains($0.id) }
+                    .map { ($0, category.id) }
+            }
+        }
     }
 }
 
 struct FavoriteWordsView: View {
     let categories: [Category]
-    var body: some View {
-        let words = categories.flatMap { category in
-            category.entries
-                .filter { WordLearningStateManager.shared.favoriteWords.contains($0.id) }
-                .map { ($0, category.id) }
-        }
+    @State private var words: [(WordEntry, UUID)] = []
 
+    var body: some View {
         FilteredWordListView(
             title: NSLocalizedString("settings_favorite_words", comment: ""),
             entries: words,
             onDelete: { id in
                 WordLearningStateManager.shared.toggleFavorite(id)
+                words.removeAll { $0.0.id == id }
             },
             onClear: {
                 WordLearningStateManager.shared.favoriteWords = []
+                words = []
             }
         )
+        .onAppear {
+            words = categories.flatMap { category in
+                category.entries
+                    .filter { WordLearningStateManager.shared.favoriteWords.contains($0.id) }
+                    .map { ($0, category.id) }
+            }
+        }
     }
 }
 
 struct IgnoredWordsView: View {
     let categories: [Category]
-    var body: some View {
-        let words = categories.flatMap { category in
-            category.entries
-                .filter { WordLearningStateManager.shared.ignoredWords.contains($0.id) }
-                .map { ($0, category.id) }
-        }
+    @State private var words: [(WordEntry, UUID)] = []
 
+    var body: some View {
         FilteredWordListView(
             title: NSLocalizedString("settings_ignored_words", comment: ""),
             entries: words,
@@ -104,10 +110,19 @@ struct IgnoredWordsView: View {
                 var set = WordLearningStateManager.shared.ignoredWords
                 set.remove(id)
                 WordLearningStateManager.shared.ignoredWords = set
+                words.removeAll { $0.0.id == id }
             },
             onClear: {
                 WordLearningStateManager.shared.ignoredWords = []
+                words = []
             }
         )
+        .onAppear {
+            words = categories.flatMap { category in
+                category.entries
+                    .filter { WordLearningStateManager.shared.ignoredWords.contains($0.id) }
+                    .map { ($0, category.id) }
+            }
+        }
     }
 }

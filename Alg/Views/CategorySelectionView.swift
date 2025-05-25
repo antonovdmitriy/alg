@@ -82,7 +82,7 @@ struct CategorySelectionView: View {
                                 selected.insert(category.id)
                             }
                         }) {
-                            Text(retrieveTranslation(from: category.translations, lang: locale.language.languageCode?.identifier ?? "en").capitalized)
+                            Text((category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "").capitalized)
                                 .font(.system(size: 16, weight: .medium))
                                 .multilineTextAlignment(.center)
                                 .lineLimit(2)

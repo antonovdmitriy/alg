@@ -4,6 +4,7 @@ struct ContentView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let categories: [Category]
     @State private var showTabBar = false
+    @Environment(\.locale) private var locale
 
     init(categories: [Category]) {
         self.categories = categories
@@ -32,7 +33,7 @@ struct ContentView: View {
                 List {
                     ForEach(categories) { category in
                         NavigationLink(destination: WordListView(category: category)) {
-                            Text(retrieveTranslation(from: category.translations, lang: selectedLanguage))
+                            Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
                         }
                     }
                 }

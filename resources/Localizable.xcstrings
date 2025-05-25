@@ -605,6 +605,34 @@
       "sv" : { "stringUnit" : { "state" : "translated", "value" : "🎉 Alla ord är inlärda!" }}
     }
   },
+  "clear_alert_title" : {
+    "localizations" : {
+      "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear all words?" }},
+      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Очистить все слова?" }},
+      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Rensa alla ord?" }}
+    }
+  },
+  "clear_alert_message" : {
+    "localizations" : {
+      "en" : { "stringUnit" : {  "state" : "translated", "value" : "This action cannot be undone." }},
+      "ru" : { "stringUnit" : {  "state" : "translated", "value" : "Это действие нельзя отменить." }},
+      "sv" : { "stringUnit" : {  "state" : "translated", "value" : "Detta kan inte ångras." }}
+    }
+  },
+  "clear_alert_confirm" : {
+    "localizations" : {
+      "en" : { "stringUnit" : {  "state" : "translated", "value" : "Clear" }},
+      "ru" : { "stringUnit" : {  "state" : "translated", "value" : "Очистить" }},
+      "sv" : { "stringUnit" : {  "state" : "translated", "value" : "Rensa" }}
+    }
+  },
+  "clear_alert_cancel" : {
+    "localizations" : {
+      "en" : { "stringUnit" : {  "state" : "translated", "value" : "Cancel" }},
+      "ru" : { "stringUnit" : {  "state" : "translated", "value" : "Отмена" }},
+      "sv" : { "stringUnit" : {  "state" : "translated", "value" : "Avbryt" }}
+    }
+  }
   },
   "version" : "1.0"
 }

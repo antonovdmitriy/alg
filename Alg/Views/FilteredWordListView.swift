@@ -21,6 +21,7 @@ struct FilteredWordListView: View {
     let onDelete: (UUID) -> Void
     let onClear: () -> Void
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @State private var showConfirmation = false
 
     var body: some View {
         VStack {
@@ -60,12 +61,22 @@ struct FilteredWordListView: View {
                 .listStyle(.insetGrouped)
             }
         }
+        .alert(isPresented: $showConfirmation) {
+            Alert(
+                title: Text(NSLocalizedString("clear_alert_title", comment: "")),
+                message: Text(NSLocalizedString("clear_alert_message", comment: "")),
+                primaryButton: .destructive(Text(NSLocalizedString("clear_alert_confirm", comment: ""))) {
+                    onClear()
+                },
+                secondaryButton: .cancel(Text(NSLocalizedString("clear_alert_cancel", comment: "")))
+            )
+        }
         .navigationTitle(title)
         .toolbar {
             if !entries.isEmpty {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(NSLocalizedString("clear_button_title", comment: "")) {
-                        onClear()
+                        showConfirmation = true
                     }
                 }
             }
