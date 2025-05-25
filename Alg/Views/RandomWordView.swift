@@ -10,6 +10,7 @@ struct RandomWordView: View {
     @State private var entryHistory: [(WordEntry, UUID)] = []
     @State private var lastTapDate = Date.distantPast
     private let tapThreshold: TimeInterval = 0.4
+    @State private var feedbackMessage: String?
 
     init(categories: [Category], showTabBar: Binding<Bool>) {
         self.categories = categories
@@ -30,6 +31,87 @@ struct RandomWordView: View {
                 .padding(.bottom, 20)
                 .ignoresSafeArea(edges: .bottom)
                 .allowsHitTesting(false)
+            
+            if let message = feedbackMessage {
+                Text(message)
+                    .font(.subheadline)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 10)
+                    .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .foregroundColor(.primary)
+                    .transition(.opacity)
+                    .padding(.bottom, 100)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+            }
+
+            if showTabBar {
+                VStack {
+                    HStack {
+                        Spacer()
+                        VStack(spacing: 16) {
+                            Button(action: {
+                                if !WordLearningStateManager.shared.isKnown(currentEntry.id) {
+                                    WordLearningStateManager.shared.markKnown(currentEntry.id)
+                                    feedbackMessage = NSLocalizedString("marked_as_known", comment: "")
+                                }
+                                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                    feedbackMessage = nil
+                                    showNextWord()
+                                }
+                            }) {
+                                Image(systemName: "checkmark")
+                                    .font(.system(size: 20, weight: .semibold))
+                                    .frame(width: 44, height: 44)
+                                    .foregroundColor(.primary)
+                                    .background(.ultraThinMaterial, in: Circle())
+                                    .shadow(radius: 2)
+                            }
+
+                            Button(action: {
+                                if !WordLearningStateManager.shared.isIgnored(currentEntry.id) {
+                                    WordLearningStateManager.shared.markIgnored(currentEntry.id)
+                                    feedbackMessage = NSLocalizedString("marked_as_ignored", comment: "")
+                                }
+                                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                    feedbackMessage = nil
+                                    showNextWord()
+                                }
+                            }) {
+                                Image(systemName: "nosign")
+                                    .font(.system(size: 20, weight: .semibold))
+                                    .frame(width: 44, height: 44)
+                                    .foregroundColor(.primary)
+                                    .background(.ultraThinMaterial, in: Circle())
+                                    .shadow(radius: 2)
+                            }
+
+                            Button(action: {
+                                let isAlreadyFavorite = WordLearningStateManager.shared.isFavorite(currentEntry.id)
+                                WordLearningStateManager.shared.toggleFavorite(currentEntry.id)
+                                feedbackMessage = isAlreadyFavorite ? NSLocalizedString("removed_from_favorites", comment: "") : NSLocalizedString("added_to_favorites", comment: "")
+                                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                    feedbackMessage = nil
+                                    showNextWord()
+                                }
+                            }) {
+                                Image(systemName: WordLearningStateManager.shared.isFavorite(currentEntry.id) ? "star.fill" : "star")
+                                    .font(.system(size: 20, weight: .semibold))
+                                    .frame(width: 44, height: 44)
+                                    .foregroundColor(.primary)
+                                    .background(.ultraThinMaterial, in: Circle())
+                                    .shadow(radius: 2)
+                            }
+                        }
+                        .padding(.top, 60)
+                        .padding(.trailing)
+                    }
+                    Spacer()
+                }
+                .transition(.move(edge: .trailing).combined(with: .opacity))
+            }
         }
         .onTapGesture {
             let now = Date()
@@ -93,8 +175,22 @@ struct RandomWordView: View {
             chosenCategory = category
         }
 
-        let entry = chosenCategory.entries.randomElement()!
-        return (entry, chosenCategory.id)
+        let allIgnored = WordLearningStateManager.shared.ignoredWords
+        let allKnown = WordLearningStateManager.shared.knownWords
+        let filteredEntries = chosenCategory.entries.filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
+
+        if let entry = filteredEntries.randomElement() {
+            return (entry, chosenCategory.id)
+        } else {
+            let placeholderEntry = WordEntry(
+                id: UUID(),
+                word: NSLocalizedString("all_words_completed_title", comment: ""),
+                forms: [],
+                translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
+                examples: []
+            )
+            return (placeholderEntry, chosenCategory.id)
+        }
     }
 
     private func isSwipeUp(_ value: DragGesture.Value) -> Bool {

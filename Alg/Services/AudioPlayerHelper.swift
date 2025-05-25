@@ -56,6 +56,7 @@ struct AudioPlayerHelper {
 
     private static func playLocalFile(from url: URL) {
         do {
+            stop()
             player = try AVAudioPlayer(contentsOf: url)
             player?.prepareToPlay()
             player?.play()
@@ -67,5 +68,11 @@ struct AudioPlayerHelper {
     static func playWordForm(categoryId: String, entryId: UUID, index: Int) {
         let fileName = "\(entryId.uuidString.lowercased())_form\(index).mp3"
         playAudioFile(named: fileName, categoryId: categoryId)
+    }
+    static func stop() {
+        if player?.isPlaying == true {
+            player?.stop()
+            player = nil
+        }
     }
 }

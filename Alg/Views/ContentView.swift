@@ -4,6 +4,7 @@ struct ContentView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let categories: [Category]
     @State private var showTabBar = false
+    @Environment(\.locale) private var locale
 
     init(categories: [Category]) {
         self.categories = categories
@@ -21,6 +22,9 @@ struct ContentView: View {
             NavigationView {
                 RandomWordView(categories: categories, showTabBar: $showTabBar)
             }
+            .onAppear {
+                AudioPlayerHelper.stop()
+            }
             .tabItem {
                 Image(systemName: "shuffle")
             }
@@ -29,11 +33,14 @@ struct ContentView: View {
                 List {
                     ForEach(categories) { category in
                         NavigationLink(destination: WordListView(category: category)) {
-                            Text(retrieveTranslation(from: category.translations, lang: selectedLanguage))
+                            Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
                         }
                     }
                 }
                 .navigationTitle("category_list_title")
+            }
+            .onAppear {
+                AudioPlayerHelper.stop()
             }
             .tabItem {
                 Image(systemName: "book")
@@ -41,6 +48,9 @@ struct ContentView: View {
 
             NavigationView {
                 SettingsView(categories: categories)
+            }
+            .onAppear {
+                AudioPlayerHelper.stop()
             }
             .tabItem {
                 Image(systemName: "gearshape")
