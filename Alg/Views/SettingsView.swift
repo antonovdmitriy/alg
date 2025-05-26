@@ -11,6 +11,8 @@ import SwiftUI
 struct SettingsView: View {
     let categories: [Category]
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @State private var showResetConfirmation = false
+    @State private var showResetMessage = false
 
     var body: some View {
         Form {
@@ -28,6 +30,21 @@ struct SettingsView: View {
                 NavigationLink(destination: CategorySelectionView(availableCategories: categories)) {
                     Text("settings_edit_categories")
                 }
+                Label("settings_reset_daily_progress", systemImage: "arrow.counterclockwise")
+                    .onTapGesture {
+                        showResetConfirmation = true
+                    }
+                    .alert(isPresented: $showResetConfirmation) {
+                        Alert(
+                            title: Text("reset_daily_progress_title"),
+                            message: Text("reset_daily_progress_message"),
+                            primaryButton: .destructive(Text("reset_daily_progress_confirm")) {
+                                LearningGoalManager.shared.resetDailyProgress()
+                                showResetMessage = true
+                            },
+                            secondaryButton: .cancel(Text("reset_daily_progress_cancel"))
+                        )
+                    }
             }
             Section(header: Text("settings_my_words_section")) {
                 NavigationLink(destination: LearnedWordsView(categories: categories)) {
@@ -42,6 +59,27 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("settings_title")
+        .overlay(
+            Group {
+                if showResetMessage {
+                    Text(NSLocalizedString("daily_progress_reset_success", comment: ""))
+                        .font(.subheadline)
+                        .padding()
+                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 10))
+                        .foregroundColor(.primary)
+                        .transition(.opacity)
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                withAnimation {
+                                    showResetMessage = false
+                                }
+                            }
+                        }
+                }
+            }
+            .padding(),
+            alignment: .bottom
+        )
     }
 }
 

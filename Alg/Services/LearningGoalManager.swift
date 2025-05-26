@@ -49,8 +49,12 @@ class LearningGoalManager {
 
     func resetIfNewDay() {
         if currentDateString != lastDate {
-            learnedToday = 0
+            resetDailyProgress()
             lastDate = currentDateString
         }
+    }
+    
+    func resetDailyProgress() {
+        learnedToday = 0
     }
 }
