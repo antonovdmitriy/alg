@@ -24,11 +24,11 @@ struct SettingsView: View {
                 .pickerStyle(SegmentedPickerStyle())
             }
             Section(header: Text("settings_learning_section")) {
-                NavigationLink(destination: DailyGoalSelectionView(allowsDismiss: true, onGoalSelected: {})) {
-                    Text("settings_edit_daily_goal")
-                }
                 NavigationLink(destination: CategorySelectionView(availableCategories: categories)) {
                     Text("settings_edit_categories")
+                }
+                NavigationLink(destination: DailyGoalSelectionView(allowsDismiss: true, onGoalSelected: {})) {
+                    Text("settings_edit_daily_goal")
                 }
                 Label("settings_reset_daily_progress", systemImage: "arrow.counterclockwise")
                     .onTapGesture {

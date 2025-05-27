@@ -3,6 +3,7 @@ import SwiftUI
 struct WordListView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let category: Category
+    @Environment(\.locale) private var locale
 
     var body: some View {
         List(category.entries) { entry in
@@ -19,6 +20,6 @@ struct WordListView: View {
                 .padding(.vertical, 4)
             }
         }
-        .navigationTitle(retrieveTranslation(from: category.translations, lang: selectedLanguage))
+        .navigationTitle((category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "").capitalized)
     }
 }

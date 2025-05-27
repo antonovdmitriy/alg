@@ -43,6 +43,7 @@
 				generate_all_examples.py,
 				generate_all_words.py,
 				generate_tts.py,
+				splash.mp4,
 				upload_audio_to_azure.sh,
 			);
 			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;

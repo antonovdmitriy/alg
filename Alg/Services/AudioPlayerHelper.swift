@@ -56,6 +56,9 @@ struct AudioPlayerHelper {
 
     private static func playLocalFile(from url: URL) {
         do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+
             stop()
             player = try AVAudioPlayer(contentsOf: url)
             player?.prepareToPlay()

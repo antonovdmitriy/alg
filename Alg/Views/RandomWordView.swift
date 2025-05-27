@@ -188,10 +188,11 @@ struct RandomWordView: View {
             }
         }
         .onTapGesture {
+            guard !showGoalCelebration && !showGoalVideo else { return }
             let now = Date()
-            if now.timeIntervalSince(lastTapDate) > tapThreshold && !showGoalVideo {
+            if now.timeIntervalSince(lastTapDate) > tapThreshold {
                 lastTapDate = now
-                withAnimation{
+                withAnimation {
                     showTabBar.toggle()
                 }
             }
@@ -212,6 +213,7 @@ struct RandomWordView: View {
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
                 .onEnded { value in
+                    guard !showGoalCelebration && !showGoalVideo else { return }
                     if isSwipeUp(value) {
                         showWordCard()
                     } else if isSwipeLeft(value) {
@@ -289,7 +291,7 @@ struct RandomWordView: View {
     private func showNextWord() {
         if LearningGoalManager.shared.shouldShowGoalAnimation {
             showGoalCelebration = true
-            //            LearningGoalManager.shared.markGoalAnimationShown()
+            LearningGoalManager.shared.markGoalAnimationShown()
             return
         }
         proceedToNextWord()
@@ -316,20 +318,5 @@ struct RandomWordView: View {
         }
     }
     
-    struct FullScreenVideoPlayer: UIViewControllerRepresentable {
-        let player: AVPlayer
-        
-        func makeUIViewController(context: Context) -> UIViewController {
-            let controller = UIViewController()
-            let playerLayer = AVPlayerLayer(player: player)
-            playerLayer.videoGravity = .resizeAspectFill
-            playerLayer.frame = UIScreen.main.bounds
-            controller.view.layer.addSublayer(playerLayer)
-            
-            player.play()
-            return controller
-        }
-        
-        func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
-    }
+
 }

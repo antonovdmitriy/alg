@@ -56,5 +56,6 @@ class LearningGoalManager {
     
     func resetDailyProgress() {
         learnedToday = 0
+        goalAnimationShownDate = ""
     }
 }
