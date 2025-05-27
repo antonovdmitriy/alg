@@ -38,20 +38,19 @@ struct WordPreviewView: View {
         Group {
             if UITraitCollection.current.userInterfaceStyle == .dark {
                 AnimatedGradientBackground(palettes: [
-                    [Color.black, Color.green, Color.purple],
                     [Color.black, Color.cyan, Color.indigo],
-                    [Color.black, Color.pink, Color.mint, Color.purple],
                     [Color.black, Color.orange, Color.purple, Color.blue],
-                    [Color.black, Color.teal, Color.green, Color.indigo],
                     [Color.black, Color.blue, Color.mint],
-                    [Color.black, Color.purple, Color.teal],
                     [Color.black, Color.cyan, Color.green],
                     [Color.black, Color.mint, Color.yellow],
                     [Color.black, Color.indigo, Color.teal],
                     [Color.black, Color.blue, Color.pink],
                     [Color.black, Color.orange, Color.mint],
                     [Color.black, Color.purple, Color.cyan],
-                    [Color.black, Color.teal, Color.mint, Color.pink],
+                    [Color.black, Color.green.opacity(0.6), Color.blue.opacity(0.7), Color.purple.opacity(0.8)],
+                    [Color.black, Color.indigo, Color.purple, Color.red.opacity(0.6)],
+                    [Color.black, Color.cyan, Color.mint, Color.white.opacity(0.3)],
+                    [Color.black, Color.pink.opacity(0.5), Color.purple.opacity(0.5), Color.teal.opacity(0.6)],
                 ])
                 .ignoresSafeArea()
             } else {
@@ -67,25 +66,26 @@ struct WordPreviewView: View {
                     [.blue, .indigo, .teal],
                     [.orange, .yellow, .mint],
                     [.red, .orange, .pink],
+                    [.blue, .purple, .mint],
+                    [.mint, .teal, .pink],
+                    [.cyan, .green, .yellow],
+                    [.orange, .mint, .blue],
+                    [.purple, .cyan, .mint],
+                    [.indigo, .purple, .red],
+                    [.yellow, .cyan, .pink],
+                    [.green, .blue, .mint],
                     [.pink, .yellow],
                     [.mint, .green, .yellow],
                     [.indigo, .purple],
                     [.cyan, .blue],
-                    [.pink, .cyan],
-                    [.orange, .mint],
                     [.yellow, .mint, .green],
-                    [.red, .mint, .yellow],
                     [.teal, .blue],
                     [.green, .cyan],
                     [.indigo, .mint, .teal],
                     [.orange, .indigo],
-                    [.mint, .pink],
-                    [.yellow, .blue],
                     [.cyan, .pink, .mint],
-                    [.purple, .teal, .orange],
                     [.green, .blue, .mint],
-                    [.pink, .purple, .yellow],
-                    [.teal, .orange, .yellow]
+                    [.pink, .purple, .yellow]
                 ])
                 .ignoresSafeArea()
             }
@@ -158,7 +158,7 @@ struct AnimatedGradientBackground: View {
     @State private var selectedColors: [Color]
     @State private var timer: Timer?
 
-    init(palettes: [[Color]], idleDuration: Double = 10.0, transitionDuration: Double = 5.0) {
+    init(palettes: [[Color]], idleDuration: Double = 15.0, transitionDuration: Double = 5.0) {
         self.palettes = palettes
         self.idleDuration = idleDuration
         self.transitionDuration = transitionDuration
