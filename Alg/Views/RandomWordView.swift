@@ -1,9 +1,12 @@
 import SwiftUI
+import AVKit
+import AVFoundation
 
 struct RandomWordView: View {
     @Binding var showTabBar: Bool
     let categories: [Category]
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
+    @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
     @State private var showCard = false
@@ -11,28 +14,43 @@ struct RandomWordView: View {
     @State private var lastTapDate = Date.distantPast
     private let tapThreshold: TimeInterval = 0.4
     @State private var feedbackMessage: String?
-
+    @State private var showGoalCelebration = false
+    @State private var showGoalVideo = false
+    
     init(categories: [Category], showTabBar: Binding<Bool>) {
         self.categories = categories
         self._showTabBar = showTabBar
         _currentCategoryId = State(initialValue: UUID())
         _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: []))
     }
-
+    
     var body: some View {
         ZStack {
-            WordPreviewView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased())
-                .edgesIgnoringSafeArea(.all)
-
-            Image(systemName: "chevron.compact.up")
-                .font(.system(size: 28, weight: .semibold))
-                .foregroundColor(.white.opacity(0.6))
-                .frame(maxHeight: .infinity, alignment: .bottom)
-                .padding(.bottom, 20)
-                .ignoresSafeArea(edges: .bottom)
-                .allowsHitTesting(false)
+            VStack {
+                Spacer()
+            }
+            .onAppear {
+                LearningGoalManager.shared.resetIfNewDay()
+            }
             
-            if let message = feedbackMessage {
+            WordPreviewView(
+                entry: currentEntry,
+                categoryId: currentCategoryId.uuidString.lowercased(),
+                overrideText: .constant(showGoalCelebration ? NSLocalizedString("goal_completed_message", comment: "") : nil)
+            )
+                .edgesIgnoringSafeArea(.all)
+            
+            if showTabBar && !showGoalVideo {
+                Image(systemName: "chevron.compact.up")
+                    .font(.system(size: 28, weight: .semibold))
+                    .foregroundColor(.white.opacity(0.6))
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .padding(.bottom, 20)
+                    .ignoresSafeArea(edges: .bottom)
+                    .allowsHitTesting(false)
+            }
+            
+            if let message = feedbackMessage, !showGoalVideo {
                 Text(message)
                     .font(.subheadline)
                     .padding(.horizontal, 16)
@@ -43,8 +61,8 @@ struct RandomWordView: View {
                     .padding(.bottom, 100)
                     .frame(maxHeight: .infinity, alignment: .bottom)
             }
-
-            if showTabBar {
+            
+            if showTabBar && !showGoalVideo {
                 VStack {
                     HStack {
                         Spacer()
@@ -67,7 +85,7 @@ struct RandomWordView: View {
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
-
+                            
                             Button(action: {
                                 if !WordLearningStateManager.shared.isIgnored(currentEntry.id) {
                                     WordLearningStateManager.shared.markIgnored(currentEntry.id)
@@ -86,7 +104,7 @@ struct RandomWordView: View {
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
-
+                            
                             Button(action: {
                                 let isAlreadyFavorite = WordLearningStateManager.shared.isFavorite(currentEntry.id)
                                 WordLearningStateManager.shared.toggleFavorite(currentEntry.id)
@@ -112,8 +130,65 @@ struct RandomWordView: View {
                 }
                 .transition(.move(edge: .trailing).combined(with: .opacity))
             }
+            
+            if showTabBar && dailyGoal > 0 && !showGoalVideo {
+                VStack {
+                    Spacer()
+                    GeometryReader { geometry in
+                        ZStack(alignment: .leading) {
+                            RoundedRectangle(cornerRadius: 4)
+                                .fill(Color.gray.opacity(0.2))
+                                .frame(height: 8)
+                            
+                            let progressFraction = max(min(CGFloat(LearningGoalManager.shared.learnedToday) / CGFloat(max(dailyGoal, 1)), 1.0), 0.0)
+                            let allColors: [Color] = [.red, .orange, .yellow, .green, .blue, .purple]
+                            let colorCount = max(Int(round(progressFraction * CGFloat(allColors.count))), 1)
+                            let visibleColors = Array(allColors.prefix(colorCount))
+                            
+                            RoundedRectangle(cornerRadius: 4)
+                                .fill(LinearGradient(
+                                    gradient: Gradient(colors: visibleColors),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                ))
+                                .frame(
+                                    width: progressFraction * geometry.size.width,
+                                    height: 8
+                                )
+                        }
+                    }
+                    .frame(height: 4)
+                    .padding(.horizontal, 0)
+                }
+            }
+            if showGoalCelebration && !showGoalVideo {
+                Color.clear
+                    .onAppear {
+                        showTabBar = false
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                            showGoalCelebration = false
+                            withAnimation {
+                                showGoalVideo = true
+                            }
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+                                showGoalVideo = false
+                                proceedToNextWord()
+                            }
+                        }
+                        currentEntry = WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [])
+                        currentCategoryId = UUID()
+                    }
+            }
+            
+            if showGoalVideo {
+                FullScreenVideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "alg_celebrate", withExtension: "mp4")!))
+                    .edgesIgnoringSafeArea(.all)
+                    .opacity(showGoalVideo ? 1 : 0)
+                    .animation(.easeInOut(duration: 1.0), value: showGoalVideo)
+            }
         }
         .onTapGesture {
+            guard !showGoalCelebration && !showGoalVideo else { return }
             let now = Date()
             if now.timeIntervalSince(lastTapDate) > tapThreshold {
                 lastTapDate = now
@@ -121,6 +196,9 @@ struct RandomWordView: View {
                     showTabBar.toggle()
                 }
             }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
+            LearningGoalManager.shared.resetIfNewDay()
         }
         .onAppear {
             showTabBar = false
@@ -135,6 +213,7 @@ struct RandomWordView: View {
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
                 .onEnded { value in
+                    guard !showGoalCelebration && !showGoalVideo else { return }
                     if isSwipeUp(value) {
                         showWordCard()
                     } else if isSwipeLeft(value) {
@@ -156,15 +235,15 @@ struct RandomWordView: View {
     private static func pickRandomEntry(from categories: [Category], selectedCategoryIds: [UUID]) -> (WordEntry, UUID) {
         let useAll = selectedCategoryIds.contains(Category.allCategoryId)
         let otherIds = selectedCategoryIds.filter { $0 != Category.allCategoryId }
-
+        
         var categoryChoices: [UUID] = []
         if useAll {
             categoryChoices.append(Category.allCategoryId)
         }
         categoryChoices.append(contentsOf: otherIds)
-
+        
         let chosenCategoryId = categoryChoices.randomElement()!
-
+        
         let chosenCategory: Category
         if chosenCategoryId == Category.allCategoryId {
             chosenCategory = categories.randomElement()!
@@ -174,11 +253,11 @@ struct RandomWordView: View {
             }
             chosenCategory = category
         }
-
+        
         let allIgnored = WordLearningStateManager.shared.ignoredWords
         let allKnown = WordLearningStateManager.shared.knownWords
         let filteredEntries = chosenCategory.entries.filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
-
+        
         if let entry = filteredEntries.randomElement() {
             return (entry, chosenCategory.id)
         } else {
@@ -192,24 +271,34 @@ struct RandomWordView: View {
             return (placeholderEntry, chosenCategory.id)
         }
     }
-
+    
     private func isSwipeUp(_ value: DragGesture.Value) -> Bool {
         value.translation.height < -50
     }
-
+    
     private func isSwipeLeft(_ value: DragGesture.Value) -> Bool {
         value.translation.width < -50
     }
-
+    
     private func isSwipeRight(_ value: DragGesture.Value) -> Bool {
         value.translation.width > 50
     }
-
+    
     private func showWordCard() {
         showCard = true
     }
-
+    
     private func showNextWord() {
+        if LearningGoalManager.shared.shouldShowGoalAnimation {
+            showGoalCelebration = true
+            LearningGoalManager.shared.markGoalAnimationShown()
+            return
+        }
+        proceedToNextWord()
+    }
+    
+    private func proceedToNextWord() {
+        LearningGoalManager.shared.incrementProgress()
         withAnimation {
             entryHistory.append((currentEntry, currentCategoryId))
             let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
@@ -219,7 +308,7 @@ struct RandomWordView: View {
             AudioPlayerHelper.playAudio(categoryId: newCategoryId.uuidString, entryId: newEntry.id)
         }
     }
-
+    
     private func showPreviousWord() {
         withAnimation {
             let previous = entryHistory.removeLast()
@@ -228,4 +317,6 @@ struct RandomWordView: View {
             AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
         }
     }
+    
+
 }

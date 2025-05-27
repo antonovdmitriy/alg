@@ -11,6 +11,7 @@ import UIKit
 struct WordPreviewView: View {
     let entry: WordEntry
     let categoryId: String
+    @Binding var overrideText: String?
     @State private var uiImage: UIImage? = nil
     @State private var isLoading = false
 
@@ -20,13 +21,12 @@ struct WordPreviewView: View {
 
             VStack {
                 Spacer()
-                Text(entry.word)
+                Text(overrideText ?? entry.word)
                     .font(.largeTitle)
                     .foregroundColor(.white)
                     .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
                     .scaleEffect(1.1)
                     .padding(.horizontal, 24)
-
 
                 Spacer()
             }
@@ -37,11 +37,57 @@ struct WordPreviewView: View {
     private var gradientBackground: some View {
         Group {
             if UITraitCollection.current.userInterfaceStyle == .dark {
-                AnimatedAuroraView()
-                    .ignoresSafeArea()
+                AnimatedGradientBackground(palettes: [
+                    [Color.black, Color.green, Color.purple],
+                    [Color.black, Color.cyan, Color.indigo],
+                    [Color.black, Color.pink, Color.mint, Color.purple],
+                    [Color.black, Color.orange, Color.purple, Color.blue],
+                    [Color.black, Color.teal, Color.green, Color.indigo],
+                    [Color.black, Color.blue, Color.mint],
+                    [Color.black, Color.purple, Color.teal],
+                    [Color.black, Color.cyan, Color.green],
+                    [Color.black, Color.mint, Color.yellow],
+                    [Color.black, Color.indigo, Color.teal],
+                    [Color.black, Color.blue, Color.pink],
+                    [Color.black, Color.orange, Color.mint],
+                    [Color.black, Color.purple, Color.cyan],
+                    [Color.black, Color.teal, Color.mint, Color.pink],
+                ])
+                .ignoresSafeArea()
             } else {
-                AnimatedGradientView()
-                    .ignoresSafeArea()
+                AnimatedGradientBackground(palettes: [
+                    [.pink, .orange, .yellow],
+                    [.mint, .teal, .blue],
+                    [.cyan, .indigo, .purple],
+                    [.green, .mint],
+                    [.orange, .red],
+                    [.yellow, .green, .blue],
+                    [.teal, .cyan],
+                    [.purple, .pink, .mint],
+                    [.blue, .indigo, .teal],
+                    [.orange, .yellow, .mint],
+                    [.red, .orange, .pink],
+                    [.pink, .yellow],
+                    [.mint, .green, .yellow],
+                    [.indigo, .purple],
+                    [.cyan, .blue],
+                    [.pink, .cyan],
+                    [.orange, .mint],
+                    [.yellow, .mint, .green],
+                    [.red, .mint, .yellow],
+                    [.teal, .blue],
+                    [.green, .cyan],
+                    [.indigo, .mint, .teal],
+                    [.orange, .indigo],
+                    [.mint, .pink],
+                    [.yellow, .blue],
+                    [.cyan, .pink, .mint],
+                    [.purple, .teal, .orange],
+                    [.green, .blue, .mint],
+                    [.pink, .purple, .yellow],
+                    [.teal, .orange, .yellow]
+                ])
+                .ignoresSafeArea()
             }
         }
     }
@@ -104,77 +150,45 @@ struct WordPreviewView: View {
     }
 }
 
-// MARK: - AnimatedGradientView
-struct AnimatedGradientView: View {
-    @State private var animate = false
-    @State private var timer: Timer?
-    private let gradientPalettes: [([Color], [Color])] = [
-        ([Color.purple, Color.blue], [Color.blue, Color.purple]),
-        ([Color.orange, Color.pink], [Color.pink, Color.yellow]),
-        ([Color.red, Color.orange], [Color.yellow, Color.red]),
-        ([Color.teal, Color.mint], [Color.green, Color.blue]),
-        ([Color.cyan, Color.indigo], [Color.indigo, Color.cyan]),
-        ([Color.yellow, Color.green], [Color.green, Color.yellow]),
-        ([Color.pink, Color.mint], [Color.mint, Color.pink]),
-        ([Color.brown, Color.orange], [Color.orange, Color.brown])
-    ]
-    @State private var selectedColors: ([Color], [Color]) = ([Color.purple, Color.blue], [Color.blue, Color.purple])
-    private let animationDuration: Double = 10.0
+struct AnimatedGradientBackground: View {
+    let palettes: [[Color]]
+    let idleDuration: Double
+    let transitionDuration: Double
 
-    var body: some View {
-        LinearGradient(
-            gradient: Gradient(colors: animate ? selectedColors.1 : selectedColors.0),
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
-        .animation(.linear(duration: animationDuration).repeatForever(autoreverses: true), value: animate)
-        .onAppear {
-            animate = true
-            selectedColors = gradientPalettes.randomElement() ?? selectedColors
-            timer = Timer.scheduledTimer(withTimeInterval: 20.0, repeats: true) { _ in
-                withAnimation(.linear(duration: animationDuration)) {
-                    selectedColors = gradientPalettes.randomElement() ?? selectedColors
-                }
-            }
-        }
-        .onDisappear {
-            timer?.invalidate()
-            timer = nil
-        }
+    @State private var selectedColors: [Color]
+    @State private var timer: Timer?
+
+    init(palettes: [[Color]], idleDuration: Double = 10.0, transitionDuration: Double = 5.0) {
+        self.palettes = palettes
+        self.idleDuration = idleDuration
+        self.transitionDuration = transitionDuration
+        _selectedColors = State(initialValue: palettes.randomElement() ?? [.blue, .purple])
     }
-}
-
-struct AnimatedAuroraView: View {
-    @State private var animate = false
-    @State private var timer: Timer?
-    @State private var selectedColors: ([Color], [Color]) = ([.black], [.black])
-
-    private let colorPalettes: [([Color], [Color])] = [
-        ([Color.black, Color.green, Color.purple], [Color.black, Color.pink, Color.teal]),
-        ([Color.black, Color.cyan, Color.indigo], [Color.black, Color.teal, Color.blue]),
-        ([Color.black, Color.pink, Color.mint, Color.purple], [Color.black, Color.purple, Color.indigo]),
-        ([Color.black, Color.orange, Color.purple, Color.blue], [Color.black, Color.green, Color.indigo])
-    ]
-
-    private let animationDuration: Double = 10.0
 
     var body: some View {
         LinearGradient(
-            gradient: Gradient(colors: animate ? selectedColors.1 : selectedColors.0),
+            gradient: Gradient(colors: selectedColors),
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
-        .animation(.easeInOut(duration: animationDuration).repeatForever(autoreverses: true), value: animate)
         .onAppear {
-            animate = true
-            selectedColors = colorPalettes.randomElement() ?? selectedColors
-            timer = Timer.scheduledTimer(withTimeInterval: 20.0, repeats: true) { _ in
-                withAnimation(.easeInOut(duration: animationDuration)) {
-                    selectedColors = colorPalettes.randomElement() ?? selectedColors
+            print("[AnimatedGradientBackground] View appeared. Starting gradient timer.")
+
+            timer?.invalidate()
+            timer = Timer.scheduledTimer(withTimeInterval: idleDuration + transitionDuration,
+                                         repeats: true) { _ in
+                let newColors = palettes.randomElement() ?? selectedColors
+                print("[AnimatedGradientBackground] Starting transition. New palette: \(newColors). Duration: \(transitionDuration)s")
+                withAnimation(.linear(duration: transitionDuration)) {
+                    selectedColors = newColors
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + transitionDuration) {
+                    print("[AnimatedGradientBackground] Transition completed. Next update in \(idleDuration)s")
                 }
             }
         }
         .onDisappear {
+            print("[AnimatedGradientBackground] View disappeared. Invalidating timer.")
             timer?.invalidate()
             timer = nil
         }

@@ -23,6 +23,55 @@
     "🇷🇺" : {
 
     },
+    "10" : {
+
+    },
+    "added_to_favorites" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Added to favorites"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавлено в избранное"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagt till i favoriter"
+          }
+        }
+      }
+    },
+    "all_words_completed_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🎉 All words completed!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🎉 Все слова выучены!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🎉 Alla ord är inlärda!"
+          }
+        }
+      }
+    },
     "category_all" : {
       "localizations" : {
         "en" : {
@@ -91,6 +140,117 @@
         }
       }
     },
+    "clear_alert_cancel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        }
+      }
+    },
+    "clear_alert_confirm" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa"
+          }
+        }
+      }
+    },
+    "clear_alert_message" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This action cannot be undone."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это действие нельзя отменить."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detta kan inte ångras."
+          }
+        }
+      }
+    },
+    "clear_alert_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear all words?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить все слова?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa alla ord?"
+          }
+        }
+      }
+    },
+    "clear_button_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa"
+          }
+        }
+      }
+    },
     "continue" : {
       "localizations" : {
         "en" : {
@@ -109,6 +269,162 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsätt"
+          }
+        }
+      }
+    },
+    "continue_button" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt"
+          }
+        }
+      }
+    },
+    "daily_goal_hint" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is the number of words you aim to learn daily."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это количество слов, которое вы хотите выучить каждый день."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detta är antalet ord du vill lära dig varje dag."
+          }
+        }
+      }
+    },
+    "daily_goal_prompt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How many words per day?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сколько слов в день вы хотите учить?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur många ord per dag vill du lära dig?"
+          }
+        }
+      }
+    },
+    "daily_goal_section_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DAILY GOAL"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ЕЖЕДНЕВНАЯ ЦЕЛЬ"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DAGLIGT MÅL"
+          }
+        }
+      }
+    },
+    "daily_progress_reset_success" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progress has been reset"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прогресс сброшен"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Framstegen har återställts"
+          }
+        }
+      }
+    },
+    "empty_word_list" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The list is empty"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Список пуст"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listan är tom"
+          }
+        }
+      }
+    },
+    "goal_completed_message" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Great job! Daily goal completed!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отлично! Цель на сегодня достигнута!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bra jobbat! Dagens mål är uppnått!"
           }
         }
       }
@@ -162,6 +478,52 @@
         }
       }
     },
+    "marked_as_ignored" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Will be hidden"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будет скрыто"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kommer att döljas"
+          }
+        }
+      }
+    },
+    "marked_as_known" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marked as learned"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмечено как выученное"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markerad som inlärd"
+          }
+        }
+      }
+    },
     "next_random_word" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -204,6 +566,117 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🎲 Slumpmässigt ord"
+          }
+        }
+      }
+    },
+    "removed_from_favorites" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Removed from favorites"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалено из избранного"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borttaget från favoriter"
+          }
+        }
+      }
+    },
+    "reset_daily_progress_cancel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        }
+      }
+    },
+    "reset_daily_progress_confirm" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ"
+          }
+        }
+      }
+    },
+    "reset_daily_progress_message" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to reset today's progress?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы уверены, что хотите сбросить прогресс за сегодня?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Är du säker på att du vill återställa dagens framsteg?"
+          }
+        }
+      }
+    },
+    "reset_daily_progress_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset Daily Progress"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить прогресс дня"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ daglig framsteg"
           }
         }
       }
@@ -254,6 +727,7 @@
       }
     },
     "settings_category_section" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -297,6 +771,74 @@
         }
       }
     },
+    "settings_edit_daily_goal" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit daily goal"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить дневную цель"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra dagligt mål"
+          }
+        }
+      }
+    },
+    "settings_favorite_words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorite words"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избранные слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritord"
+          }
+        }
+      }
+    },
+    "settings_ignored_words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidden words"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрытые слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolda ord"
+          }
+        }
+      }
+    },
     "settings_language_label" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -316,6 +858,51 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Språk"
+          }
+        }
+      }
+    },
+    "settings_learned_words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learned words"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выученные слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inlärda ord"
+          }
+        }
+      }
+    },
+    "settings_learning_section" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learning settings"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки изучения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar för inlärning"
           }
         }
       }
@@ -343,28 +930,26 @@
         }
       }
     },
-    "settings_learned_words" : {
-      "extractionState" : "manual",
+    "settings_reset_daily_progress" : {
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Learned words" }},
-        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Выученные слова" }},
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Inlärda ord" }}
-      }
-    },
-    "settings_favorite_words" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorite words" }},
-        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Избранные слова" }},
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Favoritord" }}
-      }
-    },
-    "settings_ignored_words" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hidden words" }},
-        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Скрытые слова" }},
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Dolda ord" }}
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset Daily Progress"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить прогресс дня"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ daglig framsteg"
+          }
+        }
       }
     },
     "settings_title" : {
@@ -549,90 +1134,55 @@
         }
       }
     },
-    "empty_word_list" : {
-      "extractionState" : "manual",
+    "words" : {
+
+    },
+    "words_learning_per_day" : {
+      "extractionState" : "stale",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "The list is empty" }},
-        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Список пуст" }},
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Listan är tom" }}
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "words to learn per day"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "слов для изучения в день"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ord att lära per dag"
+          }
+        }
       }
     },
-    "clear_button_title" : {
-      "extractionState" : "manual",
+    "words_per_day" : {
+      "extractionState" : "stale",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear" }},
-        "ru" : { "stringUnit" : { "state" : "translated", "value" : "Очистить" }},
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Rensa" }}
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "words per day"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "слов в день"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ord per dag"
+          }
+        }
       }
-    },
-  "marked_as_known" : {
-    "extractionState" : "manual",
-    "localizations" : {
-      "en" : { "stringUnit" : { "state" : "translated", "value" : "Marked as learned" }},
-      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Отмечено как выученное" }},
-      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Markerad som inlärd" }}
     }
-  },
-  "marked_as_ignored" : {
-    "extractionState" : "manual",
-    "localizations" : {
-      "en" : { "stringUnit" : { "state" : "translated", "value" : "Will be hidden" }},
-      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Будет скрыто" }},
-      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Kommer att döljas" }}
-    }
-  },
-  "removed_from_favorites" : {
-    "extractionState" : "manual",
-    "localizations" : {
-      "en" : { "stringUnit" : { "state" : "translated", "value" : "Removed from favorites" }},
-      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Удалено из избранного" }},
-      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Borttaget från favoriter" }}
-    }
-  },
-  "added_to_favorites" : {
-    "extractionState" : "manual",
-    "localizations" : {
-      "en" : { "stringUnit" : { "state" : "translated", "value" : "Added to favorites" }},
-      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Добавлено в избранное" }},
-      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Lagt till i favoriter" }}
-    }
-  },
-  "all_words_completed_title" : {
-    "extractionState" : "manual",
-    "localizations" : {
-      "en" : { "stringUnit" : { "state" : "translated", "value" : "🎉 All words completed!" }},
-      "ru" : { "stringUnit" : { "state" : "translated", "value" : "🎉 Все слова выучены!" }},
-      "sv" : { "stringUnit" : { "state" : "translated", "value" : "🎉 Alla ord är inlärda!" }}
-    }
-  },
-  "clear_alert_title" : {
-    "localizations" : {
-      "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear all words?" }},
-      "ru" : { "stringUnit" : { "state" : "translated", "value" : "Очистить все слова?" }},
-      "sv" : { "stringUnit" : { "state" : "translated", "value" : "Rensa alla ord?" }}
-    }
-  },
-  "clear_alert_message" : {
-    "localizations" : {
-      "en" : { "stringUnit" : {  "state" : "translated", "value" : "This action cannot be undone." }},
-      "ru" : { "stringUnit" : {  "state" : "translated", "value" : "Это действие нельзя отменить." }},
-      "sv" : { "stringUnit" : {  "state" : "translated", "value" : "Detta kan inte ångras." }}
-    }
-  },
-  "clear_alert_confirm" : {
-    "localizations" : {
-      "en" : { "stringUnit" : {  "state" : "translated", "value" : "Clear" }},
-      "ru" : { "stringUnit" : {  "state" : "translated", "value" : "Очистить" }},
-      "sv" : { "stringUnit" : {  "state" : "translated", "value" : "Rensa" }}
-    }
-  },
-  "clear_alert_cancel" : {
-    "localizations" : {
-      "en" : { "stringUnit" : {  "state" : "translated", "value" : "Cancel" }},
-      "ru" : { "stringUnit" : {  "state" : "translated", "value" : "Отмена" }},
-      "sv" : { "stringUnit" : {  "state" : "translated", "value" : "Avbryt" }}
-    }
-  }
   },
   "version" : "1.0"
 }
