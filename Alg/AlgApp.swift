@@ -10,6 +10,7 @@ import AVKit
 
 @main
 struct AlgApp: App {
+    @StateObject private var visualStyleManager = VisualStyleManager()
     @State private var showSplash = true
     @State private var selectedSplash: String? = nil
     @AppStorage("hasSelectedTranslationLanguage") private var hasSelectedLanguage = false
@@ -88,6 +89,7 @@ struct AlgApp: App {
     var body: some Scene {
         WindowGroup {
             rootView
+                .environmentObject(visualStyleManager)
         }
     }
 }

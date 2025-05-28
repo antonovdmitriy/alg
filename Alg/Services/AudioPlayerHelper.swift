@@ -25,6 +25,15 @@ struct AudioPlayerHelper {
     }
 
     static func playAudioFile(named fileName: String, categoryId: String) {
+        downloadIfNeeded(fileName: fileName, categoryId: categoryId) { localURL in
+            guard let localURL = localURL else { return }
+            DispatchQueue.main.async {
+                playLocalFile(from: localURL)
+            }
+        }
+    }
+
+    private static func downloadIfNeeded(fileName: String, categoryId: String, completion: ((URL?) -> Void)? = nil) {
         let sanitizedCategoryId = categoryId.lowercased()
         let fullFileName = fileName.replacingOccurrences(of: ".mp3", with: "") + ".mp3"
 
@@ -34,7 +43,7 @@ struct AudioPlayerHelper {
         let localURL = localDir.appendingPathComponent(fullFileName)
 
         if FileManager.default.fileExists(atPath: localURL.path) {
-            playLocalFile(from: localURL)
+            completion?(localURL)
             return
         }
 
@@ -42,14 +51,16 @@ struct AudioPlayerHelper {
         try? FileManager.default.createDirectory(at: localDir, withIntermediateDirectories: true)
 
         URLSession.shared.downloadTask(with: remoteURL) { tempURL, _, error in
-            guard let tempURL = tempURL, error == nil else { return }
+            guard let tempURL = tempURL, error == nil else {
+                completion?(nil)
+                return
+            }
             do {
                 try FileManager.default.moveItem(at: tempURL, to: localURL)
-                DispatchQueue.main.async {
-                    playLocalFile(from: localURL)
-                }
+                completion?(localURL)
             } catch {
                 print("❌ Ошибка сохранения файла: \(error)")
+                completion?(nil)
             }
         }.resume()
     }
@@ -77,5 +88,10 @@ struct AudioPlayerHelper {
             player?.stop()
             player = nil
         }
+    }
+    
+    static func prefetchAudio(categoryId: String, entryId: UUID) {
+        let fileName = "\(entryId.uuidString.lowercased()).mp3"
+        downloadIfNeeded(fileName: fileName, categoryId: categoryId)
     }
 }
