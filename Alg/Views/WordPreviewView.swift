@@ -122,16 +122,17 @@ struct WordPreviewView: View {
                     }
                 }()
                 Text(overrideText ?? entry.word)
-                    .font(.system(size: 34, weight: .medium))
+                    .font(.system(size: 34, weight: .regular))
                     .foregroundColor(
-                        (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
-                        ? .black
-                        : .white
+                        UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground
+                            ? .black
+                            : .primary
                     )
                     .padding(.horizontal, 16)
                     .padding(.vertical, 10)
                     .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
-                    .scaleEffect(1.05)
+                    .id(overrideText ?? entry.word)
+                    .animation(nil, value: overrideText ?? entry.word)
 
                 Spacer()
             }
