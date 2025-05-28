@@ -119,18 +119,26 @@ struct WordPreviewView: View {
                 ZStack {
                     let word = overrideText ?? entry.word
                     if !word.isEmpty {
-                        Text(word)
-                            .font(.system(size: 34, weight: .regular))
-                            .foregroundColor(
-                                UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground
-                                    ? .black
-                                    : .primary
-                            )
-                            .padding(.horizontal, 16)
-                            .padding(.vertical, 10)
-                            .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
-                            .transition(.opacity.combined(with: .scale))
-                            .id(entry.id)
+                        if (UITraitCollection.current.userInterfaceStyle == .dark) ||
+                           (UITraitCollection.current.userInterfaceStyle == .light && !useSolidColorBackground) {
+                            Text(word)
+                                .font(.largeTitle)
+                                .foregroundColor(.white)
+                                .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
+                                .scaleEffect(1.1)
+                                .padding(.horizontal, 24)
+                                .transition(.opacity.combined(with: .scale))
+                                .id(entry.id)
+                        } else {
+                            Text(word)
+                                .font(.system(size: 34, weight: .regular))
+                                .foregroundColor(.primary)
+                                .padding(.horizontal, 16)
+                                .padding(.vertical, 10)
+                                .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
+                                .transition(.opacity.combined(with: .scale))
+                                .id(entry.id)
+                        }
                     }
                 }
                 .animation(.easeInOut(duration: 0.35), value: entry.id)
