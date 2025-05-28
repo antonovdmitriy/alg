@@ -37,8 +37,8 @@ struct RandomWordView: View {
                 entry: currentEntry,
                 categoryId: currentCategoryId.uuidString.lowercased(),
                 overrideText: .constant(showGoalCelebration ? NSLocalizedString("goal_completed_message", comment: "") : nil)
-            )
-                .edgesIgnoringSafeArea(.all)
+                    )
+                    .edgesIgnoringSafeArea(.all)
             
             if showTabBar && !showGoalVideo {
                 Image(systemName: "chevron.compact.up")

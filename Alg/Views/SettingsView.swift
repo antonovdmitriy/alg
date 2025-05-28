@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @EnvironmentObject var visualStyleManager: VisualStyleManager
     let categories: [Category]
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @State private var showResetConfirmation = false
@@ -45,6 +46,9 @@ struct SettingsView: View {
                             secondaryButton: .cancel(Text("reset_daily_progress_cancel"))
                         )
                     }
+            }
+            Section(header: Text("settings_visual_section")) {
+                Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
             }
             Section(header: Text("settings_my_words_section")) {
                 NavigationLink(destination: LearnedWordsView(categories: categories)) {
