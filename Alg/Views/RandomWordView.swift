@@ -9,6 +9,8 @@ struct RandomWordView: View {
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
+    @State private var nextPrefetchedEntry: WordEntry?
+    @State private var nextPrefetchedCategoryId: UUID?
     @State private var showCard = false
     @State private var entryHistory: [(WordEntry, UUID)] = []
     @State private var lastTapDate = Date.distantPast
@@ -207,6 +209,13 @@ struct RandomWordView: View {
                 let (randomEntry, randomCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
                 currentEntry = randomEntry
                 currentCategoryId = randomCategoryId
+                // Prefetch next word
+                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+                nextPrefetchedEntry = prefetchedEntry
+                nextPrefetchedCategoryId = prefetchedCategoryId
+                DispatchQueue.global(qos: .utility).async {
+                    AudioPlayerHelper.prefetchAudio(categoryId: prefetchedCategoryId.uuidString, entryId: prefetchedEntry.id)
+                }
             }
             AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
         }
@@ -300,14 +309,29 @@ struct RandomWordView: View {
     private func proceedToNextWord() {
         LearningGoalManager.shared.incrementProgress()
         entryHistory.append((currentEntry, currentCategoryId))
-        let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-        let (newEntry, newCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
-        currentEntry = newEntry
-        currentCategoryId = newCategoryId
-        AudioPlayerHelper.playAudio(categoryId: newCategoryId.uuidString, entryId: newEntry.id)
+
+        if let next = nextPrefetchedEntry, let nextId = nextPrefetchedCategoryId {
+            currentEntry = next
+            currentCategoryId = nextId
+            print("🔊 Playing audio for word: \(next.word), category ID: \(nextId)")
+            AudioPlayerHelper.playAudio(categoryId: nextId.uuidString, entryId: next.id)
+        }
+
+        // Prefetch next word asynchronously
         DispatchQueue.global(qos: .utility).async {
-            let (nextEntry, nextCatId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
-            AudioPlayerHelper.prefetchAudio(categoryId: nextCatId.uuidString, entryId: nextEntry.id)
+            print("🔄 Prefetching next word...")
+            let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+
+            print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
+            AudioPlayerHelper.prefetchAudio(categoryId: prefetchedCategoryId.uuidString, entryId: prefetchedEntry.id)
+            print("✅ Audio prefetch completed (or started) for: \(prefetchedEntry.word)")
+
+            DispatchQueue.main.async {
+                print("✅ Prefetched word: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
+                nextPrefetchedEntry = prefetchedEntry
+                nextPrefetchedCategoryId = prefetchedCategoryId
+            }
         }
     }
     
