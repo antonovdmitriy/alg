@@ -47,9 +47,6 @@ struct SettingsView: View {
                         )
                     }
             }
-            Section(header: Text("settings_visual_section")) {
-                Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
-            }
             Section(header: Text("settings_my_words_section")) {
                 NavigationLink(destination: LearnedWordsView(categories: categories)) {
                     Label("settings_learned_words", systemImage: "checkmark")
@@ -60,6 +57,9 @@ struct SettingsView: View {
                 NavigationLink(destination: IgnoredWordsView(categories: categories)) {
                     Label("settings_ignored_words", systemImage: "nosign")
                 }
+            }
+            Section(header: Text("settings_visual_section")) {
+                Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
             }
         }
         .navigationTitle("settings_title")

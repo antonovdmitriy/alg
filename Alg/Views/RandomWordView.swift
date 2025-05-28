@@ -40,7 +40,7 @@ struct RandomWordView: View {
                     )
                     .edgesIgnoringSafeArea(.all)
             
-            if showTabBar && !showGoalVideo {
+            if !showTabBar && !showGoalVideo && !showGoalCelebration {
                 Image(systemName: "chevron.compact.up")
                     .font(.system(size: 28, weight: .semibold))
                     .foregroundColor(.white.opacity(0.6))
