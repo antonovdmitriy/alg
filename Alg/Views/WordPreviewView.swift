@@ -15,16 +15,10 @@ struct WordPreviewView: View {
     @State private var uiImage: UIImage? = nil
     @State private var isLoading = false
     @EnvironmentObject var visualStyleManager: VisualStyleManager
+    @State private var wordTransition = false
 
     var body: some View {
         let useSolidColorBackground = visualStyleManager.useSolidColorBackground
-        let backgroundColor: Color = {
-            if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
-                return Color.black.opacity(0.025)
-            } else {
-                return Color.clear
-            }
-        }()
 
         ZStack {
             if UITraitCollection.current.userInterfaceStyle == .dark {
@@ -121,18 +115,24 @@ struct WordPreviewView: View {
                         return .black.opacity(0.7)
                     }
                 }()
-                Text(overrideText ?? entry.word)
-                    .font(.system(size: 34, weight: .regular))
-                    .foregroundColor(
-                        UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground
-                            ? .black
-                            : .primary
-                    )
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 10)
-                    .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
-                    .id(overrideText ?? entry.word)
-                    .animation(nil, value: overrideText ?? entry.word)
+
+                ZStack {
+                    let word = overrideText ?? entry.word
+                    if !word.isEmpty {
+                        Text(word)
+                            .font(.system(size: 34, weight: .regular))
+                            .foregroundColor(
+                                UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground
+                                    ? .black
+                                    : .primary
+                            )
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 10)
+                            .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
+                            .id(entry.id)
+                    }
+                }
+                // Transition and animation removed for instant word change
 
                 Spacer()
             }

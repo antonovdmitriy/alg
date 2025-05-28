@@ -299,13 +299,15 @@ struct RandomWordView: View {
     
     private func proceedToNextWord() {
         LearningGoalManager.shared.incrementProgress()
-        withAnimation {
-            entryHistory.append((currentEntry, currentCategoryId))
-            let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-            let (newEntry, newCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
-            currentEntry = newEntry
-            currentCategoryId = newCategoryId
-            AudioPlayerHelper.playAudio(categoryId: newCategoryId.uuidString, entryId: newEntry.id)
+        entryHistory.append((currentEntry, currentCategoryId))
+        let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+        let (newEntry, newCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+        currentEntry = newEntry
+        currentCategoryId = newCategoryId
+        AudioPlayerHelper.playAudio(categoryId: newCategoryId.uuidString, entryId: newEntry.id)
+        DispatchQueue.global(qos: .utility).async {
+            let (nextEntry, nextCatId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+            AudioPlayerHelper.prefetchAudio(categoryId: nextCatId.uuidString, entryId: nextEntry.id)
         }
     }
     
