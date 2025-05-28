@@ -129,10 +129,11 @@ struct WordPreviewView: View {
                             .padding(.horizontal, 16)
                             .padding(.vertical, 10)
                             .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
+                            .transition(.opacity.combined(with: .scale))
                             .id(entry.id)
                     }
                 }
-                // Transition and animation removed for instant word change
+                .animation(.easeInOut(duration: 0.35), value: entry.id)
 
                 Spacer()
             }
