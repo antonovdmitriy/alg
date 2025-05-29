@@ -11,9 +11,7 @@ import SwiftUI
 struct CategorySelectionView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.locale) private var locale
-    let availableCategories: [Category]
 
-    
     let tileColors: [Color] = [
         .red.opacity(0.2),
         .green.opacity(0.2),
@@ -33,6 +31,12 @@ struct CategorySelectionView: View {
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
     @Environment(\.colorScheme) var colorScheme
+
+    let availableCategories: [Category]
+
+    init(wordService: WordService) {
+        self.availableCategories = wordService.allCategories()
+    }
 
     var body: some View {
         VStack(spacing: 24) {

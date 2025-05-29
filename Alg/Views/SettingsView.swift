@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var visualStyleManager: VisualStyleManager
-    let categories: [Category]
+    let wordService: WordService
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
@@ -25,7 +25,7 @@ struct SettingsView: View {
                 .pickerStyle(SegmentedPickerStyle())
             }
             Section(header: Text("settings_learning_section")) {
-                NavigationLink(destination: CategorySelectionView(availableCategories: categories)) {
+                NavigationLink(destination: CategorySelectionView(wordService: wordService)) {
                     Text("settings_edit_categories")
                 }
                 NavigationLink(destination: DailyGoalSelectionView(allowsDismiss: true, onGoalSelected: {})) {
@@ -48,13 +48,13 @@ struct SettingsView: View {
                     }
             }
             Section(header: Text("settings_my_words_section")) {
-                NavigationLink(destination: LearnedWordsView(categories: categories)) {
+                NavigationLink(destination: LearnedWordsView(wordService: wordService)) {
                     Label("settings_learned_words", systemImage: "checkmark")
                 }
-                NavigationLink(destination: FavoriteWordsView(categories: categories)) {
+                NavigationLink(destination: FavoriteWordsView(wordService: wordService)) {
                     Label("settings_favorite_words", systemImage: "star")
                 }
-                NavigationLink(destination: IgnoredWordsView(categories: categories)) {
+                NavigationLink(destination: IgnoredWordsView(wordService: wordService)) {
                     Label("settings_ignored_words", systemImage: "nosign")
                 }
             }
@@ -88,7 +88,7 @@ struct SettingsView: View {
 }
 
 struct LearnedWordsView: View {
-    let categories: [Category]
+    let wordService: WordService
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -107,17 +107,17 @@ struct LearnedWordsView: View {
             }
         )
         .onAppear {
-            words = categories.flatMap { category in
-                category.entries
-                    .filter { WordLearningStateManager.shared.knownWords.contains($0.id) }
-                    .map { ($0, category.id) }
+            //TODO: rewrite when there will be index.
+            words = wordService.allWords().compactMap { entry in
+                let id = entry.id
+                return WordLearningStateManager.shared.knownWords.contains(id) ? (entry, id) : nil
             }
         }
     }
 }
 
 struct FavoriteWordsView: View {
-    let categories: [Category]
+    let wordService: WordService
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -134,17 +134,17 @@ struct FavoriteWordsView: View {
             }
         )
         .onAppear {
-            words = categories.flatMap { category in
-                category.entries
-                    .filter { WordLearningStateManager.shared.favoriteWords.contains($0.id) }
-                    .map { ($0, category.id) }
+            //TODO: rewrite when there will be index.
+            words = wordService.allWords().compactMap { entry in
+                let id = entry.id
+                return WordLearningStateManager.shared.favoriteWords.contains(id) ? (entry, id) : nil
             }
         }
     }
 }
 
 struct IgnoredWordsView: View {
-    let categories: [Category]
+    let wordService: WordService
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -163,10 +163,10 @@ struct IgnoredWordsView: View {
             }
         )
         .onAppear {
-            words = categories.flatMap { category in
-                category.entries
-                    .filter { WordLearningStateManager.shared.ignoredWords.contains($0.id) }
-                    .map { ($0, category.id) }
+            //TODO: rewrite when there will be index.
+            words = wordService.allWords().compactMap { entry in
+                let id = entry.id
+                return WordLearningStateManager.shared.ignoredWords.contains(id) ? (entry, id) : nil
             }
         }
     }

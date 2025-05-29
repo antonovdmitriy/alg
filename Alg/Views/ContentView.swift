@@ -1,13 +1,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let wordService: WordService
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    let categories: [Category]
     @State private var showTabBar = false
     @Environment(\.locale) private var locale
 
-    init(categories: [Category]) {
-        self.categories = categories
+    init(wordService: WordService) {
+        self.wordService = wordService
 
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
@@ -20,7 +20,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
-                RandomWordView(categories: categories, showTabBar: $showTabBar)
+                RandomWordView(showTabBar: $showTabBar, wordService: wordService)
             }
             .onAppear {
                 AudioPlayerHelper.stop()
@@ -31,7 +31,7 @@ struct ContentView: View {
 
             NavigationView {
                 List {
-                    ForEach(categories) { category in
+                    ForEach(wordService.allCategories()) { category in
                         NavigationLink(destination: WordListView(category: category)) {
                             Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
                         }
@@ -47,7 +47,7 @@ struct ContentView: View {
             }
 
             NavigationView {
-                SettingsView(categories: categories)
+                SettingsView(wordService: wordService)
             }
             .onAppear {
                 AudioPlayerHelper.stop()
