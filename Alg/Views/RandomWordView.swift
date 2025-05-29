@@ -233,9 +233,11 @@ struct RandomWordView: View {
                 }
         )
         .sheet(isPresented: $showCard) {
-            WordCardView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased(), onClose: {
-                showCard = false
-            })
+            WordCardView(
+                entry: currentEntry,
+                categoryId: currentCategoryId.uuidString.lowercased(),
+                wordService: wordService,
+            )
         }
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)

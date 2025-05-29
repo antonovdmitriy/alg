@@ -32,7 +32,7 @@ struct ContentView: View {
             NavigationView {
                 List {
                     ForEach(wordService.allCategories()) { category in
-                        NavigationLink(destination: WordListView(category: category)) {
+                        NavigationLink(destination: WordListView(category: category, wordService: wordService)) {
                             Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
                         }
                     }

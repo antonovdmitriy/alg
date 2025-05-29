@@ -104,7 +104,8 @@ struct LearnedWordsView: View {
             onClear: {
                 WordLearningStateManager.shared.knownWords = []
                 words = []
-            }
+            },
+            wordService: wordService
         )
         .onAppear {
             //TODO: rewrite when there will be index.
@@ -131,7 +132,8 @@ struct FavoriteWordsView: View {
             onClear: {
                 WordLearningStateManager.shared.favoriteWords = []
                 words = []
-            }
+            },
+            wordService: wordService
         )
         .onAppear {
             //TODO: rewrite when there will be index.
@@ -160,7 +162,8 @@ struct IgnoredWordsView: View {
             onClear: {
                 WordLearningStateManager.shared.ignoredWords = []
                 words = []
-            }
+            },
+            wordService: wordService
         )
         .onAppear {
             //TODO: rewrite when there will be index.
