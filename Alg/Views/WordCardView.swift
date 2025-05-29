@@ -1,12 +1,43 @@
 import SwiftUI
-import AVFoundation
-import CryptoKit
+import WebKit
 
 struct WordCardView: View {
+    @State private var webViewHeight: CGFloat = 100
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService
+
+    func generateHTML(from text: String) -> String {
+        let words = text.components(separatedBy: .whitespaces)
+        let rendered = words.map { word -> String in
+            let clean = word.trimmingCharacters(in: .punctuationCharacters)
+            let ids = wordService.idsByWord(clean)
+            if let id = ids.first, let entry = wordService.wordById(id) {
+                print("Resolved word: \(entry.word)")
+                return "<a href=\"app-word://\(clean)\">\(word)</a>"
+            } else {
+                return word
+            }
+        }.joined(separator: " ")
+
+        return """
+        <html>
+        <head>
+        <style>
+          body {
+            font-family: -apple-system;
+            font-size: 28px;
+            color: rgba(255,255,255,0.87);
+            background: transparent;
+          }
+          a { color: #007AFF; text-decoration: none; }
+        </style>
+        </head>
+        <body>\(rendered)</body>
+        </html>
+        """
+    }
     
     var body: some View {
         ZStack {
@@ -55,23 +86,17 @@ struct WordCardView: View {
                     Text("word_examples")
                         .font(.headline)
 
-                    ForEach(entry.examples.indices, id: \.self) { i in
-                        let example = entry.examples[i]
-                        HStack(alignment: .top) {
-                            Text("• \(example)")
-                                .multilineTextAlignment(.leading)
+                    let combinedExamples = entry.examples.joined(separator: "<br/><br/>")
+                    let html = generateHTML(from: combinedExamples)
 
-                            Spacer()
-
-                            Button(action: {
-                                playExampleAudio(exampleText: example, index: i + 1)
-                            }) {
-                                Image(systemName: "speaker.wave.2.fill")
-                                    .foregroundColor(.blue)
-                            }
-                            .buttonStyle(.plain)
-                        }
-                    }
+                    WordExampleWebView(
+                        html: html,
+                        onWordTapped: { word in
+                            print("Tapped word: \(word)")
+                        },
+                        contentHeight: $webViewHeight
+                    )
+                    .frame(height: webViewHeight)
                 }
                 .padding(.bottom, 40)
                 .padding()
