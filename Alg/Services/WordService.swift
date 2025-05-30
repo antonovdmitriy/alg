@@ -28,4 +28,10 @@ class WordService {
     func idsByWord(_ word: String) -> [UUID] {
         provider.idsByWord(word) ?? []
     }
+ 
+    func wordsByString(_ word: String) -> [WordEntry] {
+        let ids = idsByWord(word)
+        return ids.compactMap { wordById($0) }
+    }
+    
 }

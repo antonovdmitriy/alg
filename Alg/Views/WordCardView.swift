@@ -57,20 +57,20 @@ struct WordCardView: View {
 
                     ForEach(entry.examples.indices, id: \.self) { i in
                         let example = entry.examples[i]
-                        HStack(alignment: .top) {
-                            Text("• \(example)")
-                                .multilineTextAlignment(.leading)
 
-                            Spacer()
+                        TappableText(
+                            text: example,
+                            tappables: extractTappables(from: example),
+                            font: UIFont.systemFont(ofSize: 20)
+                        )
 
-                            Button(action: {
-                                playExampleAudio(exampleText: example, index: i + 1)
-                            }) {
-                                Image(systemName: "speaker.wave.2.fill")
-                                    .foregroundColor(.blue)
-                            }
-                            .buttonStyle(.plain)
+                        Button(action: {
+                            playExampleAudio(exampleText: example, index: i + 1)
+                        }) {
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(.blue)
                         }
+                        .buttonStyle(.plain)
                     }
                 }
                 .padding(.bottom, 40)
@@ -93,5 +93,21 @@ struct WordCardView: View {
         text
             .replacingOccurrences(of: ",", with: "")
             .replacingOccurrences(of: " ", with: "_")
+    }
+    
+    func extractTappables(from text: String) -> [String: () -> Void] {
+        var tappables: [String: () -> Void] = [:]
+        let components = text.split(separator: " ").map(String.init)
+
+        for word in components {
+            let ids = wordService.idsByWord(word)
+            if !ids.isEmpty {
+                tappables[word] = {
+                    print("Tapped word with ID: \(word)")
+                }
+            }
+        }
+
+        return tappables
     }
 }
