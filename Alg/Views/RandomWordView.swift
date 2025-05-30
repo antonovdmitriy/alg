@@ -4,7 +4,7 @@ import AVFoundation
 
 struct RandomWordView: View {
     @Binding var showTabBar: Bool
-    let categories: [Category]
+    private let wordService: WordService
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
@@ -19,9 +19,9 @@ struct RandomWordView: View {
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
     
-    init(categories: [Category], showTabBar: Binding<Bool>) {
-        self.categories = categories
+    init(showTabBar: Binding<Bool>, wordService: WordService) {
         self._showTabBar = showTabBar
+        self.wordService = wordService
         _currentCategoryId = State(initialValue: UUID())
         _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: []))
     }
@@ -206,11 +206,11 @@ struct RandomWordView: View {
             showTabBar = false
             if currentEntry.word.isEmpty {
                 let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-                let (randomEntry, randomCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+                let (randomEntry, randomCategoryId) = Self.pickRandomEntry(wordService: wordService, selectedCategoryIds: selectedIds)
                 currentEntry = randomEntry
                 currentCategoryId = randomCategoryId
                 // Prefetch next word
-                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, selectedCategoryIds: selectedIds)
                 nextPrefetchedEntry = prefetchedEntry
                 nextPrefetchedCategoryId = prefetchedCategoryId
                 DispatchQueue.global(qos: .utility).async {
@@ -233,15 +233,18 @@ struct RandomWordView: View {
                 }
         )
         .sheet(isPresented: $showCard) {
-            WordCardView(entry: currentEntry, categoryId: currentCategoryId.uuidString.lowercased(), onClose: {
-                showCard = false
-            })
+            WordCardView(
+                entry: currentEntry,
+                categoryId: currentCategoryId.uuidString.lowercased(),
+                wordService: wordService,
+            )
         }
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
     }
     
-    private static func pickRandomEntry(from categories: [Category], selectedCategoryIds: [UUID]) -> (WordEntry, UUID) {
+    private static func pickRandomEntry(wordService: WordService, selectedCategoryIds: [UUID]) -> (WordEntry, UUID) {
+        let categories = wordService.allCategories()
         let useAll = selectedCategoryIds.contains(Category.allCategoryId)
         let otherIds = selectedCategoryIds.filter { $0 != Category.allCategoryId }
         
@@ -321,7 +324,7 @@ struct RandomWordView: View {
         DispatchQueue.global(qos: .utility).async {
             print("🔄 Prefetching next word...")
             let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(from: categories, selectedCategoryIds: selectedIds)
+            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, selectedCategoryIds: selectedIds)
 
             print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
             AudioPlayerHelper.prefetchAudio(categoryId: prefetchedCategoryId.uuidString, entryId: prefetchedEntry.id)

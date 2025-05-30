@@ -952,6 +952,28 @@
         }
       }
     },
+    "settings_solid_color_background" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use calm solid colors"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спокойные сплошные цвета"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd lugna enfärgade bakgrunder"
+          }
+        }
+      }
+    },
     "settings_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -994,6 +1016,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Översättningsspråk"
+          }
+        }
+      }
+    },
+    "settings_visual_section" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visual appearance"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Визуальное оформление"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visuellt utseende"
           }
         }
       }
@@ -1156,50 +1200,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ord att lära per dag"
-          }
-        }
-      }
-    },
-    "settings_visual_section" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Visual appearance"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Визуальное оформление"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Visuellt utseende"
-          }
-        }
-      }
-    },
-    "settings_solid_color_background" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Use calm solid colors"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Спокойные сплошные цвета"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Använd lugna enfärgade bakgrunder"
           }
         }
       }

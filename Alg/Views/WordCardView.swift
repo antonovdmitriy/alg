@@ -6,8 +6,8 @@ struct WordCardView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let entry: WordEntry
     let categoryId: String
-    var onClose: () -> Void
-
+    let wordService: WordService
+    
     var body: some View {
         ZStack {
             ScrollView {
