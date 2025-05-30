@@ -34,4 +34,7 @@ class WordService {
         return ids.compactMap { wordById($0) }
     }
     
+    func categoryIdByWordId(_ id: UUID) -> UUID? {
+        return provider.categoryIdByWordId(id)
+    }
 }

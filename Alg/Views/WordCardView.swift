@@ -7,6 +7,10 @@ struct WordCardView: View {
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService
+
+    @State private var selectedEntry: WordEntry? = nil
+    @State private var multipleEntries: [WordEntry] = []
+    @State private var showingSelectionSheet = false
     
     var body: some View {
         ZStack {
@@ -75,6 +79,18 @@ struct WordCardView: View {
                 }
                 .padding(.bottom, 40)
                 .padding()
+                .sheet(item: $selectedEntry) { entry in
+                    if let categoryId = wordService.categoryIdByWordId(entry.id) {
+                        WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService)
+                    }
+                }
+                .confirmationDialog("Выберите слово", isPresented: $showingSelectionSheet, titleVisibility: .visible) {
+                    ForEach(multipleEntries, id: \.id) { entry in
+                        Button(entry.word) {
+                            selectedEntry = entry
+                        }
+                    }
+                }
             }
 
         }
@@ -100,10 +116,15 @@ struct WordCardView: View {
         let components = text.split(separator: " ").map(String.init)
 
         for word in components {
-            let ids = wordService.idsByWord(word)
-            if !ids.isEmpty {
+            let entries = wordService.wordsByString(word)
+            if entries.count == 1 {
                 tappables[word] = {
-                    print("Tapped word with ID: \(word)")
+                    selectedEntry = entries[0]
+                }
+            } else if entries.count > 1 {
+                tappables[word] = {
+                    multipleEntries = entries
+                    showingSelectionSheet = true
                 }
             }
         }

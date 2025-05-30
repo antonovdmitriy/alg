@@ -13,6 +13,7 @@ protocol WordProvider {
     func allCategories() -> [Category]
     func wordById(_ id: UUID) -> WordEntry?
     func idsByWord(_ form: String) -> [UUID]?
+    func categoryIdByWordId(_ id: UUID) -> UUID?
 }
 
 class LocalJSONWordProvider: WordProvider {
@@ -21,6 +22,7 @@ class LocalJSONWordProvider: WordProvider {
     private var categories: [Category] = []
     private var wordByIdIndex: [UUID: WordEntry] = [:]
     private var formToIdIndex: [String: [UUID]] = [:]
+    private var categoryIdByWordId: [UUID: UUID] = [:]
 
     init(jsonPath: String) {
         self.jsonPath = jsonPath
@@ -34,6 +36,11 @@ class LocalJSONWordProvider: WordProvider {
             result[entry.word, default: []].append(entry.id)
             for form in entry.forms ?? [] {
                 result[form, default: []].append(entry.id)
+            }
+        }
+        self.categoryIdByWordId = categories.reduce(into: [:]) { result, category in
+            for entry in category.entries {
+                result[entry.id] = category.id
             }
         }
     }
@@ -62,4 +69,9 @@ class LocalJSONWordProvider: WordProvider {
     func wordById(_ id: UUID) -> WordEntry? {
         wordByIdIndex[id]
     }
+    
+    func categoryIdByWordId(_ id: UUID) -> UUID? {
+        categoryIdByWordId[id]
+    }
+    
 }
