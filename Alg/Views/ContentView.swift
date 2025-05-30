@@ -4,7 +4,9 @@ struct ContentView: View {
     let wordService: WordService
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @State private var showTabBar = false
+    @State private var selectedTab: Int = 0
     @Environment(\.locale) private var locale
+    @ObservedObject private var goalManager = LearningGoalManager.shared
 
     init(wordService: WordService) {
         self.wordService = wordService
@@ -19,7 +21,7 @@ struct ContentView: View {
 
     var body: some View {
         ZStack(alignment: .bottom) {
-            TabView {
+            TabView(selection: $selectedTab) {
                 NavigationView {
                     RandomWordView(showTabBar: $showTabBar, wordService: wordService)
                 }
@@ -29,6 +31,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "shuffle")
                 }
+                .tag(0)
 
                 NavigationView {
                     List {
@@ -46,6 +49,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "book")
                 }
+                .tag(1)
 
                 NavigationView {
                     SettingsView(wordService: wordService)
@@ -56,17 +60,18 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "gearshape")
                 }
+                .tag(2)
             }
-            Rectangle()
-                .fill(Color.green)
-                .frame(height: 4)
-                .offset(y: showTabBar ? 0 : 100)
-                .opacity(showTabBar ? 1 : 0)
-                .padding(.bottom, 48)
-                .allowsHitTesting(false)
-                .animation(.easeInOut(duration: 0.3), value: showTabBar)
+            
+            DailyProgressBar(goalManager: goalManager, showTabBar: showTabBar, isVisible: showTabBar && selectedTab == 0 && goalManager.dailyGoal > 0)
         }
         .animation(.easeInOut(duration: 0.3), value: showTabBar)
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
+        .onAppear {
+            goalManager.resetIfNewDay()
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
+            goalManager.resetIfNewDay()
+        }
     }
 }

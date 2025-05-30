@@ -9,12 +9,16 @@
 import Foundation
 import SwiftUI
 
-class LearningGoalManager {
+class LearningGoalManager: ObservableObject {
     static let shared = LearningGoalManager()
 
     @AppStorage("dailyGoal") var dailyGoal: Int = 10
     @AppStorage("lastProgressDate") var lastDate: String = ""
-    @AppStorage("wordsLearnedToday") var learnedToday: Int = 0
+    @AppStorage("wordsLearnedToday") var learnedToday: Int = 0 {
+        didSet {
+            objectWillChange.send()
+        }
+    }
     @AppStorage("goalAnimationShownDate") var goalAnimationShownDate: String = ""
 
     private var currentDateString: String {
