@@ -84,9 +84,9 @@ struct WordCardView: View {
                         WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService)
                     }
                 }
-                .confirmationDialog("Выберите слово", isPresented: $showingSelectionSheet, titleVisibility: .visible) {
+                .confirmationDialog("choose_word_title", isPresented: $showingSelectionSheet, titleVisibility: .visible) {
                     ForEach(multipleEntries, id: \.id) { entry in
-                        Button(entry.word) {
+                        Button("\(entry.word) – \(retrieveTranslation(from: entry.translations, lang: selectedLanguage))") {
                             selectedEntry = entry
                         }
                     }

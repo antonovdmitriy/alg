@@ -87,22 +87,23 @@ struct TappableText: View {
         var occupied = Set<String.Index>()
 
         for (word, action) in tappables {
-            var searchStart = text.startIndex
+            let pattern = "\\b" + NSRegularExpression.escapedPattern(for: word) + "\\b"
+            if let regex = try? NSRegularExpression(pattern: pattern, options: []) {
+                let nsText = text as NSString
+                let matchesInText = regex.matches(in: text, range: NSRange(location: 0, length: nsText.length))
 
-            while searchStart < text.endIndex,
-                  let range = text.range(of: word, range: searchStart..<text.endIndex) {
-
-                // Проверяем, не перекрывается ли этот диапазон с уже занятыми символами
-                if !occupied.contains(where: { range.contains($0) }) {
-                    ranges[range] = action
-                    var index = range.lowerBound
-                    while index < range.upperBound {
-                        occupied.insert(index)
-                        index = text.index(after: index)
+                for match in matchesInText {
+                    let range = match.range
+                    if let swiftRange = Range(range, in: text),
+                       !occupied.contains(where: { swiftRange.contains($0) }) {
+                        ranges[swiftRange] = action
+                        var index = swiftRange.lowerBound
+                        while index < swiftRange.upperBound {
+                            occupied.insert(index)
+                            index = text.index(after: index)
+                        }
                     }
                 }
-
-                searchStart = range.upperBound
             }
         }
 
