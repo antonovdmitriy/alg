@@ -7,6 +7,10 @@ struct WordCardView: View {
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService
+
+    @State private var selectedEntry: WordEntry? = nil
+    @State private var multipleEntries: [WordEntry] = []
+    @State private var showingSelectionSheet = false
     
     var body: some View {
         ZStack {
@@ -57,24 +61,36 @@ struct WordCardView: View {
 
                     ForEach(entry.examples.indices, id: \.self) { i in
                         let example = entry.examples[i]
-                        HStack(alignment: .top) {
-                            Text("• \(example)")
-                                .multilineTextAlignment(.leading)
 
-                            Spacer()
+                        TappableText(
+                            text: example,
+                            tappables: extractTappables(from: example),
+                            font: UIFont.systemFont(ofSize: 20)
+                        )
 
-                            Button(action: {
-                                playExampleAudio(exampleText: example, index: i + 1)
-                            }) {
-                                Image(systemName: "speaker.wave.2.fill")
-                                    .foregroundColor(.blue)
-                            }
-                            .buttonStyle(.plain)
+                        Button(action: {
+                            playExampleAudio(exampleText: example, index: i + 1)
+                        }) {
+                            Image(systemName: "speaker.wave.2.fill")
+                                .foregroundColor(.blue)
                         }
+                        .buttonStyle(.plain)
                     }
                 }
                 .padding(.bottom, 40)
                 .padding()
+                .sheet(item: $selectedEntry) { entry in
+                    if let categoryId = wordService.categoryIdByWordId(entry.id) {
+                        WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService)
+                    }
+                }
+                .confirmationDialog("choose_word_title", isPresented: $showingSelectionSheet, titleVisibility: .visible) {
+                    ForEach(multipleEntries, id: \.id) { entry in
+                        Button("\(entry.word) – \(retrieveTranslation(from: entry.translations, lang: selectedLanguage))") {
+                            selectedEntry = entry
+                        }
+                    }
+                }
             }
 
         }
@@ -93,5 +109,26 @@ struct WordCardView: View {
         text
             .replacingOccurrences(of: ",", with: "")
             .replacingOccurrences(of: " ", with: "_")
+    }
+    
+    func extractTappables(from text: String) -> [String: () -> Void] {
+        var tappables: [String: () -> Void] = [:]
+        let components = text.split(separator: " ").map(String.init)
+
+        for word in components {
+            let entries = wordService.wordsByString(word)
+            if entries.count == 1 {
+                tappables[word] = {
+                    selectedEntry = entries[0]
+                }
+            } else if entries.count > 1 {
+                tappables[word] = {
+                    multipleEntries = entries
+                    showingSelectionSheet = true
+                }
+            }
+        }
+
+        return tappables
     }
 }
