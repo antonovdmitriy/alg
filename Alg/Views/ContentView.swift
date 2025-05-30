@@ -18,44 +18,55 @@ struct ContentView: View {
     }
 
     var body: some View {
-        TabView {
-            NavigationView {
-                RandomWordView(showTabBar: $showTabBar, wordService: wordService)
-            }
-            .onAppear {
-                AudioPlayerHelper.stop()
-            }
-            .tabItem {
-                Image(systemName: "shuffle")
-            }
+        ZStack(alignment: .bottom) {
+            TabView {
+                NavigationView {
+                    RandomWordView(showTabBar: $showTabBar, wordService: wordService)
+                }
+                .onAppear {
+                    AudioPlayerHelper.stop()
+                }
+                .tabItem {
+                    Image(systemName: "shuffle")
+                }
 
-            NavigationView {
-                List {
-                    ForEach(wordService.allCategories()) { category in
-                        NavigationLink(destination: WordListView(category: category, wordService: wordService)) {
-                            Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
+                NavigationView {
+                    List {
+                        ForEach(wordService.allCategories()) { category in
+                            NavigationLink(destination: WordListView(category: category, wordService: wordService)) {
+                                Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
+                            }
                         }
                     }
+                    .navigationTitle("category_list_title")
                 }
-                .navigationTitle("category_list_title")
-            }
-            .onAppear {
-                AudioPlayerHelper.stop()
-            }
-            .tabItem {
-                Image(systemName: "book")
-            }
+                .onAppear {
+                    AudioPlayerHelper.stop()
+                }
+                .tabItem {
+                    Image(systemName: "book")
+                }
 
-            NavigationView {
-                SettingsView(wordService: wordService)
+                NavigationView {
+                    SettingsView(wordService: wordService)
+                }
+                .onAppear {
+                    AudioPlayerHelper.stop()
+                }
+                .tabItem {
+                    Image(systemName: "gearshape")
+                }
             }
-            .onAppear {
-                AudioPlayerHelper.stop()
-            }
-            .tabItem {
-                Image(systemName: "gearshape")
-            }
+            Rectangle()
+                .fill(Color.green)
+                .frame(height: 4)
+                .offset(y: showTabBar ? 0 : 100)
+                .opacity(showTabBar ? 1 : 0)
+                .padding(.bottom, 48)
+                .allowsHitTesting(false)
+                .animation(.easeInOut(duration: 0.3), value: showTabBar)
         }
+        .animation(.easeInOut(duration: 0.3), value: showTabBar)
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
     }
 }
