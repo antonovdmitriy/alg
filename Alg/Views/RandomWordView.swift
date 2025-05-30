@@ -133,36 +133,6 @@ struct RandomWordView: View {
                 .transition(.move(edge: .trailing).combined(with: .opacity))
             }
             
-            if showTabBar && dailyGoal > 0 && !showGoalVideo {
-                VStack {
-                    Spacer()
-                    GeometryReader { geometry in
-                        ZStack(alignment: .leading) {
-                            RoundedRectangle(cornerRadius: 4)
-                                .fill(Color.gray.opacity(0.2))
-                                .frame(height: 8)
-                            
-                            let progressFraction = max(min(CGFloat(LearningGoalManager.shared.learnedToday) / CGFloat(max(dailyGoal, 1)), 1.0), 0.0)
-                            let allColors: [Color] = [.red, .orange, .yellow, .green, .blue, .purple]
-                            let colorCount = max(Int(round(progressFraction * CGFloat(allColors.count))), 1)
-                            let visibleColors = Array(allColors.prefix(colorCount))
-                            
-                            RoundedRectangle(cornerRadius: 4)
-                                .fill(LinearGradient(
-                                    gradient: Gradient(colors: visibleColors),
-                                    startPoint: .leading,
-                                    endPoint: .trailing
-                                ))
-                                .frame(
-                                    width: progressFraction * geometry.size.width,
-                                    height: 8
-                                )
-                        }
-                    }
-                    .frame(height: 4)
-                    .padding(.horizontal, 0)
-                }
-            }
             if showGoalCelebration && !showGoalVideo {
                 Color.clear
                     .onAppear {
