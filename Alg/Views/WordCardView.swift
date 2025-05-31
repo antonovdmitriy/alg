@@ -136,30 +136,25 @@ struct WordCardView: View {
     func extractTappables(from text: String) -> [String: () -> Void] {
         var tappables: [String: () -> Void] = [:]
         let words = text.split(separator: " ").map(String.init)
-        let count = words.count
-        var i = 0
+        let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.lowercased() }
+        let allSelfComponents = Set(allSelfWords.flatMap { $0.split(separator: " ").map(String.init) })
 
-        while i < count {
-            var found = false
-            var j = count
-            while j > i {
+        var i = 0
+        while i < words.count {
+            var matchFound = false
+            for j in stride(from: words.count, to: i, by: -1) {
                 let phrase = words[i..<j].joined(separator: " ")
                 let lowerPhrase = phrase.lowercased()
-                let phraseWords = lowerPhrase.split(separator: " ").map(String.init)
-                let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.lowercased() }
+                let phraseWords = Set(lowerPhrase.split(separator: " ").map(String.init))
 
-                let allSelfComponents = allSelfWords.flatMap { $0.split(separator: " ").map(String.init) }
-
-                if allSelfWords.contains(lowerPhrase) || allSelfComponents.contains(where: { phraseWords.contains($0) }) {
-                    break
+                if allSelfWords.contains(lowerPhrase) || !phraseWords.isDisjoint(with: allSelfComponents) {
+                    continue
                 }
 
                 let entries = wordService.wordsByString(phrase)
                 if !entries.isEmpty {
                     if entries.count == 1 {
-                        tappables[phrase] = {
-                            selectedEntry = entries[0]
-                        }
+                        tappables[phrase] = { selectedEntry = entries[0] }
                     } else {
                         tappables[phrase] = {
                             multipleEntries = entries
@@ -167,34 +162,27 @@ struct WordCardView: View {
                         }
                     }
                     i = j
-                    found = true
+                    matchFound = true
                     break
                 }
-                j -= 1
             }
-            if !found {
-                let singleWord = words[i]
-                let lowerWord = singleWord.lowercased()
 
-                let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.lowercased() }
-                let allSelfComponents = allSelfWords.flatMap { $0.split(separator: " ").map(String.init) }
-
-                if !allSelfWords.contains(lowerWord) && !allSelfComponents.contains(lowerWord) {
-                    let entries = wordService.wordsByString(singleWord)
+            if !matchFound {
+                let single = words[i]
+                let lowerSingle = single.lowercased()
+                if !allSelfWords.contains(lowerSingle) && !allSelfComponents.contains(lowerSingle) {
+                    let entries = wordService.wordsByString(single)
                     if !entries.isEmpty {
                         if entries.count == 1 {
-                            tappables[singleWord] = {
-                                selectedEntry = entries[0]
-                            }
+                            tappables[single] = { selectedEntry = entries[0] }
                         } else {
-                            tappables[singleWord] = {
+                            tappables[single] = {
                                 multipleEntries = entries
                                 showingSelectionSheet = true
                             }
                         }
                     }
                 }
-
                 i += 1
             }
         }
