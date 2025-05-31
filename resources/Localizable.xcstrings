@@ -444,6 +444,12 @@
         }
       }
     },
+    "Examples:" : {
+
+    },
+    "Forms:" : {
+
+    },
     "goal_completed_message" : {
       "localizations" : {
         "en" : {
@@ -1125,6 +1131,9 @@
         }
       }
     },
+    "Translation:" : {
+
+    },
     "word_examples" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1149,6 +1158,7 @@
       }
     },
     "word_forms" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1194,6 +1204,7 @@
       }
     },
     "word_translation %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

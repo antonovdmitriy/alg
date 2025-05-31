@@ -6,16 +6,14 @@ struct WordDetailView: View {
     let wordService: WordService
 
     var body: some View {
-        GeometryReader { geometry in
-            ScrollView {
-                WordCardView(
-                    entry: entry,
-                    categoryId: categoryId,
-                    wordService: wordService,
-                )
-            }
-            .navigationTitle(entry.word)
-            .navigationBarTitleDisplayMode(.inline)
+        ScrollView {
+            WordCardView(
+                entry: entry,
+                categoryId: categoryId,
+                wordService: wordService
+            )
         }
+        .navigationTitle(entry.word)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
