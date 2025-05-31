@@ -26,11 +26,12 @@ class WordService {
     }
 
     func idsByWord(_ word: String) -> [UUID] {
-        provider.idsByWord(word) ?? []
+        provider.idsByWord(word.lowercased()) ?? []
     }
  
     func wordsByString(_ word: String) -> [WordEntry] {
-        let ids = idsByWord(word)
+        let normalized = word.lowercased()
+        let ids = idsByWord(normalized)
         return ids.compactMap { wordById($0) }
     }
     

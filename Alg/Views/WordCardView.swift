@@ -135,19 +135,67 @@ struct WordCardView: View {
     
     func extractTappables(from text: String) -> [String: () -> Void] {
         var tappables: [String: () -> Void] = [:]
-        let components = text.split(separator: " ").map(String.init)
+        let words = text.split(separator: " ").map(String.init)
+        let count = words.count
+        var i = 0
 
-        for word in components {
-            let entries = wordService.wordsByString(word)
-            if entries.count == 1 {
-                tappables[word] = {
-                    selectedEntry = entries[0]
+        while i < count {
+            var found = false
+            var j = count
+            while j > i {
+                let phrase = words[i..<j].joined(separator: " ")
+                let lowerPhrase = phrase.lowercased()
+                let phraseWords = lowerPhrase.split(separator: " ").map(String.init)
+                let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.lowercased() }
+
+                let allSelfComponents = allSelfWords.flatMap { $0.split(separator: " ").map(String.init) }
+
+                if allSelfWords.contains(lowerPhrase) || allSelfComponents.contains(where: { phraseWords.contains($0) }) {
+                    break
                 }
-            } else if entries.count > 1 {
-                tappables[word] = {
-                    multipleEntries = entries
-                    showingSelectionSheet = true
+
+                let entries = wordService.wordsByString(phrase)
+                if !entries.isEmpty {
+                    if entries.count == 1 {
+                        tappables[phrase] = {
+                            selectedEntry = entries[0]
+                        }
+                    } else {
+                        tappables[phrase] = {
+                            multipleEntries = entries
+                            showingSelectionSheet = true
+                        }
+                    }
+                    i = j
+                    found = true
+                    break
                 }
+                j -= 1
+            }
+            if !found {
+                let singleWord = words[i]
+                let lowerWord = singleWord.lowercased()
+
+                let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.lowercased() }
+                let allSelfComponents = allSelfWords.flatMap { $0.split(separator: " ").map(String.init) }
+
+                if !allSelfWords.contains(lowerWord) && !allSelfComponents.contains(lowerWord) {
+                    let entries = wordService.wordsByString(singleWord)
+                    if !entries.isEmpty {
+                        if entries.count == 1 {
+                            tappables[singleWord] = {
+                                selectedEntry = entries[0]
+                            }
+                        } else {
+                            tappables[singleWord] = {
+                                multipleEntries = entries
+                                showingSelectionSheet = true
+                            }
+                        }
+                    }
+                }
+
+                i += 1
             }
         }
 
