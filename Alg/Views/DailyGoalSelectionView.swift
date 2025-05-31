@@ -46,8 +46,8 @@ struct DailyGoalSelectionView: View {
 
                         Slider(value: $sliderValue, in: 1...100, step: 1)
                             .tint(.accentColor)
-                            .onChange(of: sliderValue) { newValue in
-                                inputText = "\(Int(newValue))"
+                            .onChange(of: sliderValue) {
+                                inputText = "\(Int(sliderValue))"
                             }
 
                         HStack(spacing: 8) {
