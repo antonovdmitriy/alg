@@ -151,7 +151,7 @@ struct WordCardView: View {
                     continue
                 }
 
-                let entries = wordService.wordsByString(phrase)
+                let entries = wordService.wordsByStringConsideringArticles(phrase)
                 if !entries.isEmpty {
                     if entries.count == 1 {
                         tappables[phrase] = { selectedEntry = entries[0] }
@@ -171,7 +171,7 @@ struct WordCardView: View {
                 let single = words[i]
                 let lowerSingle = single.lowercased()
                 if !allSelfWords.contains(lowerSingle) && !allSelfComponents.contains(lowerSingle) {
-                    let entries = wordService.wordsByString(single)
+                    let entries = wordService.wordsByStringConsideringArticles(single)
                     if !entries.isEmpty {
                         if entries.count == 1 {
                             tappables[single] = { selectedEntry = entries[0] }
