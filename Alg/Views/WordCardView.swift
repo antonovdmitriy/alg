@@ -33,7 +33,7 @@ struct WordCardView: View {
                     }
 
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Translation:")
+                        Text("word_translation")
                             .font(.headline)
                         Text(retrieveTranslation(from: entry.translations, lang: selectedLanguage))
                             .italic()
@@ -43,7 +43,7 @@ struct WordCardView: View {
                     let forms = entry.forms ?? []
                     if !forms.isEmpty {
                         VStack(alignment: .leading, spacing: 8) {
-                            Text("Forms:")
+                            Text("word_forms")
                                 .font(.headline)
 
                             VStack(alignment: .leading, spacing: 6) {
@@ -80,7 +80,7 @@ struct WordCardView: View {
 
                     if !entry.examples.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
-                            Text("Examples:")
+                            Text("word_examples")
                                 .font(.headline)
 
                             ForEach(entry.examples.indices, id: \.self) { i in

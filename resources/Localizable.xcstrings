@@ -444,12 +444,6 @@
         }
       }
     },
-    "Examples:" : {
-
-    },
-    "Forms:" : {
-
-    },
     "goal_completed_message" : {
       "localizations" : {
         "en" : {
@@ -1131,9 +1125,6 @@
         }
       }
     },
-    "Translation:" : {
-
-    },
     "word_examples" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1158,7 +1149,6 @@
       }
     },
     "word_forms" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1203,25 +1193,24 @@
         }
       }
     },
-    "word_translation %@" : {
-      "extractionState" : "stale",
+    "word_translation" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Translation: %@"
+            "value" : "Translation:"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Перевод: %@"
+            "value" : "Перевод:"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Översättning: %@"
+            "value" : "Översättning:"
           }
         }
       }
