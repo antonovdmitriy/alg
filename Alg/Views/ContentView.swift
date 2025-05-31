@@ -1,5 +1,6 @@
 import SwiftUI
 
+
 struct ContentView: View {
     let wordService: WordService
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
@@ -34,14 +35,7 @@ struct ContentView: View {
                 .tag(0)
 
                 NavigationView {
-                    List {
-                        ForEach(wordService.allCategories()) { category in
-                            NavigationLink(destination: WordListView(category: category, wordService: wordService)) {
-                                Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
-                            }
-                        }
-                    }
-                    .navigationTitle("category_list_title")
+                    DictionaryView(wordService: wordService)
                 }
                 .onAppear {
                     AudioPlayerHelper.stop()
@@ -72,6 +66,68 @@ struct ContentView: View {
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
             goalManager.resetIfNewDay()
+        }
+    }
+}
+
+struct DictionaryView: View {
+    let wordService: WordService
+    @Environment(\.locale) private var locale
+    @State private var searchText = ""
+    @AppStorage("selectedSearchLanguage") private var selectedSearchLang = "sv"
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @State private var isSearchFocused: Bool = false
+
+    var filteredResults: [WordEntry] {
+        if searchText.isEmpty {
+            return []
+        }
+
+        if selectedSearchLang == "sv" {
+            return wordService.entriesStartingWith(prefix: searchText)
+        } else {
+            return wordService.entriesMatchingTranslation(prefix: searchText, lang: selectedSearchLang)
+        }
+    }
+
+    var body: some View {
+        VStack {
+            Picker("Search mode", selection: $selectedSearchLang) {
+                Text("search_by_word").tag("sv")
+                Text("search_by_translation").tag(selectedLanguage)
+            }
+            .pickerStyle(.segmented)
+            .padding(.horizontal)
+
+            List {
+                if searchText.isEmpty {
+                    ForEach(wordService.allCategories()) { category in
+                        NavigationLink(destination: WordListView(category: category, wordService: wordService)) {
+                            Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
+                        }
+                    }
+                } else {
+                    ForEach(filteredResults) { entry in
+                        NavigationLink(destination: WordCardView(entry: entry, categoryId: wordService.categoryIdByWordId(entry.id)?.uuidString ?? "", wordService: wordService)) {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(entry.word)
+                                    .font(.headline)
+                                if let translation = entry.translations[selectedLanguage] {
+                                    Text(translation)
+                                        .font(.subheadline)
+                                        .foregroundColor(.secondary)
+                                }
+                            }
+                            .padding(.vertical, 4)
+                        }
+                    }
+                }
+            }
+            // Removed hidden TextField as focus is now handled on .searchable
+        }
+        .navigationTitle("dictionary_title")
+        .searchable(text: $searchText, prompt: Text("search_prompt")){
+            
         }
     }
 }
