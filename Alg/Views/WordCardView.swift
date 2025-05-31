@@ -37,37 +37,29 @@ struct WordCardView: View {
                             .font(.headline)
 
                         let forms = entry.forms ?? []
-                        let rows = stride(from: 0, to: forms.count, by: 3).map {
-                            Array(forms[$0..<min($0 + 3, forms.count)])
-                        }
+                        let columns = [GridItem(.adaptive(minimum: 110), spacing: 8)]
 
-                        VStack(alignment: .leading, spacing: 8) {
-                            ForEach(rows, id: \.self) { row in
-                                HStack(spacing: 8) {
-                                    ForEach(row.indices, id: \.self) { j in
-                                        let form = row[j]
-                                        Button(action: {
-                                            let index = forms.firstIndex(of: form) ?? j
-                                            AudioPlayerHelper.playWordForm(categoryId: categoryId, entryId: entry.id, index: index + 1)
-                                        }) {
-                                            HStack(spacing: 6) {
-                                                Text(form)
-                                                Image(systemName: "speaker.wave.2.fill")
-                                                    .imageScale(.small)
-                                                    .foregroundColor(.secondary)
-                                            }
-                                            .padding(.horizontal, 12)
-                                            .padding(.vertical, 6)
-                                            .background(Color.gray.opacity(0.15))
-                                            .cornerRadius(8)
-                                            .foregroundColor(.primary)
-                                            .font(.system(size: 16))
+                        LazyVGrid(columns: columns, alignment: .leading, spacing: 8) {
+                            ForEach(Array(forms.enumerated()), id: \.offset) { index, form in
+                                Button(action: {
+                                    AudioPlayerHelper.playWordForm(categoryId: categoryId, entryId: entry.id, index: index + 1)
+                                }) {
+                                    HStack(spacing: 6) {
+                                        Text(form)
                                             .lineLimit(1)
+                                            .truncationMode(.tail)
                                             .minimumScaleFactor(0.8)
-                                        }
-                                        .buttonStyle(.plain)
+                                        Image(systemName: "speaker.wave.2.fill")
+                                            .imageScale(.small)
+                                            .foregroundColor(.secondary)
                                     }
+                                    .padding(.horizontal, 10)
+                                    .padding(.vertical, 4)
+                                    .background(RoundedRectangle(cornerRadius: 6).fill(Color.secondary.opacity(0.1)))
+                                    .foregroundColor(.primary)
+                                    .font(.system(size: 16))
                                 }
+                                .buttonStyle(.plain)
                             }
                         }
                     }
