@@ -1193,24 +1193,24 @@
         }
       }
     },
-    "word_translation %@" : {
+    "word_translation" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Translation: %@"
+            "value" : "Translation:"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Перевод: %@"
+            "value" : "Перевод:"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Översättning: %@"
+            "value" : "Översättning:"
           }
         }
       }
