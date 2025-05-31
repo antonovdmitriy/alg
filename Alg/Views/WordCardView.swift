@@ -33,39 +33,6 @@ struct WordCardView: View {
                     }
 
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Forms:")
-                            .font(.headline)
-
-                        let forms = entry.forms ?? []
-                        let columns = [GridItem(.adaptive(minimum: 110), spacing: 8)]
-
-                        LazyVGrid(columns: columns, alignment: .leading, spacing: 8) {
-                            ForEach(Array(forms.enumerated()), id: \.offset) { index, form in
-                                Button(action: {
-                                    AudioPlayerHelper.playWordForm(categoryId: categoryId, entryId: entry.id, index: index + 1)
-                                }) {
-                                    HStack(spacing: 6) {
-                                        Text(form)
-                                            .lineLimit(1)
-                                            .truncationMode(.tail)
-                                            .minimumScaleFactor(0.8)
-                                        Image(systemName: "speaker.wave.2.fill")
-                                            .imageScale(.small)
-                                            .foregroundColor(.secondary)
-                                    }
-                                    .padding(.horizontal, 10)
-                                    .padding(.vertical, 4)
-                                    .background(RoundedRectangle(cornerRadius: 6).fill(Color.secondary.opacity(0.1)))
-                                    .foregroundColor(.primary)
-                                    .font(.system(size: 16))
-                                }
-                                .buttonStyle(.plain)
-                            }
-                        }
-                    }
-                    .padding(.top, 4)
-
-                    VStack(alignment: .leading, spacing: 8) {
                         Text("Translation:")
                             .font(.headline)
                         Text(retrieveTranslation(from: entry.translations, lang: selectedLanguage))
@@ -73,27 +40,67 @@ struct WordCardView: View {
                             .font(.title3)
                     }
 
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Examples:")
-                            .font(.headline)
+                    let forms = entry.forms ?? []
+                    if !forms.isEmpty {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Forms:")
+                                .font(.headline)
 
-                        ForEach(entry.examples.indices, id: \.self) { i in
-                            let example = entry.examples[i]
-
-                            HStack(alignment: .top, spacing: 8) {
-                                Button(action: {
-                                    playExampleAudio(exampleText: example, index: i + 1)
-                                }) {
-                                    Image(systemName: "speaker.wave.2.fill")
-                                        .foregroundColor(.secondary)
+                            VStack(alignment: .leading, spacing: 6) {
+                                ForEach(Array(forms.enumerated()), id: \.offset) { index, form in
+                                    Button(action: {
+                                        AudioPlayerHelper.playWordForm(categoryId: categoryId, entryId: entry.id, index: index + 1)
+                                    }) {
+                                        HStack(spacing: 6) {
+                                            Image(systemName: "speaker.wave.2.fill")
+                                                .imageScale(.small)
+                                                .foregroundColor(.secondary)
+                                                .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.firstTextBaseline] }
+                                                .offset(y: 1)
+                                            Text(form)
+                                                .lineLimit(1)
+                                                .truncationMode(.tail)
+                                                .minimumScaleFactor(0.8)
+                                                .alignmentGuide(.firstTextBaseline) { d in d[.firstTextBaseline] }
+                                        }
+                                        .alignmentGuide(.firstTextBaseline) { d in d[.firstTextBaseline] }
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 4)
+                                        .background(Color.primary.opacity(0.05))
+                                        .cornerRadius(8)
+                                        .foregroundColor(.primary)
+                                        .font(.system(size: 18))
+                                    }
+                                    .buttonStyle(.plain)
                                 }
-                                .padding(.top, 2)
+                            }
+                        }
+                        .padding(.top, 4)
+                    }
 
-                                TappableText(
-                                    text: example,
-                                    tappables: extractTappables(from: example),
-                                    font: UIFont.systemFont(ofSize: 18)
-                                )
+                    if !entry.examples.isEmpty {
+                        VStack(alignment: .leading, spacing: 20) {
+                            Text("Examples:")
+                                .font(.headline)
+
+                            ForEach(entry.examples.indices, id: \.self) { i in
+                                let example = entry.examples[i]
+
+                                HStack(alignment: .top, spacing: 8) {
+                                    Button(action: {
+                                        playExampleAudio(exampleText: example, index: i + 1)
+                                    }) {
+                                        Image(systemName: "speaker.wave.2.fill")
+                                            .foregroundColor(.secondary)
+                                    }
+                                    .padding(.top, 2)
+
+                                    TappableText(
+                                        text: example,
+                                        tappables: extractTappables(from: example),
+                                        font: UIFont.systemFont(ofSize: 20)
+                                    )
+                                }
                             }
                         }
                     }
@@ -124,12 +131,6 @@ struct WordCardView: View {
 
     func playExampleAudio(exampleText: String, index: Int) {
         AudioPlayerHelper.playExample(categoryId: categoryId, entryId: entry.id, exampleIndex: index)
-    }
-    
-    func sanitize(_ text: String) -> String {
-        text
-            .replacingOccurrences(of: ",", with: "")
-            .replacingOccurrences(of: " ", with: "_")
     }
     
     func extractTappables(from text: String) -> [String: () -> Void] {
