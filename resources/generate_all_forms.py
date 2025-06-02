@@ -5,7 +5,7 @@ import argparse
 from pathlib import Path
 
 # Конфигурация
-INPUT_JSON = "../Alg/Data/word.json"              # путь к JSON-файлу
+INPUT_JSON = "./word.json"              # путь к JSON-файлу
 OUTPUT_DIR = "audio"                  # куда сохранять mp3
 TTS_SCRIPT = "generate_tts.py"        # скрипт озвучки
 
@@ -29,6 +29,8 @@ def main(category_filter=None, overwrite=False, single_id=None):
         for entry in category["entries"]:
             word_base = entry["id"]
             for index, form in enumerate(entry.get("forms", [])):
+                form_text = form["form"]
+                phoneme = form.get("phoneme")
                 filename = f"{word_base}_form{index + 1}.mp3"
                 full_dir = Path(OUTPUT_DIR) / category_id
                 full_dir.mkdir(parents=True, exist_ok=True)
@@ -38,15 +40,14 @@ def main(category_filter=None, overwrite=False, single_id=None):
                     print(f"⏩ Skipped (already exists): {output_path.name}")
                     continue
 
-                print(f"🔊 Generating form audio: {form} → {output_path.name}")
+                print(f"🔊 Generating form audio: {form_text} → {output_path.name}")
                 try:
-                    subprocess.run([
-                        "/usr/bin/python3", TTS_SCRIPT,
-                        form,
-                        str(output_path)
-                    ], check=True)
+                    command = ["/usr/bin/python3", TTS_SCRIPT, form_text, str(output_path)]
+                    if phoneme:
+                        command += ["--phoneme", phoneme]
+                    subprocess.run(command, check=True)
                 except subprocess.CalledProcessError as e:
-                    print(f"❌ Failed to generate audio for form '{form}' → {output_path.name}: {e}")
+                    print(f"❌ Failed to generate audio for form '{form_text}' → {output_path.name}: {e}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate audio for all word forms.")

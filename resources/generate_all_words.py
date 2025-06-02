@@ -5,7 +5,7 @@ import argparse
 from pathlib import Path
 
 # Конфигурация
-INPUT_JSON = "../Alg/Data/word.json"              # путь к JSON-файлу
+INPUT_JSON = "./word.json"              # путь к JSON-файлу
 OUTPUT_DIR = "audio"                  # куда сохранять mp3
 TTS_SCRIPT = "generate_tts.py"        # скрипт озвучки
 
@@ -29,6 +29,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
         for entry in category["entries"]:
             word_base = entry["id"]
             word = entry["word"]
+            phoneme = entry.get("phoneme")
             filename = f"{word_base}.mp3"
             full_dir = Path(OUTPUT_DIR) / category_id
             full_dir.mkdir(parents=True, exist_ok=True)
@@ -40,11 +41,10 @@ def main(category_filter=None, overwrite=False, single_id=None):
 
             print(f"▶️ Генерируем: {output_path}")
             try:
-                subprocess.run([
-                    "/usr/bin/python3", TTS_SCRIPT,
-                    word,
-                    str(output_path)
-                ], check=True)
+                command = ["/usr/bin/python3", TTS_SCRIPT, word, str(output_path)]
+                if phoneme:
+                    command += ["--phoneme", phoneme]
+                subprocess.run(command, check=True)
             except subprocess.CalledProcessError as e:
                 print(f"⚠️ Ошибка генерации для {word}: {e}")
 

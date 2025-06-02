@@ -57,7 +57,7 @@ struct WordCardView: View {
                                                 .foregroundColor(.secondary)
                                                 .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.firstTextBaseline] }
                                                 .offset(y: 1)
-                                            Text(form)
+                                            Text(form.form)
                                                 .lineLimit(1)
                                                 .truncationMode(.tail)
                                                 .minimumScaleFactor(0.8)
@@ -83,12 +83,10 @@ struct WordCardView: View {
                             Text("word_examples")
                                 .font(.headline)
 
-                            ForEach(entry.examples.indices, id: \.self) { i in
-                                let example = entry.examples[i]
-
+                            ForEach(Array(entry.examples.enumerated()), id: \.offset) { i, example in
                                 HStack(alignment: .top, spacing: 8) {
                                     Button(action: {
-                                        playExampleAudio(exampleText: example, index: i + 1)
+                                        playExampleAudio(exampleText: example.text, index: i + 1)
                                     }) {
                                         Image(systemName: "speaker.wave.2.fill")
                                             .foregroundColor(.secondary)
@@ -96,8 +94,8 @@ struct WordCardView: View {
                                     .padding(.top, 2)
 
                                     TappableText(
-                                        text: example,
-                                        tappables: extractTappables(from: example),
+                                        text: example.text,
+                                        tappables: extractTappables(from: example.text),
                                         font: UIFont.systemFont(ofSize: 20)
                                     )
                                 }
@@ -136,7 +134,7 @@ struct WordCardView: View {
     func extractTappables(from text: String) -> [String: () -> Void] {
         var tappables: [String: () -> Void] = [:]
         let words = text.split(separator: " ").map(String.init)
-        let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.lowercased() }
+        let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.form.lowercased() }
         let allSelfComponents = Set(allSelfWords.flatMap { $0.split(separator: " ").map(String.init) })
 
         var i = 0
