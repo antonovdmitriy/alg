@@ -23,7 +23,7 @@ struct RandomWordView: View {
         self._showTabBar = showTabBar
         self.wordService = wordService
         _currentCategoryId = State(initialValue: UUID())
-        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: []))
+        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [], phoneme: nil))
     }
     
     var body: some View {
@@ -147,7 +147,7 @@ struct RandomWordView: View {
                                 proceedToNextWord()
                             }
                         }
-                        currentEntry = WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [])
+                        currentEntry = WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [], phoneme: nil)
                         currentCategoryId = UUID()
                     }
             }
@@ -248,7 +248,8 @@ struct RandomWordView: View {
                 word: NSLocalizedString("all_words_completed_title", comment: ""),
                 forms: [],
                 translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
-                examples: []
+                examples: [],
+                phoneme: nil
             )
             return (placeholderEntry, chosenCategory.id)
         }

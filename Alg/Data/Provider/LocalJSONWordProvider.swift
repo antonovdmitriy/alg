@@ -43,7 +43,7 @@ class LocalJSONWordProvider: WordProvider {
         self.entries.forEach { entry in
             insertIntoTrie(entry.word, id: entry.id)
             for form in entry.forms ?? [] {
-                insertIntoTrie(form, id: entry.id)
+                insertIntoTrie(form.form, id: entry.id)
             }
             for (lang, translation) in entry.translations {
                 insertIntoTranslationTrie(translation, lang: lang, id: entry.id)
@@ -53,7 +53,7 @@ class LocalJSONWordProvider: WordProvider {
         self.formToIdIndex = entries.reduce(into: [:]) { result, entry in
             result[entry.word, default: []].append(entry.id)
             for form in entry.forms ?? [] {
-                result[form, default: []].append(entry.id)
+                result[form.form, default: []].append(entry.id)
             }
         }
         self.categoryIdByWordId = categories.reduce(into: [:]) { result, category in

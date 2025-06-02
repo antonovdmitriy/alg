@@ -1,9 +1,20 @@
 import Foundation
 
+struct WordExample: Decodable {
+    let text: String
+    let phoneme: String?
+}
+
+struct WordForm: Decodable {
+    let form: String
+    let phoneme: String?
+}
+
 struct WordEntry: Identifiable, Decodable {
     let id: UUID
     let word: String
-    let forms: [String]?
+    let forms: [WordForm]?
     let translations: [String: String]
-    let examples: [String]
+    let examples: [WordExample]
+    let phoneme: String?
 }
