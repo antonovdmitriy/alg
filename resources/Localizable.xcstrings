@@ -877,6 +877,28 @@
         }
       }
     },
+    "settings_hide_links_to_known_words" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide links to known words"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрывать ссылки на выученные слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dölj länkar till inlärda ord"
+          }
+        }
+      }
+    },
     "settings_edit_categories" : {
       "localizations" : {
         "en" : {

@@ -1,10 +1,3 @@
-//
-//  SplashView.swift
-//  Älg
-//
-//  Created by Dmitrii Antonov on 2025-05-29.
-//
-
 import SwiftUI
 import AVKit
 

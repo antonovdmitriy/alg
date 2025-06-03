@@ -4,11 +4,12 @@ struct WordListView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     let category: Category
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @Environment(\.locale) private var locale
 
     var body: some View {
         List(category.entries) { entry in
-            NavigationLink(destination: WordDetailView(entry: entry, categoryId: category.id.uuidString.lowercased(), wordService: wordService)) {
+            NavigationLink(destination: WordDetailView(entry: entry, categoryId: category.id.uuidString.lowercased(), wordService: wordService, learningStateManager: learningStateManager)) {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(entry.word)
                         .font(.headline)

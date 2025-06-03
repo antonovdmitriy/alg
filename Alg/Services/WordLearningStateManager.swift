@@ -1,13 +1,10 @@
 import Foundation
 
 class WordLearningStateManager {
-    static let shared = WordLearningStateManager()
 
     private let knownKey = "knownWords"
     private let ignoredKey = "ignoredWords"
     private let favoriteKey = "favoriteWords"
-
-    private init() {}
 
     private func getUUIDs(forKey key: String) -> Set<UUID> {
         guard let data = UserDefaults.standard.data(forKey: key),
@@ -66,6 +63,10 @@ class WordLearningStateManager {
 
     func isKnown(_ id: UUID) -> Bool {
         knownWords.contains(id)
+    }
+
+    func isKnownOrHidden(id: UUID) -> Bool {
+        return isKnown(id) || isIgnored(id)
     }
 
     func isIgnored(_ id: UUID) -> Bool {

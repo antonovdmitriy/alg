@@ -3,15 +3,16 @@ import SwiftUI
 
 struct ContentView: View {
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @State private var showTabBar = false
     @State private var selectedTab: Int = 0
     @Environment(\.locale) private var locale
     @ObservedObject private var goalManager = LearningGoalManager.shared
 
-    init(wordService: WordService) {
+    init(wordService: WordService, learningStateManager: WordLearningStateManager) {
         self.wordService = wordService
-
+        self.learningStateManager = learningStateManager
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor.systemBackground
@@ -24,7 +25,7 @@ struct ContentView: View {
         ZStack(alignment: .bottom) {
             TabView(selection: $selectedTab) {
                 NavigationView {
-                    RandomWordView(showTabBar: $showTabBar, wordService: wordService)
+                    RandomWordView(showTabBar: $showTabBar, wordService: wordService, learningStateManager: learningStateManager)
                 }
                 .onAppear {
                     AudioPlayerHelper.stop()
@@ -35,7 +36,7 @@ struct ContentView: View {
                 .tag(0)
 
                 NavigationView {
-                    DictionaryView(wordService: wordService)
+                    DictionaryView(wordService: wordService, learningStateManager: learningStateManager)
                 }
                 .onAppear {
                     AudioPlayerHelper.stop()
@@ -46,7 +47,7 @@ struct ContentView: View {
                 .tag(1)
 
                 NavigationView {
-                    SettingsView(wordService: wordService)
+                    SettingsView(wordService: wordService, learningStateManager: learningStateManager)
                 }
                 .onAppear {
                     AudioPlayerHelper.stop()
@@ -72,6 +73,7 @@ struct ContentView: View {
 
 struct DictionaryView: View {
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @Environment(\.locale) private var locale
     @State private var searchText = ""
     @AppStorage("selectedSearchLanguage") private var selectedSearchLang = "sv"
@@ -102,13 +104,13 @@ struct DictionaryView: View {
             List {
                 if searchText.isEmpty {
                     ForEach(wordService.allCategories()) { category in
-                        NavigationLink(destination: WordListView(category: category, wordService: wordService)) {
+                        NavigationLink(destination: WordListView(category: category, wordService: wordService, learningStateManager: learningStateManager)) {
                             Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
                         }
                     }
                 } else {
                     ForEach(filteredResults) { entry in
-                        NavigationLink(destination: WordCardView(entry: entry, categoryId: wordService.categoryIdByWordId(entry.id)?.uuidString ?? "", wordService: wordService)) {
+                        NavigationLink(destination: WordCardView(entry: entry, categoryId: wordService.categoryIdByWordId(entry.id)?.uuidString ?? "", wordService: wordService, learningStateManager: learningStateManager)) {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(entry.word)
                                     .font(.headline)
