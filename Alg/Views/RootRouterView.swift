@@ -15,10 +15,12 @@ struct RootRouterView: View {
     @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
     
-    init(wordService: WordService, learningStateManager: WordLearningStateManager) {
+    init(wordService: WordService, learningStateManager: WordLearningStateManager, audioPlayerHelper: AudioPlayerHelper) {
         self.wordService = wordService
         self.learningStateManager = learningStateManager
+        self.audioPlayerHelper = audioPlayerHelper
     }
     
     var body: some View {
@@ -33,7 +35,7 @@ struct RootRouterView: View {
                 hasSelectedDailyGoal = true
             }
         } else {
-            ContentView(wordService: wordService, learningStateManager: learningStateManager)
+            ContentView(wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
         }
     }
 }
