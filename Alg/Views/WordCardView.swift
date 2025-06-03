@@ -4,9 +4,11 @@ import CryptoKit
 
 struct WordCardView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = true
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
 
     @State private var selectedEntry: WordEntry? = nil
     @State private var multipleEntries: [WordEntry] = []
@@ -107,7 +109,7 @@ struct WordCardView: View {
                 .padding()
                 .sheet(item: $selectedEntry) { entry in
                     if let categoryId = wordService.categoryIdByWordId(entry.id) {
-                        WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService)
+                        WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService, learningStateManager: learningStateManager)
                     }
                 }
                 .confirmationDialog("choose_word_title", isPresented: $showingSelectionSheet, titleVisibility: .visible) {
@@ -151,6 +153,9 @@ struct WordCardView: View {
 
                 let entries = wordService.wordsByStringConsideringArticles(phrase)
                 if !entries.isEmpty {
+                    if hideLinksToKnownWords && entries.allSatisfy({ learningStateManager.isKnownOrHidden(id: $0.id) }) {
+                        continue
+                    }
                     if entries.count == 1 {
                         tappables[phrase] = { selectedEntry = entries[0] }
                     } else {
@@ -171,12 +176,16 @@ struct WordCardView: View {
                 if !allSelfWords.contains(lowerSingle) && !allSelfComponents.contains(lowerSingle) {
                     let entries = wordService.wordsByStringConsideringArticles(single)
                     if !entries.isEmpty {
-                        if entries.count == 1 {
-                            tappables[single] = { selectedEntry = entries[0] }
+                        if hideLinksToKnownWords && entries.allSatisfy({ learningStateManager.isKnownOrHidden(id: $0.id) }) {
+                            // Skip adding tappable
                         } else {
-                            tappables[single] = {
-                                multipleEntries = entries
-                                showingSelectionSheet = true
+                            if entries.count == 1 {
+                                tappables[single] = { selectedEntry = entries[0] }
+                            } else {
+                                tappables[single] = {
+                                    multipleEntries = entries
+                                    showingSelectionSheet = true
+                                }
                             }
                         }
                     }

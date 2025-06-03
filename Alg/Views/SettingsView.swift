@@ -11,7 +11,10 @@ import SwiftUI
 struct SettingsView: View {
     @EnvironmentObject var visualStyleManager: VisualStyleManager
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
+    
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = true
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
 
@@ -31,6 +34,7 @@ struct SettingsView: View {
                 NavigationLink(destination: DailyGoalSelectionView(allowsDismiss: true, onGoalSelected: {})) {
                     Text("settings_edit_daily_goal")
                 }
+                Toggle("settings_hide_links_to_known_words", isOn: $hideLinksToKnownWords)
                 Label("settings_reset_daily_progress", systemImage: "arrow.counterclockwise")
                     .onTapGesture {
                         showResetConfirmation = true
@@ -48,13 +52,13 @@ struct SettingsView: View {
                     }
             }
             Section(header: Text("settings_my_words_section")) {
-                NavigationLink(destination: LearnedWordsView(wordService: wordService)) {
+                NavigationLink(destination: LearnedWordsView(wordService: wordService, learningStateManager: learningStateManager)) {
                     Label("settings_learned_words", systemImage: "checkmark")
                 }
-                NavigationLink(destination: FavoriteWordsView(wordService: wordService)) {
+                NavigationLink(destination: FavoriteWordsView(wordService: wordService, learningStateManager: learningStateManager)) {
                     Label("settings_favorite_words", systemImage: "star")
                 }
-                NavigationLink(destination: IgnoredWordsView(wordService: wordService)) {
+                NavigationLink(destination: IgnoredWordsView(wordService: wordService, learningStateManager: learningStateManager)) {
                     Label("settings_ignored_words", systemImage: "nosign")
                 }
             }
@@ -89,6 +93,7 @@ struct SettingsView: View {
 
 struct LearnedWordsView: View {
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -96,22 +101,23 @@ struct LearnedWordsView: View {
             title: NSLocalizedString("settings_learned_words", comment: ""),
             entries: words,
             onDelete: { id in
-                var set = WordLearningStateManager.shared.knownWords
+                var set = learningStateManager.knownWords
                 set.remove(id)
-                WordLearningStateManager.shared.knownWords = set
+                learningStateManager.knownWords = set
                 words.removeAll { $0.0.id == id }
             },
             onClear: {
-                WordLearningStateManager.shared.knownWords = []
+                learningStateManager.knownWords = []
                 words = []
             },
-            wordService: wordService
+            wordService: wordService,
+            learningStateManager: learningStateManager
         )
         .onAppear {
             //TODO: rewrite when there will be index.
             words = wordService.allWords().compactMap { entry in
                 let id = entry.id
-                return WordLearningStateManager.shared.knownWords.contains(id) ? (entry, id) : nil
+                return learningStateManager.knownWords.contains(id) ? (entry, id) : nil
             }
         }
     }
@@ -119,6 +125,7 @@ struct LearnedWordsView: View {
 
 struct FavoriteWordsView: View {
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -126,20 +133,21 @@ struct FavoriteWordsView: View {
             title: NSLocalizedString("settings_favorite_words", comment: ""),
             entries: words,
             onDelete: { id in
-                WordLearningStateManager.shared.toggleFavorite(id)
+                learningStateManager.toggleFavorite(id)
                 words.removeAll { $0.0.id == id }
             },
             onClear: {
-                WordLearningStateManager.shared.favoriteWords = []
+                learningStateManager.favoriteWords = []
                 words = []
             },
-            wordService: wordService
+            wordService: wordService,
+            learningStateManager: learningStateManager
         )
         .onAppear {
             //TODO: rewrite when there will be index.
             words = wordService.allWords().compactMap { entry in
                 let id = entry.id
-                return WordLearningStateManager.shared.favoriteWords.contains(id) ? (entry, id) : nil
+                return learningStateManager.favoriteWords.contains(id) ? (entry, id) : nil
             }
         }
     }
@@ -147,6 +155,7 @@ struct FavoriteWordsView: View {
 
 struct IgnoredWordsView: View {
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -154,22 +163,23 @@ struct IgnoredWordsView: View {
             title: NSLocalizedString("settings_ignored_words", comment: ""),
             entries: words,
             onDelete: { id in
-                var set = WordLearningStateManager.shared.ignoredWords
+                var set = learningStateManager.ignoredWords
                 set.remove(id)
-                WordLearningStateManager.shared.ignoredWords = set
+                learningStateManager.ignoredWords = set
                 words.removeAll { $0.0.id == id }
             },
             onClear: {
-                WordLearningStateManager.shared.ignoredWords = []
+                learningStateManager.ignoredWords = []
                 words = []
             },
-            wordService: wordService
+            wordService: wordService,
+            learningStateManager: learningStateManager
         )
         .onAppear {
             //TODO: rewrite when there will be index.
             words = wordService.allWords().compactMap { entry in
                 let id = entry.id
-                return WordLearningStateManager.shared.ignoredWords.contains(id) ? (entry, id) : nil
+                return learningStateManager.ignoredWords.contains(id) ? (entry, id) : nil
             }
         }
     }

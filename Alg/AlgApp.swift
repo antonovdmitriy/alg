@@ -1,10 +1,3 @@
-//
-//  AlgApp.swift
-//  Alg
-//
-//  Created by Dmitrii Antonov on 2025-05-14.
-//
-
 import SwiftUI
 
 
@@ -16,7 +9,7 @@ struct AlgApp: App {
     
     var body: some Scene {
         WindowGroup {
-            RootRouterView(wordService: dependencies.wordService)
+            RootRouterView(wordService: dependencies.wordService, learningStateManager: dependencies.learningStateManager)
                 .environmentObject(visualStyleManager)
         }
     }

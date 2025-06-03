@@ -21,6 +21,7 @@ struct FilteredWordListView: View {
     let onDelete: (UUID) -> Void
     let onClear: () -> Void
     let wordService: WordService
+    let learningStateManager: WordLearningStateManager
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @State private var showConfirmation = false
 
@@ -40,7 +41,7 @@ struct FilteredWordListView: View {
             } else {
                 List {
                     ForEach(entries, id: \.0.id) { (entry, categoryId) in
-                        NavigationLink(destination: WordDetailView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService)) {
+                        NavigationLink(destination: WordDetailView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService, learningStateManager: learningStateManager)) {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(entry.word)
                                     .font(.headline)

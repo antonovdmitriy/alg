@@ -5,6 +5,7 @@ import AVFoundation
 struct RandomWordView: View {
     @Binding var showTabBar: Bool
     private let wordService: WordService
+    private let learningStateManager: WordLearningStateManager
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
@@ -19,9 +20,10 @@ struct RandomWordView: View {
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
     
-    init(showTabBar: Binding<Bool>, wordService: WordService) {
+    init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager) {
         self._showTabBar = showTabBar
         self.wordService = wordService
+        self.learningStateManager = learningStateManager
         _currentCategoryId = State(initialValue: UUID())
         _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [], phoneme: nil))
     }
@@ -70,8 +72,8 @@ struct RandomWordView: View {
                         Spacer()
                         VStack(spacing: 16) {
                             Button(action: {
-                                if !WordLearningStateManager.shared.isKnown(currentEntry.id) {
-                                    WordLearningStateManager.shared.markKnown(currentEntry.id)
+                                if !learningStateManager.isKnown(currentEntry.id) {
+                                    learningStateManager.markKnown(currentEntry.id)
                                     feedbackMessage = NSLocalizedString("marked_as_known", comment: "")
                                 }
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
@@ -89,8 +91,8 @@ struct RandomWordView: View {
                             }
                             
                             Button(action: {
-                                if !WordLearningStateManager.shared.isIgnored(currentEntry.id) {
-                                    WordLearningStateManager.shared.markIgnored(currentEntry.id)
+                                if !learningStateManager.isIgnored(currentEntry.id) {
+                                    learningStateManager.markIgnored(currentEntry.id)
                                     feedbackMessage = NSLocalizedString("marked_as_ignored", comment: "")
                                 }
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
@@ -108,8 +110,8 @@ struct RandomWordView: View {
                             }
                             
                             Button(action: {
-                                let isAlreadyFavorite = WordLearningStateManager.shared.isFavorite(currentEntry.id)
-                                WordLearningStateManager.shared.toggleFavorite(currentEntry.id)
+                                let isAlreadyFavorite = learningStateManager.isFavorite(currentEntry.id)
+                                learningStateManager.toggleFavorite(currentEntry.id)
                                 feedbackMessage = isAlreadyFavorite ? NSLocalizedString("removed_from_favorites", comment: "") : NSLocalizedString("added_to_favorites", comment: "")
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
@@ -117,7 +119,7 @@ struct RandomWordView: View {
                                     showNextWord()
                                 }
                             }) {
-                                Image(systemName: WordLearningStateManager.shared.isFavorite(currentEntry.id) ? "star.fill" : "star")
+                                Image(systemName: learningStateManager.isFavorite(currentEntry.id) ? "star.fill" : "star")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
                                     .foregroundColor(.primary)
@@ -176,11 +178,11 @@ struct RandomWordView: View {
             showTabBar = false
             if currentEntry.word.isEmpty {
                 let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-                let (randomEntry, randomCategoryId) = Self.pickRandomEntry(wordService: wordService, selectedCategoryIds: selectedIds)
+                let (randomEntry, randomCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
                 currentEntry = randomEntry
                 currentCategoryId = randomCategoryId
                 // Prefetch next word
-                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, selectedCategoryIds: selectedIds)
+                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager,  selectedCategoryIds: selectedIds)
                 nextPrefetchedEntry = prefetchedEntry
                 nextPrefetchedCategoryId = prefetchedCategoryId
                 DispatchQueue.global(qos: .utility).async {
@@ -207,13 +209,14 @@ struct RandomWordView: View {
                 entry: currentEntry,
                 categoryId: currentCategoryId.uuidString.lowercased(),
                 wordService: wordService,
+                learningStateManager: learningStateManager
             )
         }
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
     }
     
-    private static func pickRandomEntry(wordService: WordService, selectedCategoryIds: [UUID]) -> (WordEntry, UUID) {
+    private static func pickRandomEntry(wordService: WordService, learningStateManager: WordLearningStateManager, selectedCategoryIds: [UUID]) -> (WordEntry, UUID) {
         let categories = wordService.allCategories()
         let useAll = selectedCategoryIds.contains(Category.allCategoryId)
         let otherIds = selectedCategoryIds.filter { $0 != Category.allCategoryId }
@@ -236,8 +239,8 @@ struct RandomWordView: View {
             chosenCategory = category
         }
         
-        let allIgnored = WordLearningStateManager.shared.ignoredWords
-        let allKnown = WordLearningStateManager.shared.knownWords
+        let allIgnored = learningStateManager.ignoredWords
+        let allKnown = learningStateManager.knownWords
         let filteredEntries = chosenCategory.entries.filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
         
         if let entry = filteredEntries.randomElement() {
@@ -295,7 +298,7 @@ struct RandomWordView: View {
         DispatchQueue.global(qos: .utility).async {
             print("🔄 Prefetching next word...")
             let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, selectedCategoryIds: selectedIds)
+            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
 
             print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
             AudioPlayerHelper.prefetchAudio(categoryId: prefetchedCategoryId.uuidString, entryId: prefetchedEntry.id)

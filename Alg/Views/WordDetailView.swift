@@ -4,13 +4,15 @@ struct WordDetailView: View {
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService
-
+    let learningStateManager: WordLearningStateManager
+    
     var body: some View {
         ScrollView {
             WordCardView(
                 entry: entry,
                 categoryId: categoryId,
-                wordService: wordService
+                wordService: wordService,
+                learningStateManager: learningStateManager
             )
         }
         .navigationTitle(entry.word)

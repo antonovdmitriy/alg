@@ -11,7 +11,7 @@ import Foundation
 
 class AppDependencies {
     let wordService: WordService
-
+    let learningStateManager: WordLearningStateManager
     init() {
         let wordJsonPath = Bundle.main.path(forResource: "word", ofType: "json")!
         let provider = LocalJSONWordProvider(jsonPath: wordJsonPath)
@@ -19,5 +19,6 @@ class AppDependencies {
         Task {
             try? await provider.load()
         }
+        learningStateManager = WordLearningStateManager()
     }
 }
