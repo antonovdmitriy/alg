@@ -4,5 +4,11 @@
     "voiceName": "sv-SE-MattiasNeural",
     "provider": "azure",
     "sampleUrl": "https://eastus.tts.speech.microsoft.com/cognitiveservices/voices/neural/sv-SE-MattiasNeural.wav"
+  },
+  {
+    "id": "a1e12345-1111-4e00-aaaa-000000000002",
+    "voiceName": "Elin",
+    "provider": "aws",
+    "sampleUrl": "https://polly.s3.amazonaws.com/samples/Elin.mp3"
   }
 ]

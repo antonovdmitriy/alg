@@ -39,10 +39,9 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				audio,
-				generate_all_examples.py,
-				generate_all_words.py,
+				generat_audio_for_id_list.py,
 				generate_audio_for_words.py,
-				generate_tts.py,
+				generate_azure_tts.py,
 				upload_audio_to_azure.sh,
 			);
 			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
@@ -54,6 +53,7 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 0474E54C2DD4BC9900DBE6E4 /* Sources */;
 			membershipExceptions = (
+				generat_audio_for_id_list.py,
 				generate_audio_for_words.py,
 			);
 		};

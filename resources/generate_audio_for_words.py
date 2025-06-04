@@ -3,14 +3,26 @@ import subprocess
 import os
 import argparse
 from pathlib import Path
+import sys
 
 # Конфигурация
 INPUT_JSON = "./word.json"
 AUDIO_DIR_NAME = "audio"
-TTS_SCRIPT = "generate_tts.py"
-
-def generate_audio(text, phoneme, output_path):
-    command = ["/usr/bin/python3", TTS_SCRIPT, text, str(output_path)]
+VOICE_CONFIG_PATH = "voice.json"
+def generate_audio(text, phoneme, output_path, voice_id):
+    # Определяем провайдера по voice_id (если есть)
+    tts_script = "generate_azure_tts.py"  # по умолчанию
+    if voice_id is not None:
+        with open(VOICE_CONFIG_PATH, encoding="utf-8") as vf:
+            voices = json.load(vf)
+            voice_info = next((v for v in voices if v.get("id") == voice_id), None)
+            if voice_info:
+                provider = voice_info.get("provider")
+                if provider == "azure":
+                    tts_script = "generate_azure_tts.py"
+                elif provider == "aws":
+                    tts_script = "generate_aws_tts.py"
+    command = [sys.executable, tts_script, text, str(output_path)]
     if phoneme:
         command += ["--phoneme", phoneme]
     subprocess.run(command, check=True)
@@ -54,7 +66,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
             if not word_output_path.exists() or overwrite:
                 try:
                     print(f"▶️ Генерация слова: {word_output_path}")
-                    generate_audio(word, phoneme, word_output_path)
+                    generate_audio(word, phoneme, word_output_path, voice_id)
                 except subprocess.CalledProcessError as e:
                     print(f"⚠️ Ошибка генерации для слова '{word}': {e}")
             else:
@@ -69,7 +81,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
                 if not form_output_path.exists() or overwrite:
                     try:
                         print(f"▶️ Генерация формы: {form_output_path}")
-                        generate_audio(form_text, form_phoneme, form_output_path)
+                        generate_audio(form_text, form_phoneme, form_output_path, voice_id)
                     except subprocess.CalledProcessError as e:
                         print(f"⚠️ Ошибка генерации формы '{form_text}': {e}")
                 else:
@@ -84,7 +96,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
                 if not example_output_path.exists() or overwrite:
                     try:
                         print(f"▶️ Генерация примера: {example_output_path}")
-                        generate_audio(example_text, example_phoneme, example_output_path)
+                        generate_audio(example_text, example_phoneme, example_output_path, voice_id)
                     except subprocess.CalledProcessError as e:
                         print(f"⚠️ Ошибка генерации примера '{example_text}': {e}")
                 else:

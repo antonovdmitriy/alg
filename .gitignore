@@ -21,3 +21,5 @@ Packages/
 # Audio files (temporary or large assets)
 audio/
 *.mp3
+
+venv/

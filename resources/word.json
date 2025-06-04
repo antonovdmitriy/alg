@@ -11,7 +11,7 @@
         "version": 0,
         "word": "en värme",
         "translations": {
-          "ru": "тепло жара обогрев",
+          "ru": "тепло, жара, обогрев",
           "en": "warmth, heat, heating"
         },
         "examples": [
@@ -10162,9 +10162,10 @@
       {
         "id": "d92c2bb7-cc7e-47ef-9ce8-061c04b6c236",
         "version": 0,
-        "word": "Vad skönt (хуонт)",
+        "word": "Vad skönt",
         "translations": {
-          "ru": ""
+          "ru": "Как хорошо!, Как приятно!, Какое облегчение!",
+          "en": "How nice!, How pleasant!, What a relief!"
         },
         "examples": [
           {
@@ -16418,7 +16419,7 @@
         "version": 0,
         "word": "elva",
         "translations": {
-          "ru": "Одинадцать",
+          "ru": "Одиннадцать",
           "en": "Eleven"
         },
         "examples": [
@@ -16529,7 +16530,7 @@
         "version": 0,
         "word": "fjorton",
         "translations": {
-          "ru": "четырнадцать",
+          "ru": "Четырнадцать",
           "en": "Fourteen"
         },
         "examples": [
@@ -16552,7 +16553,7 @@
         "version": 0,
         "word": "femton",
         "translations": {
-          "ru": "пятнадцать",
+          "ru": "Пятнадцать",
           "en": "Fifteen"
         },
         "examples": [
@@ -16593,7 +16594,7 @@
         "version": 0,
         "word": "sexton",
         "translations": {
-          "ru": "шестнадцать",
+          "ru": "Шестнадцать",
           "en": "Sixteen"
         },
         "examples": [
@@ -16619,7 +16620,7 @@
         "version": 0,
         "word": "sjutton",
         "translations": {
-          "ru": "семнадцать",
+          "ru": "Семнадцать",
           "en": "Seventeen"
         },
         "examples": [
@@ -16663,7 +16664,7 @@
         "version": 0,
         "word": "arton",
         "translations": {
-          "ru": "восемнадцать",
+          "ru": "Восемнадцать",
           "en": "Eighteen"
         },
         "examples": [
@@ -16695,7 +16696,7 @@
         "version": 0,
         "word": "nitton",
         "translations": {
-          "ru": "девятнадцать",
+          "ru": "Девятнадцать",
           "en": "Nineteen"
         },
         "examples": [
@@ -16736,7 +16737,7 @@
         "version": 0,
         "word": "tjugo",
         "translations": {
-          "ru": "двадцать",
+          "ru": "Двадцать",
           "en": "Twenty"
         },
         "examples": [
@@ -16777,7 +16778,7 @@
         "version": 0,
         "word": "tjugoett",
         "translations": {
-          "ru": "двадцать один",
+          "ru": "Двадцать один",
           "en": "Twenty-one"
         },
         "examples": [
@@ -16824,7 +16825,7 @@
         "version": 0,
         "word": "tjugotrvå",
         "translations": {
-          "ru": "двадцать два",
+          "ru": "Двадцать два",
           "en": "Twenty-two"
         },
         "examples": [
@@ -16853,7 +16854,7 @@
         "version": 0,
         "word": "trettiotre",
         "translations": {
-          "ru": "тридцать три",
+          "ru": "Тридцать три",
           "en": "Thirty-three"
         },
         "examples": [
@@ -16897,7 +16898,7 @@
         "version": 0,
         "word": "fyrtiofryra",
         "translations": {
-          "ru": "сорок четыре",
+          "ru": "Сорок четыре",
           "en": "Forty-four"
         },
         "examples": [
@@ -17052,7 +17053,7 @@
         "version": 0,
         "word": "åttioåtta",
         "translations": {
-          "ru": "восемьдесят восемь",
+          "ru": "Восемьдесят восемь",
           "en": "Eighty-eight"
         },
         "examples": [
@@ -17099,7 +17100,7 @@
         "version": 0,
         "word": "nittionio",
         "translations": {
-          "ru": "девяносто девять",
+          "ru": "Девяносто девять",
           "en": "Ninety-nine"
         },
         "examples": [
@@ -17146,7 +17147,7 @@
         "version": 0,
         "word": "etthundra",
         "translations": {
-          "ru": "сто",
+          "ru": "Сто",
           "en": "One hundred"
         },
         "examples": [
@@ -17193,7 +17194,7 @@
         "version": 0,
         "word": "tvåhundra",
         "translations": {
-          "ru": "двести",
+          "ru": "Двести",
           "en": "Two hundred"
         },
         "examples": [
@@ -17237,7 +17238,7 @@
         "version": 0,
         "word": "trehundra",
         "translations": {
-          "ru": "триста",
+          "ru": "Триста",
           "en": "Three hundred"
         },
         "examples": [
@@ -17263,7 +17264,7 @@
         "version": 0,
         "word": "fyrahundra",
         "translations": {
-          "ru": "четыреста",
+          "ru": "Четыреста",
           "en": "Four hundred"
         },
         "examples": [
@@ -17301,7 +17302,7 @@
         "version": 0,
         "word": "femhundra",
         "translations": {
-          "ru": "пятьсот",
+          "ru": "Пятьсот",
           "en": "Five hundred"
         },
         "examples": [
@@ -17333,7 +17334,7 @@
         "version": 0,
         "word": "sexhundra",
         "translations": {
-          "ru": "шестьсот",
+          "ru": "Шестьсот",
           "en": "Six hundred"
         },
         "examples": [
@@ -17380,7 +17381,7 @@
         "version": 0,
         "word": "sjuhundra",
         "translations": {
-          "ru": "семьсот",
+          "ru": "Семьсот",
           "en": "Seven hundred"
         },
         "examples": [
@@ -17421,7 +17422,7 @@
         "version": 0,
         "word": "åttahundra",
         "translations": {
-          "ru": "восемьсот",
+          "ru": "Восемьсот",
           "en": "Eight hundred"
         },
         "examples": [
@@ -17465,7 +17466,7 @@
         "version": 0,
         "word": "niohundra",
         "translations": {
-          "ru": "девятьсот",
+          "ru": "Девятьсот",
           "en": "Nine hundred"
         },
         "examples": [
@@ -17512,7 +17513,7 @@
         "version": 0,
         "word": "tusen",
         "translations": {
-          "ru": "тысяча",
+          "ru": "Тысяча",
           "en": "Thousand"
         },
         "examples": [
@@ -17556,7 +17557,7 @@
         "version": 0,
         "word": "tvåtusen",
         "translations": {
-          "ru": "две тысячи",
+          "ru": "Две тысячи",
           "en": "Two thousand"
         },
         "examples": [
@@ -17600,7 +17601,7 @@
         "version": 0,
         "word": "tretusen",
         "translations": {
-          "ru": "три тысячи",
+          "ru": "Три тысячи",
           "en": "Three thousand"
         },
         "examples": [
@@ -17665,7 +17666,7 @@
         "version": 0,
         "word": "fyratusen",
         "translations": {
-          "ru": "четыре тысячи",
+          "ru": "Четыре тысячи",
           "en": "Four thousand"
         },
         "examples": [
@@ -17712,7 +17713,7 @@
         "version": 0,
         "word": "femtusen",
         "translations": {
-          "ru": "пять тысяч",
+          "ru": "Пять тысяч",
           "en": "Five thousand"
         },
         "examples": [
@@ -17747,7 +17748,7 @@
         "version": 0,
         "word": "sextusen",
         "translations": {
-          "ru": "шесть тысяч",
+          "ru": "Шесть тысяч",
           "en": "Six thousand"
         },
         "examples": [
@@ -17794,7 +17795,7 @@
         "version": 0,
         "word": "sjutusen",
         "translations": {
-          "ru": "семь тысяч",
+          "ru": "Семь тысяч",
           "en": "Seven thousand"
         },
         "examples": [
@@ -17841,7 +17842,7 @@
         "version": 0,
         "word": "åttatusen",
         "translations": {
-          "ru": "восемь тысяч",
+          "ru": "Восемь тысяч",
           "en": "Eight thousand"
         },
         "examples": [
@@ -17885,7 +17886,7 @@
         "version": 0,
         "word": "niotusen",
         "translations": {
-          "ru": "девять тысяч",
+          "ru": "Девять тысяч",
           "en": "Nine thousand"
         },
         "examples": [
@@ -18018,7 +18019,7 @@
           }
         ],
         "translations": {
-          "ru": "миллион",
+          "ru": "Миллион",
           "en": "Million"
         },
         "examples": [
@@ -18050,7 +18051,7 @@
         "version": 0,
         "word": "två komma fem",
         "translations": {
-          "ru": "два с половиной",
+          "ru": "Два с половиной",
           "en": "Two and a half"
         },
         "examples": [
@@ -59496,13 +59497,11 @@
       },
       {
         "id": "e72ca78a-17a2-4eb0-87a6-86c488650c93",
-        "version": 1,
+        "version": 2,
         "word": "en reservation",
-        "phoneme": "resɛrvaˈɧuːn",
         "forms": [
           {
-            "form": "reservationer",
-            "phoneme": "resɛrvaˈɧuːnɛr"
+            "form": "reservationer"
           }
         ],
         "translations": {
@@ -59511,24 +59510,20 @@
         },
         "examples": [
           {
-            "text": "Göra en reservation",
-            "phoneme": "ˈjœːra ɛn resɛrvaˈɧuːn"
+            "text": "Göra en reservation"
           },
           {
-            "text": "Vi gjorde vår reservation ungefär två månader tidigare",
-            "phoneme": "viː ˈjuːrde voːr resɛrvaˈɧuːn ɵŋɛˈfæːr tvoː ˈmoːnɑdɛr ˈtiːdiɡarɛ"
+            "text": "Vi gjorde vår reservation ungefär två månader tidigare"
           },
           {
-            "text": "Jag har gjort en reservation på restaurangen",
-            "phoneme": "jɑː ɧɑːr ˈjuːʈ ɛn resɛrvaˈɧuːn poː rɛstʉˈraŋɛn"
+            "text": "Jag har gjort en reservation på restaurangen"
           },
           {
-            "text": "Vi behöver en reservation för två personer.",
-            "phoneme": "vi bɛˈhøːvɛr ɛn resɛrvaˈɧuːn før tvoː pæʂuˈneːr"
+            "text": "Vi behöver en reservation för två personer."
           }
         ],
         "voiceEntries": [
-          "a1e12345-1111-4e00-aaaa-000000000001"
+          "a1e12345-1111-4e00-aaaa-000000000002"
         ]
       },
       {
