@@ -13,6 +13,8 @@ struct WordForm: Decodable {
 struct WordEntry: Identifiable, Decodable {
     let id: UUID
     let word: String
+    let version: Int
+    let voiceEntries: [UUID]?
     let forms: [WordForm]?
     let translations: [String: String]
     let examples: [WordExample]

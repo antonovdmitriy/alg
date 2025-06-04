@@ -39,15 +39,25 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				audio,
-				csv_to_json.py,
 				generate_all_examples.py,
 				generate_all_words.py,
+				generate_audio_for_words.py,
 				generate_tts.py,
 				upload_audio_to_azure.sh,
 			);
 			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		0406A2642DF04ADA0045626A /* Exceptions for "resources" folder in "Compile Sources" phase from "Älg" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 0474E54C2DD4BC9900DBE6E4 /* Sources */;
+			membershipExceptions = (
+				generate_audio_for_words.py,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0474E5522DD4BC9900DBE6E4 /* Alg */ = {
@@ -69,6 +79,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Älg" target */,
+				0406A2642DF04ADA0045626A /* Exceptions for "resources" folder in "Compile Sources" phase from "Älg" target */,
 			);
 			explicitFolders = (
 				audio,

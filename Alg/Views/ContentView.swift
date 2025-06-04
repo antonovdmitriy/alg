@@ -4,15 +4,17 @@ import SwiftUI
 struct ContentView: View {
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @State private var showTabBar = false
     @State private var selectedTab: Int = 0
     @Environment(\.locale) private var locale
     @ObservedObject private var goalManager = LearningGoalManager.shared
 
-    init(wordService: WordService, learningStateManager: WordLearningStateManager) {
+    init(wordService: WordService, learningStateManager: WordLearningStateManager, audioPlayerHelper: AudioPlayerHelper) {
         self.wordService = wordService
         self.learningStateManager = learningStateManager
+        self.audioPlayerHelper = audioPlayerHelper
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor.systemBackground
@@ -25,10 +27,10 @@ struct ContentView: View {
         ZStack(alignment: .bottom) {
             TabView(selection: $selectedTab) {
                 NavigationView {
-                    RandomWordView(showTabBar: $showTabBar, wordService: wordService, learningStateManager: learningStateManager)
+                    RandomWordView(showTabBar: $showTabBar, wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
                 }
                 .onAppear {
-                    AudioPlayerHelper.stop()
+                    audioPlayerHelper.stop()
                 }
                 .tabItem {
                     Image(systemName: "shuffle")
@@ -36,10 +38,10 @@ struct ContentView: View {
                 .tag(0)
 
                 NavigationView {
-                    DictionaryView(wordService: wordService, learningStateManager: learningStateManager)
+                    DictionaryView(wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
                 }
                 .onAppear {
-                    AudioPlayerHelper.stop()
+                    audioPlayerHelper.stop()
                 }
                 .tabItem {
                     Image(systemName: "book")
@@ -47,10 +49,10 @@ struct ContentView: View {
                 .tag(1)
 
                 NavigationView {
-                    SettingsView(wordService: wordService, learningStateManager: learningStateManager)
+                    SettingsView(wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
                 }
                 .onAppear {
-                    AudioPlayerHelper.stop()
+                    audioPlayerHelper.stop()
                 }
                 .tabItem {
                     Image(systemName: "gearshape")
@@ -74,6 +76,7 @@ struct ContentView: View {
 struct DictionaryView: View {
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
     @Environment(\.locale) private var locale
     @State private var searchText = ""
     @AppStorage("selectedSearchLanguage") private var selectedSearchLang = "sv"
@@ -104,13 +107,20 @@ struct DictionaryView: View {
             List {
                 if searchText.isEmpty {
                     ForEach(wordService.allCategories()) { category in
-                        NavigationLink(destination: WordListView(category: category, wordService: wordService, learningStateManager: learningStateManager)) {
+                        NavigationLink(
+                            destination: WordListView(
+                                category: category,
+                                wordService: wordService,
+                                learningStateManager: learningStateManager,
+                                audioPlayerHelper: audioPlayerHelper
+                            )
+                        ) {
                             Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
                         }
                     }
                 } else {
                     ForEach(filteredResults) { entry in
-                        NavigationLink(destination: WordCardView(entry: entry, categoryId: wordService.categoryIdByWordId(entry.id)?.uuidString ?? "", wordService: wordService, learningStateManager: learningStateManager)) {
+                        NavigationLink(destination: WordCardView(entry: entry, categoryId: wordService.categoryIdByWordId(entry.id)?.uuidString ?? "", wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)) {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(entry.word)
                                     .font(.headline)

@@ -12,6 +12,7 @@ struct SettingsView: View {
     @EnvironmentObject var visualStyleManager: VisualStyleManager
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
     
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = true
@@ -52,13 +53,13 @@ struct SettingsView: View {
                     }
             }
             Section(header: Text("settings_my_words_section")) {
-                NavigationLink(destination: LearnedWordsView(wordService: wordService, learningStateManager: learningStateManager)) {
+                NavigationLink(destination: LearnedWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
                     Label("settings_learned_words", systemImage: "checkmark")
                 }
-                NavigationLink(destination: FavoriteWordsView(wordService: wordService, learningStateManager: learningStateManager)) {
+                NavigationLink(destination: FavoriteWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
                     Label("settings_favorite_words", systemImage: "star")
                 }
-                NavigationLink(destination: IgnoredWordsView(wordService: wordService, learningStateManager: learningStateManager)) {
+                NavigationLink(destination: IgnoredWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
                     Label("settings_ignored_words", systemImage: "nosign")
                 }
             }
@@ -94,6 +95,7 @@ struct SettingsView: View {
 struct LearnedWordsView: View {
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioHelper: AudioPlayerHelper
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -111,7 +113,8 @@ struct LearnedWordsView: View {
                 words = []
             },
             wordService: wordService,
-            learningStateManager: learningStateManager
+            learningStateManager: learningStateManager,
+            audioPlayerHelper: audioHelper
         )
         .onAppear {
             //TODO: rewrite when there will be index.
@@ -126,6 +129,7 @@ struct LearnedWordsView: View {
 struct FavoriteWordsView: View {
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioHelper: AudioPlayerHelper
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -141,7 +145,8 @@ struct FavoriteWordsView: View {
                 words = []
             },
             wordService: wordService,
-            learningStateManager: learningStateManager
+            learningStateManager: learningStateManager,
+            audioPlayerHelper: audioHelper
         )
         .onAppear {
             //TODO: rewrite when there will be index.
@@ -156,6 +161,7 @@ struct FavoriteWordsView: View {
 struct IgnoredWordsView: View {
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioHelper: AudioPlayerHelper
     @State private var words: [(WordEntry, UUID)] = []
 
     var body: some View {
@@ -173,7 +179,8 @@ struct IgnoredWordsView: View {
                 words = []
             },
             wordService: wordService,
-            learningStateManager: learningStateManager
+            learningStateManager: learningStateManager,
+            audioPlayerHelper: audioHelper
         )
         .onAppear {
             //TODO: rewrite when there will be index.

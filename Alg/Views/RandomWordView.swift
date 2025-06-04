@@ -6,6 +6,7 @@ struct RandomWordView: View {
     @Binding var showTabBar: Bool
     private let wordService: WordService
     private let learningStateManager: WordLearningStateManager
+    private let audioPlayerHelper: AudioPlayerHelper
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
@@ -20,12 +21,13 @@ struct RandomWordView: View {
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
     
-    init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager) {
+    init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager, audioPlayerHelper: AudioPlayerHelper) {
         self._showTabBar = showTabBar
         self.wordService = wordService
         self.learningStateManager = learningStateManager
+        self.audioPlayerHelper = audioPlayerHelper
         _currentCategoryId = State(initialValue: UUID())
-        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [], phoneme: nil))
+        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", version: 0, voiceEntries: nil, forms: [], translations: [:], examples: [], phoneme: nil))
     }
     
     var body: some View {
@@ -149,7 +151,7 @@ struct RandomWordView: View {
                                 proceedToNextWord()
                             }
                         }
-                        currentEntry = WordEntry(id: UUID(), word: "", forms: [], translations: [:], examples: [], phoneme: nil)
+                        currentEntry = WordEntry(id: UUID(), word: "", version: 0, voiceEntries: nil, forms: [], translations: [:], examples: [], phoneme: nil)
                         currentCategoryId = UUID()
                     }
             }
@@ -186,10 +188,10 @@ struct RandomWordView: View {
                 nextPrefetchedEntry = prefetchedEntry
                 nextPrefetchedCategoryId = prefetchedCategoryId
                 DispatchQueue.global(qos: .utility).async {
-                    AudioPlayerHelper.prefetchAudio(categoryId: prefetchedCategoryId.uuidString, entryId: prefetchedEntry.id)
+                    audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
                 }
             }
-            AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
+            audioPlayerHelper.playAudio(entryId: currentEntry.id)
         }
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
@@ -209,7 +211,8 @@ struct RandomWordView: View {
                 entry: currentEntry,
                 categoryId: currentCategoryId.uuidString.lowercased(),
                 wordService: wordService,
-                learningStateManager: learningStateManager
+                learningStateManager: learningStateManager,
+                audioPlayerHelper: audioPlayerHelper
             )
         }
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
@@ -246,14 +249,16 @@ struct RandomWordView: View {
         if let entry = filteredEntries.randomElement() {
             return (entry, chosenCategory.id)
         } else {
-            let placeholderEntry = WordEntry(
-                id: UUID(),
-                word: NSLocalizedString("all_words_completed_title", comment: ""),
-                forms: [],
-                translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
-                examples: [],
-                phoneme: nil
-            )
+        let placeholderEntry = WordEntry(
+            id: UUID(),
+            word: NSLocalizedString("all_words_completed_title", comment: ""),
+            version: 0,
+            voiceEntries: nil,
+            forms: [],
+            translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
+            examples: [],
+            phoneme: nil
+        )
             return (placeholderEntry, chosenCategory.id)
         }
     }
@@ -291,7 +296,7 @@ struct RandomWordView: View {
             currentEntry = next
             currentCategoryId = nextId
             print("🔊 Playing audio for word: \(next.word), category ID: \(nextId)")
-            AudioPlayerHelper.playAudio(categoryId: nextId.uuidString, entryId: next.id)
+            audioPlayerHelper.playAudio(entryId: next.id)
         }
 
         // Prefetch next word asynchronously
@@ -301,7 +306,7 @@ struct RandomWordView: View {
             let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
 
             print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
-            AudioPlayerHelper.prefetchAudio(categoryId: prefetchedCategoryId.uuidString, entryId: prefetchedEntry.id)
+            audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
             print("✅ Audio prefetch completed (or started) for: \(prefetchedEntry.word)")
 
             DispatchQueue.main.async {
@@ -317,7 +322,7 @@ struct RandomWordView: View {
             let previous = entryHistory.removeLast()
             currentEntry = previous.0
             currentCategoryId = previous.1
-            AudioPlayerHelper.playAudio(categoryId: currentCategoryId.uuidString, entryId: currentEntry.id)
+            audioPlayerHelper.playAudio(entryId: currentEntry.id)
         }
     }
     

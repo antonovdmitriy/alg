@@ -6,37 +6,53 @@ CONTAINER_NAME="audio"                             # ← имя контейне
 SOURCE_DIR="./audio"                               # ← локальная папка с mp3
 
 
-MODE="words"
 OVERWRITE=false
 FILE=""
+WORD_ID=""
 while [[ "$#" -gt 0 ]]; do
   case $1 in
     --overwrite) OVERWRITE=true ;;
-    --mode) MODE="$2"; shift ;;
     --file) FILE="$2"; shift ;;
+    --id) WORD_ID="$2"; shift ;;
   esac
   shift
 done
 
-# Выбор шаблона поиска в зависимости на режиме
-case "$MODE" in
-  words)
-    PATTERN="[a-f0-9-]*.mp3"
-    ;;
-  examples)
-    PATTERN="*_ex*.mp3"
-    ;;
-  forms)
-    PATTERN="*_form*.mp3"
-    ;;
-  *)
-    echo "⛔ Неизвестный режим: $MODE"
-    exit 1
-    ;;
-esac
+if [ -n "$WORD_ID" ]; then
+  echo "🔎 Ищем mp3-файлы для слова с id=$WORD_ID..."
+  FILE_LIST=$(find "$SOURCE_DIR" -type f -path "*/$WORD_ID/*" -name "*.mp3")
+  if [ -z "$FILE_LIST" ]; then
+    echo "⚠️  Не найдено файлов для id=$WORD_ID"
+    exit 0
+  fi
+  for FILEPATH in $FILE_LIST; do
+    BLOB_PATH="${FILEPATH#./audio/}"
+    if [ "$OVERWRITE" = false ]; then
+      az storage blob upload \
+        --account-name "$STORAGE_ACCOUNT_NAME" \
+        --container-name "$CONTAINER_NAME" \
+        --file "$FILEPATH" \
+        --name "$BLOB_PATH" \
+        --account-key "$AZURE_STORAGE_KEY" \
+        --if-none-match "*" > /dev/null
+    else
+      az storage blob upload \
+        --account-name "$STORAGE_ACCOUNT_NAME" \
+        --container-name "$CONTAINER_NAME" \
+        --file "$FILEPATH" \
+        --name "$BLOB_PATH" \
+        --account-key "$AZURE_STORAGE_KEY" \
+        --overwrite > /dev/null
+    fi
 
-# Одинаковая глубина поиска для всех режимов
-FIND_DEPTH="-mindepth 2 -maxdepth 2"
+    if [ $? -eq 0 ]; then
+      echo "✅ $BLOB_PATH загружен"
+    else
+      echo "⚠️  Ошибка загрузки $BLOB_PATH"
+    fi
+  done
+  exit 0
+fi
 
 # Проверка входа в Azure
 echo "▶️ Проверка входа в Azure CLI..."
@@ -47,7 +63,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Загрузка файлов
-echo "🚀 Загружаем mp3-файлы слов в Azure Blob Storage..."
+echo "🚀 Загружаем mp3-файлы в Azure Blob Storage..."
 
 if [ -z "$AZURE_STORAGE_KEY" ]; then
   echo "⛔ Переменная окружения AZURE_STORAGE_KEY не установлена."
@@ -69,51 +85,30 @@ if [ -n "$FILE" ]; then
     echo "⚠️  Ошибка загрузки ${FILE#./audio/}"
   fi
 else
-  if [ "$MODE" = "words" ]; then
-    echo "☑ Переход к пофайловой загрузке для режима 'words'"
-    find "$SOURCE_DIR" $FIND_DEPTH -type f -name "*.mp3" | grep -E '/[a-f0-9\-]{36}/[a-f0-9\-]{36}\.mp3$' | while read FILEPATH; do
-      BLOB_PATH="${FILEPATH#./audio/}"
-      if [ "$OVERWRITE" = false ]; then
-        az storage blob upload \
-          --account-name "$STORAGE_ACCOUNT_NAME" \
-          --container-name "$CONTAINER_NAME" \
-          --file "$FILEPATH" \
-          --name "$BLOB_PATH" \
-          --account-key "$AZURE_STORAGE_KEY" \
-          --if-none-match "*" > /dev/null
-      else
-        az storage blob upload \
-          --account-name "$STORAGE_ACCOUNT_NAME" \
-          --container-name "$CONTAINER_NAME" \
-          --file "$FILEPATH" \
-          --name "$BLOB_PATH" \
-          --account-key "$AZURE_STORAGE_KEY" \
-          --overwrite > /dev/null
-      fi
-
-      if [ $? -eq 0 ]; then
-        echo "✅ $BLOB_PATH загружен"
-      else
-        echo "⚠️  Ошибка загрузки $BLOB_PATH"
-      fi
-    done
-  else
+  find "$SOURCE_DIR" -type f -name "*.mp3" | grep -E '/[a-f0-9\-]{36}(/|/[^/]+/[^/]+/[^/]+/).*\.mp3$' | while read FILEPATH; do
+    BLOB_PATH="${FILEPATH#./audio/}"
     if [ "$OVERWRITE" = false ]; then
-      az storage blob upload-batch \
+      az storage blob upload \
         --account-name "$STORAGE_ACCOUNT_NAME" \
-        --destination "$CONTAINER_NAME" \
-        --source "$SOURCE_DIR" \
+        --container-name "$CONTAINER_NAME" \
+        --file "$FILEPATH" \
+        --name "$BLOB_PATH" \
         --account-key "$AZURE_STORAGE_KEY" \
-        --pattern "$PATTERN" \
-        --if-none-match "*"
+        --if-none-match "*" > /dev/null
     else
-      az storage blob upload-batch \
+      az storage blob upload \
         --account-name "$STORAGE_ACCOUNT_NAME" \
-        --destination "$CONTAINER_NAME" \
-        --source "$SOURCE_DIR" \
+        --container-name "$CONTAINER_NAME" \
+        --file "$FILEPATH" \
+        --name "$BLOB_PATH" \
         --account-key "$AZURE_STORAGE_KEY" \
-        --pattern "$PATTERN" \
-        --overwrite
+        --overwrite > /dev/null
     fi
-  fi
+
+    if [ $? -eq 0 ]; then
+      echo "✅ $BLOB_PATH загружен"
+    else
+      echo "⚠️  Ошибка загрузки $BLOB_PATH"
+    fi
+  done
 fi

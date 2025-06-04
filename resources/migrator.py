@@ -1,27 +1,28 @@
-import json
-from pathlib import Path
 
-INPUT_PATH = "./word.json"
-OUTPUT_PATH = "./word_migrated.json"
 
-def migrate_examples_to_objects():
-    with open(INPUT_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
 
-    changed = False
+INPUT_JSON = "word.json"
+OUTPUT_JSON = "word_migrated.json"
+
+
+def migrate_voice_entries_to_uuid_list(data):
     for category in data:
         for entry in category.get("entries", []):
-            examples = entry.get("examples")
-            if examples and isinstance(examples, list) and all(isinstance(e, str) for e in examples):
-                entry["examples"] = [{"text": e} for e in examples]
-                changed = True
+            voice_entries = entry.get("voiceEntries")
+            if voice_entries and isinstance(voice_entries, list) and isinstance(voice_entries[0], dict):
+                entry["voiceEntries"] = [ve["id"] for ve in voice_entries if "id" in ve]
+    return data
 
-    if changed:
-        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"✅ Migration complete. Output saved to {OUTPUT_PATH}")
-    else:
-        print("ℹ️ No changes needed. Already in new format.")
+
+import json
 
 if __name__ == "__main__":
-    migrate_examples_to_objects()
+    with open(INPUT_JSON, encoding="utf-8") as f:
+        data = json.load(f)
+
+    migrated_data = migrate_voice_entries_to_uuid_list(data)
+
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+        json.dump(migrated_data, f, ensure_ascii=False, indent=2)
+
+    print(f"Migrated data written to {OUTPUT_JSON}")

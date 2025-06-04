@@ -1,0 +1,8 @@
+[
+  {
+    "id": "a1e12345-1111-4e00-aaaa-000000000001",
+    "voiceName": "sv-SE-MattiasNeural",
+    "provider": "azure",
+    "sampleUrl": "https://eastus.tts.speech.microsoft.com/cognitiveservices/voices/neural/sv-SE-MattiasNeural.wav"
+  }
+]

@@ -28,11 +28,20 @@ def main(category_filter=None, overwrite=False, single_id=None):
 
         for entry in category["entries"]:
             word_base = entry["id"]
+            voice_ids = entry.get("voiceEntries")
+            if not voice_ids:
+                print(f"❌ No voiceEntries found for word id {word_base}, skipping...")
+                continue
+            voice_id = voice_ids[0]
             for index, form in enumerate(entry.get("forms", [])):
                 form_text = form["form"]
                 phoneme = form.get("phoneme")
+                version = entry.get("version", 0)
                 filename = f"{word_base}_form{index + 1}.mp3"
-                full_dir = Path(OUTPUT_DIR) / category_id
+                if version == 0:
+                    full_dir = Path(OUTPUT_DIR) / category_id
+                else:
+                    full_dir = Path(OUTPUT_DIR) / category_id / word_base / str(version) / voice_id
                 full_dir.mkdir(parents=True, exist_ok=True)
                 output_path = full_dir / filename
 

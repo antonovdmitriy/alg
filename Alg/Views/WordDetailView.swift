@@ -5,6 +5,7 @@ struct WordDetailView: View {
     let categoryId: String
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
     
     var body: some View {
         ScrollView {
@@ -12,7 +13,8 @@ struct WordDetailView: View {
                 entry: entry,
                 categoryId: categoryId,
                 wordService: wordService,
-                learningStateManager: learningStateManager
+                learningStateManager: learningStateManager,
+                audioPlayerHelper: audioPlayerHelper
             )
         }
         .navigationTitle(entry.word)

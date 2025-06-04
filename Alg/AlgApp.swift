@@ -9,7 +9,7 @@ struct AlgApp: App {
     
     var body: some Scene {
         WindowGroup {
-            RootRouterView(wordService: dependencies.wordService, learningStateManager: dependencies.learningStateManager)
+            RootRouterView(wordService: dependencies.wordService, learningStateManager: dependencies.learningStateManager, audioPlayerHelper: dependencies.audioPlayerHelper)
                 .environmentObject(visualStyleManager)
         }
     }

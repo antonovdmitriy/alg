@@ -73,11 +73,14 @@ class LocalJSONWordProvider: WordProvider {
     
     private func loadCategories() -> [Category] {
         let url = URL(fileURLWithPath: jsonPath)
-        guard let data = try? Data(contentsOf: url),
-              let categories = try? JSONDecoder().decode([Category].self, from: data) else {
+        do {
+            let data = try Data(contentsOf: url)
+            let categories = try JSONDecoder().decode([Category].self, from: data)
+            return categories
+        } catch {
+            print("Failed to load categories from \(url): \(error)")
             return []
         }
-        return categories
     }
     
     func idsByWord(_ form: String) -> [UUID]? {

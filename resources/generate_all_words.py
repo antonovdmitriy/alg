@@ -6,8 +6,8 @@ from pathlib import Path
 
 # Конфигурация
 INPUT_JSON = "./word.json"              # путь к JSON-файлу
-OUTPUT_DIR = "audio"                  # куда сохранять mp3
-TTS_SCRIPT = "generate_tts.py"        # скрипт озвучки
+AUDIO_DIR_NAME = "audio"                # куда сохранять mp3
+TTS_SCRIPT = "generate_tts.py"          # скрипт озвучки
 
 
 def main(category_filter=None, overwrite=False, single_id=None):
@@ -30,8 +30,22 @@ def main(category_filter=None, overwrite=False, single_id=None):
             word_base = entry["id"]
             word = entry["word"]
             phoneme = entry.get("phoneme")
+
             filename = f"{word_base}.mp3"
-            full_dir = Path(OUTPUT_DIR) / category_id
+
+            # Выбор структуры пути в зависимости от версии слова
+            if entry.get("version", 0) == 0:
+                # Старая структура: audio/category_id/word_base.mp3
+                full_dir = Path(AUDIO_DIR_NAME) / category_id
+            else:
+                # Новая структура: audio/category_id/word_base/version/voice_id/word_base.mp3
+                voice_entries = entry.get("voiceEntries")
+                if not voice_entries:
+                    print(f"⚠️ Ошибка: отсутствуют voiceEntries для слова с версией > 0: {word_base}")
+                    continue
+                voice_id = voice_entries[0]
+                full_dir = Path(AUDIO_DIR_NAME) / category_id / word_base / str(entry["version"]) / str(voice_id)
+
             full_dir.mkdir(parents=True, exist_ok=True)
             output_path = full_dir / filename
 

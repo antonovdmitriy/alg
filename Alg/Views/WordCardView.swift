@@ -9,6 +9,7 @@ struct WordCardView: View {
     let categoryId: String
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
 
     @State private var selectedEntry: WordEntry? = nil
     @State private var multipleEntries: [WordEntry] = []
@@ -51,7 +52,7 @@ struct WordCardView: View {
                             VStack(alignment: .leading, spacing: 6) {
                                 ForEach(Array(forms.enumerated()), id: \.offset) { index, form in
                                     Button(action: {
-                                        AudioPlayerHelper.playWordForm(categoryId: categoryId, entryId: entry.id, index: index + 1)
+                                        audioPlayerHelper.playWordForm(entryId: entry.id, index: index + 1)
                                     }) {
                                         HStack(spacing: 6) {
                                             Image(systemName: "speaker.wave.2.fill")
@@ -109,7 +110,7 @@ struct WordCardView: View {
                 .padding()
                 .sheet(item: $selectedEntry) { entry in
                     if let categoryId = wordService.categoryIdByWordId(entry.id) {
-                        WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService, learningStateManager: learningStateManager)
+                        WordCardView(entry: entry, categoryId: categoryId.uuidString, wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
                     }
                 }
                 .confirmationDialog("choose_word_title", isPresented: $showingSelectionSheet, titleVisibility: .visible) {
@@ -126,11 +127,11 @@ struct WordCardView: View {
     }
 
     func playWordAudio() {
-        AudioPlayerHelper.playAudio(categoryId: categoryId, entryId: entry.id)
+        audioPlayerHelper.playAudio(entryId: entry.id)
     }
 
     func playExampleAudio(exampleText: String, index: Int) {
-        AudioPlayerHelper.playExample(categoryId: categoryId, entryId: entry.id, exampleIndex: index)
+        audioPlayerHelper.playExample(entryId: entry.id, exampleIndex: index)
     }
     
     func extractTappables(from text: String) -> [String: () -> Void] {

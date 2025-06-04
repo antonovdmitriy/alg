@@ -5,11 +5,12 @@ struct WordListView: View {
     let category: Category
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
+    let audioPlayerHelper: AudioPlayerHelper
     @Environment(\.locale) private var locale
 
     var body: some View {
         List(category.entries) { entry in
-            NavigationLink(destination: WordDetailView(entry: entry, categoryId: category.id.uuidString.lowercased(), wordService: wordService, learningStateManager: learningStateManager)) {
+            NavigationLink(destination: WordDetailView(entry: entry, categoryId: category.id.uuidString.lowercased(), wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)) {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(entry.word)
                         .font(.headline)
