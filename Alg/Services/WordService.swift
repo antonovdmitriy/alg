@@ -57,8 +57,9 @@ class WordService {
         
         let withEn = provider.idsByWord("en \(base)") ?? []
         let withEtt = provider.idsByWord("ett \(base)") ?? []
+        let withAtt = provider.idsByWord("att \(base)") ?? []
         
-        return withEn + withEtt
+        return withEn + withEtt + withAtt
     }
     
     func entriesStartingWith(prefix: String) -> [WordEntry] {

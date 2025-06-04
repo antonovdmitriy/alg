@@ -618,7 +618,12 @@ WORD_IDS=(
   # Добавь сюда другие UUID
 )
 
-for WORD_ID in "${WORD_IDS[@]}"; do
+ # Очистка запятых и пробелов из UUID
+ CLEANED_WORD_IDS=()
+ for id in "${WORD_IDS[@]}"; do
+   CLEANED_WORD_IDS+=("$(echo "$id" | tr -d ',[:space:]')")
+ done
+for WORD_ID in "${CLEANED_WORD_IDS[@]}"; do
   echo "📤 Загрузка аудио для слова $WORD_ID"
   ./upload_audio_to_azure.sh --id "$WORD_ID" --overwrite
 done
