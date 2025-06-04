@@ -1,0 +1,894 @@
+Word IDs with misplaced punctuation:
+db02a0be-a786-4c73-ab99-bb6ce0833f83 [example 2]: Hur mycket kostar elen per kilowattimme? Vi försöker spara på elen genom att släcka lampor
+8597de51-5c3b-41f2-bece-b0f11fa9e523 [example 6]: Vilka vanor skulle du vilja ändra på? Han har en vana att gå upp tidigt varje morgon
+4a429dd5-1e24-4f42-949e-86240648c1ef [example 0]: Kan du hålla en hemlighet? Jag ska berätta en hemlighet, men lova att inte säga det till någon
+f23a2fcf-592d-4bee-954d-e985e829b1f4 [example 1]: Vilken typ av kaffe föredrar du? De säljer flera olika typer av skor i butiken
+a70f0938-bdd2-42be-8478-39e6e7d6618b [example 0]: Vilken sort av choklad tycker du bäst om? Jag köpte flera olika sorter av te
+454bc382-8aa1-4705-a23f-c47581d929b7 [example 7]: Har du sett veckans bästa erbjudanden i butiken? Jag fick flera erbjudanden, men valde det första
+a11bbfee-cd7f-48f8-b2fb-111e8856660b [example 0]: Du har gjort stora framsteg i svenskan! Barnet gör framsteg varje dag
+e56f21af-d99f-4cdb-b516-c8bfe0e2aaf5 [example 3]: Har du haft något strul med datorn på sistone? Det är alltid lite strul när man flyttar till en ny lägenhet
+aca06272-f6ea-4c67-bb4e-dac9c8a9cc3c [example 2]: Finns det några problem med internetuppkopplingen? Problemen löstes snabbt med hjälp av experterna
+205991d7-111e-41ca-ae86-1e33282fb6e8 [example 3]: Jag hade inte en aning om att du skulle komma! Vi har ingen aning om hur det hände
+205991d7-111e-41ca-ae86-1e33282fb6e8 [example 4]: Kan du ge mig en aning om priset? Det var en aning kallare i morse
+842b9ab0-842c-4603-9f65-ee6cc2f4a150 [example 7]: Har du fått något beslut från Migrationsverket ännu? Beslutet att byta karriär var svårt, men nödvändigt
+4e0c0c81-9e39-4062-a997-0489fba5214c [example 3]: Har du lämnat in din ansökan till universitetet? Vi behöver fylla i ansökan för barnens förskola
+1453441d-b9cf-4604-b81f-c0046c90a98e [example 8]: Kan du hämta en liter saft från köket? Motoroljan säljs i flaskor om en halv liter
+1d281139-7f09-4176-8900-ecefc3096017 [example 5]: Hur många gram choklad behöver vi för kakan? Kan du väga 50 gram mjöl åt mig? Receptet kräver 250 gram smör.
+7aaddad9-5bd3-44d9-a4aa-369fb768db1d [example 4]: Hur många meter är det mellan huset och vägen? Löparen sprang 100 meter på mindre än 10 sekunder
+a7a353da-22fd-41d3-8b4b-bad06e1d8690 [example 7]: Loppet är 42 kilometer långt – en riktig utmaning!  Vi promenerade två kilometer längs stranden igår kväll
+8724f24c-66b3-47a4-a689-fe3632f799c0 [example 1]: Vilka cuper ska laget delta i nästa år? Det finns många olika cuper för ungdomar
+3dd5893f-e4be-4dbc-ab68-3f9fe490dc7c [example 5]: Spelar du tennis ofta? Vilken tennisspelare tycker du bäst om? Finns det en tennisbana i närheten?
+9d6aa275-aed7-48d8-9684-5595e916f6f6 [example 0]: Kan du ge mig en boll? Barnet leker med en boll i trädgården
+c7342f5e-9dba-490e-b53b-6f95eb12bd5f [example 2]: Vilket lag hejar du på? Laget tränar varje dag inför finalen
+4d777d5d-14b4-4513-a4ac-901b2cb14fd1 [example 3]: Har du sett hur djupt såret är? Det var ett djupt sår i hennes hjärta efter separationen
+9c458fa9-455d-4dc4-9016-ffcf44f882c2 [example 12]: Vilka symptom hade du innan du sökte vård? Medicinen hjälpte att lindra symptomen på bara några timmar
+abfd960c-637a-44f7-8d95-acc5a3a72347 [example 10]: Har du någonsin stukat foten under en promenad? Stukade fingrar är vanliga bland basketspelare
+abfd960c-637a-44f7-8d95-acc5a3a72347 [example 11]: Vad ska jag göra om jag stukar handleden? Han använde en ispåse för att kyla ner sin stukade vrist
+0d2e0674-3aa1-409a-91cc-2d9f952b6420 [example 10]: Har du någonsin varit med om en trafikolycka? Olyckan kunde ha undvikits om han hade varit mer försiktig
+c6233d45-4063-47ea-bd13-89e935b91e8c [example 1]: Och du?  Hej och välkommen! Hej allihopa! Hej, jag heter Anna
+c6233d45-4063-47ea-bd13-89e935b91e8c [example 2]: Hej, har du tid att prata? Hej! Hur är det?
+45a77d30-64b0-4ede-b835-1328eb204fba [example 0]: Hejsan! Hur mår du? Hejsan allihopa! Hejsan! Vad gör du här? Hejsan, kan jag hjälpa dig? Hejsan! Har du haft en bra dag? Hejsan! Hur är det?
+93aac66f-7ea6-4e1b-9230-3a686ac68d72 [example 0]: Tjena! Vad gör du?  Tjena, grabben! Tjena! Hur mår du? Tjena, allt bra?  Tjena! Vad händer?  Tjena! Inte mycket, bara chillar.
+6a4304db-ea29-4373-845c-d6aea6c177d6 [example 1]: Jag träffade Anna igår, och hon frågade: "Hur är läget?"  Hur är läget i Sverige just nu? Vi har inte setts på länge! Hur är läget? Hur är läget? Du ser lite trött ut
+17322fc6-0f60-48fa-8472-67729a570b88 [example 0]: Läget?  Bra! Själv?  Läget? Det rullar på! Själv då? Tjena! Läget? Läget, kompis? Läget på jobbet? Jag träffade Jonas igår och han frågade: "Läget?" Läget med bilen? Fick du den fixad? Vi har inte setts på länge! Läget? Läget? Du ser lite stressad ut
+37b720c7-9e48-4e52-9036-647d417a6d2b [example 0]: Allt bra? Ja, tack! Själv? Allt bra? Det rullar på! Själv? Tjena! Allt bra? Hej! Allt bra med dig? Allt bra på jobbet? Allt bra efter resan? Allt bra med bilen? Allt bra i skolan? Vi har inte setts på länge! Allt bra? Allt bra? Du ser lite trött ut
+039e0d87-92f5-46b8-9cbd-b6ccb293cbaf [example 0]: Vi ses! Vi ses imorgon! Vi ses senare! Vi ses på måndag! Vi ses nästa vecka! Hej då! Vi ses imorgon! Jag måste gå nu
+039e0d87-92f5-46b8-9cbd-b6ccb293cbaf [example 1]: Vi ses senare! Vi ses på festen på lördag! Vi ses om en stund!  Tack för idag! Vi ses snart! Ha det så bra! Vi ses nästa vecka! Vi ses på jobbet på måndag
+039e0d87-92f5-46b8-9cbd-b6ccb293cbaf [example 4]: Vi ses! Ja, vi ses! Ha det bra!
+8f14cf5f-8fee-447e-b52d-d2a783279ac2 [example 0]: Hejdå! Hejdå, vi ses! Ja, vi ses! Hejdå, ha en fin dag! Tack, detsamma! Hejdå, vi hörs imorgon! Ja, det gör vi! Jag måste gå nu
+8f14cf5f-8fee-447e-b52d-d2a783279ac2 [example 1]: Hejdå! Hejdå, vi ses nästa vecka! Tack för hjälpen! Hejdå! Hejdå, ha en trevlig helg!  Vi hörs snart! Hejdå! Hejdå, hälsa familjen! Det var kul att träffas! Hejdå! Jag tar bussen nu
+8f14cf5f-8fee-447e-b52d-d2a783279ac2 [example 2]: Hejdå! Hejdå, ta hand om dig! Okej, vi ses om en timme
+9a8baefb-3e41-413a-9ccd-646ca5001419 [example 0]: – Hur mår du? – Jag mår bra, tack! Jag mår bra efter min semester
+b642483a-f74a-483e-a31c-a5ca33db85f9 [example 2]: Krya på dig! Krya på dig, vi saknar dig här på jobbet
+9fe2dcbc-8998-4411-bedb-8420d8da9f36 [example 0]: Har du sett den nya filmen på bio? Har du sett den senaste episoden av serien? Har du sett den här videon på YouTube? Har du sett bilden jag skickade till dig? Har du sett trailern till den nya Marvel-filmen? Har du sett min mobil? Jag kan inte hitta den
+9fe2dcbc-8998-4411-bedb-8420d8da9f36 [example 1]: Har du sett Anna idag? Har du sett nycklarna? Har du sett min plånbok? Har du sett den nya skulpturen i parken? Har du sett nyheterna idag? Har du sett annonsen för den nya restaurangen? Har du sett väderprognosen för imorgon? Har du sett inlägget på Facebook? Har du sett att det ska bli rea i butiken?
+4e9942cb-49cd-402a-99a1-c475a40ecf81 [example 0]: Har du testat sushi någon gång? Har du testat att åka skidor i fjällen? Har du testat den nya appen? Har du testat att skriva dagbok? Har du testat yoga för att koppla av? Har du testat att dricka chai latte?
+3061bd18-53f3-45fb-a78e-b91c0a795f62 [example 0]: Nu ska vi se… var la jag nycklarna? Nu ska vi se… vad var det du frågade om? Nu ska vi se… vad finns på menyn? Nu ska vi se… ditt flyg går klockan 18:00
+3061bd18-53f3-45fb-a78e-b91c0a795f62 [example 1]: Nu ska vi se… har jag allt jag behöver? Nu ska vi se om vi hittar någon ledig plats
+3061bd18-53f3-45fb-a78e-b91c0a795f62 [example 5]: Nu ska vi se… jo, jag har din bok här! Nu ska vi se… var var vi någonstans? Nu ska vi se vilken film som går på bio ikväll
+c43eb917-7d89-450f-94e9-b570e7d8c075 [example 3]: Vad blir det för middag idag? Idag ska vi gå på bio
+c43eb917-7d89-450f-94e9-b570e7d8c075 [example 7]: Jag börjar mitt nya jobb idag! Idag är det min födelsedag! Affären stänger tidigare idag.
+13f43cd4-c0ae-46bd-bc36-92dd94138c76 [example 0]: Vad gjorde du igår? Det var soligt igår
+13f43cd4-c0ae-46bd-bc36-92dd94138c76 [example 10]: Igår var en fantastisk dag! Vi reste till Göteborg igår.
+7cde3235-4abb-4f00-a67f-dcb437f46f78 [example 0]: Vad gjorde du i förrgår? I förrgår var det kallt, men igår var det varmare
+3c59655a-a472-4880-adc7-0491df2586d8 [example 8]: Vad gjorde du förra året på din födelsedag? Förra året var mycket bättre än i år.
+44e7132b-7f46-460c-95ee-dc858d0d41a9 [example 1]: Vad gjorde du i måndags? Det regnade hela dagen i måndags
+44e7132b-7f46-460c-95ee-dc858d0d41a9 [example 5]: Kommer du ihåg vad som hände i måndags? Jag hade semester i måndags
+6d5010f1-82e1-4e4e-a942-498172abd3f8 [example 1]: Har du tid imorgon? Ska vi ses imorgon kväll? Vad händer imorgon på jobbet? Vad ska du göra imorgon? Imorgon kväll ska vi gå på bio
+f0010e76-ac71-453b-ae25-0f39e1ac671b [example 7]: Hur många år har du bott här? Året börjar alltid med januari
+bd016691-cec1-44fd-981b-e7fccc6cddfd [example 7]: Hur många dygn ska vi stanna på semester? Vi har inte haft ström på två dygn
+1d1bf200-a70f-403c-ad0a-04b9e697a753 [example 2]: Jag väntade på dig i en halvtimme! Vi har en halvtimme kvar tills filmen börjar
+7a52d4db-133f-428b-9b75-2b2829bc796a [example 3]: Vänta en minut, jag är snart klar! Kan du vänta en minut? Jag har tränat i en minut och är redan trött! Det tar en minut att koka upp vatten
+7a52d4db-133f-428b-9b75-2b2829bc796a [example 7]: Kan du ge mig en minut? Jag såg en intressant nyhet för en minut sedan
+6ae701e4-857c-4b99-9ff1-619b9a3d10bc [example 2]: Vänta en sekund, jag måste tänka! Kan du vänta en sekund? Jag har bara en sekund kvar att svara! Det tar en sekund att starta datorn
+6ae701e4-857c-4b99-9ff1-619b9a3d10bc [example 5]: Kan du ge mig en sekund att tänka? Det kändes som en sekund, men det var en timme
+6ae701e4-857c-4b99-9ff1-619b9a3d10bc [example 6]: Jag var borta i en sekund, och plötsligt var han borta! Min mobil dog på en sekund
+3acc9521-3040-4be1-b745-d734f2bab86d [example 0]: Kan du vänta ett ögonblick medan jag hämtar min telefon? Vänta ett ögonblick, jag ska kolla i kalendern
+3acc9521-3040-4be1-b745-d734f2bab86d [example 1]: Jag är snart klar, vänta ett ögonblick! Vänta ett ögonblick, så ska jag hjälpa dig med datorn
+7ec95d30-dd0b-412c-b4a3-956c2eda1ee6 [example 4]: Jag orkar inte vänta en stund till! Om du inte kan vänta en stund, får du gå utan mig
+4ac90a23-1a08-4701-be5e-3e5b2bc286b2 [example 0]: Vilken tid börjar mötet? Vilken tid ska vi åka hem? Vilken tid slutar jobbet? Vilken tid går bussen till Stockholm? Vilken tid kan du komma? Vilken tid är det frukost på hotellet? Vilken tid vaknar du vanligtvis? Vilken tid kommer paketet att levereras? Vilken tid måste vi checka ut från hotellet? Vilken tid öppnar banken?
+b059bf6b-f86d-47b0-9ddd-f6d6afaa664b [example 0]: Hur dags börjar mötet? Hur dags går bussen till Malmö? Hur dags slutar filmen? Hur dags ska vi träffas imorgon? Hur dags vaknar du vanligtvis? Hur dags är middagen klar? Hur dags kommer tåget till Göteborg? Hur dags börjar lektionerna i din skola? Hur dags brukar du gå och lägga dig? Hur dags är det bäst att ringa dig?
+454b59fa-6d56-4374-a6db-d187fa5d3310 [example 2]: Kan vi ses fem över två? Tåget anländer fem över två
+bbc6ec6f-e191-4fb5-849e-e922aa69304f [example 2]: Kan vi ses tio över två? Tåget anländer tio över två
+5ab011cf-f064-4362-aeea-48537dbc3ce9 [example 2]: Kan vi ses kvart över två? Tåget anländer kvart över två
+ff7a84a2-4519-48c2-b55b-77984b9dfdcf [example 2]: Kan vi ses tjugo över två? Tåget anländer tjugo över två
+ec9be33b-0e99-4a87-8d77-4b37990a0382 [example 2]: Kan vi ses fem i halv tre? Tåget anländer fem i halv tre
+c47e1f0f-c00b-4540-955d-476c4358de53 [example 2]: Kan vi ses halv tre? Tåget anländer halv tre
+007624ca-6053-44a0-bb08-b14d9461588f [example 2]: Kan vi ses fem över halv tre? Tåget anländer fem över halv tre
+91a5ed2f-8416-423d-b266-5ed5c7eab675 [example 2]: Kan vi ses tjugo i tre? Tåget anländer tjugo i tre
+bc732a78-6b3d-4232-8fa5-a8e8d461d1c3 [example 2]: Kan vi ses kvart i tre? Tåget anländer kvart i tre
+2573a900-8968-447e-ac34-ea7fa49b9f41 [example 2]: Kan vi ses tio i tre? Tåget anländer tio i tre
+f3af368d-207a-4a7a-a953-0731e7714fc5 [example 2]: Kan vi ses fem i tre? Tåget anländer fem i tre
+912b1063-15d9-4735-85bf-1cf375b78ffd [example 6]: Kan vi träffas fjorton och femton? Butiken stänger klockan fjorton och femton i dag
+6230b3b0-3feb-4574-9a1c-eb80a74e6112 [example 6]: Kan vi träffas fjorton och trettiofem? Butiken stänger klockan fjorton och trettiofem i dag
+f7650529-fd47-4097-a8df-0d9b6e263ce5 [example 6]: Kan vi träffas fjorton och femtio? Butiken stänger klockan fjorton och femtio i dag
+ed762531-e90d-4139-8091-dff325a0840b [example 2]: Kan vi göra det bättre nästa gång? Jag hoppas att vi kan vinna nästa gång
+68a0a998-b895-489a-9fdf-849be1f870cf [example 3]: Förra gången vi spelade vann jag! Jag minns inte vad vi pratade om förra gången
+671a3591-041d-428e-b7cd-372b306ea3a2 [example 0]: När träffade du henne senast? Jag var hos tandläkaren senast i oktober
+671a3591-041d-428e-b7cd-372b306ea3a2 [example 2]: Vad gjorde du senast du var i Stockholm? Jag såg honom senast i förrgår
+671a3591-041d-428e-b7cd-372b306ea3a2 [example 3]: Vilken bok läste du senast? Det var längre sedan än senast vi pratade
+b111aa43-4f2c-4c4a-819f-299b35c0dce8 [example 1]: Kan du meddela mig i förväg om mötet ändras? Vi måste planera allt i förväg
+06daf243-ebb5-46a2-9e50-7453579cb0bd [example 3]: För tillfället är jag upptagen, kan vi prata senare? För tillfället hyr vi en lägenhet, men vi letar efter något eget
+69538c82-451e-4c42-898c-2a6b7fcc70b6 [example 0]: Har du någonsin varit i Japan? Har du någonsin sett en sådan stor hund? Jag har aldrig någonsin varit så trött
+69538c82-451e-4c42-898c-2a6b7fcc70b6 [example 2]: Har du någonsin provat att åka skidor? Jag har aldrig någonsin glömt hennes födelsedag
+12de11a1-f872-4feb-96d8-10a15a8a0d41 [example 1]: Kan du vänta? Jag är där strax! Bussen går strax, skynda dig! Läkarens kontor öppnar strax
+12de11a1-f872-4feb-96d8-10a15a8a0d41 [example 3]: Mötet börjar strax, var redo! Strax efter lunch gick vi ut på en promenad
+4386ea31-7eaa-4764-975a-6d8b6ccd632f [example 9]: Bussen avgår om tio minuter, så vi måste skynda oss! Han tränar tio gånger i månaden för att hålla sig i form.
+a6917508-4544-41e2-af2d-8346377e7949 [example 4]: Vi har elva dagar kvar till semestern! Elva procent av befolkningen talar mer än tre språk
+a6917508-4544-41e2-af2d-8346377e7949 [example 7]: Bussen avgår om elva minuter, vi måste skynda oss! Jag vaknade klockan elva och kände mig fortfarande trött
+03191837-c263-4fc6-aa19-dee07c18fe01 [example 8]: Kan du vänta femton minuter till? Hon blev klar med uppgiften på femton minuter.
+6699085e-993a-4a07-8c73-e3952ba8d506 [example 4]: Vi har nitton dagar kvar till julafton! Nitton procent av befolkningen bor på landsbygden
+6699085e-993a-4a07-8c73-e3952ba8d506 [example 7]: Bussen avgår om nitton minuter, vi måste skynda oss! Han spelade nitton matcher för sitt lag den här säsongen
+83a38ffc-8cfc-47a1-a5f3-8ab45dbc8075 [example 1]: Jag skulle vilja ha en miljon kronor! Företaget tjänade flera miljoner förra året
+e40d2ec3-abfb-4e55-bec3-4f81c899f86a [example 0]: Du bor på femte våningen, eller hur? Jag har läst den femte boken i serien
+2a567a5c-d035-47af-a72e-7d440641f706 [example 1]: Vilken buss går nästa? Nästa möte är på fredag
+2a567a5c-d035-47af-a72e-7d440641f706 [example 3]: Vi ses nästa gång! Nästa kapitel i boken handlar om historia
+6c8e1a98-8aa3-4615-b11f-c615c41323e8 [example 2]: Vad gjorde du under den sista veckan? Vi bor i det sista huset på gatan
+d9752ac7-4bb0-4747-b53b-6638877ffa25 [example 5]: Hur mycket kostar de om jag tar tio styck? Affären säljer mobiltelefoner för 5000 kronor styck
+3df2a9fc-c49a-43de-ad56-d2fc327c1ea5 [example 2]: Kan jag få en bit ost? Han klippte en bit papper
+3df2a9fc-c49a-43de-ad56-d2fc327c1ea5 [example 10]: Kan du flytta dig en bit? Jag stannar här en bit in på kvällen
+43484e9c-979a-42fd-9909-9e8cabc10a84 [example 4]: Det här är det bästa avsnittet i hela säsongen!  I nästa avsnittet får vi veta vad som händer med huvudpersonen
+5da83a35-8bcc-4b19-a556-54a413df1e69 [example 1]: Vilket lag har gjort flest mål? Vilket lag har flest vinster? Han har flest syskon i familjen
+5da83a35-8bcc-4b19-a556-54a413df1e69 [example 5]: Vilken bok har flest sidor? Flest besökare kommer till museet på helgerna
+5da83a35-8bcc-4b19-a556-54a413df1e69 [example 6]: Vem har flest följare på Instagram? Flest studenter väljer att studera utomlands
+74238366-9611-483e-994e-c0937ea6fb69 [example 6]: Det luktar som hos en bagare här! Hon är inte professionell bagare, men hon bakar fantastiskt gott
+6a08716c-05f3-489c-9114-5f4fae27b9f8 [example 3]: Känner du en pålitlig rörmokare i Malmö? Vi hittade en billig rörmokare på nätet
+f2b1928a-4417-4413-ad21-95024c3db50c [example 4]: Rynka inte på ögonbrynen, jag skojar bara! Hans buskiga ögonbryn gav honom ett strängt utseende
+b70b7903-18e8-4f75-b344-65e95a688847 [example 2]: Kan du känna ryckningar i ögonlocket ibland? Människan har två ögonlock per öga – ett övre och ett undre
+bbfbf39f-23f5-4bfa-8cbf-731d20ebd8ce [example 6]: Har du hört det här? Jag tror inte mina öron! Läraren bad oss att spetsa öronen och lyssna noggrant
+6987ac85-a129-4c65-80da-42b4f6422c10 [example 0]: Har du borstat tänderna? Barnet har tappat sina första tänder
+0fb3c5b1-ba68-472f-b6c3-6d42088056ed [example 6]: Min fru gillar inte mitt skägg, men jag älskar det! Han har en liten fläck i skägget där inget hår växer
+6128112a-3d16-4d0b-8fd5-f5af76443dd9 [example 5]: Det här huset är drömmen för oss! Han vaknade upp och mindes inte drömmen
+b8246336-efd1-467d-8d67-6791a08ab5cc [example 4]: Vad brukar du göra i juli? Vi hade vår bröllopsdag den 10 juli
+21783a61-a18e-4e33-9f73-a493220f8a93 [example 9]: Vilka högtider finns det i oktober? Halloween och ibland FN-dagen den 24 oktober
+a03b8547-252e-43e4-bae2-675279347e4e [example 3]: Glöm inte att ta med en matsäck till vandringen! Vi planerade en lång utflykt och packade matsäckar i förväg
+b2a870f3-7550-453d-8105-5e8e5be53425 [example 0]: Vill du ha en påtår? Han tog en påtår innan han gick tillbaka till jobbet
+b2a870f3-7550-453d-8105-5e8e5be53425 [example 6]: Vill du ha en påtår innan vi går? Det är trevligt att sitta och prata över en påtår
+ccd33e67-d88f-4a92-9b74-cb6ebc5a9ce2 [example 1]: Kan vi få ett öl till bordet? Ölet smakar lite beskt
+db6ee547-8d5a-4c12-b260-ea17d45179d0 [example 1]: Vill du ha ett glas läsk? Barnen drack läsk till lunchen
+db6ee547-8d5a-4c12-b260-ea17d45179d0 [example 2]: Kan jag få en flaska läsk? Det är inte bra att dricka för mycket läsk
+db6ee547-8d5a-4c12-b260-ea17d45179d0 [example 3]: Vilken sorts läsk vill du ha? Läsk innehåller mycket socker
+c8feb2da-0946-4bf9-b40b-907f7c9e2a92 [example 3]: Vill du ha vitt eller mörkt bröd? Jag åt en macka med bröd och skinka
+0ed58845-accf-42fd-a732-304b4e627d55 [example 4]: Hur mycket kostar en liter jordgubbar på marknaden? Barnen gjorde en tårta och dekorerade den med jordgubbar
+0ed58845-accf-42fd-a732-304b4e627d55 [example 6]: Jag har aldrig sett så stora jordgubbar förut! I vår trädgård odlar vi egna jordgubbar varje sommar
+7e1074e0-412b-48fd-84ab-ef872697dabe [example 7]: Har du smakat färsk mango någon gång? Kan vi köpa några mangor till frukosten? Alla mangorna i lådan ser ut att vara perfekt mogna.
+82aa2e66-8e15-447d-95ae-c0e2f7e71a6b [example 0]: Kan du skicka bönorna, jag vill lägga dem i salladen? Jag köpte gröna bönor på marknaden
+7ae33323-3775-40f7-9d5f-2bf243d03e5c [example 3]: Hur skördas vetet på bästa sätt? Vetet från denna region har hög kvalitet
+7ae33323-3775-40f7-9d5f-2bf243d03e5c [example 5]: Hur kan man förbättra vetets hållbarhet? Vetet förvaras i stora silos efter skörden
+f7a98f8d-28c0-4152-9129-2576864bd745 [example 4]: Äter du helst potatis eller ris? Jag gillar att laga stekt ris med grönsaker
+f7a98f8d-28c0-4152-9129-2576864bd745 [example 5]: Kan du ge mig en skål med kokt ris, tack? Barnen kastade ris på brudparet efter ceremonin
+d61a11c5-ae58-4348-8fcd-4fead03f8acb [example 0]: Kan du lägga några isbitar i mitt glas? Vi behöver fler isbitar till festen
+650baee9-e38b-4cbf-a7e4-71295cc3e13a [example 3]: Den här chilipepparn är väldigt stark! Jag kan inte äta för mycket chilipeppar, det blir för starkt för mig.
+d094c87c-633e-401e-a553-594fd7f3042b [example 2]: Barnen åt upp alla kakorna på tio minuter! Hon gillar att doppa kakor i sitt kaffe
+59674e37-3d81-4cf4-894b-6b7182d01964 [example 2]: Bakelserna på det här stället är fantastiska! Jag beställde tre bakelser till efterrätt
+59674e37-3d81-4cf4-894b-6b7182d01964 [example 5]: Vilken bakelse vill du ha? Han älskar traditionella svenska bakelser
+9988f59f-5666-425e-ba78-168fb63ef25d [example 1]: Grytan smakar fantastiskt! Grytan är i skåpet bredvid ugnen
+b2a51615-3a4c-4097-9474-3f608db0be66 [example 3]: Vilken krydda passar bäst till kött? Jag köpte flera olika kryddor på marknaden.
+6a6493b7-fdf4-419e-8d48-3185a58be7d1 [example 4]: Har du en fågel som husdjur? Fåglarna flyger söderut på hösten
+cc928098-dfcc-4de0-9f7a-3524f486e4f7 [example 3]: Har du någonsin blivit bränd av en manet? På stranden fanns flera döda maneter
+5b7d678e-d741-4082-a7b5-6459f2bcc31e [example 6]: Vad är din favoritfågel?  Jag älskar svanar, de är så vackra! Svanarna i parken är vana vid att människor matar dem
+c3a7017a-bbdb-4562-b407-b8cd0dc23b3a [example 6]: Har du sett en kråka med en silverring på benet? På hösten samlas kråkor i stora grupper.
+c7331304-2839-4128-b33b-7902e5d8168b [example 2]: Snöar det mycket hos er? Det snöade hela dagen igår
+452e98f0-a358-4383-9d38-fe7889890688 [example 1]: Vad kallt det är! Vad kallt det är i vattnet! Jag vågar inte bada
+452e98f0-a358-4383-9d38-fe7889890688 [example 2]: När jag öppnade dörren kände jag direkt: Vad kallt det är ute! Jag trodde att våren var här, men vad kallt det är fortfarande
+452e98f0-a358-4383-9d38-fe7889890688 [example 4]: Vad kallt det är! Jag glömde mina vantar hemma… Vad kallt det är om händerna!  Det snöar och blåser
+a7400324-434e-4dbd-a37a-0b76c5ddba58 [example 7]: Jag trodde klockan var sent, men det är bara sex och det är mörkt redan! Det är mörkt redan, så vi ser inte stigen tydligt
+aba757cc-c403-4986-9995-8218e605d0c4 [example 3]: Jag längtar efter ljusare dagar – snart är det vår! Vintern var lång i år, men snart är det vår
+638fb0d4-f43f-4cc3-8230-2fdd21784723 [example 2]: Jag längtar till våren! Jag längtar till våren så jag kan börja plantera blommor
+c839d99f-9b64-433e-9f90-c7ff3dfbe2c0 [example 2]: Har du sett mina blå byxor? Jag köpte ett par varma byxor för vintern
+41f36826-a772-4ead-a073-1b8f0ec175fd [example 3]: Vilken kjol tycker du är finast? Jag provade flera kjolar innan jag hittade rätt storlek.
+f06d2545-f3ad-4972-bbdc-a30b401304ec [example 5]: Hur många par skor har du hemma? Dessa skor är både snygga och bekväma
+8e4dcac2-ddd3-46b1-a39f-45f11ffbc057 [example 3]: Har du tagit med dina gummistövlar till skogspromenaden? Vi behöver gummistövlar för att arbeta i trädgården
+ce35b44e-c9dd-42c8-a6b3-e2f4a87977a0 [example 2]: Kan jag få ett par tofflor, tack? På vintern gillar jag att ha varma tofflor
+c184d587-8050-4ab1-9995-319b8a60c7e2 [example 7]: Kan du ta av dig handskarna innan du går in? Jag letade efter mina handskar i hela huset
+2e41d115-eead-4342-b42c-b049df24369c [example 2]: Har du sett mina vantar? Stickade vantar är både varma och bekväma
+505069f3-2c0a-44b8-b8ea-1d395d3e743e [example 5]: Har du en flicka eller en pojke?  Det var en flickas dröm att bli prinsessa.
+38370d01-4175-4073-a669-7277c7cabf57 [example 0]: När blir man egentligen vuxen? Han är inte ett barn längre, han är en vuxen nu
+ca91314d-4846-4df9-9a44-c5cfff0b60b5 [example 9]: Kan du köpa ett par stycken äpplen? Ett par nyheter nådde oss sent på kvällen
+a2cb2742-e89b-4ad9-968f-87f67517e011 [example 0]: Har du några syskon? Jag har ett syskon, en äldre bror
+c058f500-96e0-4756-8308-76794eef224a [example 0]: När går nästa tåg? Jag tar tåget till Stockholm imorgon
+c058f500-96e0-4756-8308-76794eef224a [example 1]: När går nästa tåg till Göteborg? Snabbtåget mellan Malmö och Stockholm är mycket bekvämt
+da888b34-9013-47e8-8964-1ed2ae8cdbbe [example 4]: Kan jag få ett glas vitt vin? Hans skjorta var helt vit
+9bf4c5cb-5649-4338-bab7-ca84baf33197 [example 2]: Stoppa vid rött ljus! Jag gillar rött vin mer än vitt vin
+5a804ed4-8fe8-4aec-83ad-de2e76294fd2 [example 5]: Har du sett ett indigofärgat tyg någon gång? Regnbågen hade alla färger, inklusive indigo
+c874d4e3-fe35-4fa1-8ca8-1cd6c90bff99 [example 2]: Kan jag låna ditt anteckningsblock? Jag skrev ner mina idéer i anteckningsblocket
+c60666a3-4939-4dc6-af4c-bd850b3f347c [example 4]: Superlimmet fastnade på mina fingrar! Vi använde trälim för att bygga en hylla
+ffd1ba62-5e18-4bf4-a29b-381b22d7d44e [example 2]: Får vi använda miniräknare på provet? Min miniräknare har både bråk- och procentfunktioner
+3ed7b93d-b2d3-439a-8fd6-55d4f8e1febb [example 0]: Har du en pennvässare jag kan låna? Pennvässaren är trasig, jag måste köpa en ny
+91aaffcd-4bcf-4f4b-ac39-3c6ec278a556 [example 2]: Har du läst den här boken? Jag lånade två böcker från biblioteket
+d1f54664-ed0b-4134-9d8c-1357953c0548 [example 4]: Hur många pärmar behöver vi för det här projektet? Alla kvitton måste sättas in i pärmarna
+96c808e4-b21e-4c13-8906-7d3d8ce5d52d [example 2]: Har du en linjal jag kan låna? Linjalen är gjord av plast
+c6bd3a8a-b411-4e99-ab32-680ca242050d [example 6]: Hur gick det på provet? De genomförde flera prov innan de lanserade produkten
+2a48c83a-f0df-4c8f-a10b-006d53e7e1cc [example 5]: Vilka ämnen kan en gymnasieelev välja? Gymnasieelever i Sverige studerar i tre år
+2a48c83a-f0df-4c8f-a10b-006d53e7e1cc [example 6]: Hur skiljer sig en gymnasieelevs schema från en grundskoleelevs? Många gymnasieelever jobbar extra vid sidan av studierna
+3ad180d0-c337-468b-9841-ba8cd2e406af [example 4]: Vilket betyg fick du på provet? Hon har höga betyg i alla ämnen
+1584827c-6cca-4daf-9465-e5e3dcffce2f [example 7]: Kan du lägga informationen i en tabell? Det finns en tabell över skattesatser
+c0ce1ada-79c8-4d76-8aa0-961c6a1aa974 [example 4]: Hur många invånare bor i Malmö? Landets invånare röstade i valet
+a747cac2-96b8-4338-8391-0ad5ca240193 [example 2]: Var ligger det närmaste paketombudet? Jag fick ett sms att mitt paket har kommit till paketombudet
+37f34984-a0d0-4236-8796-3f87f7756296 [example 1]: Finns det någon klädaffär nära här? De öppnade en ny klädaffär i centrum
+55cd1211-5565-47b6-8aaf-a322e000db5d [example 1]: Var ligger ditt kontor? Är det ett stort kontor eller bara ett litet rum? Det finns flera kontor i den här byggnaden
+aad0503e-167a-4ea2-8726-699c2363faa4 [example 0]: Kan du ta mig till apoteket?  Jag måste hämta ut medicin på apoteket
+aad0503e-167a-4ea2-8726-699c2363faa4 [example 1]: Finns det ett apotek i närheten? Apoteket öppnar klockan åtta på morgonen
+6d818504-7839-452d-9372-ecaef7148519 [example 1]: Ska vi gå till ett mysigt fik och fika? Det finns ett trevligt fik runt hörnet
+6d818504-7839-452d-9372-ecaef7148519 [example 5]: Har du något bra fik att rekommendera? Det här är mitt favoritfik – de har så gott kaffe.
+b2a9f8a3-d485-49ff-bc3c-d8dadaf409d9 [example 4]: Kan du se om trafikljuset lyser grönt? Det finns inga trafikljus på den här landsvägen
+b2a9f8a3-d485-49ff-bc3c-d8dadaf409d9 [example 5]: Hur många trafikljus finns det på vägen till ditt hus? Trafikljuset har varit trasigt i flera dagar
+34f60e93-a754-4db1-a458-8334a10ba35e [example 4]: Vad är bussbiljettpriset för en enkel resa? Bussbiljettpriset har ökat i år
+34f60e93-a754-4db1-a458-8334a10ba35e [example 7]: Finns det studentrabatt på bussbiljettpriset? Bussbiljettpriset varierar beroende på zon
+6504ad8b-0bdd-4827-a932-04837aed8091 [example 4]: Hur mycket kostar inträdet till museet? Museerna i den här staden är världsberömda
+cf0b3af3-aacc-4e5b-bc6d-5e587e85bed8 [example 3]: Har du någonsin rest till Asien? Många teknikföretag har sina huvudkontor i Asien
+5eff5514-e4fc-420f-a089-9d4c1ee19e41 [example 5]: Har du någonsin varit i Nordamerika? Vilka länder finns i Nordamerika? Nordamerika är känt för sin mångfald av landskap.
+450bdd03-d0bc-4895-9a6e-2b877245a4e6 [example 3]: Har du varit i Göteborg någon gång? Göteborg Film Festival är en av de mest populära i Sverige
+89a1d12a-ca30-493b-a407-1d98e2de8b22 [example 6]: Hur djupt är havet här? Det är härligt att promenera längs havet på kvällen
+fd5c5a9a-ff3a-4ab2-9b91-8cbeb8952cbf [example 2]: Hur många språk kan du tala? Engelska är ett globalt språk som används över hela världen
+db1249bd-b7ce-4b30-9a0f-efe0ea9c993c [example 2]: Har du fått något brev från banken? Det finns ett gammalt brev från din farfar i lådan
+e58d7f65-4043-4da9-be88-5b324eedea0e [example 2]: Kan du svara på mitt mail? Mailen kom fram sent på kvällen
+c2c6fd6e-fb0c-4069-aa42-d982cbe0a92e [example 0]: Kan jag få ditt telefonnummer? Vad är ditt telefonnummer? Jag glömde skriva ner hans telefonnummer
+83637758-f813-43f5-a8e0-57dd07f267f9 [example 2]: Kan du läsa mitt sms? Hon fick ett sms från sin chef
+55db7c65-d566-4fe6-991c-87581de5f59e [example 0]: Är du ansluten till internet? Internet har förändrat hur vi kommunicerar
+55db7c65-d566-4fe6-991c-87581de5f59e [example 1]: Hur snabbt är ditt internet hemma? Internet gör det möjligt att arbeta var som helst i världen
+c49413c3-b99e-4909-b7e2-1a88940d58eb [example 7]: Vilken app använder du för att lyssna på ljudböcker? Ljudböcker finns både som nedladdningsbara filer och som strömningstjänster
+0cd61412-cea8-4d5a-bfbb-d9e8968d7311 [example 3]: Vilket dataspel är din favorit? Dataspelen blir alltmer realistiska
+e99f3090-6433-49f5-8234-90dcf1175605 [example 4]: Hur länge har du varit arbetslös? Arbetslösa personer kan få stöd från Arbetsförmedlingen.
+82d075f4-c5a2-41a1-8b88-7a7dbcf86e9b [example 4]: Har ni många arbetskamrater på ert kontor? Arbetskamraterna gick ut på middag tillsammans
+6d6c05af-80b3-47e1-8369-2ee4fbf5a203 [example 2]: Kan vi boka ett möte nästa vecka? Mötet handlar om framtida projekt
+6d6c05af-80b3-47e1-8369-2ee4fbf5a203 [example 3]: Har du deltagit i mötet? Vi har flera viktiga möten idag
+8160be52-a152-444d-b705-0295d09b9434 [example 3]: Vilken inkomst har du per månad? Företaget har flera inkomster från olika verksamheter
+feeecc00-5c37-46c6-bdea-4398d08de8c9 [example 0]: Har du ett pass? Jag måste förnya mitt pass innan resan
+0916c1d4-faf8-4565-a286-266aec2efbdf [example 0]: Har du ett körkort? Jag behöver mitt körkort för att kunna köra bil
+76d1b37c-d0eb-4733-b2ad-5371b0684c18 [example 6]: Har du läst igenom dokumenten från förra mötet? Det här är ett historiskt dokument från 1800-talet
+8d69de5d-f97a-4578-823e-ff07af5789aa [example 1]: Vad är ditt förnamn? Mitt förnamn är Anna och mitt efternamn är Svensson
+8d69de5d-f97a-4578-823e-ff07af5789aa [example 7]: Har du fyllt i ditt förnamn på listan? Många förnamn har en historisk betydelse
+23758002-372f-452f-b35b-400f5b2138ef [example 0]: Vad är ditt efternamn? Hennes efternamn är Andersson
+55fa1689-a3a6-4f32-be88-09be03de72da [example 8]: Har du haft en inneboende förut? De skrev ett tydligt avtal med sin inneboende.
+b3b0c77e-0625-4580-98ec-a03a7acf29d0 [example 2]: Hur mycket kostar en femma i den här stadsdelen? En femma är perfekt för en stor familj
+b3b0c77e-0625-4580-98ec-a03a7acf29d0 [example 5]: Hur stor är hyran för en femma i Stockholm? De köpte en femma i ett nybyggt område
+ef1ff120-de8c-4221-b8fb-6a69609010cb [example 5]: Hur många trevåningshus finns det i din stad? Huset är ett trevåningshus med en hiss och en stor balkong
+e8acfdca-ecaa-47e4-ae2a-1196954c060f [example 3]: Kan jag låna toaletten i badrummet? Det finns ett stort badkar i badrummet
+e8acfdca-ecaa-47e4-ae2a-1196954c060f [example 7]: Finns det handdukar i badrummet? Lägenheten har två badrum, vilket är praktiskt
+8a12797c-6110-4eb1-bbed-89d959061b37 [example 4]: Hur många stolar behöver vi för festen? Det finns inte tillräckligt med stolar för alla
+3ed7e99b-60b5-4e2b-9ae3-5102f5997770 [example 6]: Det är kallt, stäng fönstret! Han tittade ut genom fönstret och såg snön falla
+befad789-d093-48c3-aafa-7fd6f00da0b3 [example 2]: Har du sett en billig vattenkokare på IKEA? Den här vattenkokaren kokar vatten på två minuter
+befad789-d093-48c3-aafa-7fd6f00da0b3 [example 4]: Kan du fylla vattenkokaren, tack? Vattenkokaren står bredvid kaffemaskinen.
+395838c0-7b48-4558-8a5c-67271495f1bc [example 0]: Kan du ge mig en kastrull? Kan du ta fram en kastrull så att jag kan koka pasta? Kastrullen kokar över, sänk värmen! Vi har precis köpt nya kastruller till köket
+aa7079e3-b068-480c-836d-6b1f878ab384 [example 4]: Hur många källsorteringslådor behöver vi i köket? Kan du tömma källsorteringslådorna innan de blir fulla? En källsorteringslåda med flera fack är praktisk
+4d8e5990-47f4-4484-a1f1-f02ccbbc3891 [example 3]: Kan du ge mig ett glas vin? Hon tappade sitt glas och det gick sönder
+8296f251-68e7-4b90-abd9-656dcb188940 [example 0]: Kan du hämta två vinglas till middagen? Jag köpte nya vinglas i helgen
+d7089e7b-e8df-41ba-bd0a-73a1d242ba65 [example 2]: Har du ett rivjärn med små hål? Det finns rivjärn med olika storlekar på hålen
+b2501690-bf4c-438c-9c7e-3421919f7c18 [example 2]: Har du sett var kaffebryggaren står? Det tar bara några minuter för kaffebryggaren att göra kaffe.
+3f81197b-ed3e-4c9b-bda1-90ed5579d914 [example 0]: Kan du ge mig konservöppnaren? Vi har ingen konservöppnare, så vi kan inte öppna burken
+63351115-48d4-4047-bc1a-6c55cd9e0ba3 [example 3]: Kan du ta fram dammsugaren och städa vardagsrummet? Vi behöver en kraftigare dammsugare för att suga upp hundhår
+d2db2862-af6f-47f3-bc1f-9dad1537b6dc [example 3]: Han åt upp allt – inte en smula kvar! Det fanns bara en smula choklad kvar
+0cc5dde8-c1a7-4a65-a044-20b6edef4993 [example 1]: Kan du rengöra ett handfat snabbt? Handfatet är fullt av vatten
+f689b895-80a9-4420-821f-86ed4178cea9 [example 5]: Hur ofta byter du lakan i sängen? Lakanen är så skrynkliga att jag måste stryka dem
+f689b895-80a9-4420-821f-86ed4178cea9 [example 7]: Kan du hämta ett rent lakan från garderoben? Efter en lång dag känns det skönt att lägga sig i rena lakan.
+bb49cdbe-4667-4719-bce1-93e69af4e380 [example 1]: Kom hit! Han kör hit varje morgon
+72006ff1-88ba-4bba-89e0-e098f6037fa4 [example 1]: Kan du hämta boken därifrån? Jag flyttade därifrån för två år sedan
+72006ff1-88ba-4bba-89e0-e098f6037fa4 [example 4]: Kan du ta med dig något därifrån till mig? De åkte därifrån tidigt på morgonen
+1c8ca17f-2106-44a0-8dc5-28883672855d [example 1]: Hur långt är det härifrån till Stockholm? Jag kan se havet härifrån
+1c8ca17f-2106-44a0-8dc5-28883672855d [example 2]: Kan du köra mig härifrån till flygplatsen? Hon flyttade härifrån för fem år sedan
+b9b4d532-f631-4952-ae9e-aa7299b01e29 [example 2]: Är du inne eller ute? Det är varmt inne, men kallt ute
+dd005e79-ee4c-4a92-931e-faba4e7ffc36 [example 1]: Vad gör de därinne? Det är mörkt därinne, tänd lampan
+dd005e79-ee4c-4a92-931e-faba4e7ffc36 [example 5]: Vad tänker du på därinne? Därinne finns många minnen från barndomen
+4f0c6e54-9eb5-43d6-bb86-18b504d829e4 [example 7]: Vilken väg är det? Till höger eller vänster? Jag sitter alltid på vänster sida i bussen
+0652f502-a6af-4508-8c4b-1e50a2f9b0e9 [example 1]: Finns det en mataffär i närheten av hotellet? Skolan ligger i närheten av biblioteket
+09a1b5d8-3dc3-4fd3-824e-a2e4a6404d02 [example 13]: Finns det en restaurang vid stranden? Vid tanken på resan blev jag glad.
+29638c31-0efe-441e-b130-22e6f53cfea1 [example 1]: När är vi framme? De kom framme sent på kvällen
+29638c31-0efe-441e-b130-22e6f53cfea1 [example 3]: Är vi framme vid hotellet snart?  Vi kom framme utan problem
+bad08612-a8f8-4a73-b560-74c9d6f4a67e [example 3]: Var ska du åka på semester? Hur var det på semestern? Jag vill tillbaka till jobbet efter en lång semester.
+eea758e3-e671-4b99-8409-f0b5176cf4b3 [example 0]: Vad ska du göra i helgen? Vi ska åka till landet i helgen
+eea758e3-e671-4b99-8409-f0b5176cf4b3 [example 3]: Det ska bli soligt i helgen, perfekt för en utflykt! Vad gjorde du i helgen? Vi var på en konsert i helgen
+9715a17f-b69f-4f0a-b19e-1872abf0160f [example 6]: Att ha en trädgård på landet är underbart! Barnen älskar att leka utomhus på landet
+0a3366fc-f39c-44e4-89c9-8f4d5af340cf [example 1]: Vilket resmål föredrar du för din nästa semester? Thailand är ett resmål med vackra stränder och god mat
+0a3366fc-f39c-44e4-89c9-8f4d5af340cf [example 4]: Vilket är ditt drömresmål? Många väljer resmål som är nära havet
+a58ec5c4-833b-4d66-88fb-1c22dc45bf14 [example 2]: När avgår nästa flyg till London? Flyget till Stockholm går från gate 14
+51074f5c-5e26-40ca-972f-623bf4eacf64 [example 3]: Har du en bokning för två personer? Jag har en bokning hos frisören imorgon
+25cd57f6-fa95-47f3-9859-428b8e649462 [example 4]: Har du bokat ett hotell för resan? Hotellen i området är ofta fullbokade på sommaren
+d25b5ff9-8e13-4eed-a648-db5121fdeace [example 0]: Kan du ordna ett rökfritt rum åt mig, tack? Alla våra hotellrum är rökfria
+d25b5ff9-8e13-4eed-a648-db5121fdeace [example 5]: Är det här hotellet rökfritt? Vi vill ha ett rökfritt bord på restaurangen
+4d115e68-11d3-4c49-a385-483e78948f22 [example 1]: Kan du säga vilket rumsnummer du har? Mitt rumsnummer är 305
+4d115e68-11d3-4c49-a385-483e78948f22 [example 3]: Kan du hjälpa mig att hitta rumsnummer 12? Det står inget rumsnummer på dörren.
+81d463b5-a0e3-4a45-bf49-b42e4d1880f5 [example 1]: Kan jag beställa en telefonväckning klockan sju? Receptionisten ordnade en telefonväckning åt oss
+4c7147f4-f140-4e26-9670-07eb30c77e30 [example 6]: Finns det någon studentrabatt på biljetter? Hon gav mig en biljett till premiären som en överraskning.
+c21ccfab-2e72-4ef2-9cb5-1655441495cb [example 0]: När är bröllopet? De bjöd många gäster till sitt bröllop
+949c13c9-440a-4b07-b3ef-f14654561191 [example 3]: Hur många gäster kommer till kalaset? Vi hade ett fantastiskt kalas med massor av god mat och tårta
+33e4707f-8b96-485c-bb71-4da952a00f0e [example 2]: Har du ett kreditkort eller ett vanligt bankkort? Jag måste spärra mitt kreditkort eftersom jag tappade det
+a58e37b5-c920-40a2-b187-3fd95465fe08 [example 1]: Glöm inte betalkortet hemma! Många har flera betalkort idag
+a58e37b5-c920-40a2-b187-3fd95465fe08 [example 3]: Använder du ett betalkort eller kontanter oftast? Kan jag få ett kvitto när jag betalar med betalkortet? Har du flera betalkort från olika banker?
+50176f31-5eb9-40ee-b667-76c270eeb343 [example 1]: Har du ett femkronorsmynt till automaten? Myntet glittrade i solen
+00311bb9-4db9-4101-89e1-1f5c85a3182b [example 6]: Jag älskar att få saker gratis! Det finns gratis parkering nära shoppingcentret
+42d18383-dffb-45bb-add6-b5742c34a5f1 [example 0]: Kan jag betala med en check? Jag betalade med en check på restaurangen
+31fa1e25-960f-4ca3-aa87-e96278e4dfd9 [example 2]: Kan du hålla min plats i kön medan jag hämtar något? Det är alltid en kö vid bankomaten på fredagar
+aec48dae-f255-46fd-9b53-4b67bf7b0be1 [example 4]: Glöm inte att handla mat innan butiken stänger! Var brukar du handla mat? Jag måste handla mat efter jobbet
+7ab1d00f-08fa-467f-91d5-a05fda49bc89 [example 1]: Har du kontaktat ditt försäkringsbolag om skadan? Många försäkringsbolag erbjuder rabatter för skadefria kunder
+4679e8a0-9840-452e-8ea9-1c4bda2736e7 [example 4]: Har du koll på dina utgifter? Utgifterna ökade kraftigt under semestern
+9d576cdc-1ea6-4ead-a7c7-2960978d027a [example 2]: Kan du svara snabbt på den här frågan? Tåget rör sig väldigt snabbt genom landskapet
+75e0f9cb-7c14-43b6-9db0-303e2f453f44 [example 2]: Det känns hett i rummet, kan vi öppna ett fönster? Det var så hett i bastun att jag var tvungen att gå ut
+7dc55f0f-14f6-41c4-9d04-7138e2275407 [example 1]: Det var rent galenskap att hoppa från bron! Hon sjöng rent, utan en enda falsk ton.
+6d239970-37e6-4dd2-ae1f-580304d57045 [example 4]: Kan du hänga upp de nytvättade handdukarna? Jag satt mig på soffan i mina nytvättade jeans
+6d239970-37e6-4dd2-ae1f-580304d57045 [example 9]: Kan du hjälpa mig att vika de nytvättade lakanen? Jag tycker att nytvättade kläder luktar så gott
+9a06a746-f9d8-4fb3-bb42-95860dfc3d03 [example 1]: Hur länge ska vi stanna? Hon har bott i Sverige väldigt länge
+25a6fed8-98a3-4ef5-b04a-757a5c2de9de [example 3]: Hur lång är du? Basketspelare brukar vara långa
+77eb3ebe-ea3d-4143-a3ca-5f69093e732d [example 4]: Hon är den kryaste personen jag känner! Jag börjar äntligen känna mig kry efter influensan
+77eb3ebe-ea3d-4143-a3ca-5f69093e732d [example 6]: Kry på dig! Jag känner mig inte så kry idag, kanske jag stannar hemma
+e0b44ce8-c6bd-4e99-a22b-071c6b6a13ef [example 8]: Har du hört om den nya sjukdomen som sprider sig snabbt? Det är en sjuk idé, men den kan faktiskt fungera!
+20cffa0c-2d29-474b-a49f-fef20476d4bc [example 4]: Havet blir snabbt djupare, var försiktig! Ditt resonemang är för grundt, tänk längre! Vi behöver en grundläggande förståelse av problemet
+4d5f8e95-6764-452a-952f-89d4659c9370 [example 0]: Jag är så glad att se dig! Hon blev glad när hon fick presenten
+4d5f8e95-6764-452a-952f-89d4659c9370 [example 1]: Vi fick glada nyheter idag! Han såg väldigt glad ut efter intervjun
+0ea2f76a-34a8-45ab-9a3f-8066d64bf865 [example 10]: Vad gör dig lycklig? Alla vill vara lyckligare, men ibland är det svårt att hitta vägen dit.
+26874258-6da2-4fe8-a2b1-7d2b798e3ada [example 4]: Matchen igår var verkligen spännande! Vi har ett spännande projekt på gång på jobbet
+26874258-6da2-4fe8-a2b1-7d2b798e3ada [example 6]: Det låter spännande, jag vill veta mer! Serien är så spännande att jag inte kunde sluta titta
+13b657dc-a937-479f-ae3e-1587fe35c458 [example 3]: Jag är riktigt pigg på att gå ut ikväll! Barnen var fortfarande pigg efter en lång dag
+0cfaa5a1-7979-42e4-a09a-feba3eeac403 [example 0]: Musiken är för hög, kan du sänka volymen? Hon talade med en hög röst så att alla kunde höra
+c4234781-9012-4fa4-907c-7d66d60016cb [example 1]: Var tyst, de sover! Han gick tyst genom rummet
+df4895c0-19ce-4ed7-ae7e-726276ee6d09 [example 0]: Kan du vara lite tystare? Det är tystare på landet än i staden
+bb0a3cae-2e8b-4193-8bed-9018d273fb1c [example 0]: Det är en härlig dag idag! Vilket härligt väder! Vi hade en härlig kväll tillsammans
+bb0a3cae-2e8b-4193-8bed-9018d273fb1c [example 4]: Vilken härlig utsikt från balkongen! Vi hade en härlig semester i Italien
+02f5d3dd-cb7a-46bb-ac6b-da0dec38a3a8 [example 1]: Vilken underbar utsikt! Vi hade en underbar semester i Grekland
+02f5d3dd-cb7a-46bb-ac6b-da0dec38a3a8 [example 6]: Vilken underbar överraskning! Jag tycker att hon är en underbar människa
+31fa4688-fcf5-499c-b3fc-6297c1988acd [example 0]: Vilken skön säng du har! Det är så skönt att sitta i solen
+31fa4688-fcf5-499c-b3fc-6297c1988acd [example 4]: Vilken skön dag vi hade på stranden! Hon sjunger med en skön röst
+034f6bc4-1db1-4b83-b642-37d97fb516cd [example 0]: Din katt är så söt! Flickan hade en söt klänning på sig
+034f6bc4-1db1-4b83-b642-37d97fb516cd [example 3]: Vilken söt bebis ni har! Han tycker att hon är både trevlig och söt.
+4ab09d5c-0e50-4a9d-866a-7bc1e40a72de [example 2]: Vilken vacker solnedgång! Din nya klänning är väldigt vacker
+5af250cf-1394-4a71-9c85-3c649797e6ee [example 1]: Vilken snygg jacka du har köpt! Han är lång, snygg och välklädd
+d6eb470e-9718-456a-94d7-e26994f2b14e [example 5]: Varför tycker du att den här färgen är ful? Han blev arg när någon kallade hans hund ful
+5b596df2-3fb6-4b83-8d42-823e6ed21c36 [example 4]: Vilket hemskt väder det är idag! Hon berättade en hemsk historia om sitt liv
+29e71529-238a-46fc-856a-87756d7bc900 [example 4]: Kan man träna när man är gravid? Min syster berättade igår att hon är gravid
+fa5d7a06-8659-41e7-b91f-37627d4b590f [example 3]: Lyssna viktigt på vad jag säger! Han tar sina uppgifter viktigt
+bbd925f7-d8e4-42e8-85ec-3b9b52571d10 [example 6]: Varför oroar du dig över så oviktiga problem? Han gav ett oviktigt svar på min fråga
+0df56eed-9574-4c28-b9fb-3498aab49c27 [example 2]: Jag önskar dig en god jul! Han gjorde det av godhet
+0df56eed-9574-4c28-b9fb-3498aab49c27 [example 6]: Vilken god tårta du har bakat! Äpplet är sött och gott
+0df56eed-9574-4c28-b9fb-3498aab49c27 [example 9]: Ha en god resa! Hon fick en god idé
+b297ba5b-b7e1-401a-a2ae-9f44e9cf630f [example 4]: Du har städat fint i rummet! Det var fint av dig att hjälpa mig
+8ab89eac-54e3-4b35-919d-bc8409384185 [example 2]: Är du behörig att söka till universitetet? För att bli behörig lärare måste man gå en särskild utbildning
+cb879c33-d9d1-4267-af46-94d908d218e2 [example 0]: Vi ses snart! Det börjar bli mörkt snart
+cb879c33-d9d1-4267-af46-94d908d218e2 [example 4]: Har du tid att prata snart? Filmen börjar snart, vi måste skynda oss
+cb879c33-d9d1-4267-af46-94d908d218e2 [example 5]: Snart är det sommar igen! De sa att de skulle vara klara snart med projektet
+cb879c33-d9d1-4267-af46-94d908d218e2 [example 6]: Kan du hjälpa mig snart, eller är du upptagen? Det är snart dags att gå
+cb879c33-d9d1-4267-af46-94d908d218e2 [example 7]: Kan du skicka dokumenten så snart som möjligt? Du kommer att förstå det snart nog.
+88bd58cf-1d02-4e95-83be-e5e4240d480c [example 6]: Det var en rolig överraskning! Hon sa något roligt, och vi började skratta
+ba88a5bc-5756-4295-b417-b8ae7057080c [example 10]: Vilken intressant tanke du hade! Jag fann föreläsningen mycket intressant och givande
+d9d9cefd-a807-4869-9b71-a2d4aab9874a [example 2]: Jag är så uttråkad, kan vi göra något kul? Barnen blev snabbt uttråkade av den långa bilresan
+d9d9cefd-a807-4869-9b71-a2d4aab9874a [example 6]: Vad gör du när du känner dig uttråkad? De uttråkade eleverna började prata med varandra under lektionen
+9ff87381-5d1a-4e0c-8421-1126bad4f49f [example 2]: Allvarligt talat, vad menar du? Han tar alltid sitt jobb allvarligt
+9ff87381-5d1a-4e0c-8421-1126bad4f49f [example 4]: Det här är allvarligt, vi måste göra något! Du borde ta den här situationen allvarligt.
+f54b3135-f2ec-4b79-9734-235b5249c392 [example 0]: Är det här namnet bekant för dig? Jag känner mig bekant med ämnet
+f54b3135-f2ec-4b79-9734-235b5249c392 [example 2]: Är du bekant med det här programmet?  Hans röst känns bekant
+7b92243f-9717-48af-9e9b-58b05dd4633a [example 0]: Är du gift? De gifte sig i Stockholm förra året
+9ecfdfa1-f041-4909-be98-bcff0ec7d00a [example 1]: Är du singel eller gift? Många trivs med att leva som singel
+8d484d30-1555-4aa0-8ca1-8094dffaf538 [example 9]: Jag är upptagen, kan vi prata senare? Är du upptagen med något viktigt? Toaletten är upptagen, du måste vänta en stund
+b76b5908-169e-44bb-b24a-a4fa86785c9c [example 1]: Kan du vara snäll och hjälpa mig? Hon är en snäll och trevlig person
+b76b5908-169e-44bb-b24a-a4fa86785c9c [example 2]: Tack för hjälpen, det var snällt av dig! Barnen är så lugna och snälla idag
+b76b5908-169e-44bb-b24a-a4fa86785c9c [example 5]: Tack för din snälla kommentar! Jag försöker alltid vara snäll mot andra människor
+b76b5908-169e-44bb-b24a-a4fa86785c9c [example 10]: Kan du vara så snäll och öppna fönstret? Alla tycker att hon är mycket snäll och hjälpsam
+e8a3a0fc-8c80-4ba3-bb81-8fab5081cfae [example 4]: Kan du vara så vänlig och hjälpa mig med det här? De gav oss ett mycket vänligt bemötande
+e8a3a0fc-8c80-4ba3-bb81-8fab5081cfae [example 10]: Kan du vara vänlig och stänga dörren? Hennes vänliga ord gjorde mig glad
+a1b80759-9542-41e0-8231-45ea48818bbd [example 1]: Varför är du så arg på mig? Hon såg arg ut när hon lämnade mötet
+a1b80759-9542-41e0-8231-45ea48818bbd [example 8]: Hon var arg på sig själv för att ha gjort ett misstag. Min chef var arg för att rapporten var försenad
+4b584952-b952-4fed-b0ff-175ef82a1faa [example 3]: Varför är du så elak idag? Han kan vara lite elak ibland, men han ångrar sig alltid efteråt
+acf69e6b-8d2d-4705-938b-9ceb60f33f2e [example 3]: Är du fortfarande kär i din ex? Hon ser så kär ut när hon tittar på honom
+acf69e6b-8d2d-4705-938b-9ceb60f33f2e [example 9]: Kära gäster, välkomna till vår fest! Han var så kär att han inte kunde tänka på något annat
+acf69e6b-8d2d-4705-938b-9ceb60f33f2e [example 11]: Kära dagbok, idag hände något fantastiskt! Hon har alltid varit kär i Paris
+55f84520-f1af-4bf5-b531-8329a253ac00 [example 5]: När blev du förälskad i henne? Vi var unga och förälskade, världen var vår! Hon kunde inte dölja att hon var förälskad i honom
+49a02499-d2b9-49ad-835c-ea96fb6e5921 [example 7]: Är du verkligen så likgiltig inför vad som händer runt omkring dig? Det är likgiltigt för mig om vi tar tåget eller bilen.
+3b6da2c9-5e07-42e9-b065-9cfb8d8c8937 [example 1]: Är du rädd för att flyga? Hon såg så rädd ut när hon hörde ljudet
+351c563e-7ffd-4781-ab2e-f406e1ca00fe [example 8]: Hon hoppade i vattnet utan att tveka – så orädd hon är! Vi behöver fler orädda ledare som vågar ta svåra beslut
+ef7548b8-1836-4267-9169-2e1279a22252 [example 7]: Vad får dig att känna dig trygg? Är det här ett tryggt område att bo i?
+5faf5445-27ad-4287-b29a-59ad92bdcafb [example 4]: Gå inte nära kanten, det är farligt! Hon gillar farliga sporter som fallskärmshoppning
+f0b97659-265e-43e3-8b88-1c65d3ebe137 [example 5]: Hur kan jag hålla brödet fuktigt längre? Hans händer var fuktiga av nervositet
+28ec7f09-ed29-413f-bd60-50f5a6a63ab1 [example 6]: Du får inte sitta i soffan med blöta byxor! Han torkade sitt ansikte med en blöt handduk
+5521f8e0-ec28-46a9-a9a1-04a37c292e27 [example 1]: Det är väldigt blåsigt idag, ta på dig en mössa! Vi skulle gå på picknick, men det var för blåsigt
+4b3c0af2-ca87-4199-ac52-acc0456123f4 [example 9]: Jag är så förvirrad just nu, kan du förklara igen? Jag blev helt förvirrad av alla instruktioner
+182944ac-6f23-4609-8f99-9f6f5ead8a55 [example 1]: Är du säker på svaret? Det är viktigt att använda säkra lösenord
+d8676efa-427c-4f06-a100-8bd29d583e4d [example 1]: Har du några andra förslag? De andra gästerna har redan kommit
+d8676efa-427c-4f06-a100-8bd29d583e4d [example 4]: Finns det några andra möjligheter? Han har bott i många andra länder
+1fc298f0-43eb-43a1-9c98-52e20bb8280f [example 1]: Finns det något annat alternativ? De andra eleverna är inte här
+1fc298f0-43eb-43a1-9c98-52e20bb8280f [example 3]: Kan vi prata om något annat? Det måste finnas ett annat sätt att lösa problemet
+25fd7e33-84db-407d-a215-750ce746718a [example 2]: Kan du visa mig den riktiga vägen till stationen? Är det här den riktiga bussen till Stockholm? Hon gjorde ett riktigt bra arbete
+3cb716fb-c11d-4f2c-b6ac-3a55666a69a1 [example 2]: Finns det tillräcklig mat för alla? Han har inte tillräckliga kunskaper för jobbet
+3cb716fb-c11d-4f2c-b6ac-3a55666a69a1 [example 5]: Är det här tillräckligt varmt för dig? Han har tillräckliga meriter för att få jobbet
+3cb716fb-c11d-4f2c-b6ac-3a55666a69a1 [example 6]: Finns det tillräckligt med stolar för alla gäster? Hon känner sig inte tillräckligt förberedd för tentan
+bece106b-46fe-415e-98ed-7e8fea682cd7 [example 2]: Är det nog pengar för att köpa biljetten? Hon har nog erfarenhet för jobbet
+bece106b-46fe-415e-98ed-7e8fea682cd7 [example 5]: Har du sovit nog? Det är nog med socker i kakan redan.
+5b941805-ceb0-467a-b5ed-37a9d5ab2f4c [example 0]: Har vi mat så det räcker för alla? Har vi pengar så det räcker
+a128ff91-844a-4609-a388-c18f9db88338 [example 11]: Det var en otillräcklig förklaring, kan du förklara mer? Den medicinska behandlingen var otillräcklig
+436f1d9e-f25d-40e7-84b0-9beb697c3544 [example 1]: Vilket vin är bäst? Det här är den bästa filmen jag har sett
+436f1d9e-f25d-40e7-84b0-9beb697c3544 [example 6]: Vilken metod är bäst för att lära sig svenska? Jag vill köpa den bästa datorn på marknaden
+37b2f8ce-7307-4de6-91c1-6adbf0fa9e04 [example 8]: Varför gör du en så dum sak? Hon skrattade åt sin dumma misstag
+37b2f8ce-7307-4de6-91c1-6adbf0fa9e04 [example 11]: Sluta vara dum, tänk innan du pratar! Det var en dum kommentar att säga i det sammanhanget
+83bc8891-2b02-49e6-937d-dd260735736c [example 1]: Har du en fungerande laddare? Vi behöver ett fungerande internet för att kunna arbeta
+83bc8891-2b02-49e6-937d-dd260735736c [example 9]: Har du en fungerande penna? Det är svårt att hitta en fungerande lösning på det här problemet
+5e11de6d-60a9-41db-b181-e5079d8809e0 [example 2]: Jag är så törstig, kan jag få ett glas vatten? Efter löpningen blev vi alla törstiga
+8488c5b2-f7ac-4843-a1dc-127fa740e3e8 [example 7]: Är du hungrig eller ska vi vänta lite till? Hon känner sig aldrig riktigt hungrig på morgonen
+a5b1b8b1-77d3-440d-876a-ed0552d10829 [example 3]: Är du klar med läxan? Jag är klar att gå nu
+a5b1b8b1-77d3-440d-876a-ed0552d10829 [example 4]: Är ni klara med förberedelserna för festen? Projektet är nästan klart, vi behöver bara göra några små justeringar
+a5b1b8b1-77d3-440d-876a-ed0552d10829 [example 6]: Är du klar med läxan? Vi är klara att åka när du är redo
+a8096b49-1f79-41e3-9002-3bb70f8d31e4 [example 3]: Har du avslutat ditt arbete? Serien är avslutad efter fem säsonger
+26eaf551-0f0c-425c-a630-fa100b79aad7 [example 1]: Är du redo för mötet? Vi är redo att börja projektet
+26eaf551-0f0c-425c-a630-fa100b79aad7 [example 3]: Är du redo för provet? Allt är redo för festen
+26eaf551-0f0c-425c-a630-fa100b79aad7 [example 7]: Är du redo att resa? Hon var inte redo att förlåta honom
+26eaf551-0f0c-425c-a630-fa100b79aad7 [example 13]: Är du mentalt redo för det här jobbet? Hon kände sig redo att gå vidare.
+fc578feb-6a6a-40c8-948d-d526726f2613 [example 0]: Den där fisken är rutten – ät den inte! Vi hittade ett ruttet päron i väskan
+149e930e-55ce-4a23-aec7-18cf6bda6cc5 [example 3]: Är det möjligt att få ett tidigare möte? Gör det så fort som möjligt
+149e930e-55ce-4a23-aec7-18cf6bda6cc5 [example 6]: Är det möjligt att boka ett bord för ikväll? Vi ska göra det så snabbt som möjligt
+149e930e-55ce-4a23-aec7-18cf6bda6cc5 [example 9]: Är det möjligt att han har glömt? Allt är möjligt om man kämpar
+2b291462-3669-42b2-9e11-52f2bb13396e [example 8]: Du är omöjlig ibland! Vi stod inför en omöjlig situation
+b191ff7c-3f34-4990-befc-bcc7ebebb812 [example 2]: Du verkar frånvarande, är allt okej? Hon satt tyst och såg frånvarande ut
+b191ff7c-3f34-4990-befc-bcc7ebebb812 [example 6]: Varför är du så frånvarande idag? Elever som ofta är frånvarande riskerar att halka efter
+e3c4d851-957f-44c8-8155-3696c22d2de9 [example 0]: Var ligger närmaste busshållplats? Vi måste hitta närmaste sjukhus
+e3c4d851-957f-44c8-8155-3696c22d2de9 [example 4]: Kan du visa mig vägen till närmaste restaurang? Vi måste parkera på närmaste parkeringsplats
+5f739659-5c7b-4521-b4a7-cfb6c9600d3a [example 4]: Är du inte nyfiken på att veta svaret? Hon verkar vara nyfiknare än sin syster
+5f739659-5c7b-4521-b4a7-cfb6c9600d3a [example 5]: Det här är det nyfiknaste barnet jag någonsin har träffat! Är du nyfiken på att prova något nytt? Han tittade på mig med nyfiken blick.
+0232d01f-8e15-4263-aa62-ce6535abd9fd [example 6]: Kan du fixa datorn på egen hand? De bestämde sig för att lösa konflikten på egen hand
+156e2c0c-69f5-4e0a-8c91-430673cc33c1 [example 9]: Kan du ge en muntlig sammanfattning? Den muntliga presentationen gick bättre än väntat
+455059b0-e6f1-40a6-96d1-af6aff1332a4 [example 3]: Är det den enda vägen till stan? Han var den enda som hjälpte mig
+4039c463-2698-4be6-989f-ac57d45d5dba [example 2]: Vad är dagens rätt? Dagens fråga
+722828f2-6f27-4b04-a381-bcfd0731bf01 [example 7]: Filmen var överraskande bra! De reagerade inte på det överraskande beskedet
+4374011a-1eb4-4970-9c28-c034933fdf96 [example 6]: Kan du vara lite mer artig, tack? Det är artigt att säga "ursäkta" när man råkar stöta till någon
+231f3359-0b3b-4896-aab1-f128b2dba4de [example 4]: Du får inte vara oartig mot gästerna! Det var oartigt att inte säga hej
+d270fcb9-a28b-443e-a865-cbdfad81c59d [example 7]: Jag vet att det är onyttigt, men det är så gott! De serverade mest onyttig mat på festen
+f88af082-e345-471a-b042-43b270c77bdb [example 1]: Det var ett saftigt pris! Kan jag få en saftig hamburgare? Den här laxen är riktigt saftig och god
+db520e08-21f9-4a1a-ae17-c934dcfe9c8e [example 6]: Var du förberedd på att det kunde hända? Hon blev bättre förberedd efter kursen
+36d52b11-2c08-4eba-b603-eb9be286e555 [example 3]: Jag förstod rätt, eller hur? Hon sjunger rätt bra.
+fc452a67-7573-41bd-9843-6fe62f9a9466 [example 5]: Jag hörde fel, kan du upprepa? De gick fel väg och kom för sent
+fc452a67-7573-41bd-9843-6fe62f9a9466 [example 6]: Är det något fel med datorn? Du tog fel på tiden, mötet är i morgon
+4d5787aa-a1ed-4775-a9e4-93bbc4610916 [example 0]: Jag hörde fel, kan du säga det igen? Hon räknade fel och fick fel resultat
+4d5787aa-a1ed-4775-a9e4-93bbc4610916 [example 7]: Jag såg fel – det var inte han! De tog fel på datumet och kom för tidigt.
+e712802d-2347-4fc6-84f7-ed80f2b1e192 [example 3]: Har du haft problem med datorn? Har du haft en bra helg? Jag har haft en dålig dag
+ff7f8bb3-3411-4b3a-a53e-8fea3a3c5cba [example 2]: Vem äger den här lägenheten? De äger flera företag i Sverige
+ff7f8bb3-3411-4b3a-a53e-8fea3a3c5cba [example 3]: Katten äger inte huset, men den beter sig som det! Banken äger fortfarande huset tills lånet är betalt
+cf92a642-ef3b-420a-a2d0-d8bf8ed69b31 [example 4]: Har du ätit något idag? Hon äter inte kött, bara grönsaker
+2e74de88-4343-444b-a54b-88770b6ca3a9 [example 7]: Ska vi laga mat hemma eller äta ute ikväll? Jag orkar inte laga mat – vi kan väl äta ute? Barnen älskar att äta ute, speciellt på pizzerian
+04c16748-6372-4982-8a63-4ba4ab053277 [example 6]: Dricker du tillräckligt med vatten? De dricker öl på uteserveringen
+15acfe13-48fe-4492-80b7-bda67788c553 [example 1]: Vad säger du? Hon sa att hon var trött
+ed17d957-2062-4af6-b62b-b45692780abc [example 1]: Talar du engelska? Hon talar på konferensen idag
+ed17d957-2062-4af6-b62b-b45692780abc [example 4]: Kan du tala om för mig vad som hände? Vi talade länge om framtiden
+021793fe-3636-45dd-b387-06b4e269adfa [example 3]: Pratar du engelska? De pratar så högt på kaféet
+021793fe-3636-45dd-b387-06b4e269adfa [example 7]: Har du pratat med chefen? Prata inte så mycket! Vi har pratat om att resa till Spanien.
+05a18913-dda6-4028-b3e0-4c21b2e8a6b8 [example 1]: Kan du berätta lite om dig själv? Hon berättar en rolig historia
+05a18913-dda6-4028-b3e0-4c21b2e8a6b8 [example 5]: Berätta inte för någon! De berättar alltid sanningen
+e8b60a53-f93f-4478-be34-4eb03a78766c [example 0]: Kan du stava ditt efternamn? Hon stavar alltid sitt namn långsamt för att vara tydlig
+e8b60a53-f93f-4478-be34-4eb03a78766c [example 6]: Kan du stava “sjukhus”? Vi tränade på att stava under lektionen.
+fa24db3a-e921-47d4-a638-d71240969280 [example 2]: Har du sökt efter lösningar på problemet? Han har sökt jobb i flera månader
+6e968ede-085a-465a-813b-5ecd2351c4db [example 1]: Kan du slå upp det ordet i ordboken? Vi måste slå upp var den där platsen ligger
+12ab39e7-87f6-45bf-9d1a-8fa399db23c2 [example 2]: Har du hittat ett bra jobb än? Hon hittade en gammal bok på vinden
+12ab39e7-87f6-45bf-9d1a-8fa399db23c2 [example 4]: Kan du hitta vägen till stationen? Barnet hittade inte sin mamma i folkmassan
+286474d4-f3b6-46b0-a94e-780540502a9d [example 7]: Har du upptäckt något intressant på sistone? Hon upptäcker sina styrkor i jobbet
+f73a037b-1c38-4c93-8345-2c77ce933413 [example 0]: Får jag ta en bild med dig? Jag tar en kopp kaffe
+f73a037b-1c38-4c93-8345-2c77ce933413 [example 1]: Kan du ta med en filt till stranden? Jag tar en kaka till
+f73a037b-1c38-4c93-8345-2c77ce933413 [example 3]: Vill du ta lite mjölk i kaffet? Barnet tog en leksak från hyllan
+f73a037b-1c38-4c93-8345-2c77ce933413 [example 4]: Kan jag ta en penna? Hon tar alltid med sig mat till jobbet
+f73a037b-1c38-4c93-8345-2c77ce933413 [example 5]: Du får inte ta andras saker utan att fråga! De tog var sin stol och satte sig i trädgården.
+786c499e-152c-4930-98bd-ca80235e3225 [example 2]: Tar du bilen eller cykeln idag? De tar flyget till Spanien
+4a54c05f-c824-4514-b8a2-e380e61a6f06 [example 2]: Kan du placera bordet vid fönstret? Hon placerade sina pengar i aktier
+8b0e3f4b-e44f-4416-9c87-d2580e5efabf [example 2]: Kan du lägga ner mobilen ett ögonblick och lyssna på mig? Hon lade ner barnet försiktigt i sängen
+11a51832-4779-4ba3-8512-67e3ee92991a [example 2]: Kan du knyta upp repet? De har knutit upp säcken och tömt den
+7b0cf54b-f8c6-4441-a981-0e5280017eac [example 2]: Kan du hjälpa mig att knäppa upp armbandet? Han har knäppt upp byxorna efter maten
+c8272916-0933-4eb2-8cb8-cbd29fa72fb8 [example 1]: Kan du sätta på kaffebryggaren? Jag sätter på TV:n klockan åtta
+72b44457-f323-4e6d-b720-d9ee09882255 [example 0]: Kan du stänga av tv:n? Jag stänger av datorn innan jag går och lägger mig
+72b44457-f323-4e6d-b720-d9ee09882255 [example 3]: Glöm inte att stänga av ljuset! Han stängde av mobilen under mötet
+d43dac6d-8ca3-4880-a201-5e00c37dec74 [example 0]: Kan jag få låna din penna och ditt suddgummi? Hon fick låna pengar av banken för att köpa ett hus
+d43dac6d-8ca3-4880-a201-5e00c37dec74 [example 4]: Kan jag få låna din telefon för ett samtal? Jag fick låna en bok från biblioteket i en vecka
+0dd5f049-241d-4a08-b9a4-1846bcca44e2 [example 1]: Jag måste få tag på biljetter till konserten! Vet du var jag kan få tag på den senaste rapporten? Jag försökte få tag på dig hela dagen! Det är svårt att få tag på en bra lägenhet i Stockholm
+0dd5f049-241d-4a08-b9a4-1846bcca44e2 [example 2]: Var kan jag få tag på en billig dator? Hon fick tag på en sällsynt bok på antikvariatet
+0dd5f049-241d-4a08-b9a4-1846bcca44e2 [example 5]: Det är nästan omöjligt att få tag på biljetter till finalen! Har du fått tag på den senaste versionen av programmet?  Vi behöver få tag på mer information om projektet
+f99eaac7-4cec-4386-ba7b-44c2d5aa37c9 [example 5]: Har du någonsin gillat att springa? Gilla livet och njut av varje dag! Gilla det du gör, så blir det roligare
+f99eaac7-4cec-4386-ba7b-44c2d5aa37c9 [example 6]: Vad gillar du att göra på fritiden? Jag gillade verkligen resan till Stockholm
+09c0df1d-0537-4f5c-81f7-88c6d3bccd9e [example 3]: Jobbar du fortfarande på samma plats? Jag jobbar bara halvtid just nu
+4c33d4fb-639a-4479-8252-56fbfa81d36a [example 0]: Hur fungerar det? Systemet fungerar bra
+4c33d4fb-639a-4479-8252-56fbfa81d36a [example 2]: Hur fungerar den här maskinen? Allt fungerade bra under mötet.
+7ebfac86-1417-4307-aeac-7ea5e45239cf [example 1]: Slappna av och njut av semestern! Slappna av, vi har gott om tid att lösa problemet
+9e4040b0-60ab-42b6-bc7f-b9a0fec16e47 [example 0]: Stör jag dig? Snälla, stör inte medan jag jobbar
+02aa4f61-f1cb-4cc0-b7e8-b6bcac00fa3f [example 4]: Minns du var vi parkerade bilen? Om jag minns rätt börjar mötet klockan tre
+3b143625-2ff4-43cf-88aa-6e4bded71f0a [example 3]: Har du skrattat idag? Skrattande människor skapar en glad stämning
+fbcec25a-d487-47b6-aa83-e6d924f7f316 [example 4]: Vi har lett hela dagen – det var så kul! Han försökte le, men såg nervös ut
+fbcec25a-d487-47b6-aa83-e6d924f7f316 [example 8]: Varför ler du så hemlighetsfullt? Jag kunde inte låta bli att le.
+45564752-a726-4be8-8d10-9cc20ef39f56 [example 1]: Vad vill du göra idag? Hon ville gå på bio igår
+45564752-a726-4be8-8d10-9cc20ef39f56 [example 3]: Har du någonsin velat bli artist? Jag har alltid velat lära mig spela gitarr
+45564752-a726-4be8-8d10-9cc20ef39f56 [example 5]: Vad vill du göra i framtiden? Jag har aldrig velat bo i en storstad
+45564752-a726-4be8-8d10-9cc20ef39f56 [example 6]: Vad vill du äta till middag? Hon ville alltid resa runt världen.
+4979093e-4731-4e16-832d-ec635de8774b [example 3]: Har du plockat upp barnen från skolan än? Vi ska plocka svamp i skogen imorgon
+4979093e-4731-4e16-832d-ec635de8774b [example 5]: Kan du plocka upp det här från golvet? Plocka gärna bort dina saker från bordet
+96850ed3-73b9-4ead-98d1-e951afc09ea7 [example 7]: Har du valt vilken bok du vill läsa? Det är svårt att välja mellan två bra erbjudanden
+0a5d6653-1251-4758-88f6-620f469fbb2f [example 2]: Tror du på ödet? Vi har alltid trott på hans förmåga att lyckas
+0a5d6653-1251-4758-88f6-620f469fbb2f [example 4]: Tror du att hon kommer i tid? De trodde att filmen skulle vara bättre
+0a5d6653-1251-4758-88f6-620f469fbb2f [example 10]: Tror du att vi kommer att vinna matchen? Han trodde inte på mig när jag berättade nyheten
+7dc5ea63-1f9a-4ac0-b2f4-1de84d1fb04b [example 4]: Vad tycker du att vi ska göra? Många tycker att svenska är svårt
+7dc5ea63-1f9a-4ac0-b2f4-1de84d1fb04b [example 7]: Tycker du att jag ser trött ut? Vi tycker att det är dags att gå hem
+daddb983-02b9-454a-a4e0-65ccf7b23822 [example 4]: Undrar du också vad som finns på andra sidan världen? De undrade varför biljetterna var så dyra
+9de4b7e9-12b2-40eb-aaee-3713f8232519 [example 1]: Kan du räkna ut vad svaret är? Jag räknar ut hur mycket vi ska betala
+9de4b7e9-12b2-40eb-aaee-3713f8232519 [example 3]: Kan du räkna ut procenten? Vi har räknat ut alla kostnader för resan
+df34feda-10f5-47cb-bf1f-344235f2eed2 [example 4]: Kan du hjälpa mig att reda ut det här? Han redde ut problemet på ett smart sätt
+9182212a-0516-47a9-a47c-74b1c76e3195 [example 2]: Rör inte tavlan, färgen är fortfarande våt! Hon rörde vid hans axel för att få hans uppmärksamhet
+0ed314e1-d13f-41ba-bd05-456b677d677e [example 0]: Rör inte på dig! Kan du röra dina fingrar efter skadan? Han rörde på stolen för att sitta bekvämare
+3941de62-bf37-4493-a39d-d5373bb05b88 [example 3]: Kan du följa efter mig till mötesrummet? Polisen följde efter bilen i flera kilometer
+f965bbb6-3e56-481f-8300-00f513b7b925 [example 2]: När kommer tåget? Mina vänner kom för sent till festen
+f965bbb6-3e56-481f-8300-00f513b7b925 [example 7]: Vem kommer på besök i kväll? Läraren kommer in i klassrummet
+f965bbb6-3e56-481f-8300-00f513b7b925 [example 12]: Snälla, kom in och sitt ner! När kommer posten? Våra gäster kommer vid sjutiden
+0b81fe95-0a44-4611-bc06-fefdaaba46e0 [example 4]: Kan du lämna brevet till posten? De lämnade landet för gott
+0b81fe95-0a44-4611-bc06-fefdaaba46e0 [example 6]: Lämna mig ifred! Vi lämnade tillbaka böckerna till biblioteket
+0b81fe95-0a44-4611-bc06-fefdaaba46e0 [example 8]: Har du lämnat in din hemläxa? Jag lämnade honom igår kväll
+c140ae48-df93-4475-b79f-a22293931a23 [example 3]: Kan du hämta ett glas vatten till mig? Vi har hämtat våra väskor från hotellet
+c140ae48-df93-4475-b79f-a22293931a23 [example 6]: Hämta doktorn, han behöver hjälp! Vi hämtade bilen från parkeringen
+c140ae48-df93-4475-b79f-a22293931a23 [example 8]: Jag hämtade dig från tåget igår, minns du? Barnen har hämtat sina jackor själva
+6fde5c2c-9927-4d5f-8ae2-a3b86f8f6993 [example 1]: Ser du vad som händer? Vi ser på nyheterna varje kväll
+145c4309-96af-4ac3-a444-c3b79d293f82 [example 2]: Kan du höra mig? Kan du höra vad jag säger
+f52a6d13-1468-4753-8cfa-2159e356d04d [example 0]: Har du hört talas om det nya spelet? Jag har hört talas om henne, men jag känner henne inte
+f52a6d13-1468-4753-8cfa-2159e356d04d [example 3]: Aldrig hört talas om det! Har du någonsin hört talas om tyst diplomati? Hon hörde talas om jobbet via en bekant
+cc8dbb70-b7d1-4b88-83ea-48f3ca8eb211 [example 3]: Har du lyssnat på den nya podden? Lyssna på mig nu! De lyssnar på klassisk musik tillsammans
+e4d8ed85-b791-4ee2-b824-3ecc490e3077 [example 4]: Har du använt den här appen tidigare? Du får använda min dator om du vill
+cd2e75b4-433e-432a-8d8a-ec3eba4322f3 [example 2]: Hur ofta åker du tåg? Han åkte hem sent på kvällen
+cd2e75b4-433e-432a-8d8a-ec3eba4322f3 [example 8]: Vill du åka med mig? Jag åker gärna tåg – det är bekvämt
+e8304888-1b58-41b9-aa10-80bc2cc64e9d [example 2]: Har du gått hem redan? Det går bra för henne på jobbet
+e8304888-1b58-41b9-aa10-80bc2cc64e9d [example 3]: Hur går det med projektet? Tiden går så fort! Lampan gick sönder
+e8304888-1b58-41b9-aa10-80bc2cc64e9d [example 7]: Hur ofta går du till gymmet? De gick hem tillsammans efter festen
+e8304888-1b58-41b9-aa10-80bc2cc64e9d [example 8]: Kan du gå till affären och köpa mjölk? Det går bättre för oss nu än tidigare
+88c1c5db-6f0e-4bc4-8652-cf2e1dd60c8e [example 8]: Varför springer du så mycket idag? Vi sprang hem i regnet
+1d5965f6-784e-4b0e-91e9-4d50376c27e4 [example 2]: Hur ofta flyger du i jobbet? Fåglarna flyger högt på himlen
+f8486ba5-9c41-4de2-8c29-19d01688cf59 [example 1]: Kan du simma? Vi simmade i havet hela dagen
+f8486ba5-9c41-4de2-8c29-19d01688cf59 [example 4]: Simma lugnt! Han simmar snabbare än jag
+52032267-4e1e-41b6-ac39-3849d22b05f3 [example 1]: Har du någonsin åkt skidor? Vi åkte skidor i fjällen förra året
+99a46313-ba0b-4d7c-8803-fc27da927ea7 [example 5]: Vill du promenera i naturen med mig imorgon? De promenerar i naturen trots regnet
+d7a70d5c-37e3-47d7-a0b3-d54f9f6863dd [example 5]: Kan du sjunga den där låten igen? De sjöng nationalsången på matchen
+566246cc-1530-4834-b102-0827c6506c71 [example 2]: Har du någonsin sjungit i kör? Vi sjöng i kör: "Ja må han leva!" Hon sjunger i kör sedan hon var tio år
+5ee97e82-5673-4c70-9bd2-56e4f6f85cb2 [example 4]: Har du någonsin dansat tango? Dansa! Musiken är så bra! Han dansar som en professionell dansare
+5ee97e82-5673-4c70-9bd2-56e4f6f85cb2 [example 7]: Jag kan inte dansa, men jag försöker! Vi dansar folkdans på midsommar
+d68fe436-8f33-4f15-aa8a-e8f7d3828ddb [example 4]: Har du kört någon gång i snöstorm? Kör försiktigt! Han kör väldigt fort
+d68fe436-8f33-4f15-aa8a-e8f7d3828ddb [example 6]: Kan du köra mig till stationen? Vi ska köra ett test nu
+38a3a4b5-0a31-4cfc-8734-0a6d14128668 [example 0]: Kan du skjutsa mig till flygplatsen? Han skjutsade sina barn till skolan i morse
+38a3a4b5-0a31-4cfc-8734-0a6d14128668 [example 4]: Kan du skjutsa mig till stationen? Min pappa skjutsade mig till träningen
+d06af696-b4d9-42c7-a6b1-82511f8beedd [example 3]: Har du studerat utomlands? De studerar hur klimatet förändras
+d06af696-b4d9-42c7-a6b1-82511f8beedd [example 5]: Studera hårt om du vill klara tentan! Han har studerat ekonomi i fem år
+d06af696-b4d9-42c7-a6b1-82511f8beedd [example 6]: Var studerar du någonstans? Jag studerar hemma på distans
+771e1a9d-a8ca-427a-9ec0-a2019f836e5e [example 5]: Har du pluggat tillräckligt för tentan? De pluggar tillsammans på biblioteket
+d1922682-ddf1-4e14-b84c-1e77b2dec5bd [example 3]: Kan du läsa högt för barnen? Han har läst hela boken på en dag
+f8219174-0eb3-4264-8962-f64791fd1bc1 [example 2]: Kan du förklara det för mig? Hon förklarade varför hon var sen
+6e59b2f7-38ed-4229-b58a-ef8ea61ffaea [example 5]: Vad innehåller det här dokumentet? Receptet innehåller mjölk, smör och socker
+b32e64f8-719a-4b9f-aeb5-6985e88091ab [example 2]: Var befinner sig närmaste busshållplats? Företaget befinner sig i en svår ekonomisk situation
+f3c233a4-3191-4a24-b954-b7f589d7ea58 [example 4]: Var ligger närmaste apotek? Vi har legat på stranden i timmar
+f3c233a4-3191-4a24-b954-b7f589d7ea58 [example 9]: Kläderna ligger överallt! Skolan ligger nära mitt hus
+af5add8a-a49e-4eca-a8c7-6c63d2867d50 [example 6]: Vad hände vid bråket i skolan? Många grät vid begravningen
+3ec9eaec-0431-4322-920d-d51b827b6e1f [example 1]: Vad innebär det här beslutet? Att flytta utomlands innebär stora förändringar
+3ec9eaec-0431-4322-920d-d51b827b6e1f [example 5]: Vad innebär det för dig personligen? För mig innebär lycka att vara med familjen
+63b043df-46a2-464b-9207-d6f06e814698 [example 3]: När börjar filmen? Vi började prata om framtiden
+63b043df-46a2-464b-9207-d6f06e814698 [example 4]: Har du börjat läsa den boken? Hon börjar alltid dagen med kaffe
+63b043df-46a2-464b-9207-d6f06e814698 [example 9]: Kan vi börja nu? Mötena börjar alltid i tid
+4d7eeef6-0ad8-49f2-aa37-38e25c8f7192 [example 1]: Kan du sluta prata så högt? Regnet har slutat
+2ed757cb-ed13-4e6f-b87b-4b04c758d255 [example 1]: Har du smakat på soppan? Kakan smakar choklad
+2ed757cb-ed13-4e6f-b87b-4b04c758d255 [example 4]: Har du smakat något så gott förut? Jag smakade på chokladkakan och den var underbar
+58cace96-092b-45a7-b827-3132fd2da7c5 [example 8]: Öka hastigheten lite! Företaget ökar sina investeringar i forskning
+84358f35-b1db-4eb7-93c1-e07126bbde92 [example 2]: Kan du hjälpa mig? Hon kan tala tre språk
+84358f35-b1db-4eb7-93c1-e07126bbde92 [example 5]: Kan ni visa vägen till stationen? Barnet kan läsa redan
+84358f35-b1db-4eb7-93c1-e07126bbde92 [example 9]: Kan du komma lite tidigare? Han kunde inte förstå vad som hände
+f9740418-30f8-4c20-8760-2fa6dbe338ae [example 2]: Vad ska du göra i helgen? Jag måste göra läxorna innan middagen
+f9740418-30f8-4c20-8760-2fa6dbe338ae [example 3]: Vad gör du just nu? Hon gjorde ett fantastiskt jobb med presentationen
+a4bcebad-7767-4fdb-bc08-415288dfba2b [example 0]: Vad sysslar du med? Hon sysslar med grafisk design
+a4bcebad-7767-4fdb-bc08-415288dfba2b [example 6]: Vad sysslade du med innan du flyttade hit? De sysslar med att sälja begagnade bilar
+0e8bac4d-6aae-4183-8810-d775cbbff5c7 [example 9]: Vad kan vi göra för att främja miljövänliga val? Bra ledarskap främjar motivation
+ac7801a3-9e6a-47eb-9cbf-f0a6e33389ea [example 1]: Kan du hjälpa mig med läxan? Hon hjälper sin mamma att laga mat
+ac7801a3-9e6a-47eb-9cbf-f0a6e33389ea [example 3]: Har du hjälpt honom förut? Jag vill hjälpa människor i nöd
+ac7801a3-9e6a-47eb-9cbf-f0a6e33389ea [example 9]: Jag hjälper gärna till! Hur kan jag hjälpa dig idag? Barnen hjälpte till att städa rummet
+35288fb3-34fa-4c46-9f9b-4c0bd413462d [example 2]: Vem ansvarar för det här projektet? Föräldrar ansvarar för sina barn
+d4bc585b-982d-4669-910a-76ec3fd9b631 [example 3]: Har du beställt biljetterna ännu? Vi beställde hem sushi igår kväll.
+48912867-f9bb-4d34-acf9-7ff87e4dd23e [example 0]: Kan du ringa tillbaka senare? Han ringde sin mamma i morse
+48912867-f9bb-4d34-acf9-7ff87e4dd23e [example 2]: Kan du ringa mig efter jobbet? Jag behöver ringa läkaren
+48912867-f9bb-4d34-acf9-7ff87e4dd23e [example 3]: Har du ringt polisen? Jag var upptagen, men jag ska ringa tillbaka om en stund
+c7bd008e-597b-45b4-ae2d-b95829b4a1ea [example 3]: Har du träffat henne förut? Jag vill gärna träffa dig igen
+c7bd008e-597b-45b4-ae2d-b95829b4a1ea [example 8]: Ska vi träffas i morgon? De träffades på en fest
+c7bd008e-597b-45b4-ae2d-b95829b4a1ea [example 9]: Kul att träffas igen! Vi träffar läraren varje vecka
+3b83df08-2a1b-4732-b5d6-67f9f726a714 [example 0]: När behöver jag lämna tillbaka den? Jag måste lämna tillbaka boken till biblioteket
+3b83df08-2a1b-4732-b5d6-67f9f726a714 [example 1]: Har du lämnat tillbaka verktyget till grannen? Vi lämnade tillbaka bilen i tid
+3b83df08-2a1b-4732-b5d6-67f9f726a714 [example 5]: Kan du lämna tillbaka den här boken åt mig? Vi har lämnat tillbaka allt vi lånade
+3b83df08-2a1b-4732-b5d6-67f9f726a714 [example 6]: När ska du lämna tillbaka filmen? De lämnade tillbaka cykeln efter att ha använt den
+00c0a8db-e408-4e1b-ab77-71477078c9b6 [example 5]: Jag har surfat i flera timmar nu! De surfar efter billigaste priserna
+bee3a6d7-cae8-484e-adb0-732b4893cfc8 [example 3]: Ska vi bada i havet i dag? Hon badade i badkaret i en timme
+bee3a6d7-cae8-484e-adb0-732b4893cfc8 [example 12]: Bada inte för länge – vattnet blir kallt! Jag vill bada bastu och sedan hoppa i sjön! Hunden gillar inte att bada.
+81baad4e-6a5d-4fc5-b18e-0d95b77d719a [example 2]: Har du sovit bra? Vi sov länge i morse
+ac8a8ee4-7070-4e64-a29b-87f9ec6218be [example 3]: Har du somnat redan? Jag kunde inte somna i natt
+dccbc38c-4f0d-4572-b03c-1a50ff76b7a3 [example 4]: Vakna, det är dags att gå upp! Efter en lång vila vaknade björnen ur sin dvala
+000e7234-d4aa-4e88-8d81-695773c0590f [example 5]: Har du frågat henne än? Jag frågade vad klockan var
+000e7234-d4aa-4e88-8d81-695773c0590f [example 8]: Kan jag fråga en sak? Du måste fråga innan du tar
+000e7234-d4aa-4e88-8d81-695773c0590f [example 11]: Får jag fråga något personligt? Hon frågade om jag ville ha kaffe
+4382128d-9950-482c-9051-8dc2a3b60dcb [example 2]: Kan du svara på min fråga? Vi har svarat på enkäten
+4382128d-9950-482c-9051-8dc2a3b60dcb [example 7]: Varför svarar du inte? Läraren svarade på alla frågor
+4382128d-9950-482c-9051-8dc2a3b60dcb [example 11]: Svara på frågorna i boken! Han svarade inte alls.
+12fe1852-0bda-450d-914c-1ca65e4deca2 [example 3]: Kan du meddela henne att jag kommer för sent? Regeringen meddelar ett nytt beslut imorgon
+1dc8efac-3a6c-46f1-b5fc-b9a631d673c4 [example 0]: Kan du stänga fönstret, tack? Kan du stänga dörren? De stängde butiken tidigare idag
+4228e40b-090d-44bc-816d-f848bf5fd21b [example 4]: Har du redan öppnat flaskan? Vi har precis öppnat restaurangen, och den går bra
+4228e40b-090d-44bc-816d-f848bf5fd21b [example 5]: Kan du öppna burken åt mig? Jag har öppnat mina ögon för nya möjligheter
+a86f6208-0c70-4ecd-baad-44b823473068 [example 3]: Vem närvarade vid ceremonin? Endast medlemmar får närvara
+b4b52bb3-9e80-483e-8555-2e4cf4f53b20 [example 1]: Har du deltagit i projektet? Hon deltar i ett forskningsprogram
+b4b52bb3-9e80-483e-8555-2e4cf4f53b20 [example 5]: Vill du delta i mötet i morgon? Jag deltar inte den här gången
+a8395365-d4e0-4c30-88aa-3658f9dff095 [example 1]: Har du någonsin besökt det museet? Vi besökte mina föräldrar i helgen
+a8395365-d4e0-4c30-88aa-3658f9dff095 [example 9]: Har du besökt kyrkan i Lund? Hon besökte sin gamla skola förra året
+a8395365-d4e0-4c30-88aa-3658f9dff095 [example 11]: Kan man besöka fabriken? Jag ska besöka en vän på sjukhuset.
+a8350101-58f0-43b2-9f82-ee3ca86c6611 [example 3]: Har du borstat tänderna än? Barnet vill inte borsta sig själv
+a8350101-58f0-43b2-9f82-ee3ca86c6611 [example 7]: Kom ihåg att borsta tänderna innan du går! Jag har borstat håret redan
+93c18dbf-9420-4037-834f-f62e963e7b05 [example 3]: Har du tvättat bilen idag? Glöm inte att tvätta frukten innan du äter den
+5c011570-8b5f-4f82-9905-25feffcb5a36 [example 4]: Vi måste träna svenska varje dag! Barnet tränar fotboll två gånger i veckan
+5c011570-8b5f-4f82-9905-25feffcb5a36 [example 5]: Har du tränat idag? Jag tränade hela helgen inför provet
+49d90490-81b8-464f-a3d9-f360ac9baefc [example 3]: Har du övat inför provet? Jag måste öva mer på att skriva
+49d90490-81b8-464f-a3d9-f360ac9baefc [example 7]: Låt oss öva tillsammans! Jag övar fiol varje kväll
+49d90490-81b8-464f-a3d9-f360ac9baefc [example 9]: Öva innan du presenterar! Han övar på att köra bil
+ac916ecd-6cd3-4586-b2e5-0d28dfdfe6db [example 3]: Mätt noggrant så att det blir rätt! Verktyget används för att mäta fuktighet i trä
+ac916ecd-6cd3-4586-b2e5-0d28dfdfe6db [example 7]: Har du redan mätt ingredienserna för kakan? Lär dig hur man mäter vinklar med denna guide.
+08a6bb71-ea65-495d-b6c6-f266217848ca [example 8]: Ska vi fortsätta eller ta en paus? Du måste fortsätta kämpa! Läraren bad oss att fortsätta skriva
+71ebc443-5aec-4da2-9bec-6af9227712e7 [example 7]: Vad pågår här egentligen? Förhandlingarna pågick hela natten
+7b8df646-dde8-4c3f-b8f4-4a0b4c157f95 [example 1]: Svenska är svårt, men jag kämpar på! Vi har mycket att göra, men vi kämpar på
+7b8df646-dde8-4c3f-b8f4-4a0b4c157f95 [example 4]: Hur går det med jobbet? – Jag kämpar på! Han kämpar på trots alla problem
+4cab588e-69c1-43a9-b0b4-be2f339ae5cd [example 3]: Kan du vänta en minut? De väntar på sina föräldrar
+910042ba-65b6-418f-a787-992c7951b767 [example 8]: Vad längtar du efter mest just nu? Hon längtar till sommaren och soliga dagar
+910042ba-65b6-418f-a787-992c7951b767 [example 10]: Längtar du hem när du är borta länge? Efter ett år utomlands längtade han tillbaka till Sverige.
+b358355f-d232-4cbc-b4b1-b0b267dc4059 [example 3]: Jag saknar dig så mycket! Hon saknar sina vänner från skolan
+b358355f-d232-4cbc-b4b1-b0b267dc4059 [example 5]: Saknar du ditt hemland? Han saknade sin hund när han var borta
+580525ab-23e5-48d6-ab86-7055b31f66f9 [example 5]: Har du någonsin ritat med bläck? Rita en cirkel på pappret! Rita vad du ser i fantasin
+2eadc212-7118-46e5-baf2-cc1c6a3c3023 [example 2]: Har du planerat något särskilt för helgen? Vi måste planera mötet noggrant för att undvika problem
+2eadc212-7118-46e5-baf2-cc1c6a3c3023 [example 7]: Planerar du att delta i konferensen? Han planerade allt i detalj innan han startade sitt företag
+8cf5a72e-0bbb-4134-a3f6-019d539d0bbc [example 2]: Har du städat badrummet än? Hon städade hela lägenheten i går
+8cf5a72e-0bbb-4134-a3f6-019d539d0bbc [example 8]: Städa! Det ser hemskt ut här! När städade du senast? Jag tycker om att städa när jag är stressad
+4fa0b084-8544-4b81-b13e-aa39cad4fc98 [example 2]: Kan du lägga undan mobilen en stund? Hon lade undan lite pengar varje månad
+4fa0b084-8544-4b81-b13e-aa39cad4fc98 [example 6]: Kan du lägga undan det åt mig till i morgon? Jag har lagt undan några böcker till dig
+4fa0b084-8544-4b81-b13e-aa39cad4fc98 [example 9]: Var har du lagt undan mina nycklar? Jag lade undan det gamla fotot i lådan
+377f78fb-d732-4c40-b054-82e937db5351 [example 0]: Kan du plocka bort tallrikarna? Vi plockade bort alla leksaker innan gästerna kom
+377f78fb-d732-4c40-b054-82e937db5351 [example 2]: Har du plockat bort julpyntet än? Barnen plockade bort sina kläder
+377f78fb-d732-4c40-b054-82e937db5351 [example 5]: Plocka bort allt från golvet, tack! De plockar bort alla stolar efter mötet
+377f78fb-d732-4c40-b054-82e937db5351 [example 9]: Plocka bort telefonen nu och lyssna! Hon plockade bort alla distraktioner för att fokusera
+ef84a03d-faf4-4c2a-8e45-262517e80f6b [example 2]: Har du moppat badrummet än? Vi moppade hela huset efter festen
+ef84a03d-faf4-4c2a-8e45-262517e80f6b [example 4]: Kan du moppa vardagsrummet? De har moppat två gånger i dag
+ef84a03d-faf4-4c2a-8e45-262517e80f6b [example 7]: Moppa inte trägolvet med för mycket vatten! Vi moppade efter att hunden kissade inne
+ef84a03d-faf4-4c2a-8e45-262517e80f6b [example 10]: När moppade du sist? Du måste moppa om det är kladdigt
+d06af8d2-f03c-41f3-8544-f85a13c070b7 [example 0]: Kan du torka disken? Torka håret först
+d06af8d2-f03c-41f3-8544-f85a13c070b7 [example 2]: Kan du torka bordet, tack? Handdukarna torkar på balkongen
+d06af8d2-f03c-41f3-8544-f85a13c070b7 [example 12]: Torka av skorna innan du går in! Jag vill torka håret med hårtork
+135376ae-272a-4e48-bf6c-c7eae7ba4e56 [example 2]: Har du dammat bokhyllan? Hon dammade hela vardagsrummet i går
+135376ae-272a-4e48-bf6c-c7eae7ba4e56 [example 3]: Kan du damma av TV:n? Vi måste damma fönsterbrädorna
+135376ae-272a-4e48-bf6c-c7eae7ba4e56 [example 6]: Damma av dina gamla böcker! Hon dammar ofta med mikrofiberduk
+135376ae-272a-4e48-bf6c-c7eae7ba4e56 [example 8]: När dammade du senast? Jag dammar bara när jag får gäster
+55728b39-213b-4008-a86e-afc4059fa556 [example 1]: Har du dammsugit sovrummet än? Vi dammsuger varje fredag
+55728b39-213b-4008-a86e-afc4059fa556 [example 5]: Dammsugaren låter för mycket! Jag glömde att dammsuga bakom sängen
+55728b39-213b-4008-a86e-afc4059fa556 [example 7]: Har du dammsugit i hallen? Vi dammsög snabbt innan middagen
+027fc537-2d6c-4865-9af2-41250f796d11 [example 1]: Kan du ta ut soporna? Vi måste ta ut de här gamla möblerna
+0d3c90e5-ee5c-40cf-b689-a000aaeed2d1 [example 7]: Ska jag slänga flaskan i återvinningen? De slängde gamla papper utan att läsa dem
+0f8cb4cb-f0e6-41eb-a6c9-1def21c4cb80 [example 3]: Har du fönat håret än? Kan du föna mitt hår, snälla? Jag vill inte föna håret i dag
+8938aff8-3220-4043-ae41-8b4f0f3fbaed [example 3]: Har du gurglat i dag? Barnet vägrade att gurgla
+8938aff8-3220-4043-ae41-8b4f0f3fbaed [example 10]: Gurgla inte för snabbt, det måste verka! Han gurglar som om han sjunger
+c0d32d77-2e12-4e7a-af2b-9daac0bd273b [example 3]: Har du rest mycket i år? Hon reste till Japan ensam
+c0d32d77-2e12-4e7a-af2b-9daac0bd273b [example 8]: Hur ofta reser du utomlands? Jag tycker om att resa med ryggsäck.
+b286cf93-0d29-4d9f-9ea6-5aae284092d5 [example 2]: Vill du spela kort med oss? Han spelade kort hela natten
+cd66cd13-e5c8-4ffb-a655-8195b8a58d49 [example 3]: Har du spelat gitarr länge? Jag lär mig att spela gitarr
+cd66cd13-e5c8-4ffb-a655-8195b8a58d49 [example 6]: Jag vill spela gitarr som Ed Sheeran! Barnen försöker spela gitarr, men det låter roligt
+cd66cd13-e5c8-4ffb-a655-8195b8a58d49 [example 8]: Kan du spela gitarr för oss? Han spelar gitarr varje dag
+1f298e46-a9f7-4ae4-94d6-ca8d9e8dab6f [example 7]: Kan du leka med lillebror en stund? Hon leker mamma och pappa
+bf547b7f-70e1-49a0-a7b2-0484d3cabfe6 [example 1]: Kan du spela gitarr? De spelar fotboll varje helg
+14205791-8e40-4de4-a21e-f46fa4a8ea32 [example 2]: Du får inte bryta mot lagen! Hon försöker bryta sin dåliga vana att röka
+6078549c-a4b0-4180-ae4a-b4db5715b911 [example 3]: Kan du sluta avbryta mig hela tiden? Resan avbröts på grund av stormen
+6e9e23a2-7b70-4254-b046-bce98f7f9f98 [example 3]: Har du reparerat cykeln än? Teknikern reparerar tvättmaskinen
+6e9e23a2-7b70-4254-b046-bce98f7f9f98 [example 7]: Kan du reparera min laddare? Vi skickade bilen till verkstaden för att repareras
+17e8a2d8-5b76-45f5-beb8-9607cb8b4205 [example 1]: Kan du laga lampan? Hon lagade sin trasiga väska
+17e8a2d8-5b76-45f5-beb8-9607cb8b4205 [example 6]: Kan du laga den? Bilen är sönder – den måste lagas
+eeee4ea7-c518-42e5-9333-cc7b03ffb41e [example 0]: Jag kan fixa det! Har du fixat lampan än? Vi måste fixa internet hemma
+eeee4ea7-c518-42e5-9333-cc7b03ffb41e [example 2]: Kan du fixa lite kaffe till mötet? Hon fixade biljetterna till konserten
+eeee4ea7-c518-42e5-9333-cc7b03ffb41e [example 10]: Fixa det snabbt, snälla! Jag fixar middag i kväll.
+d48e473d-4790-43d6-a712-713f5be344c2 [example 2]: Kan du ordna böckerna efter storlek? De ordnade en konferens för 200 deltagare
+976bc671-3b6f-4f98-8006-c4ba1e4fea2e [example 6]: Varför svettas du så mycket? De svettas i bastun
+976bc671-3b6f-4f98-8006-c4ba1e4fea2e [example 7]: Jag svettades som en gris! Han svettas alltid när han ljuger
+976bc671-3b6f-4f98-8006-c4ba1e4fea2e [example 10]: Jag orkar inte mer, jag svettas för mycket! Du kommer att svettas om du tar på dig det där
+115e3bcc-e487-44a3-bdaa-58203aed8c77 [example 2]: Har du checkat in online redan? Vi checkade in på hotellet vid 15-tiden
+115e3bcc-e487-44a3-bdaa-58203aed8c77 [example 8]: När kan man checka in på flygplatsen? Resenärerna checkade in snabbt och gick till säkerhetskontrollen
+115e3bcc-e487-44a3-bdaa-58203aed8c77 [example 11]: Har ni checkat in er resväska? Vi måste checka in innan klockan 22
+9cef3645-1ae1-42aa-bff8-4e4b7180331a [example 2]: Har ni redan checkat ut? Vi checkade ut från hotellet i morse
+9cef3645-1ae1-42aa-bff8-4e4b7180331a [example 4]: Glöm inte att checka ut innan ni åker! Vi checkade ut och gick till stationen
+9cef3645-1ae1-42aa-bff8-4e4b7180331a [example 6]: När ska vi checka ut? Har du checkat ut rummet än? Vi checkade ut efter frukost.
+24063f2c-7d84-417e-be1f-c95262ddbe0f [example 3]: Har du lagat mat i dag? Mamma lagar mat till hela familjen
+24063f2c-7d84-417e-be1f-c95262ddbe0f [example 4]: Vem ska laga mat i kväll? Jag har lagat mat hela eftermiddagen
+db5bf18f-2873-4e09-8ad2-ececcd98cb83 [example 1]: Kan du steka köttet medan jag kokar pastan? Jag steker ägg till frukosten varje morgon
+279c719e-9b5c-4c15-8019-5d0640fac197 [example 2]: Kan du klippa ut artikeln till mig? Jag klippte av en bit snöre
+ee135fae-960f-43dc-99d3-9c95101a3266 [example 0]: Kan du skära brödet i skivor? Jag skar mig på ett papper
+9fa996be-4a30-4571-a2bd-272f9277b30a [example 3]: Vem diskade efter festen? Har du redan diskat? Vi har inte diskat på två dagar! Jag föredrar att diska för hand istället för att använda diskmaskin
+fe2a1b89-af75-4165-ae39-9b3474f172cf [example 2]: Vi älskade den filmen! Han älskar sina barn mer än allt
+d54917a8-fd11-4f02-9fd0-fe06b9612685 [example 6]: Den här produkten säljer som smör! Jag sålde mina aktier när priset var högt.
+7b1a7ead-2670-4e49-b041-0d14eeb4ec62 [example 6]: Jackan sitter perfekt på dig! Bilen satt fast i snön
+f84651ec-4885-4f43-bd45-61c078823ed8 [example 1]: Stå stilla, så jag kan ta ett foto! Det står i brevet att du ska komma kl
+60677154-c0f1-408d-b4a5-5e5d4000b43e [example 5]: Är det svårt att hyra ut en lägenhet i Stockholm? De hyrde ut sitt hus till turister förra sommaren
+60677154-c0f1-408d-b4a5-5e5d4000b43e [example 6]: Kan jag hyra ut rummet utan tillstånd från hyresvärden? Om du hyr ut bostaden måste du betala skatt på inkomsten.
+0a9661ec-42e5-4258-93f1-ffdeae3f9b6b [example 1]: Var bor du? Vi bor på hotell den här veckan
+808ffdd5-0c4b-4047-95de-df5c131b7310 [example 2]: Hur länge har du levt här? Hon lever för musiken
+78d72bd1-477b-49b1-88f3-bbf3156f7924 [example 2]: Varför dör blommorna i krukan? Min farfar dog för tio år sedan
+78d72bd1-477b-49b1-88f3-bbf3156f7924 [example 4]: Har han dött av sjukdomen? Fisken har dött i akvariet
+3a9d0a95-a450-47f4-bc5d-89a33ac97852 [example 0]: Vem tar hand om familjen ekonomiskt? Hon tar hand om sin sjuka mamma
+3a9d0a95-a450-47f4-bc5d-89a33ac97852 [example 1]: Kan du ta hand om barnen i kväll? Vi måste ta hand om vår planet
+3a9d0a95-a450-47f4-bc5d-89a33ac97852 [example 4]: Kan du ta hand om mina växter medan jag är på semester? Föräldrar tar hand om sina barn med kärlek
+3d875be8-d192-4856-aa66-c2fc2d704f2e [example 5]: Sköt dig! Vem sköter bokföringen här? Läkaren skötte patienten noggrant
+c138f089-f454-4be2-94d8-c76c3cffd083 [example 6]: Hur kan vi bäst bevara informationen för framtiden? Museet vill bevara stadens historia
+bd23a55f-856d-4c66-b8d8-96623b93a50d [example 5]: Må du få en fin dag! Må lyckan alltid vara med dig! Jag mår bättre nu.
+46bf8699-facf-430d-a244-ba55a0a3d7eb [example 1]: Vet du om man kan parkera här? Vet du hur mycket klockan är? Vet du var Hötorget ligger?
+caaac56a-e580-4728-8bb1-5953c219c0c6 [example 3]: Kan man förlänga visumet online? Hon förlängde semestern med en vecka
+7fc4361d-ac3f-4d8b-aedb-6d87f1220ff9 [example 3]: Vem ska dela ut priset i år? Hon delade ut mat till de hemlösa
+7fc4361d-ac3f-4d8b-aedb-6d87f1220ff9 [example 8]: Kan du dela ut det här till gruppen? De delade ut presenter till barnen på julfesten.
+4b3cfe91-91c3-41c2-a3db-9a8a724344d6 [example 2]: Var förvarar ni era pass? Medicinen ska förvaras torrt och svalt
+4b3cfe91-91c3-41c2-a3db-9a8a724344d6 [example 6]: Kan jag förvara cykeln hos dig ett tag? Alla verktyg förvaras i garaget
+628c3209-6269-4d95-8d19-8809c99f474e [example 1]: Varför gråter du? Hon grät när hon hörde de dåliga nyheterna
+628c3209-6269-4d95-8d19-8809c99f474e [example 3]: Har du någonsin gråtit under en film? Vi har gråtit tillsammans över våra problem
+628c3209-6269-4d95-8d19-8809c99f474e [example 6]: När grät du senast? Hon har gråtit hela natten.
+5ebe52a2-20e3-462b-9c65-8684bb3a371a [example 3]: Kan du väga frukten åt mig? Det här paketet väger för mycket
+5ebe52a2-20e3-462b-9c65-8684bb3a371a [example 6]: Hur mycket väger en liter vatten? Idrottarna måste väga in före matchen.
+46aa45b4-920d-44f2-9304-28d5f5d53159 [example 1]: Hur mycket kostar den här boken? Det kostade mycket pengar att renovera huset
+13ba41b9-e9d3-4fa9-b283-52d7cb7befb2 [example 3]: Kan du erbjuda mig en bättre lösning? De erbjuder 10% rabatt till studenter
+af099f1d-4641-466a-b100-dbcfb7a3184f [example 6]: Varför klagar du alltid på maten? Klagade hon över huvudvärk igår? Jag försöker att inte klaga, men det är svårt ibland
+79592019-6387-4707-aa3d-4fbdf6dd2c8a [example 5]: Kan du stanna bilen här? Han stannade kvar efter lektionen
+79592019-6387-4707-aa3d-4fbdf6dd2c8a [example 8]: Stanna där du är! Utvecklingen stannade av på grund av krisen.
+b07368ad-95e9-4dbe-ae6e-d5007fff3525 [example 0]: Vad händer här? Det händer något konstigt i staden
+b07368ad-95e9-4dbe-ae6e-d5007fff3525 [example 1]: Vad hände igår? Det hände en olycka på motorvägen
+b07368ad-95e9-4dbe-ae6e-d5007fff3525 [example 2]: Har det hänt något nytt? Det har aldrig hänt förut
+b07368ad-95e9-4dbe-ae6e-d5007fff3525 [example 5]: Vet du vad som händer i skolan idag? Det hände mycket under semestern
+ca697152-6837-4a5e-b181-e168dd5055e1 [example 4]: Vad kommer att hända nu? Kriget kom som en chock
+80dfb940-06d2-41a7-beeb-967e3eb1df42 [example 1]: Vad kallar man det här på svenska? De kallade honom till mötet
+05147a48-1510-47c9-a343-7fb8edf394cf [example 5]: Vem får viga par i Sverige? De blev vigde under en borgerlig ceremoni
+726df336-9b20-4546-8c1a-4b1a720da11f [example 3]: Hur firar man midsommar i Sverige? De firar sitt bröllop i Italien
+a49e9668-47d0-48db-b94f-9b377ef69eaa [example 5]: Har du någonsin klättrat över ett staket? Det är svårt att klättra över höga hinder utan hjälp.
+ddab2115-1eba-47ad-a1b6-7ccb6768b984 [example 2]: Vem uppfann hjulet? De har uppfunnit en ny typ av batteri
+bf64a670-f07e-4f40-85df-501664ad774d [example 2]: Vem påstår något sådant? De påstod att det var ett misstag
+8dd67492-c719-4f80-85f3-9cdf9303d301 [example 2]: Vem grundade staden Rom enligt legenden? Hon vill grunda en ideell organisation
+5cd513be-414d-4bc9-9829-da0f5381e65d [example 5]: Vi kräver förändring! Kunden krävde pengarna tillbaka
+9aa124b9-4a1f-4896-822f-31d5b78e1682 [example 6]: Du får inte riva ut sidor ur böckerna! Vi måste riva ut mattan innan vi lägger nytt golv
+33d0aa2f-379e-424d-8b28-178cc320cf85 [example 3]: Kan jag be dig om en tjänst? De bad om ursäkt för förseningen
+04403ffd-7d55-4ab1-9d34-a1de64ce6c0f [example 2]: Kan du koppla in högtalarna? De kopplade datorn till projektorn
+105500d9-be70-4651-a415-a207a7e85bc4 [example 3]: Slå inte din lillebror! Hjärtat slår snabbare när man springer.
+77ea76c9-91e1-4611-a049-7f326fe00819 [example 4]: Kan du lova att inte säga något? Vi lovar bra service
+843b5885-a07f-4c9b-9631-f56719ea11b9 [example 0]: Kan du ge mig boken? Jag ger henne en present på födelsedagen
+7aa6876f-28cd-4367-8a77-1a13cb3d4e7c [example 3]: Hoppas att allt går bra med flytten! Jag har hoppats på det här länge
+7aa6876f-28cd-4367-8a77-1a13cb3d4e7c [example 6]: Hoppas du kommer snart! Vi hoppades på en vinst, men vi förlorade
+e455ce2d-741d-4239-bbf9-6dfac91398d3 [example 4]: Glöm inte att andas när du är stressad! Hon stod stilla och andades tungt
+ca47cd24-56c1-4ce8-b7bd-c3924026fd35 [example 3]: Har du lyckats hitta nycklarna? Tyvärr lyckades vi inte denna gång
+ca47cd24-56c1-4ce8-b7bd-c3924026fd35 [example 7]: Hur lyckas man egentligen i livet? Hon lyckades hålla sig lugn under intervjun.
+c5835c1d-6508-488e-80ff-31096a41edb5 [example 1]: Finns det några frågor? Det fanns en gång en liten pojke..
+d3dcb605-6189-4b00-a275-828aa9e57b52 [example 4]: Sluta låtsas att du inte förstår! Vi låtsades att vi var på semester
+51311815-4305-4130-becc-1918b7006c8b [example 1]: Kan du duka till middagen, snälla?  Barnen hjälpte till att duka
+cd2b8873-c6a2-4175-a609-3a6b38801cf9 [example 10]: Kan du hjälpa mig att duka upp till födelsedagen? De dukade upp all mat på köksön.
+270e2a49-1ba2-4d29-954b-52f28dff98b8 [example 4]: Har du sytt något själv någon gång? Vi behöver en symaskin för att sy snabbare
+270e2a49-1ba2-4d29-954b-52f28dff98b8 [example 7]: Har du en symaskin hemma? Det är svårt att sy utan rätt verktyg
+fe8ab44c-623a-4e2b-b7cb-782dfa9fd89d [example 6]: Strö inte för mycket salt! Han strör pengar omkring sig
+61c3e650-203f-4431-83bc-9e9c699a4331 [example 3]: Förstår du den här texten? Jag förstod inte frågan, kan du förklara? Jag förstår hur du känner dig
+48811bbf-0958-48d4-a295-cc9b14c87308 [example 3]: Har du redan packat dina kläder för helgen? Barnen håller på att packa sina ryggsäckar för skolan
+48811bbf-0958-48d4-a295-cc9b14c87308 [example 6]: Glöm inte att packa tandborste och tandkräm! Jag har redan packat allt, vi kan åka nu
+53536e69-74de-4aea-a6c2-18b04dd0b4c6 [example 3]: Jag har bråttom, vi ses senare! Hon hade bråttom till tåget
+271ca631-0166-4347-92f9-67c29f713318 [example 1]: Kan vi byta platser? Vi bytte julklappar på julafton
+047b42d5-8b34-4e84-af97-8bf5bc0f8ef7 [example 1]: Kan du ändra texten lite? Hon ändrade sin åsikt efter diskussionen
+047b42d5-8b34-4e84-af97-8bf5bc0f8ef7 [example 5]: Kan man ändra inställningarna i appen? Ingenting kan ändra det som har hänt
+10c0bdb8-d898-4a0a-9880-4319c835828f [example 0]: Hur kan vi påverka människors beteende positivt? Lärarens ord påverkade henne djupt
+d497b9f5-d298-4928-b795-f0949f87aa6b [example 3]: Har du bokat hotell för semestern? Vi behöver boka biljetter till konserten
+4058c728-2b4c-485f-b211-34c609459e33 [example 4]: Vill du följa med och fiska imorgon? De fiskade med nät nära kusten
+2b733718-bdbe-4183-a965-d8e5d77a3806 [example 5]: Har ni förbättrat produkten sedan förra året? Hon vill alltid förbättra sig själv
+9f7c3ebc-9d52-454a-b8cf-86c31c614137 [example 5]: Har du utvecklat några nya idéer? Barn utvecklar sina sociala färdigheter genom lek
+7ec564cd-aa0d-4846-8372-98a012744282 [example 3]: Kan jag få ta del av mötesanteckningarna? Det är viktigt att ta del av villkoren innan du skriver under avtalet.
+3d56b47d-5e70-4e43-bafb-4b8153ab05e0 [example 5]: Varför avvisade de ditt förslag? Han avvisade inbjudan eftersom han inte kunde delta
+48286b44-3ee4-472f-9fbc-afca381b7c48 [example 4]: Trivs du i din nya skola? Barnen trivdes på lekplatsen hela dagen
+48286b44-3ee4-472f-9fbc-afca381b7c48 [example 8]: Vi hoppas att du trivs hos oss! Jag trivs med mina kollegor
+fd44c609-acf6-4e6d-b69c-dbb8fd2de4ae [example 2]: Glöm inte att vädra efter att du har målat rummet! Hon vädrade ut den instängda lukten från köket
+8b7cb166-a9d9-4d94-b1df-93cb9de08bcd [example 5]: Hur kan man undvika trafikstockningar? Han har alltid undvikit att ta ansvar
+af0d6ef1-60bb-4849-8290-1cf86d1a2dad [example 1]: Hur länge ska man rimma kött? Han har rimmat en stor skinka till julen
+af0d6ef1-60bb-4849-8290-1cf86d1a2dad [example 6]: Har du rimmat köttet tillräckligt? Rimmat kött blir oftast saftigare och smakrikare.
+2d84625a-4e4d-4a6f-9116-68927f60724f [example 3]: Föredrar du hundar eller katter? Han föredrar att arbeta ensam
+29b5d420-6ce7-4248-9518-bca21cb79194 [example 2]: Har du någonsin överlevt en farlig situation? Om vi arbetar tillsammans, kommer vi att överleva krisen
+29b5d420-6ce7-4248-9518-bca21cb79194 [example 4]: Hur kan djuren överleva i öknen? Vi måste överleva den ekonomiska krisen
+29b5d420-6ce7-4248-9518-bca21cb79194 [example 11]: Hur kan en människa överleva utan vatten i flera dagar? Många företag överlevde inte pandemin
+4e6b017d-c35f-411d-9655-cb5d42443b5f [example 1]: Varför är du borta från mötet? Min plånbok är borta! Han var borta hela dagen
+15a2ea79-7f6c-463e-88ff-2e1b25ecd473 [example 4]: Kan du bara sitta still och njuta av tystnaden? Han njuter av att läsa böcker på kvällarna
+91193567-f4b3-4649-ba24-1dba29fd005a [example 1]: Kan jag övernatta hos dig i natt? De övernattade i tält vid sjön
+321051ad-817a-46e7-9982-a3d19af76b40 [example 6]: Vad gäller din ansökan? Det gällde att vara snabb för att hinna med tåget
+d5094257-6e88-40cd-b313-9b33b7cbb3fc [example 3]: Har du någonsin tältat på vintern? Vi har tältat många gånger i norra Sverige
+f1ebd64f-3fa5-4541-a0a2-449e0e1fd401 [example 5]: Såga inte för snabbt, annars fastnar bladet! De använde en motorsåg för att såga ner trädet
+c7092531-a5aa-441d-8952-143aa950dfff [example 1]: Det var så gott! Jag är så trött idag
+c7092531-a5aa-441d-8952-143aa950dfff [example 4]: Så, vad ska vi göra nu? Så gör du pannkakor: blanda, stek, ät
+1c2b2e68-ec69-4c5e-b79d-21b1f5409959 [example 0]: Det är jättedyrt här! Det här är jätteroligt! Hon är jättetrött efter jobbet
+bc83b933-5227-42cb-940d-549b836bcc28 [example 0]: Det är otroligt kallt ute! Det var otroligt gott! Hon är otroligt snäll
+4909b3bb-79b9-4f56-a7d8-0ef27812a040 [example 0]: Det var fantastiskt roligt att träffa dig! Det var fantastiskt att träffa er igen! Hon är en fantastisk person
+4909b3bb-79b9-4f56-a7d8-0ef27812a040 [example 4]: Du gjorde ett fantastiskt jobb!  Jag mår fantastiskt bra idag
+4909b3bb-79b9-4f56-a7d8-0ef27812a040 [example 6]: Tack, det vore fantastiskt snällt av dig! Det låter helt fantastiskt!
+527a7599-218f-46f1-b86a-d49ca08d6098 [example 1]: Det var vansinnigt roligt igår! Jag är vansinnigt trött efter jobbet
+527a7599-218f-46f1-b86a-d49ca08d6098 [example 8]: Det är vansinnigt kallt ute! Vi hade vansinnigt kul på resan.
+9aeef555-6a16-40ff-bbb0-c9f42098de10 [example 0]: Äntligen kom bussen! Äntligen är det helg! Vi har äntligen flyttat in i nya huset
+9aeef555-6a16-40ff-bbb0-c9f42098de10 [example 6]: Äntligen är det sommarvärme! Vi har väntat i timmar – och nu äntligen händer det
+5cb7564b-d673-4985-a570-321368701dfe [example 7]: Varför är du alltid så glad? De har alltid tid för sina vänner
+68f2f957-6631-4c7d-8d8f-dea452dcf0f1 [example 1]: Hur ofta besöker du dina föräldrar? De går ofta på bio tillsammans
+68f2f957-6631-4c7d-8d8f-dea452dcf0f1 [example 4]: Hur ofta tränar du? Besöker du ofta biblioteket? Hur ofta äter ni ute? Hon dricker ofta kaffe på morgonen
+c5ac42b4-35c7-4bf6-a54a-99df6f0f580c [example 0]: Det är faktiskt sant! Faktiskt, jag har aldrig varit där
+bf47ea81-47e5-41bb-9fb3-2abf307c0d27 [example 3]: Är det här egentligen rätt beslut? Varför säger hon så, egentligen? Egentligen är det inte mitt ansvar
+bf47ea81-47e5-41bb-9fb3-2abf307c0d27 [example 4]: Vad vill du egentligen? Det är egentligen inte så viktigt
+30678d4e-5d26-472c-b249-c550703e7a59 [example 2]: Är du verkligen säker på det? Det var verkligen roligt att träffa dig igen! Jag förstår verkligen inte vad som hände
+a33afead-619c-4fb7-a895-94f5ff9fcad8 [example 0]: Det var riktigt gott! Jag känner mig riktigt trött idag
+2bd4bbe2-3513-4973-9448-9eeabd5d1951 [example 3]: Kommer du imorgon? Ja, definitivt! Jag har definitivt bestämt mig för att flytta.
+4749a0c5-fca1-4ff3-8083-725446c07f08 [example 0]: Såklart jag kommer till festen! Du får såklart låna min cykel
+4749a0c5-fca1-4ff3-8083-725446c07f08 [example 5]: De sa ja – såklart! Det är såklart du som bestämmer
+3d7dbf88-ec03-43bb-a91e-8d24d761e8ac [example 0]: – Kommer du på festen? – Ja, absolut! Det är absolut förbjudet att röka här
+009574a8-78a9-4b34-9f5f-843819cb9e53 [example 0]: Vad synd att du inte kunde följa med! Det är synd att det regnar idag
+70b29452-6000-43fd-a73d-8a163baf7da0 [example 5]: Hur länge har du bott här sen du flyttade? Vi kan gå ut och äta sen
+20f0fb1f-de3d-4293-9657-d6f00f0607c0 [example 0]: Du vet att vi ska åka tidigt i morgon, eller hur? Du vet att vi måste vara där klockan nio
+20f0fb1f-de3d-4293-9657-d6f00f0607c0 [example 1]: Du vet att jag inte gillar kaffe, eller hur? Du vet att han alltid kommer sent
+efb2ba8b-4048-40f4-bc0f-cac20a109740 [example 0]: Vet du att de har köpt en ny bil? Vet du att jag fick jobbet? Vet du att tåget är försenat? Vet du att det ska snöa imorgon? Vet du att han bor i Malmö nu? Vet du att Sverige har över 200 000 öar? Vet du att hon är läkare? Vet du att filmen är baserad på en sann historia? Vet du att de ska skilja sig? Vet du att vi har prov imorgon? Vet du att jag älskar dig?
+9052ede9-c550-4f9e-ae80-4cee0335c64a [example 7]: – Men då, varför frågade hon om tid och plats? Men då förstår jag inte varför du inte sa något tidigare
+9052ede9-c550-4f9e-ae80-4cee0335c64a [example 11]: Men då, vad är poängen med att fortsätta? Det är sent, men då kan vi ta bussen istället för att gå
+9052ede9-c550-4f9e-ae80-4cee0335c64a [example 13]: Men då, hur ska hon veta tiden? Men då, varför är du fortfarande här? Men då, låt oss börja om från början.
+deacd726-780f-40f5-869a-de685e0bcde2 [example 2]: Om det är så, varför berättade du inte tidigare? Jag vet inte om det är sant, men om det är så, är det allvarligt
+00ef7c8b-83d3-4bae-a40f-885a65decff0 [example 2]: Är det redan kväll? Han har redan gått hem
+00ef7c8b-83d3-4bae-a40f-885a65decff0 [example 4]: Är du redan tillbaka? Barnen har redan börjat äta
+00ef7c8b-83d3-4bae-a40f-885a65decff0 [example 5]: Det är redan december! Har du redan köpt biljetter? Redan nu kan vi börja planera
+3e543c59-d922-4839-8ed2-708c4120b970 [example 2]: Vi ses efter jobbet! Efter filmen gick vi hem
+84a9160f-cfaa-4bbf-928b-573aeba65348 [example 1]: Förresten, vad ska vi göra på lördag? Jag glömde säga det, men förresten, tack för hjälpen! Förresten, jag såg din bror i stan igår
+163b2da5-eae9-4f5a-81b4-20f51aae2cce [example 3]: Vill du följa med på bio? – Gärna! Jag läser gärna en bok på kvällen
+af859585-69d0-4c91-a32b-085b38682a5b [example 7]: Hur länge har ni känt varandra? De skickar presenter till varandra på julen
+2c1ddd8b-aa8e-426d-86bc-29824656aafa [example 2]: Kan jag också få en kopp kaffe? Vi var där igår, och hon vill gå dit också
+2c1ddd8b-aa8e-426d-86bc-29824656aafa [example 10]: Jag älskar glass! Jag också! Det är svårt, men också det är en lärdom.
+0c426f9a-1c27-4e67-9351-807ae11e053a [example 4]: Har ni någonsin rest tillsammans? Tillsammans kan vi åstadkomma mycket
+c972a9d8-06c1-4b59-b027-f84aa843316a [example 5]: Är de fortfarande ihop? De blev ihop förra sommaren
+c972a9d8-06c1-4b59-b027-f84aa843316a [example 7]: Kan vi slå våra idéer ihop för att hitta en lösning?  Hon och hennes partner har varit ihop i fem år
+d540f35b-ec94-4fc9-9d9a-f8b3aed92069 [example 2]: Vill du ha hjälp? Självklart! Självklart ska vi göra vårt bästa
+d540f35b-ec94-4fc9-9d9a-f8b3aed92069 [example 5]: Ska vi ta en paus nu? Självklart! Det är självklart viktigt att lyssna på barnens åsikter
+cea12882-8160-4e25-9cc9-f08352828c84 [example 1]: Är det verkligen nödvändigt? Det är nödvändigt att du kommer i tid till mötet
+cea12882-8160-4e25-9cc9-f08352828c84 [example 2]: Är det verkligen nödvändigt att köpa en ny dator nu? Han gjorde allt som var nödvändigt för att lösa problemet
+d3112e2e-3c2d-4029-9b10-9eacd4322e39 [example 5]: Du vet ändå vad jag menar, eller hur? Jag vet att du inte gillar det, men prova ändå
+da1650d5-ca03-48cc-98c4-e9fae5847f88 [example 8]: Därför att jag vill! Vi kan inte komma därför att vi är bortresta
+4952a5d2-b130-4b9e-971f-2f0cb841fe41 [example 3]: Kan du göra det utan att fråga? Han reste till Europa utan pass
+80a08635-94d0-473d-a330-dce05b44c048 [example 2]: Jag har samma tröja som du! Vi tänker på samma sak
+80a08635-94d0-473d-a330-dce05b44c048 [example 7]: Samma här! Det låter som samma melodi
+9b9ef339-f25f-4af2-856d-4502371f9b56 [example 1]: Det är ju kallt ute, ta på dig en jacka! Han är ju alltid sen, det är inget nytt
+9b9ef339-f25f-4af2-856d-4502371f9b56 [example 2]: Det blir ju roligt att träffa dem igen! Du vet ju hur mycket jag gillar kaffe
+9b9ef339-f25f-4af2-856d-4502371f9b56 [example 6]: Det här är ju precis vad jag letade efter! Han visste ju inte vad som hade hänt
+b1a7bab7-8b59-4a5d-94ec-b18d40a36f50 [example 6]: Ska jag köpa extra mat ifall vi får gäster? Har du pengar med dig ifall vi behöver köpa något?
+226e8524-33e6-4479-a8fc-fa28231cb57a [example 1]: Start omgående! Vi behöver ditt svar omgående
+226e8524-33e6-4479-a8fc-fa28231cb57a [example 9]: Kan du omgående informera mig om förändringen? De ombads att lämna lokalen omgående
+54c0f9ca-fb6f-45e1-8eeb-438ee86cef68 [example 0]: Kom genast!  Ring polisen genast! Hon svarade genast på mejlet
+f0c839b8-5bd9-42ff-8b5c-a34b53153b02 [example 1]: Ring ambulansen omedelbart! Patienten fick hjälp omedelbart
+50c973cb-2ee0-4c83-83f3-5bed704c5ded [example 1]: Kan du komma hit direkt? Hon svarade direkt på frågan
+0027a6f1-a069-4104-b1d9-c2197eea508e [example 6]: Sover barnet fortfarande? Vi väntar fortfarande på bussen
+0027a6f1-a069-4104-b1d9-c2197eea508e [example 8]: Är du fortfarande intresserad? Boken är fortfarande populär.
+42d865b2-b59a-4f63-a5aa-8a264ae93b87 [example 0]: Kan du säga det igen? Jag måste läsa boken igen för att förstå allt
+b23ca75b-1936-4a93-8f33-44992aed0d4a [example 0]: Det är vackert väder idag, eller hur? Du kommer på festen imorgon, eller hur? Det var en fantastisk film, eller hur? Vi borde gå hem nu
+9945768b-a048-4d39-8038-c63e3e02093e [example 0]: Du kommer inte från Sverige, va? Det är dyrt här, va? Du gillar choklad, va? Han är din bror, va? Vi ses imorgon, va? Du har inte sett den filmen, va? Det här är en bra idé, va? Hon sa ingenting om det, va? Vi går till stranden idag, va? Du kommer ihåg vad vi bestämde, va? Det blir kul på festen ikväll, va?
+229db818-2c0d-4ad3-a97b-b25d545a939f [example 0]: Du tycker om kaffe, visst?  Det är kallt idag, visst? Du gillar kaffe, visst? Vi ses imorgon, visst? Det här är svårt, visst? Hon bor fortfarande här, visst? Han sa något konstigt, visst? Du har varit där förut, visst? Det var ett misstag, visst? Du tycker om musik, visst? Vi är klara nu, visst?
+bba47ed2-e8b5-4654-bafd-d3310a6e165b [example 0]: Han är bäst, är det inte så? Du vill bo kvar här, är det inte så? Alla behöver kärlek, är det inte så? Vi måste tänka på miljön, är det inte så? Du har träffat honom förut, är det inte så? Det var en bra idé, är det inte så? Han bor i Stockholm, är det inte så? Det är svårt att förstå allt i början, är det inte så? Du gillar musik, är det inte så? Det är samma för dig, är det inte så? Man blir trött av för lite sömn, är det inte så?
+434b49c5-0110-49d3-9de0-bb873efbc0b9 [example 3]: Kan jag fråga en sak till? En sak till, det blir kallare i kväll
+434b49c5-0110-49d3-9de0-bb873efbc0b9 [example 5]: Och en sak till – lycka till imorgon! Det är bra, men en sak till vore bättre
+9e2b21a9-097c-432d-9bed-34475a154fa1 [example 0]: Kan du ringa mig så snart som möjligt? Vänligen skicka dokumenten så snart som möjligt
+9e2b21a9-097c-432d-9bed-34475a154fa1 [example 3]: Kom hit så snart som möjligt! Jag ska kontakta dig så snart som möjligt
+9e2b21a9-097c-432d-9bed-34475a154fa1 [example 5]: Kan du fixa det så snart som möjligt? Han vill träffa dig så snart som möjligt
+f6ee656a-8233-427f-8d14-5d65e4fb856f [example 2]: Får jag gå nu? Får jag sitta här? Får vi parkera här? Barnen får inte leka på vägen
+f6ee656a-8233-427f-8d14-5d65e4fb856f [example 3]: Får man använda mobilen under lektionen? Du får gå hem nu
+8f3d62cd-1145-426b-86f0-e726a8dfafe3 [example 4]: Behöver du hjälp med läxan? Han behöver vila efter operationen
+8f3d62cd-1145-426b-86f0-e726a8dfafe3 [example 8]: Behöver vi verkligen det här? Jag behöver tänka lite.
+f9e7fd1a-a75d-47aa-ba20-3e71aa1408de [example 5]: Bör jag oroa mig? Det bör inte vara något problem
+e2c91122-9d18-4d81-84f2-e6b295e40326 [example 2]: Vill du följa med till stan? Vi vill köpa ett hus på landet
+e2c91122-9d18-4d81-84f2-e6b295e40326 [example 6]: Vad vill du bli när du blir stor? Barnen vill leka i parken
+631617de-9c97-4045-bcab-5a63ba0d8c6a [example 1]: Kan du öppna fönstret? Hon kan spela piano
+631617de-9c97-4045-bcab-5a63ba0d8c6a [example 4]: Kan man parkera här? Barnet kan räkna till tio
+fe29019e-9103-4cf1-849d-30db9067fca7 [example 2]: Vi kommer att sakna dig! Hon kommer att klara testet
+fe29019e-9103-4cf1-849d-30db9067fca7 [example 3]: Kommer du att komma i tid? De kommer att älska presenten
+fe29019e-9103-4cf1-849d-30db9067fca7 [example 7]: Kommer det att regna i kväll? Du kommer att klara det! Hon kommer att bli glad
+519813e8-89a9-443e-b7ac-04f684ec3e62 [example 3]: Vad ska ni göra i sommar? Vi ska flytta nästa månad
+519813e8-89a9-443e-b7ac-04f684ec3e62 [example 5]: Du ska inte glömma nycklarna! Ska vi ses ikväll? De ska åka till Norge i helgen
+dd74febf-e79d-4f64-979d-57a7a6c0564d [example 0]: Kan du inte hjälpa mig med en sak? Skulle jag inte kunna åka hem nu? Vill du inte ses på Espresso House på söndag? Skulle ni inte vilja komma hem till oss nästa vecka? Kan vi inte ta det lite lugnare ikväll? Skulle jag inte kunna få betala nu?
+eb3e776d-b04d-42ce-b2fc-fa998a07cff5 [example 0]: Kan jag komma lite senare, om det är okej? Om det är okej för dig, skulle jag vilja låna din bok
+eb3e776d-b04d-42ce-b2fc-fa998a07cff5 [example 2]: Om det är okej, kan vi ta en paus nu? Jag kan sitta här, om det är okej för er
+eb3e776d-b04d-42ce-b2fc-fa998a07cff5 [example 3]: Får jag fråga något personligt, om det är okej? Om det är okej för dig, skulle jag vilja ringa senare
+eb3e776d-b04d-42ce-b2fc-fa998a07cff5 [example 5]: Om det är okej, kan jag ta en ledig dag nästa vecka? Kan vi ändra planerna lite, om det är okej med dig?
+dc3b6d2c-ff34-4b0a-8d7b-15d5dfd36870 [example 3]: Kan jag komma förbi i kväll, om det går bra? Om det går bra, kan vi börja nu
+f065c5f1-74e8-4588-9185-30d97d77fabd [example 8]: Kan vi äta tillsammans i kväll, om det funkar? Jag skickar filerna senare, om det funkar
+e4effb84-65bc-44e5-b333-584f305f7011 [example 3]: Brukar ni ofta bo i er sommarstuga? Jag brukade gå till gymmet varje dag
+a6719480-3afb-4291-bf05-8d2153ba0054 [example 0]: Är det någon som vill följa med? Jag hörde någon i rummet
+a6719480-3afb-4291-bf05-8d2153ba0054 [example 1]: Har du något att äta? Vill du ha något att dricka? Någon ringde när du var ute
+a6719480-3afb-4291-bf05-8d2153ba0054 [example 2]: Vet du något om filmen? Jag känner inte någon där
+a6719480-3afb-4291-bf05-8d2153ba0054 [example 4]: Vill du köpa något annat? Jag har något viktigt att säga.
+00fc3aad-58bc-41b8-a702-b66216e64d1f [example 3]: Har du några frågor? Finns det några lediga platser? Jag behöver några stycken papper.
+64a876f9-83df-4e3a-baf5-bf0dd5120a21 [example 0]: Prata på! Lärare gillar att elever frågar, så fråga på
+64a876f9-83df-4e3a-baf5-bf0dd5120a21 [example 1]: Du klarar det! Kämpa på! Kör på! Det blir bra
+180a7050-92ea-4fb8-8c08-8761e918102c [example 10]: Hos mig finns alltid kaffe! Var du hos tandläkaren i morse? De sov över hos oss i natt.
+7efde1ea-0b19-44ba-8492-f8885a6854a2 [example 3]: Ska du på kurs nästa månad? Vi ska på fest hos Emma i helgen
+7efde1ea-0b19-44ba-8492-f8885a6854a2 [example 8]: Har du varit på konferens tidigare? Jag ska på intervju i eftermiddag.
+b5a01e8c-19f7-46c9-b5c8-f8c8d0451321 [example 2]: Vilken bärbar dator rekommenderar du för spel? De säljer många bärbara datorer i butiken
+142027de-dc10-4cbc-a992-4f2c856a685c [example 5]: Har du en musmatta också? Jag tappade musen på golvet
+8824d4d8-6db4-48da-bbfa-e5e77a6b2802 [example 4]: Har din dator inbyggda högtalare? Musik spelas genom högtalarna i hela huset
+7a7eaa08-c81f-4132-9b72-6db288ff1f5f [example 5]: Har du ett extra tangentbord? Jag har bytt tangentbordet till ett bättre
+ff393d97-96c1-4b49-b509-c2b1e72d535b [example 2]: Har du hörlurar jag kan låna? Hörlurarna är trådlösa och har bra ljud
+56ad7c02-3285-49df-8e95-9fc7e852ac5a [example 4]: Har du en skrivare som jag kan använda? Den nya skrivaren är väldigt snabb
+52975345-6a64-4693-ab54-d208ea3efe6c [example 0]: Åt du den sista kanelbullen? Din skitstövel! Vilken skitstövel! Han ljög för alla – en riktig skitstövel
+52975345-6a64-4693-ab54-d208ea3efe6c [example 5]: Det var riktigt lågt av honom – vilken skitstövel! Han tog äran för mitt jobb – den skitstöveln! Skitstövlar som honom förtjänar inte respekt
+f68645c8-1469-4bdd-8a03-4b46edbead38 [example 3]: – Dra åt skogen, då! Jag sa åt honom att dra åt skogen efter allt han gjort
+f68645c8-1469-4bdd-8a03-4b46edbead38 [example 4]: Kan du inte bara dra åt skogen och sluta lägga dig i? Hon skrattade och sa: "Haha, dra åt skogen med dina regler!" Vissa människor borde bara dra åt skogen och aldrig komma tillbaka
+f68645c8-1469-4bdd-8a03-4b46edbead38 [example 6]: – Nä, dra åt skogen då! När han föreslog det där dumma fick han höra ett rakt dra åt skogen
+8925c6a3-992a-4f5b-aa52-a66728327167 [example 1]: Kan vi slå upp ett tält här? Tältet är enkelt att sätta upp
+8925c6a3-992a-4f5b-aa52-a66728327167 [example 9]: Hur många personer får plats i tältet? Vi tältade vid en vacker sjö förra sommaren
+7c26d45f-1da7-4ceb-87a7-b2bf8ef33b9c [example 5]: Har du någonsin provat bergsklättring? Bergsklättringen var både utmanande och fantastisk
+af285b52-63c4-48eb-a677-ce962c15e57f [example 3]: Vill du höra en saga innan du somnar? Sagor har ofta ett moraliskt budskap
+af285b52-63c4-48eb-a677-ce962c15e57f [example 5]: Det här låter som en saga, men det är sant! Hon skrev en egen saga till sin dotter
+2027d9fe-ac50-43ac-a7a4-a1fec298a230 [example 1]: – Haha! Nu är det kokta fläsket stekt! Om vi inte skickar in deklarationen idag – nu är det kokta fläsket stekt! – Glömde du radera filerna innan du skickade? – Ja..
+9412f438-c629-4359-98b5-3ec4f13e1c7b [example 0]: Välkomna till vårt bröllop! Välkomna hem! Välkomna till konferensen Välkomna till Stockholm!
+19f464ce-b569-42e1-8b68-52e82c20b376 [example 10]: Vilket subjektspronomen använder man för en person man inte känner? Hen är ett könsneutralt subjektspronomen i svenska
+bf5f3a3c-7f86-44a5-a900-5c90e5309866 [example 1]: Vilken preposition ska jag använda här? Prepositionerna i svenska språket kan vara svåra att lära sig.
+28c093f2-b0be-4a1a-93dc-533be1d04b65 [example 1]: Vilka substantiv är vanliga i svenska? Substantiven kan vara både konkreta och abstrakta
+aebfd29c-a64a-4d56-9fde-4ff4e1724ea5 [example 0]: Kan du säga ett ord på svenska? Han höll sitt ord
+aebfd29c-a64a-4d56-9fde-4ff4e1724ea5 [example 3]: Vad betyder det där ordet? Hon lär sig tio nya ord varje dag
+7c16489c-c04b-433f-8b80-c06b75ebd218 [example 1]: Varför satte du ett frågetecken här? Frågetecknet i meningen är felplacerat
+6f912605-18bf-4d4b-82de-d6194615aebd [example 4]: I sms använder han alltid minst ett utropstecken! Ett utropstecken kan ändra tonen i hela meningen
+faf269ce-d573-41af-b642-46097993083f [example 1]: Hur många alfabet finns det i världen? Barnen lär sig alfabetet i skolan
+faf269ce-d573-41af-b642-46097993083f [example 3]: Kan du säga hela alfabetet utantill? Bokstäverna Å, Ä och Ö finns bara i det svenska alfabetet
