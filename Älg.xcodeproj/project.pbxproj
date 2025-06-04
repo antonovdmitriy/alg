@@ -39,7 +39,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				audio,
-				csv_to_json.py,
 				generate_all_examples.py,
 				generate_all_words.py,
 				generate_tts.py,
