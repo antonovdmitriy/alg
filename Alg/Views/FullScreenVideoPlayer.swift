@@ -1,10 +1,3 @@
-//
-//  FullScreenVideoPlayer.swift
-//  Älg
-//
-//  Created by Dmitrii Antonov on 2025-05-26.
-//
-
 import SwiftUI
 import AVKit
 import AVFoundation

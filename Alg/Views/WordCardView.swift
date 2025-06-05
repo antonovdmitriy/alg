@@ -4,7 +4,7 @@ import CryptoKit
 
 struct WordCardView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = true
+    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = false
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService

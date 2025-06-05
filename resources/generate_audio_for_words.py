@@ -47,16 +47,16 @@ def main(category_filter=None, overwrite=False, single_id=None):
             word_base = entry["id"]
             word = entry["word"]
             phoneme = entry.get("phoneme")
-            version = entry.get("version", 0)
+            version = entry.get("version", -1)
             voice_entries = entry.get("voiceEntries")
 
-            if version > 0 and not voice_entries:
+            if version > -1 and not voice_entries:
                 print(f"⚠️ Ошибка: отсутствуют voiceEntries у слова {word_base}")
                 continue
 
-            voice_id = voice_entries[0] if version > 0 else None
+            voice_id = voice_entries[0] if version > -1 else None
             base_path = Path(AUDIO_DIR_NAME) / category_id
-            if version > 0:
+            if version > -1:
                 base_path = base_path / word_base / str(version) / str(voice_id)
             base_path.mkdir(parents=True, exist_ok=True)
 

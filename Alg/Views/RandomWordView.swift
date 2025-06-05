@@ -27,7 +27,7 @@ struct RandomWordView: View {
         self.learningStateManager = learningStateManager
         self.audioPlayerHelper = audioPlayerHelper
         _currentCategoryId = State(initialValue: UUID())
-        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", version: 0, voiceEntries: nil, forms: [], translations: [:], examples: [], phoneme: nil))
+        _currentEntry = State(initialValue: WordEntry(id: UUID(), word: "", version: -1, voiceEntries: nil, forms: [], translations: [:], examples: [], phoneme: nil))
     }
     
     var body: some View {
@@ -151,7 +151,7 @@ struct RandomWordView: View {
                                 proceedToNextWord()
                             }
                         }
-                        currentEntry = WordEntry(id: UUID(), word: "", version: 0, voiceEntries: nil, forms: [], translations: [:], examples: [], phoneme: nil)
+                        currentEntry = WordEntry(id: UUID(), word: "", version: -1, voiceEntries: nil, forms: [], translations: [:], examples: [], phoneme: nil)
                         currentCategoryId = UUID()
                     }
             }
@@ -252,7 +252,7 @@ struct RandomWordView: View {
         let placeholderEntry = WordEntry(
             id: UUID(),
             word: NSLocalizedString("all_words_completed_title", comment: ""),
-            version: 0,
+            version: -1,
             voiceEntries: nil,
             forms: [],
             translations: ["ru": "Вы прошли все слова", "en": "You've completed all words"],
