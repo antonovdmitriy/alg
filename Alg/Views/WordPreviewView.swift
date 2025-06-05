@@ -16,7 +16,9 @@ struct WordPreviewView: View {
     @State private var isLoading = false
     @EnvironmentObject var visualStyleManager: VisualStyleManager
     @State private var wordTransition = false
-
+    
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    
     var body: some View {
         let useSolidColorBackground = visualStyleManager.useSolidColorBackground
 
@@ -121,23 +123,44 @@ struct WordPreviewView: View {
                     if !word.isEmpty {
                         if (UITraitCollection.current.userInterfaceStyle == .dark) ||
                            (UITraitCollection.current.userInterfaceStyle == .light && !useSolidColorBackground) {
-                            Text(word)
-                                .font(.largeTitle)
-                                .foregroundColor(.white)
-                                .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
-                                .scaleEffect(1.1)
-                                .padding(.horizontal, 24)
-                                .transition(.opacity.combined(with: .scale))
-                                .id(entry.id)
+                            VStack(spacing: 4) {
+                                Text(word)
+                                    .font(.largeTitle)
+                                    .foregroundColor(.white)
+                                    .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
+                                    .scaleEffect(1.1)
+                                    .padding(.horizontal, 24)
+                                    .transition(.opacity.combined(with: .scale))
+                                    .id(entry.id)
+
+                                if let translation = entry.translations[selectedLanguage], !translation.isEmpty {
+                                    Text(translation)
+                                        .font(.system(size: 18, weight: .regular))
+                                        .foregroundColor(.white.opacity(0.7))
+                                        .multilineTextAlignment(.center)
+                                        .padding(.horizontal, 16)
+                                }
+                            }
                         } else {
-                            Text(word)
-                                .font(.system(size: 34, weight: .regular))
-                                .foregroundColor(.primary)
-                                .padding(.horizontal, 16)
-                                .padding(.vertical, 10)
-                                .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
-                                .transition(.opacity.combined(with: .scale))
-                                .id(entry.id)
+                            VStack(spacing: 4) {
+                                Text(word)
+                                    .font(.system(size: 34, weight: .regular))
+                                    .foregroundColor(.primary)
+                                    .padding(.horizontal, 16)
+                                    .padding(.vertical, 10)
+                                    .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
+                                    .transition(.opacity.combined(with: .scale))
+                                    .id(entry.id)
+
+                                if let translation = entry.translations[selectedLanguage], !translation.isEmpty {
+                                    Text(translation)
+                                        .font(.system(size: 18, weight: .regular))
+                                        .foregroundColor(.primary.opacity(0.6))
+                                        .padding(.top, -4)
+                                        .padding(.horizontal, 16)
+                                        .multilineTextAlignment(.center)
+                                }
+                            }
                         }
                     }
                 }
