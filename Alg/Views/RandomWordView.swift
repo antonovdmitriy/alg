@@ -75,8 +75,11 @@ struct RandomWordView: View {
                         VStack(spacing: 16) {
                             Button(action: {
                                 if !learningStateManager.isKnown(currentEntry.id) {
-                                    learningStateManager.markKnown(currentEntry.id)
+                                    learningStateManager.toggleKnown(currentEntry.id)
                                     feedbackMessage = NSLocalizedString("marked_as_known", comment: "")
+                                } else {
+                                    learningStateManager.toggleKnown(currentEntry.id)
+                                    feedbackMessage = NSLocalizedString("unmarked_as_known", comment: "")
                                 }
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
@@ -84,18 +87,21 @@ struct RandomWordView: View {
                                     showNextWord()
                                 }
                             }) {
-                                Image(systemName: "checkmark")
+                                Image(systemName: learningStateManager.isKnown(currentEntry.id) ? "checkmark.circle.fill" : "checkmark.circle")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
                                     .foregroundColor(.primary)
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
-                            
+
                             Button(action: {
                                 if !learningStateManager.isIgnored(currentEntry.id) {
-                                    learningStateManager.markIgnored(currentEntry.id)
+                                    learningStateManager.toggleIgnored(currentEntry.id)
                                     feedbackMessage = NSLocalizedString("marked_as_ignored", comment: "")
+                                } else {
+                                    learningStateManager.toggleIgnored(currentEntry.id)
+                                    feedbackMessage = NSLocalizedString("unmarked_as_ignored", comment: "")
                                 }
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
@@ -103,7 +109,7 @@ struct RandomWordView: View {
                                     showNextWord()
                                 }
                             }) {
-                                Image(systemName: "nosign")
+                                Image(systemName: learningStateManager.isIgnored(currentEntry.id) ? "eye.fill" : "eye.slash")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
                                     .foregroundColor(.primary)
