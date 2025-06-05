@@ -109,7 +109,7 @@ struct RandomWordView: View {
                                     showNextWord()
                                 }
                             }) {
-                                Image(systemName: learningStateManager.isIgnored(currentEntry.id) ? "eye.fill" : "eye.slash")
+                                Image(systemName: learningStateManager.isIgnored(currentEntry.id) ? "eye.slash" : "eye")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
                                     .foregroundColor(.primary)
@@ -220,6 +220,9 @@ struct RandomWordView: View {
                 learningStateManager: learningStateManager,
                 audioPlayerHelper: audioPlayerHelper
             )
+            .onDisappear {
+                showTabBar = false
+            }
         }
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)

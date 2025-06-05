@@ -89,7 +89,7 @@ var body: some View {
                                     feedbackMessage = nil
                                 }
                             }) {
-                                Image(systemName: learningStateManager.isIgnored(entry.id) ? "eye.fill" : "eye.slash")
+                                Image(systemName: learningStateManager.isIgnored(entry.id) ? "eye.slash" : "eye")
                                     .font(.system(size: 16, weight: .medium))
                                     .frame(width: 36, height: 36)
                                     .foregroundColor(.primary)
