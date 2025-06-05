@@ -743,24 +743,24 @@
     "Search mode" : {
 
     },
-    "search_by_translation": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "By translation"
+    "search_by_translation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "By translation"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "По переводу"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По переводу"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Efter översättning"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efter översättning"
           }
         }
       }
@@ -877,28 +877,6 @@
         }
       }
     },
-    "settings_hide_links_to_known_words" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hide links to known words"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Скрывать ссылки на выученные слова"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dölj länkar till inlärda ord"
-          }
-        }
-      }
-    },
     "settings_edit_categories" : {
       "localizations" : {
         "en" : {
@@ -962,6 +940,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favoritord"
+          }
+        }
+      }
+    },
+    "settings_hide_links_to_known_words" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide links to known words"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрывать ссылки на выученные слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dölj länkar till inlärda ord"
           }
         }
       }
@@ -1234,6 +1234,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slumpmässigt"
+          }
+        }
+      }
+    },
+    "unmarked_as_ignored" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No longer hidden"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше не скрыто"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte längre dolt"
+          }
+        }
+      }
+    },
+    "unmarked_as_known" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Removed learned mark"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снята отметка о выученности"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inlärningsmarkering borttagen"
           }
         }
       }

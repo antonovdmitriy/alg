@@ -6,7 +6,7 @@ struct SplashView: View {
     @State private var selectedSplash: String? = nil
     @Binding var showSplash: Bool
     @AppStorage("lastSplashIndex") private var lastSplashIndex: Int = -1
-    private let splashScreenDelay: TimeInterval = 5
+    private let splashScreenDelay: TimeInterval = 4
     
     var body: some View {
         Group {

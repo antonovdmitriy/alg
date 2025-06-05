@@ -35,15 +35,23 @@ class WordLearningStateManager {
         set { saveUUIDs(newValue, forKey: favoriteKey) }
     }
 
-    func markKnown(_ id: UUID) {
+    func toggleKnown(_ id: UUID) {
         var set = knownWords
-        set.insert(id)
+        if set.contains(id) {
+            set.remove(id)
+        } else {
+            set.insert(id)
+        }
         knownWords = set
     }
 
-    func markIgnored(_ id: UUID) {
+    func toggleIgnored(_ id: UUID) {
         var set = ignoredWords
-        set.insert(id)
+        if set.contains(id) {
+            set.remove(id)
+        } else {
+            set.insert(id)
+        }
         ignoredWords = set
     }
 
