@@ -4,7 +4,7 @@ import CryptoKit
 
 struct WordCardView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = true
+    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = false
     let entry: WordEntry
     let categoryId: String
     let wordService: WordService
@@ -136,7 +136,7 @@ struct WordCardView: View {
     
     func extractTappables(from text: String) -> [String: () -> Void] {
         var tappables: [String: () -> Void] = [:]
-        let words = text.split(separator: " ").map(String.init)
+        let words = text.split(separator: " ").map { $0.trimmingCharacters(in: .punctuationCharacters) }
         let allSelfWords = [entry.word.lowercased()] + (entry.forms ?? []).map { $0.form.lowercased() }
         let allSelfComponents = Set(allSelfWords.flatMap { $0.split(separator: " ").map(String.init) })
 
@@ -144,7 +144,7 @@ struct WordCardView: View {
         while i < words.count {
             var matchFound = false
             for j in stride(from: words.count, to: i, by: -1) {
-                let phrase = words[i..<j].joined(separator: " ")
+                let phrase = words[i..<j].map { $0.trimmingCharacters(in: .punctuationCharacters) }.joined(separator: " ")
                 let lowerPhrase = phrase.lowercased()
                 let phraseWords = Set(lowerPhrase.split(separator: " ").map(String.init))
 
@@ -172,7 +172,7 @@ struct WordCardView: View {
             }
 
             if !matchFound {
-                let single = words[i]
+                let single = words[i].trimmingCharacters(in: .punctuationCharacters)
                 let lowerSingle = single.lowercased()
                 if !allSelfWords.contains(lowerSingle) && !allSelfComponents.contains(lowerSingle) {
                     let entries = wordService.wordsByStringConsideringArticles(single)

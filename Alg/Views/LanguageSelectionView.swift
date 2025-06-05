@@ -1,11 +1,3 @@
-//
-//  LanguageSelectionView.swift
-//  Alg
-//
-//  Created by Dmitrii Antonov on 2025-05-17.
-//
-
-
 import SwiftUI
 
 struct LanguageSelectionView: View {

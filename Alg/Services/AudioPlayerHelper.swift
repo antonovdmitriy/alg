@@ -60,7 +60,7 @@ final class AudioPlayerHelper {
         let sanitizedCategoryId = categoryId.uuidString.lowercased()
         
         let localDir: URL = {
-            if entry.version == 0 || voiceId(for: entry) == nil {
+            if entry.version == -1 || voiceId(for: entry) == nil {
                 return FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!
                     .appendingPathComponent(audioRootDir)
                     .appendingPathComponent(sanitizedCategoryId)

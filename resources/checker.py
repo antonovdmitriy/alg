@@ -1,29 +1,24 @@
-
 import json
+import re
 
-INPUT_PATH = "./word_migrated.json"
+with open("word.json", encoding="utf-8") as f:
+    data = json.load(f)
 
-def check_versions_and_voice_entries():
-    with open(INPUT_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
+bad_ids = []
 
-    all_ok = True
-    for category in data:
-        for entry in category.get("entries", []):
-            wid = entry.get("id", "<no id>")
-            version = entry.get("version")
-            voice_entries = entry.get("voiceEntries")
+for category in data:
+    for entry in category.get("entries", []):
+        word_forms = [entry["word"]] + [f["form"] for f in entry.get("forms", [])]
+        for example in entry.get("examples", []):
+            text = example.get("text", "")
+            sentences = re.split(r'(?<=[.?!])\s+(?=\S)', text)
+            for i in range(len(sentences) - 1):
+                s1 = sentences[i].lower()
+                s2 = sentences[i+1].lower()
+                if any(wf.lower() in s1 for wf in word_forms) and any(wf.lower() in s2 for wf in word_forms):
+                    bad_ids.append((entry["id"], entry["examples"].index(example), text))
+                    break
 
-            if version != 0:
-                print(f"❌ Word {wid} has invalid or missing version: {version}")
-                all_ok = False
-
-            if not isinstance(voice_entries, list) or not voice_entries or "id" not in voice_entries[0]:
-                print(f"❌ Word {wid} has missing or invalid voiceEntries: {voice_entries}")
-                all_ok = False
-
-    if all_ok:
-        print("✅ All entries have version = 0 and valid voiceEntries.")
-
-if __name__ == "__main__":
-    check_versions_and_voice_entries()
+print("Word IDs with misplaced punctuation:")
+for wid, index, example_text in bad_ids:
+    print(f"{wid} [example {index}]: {example_text}")

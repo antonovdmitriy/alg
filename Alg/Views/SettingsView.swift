@@ -15,7 +15,7 @@ struct SettingsView: View {
     let audioPlayerHelper: AudioPlayerHelper
     
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
-    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = true
+    @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = false
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
 

@@ -51,9 +51,9 @@ class LocalJSONWordProvider: WordProvider {
         }
         self.wordByIdIndex = Dictionary(uniqueKeysWithValues: entries.map { ($0.id, $0) })
         self.formToIdIndex = entries.reduce(into: [:]) { result, entry in
-            result[entry.word, default: []].append(entry.id)
+            result[entry.word.lowercased(), default: []].append(entry.id)
             for form in entry.forms ?? [] {
-                result[form.form, default: []].append(entry.id)
+                result[form.form.lowercased(), default: []].append(entry.id)
             }
         }
         self.categoryIdByWordId = categories.reduce(into: [:]) { result, category in
@@ -84,7 +84,7 @@ class LocalJSONWordProvider: WordProvider {
     }
     
     func idsByWord(_ form: String) -> [UUID]? {
-        formToIdIndex[form]
+        formToIdIndex[form.lowercased()]
     }
     
     func wordById(_ id: UUID) -> WordEntry? {
