@@ -16,6 +16,7 @@ struct SettingsView: View {
     
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = false
+    @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
 
@@ -37,6 +38,7 @@ struct SettingsView: View {
                     Text("settings_edit_daily_goal")
                 }
                 Toggle("settings_hide_links_to_known_words", isOn: $hideLinksToKnownWords)
+                Toggle("settings_play_sound_on_word_change", isOn: $playSoundOnWordChange)
                 Label("settings_reset_daily_progress", systemImage: "arrow.counterclockwise")
                     .onTapGesture {
                         showResetConfirmation = true

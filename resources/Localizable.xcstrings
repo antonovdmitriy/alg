@@ -1192,6 +1192,28 @@
         }
       }
     },
+    "settings_play_sound_on_word_change" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play word on change"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проигрывать слово при переходе"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spela upp ord vid byte"
+          }
+        }
+      }
+    },
     "settings_visual_section" : {
       "localizations" : {
         "en" : {

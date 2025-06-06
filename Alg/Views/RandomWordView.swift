@@ -8,6 +8,7 @@ struct RandomWordView: View {
     private let learningStateManager: WordLearningStateManager
     private let audioPlayerHelper: AudioPlayerHelper
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
+    @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
@@ -197,7 +198,9 @@ struct RandomWordView: View {
                     audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
                 }
             }
-            audioPlayerHelper.playAudio(entryId: currentEntry.id)
+            if playSoundOnWordChange {
+                audioPlayerHelper.playAudio(entryId: currentEntry.id)
+            }
         }
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
@@ -304,8 +307,10 @@ struct RandomWordView: View {
         if let next = nextPrefetchedEntry, let nextId = nextPrefetchedCategoryId {
             currentEntry = next
             currentCategoryId = nextId
-            print("🔊 Playing audio for word: \(next.word), category ID: \(nextId)")
-            audioPlayerHelper.playAudio(entryId: next.id)
+            if playSoundOnWordChange {
+                print("🔊 Playing audio for word: \(next.word), category ID: \(nextId)")
+                audioPlayerHelper.playAudio(entryId: next.id)
+            }
         }
 
         // Prefetch next word asynchronously
@@ -314,9 +319,11 @@ struct RandomWordView: View {
             let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
             let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
 
-            print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
-            audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
-            print("✅ Audio prefetch completed (or started) for: \(prefetchedEntry.word)")
+            if playSoundOnWordChange {
+                print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
+                audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
+                print("✅ Audio prefetch completed (or started) for: \(prefetchedEntry.word)")
+            }
 
             DispatchQueue.main.async {
                 print("✅ Prefetched word: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
@@ -331,7 +338,9 @@ struct RandomWordView: View {
             let previous = entryHistory.removeLast()
             currentEntry = previous.0
             currentCategoryId = previous.1
-            audioPlayerHelper.playAudio(entryId: currentEntry.id)
+            if playSoundOnWordChange {
+                audioPlayerHelper.playAudio(entryId: currentEntry.id)
+            }
         }
     }
     
