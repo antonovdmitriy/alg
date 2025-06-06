@@ -23,20 +23,9 @@ struct RandomWordView: View {
     @State private var feedbackMessage: String?
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
-    @State private var currentExampleIndex: Int? = nil
     @State private var exampleIndex: Int? = nil
-
-    private struct HistoryItem {
-        enum Kind {
-            case word(WordEntry, UUID)
-            case example(WordEntry, UUID, Int)
-        }
-
-        let kind: Kind
-    }
-
     @State private var history: [HistoryItem] = []
-    @State private var historyIndex: Int = -1
+    @State private var historyIndex: Int = 0
     
     init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager, audioPlayerHelper: AudioPlayerHelper) {
         self._showTabBar = showTabBar
@@ -225,12 +214,13 @@ struct RandomWordView: View {
                 }
             }
             // Initialize history with the current word
-            history = [HistoryItem(kind: .word(currentEntry, currentCategoryId))]
-            historyIndex = 0
+            if history.isEmpty {
+                history.append(HistoryItem(kind: .word(currentEntry, currentCategoryId)))
+            }
+            
             if playSoundOnWordChange {
                 audioPlayerHelper.playAudio(entryId: currentEntry.id)
             }
-            exampleIndex = nil
         }
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
@@ -322,10 +312,26 @@ struct RandomWordView: View {
     }
     
     private func showNextWord() {
-        // Старая логика показа примеров:
+ 
+        if LearningGoalManager.shared.shouldShowGoalAnimation {
+            showGoalCelebration = true
+            LearningGoalManager.shared.markGoalAnimationShown()
+            return
+        }
+
+        
+        
+        if showExamplesAfterWord, !currentEntry.examples.isEmpty {
+            proceedToNextExample()
+        }else{
+            proceedToNextWord()
+        }
+    }
+    
+    private func proceedToNextExample(){
         // 1. Если включён showExamplesAfterWord и exampleIndex == nil, показываем первый пример.
         // 2. Если уже показан пример, показываем следующий (до лимита), иначе переходим к новому слову.
-        if showExamplesAfterWord, !currentEntry.examples.isEmpty {
+        
             if exampleIndex == nil {
                 // Показываем первый пример
                 exampleIndex = 0
@@ -335,11 +341,8 @@ struct RandomWordView: View {
                     audioPlayerHelper.prefetchExample(entryId: currentEntry.id, exampleIndex: 1)
                 }
                 if playSoundOnWordChange {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                         audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: 1)
-                    }
                 }
-                return
             } else if let idx = exampleIndex {
                 let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
                 if idx + 1 < limit {
@@ -350,28 +353,21 @@ struct RandomWordView: View {
                     if playSoundOnWordChange {
                         audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: nextIdx + 1)
                     }
-                    return
                 } else {
                     // Заканчиваем просмотр примеров и сбрасываем exampleIndex
                     exampleIndex = nil
+                    proceedToNextWord()
                 }
             }
-        }
-
-        // Go to a new word
-        history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .word(currentEntry, currentCategoryId))]
-        historyIndex += 1
-
-        if LearningGoalManager.shared.shouldShowGoalAnimation {
-            showGoalCelebration = true
-            LearningGoalManager.shared.markGoalAnimationShown()
-            return
-        }
-
-        proceedToNextWord()
+        
     }
     
     private func proceedToNextWord() {
+        
+        // Go to a new word
+        history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .word(currentEntry, currentCategoryId))]
+        historyIndex += 1
+        
         if let next = nextPrefetchedEntry, let nextId = nextPrefetchedCategoryId {
             currentEntry = next
             currentCategoryId = nextId
@@ -427,7 +423,8 @@ struct RandomWordView: View {
             currentCategoryId = categoryId
             exampleIndex = idx
             if playSoundOnWordChange {
-                audioPlayerHelper.playExample(entryId: entry.id, exampleIndex: idx)
+                let nextIdx = idx + 1
+                audioPlayerHelper.playExample(entryId: entry.id, exampleIndex: nextIdx)
             }
         }
     }
