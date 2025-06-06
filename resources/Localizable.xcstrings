@@ -1102,6 +1102,28 @@
         }
       }
     },
+    "settings_show_translation_on_preview" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show translation under word"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать перевод под словом"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa översättning under ordet"
+          }
+        }
+      }
+    },
     "settings_solid_color_background" : {
       "localizations" : {
         "en" : {

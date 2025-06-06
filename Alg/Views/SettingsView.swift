@@ -19,6 +19,7 @@ struct SettingsView: View {
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
 
+    @AppStorage("showTranslationOnPreview") private var showTranslationOnPreview = false
     var body: some View {
         Form {
             Section(header: Text("settings_translation_section")) {
@@ -65,6 +66,7 @@ struct SettingsView: View {
             }
             Section(header: Text("settings_visual_section")) {
                 Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
+                Toggle("settings_show_translation_on_preview", isOn: $visualStyleManager.showTranslationOnPreview)
             }
         }
         .navigationTitle("settings_title")

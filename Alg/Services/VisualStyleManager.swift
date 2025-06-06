@@ -9,4 +9,6 @@ import SwiftUI
 
 class VisualStyleManager: ObservableObject {
     @AppStorage("useSolidColorBackground") var useSolidColorBackground: Bool = false
+    @AppStorage("showTranslationOnPreview") var showTranslationOnPreview: Bool = false
+    
 }

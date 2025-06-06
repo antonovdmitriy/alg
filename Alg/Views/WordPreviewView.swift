@@ -18,6 +18,7 @@ struct WordPreviewView: View {
     @State private var wordTransition = false
     
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @AppStorage("showTranslationOnPreview") var showTranslationOnPreview: Bool = false
     
     var body: some View {
         let useSolidColorBackground = visualStyleManager.useSolidColorBackground
@@ -133,12 +134,15 @@ struct WordPreviewView: View {
                                     .transition(.opacity.combined(with: .scale))
                                     .id(entry.id)
 
-                                if let translation = entry.translations[selectedLanguage], !translation.isEmpty {
+                                if showTranslationOnPreview,
+                                   let translation = entry.translations[selectedLanguage], !translation.isEmpty {
                                     Text(translation)
                                         .font(.system(size: 18, weight: .regular))
                                         .foregroundColor(.white.opacity(0.7))
                                         .multilineTextAlignment(.center)
                                         .padding(.horizontal, 16)
+                                        .transition(.opacity.combined(with: .scale))
+                                        .id(entry.id)
                                 }
                             }
                         } else {
@@ -152,7 +156,8 @@ struct WordPreviewView: View {
                                     .transition(.opacity.combined(with: .scale))
                                     .id(entry.id)
 
-                                if let translation = entry.translations[selectedLanguage], !translation.isEmpty {
+                                if showTranslationOnPreview,
+                                   let translation = entry.translations[selectedLanguage], !translation.isEmpty {
                                     Text(translation)
                                         .font(.system(size: 18, weight: .regular))
                                         .foregroundColor(.primary.opacity(0.6))
