@@ -24,6 +24,8 @@ struct RandomWordView: View {
     @State private var feedbackMessage: String?
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
+    @State private var currentExampleIndex: Int? = nil
+    @State private var exampleIndex: Int? = nil
     
     init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager, audioPlayerHelper: AudioPlayerHelper) {
         self._showTabBar = showTabBar
@@ -46,9 +48,13 @@ struct RandomWordView: View {
             WordPreviewView(
                 entry: currentEntry,
                 categoryId: currentCategoryId.uuidString.lowercased(),
-                overrideText: .constant(showGoalCelebration ? NSLocalizedString("goal_completed_message", comment: "") : nil)
-                    )
-                    .edgesIgnoringSafeArea(.all)
+                overrideText: .constant(
+                    exampleIndex != nil && currentEntry.examples.indices.contains(exampleIndex!)
+                    ? currentEntry.examples[exampleIndex!].text
+                    : (showGoalCelebration ? NSLocalizedString("goal_completed_message", comment: "") : nil)
+                )
+            )
+            .edgesIgnoringSafeArea(.all)
             
             if !showTabBar && !showGoalVideo && !showGoalCelebration {
                 Image(systemName: "chevron.compact.up")
@@ -210,6 +216,7 @@ struct RandomWordView: View {
             if playSoundOnWordChange {
                 audioPlayerHelper.playAudio(entryId: currentEntry.id)
             }
+            exampleIndex = nil
         }
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
@@ -301,48 +308,87 @@ struct RandomWordView: View {
     }
     
     private func showNextWord() {
+        if let idx = exampleIndex {
+            let nextIdx = idx + 1
+            let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
+            if nextIdx < limit {
+                exampleIndex = nextIdx
+                if playSoundOnWordChange {
+                    audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: nextIdx + 1)
+                }
+                return
+            } else {
+                exampleIndex = nil
+            }
+        } else if showExamplesAfterWord, !currentEntry.examples.isEmpty {
+            exampleIndex = 0
+            // Prefetch next example (index 1), but play the current (index 0)
+            DispatchQueue.main.async {
+                audioPlayerHelper.prefetchExample(entryId: currentEntry.id, exampleIndex: 1)
+            }
+            if playSoundOnWordChange {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: 1)
+                }
+            }
+            return
+        }
+
         if LearningGoalManager.shared.shouldShowGoalAnimation {
             showGoalCelebration = true
             LearningGoalManager.shared.markGoalAnimationShown()
             return
         }
+
         proceedToNextWord()
     }
     
     private func proceedToNextWord() {
-        LearningGoalManager.shared.incrementProgress()
-        entryHistory.append((currentEntry, currentCategoryId))
-
         if let next = nextPrefetchedEntry, let nextId = nextPrefetchedCategoryId {
+            entryHistory.append((currentEntry, currentCategoryId))
             currentEntry = next
             currentCategoryId = nextId
-            if playSoundOnWordChange {
-                print("🔊 Playing audio for word: \(next.word), category ID: \(nextId)")
-                audioPlayerHelper.playAudio(entryId: next.id)
-            }
-        }
+            exampleIndex = nil
 
-        // Prefetch next word asynchronously
-        DispatchQueue.global(qos: .utility).async {
-            print("🔄 Prefetching next word...")
-            let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
+            LearningGoalManager.shared.incrementProgress()
 
             if playSoundOnWordChange {
-                print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
-                audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
-                print("✅ Audio prefetch completed (or started) for: \(prefetchedEntry.word)")
+                audioPlayerHelper.playAudio(entryId: currentEntry.id)
             }
 
-            DispatchQueue.main.async {
-                print("✅ Prefetched word: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
-                nextPrefetchedEntry = prefetchedEntry
-                nextPrefetchedCategoryId = prefetchedCategoryId
+            if showExamplesAfterWord, !currentEntry.examples.isEmpty {
+                DispatchQueue.global(qos: .utility).async {
+                    let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
+                    for index in 1...limit {
+                        audioPlayerHelper.prefetchExample(entryId: currentEntry.id, exampleIndex: index)
+                    }
+                }
+            }
+
+            // Префетчим следующее слово
+            DispatchQueue.global(qos: .utility).async {
+                let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
+
+                if playSoundOnWordChange {
+                    audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
+                }
+
+                DispatchQueue.main.async {
+                    nextPrefetchedEntry = prefetchedEntry
+                    nextPrefetchedCategoryId = prefetchedCategoryId
+                }
             }
         }
     }
     
     private func showPreviousWord() {
+        if let idx = exampleIndex, idx > 0 {
+            exampleIndex = idx - 1
+            return
+        } else {
+            exampleIndex = nil
+        }
         withAnimation {
             let previous = entryHistory.removeLast()
             currentEntry = previous.0

@@ -22,6 +22,7 @@ struct WordPreviewView: View {
     
     var body: some View {
         let useSolidColorBackground = visualStyleManager.useSolidColorBackground
+        let horizontalPadding: CGFloat = overrideText != nil ? 32 : 24
 
         ZStack {
             if UITraitCollection.current.userInterfaceStyle == .dark {
@@ -130,11 +131,11 @@ struct WordPreviewView: View {
                                     .foregroundColor(.white)
                                     .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
                                     .scaleEffect(1.1)
-                                    .padding(.horizontal, 24)
+                                    .padding(.horizontal, horizontalPadding)
                                     .transition(.opacity.combined(with: .scale))
-                                    .id(entry.id)
+                                    .id(overrideText ?? entry.word)
 
-                                if showTranslationOnPreview,
+                                if overrideText == nil && showTranslationOnPreview,
                                    let translation = entry.translations[selectedLanguage], !translation.isEmpty {
                                     Text(translation)
                                         .font(.system(size: 18, weight: .regular))
@@ -142,7 +143,7 @@ struct WordPreviewView: View {
                                         .multilineTextAlignment(.center)
                                         .padding(.horizontal, 16)
                                         .transition(.opacity.combined(with: .scale))
-                                        .id(entry.id)
+                                        .id(overrideText ?? entry.word)
                                         .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
                                 }
                             }
@@ -151,13 +152,13 @@ struct WordPreviewView: View {
                                 Text(word)
                                     .font(.system(size: 34, weight: .regular))
                                     .foregroundColor(.primary)
-                                    .padding(.horizontal, 16)
+                                    .padding(.horizontal, horizontalPadding)
                                     .padding(.vertical, 10)
                                     .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
                                     .transition(.opacity.combined(with: .scale))
-                                    .id(entry.id)
+                                    .id(overrideText ?? entry.word)
 
-                                if showTranslationOnPreview,
+                                if overrideText == nil && showTranslationOnPreview,
                                    let translation = entry.translations[selectedLanguage], !translation.isEmpty {
                                     Text(translation)
                                         .font(.system(size: 18, weight: .regular))
@@ -165,14 +166,14 @@ struct WordPreviewView: View {
                                         .padding(.top, -4)
                                         .padding(.horizontal, 16)
                                         .transition(.opacity.combined(with: .scale))
-                                        .id(entry.id)
+                                        .id(overrideText ?? entry.word)
                                         .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
                                 }
                             }
                         }
                     }
                 }
-                .animation(.easeInOut(duration: 0.35), value: entry.id)
+                .animation(.easeInOut(duration: 0.35), value: overrideText ?? entry.word)
 
                 Spacer()
             }

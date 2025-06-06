@@ -133,6 +133,12 @@ final class AudioPlayerHelper {
         guard let entry = wordService.wordById(entryId) else { return }
         downloadIfNeeded(entry: entry, fileName: fileName)
     }
+    
+    func prefetchExample(entryId: UUID, exampleIndex: Int) {
+        let fileName = "\(entryId.uuidString.lowercased())_ex\(exampleIndex).mp3"
+        guard let entry = wordService.wordById(entryId) else { return }
+        downloadIfNeeded(entry: entry, fileName: fileName)
+    }
 
     private func voiceId(for entry: WordEntry) -> UUID? {
         // TODO: make more smart when we will get more than one voice.
