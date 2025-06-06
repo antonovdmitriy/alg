@@ -143,6 +143,7 @@ struct WordPreviewView: View {
                                         .padding(.horizontal, 16)
                                         .transition(.opacity.combined(with: .scale))
                                         .id(entry.id)
+                                        .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
                                 }
                             }
                         } else {
@@ -165,6 +166,7 @@ struct WordPreviewView: View {
                                         .padding(.horizontal, 16)
                                         .transition(.opacity.combined(with: .scale))
                                         .id(entry.id)
+                                        .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
                                 }
                             }
                         }
