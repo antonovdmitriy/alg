@@ -126,14 +126,36 @@ struct WordPreviewView: View {
                         if (UITraitCollection.current.userInterfaceStyle == .dark) ||
                            (UITraitCollection.current.userInterfaceStyle == .light && !useSolidColorBackground) {
                             VStack(spacing: 4) {
-                                Text(word)
-                                    .font(.largeTitle)
-                                    .foregroundColor(.white)
-                                    .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
-                                    .scaleEffect(1.1)
-                                    .padding(.horizontal, horizontalPadding)
+                                if overrideText != nil {
+                                    VStack(spacing: 8) {
+                                        Text(word)
+                                            .font(.title)
+                                            .foregroundColor(.white)
+                                            .multilineTextAlignment(.center)
+                                            .padding()
+                                            .background(
+                                                RoundedRectangle(cornerRadius: 18)
+                                                    .fill(Color.clear)
+                                                    .overlay(
+                                                        RoundedRectangle(cornerRadius: 18)
+                                                            .stroke(Color.white.opacity(0.2), lineWidth: 1)
+                                                    )
+                                            )
+                                            .padding(.horizontal, 24)
+                                            .shadow(color: .black.opacity(0.5), radius: 2, x: 1, y: 1)
+                                    }
                                     .transition(.opacity.combined(with: .scale))
                                     .id(overrideText ?? entry.word)
+                                } else {
+                                    Text(word)
+                                        .font(.largeTitle)
+                                        .foregroundColor(.white)
+                                        .shadow(color: .black.opacity(0.7), radius: 2, x: 1, y: 1)
+                                        .scaleEffect(1.1)
+                                        .padding(.horizontal, horizontalPadding)
+                                        .transition(.opacity.combined(with: .scale))
+                                        .id(overrideText ?? entry.word)
+                                }
 
                                 if overrideText == nil && showTranslationOnPreview,
                                    let translation = entry.translations[selectedLanguage], !translation.isEmpty {
@@ -149,14 +171,27 @@ struct WordPreviewView: View {
                             }
                         } else {
                             VStack(spacing: 4) {
-                                Text(word)
-                                    .font(.system(size: 34, weight: .regular))
-                                    .foregroundColor(.primary)
-                                    .padding(.horizontal, horizontalPadding)
-                                    .padding(.vertical, 10)
-                                    .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
-                                    .transition(.opacity.combined(with: .scale))
-                                    .id(overrideText ?? entry.word)
+                                if overrideText != nil {
+                                    VStack(spacing: 8) {
+                                        Text(word)
+                                            .font(.title)
+                                            .foregroundColor(.primary)
+                                            .multilineTextAlignment(.center)
+                                            .padding(.horizontal, horizontalPadding)
+                                            .padding(.vertical, 10)
+                                            .transition(.opacity.combined(with: .scale))
+                                            .id(overrideText ?? entry.word)
+                                    }
+                                } else {
+                                    Text(word)
+                                        .font(.system(size: 34, weight: .regular))
+                                        .foregroundColor(.primary)
+                                        .padding(.horizontal, horizontalPadding)
+                                        .padding(.vertical, 10)
+                                        .shadow(color: shadowColor, radius: 0, x: 0, y: 0)
+                                        .transition(.opacity.combined(with: .scale))
+                                        .id(overrideText ?? entry.word)
+                                }
 
                                 if overrideText == nil && showTranslationOnPreview,
                                    let translation = entry.translations[selectedLanguage], !translation.isEmpty {

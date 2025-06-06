@@ -967,10 +967,25 @@
     },
     "settings_examples_to_show_count" : {
       "localizations" : {
-          "en" : { "stringUnit" : { "state" : "translated", "value" : "Examples to show" }},
-             "ru" : { "stringUnit" : { "state" : "translated", "value" : "Показывать примеров" }},
-             "sv" : { "stringUnit" : { "state" : "translated", "value" : "Antal exempel" }}
-           }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Examples to show"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать примеров"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antal exempel"
+          }
+        }
+      }
     },
     "settings_favorite_words" : {
       "extractionState" : "manual",
