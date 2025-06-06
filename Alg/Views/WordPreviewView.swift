@@ -163,7 +163,8 @@ struct WordPreviewView: View {
                                         .foregroundColor(.primary.opacity(0.6))
                                         .padding(.top, -4)
                                         .padding(.horizontal, 16)
-                                        .multilineTextAlignment(.center)
+                                        .transition(.opacity.combined(with: .scale))
+                                        .id(entry.id)
                                 }
                             }
                         }
