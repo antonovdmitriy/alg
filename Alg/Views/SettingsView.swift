@@ -18,7 +18,7 @@ struct SettingsView: View {
     @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = false
     @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
     @AppStorage("autoAdvanceAfterAction") private var autoAdvanceAfterAction = true
-    @AppStorage("showExamplesAfterWord") private var showExamplesAfterWord = true
+    @AppStorage("showExamplesAfterWord") private var showExamplesAfterWord = false
     @AppStorage("examplesToShowCount") private var examplesToShowCount = 3
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
@@ -33,6 +33,10 @@ struct SettingsView: View {
                 }
                 .pickerStyle(SegmentedPickerStyle())
             }
+            Section(header: Text("settings_visual_section")) {
+                Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
+                Toggle("settings_show_translation_on_preview", isOn: $visualStyleManager.showTranslationOnPreview)
+            }
             Section(header: Text("settings_learning_section")) {
                 NavigationLink(destination: CategorySelectionView(wordService: wordService)) {
                     Text("settings_edit_categories")
@@ -46,12 +50,14 @@ struct SettingsView: View {
                 Toggle("settings_show_examples_after_word", isOn: $showExamplesAfterWord)
 
                 if showExamplesAfterWord {
-                    Picker("settings_examples_to_show_count", selection: $examplesToShowCount) {
-                        ForEach(1...5, id: \.self) { number in
-                            Text("\(number)").tag(number)
+                    NavigationLink(destination: ExamplesCountSelectionView(selectedCount: $examplesToShowCount)) {
+                        HStack {
+                            Text("settings_examples_to_show_count")
+                            Spacer()
+                            Text(examplesToShowCount == -1 ? NSLocalizedString("settings_examples_all", comment: "") : "\(examplesToShowCount)")
+                                .foregroundColor(.gray)
                         }
                     }
-                    .pickerStyle(.menu)
                 }
                 Label("settings_reset_daily_progress", systemImage: "arrow.counterclockwise")
                     .onTapGesture {
@@ -79,10 +85,6 @@ struct SettingsView: View {
                 NavigationLink(destination: IgnoredWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
                     Label("settings_ignored_words", systemImage: "nosign")
                 }
-            }
-            Section(header: Text("settings_visual_section")) {
-                Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
-                Toggle("settings_show_translation_on_preview", isOn: $visualStyleManager.showTranslationOnPreview)
             }
         }
         .navigationTitle("settings_title")
@@ -207,5 +209,29 @@ struct IgnoredWordsView: View {
                 return learningStateManager.ignoredWords.contains(id) ? (entry, id) : nil
             }
         }
+    }
+}
+
+struct ExamplesCountSelectionView: View {
+    @Binding var selectedCount: Int
+
+    var body: some View {
+        List {
+            ForEach([-1] + Array(1...10), id: \.self) { number in
+                HStack {
+                    Text(number == -1 ? NSLocalizedString("settings_examples_all", comment: "") : "\(number)")
+                    Spacer()
+                    if selectedCount == number {
+                        Image(systemName: "checkmark")
+                            .foregroundColor(.accentColor)
+                    }
+                }
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    selectedCount = number
+                }
+            }
+        }
+        .navigationTitle("settings_examples_to_show_count")
     }
 }

@@ -14,9 +14,6 @@
         }
       }
     },
-    "%lld" : {
-
-    },
     "• %@" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -946,27 +943,34 @@
         }
       }
     },
-    "settings_examples_to_show_count" : {
+    "settings_examples_all" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Number of examples to show"
+            "value" : "All"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Количество примеров"
+            "value" : "Все"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Antal exempel att visa"
+            "value" : "Alla"
           }
         }
       }
+    },
+    "settings_examples_to_show_count" : {
+      "localizations" : {
+          "en" : { "stringUnit" : { "state" : "translated", "value" : "Examples to show" }},
+             "ru" : { "stringUnit" : { "state" : "translated", "value" : "Показывать примеров" }},
+             "sv" : { "stringUnit" : { "state" : "translated", "value" : "Antal exempel" }}
+           }
     },
     "settings_favorite_words" : {
       "extractionState" : "manual",

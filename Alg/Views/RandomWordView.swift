@@ -10,6 +10,8 @@ struct RandomWordView: View {
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
     @AppStorage("autoAdvanceAfterAction") private var autoAdvanceAfterAction = true
+    @AppStorage("showExamplesAfterWord") private var showExamplesAfterWord = false
+    @AppStorage("examplesToShowCount") private var examplesToShowCount = 3
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
