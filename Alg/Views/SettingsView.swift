@@ -18,6 +18,8 @@ struct SettingsView: View {
     @AppStorage("hideLinksToKnownWords") private var hideLinksToKnownWords = false
     @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
     @AppStorage("autoAdvanceAfterAction") private var autoAdvanceAfterAction = true
+    @AppStorage("showExamplesAfterWord") private var showExamplesAfterWord = true
+    @AppStorage("examplesToShowCount") private var examplesToShowCount = 3
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
 
@@ -41,6 +43,16 @@ struct SettingsView: View {
                 Toggle("settings_hide_links_to_known_words", isOn: $hideLinksToKnownWords)
                 Toggle("settings_play_sound_on_word_change", isOn: $playSoundOnWordChange)
                 Toggle("settings_auto_advance_after_action", isOn: $autoAdvanceAfterAction)
+                Toggle("settings_show_examples_after_word", isOn: $showExamplesAfterWord)
+
+                if showExamplesAfterWord {
+                    Picker("settings_examples_to_show_count", selection: $examplesToShowCount) {
+                        ForEach(1...5, id: \.self) { number in
+                            Text("\(number)").tag(number)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                }
                 Label("settings_reset_daily_progress", systemImage: "arrow.counterclockwise")
                     .onTapGesture {
                         showResetConfirmation = true
