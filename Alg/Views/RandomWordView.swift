@@ -9,6 +9,7 @@ struct RandomWordView: View {
     private let audioPlayerHelper: AudioPlayerHelper
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
+    @AppStorage("autoAdvanceAfterAction") private var autoAdvanceAfterAction = true
     @AppStorage("dailyGoal") private var dailyGoal: Int = 10
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
@@ -85,7 +86,9 @@ struct RandomWordView: View {
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
-                                    showNextWord()
+                                    if autoAdvanceAfterAction{
+                                        showNextWord()
+                                    }
                                 }
                             }) {
                                 Image(systemName: learningStateManager.isKnown(currentEntry.id) ? "checkmark.circle.fill" : "checkmark")
@@ -107,7 +110,9 @@ struct RandomWordView: View {
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
-                                    showNextWord()
+                                    if autoAdvanceAfterAction{
+                                        showNextWord()
+                                    }
                                 }
                             }) {
                                 Image(systemName: learningStateManager.isIgnored(currentEntry.id) ? "eye.slash" : "eye")
@@ -125,7 +130,9 @@ struct RandomWordView: View {
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
-                                    showNextWord()
+                                    if autoAdvanceAfterAction{
+                                        showNextWord()
+                                    }
                                 }
                             }) {
                                 Image(systemName: learningStateManager.isFavorite(currentEntry.id) ? "star.fill" : "star")

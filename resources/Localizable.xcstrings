@@ -1192,6 +1192,28 @@
         }
       }
     },
+    "settings_auto_advance_after_action" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto-advance after marking word"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переходить к следующему слову при выборе действия"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå vidare automatiskt efter åtgärd"
+          }
+        }
+      }
+    },
     "settings_play_sound_on_word_change" : {
       "localizations" : {
         "en" : {
