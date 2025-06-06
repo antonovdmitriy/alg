@@ -87,10 +87,10 @@ struct RandomWordView: View {
                                     showNextWord()
                                 }
                             }) {
-                                Image(systemName: learningStateManager.isKnown(currentEntry.id) ? "checkmark.circle.fill" : "checkmark.circle")
+                                Image(systemName: learningStateManager.isKnown(currentEntry.id) ? "checkmark.circle.fill" : "checkmark")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
-                                    .foregroundColor(.primary)
+                                    .foregroundColor(Color.primary.opacity(0.85))
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
@@ -112,7 +112,7 @@ struct RandomWordView: View {
                                 Image(systemName: learningStateManager.isIgnored(currentEntry.id) ? "eye.slash" : "eye")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
-                                    .foregroundColor(.primary)
+                                    .foregroundColor(Color.primary.opacity(0.85))
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
@@ -130,7 +130,7 @@ struct RandomWordView: View {
                                 Image(systemName: learningStateManager.isFavorite(currentEntry.id) ? "star.fill" : "star")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
-                                    .foregroundColor(.primary)
+                                    .foregroundColor(Color.primary.opacity(0.85))
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
