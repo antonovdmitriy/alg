@@ -27,11 +27,14 @@ struct SettingsView: View {
     var body: some View {
         Form {
             Section(header: Text("settings_translation_section")) {
-                Picker("settings_language_label", selection: $selectedLanguage) {
-                    Text("language_russian").tag("ru")
-                    Text("language_english").tag("en")
+                NavigationLink(destination: LanguageSelectionView(fromSettings: true)) {
+                    HStack {
+                        Text("settings_language_label")
+                        Spacer()
+                        Text(Locale.current.localizedString(forIdentifier: selectedLanguage) ?? selectedLanguage)
+                            .foregroundColor(.gray)
+                    }
                 }
-                .pickerStyle(SegmentedPickerStyle())
             }
             Section(header: Text("settings_visual_section")) {
                 Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)

@@ -39,15 +39,16 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				audio,
-				changed_id,
 				checker.py,
-				examples_to_fix,
 				generate_audio_for_id_list.py,
 				generate_audio_for_words.py,
 				generate_aws_tts.py,
 				generate_azure_tts.py,
 				"images/4608c662-219f-4740-bcb7-f37cb19fa2c1/e2cf21f3-31fa-406c-b42c-f683eb4c233c.png",
 				migrator.py,
+				translate_all_locales.py,
+				translate_all.py,
+				translate.py,
 				upload_audio_to_azure_for_id_list.sh,
 				upload_audio_to_azure.sh,
 				upload_images_to_azure.sh,
@@ -471,7 +472,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6.1;
+				MARKETING_VERSION = 1.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -508,7 +509,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6.1;
+				MARKETING_VERSION = 1.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

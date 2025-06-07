@@ -1,24 +1,35 @@
 import json
-import re
+from collections import defaultdict
 
-with open("word.json", encoding="utf-8") as f:
-    data = json.load(f)
+# Путь к файлу
+file_path = "word.json"
 
-bad_ids = []
+# Словари для проверки дубликатов
+id_counts = defaultdict(int)
 
-for category in data:
-    for entry in category.get("entries", []):
-        word_forms = [entry["word"]] + [f["form"] for f in entry.get("forms", [])]
-        for example in entry.get("examples", []):
-            text = example.get("text", "")
-            sentences = re.split(r'(?<=[.?!])\s+(?=\S)', text)
-            for i in range(len(sentences) - 1):
-                s1 = sentences[i].lower()
-                s2 = sentences[i+1].lower()
-                if any(wf.lower() in s1 for wf in word_forms) and any(wf.lower() in s2 for wf in word_forms):
-                    bad_ids.append((entry["id"], entry["examples"].index(example), text))
-                    break
+try:
+    with open(file_path, "r", encoding="utf-8") as f:
+        categories = json.load(f)
 
-print("Word IDs with misplaced punctuation:")
-for wid, index, example_text in bad_ids:
-    print(f"{wid} [example {index}]: {example_text}")
+    total_words = 0
+    duplicate_ids = []
+
+    for category in categories:
+        for entry in category.get("entries", []):
+            entry_id = entry.get("id")
+            if entry_id:
+                id_counts[entry_id] += 1
+                if id_counts[entry_id] == 2:
+                    duplicate_ids.append(entry_id)
+                total_words += 1
+
+    print(f"🔍 Всего слов: {total_words}")
+    if duplicate_ids:
+        print(f"⚠️ Найдены дубликаты ID ({len(duplicate_ids)}):")
+        for dup_id in duplicate_ids:
+            print(f"  - {dup_id}")
+    else:
+        print("✅ Дубликатов ID не найдено.")
+
+except Exception as e:
+    print(f"Ошибка при обработке файла: {e}")
