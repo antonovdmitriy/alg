@@ -37,6 +37,17 @@ struct SettingsView: View {
                 Toggle("settings_solid_color_background", isOn: $visualStyleManager.useSolidColorBackground)
                 Toggle("settings_show_translation_on_preview", isOn: $visualStyleManager.showTranslationOnPreview)
             }
+            Section(header: Text("settings_my_words_section")) {
+                NavigationLink(destination: LearnedWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
+                    Label("settings_learned_words", systemImage: "checkmark")
+                }
+                NavigationLink(destination: FavoriteWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
+                    Label("settings_favorite_words", systemImage: "star")
+                }
+                NavigationLink(destination: IgnoredWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
+                    Label("settings_ignored_words", systemImage: "nosign")
+                }
+            }
             Section(header: Text("settings_learning_section")) {
                 NavigationLink(destination: CategorySelectionView(wordService: wordService)) {
                     Text("settings_edit_categories")
@@ -74,17 +85,6 @@ struct SettingsView: View {
                             secondaryButton: .cancel(Text("reset_daily_progress_cancel"))
                         )
                     }
-            }
-            Section(header: Text("settings_my_words_section")) {
-                NavigationLink(destination: LearnedWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
-                    Label("settings_learned_words", systemImage: "checkmark")
-                }
-                NavigationLink(destination: FavoriteWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
-                    Label("settings_favorite_words", systemImage: "star")
-                }
-                NavigationLink(destination: IgnoredWordsView(wordService: wordService, learningStateManager: learningStateManager, audioHelper: audioPlayerHelper)) {
-                    Label("settings_ignored_words", systemImage: "nosign")
-                }
             }
         }
         .navigationTitle("settings_title")
