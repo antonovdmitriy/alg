@@ -27,7 +27,7 @@ struct SettingsView: View {
     var body: some View {
         Form {
             Section(header: Text("settings_translation_section")) {
-                NavigationLink(destination: LanguageSelectionView()) {
+                NavigationLink(destination: LanguageSelectionView(fromSettings: true)) {
                     HStack {
                         Text("settings_language_label")
                         Spacer()

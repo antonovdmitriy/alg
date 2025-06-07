@@ -27,7 +27,7 @@ struct RootRouterView: View {
         if showSplash || wordService.allCategories().isEmpty {
             SplashView(showSplash: $showSplash)
         } else if !hasSelectedLanguage {
-            LanguageSelectionView(showNextButton: true)
+            LanguageSelectionView(showNextButton: true, fromSettings: false)
         } else if !hasSelectedCategories {
             NavigationStack {
                 CategorySelectionView(wordService: wordService)

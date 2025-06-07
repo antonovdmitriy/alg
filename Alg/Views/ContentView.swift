@@ -115,7 +115,7 @@ struct DictionaryView: View {
                                 audioPlayerHelper: audioPlayerHelper
                             )
                         ) {
-                            Text(category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "")
+                     Text(category.translations[selectedLanguage] ?? category.translations["en"] ?? "")
                         }
                     }
                 } else {
