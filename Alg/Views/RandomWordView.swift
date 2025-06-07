@@ -8,18 +8,23 @@ struct RandomWordView: View {
     private let learningStateManager: WordLearningStateManager
     private let audioPlayerHelper: AudioPlayerHelper
     @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
-    @AppStorage("dailyGoal") private var dailyGoal: Int = 10
+    @AppStorage("playSoundOnWordChange") private var playSoundOnWordChange = true
+    @AppStorage("autoAdvanceAfterAction") private var autoAdvanceAfterAction = true
+    @AppStorage("showExamplesAfterWord") private var showExamplesAfterWord = false
+    @AppStorage("examplesToShowCount") private var examplesToShowCount = 3
     @State private var currentEntry: WordEntry
     @State private var currentCategoryId: UUID
     @State private var nextPrefetchedEntry: WordEntry?
     @State private var nextPrefetchedCategoryId: UUID?
     @State private var showCard = false
-    @State private var entryHistory: [(WordEntry, UUID)] = []
     @State private var lastTapDate = Date.distantPast
     private let tapThreshold: TimeInterval = 0.4
     @State private var feedbackMessage: String?
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
+    @State private var exampleIndex: Int? = nil
+    @State private var history: [HistoryItem] = []
+    @State private var historyIndex: Int = 0
     
     init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager, audioPlayerHelper: AudioPlayerHelper) {
         self._showTabBar = showTabBar
@@ -42,9 +47,13 @@ struct RandomWordView: View {
             WordPreviewView(
                 entry: currentEntry,
                 categoryId: currentCategoryId.uuidString.lowercased(),
-                overrideText: .constant(showGoalCelebration ? NSLocalizedString("goal_completed_message", comment: "") : nil)
-                    )
-                    .edgesIgnoringSafeArea(.all)
+                overrideText: .constant(
+                    exampleIndex != nil && currentEntry.examples.indices.contains(exampleIndex!)
+                    ? "“\(currentEntry.examples[exampleIndex!].text)”"
+                    : (showGoalCelebration ? NSLocalizedString("goal_completed_message", comment: "") : nil)
+                )
+            )
+            .edgesIgnoringSafeArea(.all)
             
             if !showTabBar && !showGoalVideo && !showGoalCelebration {
                 Image(systemName: "chevron.compact.up")
@@ -84,13 +93,15 @@ struct RandomWordView: View {
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
-                                    showNextWord()
+                                    if autoAdvanceAfterAction{
+                                        showNextWord()
+                                    }
                                 }
                             }) {
-                                Image(systemName: learningStateManager.isKnown(currentEntry.id) ? "checkmark.circle.fill" : "checkmark.circle")
+                                Image(systemName: learningStateManager.isKnown(currentEntry.id) ? "checkmark.circle.fill" : "checkmark")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
-                                    .foregroundColor(.primary)
+                                    .foregroundColor(Color.primary.opacity(0.85))
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
@@ -106,13 +117,15 @@ struct RandomWordView: View {
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
-                                    showNextWord()
+                                    if autoAdvanceAfterAction{
+                                        showNextWord()
+                                    }
                                 }
                             }) {
                                 Image(systemName: learningStateManager.isIgnored(currentEntry.id) ? "eye.slash" : "eye")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
-                                    .foregroundColor(.primary)
+                                    .foregroundColor(Color.primary.opacity(0.85))
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
@@ -124,13 +137,15 @@ struct RandomWordView: View {
                                 withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {}
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     feedbackMessage = nil
-                                    showNextWord()
+                                    if autoAdvanceAfterAction{
+                                        showNextWord()
+                                    }
                                 }
                             }) {
                                 Image(systemName: learningStateManager.isFavorite(currentEntry.id) ? "star.fill" : "star")
                                     .font(.system(size: 20, weight: .semibold))
                                     .frame(width: 44, height: 44)
-                                    .foregroundColor(.primary)
+                                    .foregroundColor(Color.primary.opacity(0.85))
                                     .background(.ultraThinMaterial, in: Circle())
                                     .shadow(radius: 2)
                             }
@@ -193,11 +208,25 @@ struct RandomWordView: View {
                 let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager,  selectedCategoryIds: selectedIds)
                 nextPrefetchedEntry = prefetchedEntry
                 nextPrefetchedCategoryId = prefetchedCategoryId
-                DispatchQueue.global(qos: .utility).async {
-                    audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
+                
+                if playSoundOnWordChange {
+                    DispatchQueue.global(qos: .utility).async {
+                        audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
+                    }
                 }
             }
-            audioPlayerHelper.playAudio(entryId: currentEntry.id)
+            // Initialize history with the current word
+            if history.isEmpty {
+                history.append(HistoryItem(kind: .word(currentEntry, currentCategoryId)))
+            }
+            
+            if playSoundOnWordChange {
+                if let idx = exampleIndex {
+                    audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: idx + 1)
+                } else {
+                    audioPlayerHelper.playAudio(entryId: currentEntry.id)
+                }
+            }
         }
         .gesture(
             DragGesture(minimumDistance: 30, coordinateSpace: .local)
@@ -207,7 +236,7 @@ struct RandomWordView: View {
                         showWordCard()
                     } else if isSwipeLeft(value) {
                         showNextWord()
-                    } else if isSwipeRight(value), !entryHistory.isEmpty {
+                    } else if isSwipeRight(value), historyIndex > 0 {
                         showPreviousWord()
                     }
                 }
@@ -289,51 +318,131 @@ struct RandomWordView: View {
     }
     
     private func showNextWord() {
+ 
         if LearningGoalManager.shared.shouldShowGoalAnimation {
             showGoalCelebration = true
             LearningGoalManager.shared.markGoalAnimationShown()
             return
         }
-        proceedToNextWord()
+        
+        if historyIndex + 1 < history.count {
+            historyIndex += 1
+            switchToHistoryItem(historyIndex: historyIndex)
+        } else if showExamplesAfterWord, !currentEntry.examples.isEmpty {
+            proceedToNextExample()
+        } else {
+            proceedToNextWord()
+        }
+    }
+    
+    private func proceedToNextExample(){
+        // 1. Если включён showExamplesAfterWord и exampleIndex == nil, показываем первый пример.
+        // 2. Если уже показан пример, показываем следующий (до лимита), иначе переходим к новому слову.
+        
+            if exampleIndex == nil {
+                // Показываем первый пример
+                exampleIndex = 0
+                history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .example(currentEntry, currentCategoryId, 0))]
+                historyIndex += 1
+                if playSoundOnWordChange {
+                    audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: 1)
+                }
+            } else if let idx = exampleIndex {
+                let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
+                if idx + 1 < limit {
+                    let nextIdx = idx + 1
+                    exampleIndex = nextIdx
+                    history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .example(currentEntry, currentCategoryId, nextIdx))]
+                    historyIndex += 1
+                    if playSoundOnWordChange {
+                        audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: nextIdx + 1)
+                    }
+                } else {
+                    // Заканчиваем просмотр примеров и сбрасываем exampleIndex
+                    exampleIndex = nil
+                    proceedToNextWord()
+                }
+            }
+        
     }
     
     private func proceedToNextWord() {
-        LearningGoalManager.shared.incrementProgress()
-        entryHistory.append((currentEntry, currentCategoryId))
-
+        
         if let next = nextPrefetchedEntry, let nextId = nextPrefetchedCategoryId {
             currentEntry = next
             currentCategoryId = nextId
-            print("🔊 Playing audio for word: \(next.word), category ID: \(nextId)")
-            audioPlayerHelper.playAudio(entryId: next.id)
-        }
+            exampleIndex = nil
 
-        // Prefetch next word asynchronously
-        DispatchQueue.global(qos: .utility).async {
-            print("🔄 Prefetching next word...")
-            let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
-            let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
+            history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .word(currentEntry, currentCategoryId))]
+            historyIndex += 1
+            
+            LearningGoalManager.shared.incrementProgress()
 
-            print("🎧 Prefetching audio for: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
-            audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
-            print("✅ Audio prefetch completed (or started) for: \(prefetchedEntry.word)")
+            if playSoundOnWordChange {
+                audioPlayerHelper.playAudio(entryId: currentEntry.id)
+            }
 
-            DispatchQueue.main.async {
-                print("✅ Prefetched word: \(prefetchedEntry.word), category ID: \(prefetchedCategoryId)")
-                nextPrefetchedEntry = prefetchedEntry
-                nextPrefetchedCategoryId = prefetchedCategoryId
+            if showExamplesAfterWord, !currentEntry.examples.isEmpty {
+                DispatchQueue.global(qos: .utility).async {
+                    let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
+                    for index in 0..<limit {
+                        audioPlayerHelper.prefetchExample(entryId: currentEntry.id, exampleIndex: index + 1)
+                    }
+                }
+            }
+
+            // Префетчим следующее слово
+            DispatchQueue.global(qos: .utility).async {
+                let selectedIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+                let (prefetchedEntry, prefetchedCategoryId) = Self.pickRandomEntry(wordService: wordService, learningStateManager: learningStateManager, selectedCategoryIds: selectedIds)
+
+                if playSoundOnWordChange {
+                    audioPlayerHelper.prefetchAudio(entryId: prefetchedEntry.id)
+                }
+
+                DispatchQueue.main.async {
+                    nextPrefetchedEntry = prefetchedEntry
+                    nextPrefetchedCategoryId = prefetchedCategoryId
+                }
             }
         }
     }
     
     private func showPreviousWord() {
-        withAnimation {
-            let previous = entryHistory.removeLast()
-            currentEntry = previous.0
-            currentCategoryId = previous.1
-            audioPlayerHelper.playAudio(entryId: currentEntry.id)
-        }
+        if historyIndex <= 0 { return }
+        historyIndex -= 1
+        switchToHistoryItem(historyIndex: historyIndex)
     }
     
+    private func switchToHistoryItem(historyIndex: Int){
+        let item = history[historyIndex]
+        print("🔁 Переход к элементу истории #\(historyIndex): \(item)")
+        print("📜 Вся история:")
+        for (i, h) in history.enumerated() {
+            switch h.kind {
+            case .word(let e, _):
+                print("  [\(i)] word: \(e.word)")
+            case .example(let e, _, let idx):
+                print("  [\(i)] example[\(idx)]: \(e.examples[idx].text)")
+            }
+        }
+        switch item.kind {
+        case .word(let entry, let categoryId):
+            currentEntry = entry
+            currentCategoryId = categoryId
+            exampleIndex = nil
+            if playSoundOnWordChange {
+                audioPlayerHelper.playAudio(entryId: entry.id)
+            }
+        case .example(let entry, let categoryId, let idx):
+            currentEntry = entry
+            currentCategoryId = categoryId
+            exampleIndex = idx
+            if playSoundOnWordChange {
+                let nextIdx = idx + 1
+                audioPlayerHelper.playExample(entryId: entry.id, exampleIndex: nextIdx)
+            }
+        }
+    }
 
 }

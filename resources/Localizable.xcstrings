@@ -854,6 +854,28 @@
         }
       }
     },
+    "settings_auto_advance_after_action" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto-swipe after marking word"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переходить к следующему слову при выборе действия"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå vidare automatiskt efter åtgärd"
+          }
+        }
+      }
+    },
     "settings_category_section" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -917,6 +939,50 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ändra dagligt mål"
+          }
+        }
+      }
+    },
+    "settings_examples_all" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla"
+          }
+        }
+      }
+    },
+    "settings_examples_to_show_count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Examples to show"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать примеров"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antal exempel"
           }
         }
       }
@@ -1080,6 +1146,28 @@
         }
       }
     },
+    "settings_play_sound_on_word_change" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play word on swipe"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проигрывать слово при переходе"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spela upp ord vid byte"
+          }
+        }
+      }
+    },
     "settings_reset_daily_progress" : {
       "localizations" : {
         "en" : {
@@ -1098,6 +1186,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Återställ daglig framsteg"
+          }
+        }
+      }
+    },
+    "settings_show_examples_after_word" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show examples after word"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать примеры после слова"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa exempel efter ordet"
           }
         }
       }
