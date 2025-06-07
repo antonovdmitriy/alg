@@ -1,0 +1,279 @@
+{
+  "id": "50140df0-62f2-4e60-895d-2b0dd1282004",
+  "translations": {
+    "ru": "Праздники и традиции",
+    "en": "Holidays and traditions",
+    "uk": "Свята та традиції",
+    "ar": "الأعياد والتقاليد",
+    "fa": "تعطیلات و سنت‌ها",
+    "so": "Fasaxyada iyo dhaqanka",
+    "es": "Fiestas y tradiciones",
+    "de": "Feiertage und Traditionen",
+    "fr": "Fêtes et traditions",
+    "pl": "Święta i tradycje",
+    "id": "Liburan dan tradisi",
+    "hi": "त्योहार और परंपराएं",
+    "zh": "节日和传统",
+    "it": "Feste e tradizioni",
+    "tr": "Bayramlar ve gelenekler",
+    "sr": "Празници и традиције",
+    "fi": "Juhlat ja perinteet",
+    "et": "Pühad ja traditsioonid",
+    "be": "Святы і традыцыі",
+    "lv": "Svētki un tradīcijas",
+    "lt": "Šventės ir tradicijos"
+  },
+  "entries": [
+    {
+      "id": "41a27a74-3b79-4db7-b3e8-129d37071937",
+      "version": -1,
+      "word": "en julklapp",
+      "forms": [
+        {
+          "form": "julklappar"
+        }
+      ],
+      "translations": {
+        "ru": "рождественские подарки",
+        "en": "Christmas presents",
+        "uk": "різдвяні подарунки",
+        "ar": "هدايا عيد الميلاد",
+        "fa": "هدایای کریسمس",
+        "so": "hadiyadaha kirismaska",
+        "es": "regalos de Navidad",
+        "de": "Weihnachtsgeschenke",
+        "fr": "cadeaux de Noël",
+        "pl": "prezenty świąteczne",
+        "id": "hadiah Natal",
+        "hi": "क्रिसमस के उपहार",
+        "zh": "圣诞礼物",
+        "it": "regali di Natale",
+        "tr": "Noel hediyeleri",
+        "sr": "божићни поклони",
+        "fi": "joululahjat",
+        "et": "jõulukingid",
+        "be": "калядныя падарункі",
+        "lv": "Ziemassvētku dāvanas",
+        "lt": "Kalėdų dovanos"
+      },
+      "examples": [
+        {
+          "text": "Man har julgran och ger varandra julklappar"
+        },
+        {
+          "text": "Jag köpte en julklapp till min mamma"
+        },
+        {
+          "text": "Har du redan köpt en julklapp till din syster? Julklappen jag fick var fantastisk! Jag slog in julklappen med rött papper"
+        },
+        {
+          "text": "Vi ska köpa många julklappar i år"
+        },
+        {
+          "text": "Barnen älskar att öppna sina julklappar på julafton"
+        },
+        {
+          "text": "Julklapparna ligger under granen"
+        },
+        {
+          "text": "Julklapparna köptes i sista minuten, men alla blev nöjda"
+        },
+        {
+          "text": "Kan du hjälpa mig att slå in julklapparna?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a960ad11-e293-4a07-896a-eb54c865f5e1",
+      "version": -1,
+      "word": "en folkdräkt",
+      "forms": [
+        {
+          "form": "folkdräkter"
+        }
+      ],
+      "translations": {
+        "ru": "национальный костюм (в зависимости от региона)",
+        "en": "national costume (varies by region)",
+        "uk": "національний костюм (залежить від регіону)",
+        "ar": "الزي الوطني (يختلف حسب المنطقة)",
+        "fa": "لباس ملی (بسته به منطقه متفاوت است)",
+        "so": "dharka qaran (waxay ku kala duwan yihiin gobol)",
+        "es": "traje nacional (varía según la región)",
+        "de": "nationale Tracht (variiert je nach Region)",
+        "fr": "costume national (varie selon la région)",
+        "pl": "strój narodowy (różni się w zależności od regionu)",
+        "id": "kostum nasional (bervariasi menurut wilayah)",
+        "hi": "राष्ट्रीय पोशाक (क्षेत्र के अनुसार भिन्न होती है)",
+        "zh": "民族服装（因地区而异）",
+        "it": "costume nazionale (varia a seconda della regione)",
+        "tr": "ulusal kostüm (bölgeye göre değişir)",
+        "sr": "национална ношња (варира у зависности од региона)",
+        "fi": "kansallispuku (vaihtelee alueittain)",
+        "et": "rahvariided (sõltuvalt piirkonnast erinevad)",
+        "be": "нацыянальны касцюм (у залежнасці ад рэгіёна)",
+        "lv": "nacionālais tērps (atšķiras atkarībā no reģiona)",
+        "lt": "nacionalinis kostiumas (priklauso nuo regiono)"
+      },
+      "examples": [
+        {
+          "text": "Behöver man gå i folkdräkt på midsommar? Hon bar en vacker folkdräkt från Dalarna"
+        },
+        {
+          "text": "Många bär folkdräkt på midsommar"
+        },
+        {
+          "text": "Folkdräkterna skiljer sig mycket mellan olika regioner"
+        },
+        {
+          "text": "Hennes folkdräkt var handsydd av hennes farmor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "58e960a5-ae66-43ab-a0a2-dc9415d953b0",
+      "version": -1,
+      "word": "en folkvisa",
+      "forms": [
+        {
+          "form": "folkvisor"
+        }
+      ],
+      "translations": {
+        "ru": "народные песни",
+        "en": "folk songs",
+        "uk": "народні пісні",
+        "ar": "أغاني شعبية",
+        "fa": "آهنگ‌های محلی",
+        "so": "heeso dhaqameed",
+        "es": "canciones folclóricas",
+        "de": "Volkslieder",
+        "fr": "chansons folkloriques",
+        "pl": "pieśni ludowe",
+        "id": "lagu rakyat",
+        "hi": "लोक गीत",
+        "zh": "民歌",
+        "it": "canzoni popolari",
+        "tr": "halk şarkıları",
+        "sr": "народне песме",
+        "fi": "kansanlaulut",
+        "et": "rahvalaulud",
+        "be": "народныя песні",
+        "lv": "tautas dziesmas",
+        "lt": "liaudies dainos"
+      },
+      "examples": [
+        {
+          "text": "Sedan dansar man runt midsommarstången och sjunger gamla folkvisor"
+        },
+        {
+          "text": "Jag älskar att lyssna på gamla svenska folkvisor"
+        },
+        {
+          "text": "Folkvisorna berättar ofta historier om kärlek och sorg"
+        },
+        {
+          "text": "Hon sjöng en vacker folkvisa under konserten"
+        },
+        {
+          "text": "Folkvisor är en viktig del av vårt kulturarv"
+        },
+        {
+          "text": "Vi lärde oss några norska folkvisor på språklektionen"
+        },
+        {
+          "text": "Under midsommarfesten sjöng alla glada folkvisor tillsammans"
+        },
+        {
+          "text": "Folkvisan hade en enkel melodi men en djupt känslosam text"
+        },
+        {
+          "text": "Många folkvisor har bevarats genom generationer"
+        },
+        {
+          "text": "Folkvisorna från Dalarna är särskilt välkända i Sverige"
+        },
+        {
+          "text": "De spelade in en samling med gamla folkvisor från hela landet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "da583ad6-dd95-4eb9-810e-3569363118fa",
+      "version": -1,
+      "word": "en högtid",
+      "forms": [
+        {
+          "form": "högtider"
+        }
+      ],
+      "translations": {
+        "ru": "праздник, религиозный или традиционный праздник",
+        "en": "holiday, religious or traditional celebration",
+        "uk": "свято, релігійне або традиційне свято",
+        "ar": "عطلة، احتفال ديني أو تقليدي",
+        "fa": "تعطیلات، جشن مذهبی یا سنتی",
+        "so": "fasax, dabaaldeg diimeed ama dhaqameed",
+        "es": "fiesta, celebración religiosa o tradicional",
+        "de": "Feiertag, religiöse oder traditionelle Feier",
+        "fr": "fête, célébration religieuse ou traditionnelle",
+        "pl": "święto, religijne lub tradycyjne świętowanie",
+        "id": "liburan, perayaan agama atau tradisional",
+        "hi": "छुट्टी, धार्मिक या पारंपरिक उत्सव",
+        "zh": "节日，宗教或传统庆祝活动",
+        "it": "festa, celebrazione religiosa o tradizionale",
+        "tr": "tatil, dini veya geleneksel kutlama",
+        "sr": "празник, верска или традиционална прослава",
+        "fi": "juhla, uskonnollinen tai perinteinen juhla",
+        "et": "püha, religioosne või traditsiooniline pidu",
+        "be": "свята, рэлігійнае або традыцыйнае свята",
+        "lv": "svētki, reliģiska vai tradicionāla svinēšana",
+        "lt": "šventė, religinė ar tradicinė šventė"
+      },
+      "examples": [
+        {
+          "text": "Jul är min favorit-högtid"
+        },
+        {
+          "text": "Vi firar flera olika högtider under året"
+        },
+        {
+          "text": "Högtiden var full av musik och glädje"
+        },
+        {
+          "text": "Påsk är en viktig kristen högtid"
+        },
+        {
+          "text": "Det är en gammal nordisk högtid"
+        },
+        {
+          "text": "Under högtiderna träffas familjen"
+        },
+        {
+          "text": "Nationaldagen är en officiell högtid i Sverige"
+        },
+        {
+          "text": "Alla skolor är stängda under högtiden"
+        },
+        {
+          "text": "Vi hade en högtidlig ceremoni på midsommarafton"
+        },
+        {
+          "text": "Högtiderna är viktiga för kulturen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3082 @@
+{
+  "id": "c67daa3f-5169-4ca0-8384-f9ccb9890089",
+  "translations": {
+    "ru": "движение и направление",
+    "en": "Motion and direction",
+    "uk": "рух і напрямок",
+    "ar": "الحركة والاتجاه",
+    "fa": "حرکت و جهت",
+    "so": "dhaqdhaqaaqa iyo jihada",
+    "es": "movimiento y dirección",
+    "de": "Bewegung und Richtung",
+    "fr": "mouvement et direction",
+    "pl": "ruch i kierunek",
+    "id": "gerakan dan arah",
+    "hi": "गति और दिशा",
+    "zh": "运动和方向",
+    "it": "movimento e direzione",
+    "tr": "hareket ve yön",
+    "sr": "кретање и правац",
+    "fi": "liike ja suunta",
+    "et": "liikumine ja suund",
+    "be": "рух і напрамак",
+    "lv": "kustība un virziens",
+    "lt": "judėjimas ir kryptis"
+  },
+  "entries": [
+    {
+      "id": "89e77df5-46fc-4f65-ab53-7be7214a2bce",
+      "version": -1,
+      "word": "här",
+      "translations": {
+        "ru": "здесь",
+        "en": "here",
+        "uk": "тут",
+        "ar": "هنا",
+        "fa": "اینجا",
+        "so": "halkan",
+        "es": "aquí",
+        "de": "hier",
+        "fr": "ici",
+        "pl": "tutaj",
+        "id": "di sini",
+        "hi": "यहाँ",
+        "zh": "这里",
+        "it": "qui",
+        "tr": "burada",
+        "sr": "овде",
+        "fi": "tässä",
+        "et": "siin",
+        "be": "тут",
+        "lv": "šeit",
+        "lt": "čia"
+      },
+      "examples": [
+        {
+          "text": "Jag söver har"
+        },
+        {
+          "text": "Han arbetar här"
+        },
+        {
+          "text": "Han bor här"
+        },
+        {
+          "text": "Göran sitter här"
+        },
+        {
+          "text": "Det finns ett kafé här"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bb49cdbe-4667-4719-bce1-93e69af4e380",
+      "version": 1,
+      "word": "hit",
+      "translations": {
+        "ru": "сюда",
+        "en": "to here",
+        "uk": "сюди",
+        "ar": "إلى هنا",
+        "fa": "به اینجا",
+        "so": "halkan",
+        "es": "aquí",
+        "de": "hierher",
+        "fr": "ici",
+        "pl": "tutaj",
+        "id": "ke sini",
+        "hi": "यहाँ",
+        "zh": "到这里",
+        "it": "qui",
+        "tr": "buraya",
+        "sr": "овде",
+        "fi": "tänne",
+        "et": "siia",
+        "be": "сюды",
+        "lv": "šeit",
+        "lt": "čia"
+      },
+      "examples": [
+        {
+          "text": "Tommy flyger hit"
+        },
+        {
+          "text": "Kom hit!"
+        },
+        {
+          "text": "Han kör hit varje morgon"
+        },
+        {
+          "text": "Hon flyttade hit 1973"
+        },
+        {
+          "text": "De kommer hit"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "16300c58-c58e-4978-8e37-5f2ada98fd56",
+      "version": -1,
+      "word": "där",
+      "translations": {
+        "ru": "там",
+        "en": "there",
+        "uk": "там",
+        "ar": "هناك",
+        "fa": "آنجا",
+        "so": "halkaas",
+        "es": "allí",
+        "de": "dort",
+        "fr": "là",
+        "pl": "tam",
+        "id": "di sana",
+        "hi": "वहाँ",
+        "zh": "那里",
+        "it": "lì",
+        "tr": "orada",
+        "sr": "тамо",
+        "fi": "siellä",
+        "et": "seal",
+        "be": "там",
+        "lv": "tur",
+        "lt": "ten"
+      },
+      "examples": [
+        {
+          "text": "Jag bodde i Paris"
+        },
+        {
+          "text": "Där lärde jag mig franska"
+        },
+        {
+          "text": "Där finns en vacker park"
+        },
+        {
+          "text": "Han väntar där vid busshållplatsen"
+        },
+        {
+          "text": "Jag har aldrig varit där förut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ac89f8e6-f58d-4bfa-9441-94e7e5da162d",
+      "version": -1,
+      "word": "ditt",
+      "translations": {
+        "ru": "туда",
+        "en": "to there",
+        "uk": "туди",
+        "ar": "إلى هناك",
+        "fa": "به آنجا",
+        "so": "halkaas",
+        "es": "allí",
+        "de": "dorthin",
+        "fr": "là-bas",
+        "pl": "tam",
+        "id": "ke sana",
+        "hi": "वहाँ",
+        "zh": "到那里",
+        "it": "lì",
+        "tr": "oraya",
+        "sr": "тамо",
+        "fi": "sinne",
+        "et": "sinna",
+        "be": "туды",
+        "lv": "tur",
+        "lt": "ten"
+      },
+      "examples": [
+        {
+          "text": "Vi måste åka dit nu"
+        },
+        {
+          "text": "Kan du köra honom dit"
+        },
+        {
+          "text": "Hon vill åka dit i sommar"
+        },
+        {
+          "text": "Kan du visa mig vägen dit? När vi kom dit, var festen redan igång"
+        },
+        {
+          "text": "Han sprang dit så fort han kunde"
+        },
+        {
+          "text": "Vill du följa med dit?  Vi ska bara dit och tillbaka, det tar inte lång tid."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "72006ff1-88ba-4bba-89e0-e098f6037fa4",
+      "version": 1,
+      "word": "därifrån",
+      "translations": {
+        "ru": "оттуда, с того места",
+        "en": "from there, from that place",
+        "uk": "звідти, з того місця",
+        "ar": "من هناك، من ذلك المكان",
+        "fa": "از آنجا، از آن مکان",
+        "so": "halkaas, meeshaas",
+        "es": "de allí, de ese lugar",
+        "de": "von dort, von diesem Ort",
+        "fr": "de là, de cet endroit",
+        "pl": "stamtąd, z tego miejsca",
+        "id": "dari sana, dari tempat itu",
+        "hi": "वहाँ से, उस स्थान से",
+        "zh": "从那里，从那个地方",
+        "it": "da lì, da quel posto",
+        "tr": "oradan, o yerden",
+        "sr": "одатле, са тог места",
+        "fi": "sieltä, siitä paikasta",
+        "et": "sealt, sellest kohast",
+        "be": "адтуль, з таго месца",
+        "lv": "no turienes, no tās vietas",
+        "lt": "iš ten, iš tos vietos"
+      },
+      "examples": [
+        {
+          "text": "Han kom precis därifrån"
+        },
+        {
+          "text": "Kan du hämta boken därifrån?"
+        },
+        {
+          "text": "Jag flyttade därifrån för två år sedan"
+        },
+        {
+          "text": "Vi såg en fantastisk utsikt därifrån"
+        },
+        {
+          "text": "Det är svårt att ta sig därifrån utan bil"
+        },
+        {
+          "text": "Kan du ta med dig något därifrån till mig?"
+        },
+        {
+          "text": "De åkte därifrån tidigt på morgonen"
+        },
+        {
+          "text": "Hon berättade om sitt gamla hus och hur det såg ut därifrån"
+        },
+        {
+          "text": "Jag minns fortfarande doften därifrån"
+        },
+        {
+          "text": "Vi fick ett brev därifrån för några dagar sedan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1c8ca17f-2106-44a0-8dc5-28883672855d",
+      "version": 1,
+      "word": "härifrån",
+      "translations": {
+        "ru": "отсюда, с этого места",
+        "en": "from here, from this place",
+        "uk": "звідси, з цього місця",
+        "ar": "من هنا، من هذا المكان",
+        "fa": "از اینجا، از این مکان",
+        "so": "halkaan, meeshan",
+        "es": "desde aquí, desde este lugar",
+        "de": "von hier, von diesem Ort",
+        "fr": "d'ici, de cet endroit",
+        "pl": "stąd, z tego miejsca",
+        "id": "dari sini, dari tempat ini",
+        "hi": "यहाँ से, इस स्थान से",
+        "zh": "从这里，从这个地方",
+        "it": "da qui, da questo posto",
+        "tr": "buradan, bu yerden",
+        "sr": "одатле, са овог места",
+        "fi": "täältä, tästä paikasta",
+        "et": "siit, sellest kohast",
+        "be": "адсюль, з гэтага месца",
+        "lv": "no šejienes, no šīs vietas",
+        "lt": "iš čia, iš šios vietos"
+      },
+      "examples": [
+        {
+          "text": "Vi måste gå härifrån nu"
+        },
+        {
+          "text": "Hur långt är det härifrån till Stockholm?"
+        },
+        {
+          "text": "Jag kan se havet härifrån"
+        },
+        {
+          "text": "Kan du köra mig härifrån till flygplatsen?"
+        },
+        {
+          "text": "Hon flyttade härifrån för fem år sedan"
+        },
+        {
+          "text": "Han såg ingen väg härifrån, men han gav inte upp"
+        },
+        {
+          "text": "Låt oss ta oss härifrån innan det börjar regna"
+        },
+        {
+          "text": "Jag vill bort härifrån och börja ett nytt liv."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0fffe526-e89f-47f3-a43d-7b2746d38a2a",
+      "version": -1,
+      "word": "hem, in, ut, ner, upp",
+      "translations": {
+        "ru": "также с глаголами движения употребляются короткие слова",
+        "en": "short words are also used with verbs of motion",
+        "uk": "короткі слова також вживаються з дієсловами руху",
+        "ar": "تُستخدم الكلمات القصيرة أيضًا مع أفعال الحركة",
+        "fa": "کلمات کوتاه نیز با افعال حرکت استفاده می‌شوند",
+        "so": "erayo gaagaaban ayaa sidoo kale loo isticmaalaa falalka dhaqdhaqaaqa",
+        "es": "también se utilizan palabras cortas con los verbos de movimiento",
+        "de": "kurze Wörter werden auch mit Bewegungsverben verwendet",
+        "fr": "des mots courts sont également utilisés avec les verbes de mouvement",
+        "pl": "krótkie słowa są również używane z czasownikami ruchu",
+        "id": "kata-kata pendek juga digunakan dengan kata kerja gerak",
+        "hi": "गति के क्रियाओं के साथ छोटे शब्दों का भी उपयोग किया जाता है",
+        "zh": "短词也用于运动动词",
+        "it": "anche le parole brevi sono usate con i verbi di moto",
+        "tr": "kısa kelimeler hareket fiilleriyle de kullanılır",
+        "sr": "kratke reči se takođe koriste sa glagolima kretanja",
+        "fi": "lyhyitä sanoja käytetään myös liikeverbeissä",
+        "et": "lühikesi sõnu kasutatakse ka liikumistegusõnadega",
+        "be": "кароткія словы таксама ўжываюцца з дзеясловамі руху",
+        "lv": "arī īsus vārdus lieto ar kustības darbības vārdiem",
+        "lt": "trumpi žodžiai taip pat vartojami su judėjimo veiksmažodžiais"
+      },
+      "examples": [
+        {
+          "text": "Jag vill gå hem"
+        },
+        {
+          "text": "Anders körde hem klockan 18"
+        },
+        {
+          "text": "Kom in och ät"
+        },
+        {
+          "text": "Oj vad kallt det är"
+        },
+        {
+          "text": "Kom så går vi in! Kom så går vi ut"
+        },
+        {
+          "text": "Det har slutat regna"
+        },
+        {
+          "text": "Hur gick det att köra ner till Skåne"
+        },
+        {
+          "text": "Brandmännen hjälpte katten att komma ner från trädet"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "26d76ccf-cfbf-4a3f-86e8-488a0b7927a7",
+      "version": -1,
+      "word": "Hemma, Inne, Ute, Nere, Uppe",
+      "translations": {
+        "ru": "если не глаголы движения тогда длинные формы слов",
+        "en": "if not verbs of motion then long word forms",
+        "uk": "якщо не дієслова руху, то довгі форми слів",
+        "ar": "إذا لم تكن أفعال الحركة، فالأشكال الطويلة للكلمات",
+        "fa": "اگر افعال حرکت نباشند، پس فرم‌های طولانی کلمات",
+        "so": "haddii aysan ahayn falalka dhaqdhaqaaqa markaa qaababka erayada dheer",
+        "es": "si no son verbos de movimiento, entonces formas largas de palabras",
+        "de": "wenn nicht Bewegungsverben, dann lange Wortformen",
+        "fr": "si ce ne sont pas des verbes de mouvement, alors des formes longues de mots",
+        "pl": "jeśli nie czasowniki ruchu, to długie formy słów",
+        "id": "jika bukan kata kerja gerak maka bentuk kata panjang",
+        "hi": "यदि गति के क्रिया नहीं हैं तो लंबे शब्द रूप",
+        "zh": "如果不是运动动词，则是长词形式",
+        "it": "se non sono verbi di moto, allora forme lunghe delle parole",
+        "tr": "hareket fiilleri değilse, o zaman uzun kelime biçimleri",
+        "sr": "ако нису глаголи кретања, онда дуги облици речи",
+        "fi": "jos eivät ole liikeverbejä, niin pitkät sanamuodot",
+        "et": "kui mitte liikumisverbid, siis pikad sõnavormid",
+        "be": "калі не дзеясловы руху, то доўгі формы слоў",
+        "lv": "ja ne nav kustības darbības vārdi, tad garas vārdu formas",
+        "lt": "jei ne judėjimo veiksmažodžiai, tada ilgos žodžių formos"
+      },
+      "examples": [
+        {
+          "text": "Lisa ska stanna hemma hela semestern"
+        },
+        {
+          "text": "Barnen ville inte sitta inne och läsa"
+        },
+        {
+          "text": "De ville gå ut"
+        },
+        {
+          "text": "När det är kallt ute måste man stanna inne"
+        },
+        {
+          "text": "Det regnar ute"
+        },
+        {
+          "text": "På sommaren sitter vi gärna ute i trädgården och äter middag"
+        },
+        {
+          "text": "Var är Anders? Han är nere i källaren och lagar sin cykel"
+        },
+        {
+          "text": "Åhléns ligger nere i centrum"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "84a49374-a7bd-4ec7-a975-38e5d64467a1",
+      "version": -1,
+      "word": "en ingång",
+      "forms": [
+        {
+          "form": "ingångar"
+        }
+      ],
+      "translations": {
+        "ru": "вход",
+        "en": "entrance",
+        "uk": "вхід",
+        "ar": "مدخل",
+        "fa": "ورودی",
+        "so": "gelitaanka",
+        "es": "entrada",
+        "de": "Eingang",
+        "fr": "entrée",
+        "pl": "wejście",
+        "id": "pintu masuk",
+        "hi": "प्रवेश",
+        "zh": "入口",
+        "it": "ingresso",
+        "tr": "giriş",
+        "sr": "улаз",
+        "fi": "sisäänkäynti",
+        "et": "sissepääs",
+        "be": "уваход",
+        "lv": "ieeja",
+        "lt": "įėjimas"
+      },
+      "examples": [
+        {
+          "text": "Var är ingången? Huvudingången ligger på andra sidan byggnaden"
+        },
+        {
+          "text": "Det finns flera ingångar till köpcentret"
+        },
+        {
+          "text": "Vi väntar vid ingången till museet"
+        },
+        {
+          "text": "Den här dörren är en nödingång, endast för personal"
+        },
+        {
+          "text": "Ingångarna till stadion öppnas en timme före matchen"
+        },
+        {
+          "text": "Var är ingången till tunnelbanan? De satte upp en skylt vid ingången"
+        },
+        {
+          "text": "Ingången är låst efter kl"
+        },
+        {
+          "text": "22"
+        },
+        {
+          "text": "Vi måste hitta en annan ingång, den här är blockerad"
+        },
+        {
+          "text": "Butiken har en separat ingång för leveranser."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ca4b0348-3f91-4818-b6a9-d9c0e75b4c36",
+      "version": -1,
+      "word": "en utgång",
+      "forms": [
+        {
+          "form": "utgångar"
+        }
+      ],
+      "translations": {
+        "ru": "выход, второе значение Завершение, исход ситуации",
+        "en": "exit, second meaning: completion, outcome of a situation",
+        "uk": "вихід, друге значення: завершення, результат ситуації",
+        "ar": "خروج، المعنى الثاني: إتمام، نتيجة الوضع",
+        "fa": "خروج، معنای دوم: تکمیل، نتیجه وضعیت",
+        "so": "bax, macnaha labaad: dhammaystirka, natiijada xaaladda",
+        "es": "salida, segundo significado: finalización, resultado de una situación",
+        "de": "Ausgang, zweite Bedeutung: Abschluss, Ergebnis einer Situation",
+        "fr": "sortie, deuxième signification : achèvement, issue d'une situation",
+        "pl": "wyjście, drugie znaczenie: zakończenie, wynik sytuacji",
+        "id": "keluar, arti kedua: penyelesaian, hasil dari situasi",
+        "hi": "निकास, दूसरा अर्थ: पूर्णता, स्थिति का परिणाम",
+        "zh": "出口，第二个意思：完成，情况的结果",
+        "it": "uscita, secondo significato: completamento, esito di una situazione",
+        "tr": "çıkış, ikinci anlam: tamamlama, bir durumun sonucu",
+        "sr": "излаз, друго значење: завршетак, исход ситуације",
+        "fi": "uloskäynti, toinen merkitys: valmistuminen, tilanteen lopputulos",
+        "et": "väljapääs, teine tähendus: lõpetamine, olukorra tulemus",
+        "be": "выхад, другое значэнне: завяршэнне, вынік сітуацыі",
+        "lv": "izeja, otrā nozīme: pabeigšana, situācijas iznākums",
+        "lt": "išėjimas, antra reikšmė: užbaigimas, situacijos rezultatas"
+      },
+      "examples": [
+        {
+          "text": "Var är utgången? Var ligger utgången till gatan? Utgångarna från arenan är markerade med gröna skyltar"
+        },
+        {
+          "text": "Vi måste hitta en nödutgång ifall det blir en brand"
+        },
+        {
+          "text": "Flygplanet har flera nödutgångar längs kabinen"
+        },
+        {
+          "text": "Utgången är på andra sidan korridoren"
+        },
+        {
+          "text": "Hur blev utgången av matchen?Han var osäker på utgången av experimentet"
+        },
+        {
+          "text": "Vi väntar på rättslig utgång av fallet"
+        },
+        {
+          "text": "Filmen hade en oväntad utgång"
+        },
+        {
+          "text": "Diskussionen fick en positiv utgång."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5bdcc3d5-1adb-4073-bb6e-c8a4c613774a",
+      "version": -1,
+      "word": "utanför",
+      "translations": {
+        "ru": "снаружи, вне, за пределами",
+        "en": "outside, beyond, out of",
+        "uk": "зовні, поза, за межами",
+        "ar": "خارج, وراء, خارج نطاق",
+        "fa": "بیرون, فراتر, خارج از",
+        "so": "dibadda, ka baxsan, ka baxsan",
+        "es": "afuera, más allá, fuera de",
+        "de": "draußen, jenseits, außerhalb",
+        "fr": "dehors, au-delà, en dehors de",
+        "pl": "na zewnątrz, poza, poza",
+        "id": "di luar, melampaui, di luar",
+        "hi": "बाहर, परे, से बाहर",
+        "zh": "外面, 超越, 之外",
+        "it": "fuori, oltre, al di fuori di",
+        "tr": "dışarıda, ötesinde, dışında",
+        "sr": "напољу, изван, ван",
+        "fi": "ulkona, yli, ulkopuolella",
+        "et": "väljas, kaugemal, väljaspool",
+        "be": "звонку, па-за, па-за межамі",
+        "lv": "ārpus, ārpus, ārpus",
+        "lt": "lauke, už, už ribų"
+      },
+      "examples": [
+        {
+          "text": "Polisbilarna är parkerade utanför polisstationen"
+        },
+        {
+          "text": "Bilen står utanför huset"
+        },
+        {
+          "text": "Vi väntar utanför restaurangen"
+        },
+        {
+          "text": "Det är kallt utanför, ta på dig en jacka"
+        },
+        {
+          "text": "Hon lämnade cykeln utanför skolan"
+        },
+        {
+          "text": "Katten sitter utanför dörren och vill komma in"
+        },
+        {
+          "text": "Han känner sig ofta utanför i gruppen"
+        },
+        {
+          "text": "Det här ligger utanför mitt ansvarsområde"
+        },
+        {
+          "text": "Hon står utanför politiken och engagerar sig inte"
+        },
+        {
+          "text": "Projektet ligger utanför budgeten"
+        },
+        {
+          "text": "Många känner sig utanför i samhället."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b9b4d532-f631-4952-ae9e-aa7299b01e29",
+      "version": 1,
+      "word": "inne",
+      "translations": {
+        "ru": "внутри, второе значение в моде, популярный, актуальный",
+        "en": "inside, second meaning: fashionable, popular, relevant",
+        "uk": "всередині, друге значення: модний, популярний, актуальний",
+        "ar": "داخل، المعنى الثاني: عصري، شائع، ذو صلة",
+        "fa": "داخل، معنای دوم: مد روز، محبوب، مرتبط",
+        "so": "gudaha, macnaha labaad: moodada, caan ah, khuseeya",
+        "es": "dentro, segundo significado: de moda, popular, relevante",
+        "de": "innen, zweite Bedeutung: modisch, populär, relevant",
+        "fr": "à l'intérieur, deuxième sens : à la mode, populaire, pertinent",
+        "pl": "wewnątrz, drugie znaczenie: modny, popularny, istotny",
+        "id": "di dalam, arti kedua: modis, populer, relevan",
+        "hi": "अंदर, दूसरा अर्थ: फैशनेबल, लोकप्रिय, प्रासंगिक",
+        "zh": "里面，第二个意思：时尚，流行，相关",
+        "it": "dentro, secondo significato: alla moda, popolare, rilevante",
+        "tr": "içeride, ikinci anlam: modaya uygun, popüler, ilgili",
+        "sr": "унутра, друго значење: модеран, популаран, релевантан",
+        "fi": "sisällä, toinen merkitys: muodikas, suosittu, merkityksellinen",
+        "et": "sees, teine tähendus: moekas, populaarne, asjakohane",
+        "be": "унутры, другое значэнне: модны, папулярны, актуальны",
+        "lv": "iekšā, otrā nozīme: modīgs, populārs, aktuāls",
+        "lt": "viduje, antra reikšmė: madingas, populiarus, aktualus"
+      },
+      "examples": [
+        {
+          "text": "Vi är inne på hotellet"
+        },
+        {
+          "text": "Barnen leker inne i huset"
+        },
+        {
+          "text": "Är du inne eller ute?"
+        },
+        {
+          "text": "Det är varmt inne, men kallt ute"
+        },
+        {
+          "text": "Hon stannade inne hela dagen eftersom det regnade"
+        },
+        {
+          "text": "Du kan gå inne i byggnaden och vänta där"
+        },
+        {
+          "text": "Den här färgen är väldigt inne just nu"
+        },
+        {
+          "text": "Minimalistisk design är fortfarande inne"
+        },
+        {
+          "text": "Hon har alltid koll på vad som är inne och vad som är ute"
+        },
+        {
+          "text": "Att ha en elbil är verkligen inne nuförtiden"
+        },
+        {
+          "text": "Ekologiska produkter är mer inne än någonsin."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dd005e79-ee4c-4a92-931e-faba4e7ffc36",
+      "version": 1,
+      "word": "därinne",
+      "translations": {
+        "ru": "внутри дома, там внутри, . Переносное значение (внутренний мир, эмоции, мысли)",
+        "en": "inside the house, there inside. Figurative meaning (inner world, emotions, thoughts)",
+        "uk": "всередині будинку, там всередині. Переносне значення (внутрішній світ, емоції, думки)",
+        "ar": "داخل المنزل، هناك في الداخل. معنى مجازي (العالم الداخلي، العواطف، الأفكار)",
+        "fa": "داخل خانه، آنجا داخل. معنای استعاری (دنیای درونی، احساسات، افکار)",
+        "so": "gudaha guriga, halkaas gudaha. Macnaha maadiga ah (dunida gudaha, dareenka, fikirrada)",
+        "es": "dentro de la casa, allí dentro. Significado figurado (mundo interior, emociones, pensamientos)",
+        "de": "im Haus, dort drinnen. Bildliche Bedeutung (innere Welt, Emotionen, Gedanken)",
+        "fr": "à l'intérieur de la maison, là-dedans. Sens figuré (monde intérieur, émotions, pensées)",
+        "pl": "wewnątrz domu, tam wewnątrz. Znaczenie przenośne (świat wewnętrzny, emocje, myśli)",
+        "id": "di dalam rumah, di sana di dalam. Makna kiasan (dunia batin, emosi, pikiran)",
+        "hi": "घर के अंदर, वहां अंदर। रूपक अर्थ (आंतरिक दुनिया, भावनाएं, विचार)",
+        "zh": "在房子里面，那里里面。比喻意义（内心世界，情感，思想）",
+        "it": "dentro la casa, lì dentro. Significato figurato (mondo interiore, emozioni, pensieri)",
+        "tr": "evin içinde, orada içeride. Mecazi anlam (iç dünya, duygular, düşünceler)",
+        "sr": "унутар куће, тамо унутра. Фигуративно значење (унутрашњи свет, емоције, мисли)",
+        "fi": "talon sisällä, siellä sisällä. Kuvainnollinen merkitys (sisäinen maailma, tunteet, ajatukset)",
+        "et": "maja sees, seal sees. Kujundlik tähendus (sisemine maailm, emotsioonid, mõtted)",
+        "be": "у доме, там унутры. Пераноснае значэнне (унутраны свет, эмоцыі, думкі)",
+        "lv": "mājas iekšpusē, tur iekšā. Pārnestā nozīme (iekšējā pasaule, emocijas, domas)",
+        "lt": "namuose, ten viduje. Perkeltinė prasmė (vidinis pasaulis, emocijos, mintys)"
+      },
+      "examples": [
+        {
+          "text": "Jultomten kommer hem till barnfamiljer, knackar på dörren och frågar om det finns några snälla barn därinne"
+        },
+        {
+          "text": "Vad gör de därinne?"
+        },
+        {
+          "text": "Det är mörkt därinne, tänd lampan"
+        },
+        {
+          "text": "Jag glömde min telefon därinne i rummet"
+        },
+        {
+          "text": "Hon väntar därinne, gå och prata med henne"
+        },
+        {
+          "text": "Det verkar varmt därinne, öppna fönstret"
+        },
+        {
+          "text": "Vad tänker du på därinne?"
+        },
+        {
+          "text": "Därinne finns många minnen från barndomen"
+        },
+        {
+          "text": "Han har en stor sorg därinne, men visar det inte."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4f0c6e54-9eb5-43d6-bb86-18b504d829e4",
+      "version": 1,
+      "word": "vänster",
+      "translations": {
+        "ru": "лево",
+        "en": "left",
+        "uk": "ліворуч",
+        "ar": "يسار",
+        "fa": "چپ",
+        "so": "bidix",
+        "es": "izquierda",
+        "de": "links",
+        "fr": "gauche",
+        "pl": "lewo",
+        "id": "kiri",
+        "hi": "बाएँ",
+        "zh": "左",
+        "it": "sinistra",
+        "tr": "sol",
+        "sr": "лево",
+        "fi": "vasen",
+        "et": "vasak",
+        "be": "лева",
+        "lv": "pa kreisi",
+        "lt": "kairė"
+      },
+      "examples": [
+        {
+          "text": "Gå rakt och sväng till vänster efter den andra korsningen"
+        },
+        {
+          "text": "Håll till vänster när du går uppför trappan"
+        },
+        {
+          "text": "Jag har ont i vänster arm"
+        },
+        {
+          "text": "Nyckeln ligger på vänster sida av bordet"
+        },
+        {
+          "text": "Kör i vänster fil på motorvägen"
+        },
+        {
+          "text": "Han har vänster åsikter i politiken"
+        },
+        {
+          "text": "Vänsterpartiet är en del av Sveriges riksdag"
+        },
+        {
+          "text": "Vilken väg är det?"
+        },
+        {
+          "text": "Till höger eller vänster?"
+        },
+        {
+          "text": "Jag sitter alltid på vänster sida i bussen"
+        },
+        {
+          "text": "Leta efter butiken på vänster sida av gatan"
+        },
+        {
+          "text": "Hon har vänstersympatier och stödjer miljörörelsen"
+        },
+        {
+          "text": "Vänstertrafik känns ovanligt för oss som är vana vid högertrafik."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9806f003-8915-4c6f-be0d-a9183f740cf9",
+      "version": -1,
+      "word": "till vänster om",
+      "translations": {
+        "ru": "слева от",
+        "en": "to the left of",
+        "uk": "ліворуч від",
+        "ar": "إلى اليسار من",
+        "fa": "در سمت چپ",
+        "so": "bidixda",
+        "es": "a la izquierda de",
+        "de": "links von",
+        "fr": "à gauche de",
+        "pl": "na lewo od",
+        "id": "di sebelah kiri",
+        "hi": "के बाईं ओर",
+        "zh": "在...的左边",
+        "it": "a sinistra di",
+        "tr": "solunda",
+        "sr": "лево од",
+        "fi": "vasemmalla",
+        "et": "vasakul pool",
+        "be": "злева ад",
+        "lv": "pa kreisi no",
+        "lt": "kairėje nuo"
+      },
+      "examples": [
+        {
+          "text": "Lampan står till vänster om sängen"
+        },
+        {
+          "text": "Tavlan hänger till vänster om dörren"
+        },
+        {
+          "text": "Sväng till vänster om du ser trafikljusen"
+        },
+        {
+          "text": "Restaurangen är till vänster om busshållplatsen"
+        },
+        {
+          "text": "Huset ligger till vänster om skolan"
+        },
+        {
+          "text": "Du kan parkera bilen till vänster om trädet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4a673c62-b89c-405b-b966-ae4a3d1c9f2e",
+      "version": -1,
+      "word": "ta till vänster",
+      "forms": [
+        {
+          "form": "tar till vänster"
+        },
+        {
+          "form": "tog till vänster"
+        },
+        {
+          "form": "tagit till vänster"
+        }
+      ],
+      "translations": {
+        "ru": "поверни налево",
+        "en": "turn left",
+        "uk": "поверни ліворуч",
+        "ar": "انعطف يسارًا",
+        "fa": "به چپ بپیچ",
+        "so": "u leexo bidix",
+        "es": "gira a la izquierda",
+        "de": "biege links ab",
+        "fr": "tourne à gauche",
+        "pl": "skręć w lewo",
+        "id": "belok kiri",
+        "hi": "बाएँ मुड़ें",
+        "zh": "左转",
+        "it": "gira a sinistra",
+        "tr": "sola dön",
+        "sr": "скрени лево",
+        "fi": "käänny vasemmalle",
+        "et": "pööra vasakule",
+        "be": "павярні налева",
+        "lv": "pagriezies pa kreisi",
+        "lt": "pasuk į kairę"
+      },
+      "examples": [
+        {
+          "text": "Vid nästa korsning, ta till vänster"
+        },
+        {
+          "text": "Ta till vänster efter kyrkan"
+        },
+        {
+          "text": "När du kommer till parken, tar du till vänster"
+        },
+        {
+          "text": "Jag tog till vänster vid rondellen"
+        },
+        {
+          "text": "Du ska ta till vänster vid första avfarten"
+        },
+        {
+          "text": "Om du går förbi skolan, ta till vänster vid biblioteket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "560007af-0f21-444c-a583-9f3bd64c5640",
+      "version": -1,
+      "word": "sväng vänster",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vid nästa korsning, sväng vänster"
+        },
+        {
+          "text": "Sväng vänster efter trafikljuset"
+        },
+        {
+          "text": "För att komma till torget, måste du svänga vänster här"
+        },
+        {
+          "text": "När du ser kyrkan, sväng vänster och fortsätt rakt fram"
+        },
+        {
+          "text": "Vid butiken, sväng vänster."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f23d786b-f8c6-4a5d-b750-64f685a3222f",
+      "version": -1,
+      "word": "höger",
+      "translations": {
+        "ru": "право",
+        "en": "right",
+        "uk": "право",
+        "ar": "حق",
+        "fa": "حق",
+        "so": "xuquuq",
+        "es": "derecho",
+        "de": "Recht",
+        "fr": "droit",
+        "pl": "prawo",
+        "id": "hak",
+        "hi": "अधिकार",
+        "zh": "权利",
+        "it": "diritto",
+        "tr": "hak",
+        "sr": "право",
+        "fi": "oikeus",
+        "et": "õigus",
+        "be": "права",
+        "lv": "tiesības",
+        "lt": "teisė"
+      },
+      "examples": [
+        {
+          "text": "Det finns fler bilder om du svejpar till höger"
+        },
+        {
+          "text": "Sväng höger vid trafikljuset"
+        },
+        {
+          "text": "Gå rakt fram och sedan höger"
+        },
+        {
+          "text": "Håll till höger på motorvägen"
+        },
+        {
+          "text": "Butiken ligger till höger om apoteket"
+        },
+        {
+          "text": "Jag har min mobil i fickan till höger"
+        },
+        {
+          "text": "Jag skriver med höger hand"
+        },
+        {
+          "text": "Han har ont i höger knä"
+        },
+        {
+          "text": "Min höger fot är lite större än min vänster"
+        },
+        {
+          "text": "Jag hör dåligt på höger öra"
+        },
+        {
+          "text": "Hon pekade med höger hand mot dörren."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6615d7e7-4001-4b6e-a84b-01778f24b251",
+      "version": -1,
+      "word": "till höger om",
+      "translations": {
+        "ru": "c права от",
+        "en": "to the right of",
+        "uk": "праворуч від",
+        "ar": "إلى اليمين من",
+        "fa": "در سمت راست",
+        "so": "midigta",
+        "es": "a la derecha de",
+        "de": "rechts von",
+        "fr": "à droite de",
+        "pl": "na prawo od",
+        "id": "di sebelah kanan",
+        "hi": "के दाईं ओर",
+        "zh": "在...的右边",
+        "it": "a destra di",
+        "tr": "sağında",
+        "sr": "десно од",
+        "fi": "oikealla puolella",
+        "et": "paremal pool",
+        "be": "справа ад",
+        "lv": "pa labi no",
+        "lt": "dešinėje nuo"
+      },
+      "examples": [
+        {
+          "text": "Apoteket ligger till höger om mataffären"
+        },
+        {
+          "text": "Mitt hus är till höger om biblioteket"
+        },
+        {
+          "text": "Stolen står till höger om bordet"
+        },
+        {
+          "text": "Parkeringsplatsen är till höger om ingången"
+        },
+        {
+          "text": "Du ser kyrkan till höger om torget"
+        },
+        {
+          "text": "Sväng till höger om du kommer till rondellen"
+        },
+        {
+          "text": "När du går in i byggnaden, gå till höger om receptionen"
+        },
+        {
+          "text": "Restaurangen ligger till höger om hotellets huvudingång"
+        },
+        {
+          "text": "Lekplatsen är till höger om skolan"
+        },
+        {
+          "text": "Bussen stannar till höger om tunnelbaneuppgången."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4b26e5cc-2718-4f7c-823a-5aa576da698e",
+      "version": -1,
+      "word": "ta till höger",
+      "forms": [
+        {
+          "form": "tar till höger"
+        },
+        {
+          "form": "tog till höger"
+        },
+        {
+          "form": "tagit till höger"
+        }
+      ],
+      "translations": {
+        "ru": "поверни направо",
+        "en": "turn right",
+        "uk": "поверни праворуч",
+        "ar": "انعطف يمينًا",
+        "fa": "به راست بپیچ",
+        "so": "u leexo midig",
+        "es": "gira a la derecha",
+        "de": "biege rechts ab",
+        "fr": "tourne à droite",
+        "pl": "skręć w prawo",
+        "id": "belok kanan",
+        "hi": "दाईं ओर मुड़ें",
+        "zh": "向右转",
+        "it": "gira a destra",
+        "tr": "sağa dön",
+        "sr": "скрени десно",
+        "fi": "käänny oikealle",
+        "et": "pööra paremale",
+        "be": "павярні направа",
+        "lv": "pagriezies pa labi",
+        "lt": "pasuk į dešinę"
+      },
+      "examples": [
+        {
+          "text": "När du kommer till korsningen, ta till höger"
+        },
+        {
+          "text": "Ta till höger vid nästa gata"
+        },
+        {
+          "text": "Om du kör rakt fram och sedan tar till höger, kommer du till stationen"
+        },
+        {
+          "text": "Efter bron ska du ta till höger"
+        },
+        {
+          "text": "För att komma till museet måste du ta till höger efter torget."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "58ad0638-2e13-402e-9237-63bb1c4a6261",
+      "version": -1,
+      "word": "sväng höger",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vid trafikljuset, sväng höger"
+        },
+        {
+          "text": "Sväng höger efter bron"
+        },
+        {
+          "text": "När du kommer till korsningen, sväng höger"
+        },
+        {
+          "text": "Sväng höger och sedan rakt fram"
+        },
+        {
+          "text": "För att komma till stationen, sväng höger vid den stora byggnaden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "49d4de2a-f943-440c-ac47-261b2fbc328d",
+      "version": -1,
+      "word": "öst",
+      "translations": {
+        "ru": "восток",
+        "en": "east",
+        "uk": "схід",
+        "ar": "شرق",
+        "fa": "شرق",
+        "so": "bari",
+        "es": "este",
+        "de": "Osten",
+        "fr": "est",
+        "pl": "wschód",
+        "id": "timur",
+        "hi": "पूर्व",
+        "zh": "东",
+        "it": "est",
+        "tr": "doğu",
+        "sr": "исток",
+        "fi": "itä",
+        "et": "ida",
+        "be": "усход",
+        "lv": "austrumi",
+        "lt": "rytai"
+      },
+      "examples": [
+        {
+          "text": "Solen går upp i öst"
+        },
+        {
+          "text": "Vi reste mot öst för att besöka kusten"
+        },
+        {
+          "text": "Fönstren i mitt rum vetter mot öst"
+        },
+        {
+          "text": "Öst är motsatsen till väst"
+        },
+        {
+          "text": "Vinden blåser från öst idag"
+        },
+        {
+          "text": "Många traditioner i öst skiljer sig från dem i väst"
+        },
+        {
+          "text": "Öst och väst har olika matkulturer"
+        },
+        {
+          "text": "Han reste genom hela Östeuropa"
+        },
+        {
+          "text": "Länderna i Fjärran Östern har en rik historia"
+        },
+        {
+          "text": "Företaget vill expandera sin verksamhet mot öst."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ef36d7fc-37b9-43f6-ab9e-292794bf82af",
+      "version": -1,
+      "word": "östra",
+      "translations": {
+        "ru": "восточный",
+        "en": "eastern",
+        "uk": "східний",
+        "ar": "شرقي",
+        "fa": "شرقی",
+        "so": "bari",
+        "es": "oriental",
+        "de": "östlich",
+        "fr": "oriental",
+        "pl": "wschodni",
+        "id": "timur",
+        "hi": "पूर्वी",
+        "zh": "东方的",
+        "it": "orientale",
+        "tr": "doğu",
+        "sr": "источни",
+        "fi": "itäinen",
+        "et": "ida",
+        "be": "усходні",
+        "lv": "austrumu",
+        "lt": "rytų"
+      },
+      "examples": [
+        {
+          "text": "Jag bor i östra delen av staden"
+        },
+        {
+          "text": "Östra ingången till parken är alltid öppen"
+        },
+        {
+          "text": "Vi reste till östra Europa under semestern"
+        },
+        {
+          "text": "Östra sidan av huset får mest morgonsol"
+        },
+        {
+          "text": "De bor i östra Sverige"
+        },
+        {
+          "text": "Östra Skåne är känt för sina vackra stränder"
+        },
+        {
+          "text": "Han studerar vid Östra universitetet"
+        },
+        {
+          "text": "Östra delen av landet har ett varmare klimat"
+        },
+        {
+          "text": "Östra stationen är stadens största järnvägsstation"
+        },
+        {
+          "text": "Östra Europa har en rik historia och kultur."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9c1dfb2b-6074-485a-a752-e28ca015fa7f",
+      "version": -1,
+      "word": "öster om",
+      "translations": {
+        "ru": "к востоку от",
+        "en": "to the east of",
+        "uk": "на схід від",
+        "ar": "إلى الشرق من",
+        "fa": "به شرقِ",
+        "so": "bari ka xiga",
+        "es": "al este de",
+        "de": "östlich von",
+        "fr": "à l'est de",
+        "pl": "na wschód od",
+        "id": "di sebelah timur dari",
+        "hi": "के पूर्व में",
+        "zh": "在...以东",
+        "it": "a est di",
+        "tr": "doğusunda",
+        "sr": "источно од",
+        "fi": "itäpuolella",
+        "et": "idapool",
+        "be": "на ўсход ад",
+        "lv": "uz austrumiem no",
+        "lt": "į rytus nuo"
+      },
+      "examples": [
+        {
+          "text": "Finland ligger öster om Sverige"
+        },
+        {
+          "text": "Solen går upp öster om bergen"
+        },
+        {
+          "text": "Staden ligger öster om floden"
+        },
+        {
+          "text": "Vi bor öster om centrum, nära havet"
+        },
+        {
+          "text": "Flygplatsen ligger öster om motorvägen"
+        },
+        {
+          "text": "Skeppet seglade öster om ön"
+        },
+        {
+          "text": "Det finns en stor skog öster om byn"
+        },
+        {
+          "text": "De bygger en ny tunnel öster om staden"
+        },
+        {
+          "text": "Jag såg ett hus öster om sjön"
+        },
+        {
+          "text": "Huvudkontoret ligger öster om järnvägsstationen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "10a4e2d3-65cf-4aef-b416-99dd5c0a60ad",
+      "version": -1,
+      "word": "norr",
+      "translations": {
+        "ru": "север",
+        "en": "north",
+        "uk": "північ",
+        "ar": "شمال",
+        "fa": "شمال",
+        "so": "waqooyi",
+        "es": "norte",
+        "de": "Norden",
+        "fr": "nord",
+        "pl": "północ",
+        "id": "utara",
+        "hi": "उत्तर",
+        "zh": "北",
+        "it": "nord",
+        "tr": "kuzey",
+        "sr": "север",
+        "fi": "pohjoinen",
+        "et": "põhi",
+        "be": "поўнач",
+        "lv": "ziemeļi",
+        "lt": "šiaurė"
+      },
+      "examples": [
+        {
+          "text": "Norr om USA finns landet Kanada"
+        },
+        {
+          "text": "Sverige ligger i norr om Danmark"
+        },
+        {
+          "text": "Vi reste mot norr för att se norrskenet"
+        },
+        {
+          "text": "Vinden blåser från norr idag"
+        },
+        {
+          "text": "Norr är motsatsen till söder"
+        },
+        {
+          "text": "Solen står lågt på himlen i norr under vintern"
+        },
+        {
+          "text": "Norr om polcirkeln är det midnattssol på sommaren"
+        },
+        {
+          "text": "Norr har kallare klimat än söder"
+        },
+        {
+          "text": "Många samer bor i norr"
+        },
+        {
+          "text": "Norr i Sverige är känt för sina fjäll och stora skogar"
+        },
+        {
+          "text": "Vi åkte långt norrut för att campa."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1b8e311b-ad5a-4eed-a1d1-59125cc2424a",
+      "version": -1,
+      "word": "norra",
+      "translations": {
+        "ru": "северный",
+        "en": "northern",
+        "uk": "північний",
+        "ar": "شمالي",
+        "fa": "شمالی",
+        "so": "waqooyi",
+        "es": "norteño",
+        "de": "nördlich",
+        "fr": "nordique",
+        "pl": "północny",
+        "id": "utara",
+        "hi": "उत्तरी",
+        "zh": "北方的",
+        "it": "settentrionale",
+        "tr": "kuzey",
+        "sr": "северни",
+        "fi": "pohjoinen",
+        "et": "põhja",
+        "be": "поўначны",
+        "lv": "ziemeļu",
+        "lt": "šiaurinis"
+      },
+      "examples": [
+        {
+          "text": "Jag bor i norra delen av staden"
+        },
+        {
+          "text": "Norra Sverige har kallare vintrar än södra"
+        },
+        {
+          "text": "Norra entrén till byggnaden är stängd"
+        },
+        {
+          "text": "Vi reste genom norra Europa"
+        },
+        {
+          "text": "Norra sidan av huset får minst sol"
+        },
+        {
+          "text": "Norra Norrland är känt för sina fjäll och skogar"
+        },
+        {
+          "text": "Han studerar vid Norra universitetet"
+        },
+        {
+          "text": "Norra stationen är en av de största i staden"
+        },
+        {
+          "text": "Norra Sverige är glesbefolkat jämfört med södra"
+        },
+        {
+          "text": "Norra Ishavet är täckt av is större delen av året."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e0ef3f67-28a3-45a3-9242-2761e394c8c1",
+      "version": -1,
+      "word": "norr om",
+      "translations": {
+        "ru": "к северу от",
+        "en": "to the north of",
+        "uk": "на північ від",
+        "ar": "إلى الشمال من",
+        "fa": "به شمالِ",
+        "so": "waqooyiga",
+        "es": "al norte de",
+        "de": "nördlich von",
+        "fr": "au nord de",
+        "pl": "na północ od",
+        "id": "ke utara dari",
+        "hi": "के उत्तर में",
+        "zh": "在...的北边",
+        "it": "a nord di",
+        "tr": "kuzeyinde",
+        "sr": "северно од",
+        "fi": "pohjoiseen jostakin",
+        "et": "põhja pool",
+        "be": "на поўнач ад",
+        "lv": "uz ziemeļiem no",
+        "lt": "į šiaurę nuo"
+      },
+      "examples": [
+        {
+          "text": "Uppsala ligger norr om Stockholm"
+        },
+        {
+          "text": "Kiruna ligger långt norr om polcirkeln"
+        },
+        {
+          "text": "Deras sommarstuga ligger norr om sjön"
+        },
+        {
+          "text": "Vi ska köra norr om staden för att undvika trafiken"
+        },
+        {
+          "text": "Det finns många små byar norr om gränsen"
+        },
+        {
+          "text": "Vi har en sommarstuga norr om staden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "652c2925-e648-4630-9450-5cde2eb4c94a",
+      "version": -1,
+      "word": "söder",
+      "translations": {
+        "ru": "юг",
+        "en": "south",
+        "uk": "південь",
+        "ar": "جنوب",
+        "fa": "جنوب",
+        "so": "koonfur",
+        "es": "sur",
+        "de": "Süden",
+        "fr": "sud",
+        "pl": "południe",
+        "id": "selatan",
+        "hi": "दक्षिण",
+        "zh": "南",
+        "it": "sud",
+        "tr": "güney",
+        "sr": "југ",
+        "fi": "etelä",
+        "et": "lõuna",
+        "be": "поўдзень",
+        "lv": "dienvidi",
+        "lt": "pietūs"
+      },
+      "examples": [
+        {
+          "text": "Fåglarna flyttar till söder på vintern"
+        },
+        {
+          "text": "Malmö ligger i södra Sverige"
+        },
+        {
+          "text": "Jag körde åt söder på motorvägen"
+        },
+        {
+          "text": "Vi bor på Söder i Stockholm"
+        },
+        {
+          "text": "Söder är känt för sina mysiga kaféer"
+        },
+        {
+          "text": "Vi ska åka söderut på semestern"
+        },
+        {
+          "text": "Många flyttar söderut för att få varmare väder"
+        },
+        {
+          "text": "Danmark ligger söder om Sverige."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9c40cafa-c1b8-42ce-9598-db437af069b7",
+      "version": -1,
+      "word": "södra",
+      "translations": {
+        "ru": "южный",
+        "en": "southern",
+        "uk": "південний",
+        "ar": "جنوبي",
+        "fa": "جنوبی",
+        "so": "koonfureed",
+        "es": "sureño",
+        "de": "südlich",
+        "fr": "sud",
+        "pl": "południowy",
+        "id": "selatan",
+        "hi": "दक्षिणी",
+        "zh": "南方的",
+        "it": "meridionale",
+        "tr": "güney",
+        "sr": "јужни",
+        "fi": "eteläinen",
+        "et": "lõunapoolne",
+        "be": "поўдзенны",
+        "lv": "dienvidu",
+        "lt": "pietinis"
+      },
+      "examples": [
+        {
+          "text": "Malmö ligger i södra Sverige"
+        },
+        {
+          "text": "Södra delen av staden är känd för sina parker"
+        },
+        {
+          "text": "Tåget till Köpenhamn avgår från södra perrongen"
+        },
+        {
+          "text": "Vi ska vandra i södra Alperna nästa vecka"
+        },
+        {
+          "text": "Huset har en balkong på södra sidan"
+        },
+        {
+          "text": "Södra skogen är full av vilda djur"
+        },
+        {
+          "text": "Universitetet har en ny byggnad på södra campus"
+        },
+        {
+          "text": "Södra delen av sjön är perfekt för fiske"
+        },
+        {
+          "text": "Flyget till Spanien går från södra terminalen"
+        },
+        {
+          "text": "Vi bodde i södra delen av byn."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "34516a15-a966-4dde-8b1a-26f3232a59a5",
+      "version": -1,
+      "word": "söder om",
+      "translations": {
+        "ru": "к югу от",
+        "en": "to the south of",
+        "uk": "на південь від",
+        "ar": "إلى الجنوب من",
+        "fa": "به جنوب از",
+        "so": "koofurta",
+        "es": "al sur de",
+        "de": "südlich von",
+        "fr": "au sud de",
+        "pl": "na południe od",
+        "id": "di selatan dari",
+        "hi": "के दक्षिण में",
+        "zh": "在...以南",
+        "it": "a sud di",
+        "tr": "güneyinde",
+        "sr": "јужно од",
+        "fi": "etelään jostakin",
+        "et": "lõuna pool",
+        "be": "на поўдзень ад",
+        "lv": "uz dienvidiem no",
+        "lt": "į pietus nuo"
+      },
+      "examples": [
+        {
+          "text": "Danmark ligger söder om Sverige"
+        },
+        {
+          "text": "Solen står högt på himlen söder om ekvatorn"
+        },
+        {
+          "text": "Staden ligger söder om floden"
+        },
+        {
+          "text": "Vi bor söder om centrum"
+        },
+        {
+          "text": "Flygplatsen ligger söder om motorvägen"
+        },
+        {
+          "text": "Skeppet seglade söder om ön"
+        },
+        {
+          "text": "Det finns en stor skog söder om byn"
+        },
+        {
+          "text": "De bygger en ny väg söder om staden"
+        },
+        {
+          "text": "Jag såg ett hus söder om sjön"
+        },
+        {
+          "text": "Huvudkontoret ligger söder om järnvägsstationen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5744c916-f70c-4bb5-8a8c-92e9158b92ee",
+      "version": -1,
+      "word": "väst",
+      "translations": {
+        "ru": "запад",
+        "en": "west",
+        "uk": "захід",
+        "ar": "غرب",
+        "fa": "غرب",
+        "so": "galbeed",
+        "es": "oeste",
+        "de": "Westen",
+        "fr": "ouest",
+        "pl": "zachód",
+        "id": "barat",
+        "hi": "पश्चिम",
+        "zh": "西",
+        "it": "ovest",
+        "tr": "batı",
+        "sr": "запад",
+        "fi": "länsi",
+        "et": "lääs",
+        "be": "захад",
+        "lv": "rietumi",
+        "lt": "vakarai"
+      },
+      "examples": [
+        {
+          "text": "Solen går ned i väst"
+        },
+        {
+          "text": "Vi reste mot väst för att se havet"
+        },
+        {
+          "text": "Vinden blåser från väst idag"
+        },
+        {
+          "text": "Väst är motsatsen till öst"
+        },
+        {
+          "text": "Staden ligger i väst av landet"
+        },
+        {
+          "text": "Väst och öst har olika traditioner och livsstilar"
+        },
+        {
+          "text": "Han flyttade till västra USA"
+        },
+        {
+          "text": "Länderna i väst har utvecklade ekonomier"
+        },
+        {
+          "text": "Väst har stor påverkan på modern kultur"
+        },
+        {
+          "text": "Företaget vill expandera sin verksamhet mot väst."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a40e988e-b88e-4479-888f-8c4cc0e05e73",
+      "version": -1,
+      "word": "västra",
+      "translations": {
+        "ru": "западный",
+        "en": "western",
+        "uk": "західний",
+        "ar": "غربي",
+        "fa": "غربی",
+        "so": "galbeed",
+        "es": "occidental",
+        "de": "westlich",
+        "fr": "occidental",
+        "pl": "zachodni",
+        "id": "barat",
+        "hi": "पश्चिमी",
+        "zh": "西方的",
+        "it": "occidentale",
+        "tr": "batı",
+        "sr": "западни",
+        "fi": "länsimainen",
+        "et": "lääne",
+        "be": "заходні",
+        "lv": "rietumu",
+        "lt": "vakarų"
+      },
+      "examples": [
+        {
+          "text": "Västra Sverige har många fina sjöar"
+        },
+        {
+          "text": "Göteborg ligger i västra Sverige"
+        },
+        {
+          "text": "Vi planerar en resa till västra delen av landet"
+        },
+        {
+          "text": "Det finns många berg i västra Europa"
+        },
+        {
+          "text": "Västra skolan är stadens största skola"
+        },
+        {
+          "text": "Västra delen av staden är känd för sina parker."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "68341035-a88f-4337-b667-154cb57d6d33",
+      "version": -1,
+      "word": "väster om",
+      "translations": {
+        "ru": "к западу от",
+        "en": "to the west of",
+        "uk": "на захід від",
+        "ar": "إلى الغرب من",
+        "fa": "به غرب از",
+        "so": "galbeed ka xiga",
+        "es": "al oeste de",
+        "de": "westlich von",
+        "fr": "à l'ouest de",
+        "pl": "na zachód od",
+        "id": "di sebelah barat dari",
+        "hi": "के पश्चिम में",
+        "zh": "在...以西",
+        "it": "a ovest di",
+        "tr": "batısında",
+        "sr": "западно од",
+        "fi": "länteen jostakin",
+        "et": "läänes",
+        "be": "на захад ад",
+        "lv": "uz rietumiem no",
+        "lt": "į vakarus nuo"
+      },
+      "examples": [
+        {
+          "text": "Norge ligger väster om Sverige"
+        },
+        {
+          "text": "Solen går ner väster om bergen"
+        },
+        {
+          "text": "Staden ligger väster om floden"
+        },
+        {
+          "text": "Vi bor väster om centrum"
+        },
+        {
+          "text": "Flygplatsen ligger väster om motorvägen"
+        },
+        {
+          "text": "Skeppet seglade väster om ön"
+        },
+        {
+          "text": "Det finns en stor skog väster om byn"
+        },
+        {
+          "text": "De bygger en ny väg väster om staden"
+        },
+        {
+          "text": "Jag såg ett hus väster om sjön"
+        },
+        {
+          "text": "Huvudkontoret ligger väster om järnvägsstationen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fb831c2c-3491-4fa9-8515-4fc17be7c297",
+      "version": -1,
+      "word": "en framsida",
+      "forms": [
+        {
+          "form": "framsidor"
+        }
+      ],
+      "translations": {
+        "ru": "передняя сторона (in front of) . Обложка, передняя часть книги, журнала, документа",
+        "en": "front side (in front of), cover, front of a book, magazine, document",
+        "uk": "передня сторона, обкладинка, передня частина книги, журналу, документа",
+        "ar": "الجانب الأمامي، الغلاف، مقدمة الكتاب أو المجلة أو الوثيقة",
+        "fa": "جلوی، جلد، جلوی کتاب، مجله، سند",
+        "so": "dhinaca hore, daboolka, hore ee buugga, joornaalka, dukumentiga",
+        "es": "lado frontal, portada, frente de un libro, revista, documento",
+        "de": "Vorderseite, Umschlag, Vorderseite eines Buches, Magazins, Dokuments",
+        "fr": "côté avant, couverture, devant d'un livre, magazine, document",
+        "pl": "przednia strona, okładka, przód książki, czasopisma, dokumentu",
+        "id": "sisi depan, sampul, depan buku, majalah, dokumen",
+        "hi": "सामने का हिस्सा, कवर, किताब, पत्रिका, दस्तावेज़ का सामने का हिस्सा",
+        "zh": "前面，封面，书、杂志、文件的前面",
+        "it": "lato anteriore, copertina, fronte di un libro, rivista, documento",
+        "tr": "ön taraf, kapak, kitap, dergi, belgenin önü",
+        "sr": "предња страна, корица, предњи део књиге, часописа, документа",
+        "fi": "etuosa, kansi, kirjan, lehden, asiakirjan etupuoli",
+        "et": "eesmine külg, kaas, raamatu, ajakirja, dokumendi esikülg",
+        "be": "пярэдні бок, вокладка, пярэдняя частка кнігі, часопіса, дакумента",
+        "lv": "priekšpuse, vāks, grāmatas, žurnāla, dokumenta priekšpuse",
+        "lt": "priekinė pusė, viršelis, knygos, žurnalo, dokumento priekinė dalis"
+      },
+      "examples": [
+        {
+          "text": "Sätt skylten på framsidan av byggnaden"
+        },
+        {
+          "text": "Huset har en vacker framsida med stora fönster"
+        },
+        {
+          "text": "Bilen har en skada på framsidan"
+        },
+        {
+          "text": "Jag satte upp en skylt på framsidan av butiken"
+        },
+        {
+          "text": "Entrén ligger på framsidan av byggnaden"
+        },
+        {
+          "text": "Vi parkerade bilen på framsidan av hotellet"
+        },
+        {
+          "text": "Tidningen hade en stor rubrik på framsidan"
+        },
+        {
+          "text": "Framsidan av boken är dekorerad med ett vackert motiv"
+        },
+        {
+          "text": "På framsidan av passet finns landets emblem"
+        },
+        {
+          "text": "Han designade framsidan till företagets nya katalog"
+        },
+        {
+          "text": "Nyheten hamnade på framsidan av tidningen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a44d42c0-5ef5-45ea-abed-6f8907dd9586",
+      "version": -1,
+      "word": "en baksida",
+      "forms": [
+        {
+          "form": "baksidor"
+        }
+      ],
+      "translations": {
+        "ru": "задняя сторона (back)",
+        "en": "back side (back)",
+        "uk": "задня сторона",
+        "ar": "الجانب الخلفي",
+        "fa": "پشت",
+        "so": "dhinaca dambe",
+        "es": "lado trasero",
+        "de": "Rückseite",
+        "fr": "côté arrière",
+        "pl": "tylna strona",
+        "id": "sisi belakang",
+        "hi": "पीछे की तरफ",
+        "zh": "背面",
+        "it": "lato posteriore",
+        "tr": "arka taraf",
+        "sr": "задња страна",
+        "fi": "takapuoli",
+        "et": "tagakülg",
+        "be": "задні бок",
+        "lv": "aizmugurējā puse",
+        "lt": "galinė pusė"
+      },
+      "examples": [
+        {
+          "text": "Lastkajen finns på baksidan av byggnaden"
+        },
+        {
+          "text": "Boken har en kort sammanfattning på baksidan"
+        },
+        {
+          "text": "Jag skrev adressen på baksidan av kuvertet"
+        },
+        {
+          "text": "Det finns en stor trädgård på husets baksida"
+        },
+        {
+          "text": "Baksidan av bilen blev skadad i olyckan"
+        },
+        {
+          "text": "Texten står på baksidan av fotot"
+        },
+        {
+          "text": "Baksidan av berömmelse är bristen på privatliv"
+        },
+        {
+          "text": "Det finns alltid en baksida till framgång"
+        },
+        {
+          "text": "Baksidan med att bo på landet är att det är långt till affärer"
+        },
+        {
+          "text": "På baksidan av myntet finns en annan symbol"
+        },
+        {
+          "text": "Hon talade om baksidan av att arbeta så mycket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "873aaedd-6a12-47bf-b530-93afa745ba54",
+      "version": -1,
+      "word": "nära till",
+      "translations": {
+        "ru": "близко к, недалеко до",
+        "en": "close to, not far from",
+        "uk": "близько до, недалеко від",
+        "ar": "قريب من، ليس بعيدًا عن",
+        "fa": "نزدیک به، نه دور از",
+        "so": "ku dhow, aan ka fogayn",
+        "es": "cerca de, no lejos de",
+        "de": "nahe bei, nicht weit von",
+        "fr": "près de, pas loin de",
+        "pl": "blisko, niedaleko od",
+        "id": "dekat dengan, tidak jauh dari",
+        "hi": "के करीब, से दूर नहीं",
+        "zh": "靠近, 不远",
+        "it": "vicino a, non lontano da",
+        "tr": "yakınında, çok uzakta değil",
+        "sr": "blizu, nije daleko od",
+        "fi": "lähellä, ei kaukana",
+        "et": "lähedal, mitte kaugel",
+        "be": "блізка да, недалёка ад",
+        "lv": "tuvu, ne tālu no",
+        "lt": "arti, netoli nuo"
+      },
+      "examples": [
+        {
+          "text": "Vi har nära till affären"
+        },
+        {
+          "text": "Det är nära till busshållplatsen"
+        },
+        {
+          "text": "Hon bor nära till jobbet"
+        },
+        {
+          "text": "Vi har nära till skogen, så vi går ofta på promenader där"
+        },
+        {
+          "text": "Hotellet ligger nära till stranden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0652f502-a6af-4508-8c4b-1e50a2f9b0e9",
+      "version": 1,
+      "word": "i närheten av",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vi bor i närheten av en park"
+        },
+        {
+          "text": "Finns det en mataffär i närheten av hotellet?"
+        },
+        {
+          "text": "Skolan ligger i närheten av biblioteket"
+        },
+        {
+          "text": "I närheten av stationen finns många restauranger"
+        },
+        {
+          "text": "Han parkerade bilen i närheten av kontoret"
+        },
+        {
+          "text": "Vi är i närheten av att lösa problemet"
+        },
+        {
+          "text": "Han befann sig i närheten av fara men klarade sig"
+        },
+        {
+          "text": "I närheten av sanningen, men inte helt rätt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e87e254c-e519-49d4-b400-f8a8c05908d6",
+      "version": -1,
+      "word": "Finns det ..",
+      "translations": {
+        "ru": "Есть ли .. здесь?",
+        "en": "Is there .. here?",
+        "uk": "Чи є .. тут?",
+        "ar": "هل يوجد .. هنا؟",
+        "fa": "آیا .. اینجا هست؟",
+        "so": "Ma jiraa .. halkan?",
+        "es": "¿Hay .. aquí?",
+        "de": "Gibt es .. hier?",
+        "fr": "Y a-t-il .. ici ?",
+        "pl": "Czy jest .. tutaj?",
+        "id": "Apakah ada .. di sini?",
+        "hi": "क्या यहाँ .. है?",
+        "zh": "这里有..吗？",
+        "it": "C'è .. qui?",
+        "tr": "Burada .. var mı?",
+        "sr": "Да ли има .. овде?",
+        "fi": "Onko täällä ..?",
+        "et": "Kas siin on ..?",
+        "be": "Ці ёсць .. тут?",
+        "lv": "Vai šeit ir ..?",
+        "lt": "Ar yra .. čia?"
+      },
+      "examples": [
+        {
+          "text": "Finns det en bank i närheten? Finns det en restaurang i det här området? Finns det en toalett här? Finns det några lediga bord på caféet? Finns det en buss till centrum? Finns det något bättre alternativ? Finns det en lösning på det här problemet? Finns det något jag kan göra för att hjälpa? Finns det en chans att vi vinner? Finns det några frågor?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5a6df329-817a-4d7a-a64c-29be5e3d7cc2",
+      "version": -1,
+      "word": "Var ligger ..?",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Var ligger närmaste mataffär? Var ligger stationen? Var ligger närmaste apotek? Var ligger biblioteket? Var ligger Göteborg? Var ligger toaletten? Var ligger receptionen på hotellet? Var ligger avdelning för elektronik i den här butiken? Var ligger utgången? Var ligger mitt rum? Var ligger Sverige på kartan? Var ligger ditt hus på den här kartan?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4f798fa4-aa61-42bc-8ac7-54e72bc36a8e",
+      "version": -1,
+      "word": "Har ni ...?",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Har ni kaffe här? Har ni vegetariska alternativ? Har ni den här tröjan i en annan färg? Har ni några erbjudanden idag? Har ni wifi på hotellet? Har ni en penna jag kan låna? Har ni en karta över staden? Har ni biljetter kvar till föreställningen? Har ni några frågor? Har ni tid att prata en stund? Har ni en meny på engelska? Har ni ett ledigt bord för två personer? Har ni något paket att hämta ut? Har ni några lediga rum? Har ni öppet på söndagar?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0c5104b1-2060-4960-8f59-d719cbe06c37",
+      "version": -1,
+      "word": "bredvid",
+      "translations": {
+        "ru": "около, рядом (вплотную, точное местоположение)",
+        "en": "nearby, next to (exact location)",
+        "uk": "поруч, біля (точне місцезнаходження)",
+        "ar": "بالقرب، بجانب (الموقع الدقيق)",
+        "fa": "نزدیک، کنار (مکان دقیق)",
+        "so": "ku dhow, agtiisa (goob sax ah)",
+        "es": "cerca, al lado de (ubicación exacta)",
+        "de": "in der Nähe, neben (genauer Standort)",
+        "fr": "à proximité, à côté de (emplacement exact)",
+        "pl": "blisko, obok (dokładna lokalizacja)",
+        "id": "dekat, di sebelah (lokasi tepat)",
+        "hi": "पास में, बगल में (सटीक स्थान)",
+        "zh": "附近，旁边（确切位置）",
+        "it": "vicino, accanto a (posizione esatta)",
+        "tr": "yakınında, yanında (kesin konum)",
+        "sr": "у близини, поред (тачна локација)",
+        "fi": "lähellä, vieressä (tarkka sijainti)",
+        "et": "lähedal, kõrval (täpne asukoht)",
+        "be": "побач, каля (дакладнае месцазнаходжанне)",
+        "lv": "tuvumā, blakus (precīza atrašanās vieta)",
+        "lt": "netoli, šalia (tiksli vieta)"
+      },
+      "examples": [
+        {
+          "text": "Han satte sig bredvid"
+        },
+        {
+          "text": "Jag står bredvid och väntar"
+        },
+        {
+          "text": "Hon bor bredvid skolan"
+        },
+        {
+          "text": "Ställ stolen bredvid bordet"
+        },
+        {
+          "text": "Bilen står parkerad bredvid huset"
+        },
+        {
+          "text": "De satt bredvid varandra på tåget"
+        },
+        {
+          "text": "Jag vill sitta bredvid dig"
+        },
+        {
+          "text": "Hunden ligger bredvid soffan och sover"
+        },
+        {
+          "text": "Bredvid sjön finns en mysig liten stuga"
+        },
+        {
+          "text": "Han parkerade sin cykel bredvid min bil."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "09a1b5d8-3dc3-4fd3-824e-a2e4a6404d02",
+      "version": 1,
+      "word": "vid",
+      "translations": {
+        "ru": "около, рядом (примерное положение, не вплотную)",
+        "en": "nearby, next to (approximate location)",
+        "uk": "поруч, поблизу (приблизне розташування)",
+        "ar": "بالقرب، بجانب (موقع تقريبي)",
+        "fa": "نزدیک، کنار (موقعیت تقریبی)",
+        "so": "ku dhow, agtiisa (goob qiyaas ah)",
+        "es": "cerca, al lado de (ubicación aproximada)",
+        "de": "in der Nähe, neben (ungefähre Lage)",
+        "fr": "près de, à côté de (emplacement approximatif)",
+        "pl": "blisko, obok (przybliżona lokalizacja)",
+        "id": "dekat, di sebelah (lokasi perkiraan)",
+        "hi": "पास में, बगल में (अनुमानित स्थान)",
+        "zh": "附近，旁边（大致位置）",
+        "it": "vicino, accanto (posizione approssimativa)",
+        "tr": "yakınında, yanında (tahmini konum)",
+        "sr": "blizu, pored (približna lokacija)",
+        "fi": "lähellä, vieressä (likimääräinen sijainti)",
+        "et": "lähedal, kõrval (ligikaudne asukoht)",
+        "be": "поблізу, побач (прыблізнае месцазнаходжанне)",
+        "lv": "tuvumā, blakus (aptuvena atrašanās vieta)",
+        "lt": "netoli, šalia (apytikslė vieta)"
+      },
+      "examples": [
+        {
+          "text": "Det ligger på Lillgatan, vid banken"
+        },
+        {
+          "text": "Vi möttes vid sjön"
+        },
+        {
+          "text": "Det finns en butik vid stationen"
+        },
+        {
+          "text": "Hon kom hem vid midnatt"
+        },
+        {
+          "text": "Vid den här tiden på året är det kallt"
+        },
+        {
+          "text": "Jag jobbar bäst vid datorn"
+        },
+        {
+          "text": "Hon skrattade vid tanken på vad som hade hänt"
+        },
+        {
+          "text": "Sitt vid bordet och vänta"
+        },
+        {
+          "text": "Vi stannade vid vägen för att vila"
+        },
+        {
+          "text": "Jag kommer vid lunchtid"
+        },
+        {
+          "text": "Solen går ner vid åtta på kvällen"
+        },
+        {
+          "text": "Vi satt vid elden och pratade hela kvällen"
+        },
+        {
+          "text": "Hon gick hem vid åtta"
+        },
+        {
+          "text": "Finns det en restaurang vid stranden?"
+        },
+        {
+          "text": "Vid tanken på resan blev jag glad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7232ea83-e371-4abc-86f7-5c62e52e61ef",
+      "version": -1,
+      "word": "mitt emot",
+      "translations": {
+        "ru": "напротив",
+        "en": "opposite",
+        "uk": "навпроти",
+        "ar": "مقابل",
+        "fa": "مقابل",
+        "so": "ka soo horjeed",
+        "es": "opuesto",
+        "de": "gegenüber",
+        "fr": "opposé",
+        "pl": "naprzeciwko",
+        "id": "berlawanan",
+        "hi": "विपरीत",
+        "zh": "对面",
+        "it": "opposto",
+        "tr": "karşı",
+        "sr": "насупрот",
+        "fi": "vastapäätä",
+        "et": "vastas",
+        "be": "насупраць",
+        "lv": "pretī",
+        "lt": "priešais"
+      },
+      "examples": [
+        {
+          "text": "Apoteket ligger mitt emot banken"
+        },
+        {
+          "text": "Hon satt mitt emot mig vid bordet"
+        },
+        {
+          "text": "Skolan ligger mitt emot parken"
+        },
+        {
+          "text": "Restaurangen ligger mitt emot hotellet"
+        },
+        {
+          "text": "Det finns en busshållplats mitt emot tunnelbanestationen"
+        },
+        {
+          "text": "Han satt mitt emot chefen under mötet"
+        },
+        {
+          "text": "De stod mitt emot varandra och väntade på domarens signal."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "797e810e-4475-47b7-9233-ef9d918bbc65",
+      "version": -1,
+      "word": "på Storgatan",
+      "translations": {
+        "ru": "на такой-то улице, площади, острове и общественном месте",
+        "en": "on such street, square, island, or public place",
+        "uk": "на такій вулиці, площі, острові чи громадському місці",
+        "ar": "في شارع كهذا، أو ساحة، أو جزيرة، أو مكان عام",
+        "fa": "در چنین خیابان، میدان، جزیره یا مکان عمومی",
+        "so": "waddo noocaas ah, fagaaro, jasiirad, ama meel dadweyne",
+        "es": "en tal calle, plaza, isla o lugar público",
+        "de": "auf solcher Straße, Platz, Insel oder öffentlichem Ort",
+        "fr": "dans une telle rue, place, île ou lieu public",
+        "pl": "na takiej ulicy, placu, wyspie lub miejscu publicznym",
+        "id": "di jalan, alun-alun, pulau, atau tempat umum seperti itu",
+        "hi": "ऐसी सड़क, चौक, द्वीप या सार्वजनिक स्थान पर",
+        "zh": "在这样的街道、广场、岛屿或公共场所",
+        "it": "in tale strada, piazza, isola o luogo pubblico",
+        "tr": "böyle bir sokakta, meydanda, adada veya kamu alanında",
+        "sr": "на таквој улици, тргу, острву или јавном месту",
+        "fi": "tällaisella kadulla, aukiolla, saarella tai julkisella paikalla",
+        "et": "sellisel tänaval, väljakul, saarel või avalikus kohas",
+        "be": "на такой вуліцы, плошчы, востраве ці грамадскім месцы",
+        "lv": "uz tādas ielas, laukuma, salas vai publiskas vietas",
+        "lt": "tokioje gatvėje, aikštėje, saloje ar viešoje vietoje"
+      },
+      "examples": [
+        {
+          "text": "Jag bor på Storgatan"
+        },
+        {
+          "text": "Butiken ligger på Drottninggatan"
+        },
+        {
+          "text": "Vi träffas på torget"
+        },
+        {
+          "text": "Restaurangen ligger på Kungsgatan"
+        },
+        {
+          "text": "Hotellet ligger på Gustav Adolfs torg"
+        },
+        {
+          "text": "Han bor på Södermalm"
+        },
+        {
+          "text": "Vi ska semestra på Öland"
+        },
+        {
+          "text": "Museet ligger på Djurgården."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bc234ffb-89f5-4195-9595-3264dd801274",
+      "version": -1,
+      "word": "högst upp",
+      "translations": {
+        "ru": "на самом верху, самый верх, наверху",
+        "en": "at the very top, highest point, on top",
+        "uk": "на самому верху, найвища точка, зверху",
+        "ar": "في القمة، أعلى نقطة، في الأعلى",
+        "fa": "در بالاترین نقطه، بالاترین نقطه، در بالا",
+        "so": "meesha ugu sareysa, barta ugu sareysa, dusha sare",
+        "es": "en la cima, punto más alto, en la parte superior",
+        "de": "ganz oben, höchster Punkt, oben",
+        "fr": "tout en haut, point le plus élevé, au sommet",
+        "pl": "na samym szczycie, najwyższy punkt, na górze",
+        "id": "di puncak, titik tertinggi, di atas",
+        "hi": "सबसे ऊपर, उच्चतम बिंदु, ऊपर",
+        "zh": "在最顶端，最高点，在上面",
+        "it": "in cima, punto più alto, sopra",
+        "tr": "en üstte, en yüksek nokta, üstte",
+        "sr": "на самом врху, највиша тачка, на врху",
+        "fi": "aivan ylhäällä, korkein kohta, päällä",
+        "et": "kõige tipus, kõrgeim punkt, peal",
+        "be": "на самым версе, найвышэйшая кропка, наверсе",
+        "lv": "pašā augšā, augstākais punkts, augšā",
+        "lt": "pačiame viršuje, aukščiausias taškas, viršuje"
+      },
+      "examples": [
+        {
+          "text": "Högst upp i huset, under yttertaket, finns vinden"
+        },
+        {
+          "text": "Lägenheten ligger högst upp i byggnaden"
+        },
+        {
+          "text": "Böckerna du letar efter är högst upp på hyllan"
+        },
+        {
+          "text": "Högst upp på berget har man en fantastisk utsikt"
+        },
+        {
+          "text": "Hon är högst upp på listan över de bästa spelarna."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "eecd1d81-334c-4c38-adee-d222d389b589",
+      "version": -1,
+      "word": "förbi",
+      "translations": {
+        "ru": "мимо,  \"пройти мимо и зайти\"",
+        "en": "past, \"pass by and enter\"",
+        "uk": "повз, пройти повз і зайти",
+        "ar": "ماضي، المرور والدخول",
+        "fa": "گذشته، عبور کردن و وارد شدن",
+        "so": "dhaaf, dhaaf oo gal",
+        "es": "pasado, pasar y entrar",
+        "de": "vorbei, vorbeigehen und eintreten",
+        "fr": "passé, passer et entrer",
+        "pl": "obok, przejść obok i wejść",
+        "id": "lewat, lewat dan masuk",
+        "hi": "पास, पास से गुजरें और प्रवेश करें",
+        "zh": "经过，经过并进入",
+        "it": "passato, passare e entrare",
+        "tr": "geçmiş, geçip gir",
+        "sr": "поред, проћи поред и ући",
+        "fi": "ohi, ohittaa ja astua sisään",
+        "et": "mööda, mööduda ja siseneda",
+        "be": "побач, прайсці побач і зайсці",
+        "lv": "garām, paiet garām un ieiet",
+        "lt": "pro šalį, praeiti ir įeiti"
+      },
+      "examples": [
+        {
+          "text": "Jag gick förbi butiken på väg hem"
+        },
+        {
+          "text": "Bussen körde förbi hållplatsen utan att stanna"
+        },
+        {
+          "text": "Vi sprang förbi skolan när vi tränade"
+        },
+        {
+          "text": "Han cyklade förbi mig på vägen"
+        },
+        {
+          "text": "Vi åkte förbi kyrkan och svängde till vänster.Sommaren gick snabbt förbi"
+        },
+        {
+          "text": "Smärtan kommer att gå förbi snart"
+        },
+        {
+          "text": "Tiden flög förbi när vi pratade"
+        },
+        {
+          "text": "Hon lät kritiken gå förbi utan att bry sig"
+        },
+        {
+          "text": "Möjligheten gick förbi honom utan att han märkte det"
+        },
+        {
+          "text": "Kan du komma förbi ikväll?Jag går förbi dig efter jobbet"
+        },
+        {
+          "text": "Hon tittade förbi en stund"
+        },
+        {
+          "text": "Jag ska förbi posten och hämta ett paket"
+        },
+        {
+          "text": "Kom förbi om du har tid!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "29638c31-0efe-441e-b130-22e6f53cfea1",
+      "version": 1,
+      "word": "framme",
+      "translations": {
+        "ru": "на месте, на месте назначения, впереди",
+        "en": "on site, at destination, ahead",
+        "uk": "на місці, на місці призначення, попереду",
+        "ar": "في الموقع، في الوجهة، في الأمام",
+        "fa": "در محل، در مقصد، جلوتر",
+        "so": "goobta, meesha loo socdo, hore",
+        "es": "en el sitio, en el destino, adelante",
+        "de": "vor Ort, am Ziel, voraus",
+        "fr": "sur place, à destination, devant",
+        "pl": "na miejscu, w miejscu docelowym, przed",
+        "id": "di lokasi, di tujuan, di depan",
+        "hi": "स्थल पर, गंतव्य पर, आगे",
+        "zh": "在现场, 在目的地, 前方",
+        "it": "sul posto, a destinazione, avanti",
+        "tr": "yerinde, varış noktasında, önde",
+        "sr": "на лицу места, на одредишту, испред",
+        "fi": "paikan päällä, määränpäässä, edessä",
+        "et": "kohapeal, sihtkohas, ees",
+        "be": "на месцы, у месцы прызначэння, наперадзе",
+        "lv": "uz vietas, galamērķī, priekšā",
+        "lt": "vietoje, paskirties vietoje, priekyje"
+      },
+      "examples": [
+        {
+          "text": "Vi är framme nu"
+        },
+        {
+          "text": "När är vi framme?"
+        },
+        {
+          "text": "De kom framme sent på kvällen"
+        },
+        {
+          "text": "Håll blicken framme på vägen"
+        },
+        {
+          "text": "Är vi framme vid hotellet snart?"
+        },
+        {
+          "text": "Vi kom framme utan problem"
+        },
+        {
+          "text": "Vi är framme vid museet"
+        },
+        {
+          "text": "Bussen är framme om tio minuter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c7150a24-6615-445e-85e7-6e92c08fb7e7",
+      "version": -1,
+      "word": "kör mot",
+      "translations": {
+        "ru": "едь до",
+        "en": "drive to",
+        "uk": "їдь до",
+        "ar": "قد إلى",
+        "fa": "رانندگی کن به",
+        "so": "wad ilaa",
+        "es": "conduce a",
+        "de": "fahre zu",
+        "fr": "conduis à",
+        "pl": "jedź do",
+        "id": "mengemudi ke",
+        "hi": "चालक बनो",
+        "zh": "开车到",
+        "it": "guida a",
+        "tr": "sürmek",
+        "sr": "вози до",
+        "fi": "aja",
+        "et": "sõida",
+        "be": "едзь да",
+        "lv": "brauc uz",
+        "lt": "vairuok į"
+      },
+      "examples": [
+        {
+          "text": "Kör mot Malmö tills du ser en skylt till centrum"
+        },
+        {
+          "text": "Kör mot motorvägen och följ skyltarna till Göteborg"
+        },
+        {
+          "text": "Vi kör mot Stockholm för att hälsa på familjen"
+        },
+        {
+          "text": "Han körde mot rött ljus och fick en böter"
+        },
+        {
+          "text": "Kör mot sjukhuset, det är en nödsituation"
+        },
+        {
+          "text": "Om du kör mot rött kan du orsaka en olycka."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3ee3dbe4-1125-48a7-896e-f19760f47905",
+      "version": -1,
+      "word": "till",
+      "translations": {
+        "ru": "в направлении, к",
+        "en": "in the direction of, towards",
+        "uk": "у напрямку до",
+        "ar": "في اتجاه",
+        "fa": "به سمت",
+        "so": "jiho",
+        "es": "en dirección a",
+        "de": "in Richtung",
+        "fr": "en direction de",
+        "pl": "w kierunku",
+        "id": "ke arah",
+        "hi": "की दिशा में",
+        "zh": "朝向",
+        "it": "in direzione di",
+        "tr": "yönünde",
+        "sr": "у правцу",
+        "fi": "suuntaan",
+        "et": "suunas",
+        "be": "у напрамку да",
+        "lv": "virzienā uz",
+        "lt": "kryptimi link"
+      },
+      "examples": [
+        {
+          "text": "Jag ska åka till polisen/läkaren/mamma/en kompis Hon sprang till skogen för att träna"
+        },
+        {
+          "text": "Han tog cykeln till stranden"
+        },
+        {
+          "text": "Vi åkte till staden för att handla"
+        },
+        {
+          "text": "Vi åker till Stockholm nästa vecka"
+        },
+        {
+          "text": "Kan du ge boken till Anna?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "58c57b19-f7a1-469c-abf3-dedf0e89f498",
+      "version": -1,
+      "word": "i riktning mot",
+      "translations": {
+        "ru": "едь в направлении",
+        "en": "drive in the direction of",
+        "uk": "їдь у напрямку",
+        "ar": "قد في اتجاه",
+        "fa": "به سمت رانندگی کن",
+        "so": "wad baabuurka jihada",
+        "es": "conduce en dirección a",
+        "de": "fahre in Richtung",
+        "fr": "conduis en direction de",
+        "pl": "jedź w kierunku",
+        "id": "berkendara ke arah",
+        "hi": "दिशा में गाड़ी चलाओ",
+        "zh": "朝...方向驾驶",
+        "it": "guida in direzione di",
+        "tr": "yönüne doğru sür",
+        "sr": "vozi u pravcu",
+        "fi": "aja suuntaan",
+        "et": "sõida suunas",
+        "be": "едзь у напрамку",
+        "lv": "brauc virzienā uz",
+        "lt": "važiuok kryptimi į"
+      },
+      "examples": [
+        {
+          "text": "Tåget åker i riktning mot Stockholm"
+        },
+        {
+          "text": "Vi går i riktning mot centrum"
+        },
+        {
+          "text": "Bilen körde i riktning mot havet"
+        },
+        {
+          "text": "Flygplanet lyfte i riktning mot norr"
+        },
+        {
+          "text": "De sprang i riktning mot utgången"
+        },
+        {
+          "text": "Huset är byggt i riktning mot solen"
+        },
+        {
+          "text": "Stranden ligger i riktning mot bergen"
+        },
+        {
+          "text": "Stolen stod i riktning mot dörren"
+        },
+        {
+          "text": "Vi placerade bordet i riktning mot fönstret"
+        },
+        {
+          "text": "Satelliten skickades ut i riktning mot Mars."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b6695498-4838-4e5a-8be3-2ccc963f19a0",
+      "version": -1,
+      "word": "längs",
+      "translations": {
+        "ru": "вдоль, в течение, по ходу чего-то",
+        "en": "along, throughout, during",
+        "uk": "вздовж, протягом, під час",
+        "ar": "على طول، طوال، خلال",
+        "fa": "در امتداد، در طول، در طی",
+        "so": "dhinac, inta lagu jiro, inta lagu jiro",
+        "es": "a lo largo, a lo largo de, durante",
+        "de": "entlang, während, im Laufe von",
+        "fr": "le long de, tout au long de, pendant",
+        "pl": "wzdłuż, przez cały, podczas",
+        "id": "sepanjang, sepanjang, selama",
+        "hi": "साथ-साथ, पूरे, दौरान",
+        "zh": "沿着, 贯穿, 在...期间",
+        "it": "lungo, durante, nel corso di",
+        "tr": "boyunca, süresince, sırasında",
+        "sr": "дуж, током, за време",
+        "fi": "pitkin, koko ajan, aikana",
+        "et": "mööda, kogu, ajal",
+        "be": "уздоўж, на працягу, падчас",
+        "lv": "gar, visā, laikā",
+        "lt": "išilgai, visą, per"
+      },
+      "examples": [
+        {
+          "text": "Vi gick längs stranden i solnedgången"
+        },
+        {
+          "text": "Det finns många träd längs vägen"
+        },
+        {
+          "text": "Längs floden finns flera små byar"
+        },
+        {
+          "text": "Jag cyklade längs stigen genom skogen"
+        },
+        {
+          "text": "Det står bänkar längs promenaden"
+        },
+        {
+          "text": "Vi hittade flera mysiga kaféer längs gatan"
+        },
+        {
+          "text": "Det finns många sevärdheter längs den här rutten"
+        },
+        {
+          "text": "Han har samlat erfarenhet längs sin karriär"
+        },
+        {
+          "text": "Längs resan träffade vi många intressanta människor"
+        },
+        {
+          "text": "Längs åren har tekniken utvecklats snabbt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5a0228c0-1ffd-40d6-886e-fe0265d6c5dc",
+      "version": -1,
+      "word": "utmed",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vi promenerade utmed stranden i solnedgången"
+        },
+        {
+          "text": "Det finns många träd utmed vägen"
+        },
+        {
+          "text": "Utmed floden ligger flera små byar"
+        },
+        {
+          "text": "De byggde ett staket utmed tomtgränsen"
+        },
+        {
+          "text": "Bänkar är placerade utmed promenadstråket"
+        },
+        {
+          "text": "Det fanns flera sevärdheter utmed vår resväg"
+        },
+        {
+          "text": "Vi diskuterade flera ämnen utmed mötet"
+        },
+        {
+          "text": "Utmed åren har vi sett stora förändringar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "665484ae-b144-47c4-ae99-10685d0fa53e",
+      "version": -1,
+      "word": "genom",
+      "translations": {
+        "ru": "через сквозь (посредством)",
+        "en": "through (by means of)",
+        "uk": "через (засобом)",
+        "ar": "من خلال (بواسطة)",
+        "fa": "از طریق (به وسیله)",
+        "so": "iyadoo loo marayo (iyadoo loo adeegsanayo)",
+        "es": "a través de (por medio de)",
+        "de": "durch (mittels)",
+        "fr": "à travers (par le biais de)",
+        "pl": "przez (za pomocą)",
+        "id": "melalui (dengan cara)",
+        "hi": "के माध्यम से (द्वारा)",
+        "zh": "通过（通过）",
+        "it": "attraverso (per mezzo di)",
+        "tr": "aracılığıyla (vasıtasıyla)",
+        "sr": "кроз (путем)",
+        "fi": "kautta (keinona)",
+        "et": "läbi (vahendusel)",
+        "be": "праз (пры дапамозе)",
+        "lv": "caur (ar līdzekļiem)",
+        "lt": "per (priemonėmis)"
+      },
+      "examples": [
+        {
+          "text": "De åkte genom tunneln för att komma till andra sidan"
+        },
+        {
+          "text": "Hon lärde sig svenska genom att lyssna på poddar"
+        },
+        {
+          "text": "Vinden blåste genom träden och skapade ett vackert ljud"
+        },
+        {
+          "text": "Filmen tog oss genom hela historien på ett spännande sätt"
+        },
+        {
+          "text": "Vi lyckades lösa problemet genom samarbete"
+        },
+        {
+          "text": "Utsikten från toppen kunde ses genom molnen"
+        },
+        {
+          "text": "Hon fick reda på nyheterna genom en kollega"
+        },
+        {
+          "text": "Solen lyste genom dimman tidigt på morgonen"
+        },
+        {
+          "text": "Resan gick genom flera små byar"
+        },
+        {
+          "text": "Han hittade lösningen genom att prova olika metoder."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "11b1d2bd-7248-45e1-8410-cc9a9cc02273",
+      "version": -1,
+      "word": "förtsätt rakt fram",
+      "translations": {
+        "ru": "продолжай ехать прямо",
+        "en": "keep driving straight",
+        "uk": "продовжуй їхати прямо",
+        "ar": "استمر في القيادة مباشرة",
+        "fa": "به رانندگی مستقیم ادامه بده",
+        "so": "sii wad baabuurka toos",
+        "es": "sigue conduciendo recto",
+        "de": "fahren Sie weiter geradeaus",
+        "fr": "continuez à conduire tout droit",
+        "pl": "jedź dalej prosto",
+        "id": "teruslah mengemudi lurus",
+        "hi": "सीधे चलते रहो",
+        "zh": "继续直行",
+        "it": "continua a guidare dritto",
+        "tr": "düz gitmeye devam et",
+        "sr": "nastavi da voziš pravo",
+        "fi": "jatka ajamista suoraan",
+        "et": "jätka otse sõitmist",
+        "be": "працягвай ехаць прама",
+        "lv": "turpini braukt taisni",
+        "lt": "toliau važiuok tiesiai"
+      },
+      "examples": [
+        {
+          "text": "Fortsätt rakt fram tills du ser en stor byggnad"
+        },
+        {
+          "text": "För att komma till torget, fortsätt rakt fram och sväng sedan vänster"
+        },
+        {
+          "text": "Fortsätt rakt fram tills du når bron"
+        },
+        {
+          "text": "Om du vill lyckas, fortsätt rakt fram utan att tveka"
+        },
+        {
+          "text": "Gå rakt fram tills du ser busshållplatsen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "69717d79-a8d3-4700-ba92-f7df2070e095",
+      "version": -1,
+      "word": "Sedan är du framme",
+      "translations": {
+        "ru": "и затем ты на месте",
+        "en": "and then you are there",
+        "uk": "і тоді ти на місці",
+        "ar": "ثم أنت هناك",
+        "fa": "و سپس تو آنجا هستی",
+        "so": "ka dibna waad joogtaa",
+        "es": "y luego estás allí",
+        "de": "und dann bist du da",
+        "fr": "et puis tu es là",
+        "pl": "a potem jesteś tam",
+        "id": "dan kemudian kamu ada di sana",
+        "hi": "और फिर तुम वहाँ हो",
+        "zh": "然后你就到了",
+        "it": "e poi sei lì",
+        "tr": "ve sonra oradasın",
+        "sr": "и онда си тамо",
+        "fi": "ja sitten olet siellä",
+        "et": "ja siis oled seal",
+        "be": "і тады ты на месцы",
+        "lv": "un tad tu esi tur",
+        "lt": "ir tada tu esi ten"
+      },
+      "examples": [
+        {
+          "text": "Gå rakt fram i två kvarter, sedan är du framme"
+        },
+        {
+          "text": "Kör förbi bensinstationen, och sedan är du framme vid hotellet"
+        },
+        {
+          "text": "Promenera längs vägen tills du ser kyrkan, sedan är du framme"
+        },
+        {
+          "text": "Ta tåget till Malmö, sedan är du framme på din destination"
+        },
+        {
+          "text": "Följ skyltarna till centrum, och sedan är du framme."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

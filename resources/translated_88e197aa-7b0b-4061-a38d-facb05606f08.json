@@ -1,0 +1,2086 @@
+{
+  "id": "88e197aa-7b0b-4061-a38d-facb05606f08",
+  "translations": {
+    "ru": "профессии",
+    "en": "Professions",
+    "uk": "Професії",
+    "ar": "المهن",
+    "fa": "مشاغل",
+    "so": "Xirfadaha",
+    "es": "Profesiones",
+    "de": "Berufe",
+    "fr": "Professions",
+    "pl": "Zawody",
+    "id": "Profesi",
+    "hi": "पेशे",
+    "zh": "职业",
+    "it": "Professioni",
+    "tr": "Meslekler",
+    "sr": "Професије",
+    "fi": "Ammatit",
+    "et": "Ametid",
+    "be": "Прафесіі",
+    "lv": "Profesijas",
+    "lt": "Profesijos"
+  },
+  "entries": [
+    {
+      "id": "d53d1564-30c7-46da-8cca-a7ef1c65196d",
+      "version": -1,
+      "word": "ett yrke",
+      "forms": [
+        {
+          "form": "yrket"
+        },
+        {
+          "form": "yrken"
+        },
+        {
+          "form": "yrkena"
+        }
+      ],
+      "translations": {
+        "ru": "профессия",
+        "en": "profession",
+        "uk": "професія",
+        "ar": "مهنة",
+        "fa": "حرفه",
+        "so": "xirfad",
+        "es": "profesión",
+        "de": "Beruf",
+        "fr": "profession",
+        "pl": "zawód",
+        "id": "profesi",
+        "hi": "पेशा",
+        "zh": "职业",
+        "it": "professione",
+        "tr": "meslek",
+        "sr": "професија",
+        "fi": "ammatti",
+        "et": "amet",
+        "be": "прафесія",
+        "lv": "profesija",
+        "lt": "profesija"
+      },
+      "examples": [
+        {
+          "text": "Hon har valt ett yrke inom vården"
+        },
+        {
+          "text": "Det är ett yrke som kräver utbildning"
+        },
+        {
+          "text": "Vilket yrke vill du ha i framtiden? Ett vanligt yrke"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "590a1453-260a-40fa-8437-0bc52c1c2d67",
+      "version": -1,
+      "word": "en doctor",
+      "forms": [
+        {
+          "form": "doctorer"
+        }
+      ],
+      "translations": {
+        "ru": "доктор",
+        "en": "doctor",
+        "uk": "доктор",
+        "ar": "طبيب",
+        "fa": "دکتر",
+        "so": "dhakhtar",
+        "es": "doctor",
+        "de": "Arzt",
+        "fr": "docteur",
+        "pl": "doktor",
+        "id": "dokter",
+        "hi": "डॉक्टर",
+        "zh": "医生",
+        "it": "dottore",
+        "tr": "doktor",
+        "sr": "доктор",
+        "fi": "lääkäri",
+        "et": "arst",
+        "be": "доктар",
+        "lv": "ārsts",
+        "lt": "gydytojas"
+      },
+      "examples": [
+        {
+          "text": "Doctor Eriksson arbetar på sjukhuset"
+        },
+        {
+          "text": "Jag måste boka en tid hos en doctor"
+        },
+        {
+          "text": "Doktorn undersökte patientens hjärta"
+        },
+        {
+          "text": "Är du sjuk? Du borde träffa en doctor"
+        },
+        {
+          "text": "Doctor Karlsson är känd för sin skicklighet i kirurgi"
+        },
+        {
+          "text": "En doctor undersökte patienten noggrant"
+        },
+        {
+          "text": "Doctorn sa att jag måste vila i några dagar"
+        },
+        {
+          "text": "Det finns många erfarna doctorer på detta sjukhus"
+        },
+        {
+          "text": "Doctorerna på akutmottagningen jobbar hårt varje dag"
+        },
+        {
+          "text": "Jag har bokat en tid hos en doctor nästa vecka."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c9dea7ee-4a6c-43fc-9c98-fd9378a51959",
+      "version": -1,
+      "word": "en läkare",
+      "forms": [
+        {
+          "form": "Läkare"
+        }
+      ],
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Jag behöver boka tid hos en läkare"
+        },
+        {
+          "text": "Läkaren sa att jag måste vila i några dagar"
+        },
+        {
+          "text": "Min läkare rekommenderade en ny behandling"
+        },
+        {
+          "text": "Det finns många duktiga läkare på detta sjukhus"
+        },
+        {
+          "text": "Läkarna på akutmottagningen jobbar hela natten"
+        },
+        {
+          "text": "Om du är sjuk, borde du besöka en läkare"
+        },
+        {
+          "text": "Han utbildade sig till läkare vid Karolinska institutet"
+        },
+        {
+          "text": "Läkaren lyssnade på mitt hjärta och sa att allt var bra"
+        },
+        {
+          "text": "En erfaren läkare kan snabbt ställa rätt diagnos"
+        },
+        {
+          "text": "Jag ska till min tandläkare imorgon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c1ddfad9-ca98-49e6-abd2-d4753464d7c3",
+      "version": -1,
+      "word": "en polis",
+      "forms": [
+        {
+          "form": "poliser"
+        }
+      ],
+      "translations": {
+        "ru": "полицейский",
+        "en": "police officer",
+        "uk": "поліцейський",
+        "ar": "ضابط شرطة",
+        "fa": "افسر پلیس",
+        "so": "sarkaal booliis",
+        "es": "oficial de policía",
+        "de": "Polizist",
+        "fr": "officier de police",
+        "pl": "policjant",
+        "id": "petugas polisi",
+        "hi": "पुलिस अधिकारी",
+        "zh": "警察",
+        "it": "ufficiale di polizia",
+        "tr": "polis memuru",
+        "sr": "полицајац",
+        "fi": "poliisi",
+        "et": "politseinik",
+        "be": "міліцыянт",
+        "lv": "policists",
+        "lt": "policijos pareigūnas"
+      },
+      "examples": [
+        {
+          "text": "En polis stoppade bilen för en rutinkontroll"
+        },
+        {
+          "text": "Polisen har gripit en misstänkt för rånet"
+        },
+        {
+          "text": "Det finns många poliser i centrum under helgerna"
+        },
+        {
+          "text": "Poliserna arbetade hela natten för att lösa fallet"
+        },
+        {
+          "text": "Om du ser något misstänkt, ring polisen"
+        },
+        {
+          "text": "Min bror är polis och jobbar med trafikövervakning"
+        },
+        {
+          "text": "Kriminalpolisen undersöker brottsplatsen"
+        },
+        {
+          "text": "Säkerhetspolisen bevakar viktiga byggnader"
+        },
+        {
+          "text": "Polisen patrullerar området varje kväll"
+        },
+        {
+          "text": "Efter många år i yrket blev han en mycket erfaren polis."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5c05d399-a56b-4cf6-b232-2817ee300b38",
+      "version": -1,
+      "word": "en lärare",
+      "forms": [
+        {
+          "form": "läraren"
+        },
+        {
+          "form": "lärare"
+        },
+        {
+          "form": "lärarna"
+        }
+      ],
+      "translations": {
+        "ru": "учитель",
+        "en": "teacher",
+        "uk": "вчитель",
+        "ar": "معلم",
+        "fa": "معلم",
+        "so": "macallin",
+        "es": "maestro",
+        "de": "Lehrer",
+        "fr": "enseignant",
+        "pl": "nauczyciel",
+        "id": "guru",
+        "hi": "शिक्षक",
+        "zh": "老师",
+        "it": "insegnante",
+        "tr": "öğretmen",
+        "sr": "учитељ",
+        "fi": "opettaja",
+        "et": "õpetaja",
+        "be": "настаўнік",
+        "lv": "skolotājs",
+        "lt": "mokytojas"
+      },
+      "examples": [
+        {
+          "text": "Min lärare i svenska är väldigt bra"
+        },
+        {
+          "text": "Eleverna respekterar sin lärare"
+        },
+        {
+          "text": "Han är lärare i matematik"
+        },
+        {
+          "text": "Läraren förklarade grammatiken tydligt"
+        },
+        {
+          "text": "Jag ska fråga min lärare om hjälp med uppgiften"
+        },
+        {
+          "text": "Lärarna på den här skolan är mycket engagerade."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "69fc13d1-d630-4ace-ac8a-3705cf0b63ef",
+      "version": -1,
+      "word": "en försäljare",
+      "forms": [
+        {
+          "form": "försäljaren"
+        },
+        {
+          "form": "försäljare"
+        },
+        {
+          "form": "försäljarna"
+        }
+      ],
+      "translations": {
+        "ru": "продавец",
+        "en": "seller, salesperson",
+        "uk": "продавець",
+        "ar": "بائع",
+        "fa": "فروشنده",
+        "so": "iibiyaha",
+        "es": "vendedor",
+        "de": "Verkäufer",
+        "fr": "vendeur",
+        "pl": "sprzedawca",
+        "id": "penjual",
+        "hi": "विक्रेता",
+        "zh": "销售员",
+        "it": "venditore",
+        "tr": "satıcı",
+        "sr": "продавац",
+        "fi": "myyjä",
+        "et": "müüja",
+        "be": "прадавец",
+        "lv": "pārdevējs",
+        "lt": "pardavėjas"
+      },
+      "examples": [
+        {
+          "text": "Försäljare hälsar på en kund"
+        },
+        {
+          "text": "Jag pratade med en försäljare om den nya produkten"
+        },
+        {
+          "text": "En försäljare hjälpte mig att hitta rätt storlek"
+        },
+        {
+          "text": "Försäljaren rekommenderade den här modellen"
+        },
+        {
+          "text": "Jag vill tacka försäljaren för den utmärkta servicen"
+        },
+        {
+          "text": "Många försäljare jobbar på mässan"
+        },
+        {
+          "text": "Alla försäljarna är utbildade för att ge bra service"
+        },
+        {
+          "text": "Försäljaren försökte övertyga mig att köpa en dyrare produkt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "077b8c47-412a-493d-8504-d7b5fb456ccb",
+      "version": -1,
+      "word": "en chef",
+      "forms": [
+        {
+          "form": "chefer"
+        }
+      ],
+      "translations": {
+        "ru": "Начальник менеджер",
+        "en": "boss, manager",
+        "uk": "начальник, менеджер",
+        "ar": "رئيس، مدير",
+        "fa": "رئیس، مدیر",
+        "so": "maamulaha, maareeyaha",
+        "es": "jefe, gerente",
+        "de": "Chef, Manager",
+        "fr": "patron, gestionnaire",
+        "pl": "szef, menedżer",
+        "id": "bos, manajer",
+        "hi": "बॉस, प्रबंधक",
+        "zh": "老板，经理",
+        "it": "capo, manager",
+        "tr": "patron, yönetici",
+        "sr": "шеф, менаџер",
+        "fi": "pomo, johtaja",
+        "et": "ülemus, juht",
+        "be": "начальнік, менеджар",
+        "lv": "priekšnieks, vadītājs",
+        "lt": "viršininkas, vadovas"
+      },
+      "examples": [
+        {
+          "text": "Min chef är ganska strikt, men rättvis"
+        },
+        {
+          "text": "Chefen vill ha ett möte imorgon"
+        },
+        {
+          "text": "Vi har fått en ny chef på jobbet"
+        },
+        {
+          "text": "Alla chefer ska delta i konferensen"
+        },
+        {
+          "text": "Min chef sa att jag gjorde ett bra jobb"
+        },
+        {
+          "text": "Hon blev chef för IT-avdelningen förra året"
+        },
+        {
+          "text": "Cheferna på företaget diskuterade nya affärsplaner"
+        },
+        {
+          "text": "Om du har problem på jobbet, prata med chefen"
+        },
+        {
+          "text": "Han drömmer om att bli chef en dag"
+        },
+        {
+          "text": "Som avdelningschef ansvarar jag för hela teamet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d2eb9597-e04f-4c8f-892b-57a8b0492add",
+      "version": -1,
+      "word": "överordnade",
+      "translations": {
+        "ru": "руководство начальство",
+        "en": "management, superiors",
+        "uk": "керівництво, начальство",
+        "ar": "الإدارة، الرؤساء",
+        "fa": "مدیریت، مافوق‌ها",
+        "so": "maamulka, madaxda",
+        "es": "gestión, superiores",
+        "de": "Management, Vorgesetzte",
+        "fr": "gestion, supérieurs",
+        "pl": "zarządzanie, przełożeni",
+        "id": "manajemen, atasan",
+        "hi": "प्रबंधन, वरिष्ठ अधिकारी",
+        "zh": "管理，领导",
+        "it": "gestione, superiori",
+        "tr": "yönetim, amirler",
+        "sr": "управа, надређени",
+        "fi": "johto, esimiehet",
+        "et": "juhtimine, ülemused",
+        "be": "кіраўніцтва, начальства",
+        "lv": "vadība, priekšnieki",
+        "lt": "vadyba, viršininkai"
+      },
+      "examples": [
+        {
+          "text": "Jag måste rapportera till min överordnade varje morgon"
+        },
+        {
+          "text": "Min överordnade har mycket erfarenhet"
+        },
+        {
+          "text": "Jag måste prata med min överordnade om det här"
+        },
+        {
+          "text": "Mina överordnade var nöjda med projektet"
+        },
+        {
+          "text": "De nya reglerna kom från våra överordnade."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e019978a-5851-4c8a-ba9f-6cb288040e64",
+      "version": -1,
+      "word": "en verkställande direktör (VD)",
+      "forms": [
+        {
+          "form": "verkställande direktörer"
+        }
+      ],
+      "translations": {
+        "ru": "Президент компании, генеральный директор, исполнительный директор",
+        "en": "company president, CEO, executive director",
+        "uk": "президент компанії, генеральний директор, виконавчий директор",
+        "ar": "رئيس الشركة، الرئيس التنفيذي، المدير التنفيذي",
+        "fa": "رئیس شرکت، مدیر عامل، مدیر اجرایی",
+        "so": "madaxweynaha shirkadda, maamulaha guud, agaasimaha fulinta",
+        "es": "presidente de la empresa, CEO, director ejecutivo",
+        "de": "Firmenpräsident, CEO, Geschäftsführer",
+        "fr": "président de l'entreprise, PDG, directeur exécutif",
+        "pl": "prezydent firmy, dyrektor generalny, dyrektor wykonawczy",
+        "id": "presiden perusahaan, CEO, direktur eksekutif",
+        "hi": "कंपनी के अध्यक्ष, सीईओ, कार्यकारी निदेशक",
+        "zh": "公司总裁，首席执行官，执行董事",
+        "it": "presidente dell'azienda, CEO, direttore esecutivo",
+        "tr": "şirket başkanı, CEO, icra direktörü",
+        "sr": "председник компаније, генерални директор, извршни директор",
+        "fi": "yrityksen presidentti, toimitusjohtaja, johtava johtaja",
+        "et": "ettevõtte president, tegevjuht, tegevdirektor",
+        "be": "прэзідэнт кампаніі, генеральны дырэктар, выканаўчы дырэктар",
+        "lv": "uzņēmuma prezidents, izpilddirektors, izpilddirektors",
+        "lt": "įmonės prezidentas, generalinis direktorius, vykdomasis direktorius"
+      },
+      "examples": [
+        {
+          "text": "Den verkställande direktören har sista ordet i viktiga affärsbeslut"
+        },
+        {
+          "text": "VD:n presenterade företagets nya strategi på årsmötet"
+        },
+        {
+          "text": "Företaget söker en ny verkställande direktör efter att den tidigare avgick"
+        },
+        {
+          "text": "En VD måste ha goda ledarskapsförmågor"
+        },
+        {
+          "text": "Han blev verkställande direktör vid bara 35 års ålder"
+        },
+        {
+          "text": "De verkställande direktörerna från olika företag deltog i konferensen"
+        },
+        {
+          "text": "Styrelsen har beslutat att byta ut VD:n på grund av dåliga resultat"
+        },
+        {
+          "text": "VD:n har ett tätt samarbete med ekonomichefen"
+        },
+        {
+          "text": "Företaget växte snabbt under den verkställande direktörens ledning"
+        },
+        {
+          "text": "Att vara VD innebär stort ansvar och höga förväntningar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "695b36fd-1921-457d-9f00-03ca5da40928",
+      "version": -1,
+      "word": "en kock",
+      "forms": [
+        {
+          "form": "kockar"
+        }
+      ],
+      "translations": {
+        "ru": "Повар, Шеф-повар",
+        "en": "cook, chef",
+        "uk": "кухар, шеф-кухар",
+        "ar": "طباخ، شيف",
+        "fa": "آشپز، سرآشپز",
+        "so": "kariye, karinta sare",
+        "es": "cocinero, chef",
+        "de": "Koch, Chefkoch",
+        "fr": "cuisinier, chef",
+        "pl": "kucharz, szef kuchni",
+        "id": "koki, koki kepala",
+        "hi": "रसोइया, शेफ",
+        "zh": "厨师，主厨",
+        "it": "cuoco, chef",
+        "tr": "aşçı, şef",
+        "sr": "кувар, шеф",
+        "fi": "kokki, keittiömestari",
+        "et": "kokk, peakokk",
+        "be": "кухар, шэф-повар",
+        "lv": "pavārs, šefpavārs",
+        "lt": "virėjas, šefas"
+      },
+      "examples": [
+        {
+          "text": "Min bror är kock och arbetar på en fin restaurang"
+        },
+        {
+          "text": "Kocken lagade en fantastisk middag"
+        },
+        {
+          "text": "Hon utbildar sig till kock vid en kockskola"
+        },
+        {
+          "text": "Kockarna på hotellet är mycket professionella"
+        },
+        {
+          "text": "Jag drömmer om att bli en kock och öppna min egen restaurang"
+        },
+        {
+          "text": "Kocken provsmakade såsen innan han serverade maten"
+        },
+        {
+          "text": "De anställde en ny kock för att förbättra kvaliteten på maten"
+        },
+        {
+          "text": "Kockarna arbetade hårt under middagsrusningen"
+        },
+        {
+          "text": "TV-kocken delade sitt bästa recept på pasta"
+        },
+        {
+          "text": "En bra kock måste ha både kunskap och kreativitet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "74238366-9611-483e-994e-c0937ea6fb69",
+      "version": 1,
+      "word": "en bagare",
+      "forms": [
+        {
+          "form": "bagaren"
+        },
+        {
+          "form": "bagare"
+        },
+        {
+          "form": "bagarna"
+        }
+      ],
+      "translations": {
+        "ru": "пекарь",
+        "en": "baker",
+        "uk": "пекар",
+        "ar": "خباز",
+        "fa": "نانوای",
+        "so": "foornada",
+        "es": "panadero",
+        "de": "Bäcker",
+        "fr": "boulanger",
+        "pl": "piekarz",
+        "id": "pembuat roti",
+        "hi": "बेकरी",
+        "zh": "面包师",
+        "it": "fornaio",
+        "tr": "fırıncı",
+        "sr": "пекар",
+        "fi": "leipuri",
+        "et": "pagar",
+        "be": "пекар",
+        "lv": "maiznieks",
+        "lt": "kepėjas"
+      },
+      "examples": [
+        {
+          "text": "Min farfar var bagare i hela sitt liv"
+        },
+        {
+          "text": "Bagaren steg upp klockan fyra för att baka bröd"
+        },
+        {
+          "text": "Hon arbetar som bagare på ett café"
+        },
+        {
+          "text": "Bagare måste vara noggranna med recept"
+        },
+        {
+          "text": "Jag vill bli bagare när jag blir stor"
+        },
+        {
+          "text": "Bagarna i stan gör de godaste bullarna"
+        },
+        {
+          "text": "Det luktar som hos en bagare här!"
+        },
+        {
+          "text": "Hon är inte professionell bagare, men hon bakar fantastiskt gott"
+        },
+        {
+          "text": "På morgonen såg vi hur bagaren jobbade i bageriet"
+        },
+        {
+          "text": "Alla bagare behöver bra ugnar och mjöl."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "260c27a0-65ab-4a02-91ab-e18c0e56aa19",
+      "version": -1,
+      "word": "en Ingenjör",
+      "forms": [
+        {
+          "form": "ingenjörer"
+        }
+      ],
+      "translations": {
+        "ru": "Инженер",
+        "en": "engineer",
+        "uk": "інженер",
+        "ar": "مهندس",
+        "fa": "مهندس",
+        "so": "injineer",
+        "es": "ingeniero",
+        "de": "Ingenieur",
+        "fr": "ingénieur",
+        "pl": "inżynier",
+        "id": "insinyur",
+        "hi": "इंजीनियर",
+        "zh": "工程师",
+        "it": "ingegnere",
+        "tr": "mühendis",
+        "sr": "инжењер",
+        "fi": "insinööri",
+        "et": "insener",
+        "be": "інжынер",
+        "lv": "inženieris",
+        "lt": "inžinierius"
+      },
+      "examples": [
+        {
+          "text": "En bra ingenjör kan designa och bygga system"
+        },
+        {
+          "text": "Jag vill bli ingenjör och arbeta med hållbar energi"
+        },
+        {
+          "text": "Min bror är dataingenjör och programmerar appar"
+        },
+        {
+          "text": "Ingenjörerna på företaget utvecklar ny teknik"
+        },
+        {
+          "text": "Han studerar till civilingenjör på KTH"
+        },
+        {
+          "text": "Ingenjören konstruerade en ny typ av motor"
+        },
+        {
+          "text": "Det finns stor efterfrågan på elektroingenjörer"
+        },
+        {
+          "text": "Min farfar var ingenjör inom flygindustrin"
+        },
+        {
+          "text": "Som ingenjör måste man vara bra på problemlösning"
+        },
+        {
+          "text": "Byggnadsingenjören ansvarar för broprojektet"
+        },
+        {
+          "text": "Ingenjör"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8b263dc2-984f-4294-ac6d-8ba2bcdef72e",
+      "version": -1,
+      "word": "en programmerare",
+      "forms": [
+        {
+          "form": "programmerare"
+        }
+      ],
+      "translations": {
+        "ru": "Программист",
+        "en": "programmer",
+        "uk": "програміст",
+        "ar": "مبرمج",
+        "fa": "برنامه‌نویس",
+        "so": "barnaamij sameeye",
+        "es": "programador",
+        "de": "Programmierer",
+        "fr": "programmeur",
+        "pl": "programista",
+        "id": "programmer",
+        "hi": "प्रोग्रामर",
+        "zh": "程序员",
+        "it": "programmatore",
+        "tr": "programcı",
+        "sr": "програмер",
+        "fi": "ohjelmoija",
+        "et": "programmeerija",
+        "be": "праграміст",
+        "lv": "programmētājs",
+        "lt": "programuotojas"
+      },
+      "examples": [
+        {
+          "text": "Jag arbetar som programmerare på ett techbolag"
+        },
+        {
+          "text": "Min bror är webbutvecklare och skriver kod i JavaScript"
+        },
+        {
+          "text": "Programmerarna i teamet löste buggen snabbt"
+        },
+        {
+          "text": "För att bli en bra programmerare behöver du träna mycket"
+        },
+        {
+          "text": "Jag vill bli spelutvecklare och skapa egna datorspel"
+        },
+        {
+          "text": "Programmeraren skrev ett effektivt skript för att automatisera processen"
+        },
+        {
+          "text": "Många programmerare föredrar att arbeta på distans"
+        },
+        {
+          "text": "Företaget letar efter en erfaren backend-programmerare"
+        },
+        {
+          "text": "Jag studerar till programmerare på universitetet"
+        },
+        {
+          "text": "Programmerarna diskuterade den bästa lösningen på problemet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "93885a9a-75ef-47ab-86e7-f6d0b5052f49",
+      "version": -1,
+      "word": "en mjukvaruutvecklare",
+      "forms": [
+        {
+          "form": "mjukvaruutvecklare"
+        }
+      ],
+      "translations": {
+        "ru": "разработчик программного обеспечения",
+        "en": "software developer",
+        "uk": "розробник програмного забезпечення",
+        "ar": "مطور برمجيات",
+        "fa": "توسعه‌دهنده نرم‌افزار",
+        "so": "horumariye software",
+        "es": "desarrollador de software",
+        "de": "Softwareentwickler",
+        "fr": "développeur de logiciels",
+        "pl": "programista",
+        "id": "pengembang perangkat lunak",
+        "hi": "सॉफ़्टवेयर डेवलपर",
+        "zh": "软件开发人员",
+        "it": "sviluppatore di software",
+        "tr": "yazılım geliştirici",
+        "sr": "софтверски програмер",
+        "fi": "ohjelmistokehittäjä",
+        "et": "tarkvaraarendaja",
+        "be": "распрацоўшчык праграмнага забеспячэння",
+        "lv": "programmatūras izstrādātājs",
+        "lt": "programinės įrangos kūrėjas"
+      },
+      "examples": [
+        {
+          "text": "Jag arbetar som mjukvaruutvecklare inom fintech-sektorn"
+        },
+        {
+          "text": "Mjukvaruutvecklaren skrev en ny algoritm för dataanalys"
+        },
+        {
+          "text": "Företaget söker erfarna mjukvaruutvecklare till sitt team"
+        },
+        {
+          "text": "Mjukvaruutvecklarna arbetar med en ny version av appen"
+        },
+        {
+          "text": "Jag vill utbilda mig till mjukvaruutvecklare och jobba med AI"
+        },
+        {
+          "text": "Hon är en skicklig mjukvaruutvecklare och löser problem snabbt"
+        },
+        {
+          "text": "Vi anställer just nu mjukvaruutvecklare med erfarenhet av Java och Python"
+        },
+        {
+          "text": "Att vara mjukvaruutvecklare innebär att man ständigt lär sig nya teknologier"
+        },
+        {
+          "text": "Mjukvaruutvecklaren implementerade en ny säkerhetsfunktion i systemet"
+        },
+        {
+          "text": "De flesta mjukvaruutvecklare jobbar antingen på kontor eller på distans."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "19654468-179e-4331-bcb9-e65bc4395855",
+      "version": -1,
+      "word": "en sjuksköterska",
+      "forms": [
+        {
+          "form": "sjuksköterskor"
+        }
+      ],
+      "translations": {
+        "ru": "Медсестра медбрат",
+        "en": "nurse",
+        "uk": "медсестра",
+        "ar": "ممرضة",
+        "fa": "پرستار",
+        "so": "kalkaaliye caafimaad",
+        "es": "enfermero/enfermera",
+        "de": "Krankenpfleger/Krankenschwester",
+        "fr": "infirmier/infirmière",
+        "pl": "pielęgniarz/pielęgniarka",
+        "id": "perawat",
+        "hi": "नर्स",
+        "zh": "护士",
+        "it": "infermiere/infermiera",
+        "tr": "hemşire",
+        "sr": "медицинска сестра/медицински техничар",
+        "fi": "sairaanhoitaja",
+        "et": "õde",
+        "be": "медсястра",
+        "lv": "medmāsa",
+        "lt": "slaugytojas/slaugytoja"
+      },
+      "examples": [
+        {
+          "text": "Min syster arbetar som sjuksköterska på sjukhuset"
+        },
+        {
+          "text": "Sjuksköterskor spelar en viktig roll i sjukvården"
+        },
+        {
+          "text": "Han utbildar sig till sjuksköterska"
+        },
+        {
+          "text": "Sjuksköterskan tog blodprov på patienten"
+        },
+        {
+          "text": "Kan du be sjuksköterskan att komma hit? Hon är legitimerad sjuksköterska sedan fem år tillbaka."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b3d2dd6c-38f4-4509-9a54-43050202a21e",
+      "version": -1,
+      "word": "en bonde",
+      "forms": [
+        {
+          "form": "bönder"
+        }
+      ],
+      "translations": {
+        "ru": "фермер",
+        "en": "farmer",
+        "uk": "фермер",
+        "ar": "مزارع",
+        "fa": "کشاورز",
+        "so": "beeraley",
+        "es": "granjero",
+        "de": "Bauer",
+        "fr": "fermier",
+        "pl": "rolnik",
+        "id": "petani",
+        "hi": "किसान",
+        "zh": "农民",
+        "it": "contadino",
+        "tr": "çiftçi",
+        "sr": "фармер",
+        "fi": "maanviljelijä",
+        "et": "põllumees",
+        "be": "фермер",
+        "lv": "zemnieks",
+        "lt": "ūkininkas"
+      },
+      "examples": [
+        {
+          "text": "Bonden står i vetefältet"
+        },
+        {
+          "text": "Min farfar var bonde och hade en stor gård"
+        },
+        {
+          "text": "Bonden gick upp tidigt för att mata djuren"
+        },
+        {
+          "text": "I byn fanns många bönder som odlade potatis och korn"
+        },
+        {
+          "text": "Bönderna kämpade för sina rättigheter under medeltiden"
+        },
+        {
+          "text": "Hon arbetar som ekologisk bonde och odlar grönsaker utan bekämpningsmedel"
+        },
+        {
+          "text": "Bonden sålde sina produkter på marknaden varje lördag"
+        },
+        {
+          "text": "Många unga bönder använder ny teknik för att förbättra jordbruket"
+        },
+        {
+          "text": "En mjölkbonde måste mjölka sina kor två gånger om dagen"
+        },
+        {
+          "text": "Bönderna samarbetade för att bygga ett gemensamt förråd"
+        },
+        {
+          "text": "Det är inte lätt att vara bonde idag på grund av klimatförändringar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "82d8d0d2-d80a-407a-aa10-fd4696bc233b",
+      "version": -1,
+      "word": "en sekreterare",
+      "forms": [
+        {
+          "form": "sekreterare"
+        }
+      ],
+      "translations": {
+        "ru": "секретарь",
+        "en": "secretary",
+        "uk": "секретар",
+        "ar": "سكرتير",
+        "fa": "منشی",
+        "so": "xoghayaha",
+        "es": "secretario",
+        "de": "Sekretär",
+        "fr": "secrétaire",
+        "pl": "sekretarz",
+        "id": "sekretaris",
+        "hi": "सचिव",
+        "zh": "秘书",
+        "it": "segretario",
+        "tr": "sekreter",
+        "sr": "секретар",
+        "fi": "sihteeri",
+        "et": "sekretär",
+        "be": "сакратар",
+        "lv": "sekretārs",
+        "lt": "sekretorius"
+      },
+      "examples": [
+        {
+          "text": "Sekreteraren pratar i telefonen"
+        },
+        {
+          "text": "Min sekreterare bokade mötet klockan 14"
+        },
+        {
+          "text": "Sekreteraren ansvarar för att skriva protokoll under möten"
+        },
+        {
+          "text": "Hon arbetar som medicinsk sekreterare på sjukhuset"
+        },
+        {
+          "text": "Generalsekreteraren för FN höll ett tal om klimatförändringar"
+        },
+        {
+          "text": "Jag behöver en sekreterare som kan hantera alla mina e-postmeddelanden"
+        },
+        {
+          "text": "Företagssekreteraren förbereder årsrapporten för styrelsen"
+        },
+        {
+          "text": "Kabinettssekreteraren deltog i internationella förhandlingar"
+        },
+        {
+          "text": "Sekreterarna på kontoret organiserar alla dokument"
+        },
+        {
+          "text": "Hon har jobbat som juridisk sekreterare i tio år"
+        },
+        {
+          "text": "Sekreteraren för klubben hanterar medlemslistorna."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "737629d0-b148-4908-953c-792631c9fecd",
+      "version": -1,
+      "word": "en bankir",
+      "forms": [
+        {
+          "form": "bankirer"
+        }
+      ],
+      "translations": {
+        "ru": "банкир",
+        "en": "banker",
+        "uk": "банкір",
+        "ar": "مصرفي",
+        "fa": "بانکدار",
+        "so": "bangi",
+        "es": "banquero",
+        "de": "Bankier",
+        "fr": "banquier",
+        "pl": "bankier",
+        "id": "bankir",
+        "hi": "बैंकर",
+        "zh": "银行家",
+        "it": "banchiere",
+        "tr": "bankacı",
+        "sr": "банкар",
+        "fi": "pankkiiri",
+        "et": "pankur",
+        "be": "банкір",
+        "lv": "baņķieris",
+        "lt": "bankininkas"
+      },
+      "examples": [
+        {
+          "text": "Jag träffade tio bankirer innan jag fick ett lån för köpa ett hus"
+        },
+        {
+          "text": "En bankir måste ha goda kunskaper om ekonomi"
+        },
+        {
+          "text": "Bankiren hjälpte oss med lånet"
+        },
+        {
+          "text": "Det finns många framgångsrika bankirer i Sverige"
+        },
+        {
+          "text": "Bankirerna diskuterade nya investeringar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d6a7103d-2f6c-469a-a5f6-db4f6fa716c9",
+      "version": -1,
+      "word": "en författare",
+      "forms": [
+        {
+          "form": "författare"
+        }
+      ],
+      "translations": {
+        "ru": "писатель",
+        "en": "writer",
+        "uk": "письменник",
+        "ar": "كاتب",
+        "fa": "نویسنده",
+        "so": "qoraa",
+        "es": "escritor",
+        "de": "Schriftsteller",
+        "fr": "écrivain",
+        "pl": "pisarz",
+        "id": "penulis",
+        "hi": "लेखक",
+        "zh": "作家",
+        "it": "scrittore",
+        "tr": "yazar",
+        "sr": "писац",
+        "fi": "kirjailija",
+        "et": "kirjanik",
+        "be": "пісьменнік",
+        "lv": "rakstnieks",
+        "lt": "rašytojas"
+      },
+      "examples": [
+        {
+          "text": "Hon är min favoritförfattare för att hennes böcker är så rörande"
+        },
+        {
+          "text": "Astrid Lindgren var en av Sveriges mest kända författare"
+        },
+        {
+          "text": "Jag drömmer om att bli författare och skriva romaner"
+        },
+        {
+          "text": "Författaren arbetade på sin nya bok i flera år"
+        },
+        {
+          "text": "Många författare hämtar inspiration från sin egen livserfarenhet"
+        },
+        {
+          "text": "Författarna diskuterade litterära trender på konferensen"
+        },
+        {
+          "text": "Han är en produktiv författare som publicerar flera böcker om året"
+        },
+        {
+          "text": "Hon började som bloggare och blev senare en framgångsrik författare"
+        },
+        {
+          "text": "Författaren vann ett litteraturpris för sin senaste roman"
+        },
+        {
+          "text": "Boken blev en bästsäljare och gjorde författaren berömd"
+        },
+        {
+          "text": "Jag gillar svenska författare som Strindberg och Lagerlöf."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "db72d387-48de-4bd1-a55a-5377163e9e2c",
+      "version": -1,
+      "word": "en byggnadsarbetare",
+      "forms": [
+        {
+          "form": "byggnadsarbetare"
+        }
+      ],
+      "translations": {
+        "ru": "строитель",
+        "en": "builder, construction worker",
+        "uk": "будівельник",
+        "ar": "عامل بناء",
+        "fa": "ساختمان‌ساز",
+        "so": "dhisme",
+        "es": "constructor",
+        "de": "Bauarbeiter",
+        "fr": "constructeur",
+        "pl": "budowniczy",
+        "id": "pembangun",
+        "hi": "निर्माण कार्यकर्ता",
+        "zh": "建筑工人",
+        "it": "costruttore",
+        "tr": "inşaat işçisi",
+        "sr": "грађевинац",
+        "fi": "rakentaja",
+        "et": "ehitaja",
+        "be": "будаўнік",
+        "lv": "celtnieks",
+        "lt": "statybininkas"
+      },
+      "examples": [
+        {
+          "text": "Byggnadsarbetarna började arbeta vid soluppgången"
+        },
+        {
+          "text": "Min pappa är byggnadsarbetare och har byggt många hus"
+        },
+        {
+          "text": "Byggnadsarbetaren bär skyddshjälm och reflexväst"
+        },
+        {
+          "text": "Det behövs fler byggnadsarbetare på den här arbetsplatsen"
+        },
+        {
+          "text": "Hon arbetar som byggnadsarbetare och trivs bra med sitt jobb"
+        },
+        {
+          "text": "Byggnadsarbetarna har lagt grunden till det nya huset"
+        },
+        {
+          "text": "Att vara byggnadsarbetare är ett fysiskt krävande jobb"
+        },
+        {
+          "text": "Byggnadsarbetaren använde en kran för att lyfta tunga material"
+        },
+        {
+          "text": "e byggnadsarbetare som jobbar här är mycket erfarna"
+        },
+        {
+          "text": "Byggnadsarbetarna avslutade arbetet i tid trots det dåliga vädret."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9a1e789e-a1d5-436a-8b55-883f04edfefe",
+      "version": -1,
+      "word": "en hemmafru",
+      "forms": [
+        {
+          "form": "hemmafruar"
+        }
+      ],
+      "translations": {
+        "ru": "домохозяйка",
+        "en": "housewife, homemaker",
+        "uk": "домогосподарка",
+        "ar": "ربة منزل",
+        "fa": "خانه‌دار",
+        "so": "hooyo guriga",
+        "es": "ama de casa",
+        "de": "Hausfrau",
+        "fr": "femme au foyer",
+        "pl": "gospodyni domowa",
+        "id": "ibu rumah tangga",
+        "hi": "गृहिणी",
+        "zh": "家庭主妇",
+        "it": "casalinga",
+        "tr": "ev hanımı",
+        "sr": "домаћица",
+        "fi": "kotiäiti",
+        "et": "koduperenaine",
+        "be": "хатняя гаспадыня",
+        "lv": "mājsaimniece",
+        "lt": "namų šeimininkė"
+      },
+      "examples": [
+        {
+          "text": "Hemmafruar gör ett mycket värdefullt jobb men får oftast inte en lönecheck"
+        },
+        {
+          "text": "Min mormor var hemmafru hela sitt liv"
+        },
+        {
+          "text": "Hemmafruarna på 1950-talet hade ofta ansvar för matlagning och barn"
+        },
+        {
+          "text": "Hon valde att bli hemmafru efter att hennes första barn föddes"
+        },
+        {
+          "text": "Många ser inte längre hemmafru som ett yrke, men det kräver mycket arbete"
+        },
+        {
+          "text": "Min mamma var hemmafru tills jag började skolan"
+        },
+        {
+          "text": "Hemmafrun tog hand om både barnen och hushållet"
+        },
+        {
+          "text": "I vissa länder är det fortfarande vanligt att kvinnor är hemmafruar"
+        },
+        {
+          "text": "Efter många år som hemmafru ville hon börja jobba igen"
+        },
+        {
+          "text": "Förr i tiden var hemmafruar vanliga, men idag arbetar de flesta kvinnor"
+        },
+        {
+          "text": "Hon ser sig själv som en modern hemmafru – hon driver en blogg om hem och familj."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "18392b83-0d1b-4b3f-891b-dd64abe1ce8b",
+      "version": -1,
+      "word": "en servetris",
+      "forms": [
+        {
+          "form": "servitriser"
+        }
+      ],
+      "translations": {
+        "ru": "официантка",
+        "en": "waitress",
+        "uk": "офіціантка",
+        "ar": "نادلة",
+        "fa": "پیشخدمت زن",
+        "so": "gabadh adeegto",
+        "es": "camarera",
+        "de": "Kellnerin",
+        "fr": "serveuse",
+        "pl": "kelnerka",
+        "id": "pelayan wanita",
+        "hi": "वेट्रेस",
+        "zh": "女服务员",
+        "it": "cameriera",
+        "tr": "garson",
+        "sr": "конобарица",
+        "fi": "tarjoilijatar",
+        "et": "ettekandja",
+        "be": "афіцыянтка",
+        "lv": "viesmīle",
+        "lt": "padavėja"
+      },
+      "examples": [
+        {
+          "text": "Servetrisen håller en bricka med glas"
+        },
+        {
+          "text": "Servitrisen kom med menyn och log vänligt"
+        },
+        {
+          "text": "Hon jobbar som servitris på en italiensk restaurang"
+        },
+        {
+          "text": "Servitriserna hade mycket att göra under lunchtid"
+        },
+        {
+          "text": "Jag arbetade som servitris under sommaren"
+        },
+        {
+          "text": "Servitrisen rekommenderade dagens specialitet"
+        },
+        {
+          "text": "En erfaren servitris kan hantera många bord samtidigt"
+        },
+        {
+          "text": "Servitrisen tappade en tallrik, men hanterade situationen professionellt"
+        },
+        {
+          "text": "Många studenter jobbar som servitriser för att tjäna extra pengar"
+        },
+        {
+          "text": "Vi fick vänta länge innan servitrisen tog vår beställning"
+        },
+        {
+          "text": "Servitriserna på kaféet var mycket hjälpsamma och trevliga."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b8cb75a5-f12a-44e3-92b4-d3fa06f5b8d1",
+      "version": -1,
+      "word": "en servitör",
+      "forms": [
+        {
+          "form": "servitörer"
+        }
+      ],
+      "translations": {
+        "ru": "официант",
+        "en": "waiter",
+        "uk": "офіціант",
+        "ar": "نادل",
+        "fa": "پیشخدمت",
+        "so": "adeegto",
+        "es": "camarero",
+        "de": "Kellner",
+        "fr": "serveur",
+        "pl": "kelner",
+        "id": "pelayan",
+        "hi": "वेटर",
+        "zh": "服务员",
+        "it": "cameriere",
+        "tr": "garson",
+        "sr": "конобар",
+        "fi": "tarjoilija",
+        "et": "kelner",
+        "be": "афіцыянт",
+        "lv": "viesmīlis",
+        "lt": "padavėjas"
+      },
+      "examples": [
+        {
+          "text": "Servitören levererar romm servicen"
+        },
+        {
+          "text": "Jag bad en servitör om menyn"
+        },
+        {
+          "text": "En erfaren servitör vet hur man hanterar stressiga situationer"
+        },
+        {
+          "text": "Servitören serverade oss snabbt och artigt"
+        },
+        {
+          "text": "Kan du fråga servitören om det finns vegetariska alternativ? Alla servitörer på restaurangen är väldigt trevliga"
+        },
+        {
+          "text": "Restaurangen anställer nya servitörer inför sommarsäsongen"
+        },
+        {
+          "text": "Alla servitörerna är klädda i vita skjortor och svarta byxor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e6e72441-ab6b-4e2f-98c3-f1adf937ae26",
+      "version": -1,
+      "word": "en busschaufför",
+      "forms": [
+        {
+          "form": "busschaufförer"
+        }
+      ],
+      "translations": {
+        "ru": "водитель автобуса",
+        "en": "bus driver",
+        "uk": "водій автобуса",
+        "ar": "سائق الحافلة",
+        "fa": "راننده اتوبوس",
+        "so": "darawalka baska",
+        "es": "conductor de autobús",
+        "de": "Busfahrer",
+        "fr": "conducteur de bus",
+        "pl": "kierowca autobusu",
+        "id": "sopir bus",
+        "hi": "बस चालक",
+        "zh": "公交车司机",
+        "it": "autista di autobus",
+        "tr": "otobüs şoförü",
+        "sr": "возач аутобуса",
+        "fi": "bussinkuljettaja",
+        "et": "bussijuht",
+        "be": "вадзіцель аўтобуса",
+        "lv": "autobusa vadītājs",
+        "lt": "autobuso vairuotojas"
+      },
+      "examples": [
+        {
+          "text": "En busschaufför hälsade glatt"
+        },
+        {
+          "text": "Busschauffören körde väldigt säkert"
+        },
+        {
+          "text": "Det finns många busschaufförer i staden"
+        },
+        {
+          "text": "Jag tackade busschauffören när jag gick av bussen"
+        },
+        {
+          "text": "Busschauffören var mycket hjälpsam när jag frågade om vägen"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ccdbb87c-bd66-4008-b4aa-8c162d92f9d5",
+      "version": -1,
+      "word": "en taxichaufför",
+      "forms": [
+        {
+          "form": "taxichaufförer"
+        }
+      ],
+      "translations": {
+        "ru": "Таксист",
+        "en": "taxi driver",
+        "uk": "таксист",
+        "ar": "سائق تاكسي",
+        "fa": "راننده تاکسی",
+        "so": "darawal taksi",
+        "es": "taxista",
+        "de": "Taxifahrer",
+        "fr": "chauffeur de taxi",
+        "pl": "taksówkarz",
+        "id": "sopir taksi",
+        "hi": "टैक्सी चालक",
+        "zh": "出租车司机",
+        "it": "tassista",
+        "tr": "taksi şoförü",
+        "sr": "таксиста",
+        "fi": "taksinkuljettaja",
+        "et": "taksijuht",
+        "be": "таксіст",
+        "lv": "taksometra vadītājs",
+        "lt": "taksi vairuotojas"
+      },
+      "examples": [
+        {
+          "text": "Jag beställde en taxi och taxichauffören kom inom fem minuter"
+        },
+        {
+          "text": "Taxichauffören var mycket trevlig och hjälpte mig med bagaget"
+        },
+        {
+          "text": "Många taxichaufförer jobbar långa skift, särskilt på helger"
+        },
+        {
+          "text": "Min farbror är taxichaufför och trivs med sitt jobb"
+        },
+        {
+          "text": "Taxichaufförerna i staden känner till alla genvägar"
+        },
+        {
+          "text": "Jag pratade med taxichauffören om vädret medan vi körde"
+        },
+        {
+          "text": "Taxichauffören tog en längre väg för att undvika trafikstockning"
+        },
+        {
+          "text": "Hon jobbar som taxichaufför på kvällarna för att tjäna extra pengar"
+        },
+        {
+          "text": "Taxichaufförerna protesterade mot de nya reglerna"
+        },
+        {
+          "text": "Det är viktigt att taxichaufförer kör säkert och följer trafikreglerna."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "23e9cbee-d0c1-496d-b8c2-4b5de4f25474",
+      "version": -1,
+      "word": "en receptionist",
+      "forms": [
+        {
+          "form": "receptionister"
+        }
+      ],
+      "translations": {
+        "ru": "администратор (на ресепшене)",
+        "en": "receptionist",
+        "uk": "рецепціоніст",
+        "ar": "موظف استقبال",
+        "fa": "پذیرشگر",
+        "so": "qaabilaadda",
+        "es": "recepcionista",
+        "de": "Rezeptionist",
+        "fr": "réceptionniste",
+        "pl": "recepcjonista",
+        "id": "resepsionis",
+        "hi": "रिसेप्शनिस्ट",
+        "zh": "接待员",
+        "it": "receptionist",
+        "tr": "resepsiyonist",
+        "sr": "рецепционер",
+        "fi": "vastaanottovirkailija",
+        "et": "administraator",
+        "be": "рэсэпцыяніст",
+        "lv": "reģistrators",
+        "lt": "registratorius"
+      },
+      "examples": [
+        {
+          "text": "Receptionisten välkomnade gästerna med ett leende"
+        },
+        {
+          "text": "Jag vill prata med en receptionist angående min bokning"
+        },
+        {
+          "text": "Receptionisterna i det här hotellet är väldigt hjälpsamma"
+        },
+        {
+          "text": "Han arbetar som receptionist på ett företag"
+        },
+        {
+          "text": "Receptionisten bad mig fylla i ett formulär"
+        },
+        {
+          "text": "Receptionisten hjälpte mig att hitta rätt konferensrum"
+        },
+        {
+          "text": "Har ni en receptionist som talar engelska? Jag frågade receptionisten om närmaste restaurang"
+        },
+        {
+          "text": "Hotellet söker en receptionist med erfarenhet"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d23a320b-7c96-4f9c-a5d1-7f2bc0a28739",
+      "version": -1,
+      "word": "en frisör",
+      "forms": [
+        {
+          "form": "frisören"
+        },
+        {
+          "form": "frisörer"
+        },
+        {
+          "form": "frisörerna"
+        }
+      ],
+      "translations": {
+        "ru": "парикмахер",
+        "en": "hairdresser",
+        "uk": "перукар",
+        "ar": "حلاق",
+        "fa": "آرایشگر",
+        "so": "timo-jare",
+        "es": "peluquero",
+        "de": "Friseur",
+        "fr": "coiffeur",
+        "pl": "fryzjer",
+        "id": "penata rambut",
+        "hi": "नाई",
+        "zh": "理发师",
+        "it": "parrucchiere",
+        "tr": "kuaför",
+        "sr": "фризер",
+        "fi": "kampaaja",
+        "et": "juuksur",
+        "be": "цырульнік",
+        "lv": "frizieris",
+        "lt": "kirpėjas"
+      },
+      "examples": [
+        {
+          "text": "Frisören klippte mitt hår kortare än jag ville"
+        },
+        {
+          "text": "Jag behöver boka en tid hos frisören"
+        },
+        {
+          "text": "Frisörerna i den här salongen är väldigt erfarna"
+        },
+        {
+          "text": "Jag ska till frisören för att klippa mig"
+        },
+        {
+          "text": "Frisören är väldigt duktig på att klippa"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f3022b28-0578-411f-9bf8-cb2a6246a888",
+      "version": -1,
+      "word": "en vaktmästare",
+      "forms": [
+        {
+          "form": "vaktmästaren"
+        },
+        {
+          "form": "vaktmästare"
+        },
+        {
+          "form": "vaktmästarna"
+        }
+      ],
+      "translations": {
+        "ru": "завхоз, технический сотрудник, сторож",
+        "en": "caretaker, maintenance worker, guard",
+        "uk": "завгосп, технічний працівник, охоронець",
+        "ar": "حارس، عامل صيانة، حارس أمن",
+        "fa": "سرپرست، کارگر نگهداری، نگهبان",
+        "so": "ilaaliye, shaqaale dayactir, waardiye",
+        "es": "conserje, trabajador de mantenimiento, guardia",
+        "de": "Hausmeister, Wartungsarbeiter, Wächter",
+        "fr": "concierge, agent de maintenance, gardien",
+        "pl": "gospodarz, pracownik konserwacji, strażnik",
+        "id": "penjaga, pekerja pemeliharaan, penjaga",
+        "hi": "देखभाल करने वाला, रखरखाव कार्यकर्ता, गार्ड",
+        "zh": "看管人, 维修工, 保安",
+        "it": "custode, manutentore, guardia",
+        "tr": "bekçi, bakım çalışanı, güvenlik görevlisi",
+        "sr": "домаћин, радник за одржавање, чувар",
+        "fi": "talonmies, huoltotyöntekijä, vartija",
+        "et": "majahoidja, hooldustöötaja, valvur",
+        "be": "загадчык гаспадаркі, тэхнічны супрацоўнік, вартаўнік",
+        "lv": "saimnieks, tehniskais darbinieks, sargs",
+        "lt": "ūkvedys, techninis darbuotojas, sargas"
+      },
+      "examples": [
+        {
+          "text": "Vaktmästaren sköter fastigheten och ser till att allt fungerar"
+        },
+        {
+          "text": "Om något går sönder, kontakta vaktmästaren"
+        },
+        {
+          "text": "Vaktmästaren hjälper till med möbler inför möten"
+        },
+        {
+          "text": "Vaktmästaren ser till att obehöriga inte kommer in i byggnaden"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0f39fb5b-e1fb-432b-b0f7-98c87f2f6633",
+      "version": -1,
+      "word": "en lokalvårdare",
+      "forms": [
+        {
+          "form": "lokalvårdare"
+        }
+      ],
+      "translations": {
+        "ru": "уборщик помещений, уборщица",
+        "en": "cleaner, janitor",
+        "uk": "прибиральник, прибиральниця",
+        "ar": "عامل نظافة، منظف",
+        "fa": "نظافتچی",
+        "so": "nadiifiye",
+        "es": "limpiador, conserje",
+        "de": "Reiniger, Hausmeister",
+        "fr": "nettoyeur, concierge",
+        "pl": "sprzątacz, dozorca",
+        "id": "pembersih, petugas kebersihan",
+        "hi": "सफाईकर्मी, चौकीदार",
+        "zh": "清洁工",
+        "it": "addetto alle pulizie, custode",
+        "tr": "temizlikçi, hademe",
+        "sr": "чистач, домар",
+        "fi": "siivooja, talonmies",
+        "et": "koristaja, majahoidja",
+        "be": "прыбіральнік, прыбіральніца",
+        "lv": "tīrītājs, apkopējs",
+        "lt": "valytojas, sargas"
+      },
+      "examples": [
+        {
+          "text": "Lokalvårdaren på kontoret gör ett fantastiskt jobb"
+        },
+        {
+          "text": "Min mamma är lokalvårdare på en skola"
+        },
+        {
+          "text": "Lokalvårdarna på sjukhuset har en viktig roll för hygienen"
+        },
+        {
+          "text": "Efter festen behövdes extra lokalvårdare för att städa"
+        },
+        {
+          "text": "Han jobbar som lokalvårdare och trivs med sitt arbete"
+        },
+        {
+          "text": "Lokalvårdaren dammsög och torkade golven i hela byggnaden"
+        },
+        {
+          "text": "Vi anställde fler lokalvårdare eftersom vi behövde bättre städning"
+        },
+        {
+          "text": "Hon har jobbat som lokalvårdare i över tio år"
+        },
+        {
+          "text": "Lokalvårdarna börjar sitt jobb tidigt på morgonen"
+        },
+        {
+          "text": "På hotellet finns professionella lokalvårdare som ser till att rummen är rena."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "539c38c8-cda1-4634-a843-459e76c9a407",
+      "version": -1,
+      "word": "en tågvärd",
+      "forms": [
+        {
+          "form": "tågvärdar"
+        }
+      ],
+      "translations": {
+        "ru": "проводник (или контролер в поезде)",
+        "en": "conductor (train attendant or inspector)",
+        "uk": "провідник (або контролер у поїзді)",
+        "ar": "موصل (مرافق أو مفتش في القطار)",
+        "fa": "راهنما (یا بازرس در قطار)",
+        "so": "hagaha (ama kormeeraha tareenka)",
+        "es": "conductor (asistente o inspector de tren)",
+        "de": "Schaffner (Zugbegleiter oder Inspektor)",
+        "fr": "conducteur (agent de train ou inspecteur)",
+        "pl": "konduktor (obsługa pociągu lub inspektor)",
+        "id": "konduktor (petugas atau pemeriksa kereta)",
+        "hi": "कंडक्टर (ट्रेन परिचारक या निरीक्षक)",
+        "zh": "列车员（列车服务员或检票员）",
+        "it": "conduttore (assistente o ispettore del treno)",
+        "tr": "kondüktör (tren görevlisi veya müfettiş)",
+        "sr": "кондуктер (пратилац или инспектор у возу)",
+        "fi": "konduktööri (junapalvelija tai tarkastaja)",
+        "et": "konduktor (rongi saatja või inspektor)",
+        "be": "праваднік (або кантралёр у цягніку)",
+        "lv": "konduktors (vilciena pavadonis vai inspektors)",
+        "lt": "konduktorius (traukinio palydovas arba inspektorius)"
+      },
+      "examples": [
+        {
+          "text": "Tågvärden hälsade alla passagerare välkomna ombord"
+        },
+        {
+          "text": "Jag frågade tågvärden när vi skulle anlända till Malmö"
+        },
+        {
+          "text": "Tågvärdar har en viktig roll i att se till att tågresan är säker och bekväm"
+        },
+        {
+          "text": "Tågvärden gick genom vagnen och kontrollerade biljetterna"
+        },
+        {
+          "text": "Om du har några frågor kan du alltid fråga tågvärden"
+        },
+        {
+          "text": "Tågvärdarna måste vara trevliga och serviceinriktade"
+        },
+        {
+          "text": "Under natttågresan fanns en tågvärd som hjälpte resenärerna"
+        },
+        {
+          "text": "Tågvärden informerade oss om en försening på grund av signalfel"
+        },
+        {
+          "text": "Det krävs utbildning för att bli tågvärd och arbeta på SJ"
+        },
+        {
+          "text": "Tågvärdarna på snabbtåget var mycket professionella och hjälpsamma."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "282e98f7-c0c4-4b8e-bb38-eda0b5e5d0ba",
+      "version": -1,
+      "word": "ett kassabiträde",
+      "forms": [
+        {
+          "form": "kassabiträden"
+        }
+      ],
+      "translations": {
+        "ru": "кассир",
+        "en": "cashier",
+        "uk": "касир",
+        "ar": "أمين الصندوق",
+        "fa": "صندوقدار",
+        "so": "kaashiye",
+        "es": "cajero",
+        "de": "Kassierer",
+        "fr": "caissier",
+        "pl": "kasjer",
+        "id": "kasir",
+        "hi": "कैशियर",
+        "zh": "收银员",
+        "it": "cassiere",
+        "tr": "kasiyer",
+        "sr": "благајник",
+        "fi": "kassanhoitaja",
+        "et": "kassapidaja",
+        "be": "касір",
+        "lv": "kasieris",
+        "lt": "kasininkas"
+      },
+      "examples": [
+        {
+          "text": "Kassabiträdet arbetade snabbt och effektivt"
+        },
+        {
+          "text": "Jag frågade kassabiträdet om jag kunde använda rabattkupongen"
+        },
+        {
+          "text": "Många unga jobbar som kassabiträden under sommaren"
+        },
+        {
+          "text": "Kassabiträdena i den här butiken är alltid trevliga"
+        },
+        {
+          "text": "Hon började sin karriär som kassabiträde och blev sedan butikschef"
+        },
+        {
+          "text": "Ett kassabiträde måste vara noggrant när de hanterar pengar"
+        },
+        {
+          "text": "Kassabiträdet scannade alla varor och sa totalsumman"
+        },
+        {
+          "text": "Kunderna blev irriterade eftersom det bara fanns ett kassabiträde"
+        },
+        {
+          "text": "Att vara kassabiträde kräver tålamod och god kundservice"
+        },
+        {
+          "text": "Hon jobbar som kassabiträde på en stor stormarknad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6a08716c-05f3-489c-9114-5f4fae27b9f8",
+      "version": 1,
+      "word": "en rörmokare",
+      "forms": [
+        {
+          "form": "rörmokare"
+        }
+      ],
+      "translations": {
+        "ru": "Сантехник",
+        "en": "plumber",
+        "uk": "сантехнік",
+        "ar": "سباك",
+        "fa": "لوله‌کش",
+        "so": "tuubiste",
+        "es": "fontanero",
+        "de": "Klempner",
+        "fr": "plombier",
+        "pl": "hydraulik",
+        "id": "tukang ledeng",
+        "hi": "प्लंबर",
+        "zh": "水管工",
+        "it": "idraulico",
+        "tr": "tesisatçı",
+        "sr": "водоинсталатер",
+        "fi": "putkimies",
+        "et": "torumees",
+        "be": "сантэхнік",
+        "lv": "santehniķis",
+        "lt": "santechnikas"
+      },
+      "examples": [
+        {
+          "text": "Vi måste kalla på en rörmokare"
+        },
+        {
+          "text": "Rörmokaren var här och bytte kranen"
+        },
+        {
+          "text": "Jag har jobbat som rörmokare i femton år"
+        },
+        {
+          "text": "Känner du en pålitlig rörmokare i Malmö?"
+        },
+        {
+          "text": "Vi hittade en billig rörmokare på nätet"
+        },
+        {
+          "text": "Rörmokaren sa att problemet var större än vi trodde"
+        },
+        {
+          "text": "Det var svårt att få tag på en rörmokare under helgen"
+        },
+        {
+          "text": ", Jag vill inte bli rörmokare, men jag beundrar deras arbete"
+        },
+        {
+          "text": "En bra rörmokare är guld värd"
+        },
+        {
+          "text": "Han utbildar sig till rörmokare på yrkesskola."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

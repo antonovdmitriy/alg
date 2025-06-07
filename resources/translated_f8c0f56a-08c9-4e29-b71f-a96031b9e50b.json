@@ -1,0 +1,1537 @@
+{
+  "id": "f8c0f56a-08c9-4e29-b71f-a96031b9e50b",
+  "translations": {
+    "ru": "работа и бизнес",
+    "en": "Work and business",
+    "uk": "робота і бізнес",
+    "ar": "العمل والأعمال",
+    "fa": "کار و تجارت",
+    "so": "shaqo iyo ganacsi",
+    "es": "trabajo y negocios",
+    "de": "Arbeit und Geschäft",
+    "fr": "travail et affaires",
+    "pl": "praca i biznes",
+    "id": "pekerjaan dan bisnis",
+    "hi": "काम और व्यापार",
+    "zh": "工作和商业",
+    "it": "lavoro e affari",
+    "tr": "iş ve ticaret",
+    "sr": "рад и бизнис",
+    "fi": "työ ja liiketoiminta",
+    "et": "töö ja äri",
+    "be": "праца і бізнес",
+    "lv": "darbs un bizness",
+    "lt": "darbas ir verslas"
+  },
+  "entries": [
+    {
+      "id": "ab6dd98b-f95a-4ea6-abc1-3fe433ffe74c",
+      "version": -1,
+      "word": "en anställd",
+      "forms": [
+        {
+          "form": "den anställde"
+        },
+        {
+          "form": "anställda"
+        },
+        {
+          "form": "de anställda"
+        }
+      ],
+      "translations": {
+        "ru": "работник",
+        "en": "worker, employee",
+        "uk": "працівник",
+        "ar": "عامل",
+        "fa": "کارگر",
+        "so": "shaqaale",
+        "es": "trabajador",
+        "de": "Arbeiter",
+        "fr": "travailleur",
+        "pl": "pracownik",
+        "id": "pekerja",
+        "hi": "कर्मचारी",
+        "zh": "工人",
+        "it": "lavoratore",
+        "tr": "çalışan",
+        "sr": "радник",
+        "fi": "työntekijä",
+        "et": "töötaja",
+        "be": "работнік",
+        "lv": "darbinieks",
+        "lt": "darbuotojas"
+      },
+      "examples": [
+        {
+          "text": "De anställda har ett möte i styrelserummet"
+        },
+        {
+          "text": "De anställda i företaget arbetar hårt för att uppnå sina mål"
+        },
+        {
+          "text": "Som anställd på företaget får du tillgång till gymmet"
+        },
+        {
+          "text": "De anställda är nöjda med sina arbetsvillkor"
+        },
+        {
+          "text": "Han har varit anställd på företaget i tio år."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e99f3090-6433-49f5-8234-90dcf1175605",
+      "version": 1,
+      "word": "arbetslös",
+      "translations": {
+        "ru": "безработный",
+        "en": "unemployed person",
+        "uk": "безробітний",
+        "ar": "عاطل عن العمل",
+        "fa": "بیکار",
+        "so": "shaqo la'aan",
+        "es": "desempleado",
+        "de": "arbeitslos",
+        "fr": "chômeur",
+        "pl": "bezrobotny",
+        "id": "pengangguran",
+        "hi": "बेरोजगार व्यक्ति",
+        "zh": "失业者",
+        "it": "disoccupato",
+        "tr": "işsiz",
+        "sr": "незапослен",
+        "fi": "työtön",
+        "et": "töötu",
+        "be": "беспрацоўны",
+        "lv": "bezdarbnieks",
+        "lt": "bedarbis"
+      },
+      "examples": [
+        {
+          "text": "När jobbet på bensinmacken tog slut var Agneta arbetslös ganska länge"
+        },
+        {
+          "text": "Hon har varit arbetslös i tre månader"
+        },
+        {
+          "text": "Situationen för arbetslösa har förbättrats i år"
+        },
+        {
+          "text": "Det är svårt att vara arbetslös och samtidigt betala hyran"
+        },
+        {
+          "text": "Hur länge har du varit arbetslös?"
+        },
+        {
+          "text": "Arbetslösa personer kan få stöd från Arbetsförmedlingen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bc6f2e8c-bc46-44bc-aad5-d953fe212207",
+      "version": -1,
+      "word": "en anställning",
+      "forms": [
+        {
+          "form": "anställningar"
+        }
+      ],
+      "translations": {
+        "ru": "занятость, работа по найму,  работа, трудоустройство, должность",
+        "en": "employment, hired work, job, occupation, position",
+        "uk": "зайнятість, наймана робота, робота, працевлаштування, посада",
+        "ar": "التوظيف، العمل المأجور، الوظيفة، المهنة، المنصب",
+        "fa": "استخدام، کار استخدامی، شغل، حرفه، موقعیت",
+        "so": "shaqaaleysiin, shaqo la qaatay, shaqo, xirfad, boos",
+        "es": "empleo, trabajo contratado, trabajo, ocupación, posición",
+        "de": "Beschäftigung, angestellte Arbeit, Job, Beruf, Position",
+        "fr": "emploi, travail salarié, travail, occupation, poste",
+        "pl": "zatrudnienie, praca najemna, praca, zawód, stanowisko",
+        "id": "pekerjaan, kerja yang dipekerjakan, pekerjaan, pekerjaan, posisi",
+        "hi": "रोज़गार, किराए पर काम, नौकरी, व्यवसाय, पद",
+        "zh": "就业, 雇佣工作, 工作, 职业, 职位",
+        "it": "occupazione, lavoro assunto, lavoro, occupazione, posizione",
+        "tr": "istihdam, kiralanmış iş, iş, meslek, pozisyon",
+        "sr": "запослење, унајмљени рад, посао, занимање, позиција",
+        "fi": "työllisyys, palkattu työ, työ, ammatti, asema",
+        "et": "tööhõive, palgatöö, töö, amet, positsioon",
+        "be": "занятасць, наёмная праца, праца, працаўладкаванне, пасада",
+        "lv": "nodarbinātība, algots darbs, darbs, nodarbošanās, amats",
+        "lt": "užimtumas, samdomas darbas, darbas, profesija, pozicija"
+      },
+      "examples": [
+        {
+          "text": "Jag har fått en ny anställning på ett IT-företag"
+        },
+        {
+          "text": "Hans anställning varade i tio år innan han bytte jobb"
+        },
+        {
+          "text": "Många unga söker sin första anställning efter examen"
+        },
+        {
+          "text": "Min anställning är tillsvidare, vilket betyder att jag har fast jobb"
+        },
+        {
+          "text": "Hon fick en tillfällig anställning på sex månader"
+        },
+        {
+          "text": "Under provanställningen får arbetsgivaren bedöma om man passar för jobbet"
+        },
+        {
+          "text": "Vid en anställning måste arbetsgivaren skriva ett kontrakt"
+        },
+        {
+          "text": "En anställning innebär både rättigheter och skyldigheter"
+        },
+        {
+          "text": "Hans anställning avslutades på grund av omorganisation"
+        },
+        {
+          "text": "En fast anställning ger bättre ekonomisk trygghet"
+        },
+        {
+          "text": "Vid anställning har man rätt till sjuklön och semesterersättning"
+        },
+        {
+          "text": "Många företag erbjuder extra förmåner vid anställning"
+        },
+        {
+          "text": "Hon sökte en anställning via Arbetsförmedlingen"
+        },
+        {
+          "text": "Jag skrev under mitt anställningsavtal idag! Vid uppsägning gäller olika regler beroende på anställningsform."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f6560855-79b1-4e54-8044-0ef18584e26b",
+      "version": -1,
+      "word": "en medarbetare",
+      "forms": [
+        {
+          "form": "medarbetaren"
+        },
+        {
+          "form": "medarbetare"
+        },
+        {
+          "form": "medarbetarna"
+        }
+      ],
+      "translations": {
+        "ru": "коллега",
+        "en": "colleague",
+        "uk": "колега",
+        "ar": "زميل",
+        "fa": "همکار",
+        "so": "saaxiib",
+        "es": "colega",
+        "de": "Kollege",
+        "fr": "collègue",
+        "pl": "kolega",
+        "id": "rekan",
+        "hi": "सहकर्मी",
+        "zh": "同事",
+        "it": "collega",
+        "tr": "meslektaş",
+        "sr": "колега",
+        "fi": "kollega",
+        "et": "kolleeg",
+        "be": "калега",
+        "lv": "kolēģis",
+        "lt": "kolega"
+      },
+      "examples": [
+        {
+          "text": "Jag har mycket bra medarbetare på mitt jobb"
+        },
+        {
+          "text": "Hon är en erfaren medarbetare som har jobbat här i tio år"
+        },
+        {
+          "text": "Vi söker nya medarbetare till vårt kontor i Stockholm"
+        },
+        {
+          "text": "Min chef litar på sina medarbetare och ger dem mycket ansvar"
+        },
+        {
+          "text": "Alla medarbetare ska delta i det årliga mötet"
+        },
+        {
+          "text": "Som medarbetare har du rätt till friskvårdsbidrag"
+        },
+        {
+          "text": "En bra arbetsmiljö är viktig för att medarbetarna ska trivas"
+        },
+        {
+          "text": "Han har blivit utsedd till månadens medarbetare"
+        },
+        {
+          "text": "Vi försöker skapa en öppen och inkluderande kultur bland medarbetarna"
+        },
+        {
+          "text": "Mina medarbetare är alltid hjälpsamma och stöttande."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "82d075f4-c5a2-41a1-8b88-7a7dbcf86e9b",
+      "version": 1,
+      "word": "en arbetskamrat",
+      "forms": [
+        {
+          "form": "arbetskamrater"
+        }
+      ],
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Jag har en arbetskamrat som är väldigt hjälpsam"
+        },
+        {
+          "text": "Har du en bra relation med din arbetskamrat? Arbetskamraten hjälpte mig att lösa problemet"
+        },
+        {
+          "text": "Jag åt lunch med arbetskamraten idag"
+        },
+        {
+          "text": "Mina arbetskamrater är mycket trevliga"
+        },
+        {
+          "text": "Har ni många arbetskamrater på ert kontor?"
+        },
+        {
+          "text": "Arbetskamraterna gick ut på middag tillsammans"
+        },
+        {
+          "text": "Det är lättare att trivas på jobbet om man har bra arbetskamrater."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2c2090ad-13e2-4b10-bfce-873d7cc3da0e",
+      "version": -1,
+      "word": "en klient",
+      "forms": [
+        {
+          "form": "klienter"
+        }
+      ],
+      "translations": {
+        "ru": "клиент",
+        "en": "client, customer",
+        "uk": "клієнт",
+        "ar": "عميل",
+        "fa": "مشتری",
+        "so": "macmiil",
+        "es": "cliente",
+        "de": "Kunde",
+        "fr": "client",
+        "pl": "klient",
+        "id": "klien",
+        "hi": "ग्राहक",
+        "zh": "客户",
+        "it": "cliente",
+        "tr": "müşteri",
+        "sr": "клијент",
+        "fi": "asiakas",
+        "et": "klient",
+        "be": "кліент",
+        "lv": "klients",
+        "lt": "klientas"
+      },
+      "examples": [
+        {
+          "text": "Advokaten diskuterade fallet med sin klient"
+        },
+        {
+          "text": "Vi har många nöjda klienter som återkommer till oss"
+        },
+        {
+          "text": "Som psykolog måste man skapa en trygg relation med sina klienter"
+        },
+        {
+          "text": "Banken erbjuder personlig rådgivning till sina viktigaste klienter"
+        },
+        {
+          "text": "Företaget har både privatpersoner och företag som klienter"
+        },
+        {
+          "text": "Varje klient har olika behov och önskemål"
+        },
+        {
+          "text": "Klienten var missnöjd med tjänsten och ville ha pengarna tillbaka"
+        },
+        {
+          "text": "Juristen måste alltid skydda sin klients intressen"
+        },
+        {
+          "text": "Vår byrå jobbar med internationella klienter inom olika branscher"
+        },
+        {
+          "text": "Det är viktigt att lyssna på klientens behov för att ge bästa möjliga service."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d7344912-dc4d-4918-b68a-ce6fce207cb6",
+      "version": -1,
+      "word": "en kund",
+      "forms": [
+        {
+          "form": "kunder"
+        }
+      ],
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "operatören talar med en kund"
+        },
+        {
+          "text": "Vi har många nöjda kunder"
+        },
+        {
+          "text": "Kunden vill returnera en vara"
+        },
+        {
+          "text": "Vi ger alla våra kunder 10% rabatt"
+        },
+        {
+          "text": "Företaget har förlorat några viktiga kunder"
+        },
+        {
+          "text": "De försöker locka nya kunder med erbjudanden"
+        },
+        {
+          "text": "Våra trogna kunder får extra förmåner."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6d6c05af-80b3-47e1-8369-2ee4fbf5a203",
+      "version": 1,
+      "word": "ett möte",
+      "forms": [
+        {
+          "form": "mötet"
+        },
+        {
+          "form": "möten"
+        },
+        {
+          "form": "mötena"
+        }
+      ],
+      "translations": {
+        "ru": "митинг совещание собрание",
+        "en": "meeting, conference, gathering",
+        "uk": "зустріч, конференція, зібрання",
+        "ar": "اجتماع، مؤتمر، تجمع",
+        "fa": "جلسه، کنفرانس، گردهمایی",
+        "so": "kulanka, shir, isu-imaatinka",
+        "es": "reunión, conferencia, reunión",
+        "de": "Treffen, Konferenz, Versammlung",
+        "fr": "réunion, conférence, rassemblement",
+        "pl": "spotkanie, konferencja, zgromadzenie",
+        "id": "pertemuan, konferensi, pertemuan",
+        "hi": "बैठक, सम्मेलन, सभा",
+        "zh": "会议, 会议, 聚会",
+        "it": "riunione, conferenza, raduno",
+        "tr": "toplantı, konferans, toplantı",
+        "sr": "састанак, конференција, скуп",
+        "fi": "kokous, konferenssi, kokoontuminen",
+        "et": "kohtumine, konverents, kogunemine",
+        "be": "сустрэча, канферэнцыя, сход",
+        "lv": "tikšanās, konference, sapulce",
+        "lt": "susitikimas, konferencija, susirinkimas"
+      },
+      "examples": [
+        {
+          "text": "Jag deltar i ett möte"
+        },
+        {
+          "text": "Vi har ett möte klockan tre"
+        },
+        {
+          "text": "Kan vi boka ett möte nästa vecka?"
+        },
+        {
+          "text": "Mötet handlar om framtida projekt"
+        },
+        {
+          "text": "Har du deltagit i mötet?"
+        },
+        {
+          "text": "Vi har flera viktiga möten idag"
+        },
+        {
+          "text": "Företaget anordnar många möten varje månad"
+        },
+        {
+          "text": "Alla mötena har blivit flyttade till nästa vecka"
+        },
+        {
+          "text": "Jag missade ett av mötena, eftersom jag var sjuk"
+        },
+        {
+          "text": "Jag har ett möte med min chef imorgon"
+        },
+        {
+          "text": "Mötet avslutades tidigare än planerat."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "524a5bf0-5047-4695-878a-eaa78bf29f75",
+      "version": -1,
+      "word": "en förhandling",
+      "forms": [
+        {
+          "form": "förhandlingar"
+        }
+      ],
+      "translations": {
+        "ru": "переговоры",
+        "en": "negotiations",
+        "uk": "переговори",
+        "ar": "مفاوضات",
+        "fa": "مذاکرات",
+        "so": "wadahadal",
+        "es": "negociaciones",
+        "de": "Verhandlungen",
+        "fr": "négociations",
+        "pl": "negocjacje",
+        "id": "negosiasi",
+        "hi": "वार्ता",
+        "zh": "谈判",
+        "it": "negoziazioni",
+        "tr": "müzakereler",
+        "sr": "преговори",
+        "fi": "neuvottelut",
+        "et": "läbirääkimised",
+        "be": "перамовы",
+        "lv": "sarunas",
+        "lt": "dėrybos"
+      },
+      "examples": [
+        {
+          "text": "Mannen och kvinnan är i mitten av affärsförhandlingar"
+        },
+        {
+          "text": "Efter trå års förhandlingar kunde till slut de två länderna nå en överenskommelse"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9c781e7a-5b7a-4223-91b7-13da87c12129",
+      "version": -1,
+      "word": "ett kontrakt",
+      "forms": [
+        {
+          "form": "kontraktet"
+        },
+        {
+          "form": "kontrakt"
+        },
+        {
+          "form": "kontrakten"
+        }
+      ],
+      "translations": {
+        "ru": "контракт",
+        "en": "contract",
+        "uk": "контракт",
+        "ar": "عقد",
+        "fa": "قرارداد",
+        "so": "heshiis",
+        "es": "contrato",
+        "de": "Vertrag",
+        "fr": "contrat",
+        "pl": "kontrakt",
+        "id": "kontrak",
+        "hi": "अनुबंध",
+        "zh": "合同",
+        "it": "contratto",
+        "tr": "sözleşme",
+        "sr": "уговор",
+        "fi": "sopimus",
+        "et": "leping",
+        "be": "кантракт",
+        "lv": "līgums",
+        "lt": "sutartis"
+      },
+      "examples": [
+        {
+          "text": "Det är alltid bra att ha ett kontrakt vid affärsavtal"
+        },
+        {
+          "text": "Jag skrev under ett kontrakt för min nya lägenhet idag"
+        },
+        {
+          "text": "Företaget erbjuder ett ettårigt kontrakt med möjlighet till förlängning"
+        },
+        {
+          "text": "Vi har ett kontrakt som reglerar alla arbetsvillkor"
+        },
+        {
+          "text": "Spelaren förlängde sitt kontrakt med fotbollsklubben i ytterligare tre år"
+        },
+        {
+          "text": "Om du bryter kontraktet kan det leda till juridiska konsekvenser"
+        },
+        {
+          "text": "Vi har ingått ett kontrakt med en ny leverantör"
+        },
+        {
+          "text": "Hyreskontraktet måste undertecknas av båda parter"
+        },
+        {
+          "text": "Läs alltid igenom ett kontrakt noggrant innan du skriver på"
+        },
+        {
+          "text": "Kontrakten för de nya anställda skickas ut nästa vecka"
+        },
+        {
+          "text": "Juristen hjälpte oss att formulera ett rättvist kontrakt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f24651a9-667f-4d37-9236-d94fe90f2aa3",
+      "version": -1,
+      "word": "en affär",
+      "forms": [
+        {
+          "form": "affärer"
+        }
+      ],
+      "translations": {
+        "ru": "а",
+        "en": "and",
+        "uk": "і",
+        "ar": "و",
+        "fa": "و",
+        "so": "iyo",
+        "es": "y",
+        "de": "und",
+        "fr": "et",
+        "pl": "i",
+        "id": "dan",
+        "hi": "और",
+        "zh": "和",
+        "it": "e",
+        "tr": "ve",
+        "sr": "и",
+        "fi": "ja",
+        "et": "ja",
+        "be": "і",
+        "lv": "un",
+        "lt": "ir"
+      },
+      "examples": [
+        {
+          "text": "Min pappa måste åka på affärsresa i slutet av nästa månad"
+        },
+        {
+          "text": "Han driver en framgångsrik affär inom IT-branschen"
+        },
+        {
+          "text": "Affären mellan de två företagen avslutades igår"
+        },
+        {
+          "text": "De diskuterade en stor affär under mötet"
+        },
+        {
+          "text": "Jag har alltid drömt om att starta en egen affär"
+        },
+        {
+          "text": "Han förlorade mycket pengar på en dålig affär"
+        },
+        {
+          "text": "Hon är en skicklig affärskvinna som vet hur man gör lönsamma affärer"
+        },
+        {
+          "text": "De två företagen samarbetar i flera affärer"
+        },
+        {
+          "text": "Banken erbjöd ett lån för att finansiera affären"
+        },
+        {
+          "text": "En god affär handlar inte bara om pengar, utan också om relationer"
+        },
+        {
+          "text": "Han är känd för att alltid göra smarta affärer."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4782b080-cdd9-4976-b76d-180fdccd4678",
+      "version": -1,
+      "word": "ett företag",
+      "forms": [
+        {
+          "form": "företaget"
+        },
+        {
+          "form": "företag"
+        },
+        {
+          "form": "företagen"
+        }
+      ],
+      "translations": {
+        "ru": "компания предприятие фирма",
+        "en": "company, enterprise, firm",
+        "uk": "компанія, підприємство, фірма",
+        "ar": "شركة، مؤسسة، شركة",
+        "fa": "شرکت، بنگاه، شرکت",
+        "so": "shirkad, ganacsi, shirkad",
+        "es": "compañía, empresa, firma",
+        "de": "Unternehmen, Betrieb, Firma",
+        "fr": "entreprise, société, firme",
+        "pl": "firma, przedsiębiorstwo, spółka",
+        "id": "perusahaan, usaha, firma",
+        "hi": "कंपनी, उद्यम, फर्म",
+        "zh": "公司, 企业, 公司",
+        "it": "azienda, impresa, ditta",
+        "tr": "şirket, işletme, firma",
+        "sr": "компанија, предузеће, фирма",
+        "fi": "yritys, yritys, firma",
+        "et": "ettevõte, ettevõte, firma",
+        "be": "кампанія, прадпрыемства, фірма",
+        "lv": "uzņēmums, uzņēmums, firma",
+        "lt": "įmonė, įmonė, firma"
+      },
+      "examples": [
+        {
+          "text": "Min företag täcker sjukförsäkring"
+        },
+        {
+          "text": "Han startade ett företag inom IT-branschen"
+        },
+        {
+          "text": "Många små företag har svårt att konkurrera med stora företag"
+        },
+        {
+          "text": "Företaget växer snabbt och anställer fler medarbetare"
+        },
+        {
+          "text": "Hon har arbetat på samma företag i tio år"
+        },
+        {
+          "text": "Många svenska företag är kända internationellt"
+        },
+        {
+          "text": "Företaget gick i konkurs efter flera år av ekonomiska problem"
+        },
+        {
+          "text": "Han driver sitt företag hemifrån"
+        },
+        {
+          "text": "Företaget investerar i ny teknik för att öka sin konkurrenskraft"
+        },
+        {
+          "text": "Vi samarbetar med flera företag i olika branscher"
+        },
+        {
+          "text": "Ett framgångsrikt företag måste ha en tydlig affärsplan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5af7cfce-853f-46cd-8299-3a6450b4627a",
+      "version": -1,
+      "word": "ett techbolag",
+      "forms": [
+        {
+          "form": "techbolaget"
+        },
+        {
+          "form": "techbolag"
+        },
+        {
+          "form": "techbolagen"
+        }
+      ],
+      "translations": {
+        "ru": "технологическая компания, техкомпания",
+        "en": "technology company, tech company",
+        "uk": "технологічна компанія, техкомпанія",
+        "ar": "شركة تكنولوجيا، شركة تقنية",
+        "fa": "شرکت فناوری، شرکت تکنولوژی",
+        "so": "shirkad tiknoolajiyad, shirkad tiknoolaji",
+        "es": "empresa de tecnología, empresa tecnológica",
+        "de": "Technologieunternehmen, Tech-Unternehmen",
+        "fr": "entreprise technologique, entreprise tech",
+        "pl": "firma technologiczna, firma tech",
+        "id": "perusahaan teknologi, perusahaan tech",
+        "hi": "प्रौद्योगिकी कंपनी, टेक कंपनी",
+        "zh": "科技公司, 技术公司",
+        "it": "azienda tecnologica, azienda tech",
+        "tr": "teknoloji şirketi, teknoloji firması",
+        "sr": "технолошка компанија, тех компанија",
+        "fi": "teknologiayritys, teknoyritys",
+        "et": "tehnoloogiaettevõte, tehnoloogiafirma",
+        "be": "тэхналагічная кампанія, тэхкампанія",
+        "lv": "tehnoloģiju uzņēmums, tehnouzņēmums",
+        "lt": "technologijų įmonė, tech įmonė"
+      },
+      "examples": [
+        {
+          "text": "Han jobbar på ett techbolag i Malmö"
+        },
+        {
+          "text": "De startade ett litet techbolag som nu växer snabbt"
+        },
+        {
+          "text": "Många unga vill jobba på techbolag efter examen"
+        },
+        {
+          "text": "Stockholm är känt för sina framgångsrika techbolag"
+        },
+        {
+          "text": "Ett techbolag i Göteborg söker utvecklare"
+        },
+        {
+          "text": "Det är ett av Europas största techbolag"
+        },
+        {
+          "text": "Många techbolag erbjuder distansarbete"
+        },
+        {
+          "text": "Han grundade sitt första techbolag när han var 24"
+        },
+        {
+          "text": "Techbolaget lanserar en ny app nästa månad"
+        },
+        {
+          "text": "Hon är vd på ett framgångsrikt techbolag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "45b5a5f9-6a87-4f32-9de8-a1ae83f200cc",
+      "version": -1,
+      "word": "en lön",
+      "forms": [
+        {
+          "form": "löner"
+        }
+      ],
+      "translations": {
+        "ru": "зарплата",
+        "en": "salary",
+        "uk": "зарплата",
+        "ar": "راتب",
+        "fa": "حقوق",
+        "so": "mushahar",
+        "es": "salario",
+        "de": "Gehalt",
+        "fr": "salaire",
+        "pl": "wynagrodzenie",
+        "id": "gaji",
+        "hi": "वेतन",
+        "zh": "工资",
+        "it": "stipendio",
+        "tr": "maaş",
+        "sr": "плата",
+        "fi": "palkka",
+        "et": "palk",
+        "be": "зарплата",
+        "lv": "alga",
+        "lt": "atlyginimas"
+      },
+      "examples": [
+        {
+          "text": "Hur hög är lönen? Han får sin lön den 25:e varje månad"
+        },
+        {
+          "text": "Många anställda är missnöjda med sin lön och vill ha högre ersättning"
+        },
+        {
+          "text": "Hon har en bra lön och bra arbetsvillkor"
+        },
+        {
+          "text": "Lönen beror på erfarenhet och kompetens"
+        },
+        {
+          "text": "Företaget erbjuder konkurrenskraftiga löner för att locka duktiga medarbetare"
+        },
+        {
+          "text": "Vi diskuterar löner i de pågående förhandlingarna med facket"
+        },
+        {
+          "text": "Han fick en löneökning efter ett år på jobbet"
+        },
+        {
+          "text": "Många arbetsgivare erbjuder bonus utöver den vanliga lönen"
+        },
+        {
+          "text": "Min lön är högre nu än på mitt förra jobb"
+        },
+        {
+          "text": "Lönen betalas ut automatiskt till mitt bankkonto."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8160be52-a152-444d-b705-0295d09b9434",
+      "version": 1,
+      "word": "en inkomst",
+      "forms": [
+        {
+          "form": "inkomster"
+        }
+      ],
+      "translations": {
+        "ru": "доход (зарплата, прибыль от бизнеса, доход от аренды и др)",
+        "en": "income (salary, business profit, rental income, etc.)",
+        "uk": "дохід (зарплата, прибуток від бізнесу, дохід від оренди тощо)",
+        "ar": "الدخل (الراتب، الربح من الأعمال، الدخل من الإيجار، إلخ)",
+        "fa": "درآمد (حقوق، سود کسب‌وکار، درآمد اجاره و غیره)",
+        "so": "dakhliga (mushaarka, faa'iidada ganacsiga, dakhliga kirada, iwm.)",
+        "es": "ingresos (salario, beneficio empresarial, ingresos por alquiler, etc.)",
+        "de": "Einkommen (Gehalt, Unternehmensgewinn, Mieteinnahmen usw.)",
+        "fr": "revenu (salaire, bénéfice d'entreprise, revenu locatif, etc.)",
+        "pl": "dochód (wynagrodzenie, zysk z działalności gospodarczej, dochód z najmu itp.)",
+        "id": "pendapatan (gaji, keuntungan bisnis, pendapatan sewa, dll.)",
+        "hi": "आय (वेतन, व्यापार लाभ, किराये की आय, आदि)",
+        "zh": "收入（工资、商业利润、租金收入等）",
+        "it": "reddito (stipendio, profitto d'affari, reddito da locazione, ecc.)",
+        "tr": "gelir (maaş, iş kârı, kira geliri vb.)",
+        "sr": "приход (плата, пословни профит, приход од ренте итд.)",
+        "fi": "tulot (palkka, liiketulos, vuokratulot jne.)",
+        "et": "tulu (palk, ärikasum, üüritulu jne.)",
+        "be": "даход (зарплата, прыбытак ад бізнесу, даход ад арэнды і інш.)",
+        "lv": "ienākumi (alga, uzņēmējdarbības peļņa, īres ienākumi utt.)",
+        "lt": "pajamos (atlyginimas, verslo pelnas, nuomos pajamos ir kt.)"
+      },
+      "examples": [
+        {
+          "text": "Hon har en stabil inkomst från sitt jobb"
+        },
+        {
+          "text": "Min inkomst är högre i år än förra året"
+        },
+        {
+          "text": "Hans inkomst kommer från två jobb"
+        },
+        {
+          "text": "Vilken inkomst har du per månad?"
+        },
+        {
+          "text": "Företaget har flera inkomster från olika verksamheter"
+        },
+        {
+          "text": "Hennes inkomster inkluderar både lön och kapitalintäkter"
+        },
+        {
+          "text": "Ju högre inkomst du har, desto högre skatt betalar du."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f67a8b65-3d5a-43a3-a07b-d2c8816e790a",
+      "version": -1,
+      "word": "ett jobb",
+      "forms": [
+        {
+          "form": "jobbet"
+        },
+        {
+          "form": "jobb"
+        },
+        {
+          "form": "jobben"
+        }
+      ],
+      "translations": {
+        "ru": "работа",
+        "en": "work, job",
+        "uk": "робота",
+        "ar": "عمل",
+        "fa": "کار",
+        "so": "shaqo",
+        "es": "trabajo",
+        "de": "Arbeit",
+        "fr": "travail",
+        "pl": "praca",
+        "id": "pekerjaan",
+        "hi": "काम",
+        "zh": "工作",
+        "it": "lavoro",
+        "tr": "iş",
+        "sr": "рад",
+        "fi": "työ",
+        "et": "töö",
+        "be": "праца",
+        "lv": "darbs",
+        "lt": "darbas"
+      },
+      "examples": [
+        {
+          "text": "Berätta mer om ditt jobb"
+        },
+        {
+          "text": "Jag har fått ett nytt jobb på en bank"
+        },
+        {
+          "text": "Hon trivs bra på sitt jobb"
+        },
+        {
+          "text": "Många söker jobb inom IT-branschen"
+        },
+        {
+          "text": "Han letar efter ett jobb med bättre lön"
+        },
+        {
+          "text": "Det är svårt att hitta jobb utan erfarenhet"
+        },
+        {
+          "text": "Jag börjar mitt nya jobb nästa vecka"
+        },
+        {
+          "text": "Hon jobbar deltid eftersom hon studerar"
+        },
+        {
+          "text": "Företaget annonserar flera lediga jobb"
+        },
+        {
+          "text": "Efter fem år på samma jobb bestämde han sig för att byta"
+        },
+        {
+          "text": "Det är ett stressigt jobb, men han gillar det ändå."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "09d349a3-fc1e-4fe2-a8f7-ac57e4ac7fc2",
+      "version": -1,
+      "word": "en befordran",
+      "forms": [
+        {
+          "form": "befordranen"
+        },
+        {
+          "form": "befordringar"
+        },
+        {
+          "form": "befordringarna"
+        }
+      ],
+      "translations": {
+        "ru": "повышение",
+        "en": "promotion",
+        "uk": "підвищення",
+        "ar": "ترقية",
+        "fa": "ارتقاء",
+        "so": "kor u qaadis",
+        "es": "promoción",
+        "de": "Beförderung",
+        "fr": "promotion",
+        "pl": "awans",
+        "id": "promosi",
+        "hi": "पदोन्नति",
+        "zh": "晋升",
+        "it": "promozione",
+        "tr": "terfi",
+        "sr": "унапређење",
+        "fi": "ylennys",
+        "et": "edutamine",
+        "be": "павышэнне",
+        "lv": "paaugstināšana",
+        "lt": "paaukštinimas"
+      },
+      "examples": [
+        {
+          "text": "Han har förtjänat den här befordran"
+        },
+        {
+          "text": "Han fick en befordran till chef"
+        },
+        {
+          "text": "Hon väntar på en befordran efter flera års hårt arbete"
+        },
+        {
+          "text": "Befordringen innebär fler ansvarsområden"
+        },
+        {
+          "text": "Han planerar att ansöka om befordran nästa år."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d75d6edb-5df3-49c3-b383-bd398db54561",
+      "version": -1,
+      "word": "en beställning",
+      "forms": [
+        {
+          "form": "beställningar"
+        }
+      ],
+      "translations": {
+        "ru": "заказ",
+        "en": "order",
+        "uk": "замовлення",
+        "ar": "طلب",
+        "fa": "سفارش",
+        "so": "dalab",
+        "es": "pedido",
+        "de": "Bestellung",
+        "fr": "commande",
+        "pl": "zamówienie",
+        "id": "pesanan",
+        "hi": "आदेश",
+        "zh": "订单",
+        "it": "ordine",
+        "tr": "sipariş",
+        "sr": "наруџбина",
+        "fi": "tilaus",
+        "et": "tellimus",
+        "be": "заказ",
+        "lv": "pasūtījums",
+        "lt": "užsakymas"
+      },
+      "examples": [
+        {
+          "text": "Jag gjorde en beställning på nätet"
+        },
+        {
+          "text": "Kan jag få se din beställning, tack? Beställningen levereras inom tre dagar"
+        },
+        {
+          "text": "De har ännu inte bekräftat min beställning"
+        },
+        {
+          "text": "Han avbokade sin beställning på grund av förseningar"
+        },
+        {
+          "text": "Jag gjorde en beställning på två pizzor"
+        },
+        {
+          "text": "Vi var tvungna att avbryta beställningen"
+        },
+        {
+          "text": "Hur lång tid tar det att få min beställning? Beställningen innehåller tio olika produkter"
+        },
+        {
+          "text": "Vi har inte fått din beställning än"
+        },
+        {
+          "text": "Kan jag ändra något i min beställning? Beställningen skickades i går och bör komma i morgon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "23ce8ab2-45a6-4d9f-91f6-f5a57020ee6d",
+      "version": -1,
+      "word": "bokföring",
+      "forms": [
+        {
+          "form": "bokföringen"
+        }
+      ],
+      "translations": {
+        "ru": "бухгалтерский учет",
+        "en": "accounting",
+        "uk": "бухгалтерський облік",
+        "ar": "محاسبة",
+        "fa": "حسابداری",
+        "so": "xisaabinta",
+        "es": "contabilidad",
+        "de": "Buchhaltung",
+        "fr": "comptabilité",
+        "pl": "księgowość",
+        "id": "akuntansi",
+        "hi": "लेखांकन",
+        "zh": "会计",
+        "it": "contabilità",
+        "tr": "muhasebe",
+        "sr": "рачуноводство",
+        "fi": "kirjanpito",
+        "et": "raamatupidamine",
+        "be": "бухгалтарскі ўлік",
+        "lv": "grāmatvedība",
+        "lt": "apskaita"
+      },
+      "examples": [
+        {
+          "text": "Jag jobbar med bokföring på ett företag"
+        },
+        {
+          "text": "Bokföringen måste vara korrekt för att undvika problem"
+        },
+        {
+          "text": "Han ansvarar för bokföringen i familjeföretaget."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aa9617c1-153e-4e68-8556-c0480ff830b5",
+      "version": -1,
+      "word": "en kopiator",
+      "forms": [
+        {
+          "form": "kopiatorer"
+        }
+      ],
+      "translations": {
+        "ru": "копировальный аппарат ксерокс",
+        "en": "copy machine, xerox",
+        "uk": "копіювальний апарат, ксерокс",
+        "ar": "آلة نسخ، زيروكس",
+        "fa": "دستگاه کپی، زیراکس",
+        "so": "mashiinka nuqulka, xerox",
+        "es": "máquina de copiar, xerox",
+        "de": "Kopiergerät, Xerox",
+        "fr": "photocopieuse, xerox",
+        "pl": "kopiarka, kserokopiarka",
+        "id": "mesin fotokopi, xerox",
+        "hi": "कॉपी मशीन, ज़ेरॉक्स",
+        "zh": "复印机，施乐",
+        "it": "fotocopiatrice, xerox",
+        "tr": "fotokopi makinesi, xerox",
+        "sr": "копир апарат, ксерокс",
+        "fi": "kopiokone, xerox",
+        "et": "koopiamasin, xerox",
+        "be": "капiравальны апарат, ксеракс",
+        "lv": "kopēšanas iekārta, xerox",
+        "lt": "kopijavimo aparatas, xerox"
+      },
+      "examples": [
+        {
+          "text": "Kan jag använder kopiatorn"
+        },
+        {
+          "text": "Kopiatorn på kontoret fungerar inte"
+        },
+        {
+          "text": "Jag behöver en kopiator för att göra kopior av dokumenten"
+        },
+        {
+          "text": "Många moderna kopiatorer har också skanner och skrivare inbyggda"
+        },
+        {
+          "text": "Hon gick till biblioteket för att använda kopiatorn"
+        },
+        {
+          "text": "Den gamla kopiatorn byttes ut mot en ny och snabbare modell"
+        },
+        {
+          "text": "Kan du visa mig hur man använder kopiatorn? Företaget investerade i en professionell kopiator för att spara tid"
+        },
+        {
+          "text": "Kopiatorerna på universitetet är gratis att använda för studenter"
+        },
+        {
+          "text": "Jag glömde mitt dokument i kopiatorn"
+        },
+        {
+          "text": "Om kopiatorn är trasig kan vi använda skannern istället."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f7f085d3-54a6-4f04-93af-5afd7c321145",
+      "version": -1,
+      "word": "en advelning",
+      "forms": [
+        {
+          "form": "avdelningar"
+        }
+      ],
+      "translations": {
+        "ru": "отдел департамент подразделение, секция",
+        "en": "department, division, section",
+        "uk": "відділ, департамент, підрозділ, секція",
+        "ar": "قسم، إدارة، شعبة، قسم",
+        "fa": "بخش، دپارتمان، بخش، بخش",
+        "so": "waax, waaxda, qaybo, qayb",
+        "es": "departamento, división, sección",
+        "de": "Abteilung, Abteilung, Sektion",
+        "fr": "département, division, section",
+        "pl": "dział, wydział, sekcja",
+        "id": "departemen, divisi, bagian",
+        "hi": "विभाग, विभाग, प्रभाग, अनुभाग",
+        "zh": "部门, 部门, 部门, 部分",
+        "it": "dipartimento, divisione, sezione",
+        "tr": "bölüm, departman, bölüm, bölüm",
+        "sr": "одељење, департман, пододељење, секција",
+        "fi": "osasto, osasto, osasto, osasto",
+        "et": "osakond, osakond, jaoskond",
+        "be": "аддзел, дэпартамент, падраздзяленне, секцыя",
+        "lv": "nodaļa, departaments, nodaļa, sekcija",
+        "lt": "skyrius, departamentas, padalinys, skyrius"
+      },
+      "examples": [
+        {
+          "text": "Han jobbar på ekonomiavdelningen"
+        },
+        {
+          "text": "Sjukhuset har en avdelning för barn och en för vuxna"
+        },
+        {
+          "text": "Biblioteket har en avdelning för tidningar och en för böcker"
+        },
+        {
+          "text": "Butiken har en avdelning för kläder och en för elektronik"
+        },
+        {
+          "text": "Militärens specialavdelning genomförde operationen"
+        },
+        {
+          "text": "Alla anställda träffas en gång i månaden för att diskutera avdelningens mål"
+        },
+        {
+          "text": "Han flyttades till en annan avdelning inom företaget"
+        },
+        {
+          "text": "Polisen har en särskild avdelning för cyberbrott"
+        },
+        {
+          "text": "Ikea har en stor avdelning för köksutrustning"
+        },
+        {
+          "text": "Hon blev chef för avdelningen efter fem år i företaget."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "38b1bc8e-673f-4cc3-9314-ca29b4f34dba",
+      "version": -1,
+      "word": "ett uppdrag",
+      "forms": [
+        {
+          "form": "uppdraget"
+        },
+        {
+          "form": "uppdrag"
+        },
+        {
+          "form": "uppdragen"
+        }
+      ],
+      "translations": {
+        "ru": "поручение, миссия",
+        "en": "assignment, mission",
+        "uk": "завдання, місія",
+        "ar": "مهمة، تكليف",
+        "fa": "وظیفه، مأموریت",
+        "so": "hawl, hawlgal",
+        "es": "asignación, misión",
+        "de": "Aufgabe, Mission",
+        "fr": "mission, tâche",
+        "pl": "zadanie, misja",
+        "id": "tugas, misi",
+        "hi": "कार्य, मिशन",
+        "zh": "任务, 使命",
+        "it": "incarico, missione",
+        "tr": "görev, misyon",
+        "sr": "задатак, мисија",
+        "fi": "tehtävä, tehtävä",
+        "et": "ülesanne, missioon",
+        "be": "заданне, місія",
+        "lv": "uzdevums, misija",
+        "lt": "užduotis, misija"
+      },
+      "examples": [
+        {
+          "text": "På uppdrag av"
+        },
+        {
+          "text": "Jag skriver detta på uppdrag av min chef"
+        },
+        {
+          "text": "Mitt uppdrag är att organisera konferensen"
+        },
+        {
+          "text": "Hon är på ett uppdrag i Asien"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "675dfa5b-d729-4d2f-8d2c-ee4190976712",
+      "version": -1,
+      "word": "en expedition",
+      "forms": [
+        {
+          "form": "expeditioner"
+        }
+      ],
+      "translations": {
+        "ru": "приемная, канцелярия ( в школе, учреждении)",
+        "en": "reception, office (in a school, institution)",
+        "uk": "приймальня, канцелярія (у школі, установі)",
+        "ar": "الاستقبال، المكتب (في مدرسة، مؤسسة)",
+        "fa": "پذیرش، دفتر (در مدرسه، مؤسسه)",
+        "so": "soo dhaweyn, xafiis (dugsiga, hay'ad)",
+        "es": "recepción, oficina (en una escuela, institución)",
+        "de": "Empfang, Büro (in einer Schule, Institution)",
+        "fr": "réception, bureau (dans une école, institution)",
+        "pl": "recepcja, biuro (w szkole, instytucji)",
+        "id": "resepsi, kantor (di sekolah, institusi)",
+        "hi": "रिसेप्शन, कार्यालय (स्कूल, संस्था में)",
+        "zh": "接待处，办公室（在学校，机构）",
+        "it": "reception, ufficio (in una scuola, istituzione)",
+        "tr": "resepsiyon, ofis (okulda, kurumda)",
+        "sr": "пријемна, канцеларија (у школи, установи)",
+        "fi": "vastaanotto, toimisto (koulussa, laitoksessa)",
+        "et": "vastuvõtt, kontor (koolis, asutuses)",
+        "be": "прыёмная, канцылярыя (у школе, установе)",
+        "lv": "uzņemšana, birojs (skolā, iestādē)",
+        "lt": "priėmimas, biuras (mokykloje, įstaigoje)"
+      },
+      "examples": [
+        {
+          "text": "Gå till skolans expedition för att få ditt schema"
+        },
+        {
+          "text": "Expeditionen är öppen mellan klockan 9 och 15"
+        },
+        {
+          "text": "Du kan hämta dina dokument i expeditionen"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "15d1d2e7-8414-48d7-97e3-f3e849b8a620",
+      "version": -1,
+      "word": "en tjänst",
+      "forms": [
+        {
+          "form": "tjänster"
+        }
+      ],
+      "translations": {
+        "ru": "сервис, услуга",
+        "en": "service",
+        "uk": "послуга",
+        "ar": "خدمة",
+        "fa": "خدمت",
+        "so": "adeeg",
+        "es": "servicio",
+        "de": "Dienst",
+        "fr": "service",
+        "pl": "usługa",
+        "id": "layanan",
+        "hi": "सेवा",
+        "zh": "服务",
+        "it": "servizio",
+        "tr": "hizmet",
+        "sr": "услуга",
+        "fi": "palvelu",
+        "et": "teenus",
+        "be": "паслуга",
+        "lv": "pakalpojums",
+        "lt": "paslauga"
+      },
+      "examples": [
+        {
+          "text": "Spotify är en populär streamingtjänst"
+        },
+        {
+          "text": "Vi erbjuder flera digitala tjänster för företag"
+        },
+        {
+          "text": "Har du provat den nya tjänsten för att beställa mat online? Dropbox är en molntjänst där man kan lagra filer"
+        },
+        {
+          "text": "Jag sa upp min tjänst eftersom den var för dyr"
+        },
+        {
+          "text": "De lanserade en ny tjänst för videosamtal"
+        },
+        {
+          "text": "Vi utvecklar en tjänst som hjälper barn att lära sig läsa"
+        },
+        {
+          "text": "Den här appen innehåller flera användbara tjänster"
+        },
+        {
+          "text": "Jag har en tjänst som hjälper mig hålla koll på ekonomi"
+        },
+        {
+          "text": "Det är viktigt att tjänsten fungerar dygnet runt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

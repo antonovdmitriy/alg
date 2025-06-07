@@ -1,0 +1,5937 @@
+{
+  "id": "aab68fcb-cc32-4d12-a5e7-c4b959252800",
+  "translations": {
+    "ru": "Пища и кулинария",
+    "en": "Food and cooking",
+    "uk": "Їжа та кулінарія",
+    "ar": "الطعام والطهي",
+    "fa": "غذا و آشپزی",
+    "so": "Cunto iyo karinta",
+    "es": "Comida y cocina",
+    "de": "Essen und Kochen",
+    "fr": "Nourriture et cuisine",
+    "pl": "Jedzenie i gotowanie",
+    "id": "Makanan dan memasak",
+    "hi": "भोजन और खाना पकाना",
+    "zh": "食物与烹饪",
+    "it": "Cibo e cucina",
+    "tr": "Yemek ve pişirme",
+    "sr": "Храна и кување",
+    "fi": "Ruoka ja ruoanlaitto",
+    "et": "Toit ja toiduvalmistamine",
+    "be": "Ежа і кулінарыя",
+    "lv": "Ēdiens un gatavošana",
+    "lt": "Maistas ir gaminimas"
+  },
+  "entries": [
+    {
+      "id": "2f10313f-c26f-4be2-89d5-e2c2b332725f",
+      "version": -1,
+      "word": "ett mellanmål",
+      "forms": [
+        {
+          "form": "mellanmålet"
+        },
+        {
+          "form": "mellanmål"
+        },
+        {
+          "form": "mellanmålen"
+        }
+      ],
+      "translations": {
+        "ru": "перекус (между завтраком и обедом или ужином)",
+        "en": "snack (between breakfast and lunch or dinner)",
+        "uk": "перекус (між сніданком і обідом або вечерею)",
+        "ar": "وجبة خفيفة (بين الإفطار والغداء أو العشاء)",
+        "fa": "میان‌وعده (بین صبحانه و ناهار یا شام)",
+        "so": "qado (inta u dhaxaysa quraacda iyo qadada ama cashada)",
+        "es": "tentempié (entre el desayuno y el almuerzo o la cena)",
+        "de": "Snack (zwischen Frühstück und Mittag- oder Abendessen)",
+        "fr": "collation (entre le petit-déjeuner et le déjeuner ou le dîner)",
+        "pl": "przekąska (między śniadaniem a obiadem lub kolacją)",
+        "id": "camilan (antara sarapan dan makan siang atau makan malam)",
+        "hi": "नाश्ता (नाश्ते और दोपहर के भोजन या रात के खाने के बीच)",
+        "zh": "小吃（在早餐和午餐或晚餐之间）",
+        "it": "spuntino (tra colazione e pranzo o cena)",
+        "tr": "atıştırmalık (kahvaltı ile öğle veya akşam yemeği arasında)",
+        "sr": "ужина (између доручка и ручка или вечере)",
+        "fi": "välipala (aamiaisen ja lounaan tai päivällisen välillä)",
+        "et": "suupiste (hommikusöögi ja lõuna- või õhtusöögi vahel)",
+        "be": "перакус (паміж сняданкам і абедам або вячэрай)",
+        "lv": "uzkoda (starp brokastīm un pusdienām vai vakariņām)",
+        "lt": "užkandis (tarp pusryčių ir pietų arba vakarienės)"
+      },
+      "examples": [
+        {
+          "text": "Efter jobbet tog jag ett mellanmål innan middagen"
+        },
+        {
+          "text": "Efter jobbet tog jag ett mellanmål innan middagen"
+        },
+        {
+          "text": "Frukt och nötter är ett hälsosamt mellanmål"
+        },
+        {
+          "text": "Hon hade alltid med sig ett mellanmål i väskan"
+        },
+        {
+          "text": "Han åt ett snabbt mellanmål innan mötet"
+        },
+        {
+          "text": "Yoghurt är ett populärt mellanmål i Sverige"
+        },
+        {
+          "text": "Jag brukar ta ett mellanmål runt klockan tre"
+        },
+        {
+          "text": "Hon gav sin son ett mellanmål efter skolan"
+        },
+        {
+          "text": "Ett mellanmål hjälper till att hålla energin uppe"
+        },
+        {
+          "text": "Om du är hungrig mellan måltiderna kan du ta ett mellanmål."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a03b8547-252e-43e4-bae2-675279347e4e",
+      "version": 1,
+      "word": "en matsäck",
+      "forms": [
+        {
+          "form": "matsäckar"
+        }
+      ],
+      "translations": {
+        "ru": "еда в дорогу, еда на пикник, еда чтобы есть не дома, сухой паек",
+        "en": "food for the road, picnic food, takeaway, packed meal",
+        "uk": "їжа в дорогу, їжа на пікнік, їжа на винос, упакована їжа",
+        "ar": "طعام للسفر، طعام للنزهة، طعام جاهز، وجبة معبأة",
+        "fa": "غذا برای راه، غذای پیک‌نیک، غذای بیرون‌بر، وعده غذایی بسته‌بندی‌شده",
+        "so": "cunto safar ah, cunto picnic ah, cunto la qaato, cunto la xirxiray",
+        "es": "comida para el camino, comida para picnic, comida para llevar, comida empaquetada",
+        "de": "Essen für unterwegs, Picknickessen, zum Mitnehmen, verpackte Mahlzeit",
+        "fr": "nourriture pour la route, nourriture de pique-nique, à emporter, repas emballé",
+        "pl": "jedzenie na drogę, jedzenie na piknik, jedzenie na wynos, posiłek zapakowany",
+        "id": "makanan untuk perjalanan, makanan piknik, makanan bawa pulang, makanan kemasan",
+        "hi": "सफर के लिए खाना, पिकनिक का खाना, टेकअवे, पैक किया हुआ भोजन",
+        "zh": "路上的食物，野餐食物，外卖，打包餐",
+        "it": "cibo per la strada, cibo da picnic, cibo da asporto, pasto confezionato",
+        "tr": "yol için yiyecek, piknik yiyeceği, paket servis, paketlenmiş yemek",
+        "sr": "храна за пут, храна за пикник, храна за понети, упаковани оброк",
+        "fi": "ruokaa matkalle, piknik-ruokaa, noutoruokaa, pakattu ateria",
+        "et": "toit teele, piknikutoit, kaasaostetav toit, pakitud eine",
+        "be": "ежа ў дарогу, ежа на пікнік, ежа на вынас, упакаваная ежа",
+        "lv": "ēdiens ceļam, piknika ēdiens, līdzņemšanai, iepakota maltīte",
+        "lt": "maistas kelionei, pikniko maistas, išsinešimui, supakuotas maistas"
+      },
+      "examples": [
+        {
+          "text": "Jag packade en matsäck med smörgåsar och frukt"
+        },
+        {
+          "text": "Barnen tog med sig matsäck till utflykten"
+        },
+        {
+          "text": "Har du matsäck med dig till resan? Vi åt vår matsäck vid sjön"
+        },
+        {
+          "text": "Glöm inte att ta med en matsäck till vandringen!"
+        },
+        {
+          "text": "Vi planerade en lång utflykt och packade matsäckar i förväg"
+        },
+        {
+          "text": "Vad brukar du ha i din matsäck? Läraren påminde eleverna om att ta med matsäck"
+        },
+        {
+          "text": "De satt på en sten och delade sin matsäck."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "12d57b41-26cb-4eb0-818c-941c5973775a",
+      "version": -1,
+      "word": "ett vatten",
+      "forms": [
+        {
+          "form": "vattnet"
+        }
+      ],
+      "translations": {
+        "ru": "вода",
+        "en": "water",
+        "uk": "вода",
+        "ar": "ماء",
+        "fa": "آب",
+        "so": "biyo",
+        "es": "agua",
+        "de": "Wasser",
+        "fr": "eau",
+        "pl": "woda",
+        "id": "air",
+        "hi": "पानी",
+        "zh": "水",
+        "it": "acqua",
+        "tr": "su",
+        "sr": "вода",
+        "fi": "vesi",
+        "et": "vesi",
+        "be": "вада",
+        "lv": "ūdens",
+        "lt": "vanduo"
+      },
+      "examples": [
+        {
+          "text": "skulle jag kunna få lite vatten, tack? Jag dricker mycket vatten varje dag"
+        },
+        {
+          "text": "Kan du ge mig ett glas vatten? Vattnet i sjön är väldigt kallt"
+        },
+        {
+          "text": "Drick mycket vatten om du är sjuk"
+        },
+        {
+          "text": "Vi måste spara på vatten under sommaren"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "33e4661f-c9ee-4507-b15c-20da9f22ce88",
+      "version": -1,
+      "word": "ett te",
+      "forms": [
+        {
+          "form": "teet"
+        },
+        {
+          "form": "teer"
+        },
+        {
+          "form": "teerna"
+        }
+      ],
+      "translations": {
+        "ru": "чай",
+        "en": "tea",
+        "uk": "чай",
+        "ar": "شاي",
+        "fa": "چای",
+        "so": "shaah",
+        "es": "té",
+        "de": "Tee",
+        "fr": "thé",
+        "pl": "herbata",
+        "id": "teh",
+        "hi": "चाय",
+        "zh": "茶",
+        "it": "tè",
+        "tr": "çay",
+        "sr": "чај",
+        "fi": "tee",
+        "et": "tee",
+        "be": "чай",
+        "lv": "tēja",
+        "lt": "arbata"
+      },
+      "examples": [
+        {
+          "text": "Jag dricker gärna te på morgonen"
+        },
+        {
+          "text": "Vill du ha en kopp te? Jag föredrar grönt te framför svart"
+        },
+        {
+          "text": "Hon köpte flera olika sorter av te"
+        },
+        {
+          "text": "Örtte är bra för magen"
+        },
+        {
+          "text": "Jag börjar dagen med en kopp te"
+        },
+        {
+          "text": "Vi brukar dricka te tillsammans på kvällen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "af56b20f-93e4-429f-9083-3dc17e8b2908",
+      "version": -1,
+      "word": "ett kaffe",
+      "translations": {
+        "ru": "кофе",
+        "en": "coffee",
+        "uk": "кава",
+        "ar": "قهوة",
+        "fa": "قهوه",
+        "so": "qaxwo",
+        "es": "café",
+        "de": "Kaffee",
+        "fr": "café",
+        "pl": "kawa",
+        "id": "kopi",
+        "hi": "कॉफ़ी",
+        "zh": "咖啡",
+        "it": "caffè",
+        "tr": "kahve",
+        "sr": "кафа",
+        "fi": "kahvi",
+        "et": "kohv",
+        "be": "кава",
+        "lv": "kafija",
+        "lt": "kava"
+      },
+      "examples": [
+        {
+          "text": "Jag börjar dagen med en kopp kaffe"
+        },
+        {
+          "text": "Svenskar är ett av de folk som dricker mest kaffe i världen"
+        },
+        {
+          "text": "Vill du ha en kaffe eller te? Jag kan inte föreställa mig morgonen utan kaffe"
+        },
+        {
+          "text": "Vi tog två kaffe och en bulle på kaféet"
+        },
+        {
+          "text": "Han gillar sitt kaffe starkt och utan socker"
+        },
+        {
+          "text": "Efter lunchen drack vi kaffe och pratade en stund"
+        },
+        {
+          "text": "Jag föredrar kaffe med havremjölk"
+        },
+        {
+          "text": "Det luktar underbart när man brygger kaffe på morgonen"
+        },
+        {
+          "text": "Jag tar hellre en kaffe än en energidryck."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b2a870f3-7550-453d-8105-5e8e5be53425",
+      "version": 1,
+      "word": "en påtår",
+      "forms": [
+        {
+          "form": "påtårar"
+        }
+      ],
+      "translations": {
+        "ru": "вторая чашка кофе или добавка кофе",
+        "en": "second cup of coffee or coffee refill",
+        "uk": "друга чашка кави або додаткова порція кави",
+        "ar": "كوب قهوة ثاني أو إعادة تعبئة القهوة",
+        "fa": "فنجان دوم قهوه یا پر کردن مجدد قهوه",
+        "so": "koobka labaad ee qaxwaha ama buuxinta qaxwaha",
+        "es": "segunda taza de café o recarga de café",
+        "de": "zweite Tasse Kaffee oder Kaffee-Nachfüllung",
+        "fr": "deuxième tasse de café ou recharge de café",
+        "pl": "druga filiżanka kawy lub dolewka kawy",
+        "id": "cangkir kopi kedua atau isi ulang kopi",
+        "hi": "दूसरा कप कॉफी या कॉफी की पुनःपूर्ति",
+        "zh": "第二杯咖啡或咖啡续杯",
+        "it": "seconda tazza di caffè o ricarica di caffè",
+        "tr": "ikinci fincan kahve veya kahve doldurma",
+        "sr": "друга шоља кафе или допуна кафе",
+        "fi": "toinen kuppi kahvia tai kahvin täyttö",
+        "et": "teine tass kohvi või kohvi lisamine",
+        "be": "другая кубак кавы або дадатковая порцыя кавы",
+        "lv": "otra kafijas tase vai kafijas papildinājums",
+        "lt": "antras puodelis kavos arba kavos papildymas"
+      },
+      "examples": [
+        {
+          "text": "Vill du ha en påtår?"
+        },
+        {
+          "text": "Han tog en påtår innan han gick tillbaka till jobbet"
+        },
+        {
+          "text": "I många kaféer är påtår gratis"
+        },
+        {
+          "text": "Efter en god lunch tog vi en påtår i solen"
+        },
+        {
+          "text": "Påtåren smakar alltid bättre än första koppen"
+        },
+        {
+          "text": "Jag tänker ta en påtår innan mötet börjar"
+        },
+        {
+          "text": "Här på kaféet får man alltid gratis påtår"
+        },
+        {
+          "text": "Vill du ha en påtår innan vi går?"
+        },
+        {
+          "text": "Det är trevligt att sitta och prata över en påtår"
+        },
+        {
+          "text": "Jag gillar att ta en påtår när jag har tid"
+        },
+        {
+          "text": "De flesta kaféer i Sverige erbjuder gratis påtår"
+        },
+        {
+          "text": "En påtår gör alltid morgonen lite bättre."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "286235a2-242e-4145-ae59-54bfadce5527",
+      "version": -1,
+      "word": "en choklad",
+      "forms": [
+        {
+          "form": "choklader"
+        }
+      ],
+      "translations": {
+        "ru": "шоколад",
+        "en": "chocolate",
+        "uk": "шоколад",
+        "ar": "شوكولاتة",
+        "fa": "شکلات",
+        "so": "shukulaato",
+        "es": "chocolate",
+        "de": "Schokolade",
+        "fr": "chocolat",
+        "pl": "czekolada",
+        "id": "cokelat",
+        "hi": "चॉकलेट",
+        "zh": "巧克力",
+        "it": "cioccolato",
+        "tr": "çikolata",
+        "sr": "чоколада",
+        "fi": "suklaa",
+        "et": "šokolaad",
+        "be": "шакалад",
+        "lv": "šokolāde",
+        "lt": "šokoladas"
+      },
+      "examples": [
+        {
+          "text": "En kopp choklad är tröstande på en kall vinterkväll"
+        },
+        {
+          "text": "Barnen fick varsin choklad efter middagen"
+        },
+        {
+          "text": "Kan du köpa en mörk choklad? Jag bakade en kaka med choklad"
+        },
+        {
+          "text": "Mörk choklad är nyttigare än mjölkchoklad"
+        },
+        {
+          "text": "Jag föredrar mjölkchoklad framför mörk choklad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ccd33e67-d88f-4a92-9b74-cb6ebc5a9ce2",
+      "version": 1,
+      "word": "ett öl",
+      "forms": [
+        {
+          "form": "ölet"
+        },
+        {
+          "form": "öl"
+        },
+        {
+          "form": "ölen"
+        }
+      ],
+      "translations": {
+        "ru": "пиво",
+        "en": "beer",
+        "uk": "пиво",
+        "ar": "بيرة",
+        "fa": "آبجو",
+        "so": "biir",
+        "es": "cerveza",
+        "de": "Bier",
+        "fr": "bière",
+        "pl": "piwo",
+        "id": "bir",
+        "hi": "बीयर",
+        "zh": "啤酒",
+        "it": "birra",
+        "tr": "bira",
+        "sr": "пиво",
+        "fi": "olut",
+        "et": "õlu",
+        "be": "піва",
+        "lv": "alus",
+        "lt": "alus"
+      },
+      "examples": [
+        {
+          "text": "Jag vill dricka ett öl efter jobbet"
+        },
+        {
+          "text": "Kan vi få ett öl till bordet?"
+        },
+        {
+          "text": "Ölet smakar lite beskt"
+        },
+        {
+          "text": "Jag tog fram ölet ur kylen"
+        },
+        {
+          "text": "Det finns många olika öl på festivalen"
+        },
+        {
+          "text": "Vi beställde flera öl till festen"
+        },
+        {
+          "text": "Alla ölen serverades kalla"
+        },
+        {
+          "text": "Jag gillade inte smaken av några av ölen"
+        },
+        {
+          "text": "Jag dricker helst fatöl på puben"
+        },
+        {
+          "text": "De hade bara flasköl på restaurangen"
+        },
+        {
+          "text": "Jag köpte en kall burköl på vägen hem"
+        },
+        {
+          "text": "Vi gick på en ölprovning i helgen"
+        },
+        {
+          "text": "Jag föredrar att dricka fatöl."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7a849e4d-e60c-4287-864b-6813dbf35d3f",
+      "version": -1,
+      "word": "ett vin",
+      "forms": [
+        {
+          "form": "vinet"
+        },
+        {
+          "form": "viner"
+        },
+        {
+          "form": "vinerna"
+        }
+      ],
+      "translations": {
+        "ru": "вино",
+        "en": "wine",
+        "uk": "вино",
+        "ar": "نبيذ",
+        "fa": "شراب",
+        "so": "khamri",
+        "es": "vino",
+        "de": "Wein",
+        "fr": "vin",
+        "pl": "wino",
+        "id": "anggur",
+        "hi": "शराब",
+        "zh": "葡萄酒",
+        "it": "vino",
+        "tr": "şarap",
+        "sr": "вино",
+        "fi": "viini",
+        "et": "vein",
+        "be": "віно",
+        "lv": "vīns",
+        "lt": "vynas"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte ett vin från Italien"
+        },
+        {
+          "text": "Vinet är väldigt sött, men passar till efterrätten"
+        },
+        {
+          "text": "Vi drack flera olika viner under middagen"
+        },
+        {
+          "text": "Kan du rekommendera ett gott rött vin? Vinets smak förbättras med tiden"
+        },
+        {
+          "text": "De serverade ett glas kallt vitt vin till fisken"
+        },
+        {
+          "text": "Det här vinet har en mycket fruktig smak"
+        },
+        {
+          "text": "Vi ska köpa några viner till festen på fredag"
+        },
+        {
+          "text": "Hon föredrar torrt vin framför sött"
+        },
+        {
+          "text": "På semestern smakade vi lokalt vin från regionen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c0ab7159-8257-4369-ad90-2d0b9d2d4683",
+      "version": -1,
+      "word": "en soda",
+      "forms": [
+        {
+          "form": "sodor"
+        }
+      ],
+      "translations": {
+        "ru": "газировка содовая (не сладкая) слабощелочная вроде Швепс",
+        "en": "soda water (not sweet), mildly alkaline like Schweppes",
+        "uk": "содова вода (несолодка), слаболужна, як Schweppes",
+        "ar": "ماء صودا (غير حلو)، قلوي خفيف مثل شويبز",
+        "fa": "آب گازدار (نه شیرین)، کمی قلیایی مانند شوپس",
+        "so": "biyo soodh ah (aan macaan ahayn), si fudud alkaline sida Schweppes",
+        "es": "agua con gas (no dulce), ligeramente alcalina como Schweppes",
+        "de": "Sodawasser (nicht süß), leicht alkalisch wie Schweppes",
+        "fr": "eau gazeuse (non sucrée), légèrement alcaline comme Schweppes",
+        "pl": "woda sodowa (niesłodka), lekko zasadowa jak Schweppes",
+        "id": "air soda (tidak manis), sedikit basa seperti Schweppes",
+        "hi": "सोडा पानी (मीठा नहीं), हल्का क्षारीय जैसे Schweppes",
+        "zh": "苏打水（不甜），微碱性，如Schweppes",
+        "it": "acqua gassata (non dolce), leggermente alcalina come Schweppes",
+        "tr": "soda suyu (tatlı değil), Schweppes gibi hafif alkali",
+        "sr": "сода вода (не слатка), благоалкална као Швепс",
+        "fi": "soodavesi (ei makea), lievästi emäksinen kuten Schweppes",
+        "et": "soodavesi (mitte magus), kergelt aluseline nagu Schweppes",
+        "be": "содавая вада (не салодкая), слабашчолачная як Швепс",
+        "lv": "soda ūdens (ne salds), viegli sārmains kā Schweppes",
+        "lt": "sodos vanduo (ne saldus), švelniai šarminis kaip Schweppes"
+      },
+      "examples": [
+        {
+          "text": "Kan jag få ett glas soda, tack? Barnen vill ha soda till maten"
+        },
+        {
+          "text": "Jag köpte en soda i butiken"
+        },
+        {
+          "text": "Sodan innehåller mycket socker"
+        },
+        {
+          "text": "Det finns många olika sodor att välja mellan"
+        },
+        {
+          "text": "Sodorna på festen var väldigt populära"
+        },
+        {
+          "text": "Kan jag få en soda utan socker? Sodan smakar bättre när den är kall"
+        },
+        {
+          "text": "Barnen drack för mycket soda på festen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aad41e3e-6471-4b30-96f5-8700e191e56a",
+      "version": -1,
+      "word": "ett kolsyrat vatten",
+      "translations": {
+        "ru": "газированная вода . Вода с углекислым газом без добавок",
+        "en": "carbonated water, sparkling water without additives",
+        "uk": "газована вода, вода з вуглекислим газом без добавок",
+        "ar": "ماء غازي، ماء فوار بدون إضافات",
+        "fa": "آب گازدار، آب گازدار بدون افزودنی",
+        "so": "biyo la karkariyey, biyo dhalaalaya oo aan wax lagu darin",
+        "es": "agua carbonatada, agua con gas sin aditivos",
+        "de": "kohlensäurehaltiges Wasser, Sprudelwasser ohne Zusätze",
+        "fr": "eau gazeuse, eau pétillante sans additifs",
+        "pl": "woda gazowana, woda musująca bez dodatków",
+        "id": "air berkarbonasi, air berkilau tanpa tambahan",
+        "hi": "कार्बोनेटेड पानी, बिना मिलावट के स्पार्कलिंग पानी",
+        "zh": "碳酸水，无添加剂的气泡水",
+        "it": "acqua gassata, acqua frizzante senza additivi",
+        "tr": "karbonatlı su, katkı maddesi içermeyen maden suyu",
+        "sr": "газирана вода, пенушава вода без додатака",
+        "fi": "hiilihapotettu vesi, kuplavesi ilman lisäaineita",
+        "et": "gaseeritud vesi, mullivesi ilma lisanditeta",
+        "be": "газаваная вада, вада з вуглякіслым газам без дабавак",
+        "lv": "gāzēts ūdens, dzirkstošs ūdens bez piedevām",
+        "lt": "gaziruotas vanduo, putojantis vanduo be priedų"
+      },
+      "examples": [
+        {
+          "text": "Jag vill ha ett glas kolsyrat vatten, tack"
+        },
+        {
+          "text": "Dricker du helst kolsyrat vatten eller vanligt vatten? Kolsyrat vatten är uppfriskande på varma dagar"
+        },
+        {
+          "text": "Det finns både kolsyrat och stilla vatten att välja på"
+        },
+        {
+          "text": "Många tycker att kolsyrat vatten är godare än kranvatten"
+        },
+        {
+          "text": "Kolsyrat vatten kan hjälpa vid matsmältningen"
+        },
+        {
+          "text": "Jag brukar göra eget kolsyrat vatten med en sodastream"
+        },
+        {
+          "text": "I restaurangen serveras kolsyrat vatten gratis"
+        },
+        {
+          "text": "Jag föredrar kolsyrat vatten med en citronskiva"
+        },
+        {
+          "text": "För mycket kolsyrat vatten kan orsaka uppblåsthet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "db6ee547-8d5a-4c12-b260-ea17d45179d0",
+      "version": 1,
+      "word": "ett läsk",
+      "forms": [
+        {
+          "form": "läsk"
+        },
+        {
+          "form": "läsken"
+        },
+        {
+          "form": "läskena"
+        }
+      ],
+      "translations": {
+        "ru": "газировка всегда сладкая ((кока-кола, спрайт, фанта и тд)",
+        "en": "soda always sweet (Coca-Cola, Sprite, Fanta, etc.)",
+        "uk": "газована вода завжди солодка (Кока-Кола, Спрайт, Фанта тощо)",
+        "ar": "المشروبات الغازية دائمًا حلوة (كوكاكولا، سبرايت، فانتا، إلخ)",
+        "fa": "نوشابه همیشه شیرین است (کوکاکولا، اسپریت، فانتا و غیره)",
+        "so": "cabitaan fudud had iyo jeer macaan (Coca-Cola, Sprite, Fanta, iwm)",
+        "es": "los refrescos siempre son dulces (Coca-Cola, Sprite, Fanta, etc.)",
+        "de": "Limonade ist immer süß (Coca-Cola, Sprite, Fanta usw.)",
+        "fr": "les sodas sont toujours sucrés (Coca-Cola, Sprite, Fanta, etc.)",
+        "pl": "napoje gazowane zawsze są słodkie (Coca-Cola, Sprite, Fanta itp.)",
+        "id": "soda selalu manis (Coca-Cola, Sprite, Fanta, dll.)",
+        "hi": "सोडा हमेशा मीठा होता है (कोका-कोला, स्प्राइट, फैंटा, आदि)",
+        "zh": "汽水总是甜的（可口可乐、雪碧、芬达等）",
+        "it": "la soda è sempre dolce (Coca-Cola, Sprite, Fanta, ecc.)",
+        "tr": "gazoz her zaman tatlıdır (Coca-Cola, Sprite, Fanta, vb.)",
+        "sr": "газирана пића су увек слатка (Кока-Кола, Спрајт, Фанта, итд.)",
+        "fi": "limsa on aina makeaa (Coca-Cola, Sprite, Fanta jne.)",
+        "et": "limonaad on alati magus (Coca-Cola, Sprite, Fanta jne.)",
+        "be": "газіроўка заўсёды салодкая (Кока-Кола, Спрайт, Фанта і г.д.)",
+        "lv": "limonāde vienmēr ir salda (Coca-Cola, Sprite, Fanta utt.)",
+        "lt": "limonadas visada saldus (Coca-Cola, Sprite, Fanta ir kt.)"
+      },
+      "examples": [
+        {
+          "text": "Läsk innehåller inte alkohol, och är oftast kolsyrad och serveras kall"
+        },
+        {
+          "text": "Vill du ha ett glas läsk?"
+        },
+        {
+          "text": "Barnen drack läsk till lunchen"
+        },
+        {
+          "text": "Kan jag få en flaska läsk?"
+        },
+        {
+          "text": "Det är inte bra att dricka för mycket läsk"
+        },
+        {
+          "text": "Vilken sorts läsk vill du ha?"
+        },
+        {
+          "text": "Läsk innehåller mycket socker"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "02610391-4d05-46b8-83d9-9a057f4d011e",
+      "version": -1,
+      "word": "en juice",
+      "forms": [
+        {
+          "form": "juicer"
+        }
+      ],
+      "translations": {
+        "ru": "сок",
+        "en": "juice",
+        "uk": "сік",
+        "ar": "عصير",
+        "fa": "آب‌میوه",
+        "so": "casiir",
+        "es": "jugo",
+        "de": "Saft",
+        "fr": "jus",
+        "pl": "sok",
+        "id": "jus",
+        "hi": "रस",
+        "zh": "果汁",
+        "it": "succo",
+        "tr": "meyve suyu",
+        "sr": "сок",
+        "fi": "mehu",
+        "et": "mahl",
+        "be": "сок",
+        "lv": "sula",
+        "lt": "sultys"
+      },
+      "examples": [
+        {
+          "text": "Vill du ha ett glas juice? Jag föredrar färskpressad juice framför köpt"
+        },
+        {
+          "text": "De serverade apelsinjuice till frukosten"
+        },
+        {
+          "text": "Juicen smakar bättre när den är kall"
+        },
+        {
+          "text": "De har många olika sorters juicer på kaféet"
+        },
+        {
+          "text": "De köpte juice i mataffären"
+        },
+        {
+          "text": "Jag gillar inte juice med för mycket socker"
+        },
+        {
+          "text": "Kan du ge mig ett glas juice, tack? De serverade färskpressad juice på hotellet"
+        },
+        {
+          "text": "Juicen smakar fantastiskt med lite is."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c8feb2da-0946-4bf9-b40b-907f7c9e2a92",
+      "version": 1,
+      "word": "ett bröd",
+      "forms": [
+        {
+          "form": "brödet"
+        },
+        {
+          "form": "bröd"
+        },
+        {
+          "form": "bröden"
+        }
+      ],
+      "translations": {
+        "ru": "хлеб",
+        "en": "bread",
+        "uk": "хліб",
+        "ar": "خبز",
+        "fa": "نان",
+        "so": "rooti",
+        "es": "pan",
+        "de": "Brot",
+        "fr": "pain",
+        "pl": "chleb",
+        "id": "roti",
+        "hi": "रोटी",
+        "zh": "面包",
+        "it": "pane",
+        "tr": "ekmek",
+        "sr": "хлеб",
+        "fi": "leipä",
+        "et": "leib",
+        "be": "хлеб",
+        "lv": "maize",
+        "lt": "duona"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte färskt bröd från bageriet"
+        },
+        {
+          "text": "Hon skar en skiva bröd och smörade den"
+        },
+        {
+          "text": "Bröd är en viktig del av många måltider"
+        },
+        {
+          "text": "Vill du ha vitt eller mörkt bröd?"
+        },
+        {
+          "text": "Jag åt en macka med bröd och skinka"
+        },
+        {
+          "text": "Detta bröd innehåller mycket fiber"
+        },
+        {
+          "text": "Han bakade sitt eget bröd hemma"
+        },
+        {
+          "text": "Brödet blev torrt efter några dagar"
+        },
+        {
+          "text": "Jag älskar doften av nygräddat bröd"
+        },
+        {
+          "text": "Hon åt en skiva bröd med avokado till frukost."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3b24e959-1ae3-48c8-8a45-176b77a0e690",
+      "version": -1,
+      "word": "en mjölk",
+      "translations": {
+        "ru": "молоко",
+        "en": "milk",
+        "uk": "молоко",
+        "ar": "حليب",
+        "fa": "شیر",
+        "so": "caano",
+        "es": "leche",
+        "de": "Milch",
+        "fr": "lait",
+        "pl": "mleko",
+        "id": "susu",
+        "hi": "दूध",
+        "zh": "牛奶",
+        "it": "latte",
+        "tr": "süt",
+        "sr": "млеко",
+        "fi": "maito",
+        "et": "piim",
+        "be": "малако",
+        "lv": "piens",
+        "lt": "pienas"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte ett paket mjölk i affären"
+        },
+        {
+          "text": "Mjölken blev sur efter några dagar i kylen"
+        },
+        {
+          "text": "Barn behöver dricka mjölk för att få kalcium"
+        },
+        {
+          "text": "Hon hällde lite mjölk i sitt kaffe"
+        },
+        {
+          "text": "Jag tål inte laktos, så jag dricker havremjölk"
+        },
+        {
+          "text": "Mjölk används ofta i bakning"
+        },
+        {
+          "text": "Han föredrar kall mjölk framför varm"
+        },
+        {
+          "text": "På vintern gillar jag att dricka varm mjölk med honung"
+        },
+        {
+          "text": "Mjölken kostar mer nu än förra året"
+        },
+        {
+          "text": "Det finns många olika sorters mjölk i butiken."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2b545508-1cc5-4cf9-a249-718beabb6265",
+      "version": -1,
+      "word": "en ost",
+      "forms": [
+        {
+          "form": "ostar"
+        }
+      ],
+      "translations": {
+        "ru": "сыр",
+        "en": "cheese",
+        "uk": "сир",
+        "ar": "جبن",
+        "fa": "پنیر",
+        "so": "farmaajo",
+        "es": "queso",
+        "de": "Käse",
+        "fr": "fromage",
+        "pl": "ser",
+        "id": "keju",
+        "hi": "पनीर",
+        "zh": "奶酪",
+        "it": "formaggio",
+        "tr": "peynir",
+        "sr": "сир",
+        "fi": "juusto",
+        "et": "juust",
+        "be": "сыр",
+        "lv": "siers",
+        "lt": "sūris"
+      },
+      "examples": [
+        {
+          "text": "Kan du ge mig lite ost till smörgåsen? Jag köpte en god ost från gårdsbutiken"
+        },
+        {
+          "text": "Osten smälter på pizzan i ugnen"
+        },
+        {
+          "text": "Har du provat blåmögelost? Jag gillar hårdostar som Västerbottensost"
+        },
+        {
+          "text": "Riv lite ost för att strö över pastan"
+        },
+        {
+          "text": "Vi behöver ost till ostkakan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "00c6a1a6-9cf8-4142-98ff-8efbd31274fa",
+      "version": -1,
+      "word": "en grädde",
+      "translations": {
+        "ru": "сливки",
+        "en": "cream",
+        "uk": "вершки",
+        "ar": "كريمة",
+        "fa": "خامه",
+        "so": "subag",
+        "es": "crema",
+        "de": "Sahne",
+        "fr": "crème",
+        "pl": "śmietana",
+        "id": "krim",
+        "hi": "क्रीम",
+        "zh": "奶油",
+        "it": "crema",
+        "tr": "krema",
+        "sr": "павлака",
+        "fi": "kerma",
+        "et": "koor",
+        "be": "сліўкі",
+        "lv": "krējums",
+        "lt": "grietinėlė"
+      },
+      "examples": [
+        {
+          "text": "Till efterrätt äter man färska jordgubbar med grädde"
+        },
+        {
+          "text": "Hon älskar kaffe med grädde istället för mjölk"
+        },
+        {
+          "text": "Jag vispade grädde till efterrätten"
+        },
+        {
+          "text": "Grädde gör soppan mer krämig och god"
+        },
+        {
+          "text": "Vispgrädde används ofta i bakverk"
+        },
+        {
+          "text": "Han köpte matlagningsgrädde till pastasåsen"
+        },
+        {
+          "text": "Han köpte matlagningsgrädde till pastasåsen"
+        },
+        {
+          "text": "Det är viktigt att inte koka grädde för länge, annars skär den sig"
+        },
+        {
+          "text": "Hon la en klick grädde på jordgubbarna"
+        },
+        {
+          "text": "Grädde används i många såser och soppor"
+        },
+        {
+          "text": "Han föredrar laktosfri grädde i sitt kaffe."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5acb8adc-9b38-4c44-b121-9991ba25cc77",
+      "version": -1,
+      "word": "ett smör",
+      "translations": {
+        "ru": "масло",
+        "en": "butter, oil",
+        "uk": "масло",
+        "ar": "زبدة, زيت",
+        "fa": "کره, روغن",
+        "so": "subag, saliid",
+        "es": "mantequilla, aceite",
+        "de": "Butter, Öl",
+        "fr": "beurre, huile",
+        "pl": "masło, olej",
+        "id": "mentega, minyak",
+        "hi": "मक्खन, तेल",
+        "zh": "黄油, 油",
+        "it": "burro, olio",
+        "tr": "tereyağı, yağ",
+        "sr": "путер, уље",
+        "fi": "voi, öljy",
+        "et": "või, õli",
+        "be": "масла, алей",
+        "lv": "sviests, eļļa",
+        "lt": "sviestas, aliejus"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en förpackning smör i affären"
+        },
+        {
+          "text": "Smöret smälte snabbt i värmen"
+        },
+        {
+          "text": "Vill du ha smör eller margarin på mackan? Hon stekte pannkakor i smör"
+        },
+        {
+          "text": "Hon stekte pannkakor i smör"
+        },
+        {
+          "text": "I Sverige används mycket smör i matlagning"
+        },
+        {
+          "text": "Han föredrar ekologiskt smör"
+        },
+        {
+          "text": "Blanda smör och socker tills det blir en krämig smet"
+        },
+        {
+          "text": "Det är svårt att bre kallt smör på bröd"
+        },
+        {
+          "text": "Efter en stund i rumstemperatur blev smöret mjukt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "892fe79c-1b81-44c0-b80f-170b5c44f7b7",
+      "version": -1,
+      "word": "en creme fraiche",
+      "translations": {
+        "ru": "сметана",
+        "en": "sour cream",
+        "uk": "сметана",
+        "ar": "كريمة حامضة",
+        "fa": "خامه ترش",
+        "so": "subag qadhaadh",
+        "es": "crema agria",
+        "de": "saure Sahne",
+        "fr": "crème aigre",
+        "pl": "śmietana",
+        "id": "krim asam",
+        "hi": "खट्टी क्रीम",
+        "zh": "酸奶油",
+        "it": "panna acida",
+        "tr": "ekşi krema",
+        "sr": "павлака",
+        "fi": "smetana",
+        "et": "hapukoor",
+        "be": "сметана",
+        "lv": "skābais krējums",
+        "lt": "grietinė"
+      },
+      "examples": [
+        {
+          "text": "Jag blandade crème fraîche med vitlök och dill för att göra en kall sås"
+        },
+        {
+          "text": "Crème fraîche gör grytor extra krämiga"
+        },
+        {
+          "text": "Han använde crème fraîche istället för grädde i receptet"
+        },
+        {
+          "text": "Till lax passar crème fraîche med citron och dill"
+        },
+        {
+          "text": "Denna crème fraîche har 34 % fett och är mycket smakrik"
+        },
+        {
+          "text": "Hon rörde ner crème fraîche i soppan precis innan servering"
+        },
+        {
+          "text": "Crème fraîche är en populär ingrediens i pajfyllningar"
+        },
+        {
+          "text": "Det är skillnad mellan gräddfil och crème fraîche, både i smak och konsistens"
+        },
+        {
+          "text": "Jag föredrar laktosfri crème fraîche eftersom jag är laktosintolerant"
+        },
+        {
+          "text": "En klick crème fraîche på varma potatisar är riktigt gott."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f8e7d6ff-546a-443a-8726-28d084d26206",
+      "version": -1,
+      "word": "ett kött",
+      "forms": [
+        {
+          "form": "köttet"
+        }
+      ],
+      "translations": {
+        "ru": "мясо",
+        "en": "meat",
+        "uk": "м'ясо",
+        "ar": "لحم",
+        "fa": "گوشت",
+        "so": "hilib",
+        "es": "carne",
+        "de": "Fleisch",
+        "fr": "viande",
+        "pl": "mięso",
+        "id": "daging",
+        "hi": "मांस",
+        "zh": "肉",
+        "it": "carne",
+        "tr": "et",
+        "sr": "месо",
+        "fi": "liha",
+        "et": "liha",
+        "be": "мяса",
+        "lv": "gaļa",
+        "lt": "mėsa"
+      },
+      "examples": [
+        {
+          "text": "Vi köpte färskt kött i butiken"
+        },
+        {
+          "text": "Kött är en viktig proteinkälla"
+        },
+        {
+          "text": "De serverar grillat kött på festen"
+        },
+        {
+          "text": "Hur länge ska köttet stekas?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "59dc5f49-5c5c-4fc7-8891-a5f6de7e8d0b",
+      "version": -1,
+      "word": "en biff",
+      "forms": [
+        {
+          "form": "biffar"
+        }
+      ],
+      "translations": {
+        "ru": "говядина стейк котлета",
+        "en": "beef, steak, cutlet",
+        "uk": "яловичина, стейк, котлета",
+        "ar": "لحم بقري، شريحة لحم، كستلاتة",
+        "fa": "گوشت گاو، استیک، کتلت",
+        "so": "hilib lo'aad, steak, cutlet",
+        "es": "carne de res, bistec, chuleta",
+        "de": "Rindfleisch, Steak, Kotelett",
+        "fr": "bœuf, steak, côtelette",
+        "pl": "wołowina, stek, kotlet",
+        "id": "daging sapi, steak, potongan daging",
+        "hi": "गाय का मांस, स्टेक, कटलेट",
+        "zh": "牛肉, 牛排, 肉饼",
+        "it": "manzo, bistecca, cotoletta",
+        "tr": "sığır eti, biftek, köfte",
+        "sr": "говедина, стејк, котлет",
+        "fi": "naudanliha, pihvi, leike",
+        "et": "veiseliha, steik, kotlett",
+        "be": "ялавічына, стэйк, катлета",
+        "lv": "liellopu gaļa, steiks, kotlete",
+        "lt": "jautiena, kepsnys, kotletas"
+      },
+      "examples": [
+        {
+          "text": "Jag grillade en biff och serverade den med grönsaker"
+        },
+        {
+          "text": "Hon föredrar ryggbiff framför entrecôte"
+        },
+        {
+          "text": "Pannbiff är en vanlig rätt i Sverige"
+        },
+        {
+          "text": "Denna biff var lite för hårt stekt för min smak"
+        },
+        {
+          "text": "Vegobiffar blir allt mer populära bland unga"
+        },
+        {
+          "text": "Han beställde en oxfilébiff med rödvinssås"
+        },
+        {
+          "text": "Jag åt en saftig hamburgarbiff med smält ost"
+        },
+        {
+          "text": "Biffarna var kryddade med vitlök och peppar"
+        },
+        {
+          "text": "Han lagade biffar av sojafärs istället för kött"
+        },
+        {
+          "text": "Han lagade biffar av sojafärs istället för kött."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ec173100-1dd2-42a0-bfad-d04010a8d7fb",
+      "version": -1,
+      "word": "en kyckling",
+      "forms": [
+        {
+          "form": "kycklingar"
+        }
+      ],
+      "translations": {
+        "ru": "курица",
+        "en": "chicken",
+        "uk": "курка",
+        "ar": "دجاجة",
+        "fa": "مرغ",
+        "so": "digaag",
+        "es": "pollo",
+        "de": "Huhn",
+        "fr": "poulet",
+        "pl": "kurczak",
+        "id": "ayam",
+        "hi": "मुर्गी",
+        "zh": "鸡",
+        "it": "pollo",
+        "tr": "tavuk",
+        "sr": "пилетина",
+        "fi": "kana",
+        "et": "kana",
+        "be": "курыца",
+        "lv": "vista",
+        "lt": "višta"
+      },
+      "examples": [
+        {
+          "text": "Vi grillade kyckling på sommaren"
+        },
+        {
+          "text": "Kyckling med vitlökssås är min favorit"
+        },
+        {
+          "text": "Jag lagade en kycklinggryta med kokosmjölk och curry"
+        },
+        {
+          "text": "Han köpte färdiglagad kyckling till middagen"
+        },
+        {
+          "text": "Små kycklingar sprang runt på gården"
+        },
+        {
+          "text": "Kycklingbröst är en bra proteinkälla för träning"
+        },
+        {
+          "text": "Hon marinerade kyckling i sojasås innan grillning"
+        },
+        {
+          "text": "Kycklingvingar är perfekt till fredagsmyset"
+        },
+        {
+          "text": "Han föredrar kycklinglår framför filé"
+        },
+        {
+          "text": "Kycklingsoppa är bra när man är förkyld."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3cef9f0b-ebf3-4595-abe8-d747a526b6a6",
+      "version": -1,
+      "word": "ett fläsk",
+      "forms": [
+        {
+          "form": "fläsket"
+        },
+        {
+          "form": "fläsk"
+        }
+      ],
+      "translations": {
+        "ru": "свинина",
+        "en": "pork",
+        "uk": "свинина",
+        "ar": "لحم الخنزير",
+        "fa": "گوشت خوک",
+        "so": "doofaar",
+        "es": "cerdo",
+        "de": "Schweinefleisch",
+        "fr": "porc",
+        "pl": "wieprzowina",
+        "id": "babi",
+        "hi": "सूअर का मांस",
+        "zh": "猪肉",
+        "it": "maiale",
+        "tr": "domuz eti",
+        "sr": "свињетина",
+        "fi": "sianliha",
+        "et": "sealiha",
+        "be": "свініна",
+        "lv": "cūkgaļa",
+        "lt": "kiauliena"
+      },
+      "examples": [
+        {
+          "text": "Fläsk är köttet från en gris"
+        },
+        {
+          "text": "Jag köpte fläsk till middagen"
+        },
+        {
+          "text": "Stekt fläsk med potatis är en klassisk svensk rätt"
+        },
+        {
+          "text": "Fläsket är färskt och passar bra till soppa"
+        },
+        {
+          "text": "Jag föredrar rimmat fläsk i grytor"
+        },
+        {
+          "text": "Fläskkarré är perfekt för grillning"
+        },
+        {
+          "text": "Jag älskar stekt fläsk med lingonsylt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "191340e2-4d69-4c3b-8a59-0f83733d0dfb",
+      "version": -1,
+      "word": "en fläskkarré",
+      "forms": [
+        {
+          "form": "fläskkarréer"
+        }
+      ],
+      "translations": {
+        "ru": "свиная шея",
+        "en": "pork neck",
+        "uk": "свиняча шия",
+        "ar": "رقبة الخنزير",
+        "fa": "گردن خوک",
+        "so": "luqunta doofaarka",
+        "es": "cuello de cerdo",
+        "de": "Schweinenacken",
+        "fr": "cou de porc",
+        "pl": "karkówka wieprzowa",
+        "id": "leher babi",
+        "hi": "सूअर की गर्दन",
+        "zh": "猪颈肉",
+        "it": "collo di maiale",
+        "tr": "domuz boynu",
+        "sr": "свињски врат",
+        "fi": "sian niska",
+        "et": "seakael",
+        "be": "свіная шыя",
+        "lv": "cūkas kakls",
+        "lt": "kiaulės sprandas"
+      },
+      "examples": [
+        {
+          "text": "Fläskkarré är perfekt att grilla eftersom det blir saftigt och gott"
+        },
+        {
+          "text": "Vi ska laga långstekt fläskkarré till söndagsmiddag"
+        },
+        {
+          "text": "Fläskkarré är billigare än oxfilé men lika smakrikt"
+        },
+        {
+          "text": "Du kan göra pulled pork med fläskkarré"
+        },
+        {
+          "text": "Han köpte en bit fläskkarré och marinerade den i vitlök och örter"
+        },
+        {
+          "text": "Fläskkarrén är perfekt för grillning"
+        },
+        {
+          "text": "Jag köpte två fläskkarréer till middagen"
+        },
+        {
+          "text": "Fläskkarréerna vi köpte igår var riktigt möra"
+        },
+        {
+          "text": "För att få saftig fläskkarré bör du marinera köttet innan du grillar det"
+        },
+        {
+          "text": "Restaurangen serverar grillad fläskkarré med potatisgratäng"
+        },
+        {
+          "text": "Hur länge ska fläskkarrén stekas i ugnen? Fläskkarréerna på marknaden var av hög kvalitet"
+        },
+        {
+          "text": "Han köpte en bit fläskkarré och marinerade den i vitlök och örter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b9693e9a-98a5-4a7f-aaf6-d1d66764011f",
+      "version": -1,
+      "word": "en fisk",
+      "forms": [
+        {
+          "form": "fiskar"
+        }
+      ],
+      "translations": {
+        "ru": "рыба",
+        "en": "fish",
+        "uk": "риба",
+        "ar": "سمك",
+        "fa": "ماهی",
+        "so": "kalluun",
+        "es": "pescado",
+        "de": "Fisch",
+        "fr": "poisson",
+        "pl": "ryba",
+        "id": "ikan",
+        "hi": "मछली",
+        "zh": "鱼",
+        "it": "pesce",
+        "tr": "balık",
+        "sr": "риба",
+        "fi": "kala",
+        "et": "kala",
+        "be": "рыба",
+        "lv": "zivs",
+        "lt": "žuvis"
+      },
+      "examples": [
+        {
+          "text": "Han fiskade upp en stor fisk ur sjön"
+        },
+        {
+          "text": "Hon beställde en fiskrätt med citron och dill"
+        },
+        {
+          "text": "I Sverige äter man mycket fisk på julbordet"
+        },
+        {
+          "text": "Den här fisken är perfekt till grillning"
+        },
+        {
+          "text": "Han såg färgglada fiskar när han dök i Thailand"
+        },
+        {
+          "text": "Fisk är en viktig proteinkälla"
+        },
+        {
+          "text": "Hon lagade en soppa med fisk och skaldjur"
+        },
+        {
+          "text": "Det luktar fisk i köket! Fisk är bra för hjärnan och hjärtat"
+        },
+        {
+          "text": "Han föredrar lax framför torsk."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ac6b12d3-a29f-4083-8068-9b1808aca44d",
+      "version": -1,
+      "word": "en kaviar",
+      "translations": {
+        "ru": "икра",
+        "en": "caviar",
+        "uk": "ікра",
+        "ar": "كافيار",
+        "fa": "خاویار",
+        "so": "kaviar",
+        "es": "caviar",
+        "de": "Kaviar",
+        "fr": "caviar",
+        "pl": "kawior",
+        "id": "kaviar",
+        "hi": "कैवियार",
+        "zh": "鱼子酱",
+        "it": "caviale",
+        "tr": "havyar",
+        "sr": "кавијар",
+        "fi": "kaviaari",
+        "et": "kaaviar",
+        "be": "ікра",
+        "lv": "ikri",
+        "lt": "ikrai"
+      },
+      "examples": [
+        {
+          "text": "I Sverige äter många kaviar till frukost"
+        },
+        {
+          "text": "I Sverige äter många kaviar till frukost"
+        },
+        {
+          "text": "Hon köpte en tub med röd kaviar"
+        },
+        {
+          "text": "Han älskar rysk svart kaviar med blinier"
+        },
+        {
+          "text": "I Japan används fiskrom i sushi"
+        },
+        {
+          "text": "Den här kaviaren har en mild och salt smak"
+        },
+        {
+          "text": "Hon åt smörgås med ägg och kaviar"
+        },
+        {
+          "text": "Jag tycker att kaviar luktar konstigt"
+        },
+        {
+          "text": "Kaviar är en viktig del av svensk matkultur"
+        },
+        {
+          "text": "Han lade lite löjrom på förrätten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "665cec71-f601-48d1-9c0c-0d800f6fe0a8",
+      "version": -1,
+      "word": "ett lamm",
+      "forms": [
+        {
+          "form": "lammet"
+        },
+        {
+          "form": "lamm"
+        },
+        {
+          "form": "lammen"
+        }
+      ],
+      "translations": {
+        "ru": "баранина ягненок",
+        "en": "lamb, mutton",
+        "uk": "ягнятина, баранина",
+        "ar": "لحم الضأن، لحم الخروف",
+        "fa": "گوشت بره، گوشت گوسفند",
+        "so": "hilib ari, hilib neef",
+        "es": "cordero, carnero",
+        "de": "Lamm, Hammelfleisch",
+        "fr": "agneau, mouton",
+        "pl": "jagnięcina, baranina",
+        "id": "domba, kambing",
+        "hi": "भेड़ का बच्चा, भेड़ का मांस",
+        "zh": "羊羔肉, 羊肉",
+        "it": "agnello, montone",
+        "tr": "kuzu, koyun eti",
+        "sr": "јагњетина, овчетина",
+        "fi": "karitsa, lampaanliha",
+        "et": "lambaliha, lambaliha",
+        "be": "ягняціна, бараніна",
+        "lv": "jērs, aitas gaļa",
+        "lt": "ėriena, aviena"
+      },
+      "examples": [
+        {
+          "text": "Han köpte färskt lammkött på marknaden"
+        },
+        {
+          "text": "Det nyfödda lammet var så gulligt"
+        },
+        {
+          "text": "Lammracks är en exklusiv rätt på många restauranger"
+        },
+        {
+          "text": "Hon lagade en lammgryta med vitlök och rosmarin"
+        },
+        {
+          "text": "Lammen sprang runt på ängen och lekte"
+        },
+        {
+          "text": "Han beställde en lammkotlett med potatis"
+        },
+        {
+          "text": "Lammkött har en mild men distinkt smak"
+        },
+        {
+          "text": "Ett litet lamm följde efter sin mamma"
+        },
+        {
+          "text": "Påskmiddag i Sverige inkluderar ofta lammstek"
+        },
+        {
+          "text": "Vi grillade lamm med citron och timjan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7724c671-2844-465e-909f-a23e0ca1eba4",
+      "version": -1,
+      "word": "ett ägg",
+      "forms": [
+        {
+          "form": "ägget"
+        },
+        {
+          "form": "ägg"
+        },
+        {
+          "form": "äggen"
+        }
+      ],
+      "translations": {
+        "ru": "яйцо",
+        "en": "egg",
+        "uk": "яйце",
+        "ar": "بيضة",
+        "fa": "تخم مرغ",
+        "so": "ukun",
+        "es": "huevo",
+        "de": "Ei",
+        "fr": "œuf",
+        "pl": "jajko",
+        "id": "telur",
+        "hi": "अंडा",
+        "zh": "蛋",
+        "it": "uovo",
+        "tr": "yumurta",
+        "sr": "јаје",
+        "fi": "muna",
+        "et": "muna",
+        "be": "яйка",
+        "lv": "ola",
+        "lt": "kiaušinis"
+      },
+      "examples": [
+        {
+          "text": "Det finns sex ägg kvar"
+        },
+        {
+          "text": "Jag åt ett kokt ägg till frukost"
+        },
+        {
+          "text": "Kan du ge mig ett ägg? Jag ska baka en kaka"
+        },
+        {
+          "text": "Vi behöver sex ägg för pannkakor"
+        },
+        {
+          "text": "Hur vill du ha ditt ägg? Kokt eller stekt? Jag älskar äggröra till frukost"
+        },
+        {
+          "text": "Fåglar lägger ägg i sina bon"
+        },
+        {
+          "text": "Hönans ägg är vanliga i matlagning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "af119d62-3375-441e-ade1-b54754f8670f",
+      "version": -1,
+      "word": "en nudel",
+      "forms": [
+        {
+          "form": "nudlar"
+        }
+      ],
+      "translations": {
+        "ru": "Лапша",
+        "en": "noodles",
+        "uk": "локшина",
+        "ar": "نودلز",
+        "fa": "نودل",
+        "so": "baasto",
+        "es": "fideos",
+        "de": "Nudeln",
+        "fr": "nouilles",
+        "pl": "makaron",
+        "id": "mi",
+        "hi": "नूडल्स",
+        "zh": "面条",
+        "it": "noodles",
+        "tr": "erişte",
+        "sr": "нудле",
+        "fi": "nuudelit",
+        "et": "nuudlid",
+        "be": "локшына",
+        "lv": "nūdeles",
+        "lt": "makaronai"
+      },
+      "examples": [
+        {
+          "text": "Jag åt en skål med varma nudlar"
+        },
+        {
+          "text": "Hon köpte risnudlar till wok"
+        },
+        {
+          "text": "Snabbnudlar är billiga och lätta att laga"
+        },
+        {
+          "text": "Det finns många asiatiska rätter med nudlar"
+        },
+        {
+          "text": "Jag tycker om att göra nudelsoppa på vintern"
+        },
+        {
+          "text": "Nudlar är en viktig del av det kinesiska köket"
+        },
+        {
+          "text": "Han stekte nudlar med vitlök och chili"
+        },
+        {
+          "text": "Hon lärde sig att laga hemlagade nudlar"
+        },
+        {
+          "text": "Barnen älskar nudlar med ostsås"
+        },
+        {
+          "text": "Jag brukar äta nudlar med sojasås och sesamfrön."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1f34f957-7fd9-428f-b8cb-ac6019c1544c",
+      "version": -1,
+      "word": "en persika",
+      "translations": {
+        "ru": "Персик",
+        "en": "peach",
+        "uk": "персик",
+        "ar": "خوخ",
+        "fa": "هلو",
+        "so": "qare",
+        "es": "melocotón",
+        "de": "Pfirsich",
+        "fr": "pêche",
+        "pl": "brzoskwinia",
+        "id": "persik",
+        "hi": "आड़ू",
+        "zh": "桃子",
+        "it": "pesca",
+        "tr": "şeftali",
+        "sr": "бресква",
+        "fi": "persikka",
+        "et": "virsik",
+        "be": "персік",
+        "lv": "persiks",
+        "lt": "persikas"
+      },
+      "examples": [
+        {
+          "text": "Persikor är ursprungligen från Kina men odlas nu över hela världen"
+        },
+        {
+          "text": "Jag åt en saftig persika till frukost"
+        },
+        {
+          "text": "Persikor är väldigt goda på sommaren"
+        },
+        {
+          "text": "Vi köpte ett kilo persikor på marknaden"
+        },
+        {
+          "text": "Persikan var så mogen att den nästan föll isär"
+        },
+        {
+          "text": "Hon gjorde en paj med färska persikor"
+        },
+        {
+          "text": "Barnen älskar att äta persikor direkt från trädet"
+        },
+        {
+          "text": "Jag föredrar vita persikor framför gula"
+        },
+        {
+          "text": "Persikorna i denna butik är ekologiska"
+        },
+        {
+          "text": "Kan jag få en skiva persika till glassen? De odlade sina egna persikor i trädgården."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c914b8a4-6948-4d34-99f4-1ebba2d1baf3",
+      "version": -1,
+      "word": "en apelsin",
+      "forms": [
+        {
+          "form": "apelsiner"
+        }
+      ],
+      "translations": {
+        "ru": "Апельсин",
+        "en": "orange",
+        "uk": "апельсин",
+        "ar": "برتقال",
+        "fa": "پرتقال",
+        "so": "liin macaan",
+        "es": "naranja",
+        "de": "Orange",
+        "fr": "orange",
+        "pl": "pomarańcza",
+        "id": "jeruk",
+        "hi": "संतरा",
+        "zh": "橙子",
+        "it": "arancia",
+        "tr": "portakal",
+        "sr": "наранџа",
+        "fi": "appelsiini",
+        "et": "apelsin",
+        "be": "апельсін",
+        "lv": "apelsīns",
+        "lt": "apelsinas"
+      },
+      "examples": [
+        {
+          "text": "Jag pressade en apelsin och gjorde juice"
+        },
+        {
+          "text": "Jag pressade en apelsin och gjorde juice"
+        },
+        {
+          "text": "Den här apelsinen har en tjock skal"
+        },
+        {
+          "text": "På julen äter vi ofta apelsiner och mandariner"
+        },
+        {
+          "text": "Hon lade apelsinskivor i salladen"
+        },
+        {
+          "text": "Jag tycker om choklad med apelsinsmak"
+        },
+        {
+          "text": "Jag tycker om choklad med apelsinsmak"
+        },
+        {
+          "text": "Han köpte en korg full med apelsiner"
+        },
+        {
+          "text": "Han köpte en korg full med apelsiner"
+        },
+        {
+          "text": "Hon gjorde en sås med apelsin och honung."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "00dd7d57-715c-4686-b72e-7a925e760bdc",
+      "version": -1,
+      "word": "en citron",
+      "forms": [
+        {
+          "form": "citroner"
+        }
+      ],
+      "translations": {
+        "ru": "лимон",
+        "en": "lemon",
+        "uk": "лимон",
+        "ar": "ليمون",
+        "fa": "لیمو",
+        "so": "liin",
+        "es": "limón",
+        "de": "Zitrone",
+        "fr": "citron",
+        "pl": "cytryna",
+        "id": "lemon",
+        "hi": "नींबू",
+        "zh": "柠檬",
+        "it": "limone",
+        "tr": "limon",
+        "sr": "лимун",
+        "fi": "sitruuna",
+        "et": "sidrun",
+        "be": "цытрына",
+        "lv": "citrons",
+        "lt": "citrina"
+      },
+      "examples": [
+        {
+          "text": "Jag pressade en citron till saften"
+        },
+        {
+          "text": "Hon köpte tre citroner på marknaden"
+        },
+        {
+          "text": "Citronerna är väldigt sura den här säsongen"
+        },
+        {
+          "text": "Receptet kräver zest från en citron"
+        },
+        {
+          "text": "Citronen ger en frisk smak till fisken"
+        },
+        {
+          "text": "Citroner används ofta i matlagning och bakning"
+        },
+        {
+          "text": "Hur många citroner behöver vi för salladsdressingen? Citron är en viktig ingrediens i många såser"
+        },
+        {
+          "text": "Smaken av citron gör drycken uppfriskande"
+        },
+        {
+          "text": "Citronträdet ger frukt året runt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0f728aae-2f50-4af3-adc7-df4c0500c502",
+      "version": -1,
+      "word": "en banan",
+      "forms": [
+        {
+          "form": "bananer"
+        }
+      ],
+      "translations": {
+        "ru": "Банан",
+        "en": "banana",
+        "uk": "банан",
+        "ar": "موز",
+        "fa": "موز",
+        "so": "moos",
+        "es": "plátano",
+        "de": "Banane",
+        "fr": "banane",
+        "pl": "banan",
+        "id": "pisang",
+        "hi": "केला",
+        "zh": "香蕉",
+        "it": "banana",
+        "tr": "muz",
+        "sr": "банана",
+        "fi": "banaani",
+        "et": "banaan",
+        "be": "банан",
+        "lv": "banāns",
+        "lt": "bananas"
+      },
+      "examples": [
+        {
+          "text": "bananer är rika i kalium"
+        },
+        {
+          "text": "Jag åt en banan till frukost"
+        },
+        {
+          "text": "Hon köpte fem bananer på marknaden"
+        },
+        {
+          "text": "Bananen var väldigt mogen och söt"
+        },
+        {
+          "text": "Barnet ville ha en banan istället för en smörgås."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2660f785-ee30-4417-9d9d-ecf764231998",
+      "version": -1,
+      "word": "ett äpple",
+      "forms": [
+        {
+          "form": "äpplet"
+        },
+        {
+          "form": "äpplen"
+        },
+        {
+          "form": "äpplena"
+        }
+      ],
+      "translations": {
+        "ru": "Яблоко",
+        "en": "apple",
+        "uk": "яблуко",
+        "ar": "تفاحة",
+        "fa": "سیب",
+        "so": "tufaax",
+        "es": "manzana",
+        "de": "Apfel",
+        "fr": "pomme",
+        "pl": "jabłko",
+        "id": "apel",
+        "hi": "सेब",
+        "zh": "苹果",
+        "it": "mela",
+        "tr": "elma",
+        "sr": "јабука",
+        "fi": "omena",
+        "et": "õun",
+        "be": "яблык",
+        "lv": "ābols",
+        "lt": "obuolys"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några äpplen i trädgården"
+        },
+        {
+          "text": "Det här äpplet är väldigt saftigt och sött"
+        },
+        {
+          "text": "Barnen älskar att äta skivade äpplen med kanel"
+        },
+        {
+          "text": "Äppelmust är en traditionell svensk dryck"
+        },
+        {
+          "text": "Jag föredrar gröna äpplen framför röda"
+        },
+        {
+          "text": "Han gjorde hemlagad äppelmos"
+        },
+        {
+          "text": "Äpplet föll från trädet och landade på marken"
+        },
+        {
+          "text": "Hon bakade en äppelkaka till helgen"
+        },
+        {
+          "text": "Äppelträden blommade vackert på våren"
+        },
+        {
+          "text": "Jag pressade ett äpple och gjorde juice."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a73faa18-87a6-4b90-9009-be5e6f97d107",
+      "version": -1,
+      "word": "ett päron",
+      "forms": [
+        {
+          "form": "päronet"
+        },
+        {
+          "form": "päron"
+        },
+        {
+          "form": "päronen"
+        }
+      ],
+      "translations": {
+        "ru": "груша",
+        "en": "pear",
+        "uk": "груша",
+        "ar": "كمثرى",
+        "fa": "گلابی",
+        "so": "beer",
+        "es": "pera",
+        "de": "Birne",
+        "fr": "poire",
+        "pl": "gruszka",
+        "id": "pir",
+        "hi": "नाशपाती",
+        "zh": "梨",
+        "it": "pera",
+        "tr": "armut",
+        "sr": "крушка",
+        "fi": "päärynä",
+        "et": "pirn",
+        "be": "груша",
+        "lv": "bumbieris",
+        "lt": "kriaušė"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några päron i trädgården"
+        },
+        {
+          "text": "Det här päronet är väldigt sött och saftigt"
+        },
+        {
+          "text": "Barnen älskar att äta päron med yoghurt"
+        },
+        {
+          "text": "Päronlikör är populärt i vissa länder"
+        },
+        {
+          "text": "Jag föredrar fastare päron istället för mjuka"
+        },
+        {
+          "text": "Han gjorde hemlagad päronmarmelad"
+        },
+        {
+          "text": "Päronet föll från trädet och rullade på marken"
+        },
+        {
+          "text": "Hon bakade en paj med päron och mandlar"
+        },
+        {
+          "text": "Päronträd blommar vackert på våren"
+        },
+        {
+          "text": "Jag skar ett päron i skivor och åt det med honung."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "346c6875-b4ae-448a-b62a-e87acf3383a7",
+      "version": -1,
+      "word": "en aprikos",
+      "forms": [
+        {
+          "form": "aprikoser"
+        }
+      ],
+      "translations": {
+        "ru": "абрикос",
+        "en": "apricot",
+        "uk": "абрикос",
+        "ar": "مشمش",
+        "fa": "زردآلو",
+        "so": "qare",
+        "es": "albaricoque",
+        "de": "Aprikose",
+        "fr": "abricot",
+        "pl": "morela",
+        "id": "aprikot",
+        "hi": "खुबानी",
+        "zh": "杏",
+        "it": "albicocca",
+        "tr": "kayısı",
+        "sr": "кајсија",
+        "fi": "aprikoosi",
+        "et": "aprikoos",
+        "be": "абрыкос",
+        "lv": "aprikozs",
+        "lt": "abrikosas"
+      },
+      "examples": [
+        {
+          "text": "En torkad aprikos utgör ett väldigt nyttigt och behändigt mellanmål"
+        },
+        {
+          "text": "Jag åt en saftig aprikos efter lunchen"
+        },
+        {
+          "text": "Det här aprikosen är väldigt söt och mjuk"
+        },
+        {
+          "text": "Barnen älskar att äta torkade aprikoser"
+        },
+        {
+          "text": "Hon bakade en kaka med aprikoser och mandlar"
+        },
+        {
+          "text": "Jag tycker om aprikosmarmelad på pannkakor"
+        },
+        {
+          "text": "Aprikosträd växer i varma klimat"
+        },
+        {
+          "text": "Han gjorde hemlagad aprikossylt"
+        },
+        {
+          "text": "På sommaren är färska aprikoser en perfekt frukt"
+        },
+        {
+          "text": "Aprikosfärgad himmel vid solnedgången var magisk"
+        },
+        {
+          "text": "Hon lade några skivor aprikos i yoghurten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "16a46266-cd3f-4b65-947b-a310ac6c8e44",
+      "version": -1,
+      "word": "en ananas",
+      "forms": [
+        {
+          "form": "ananaser"
+        }
+      ],
+      "translations": {
+        "ru": "ананас",
+        "en": "pineapple",
+        "uk": "ананас",
+        "ar": "أناناس",
+        "fa": "آناناس",
+        "so": "cananaas",
+        "es": "piña",
+        "de": "Ananas",
+        "fr": "ananas",
+        "pl": "ananas",
+        "id": "nanas",
+        "hi": "अनानास",
+        "zh": "菠萝",
+        "it": "ananas",
+        "tr": "ananas",
+        "sr": "ананас",
+        "fi": "ananas",
+        "et": "ananass",
+        "be": "ананас",
+        "lv": "ananāss",
+        "lt": "ananasas"
+      },
+      "examples": [
+        {
+          "text": "Ananas är en tropisk frukt med gult fruktkött och en syrlig sötsur smak"
+        },
+        {
+          "text": "Jag skar en ananas och lade den i en fruktsallad"
+        },
+        {
+          "text": "Det här ananasen är väldigt söt och saftig"
+        },
+        {
+          "text": "Barnen älskar att dricka ananasjuice"
+        },
+        {
+          "text": "Hon gjorde en smoothie med ananas och banan"
+        },
+        {
+          "text": "Jag tycker inte om ananas på pizza"
+        },
+        {
+          "text": "Ananas används ofta i asiatiska rätter"
+        },
+        {
+          "text": "Den konserverade ananasen var lite för söt för min smak"
+        },
+        {
+          "text": "Hon lade några skivor ananas i yoghurten"
+        },
+        {
+          "text": "Jag älskar doften av färsk ananas"
+        },
+        {
+          "text": "Han beställde en tropisk drink med kokos och ananas."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "44d47015-b61c-4ead-a9f8-bf2ac74d6e4a",
+      "version": -1,
+      "word": "en vindruva",
+      "forms": [
+        {
+          "form": "vindruvor"
+        }
+      ],
+      "translations": {
+        "ru": "Виноград",
+        "en": "grape",
+        "uk": "виноград",
+        "ar": "عنب",
+        "fa": "انگور",
+        "so": "canab",
+        "es": "uva",
+        "de": "Traube",
+        "fr": "raisin",
+        "pl": "winogrono",
+        "id": "anggur",
+        "hi": "अंगूर",
+        "zh": "葡萄",
+        "it": "uva",
+        "tr": "üzüm",
+        "sr": "грожђе",
+        "fi": "viinirypäle",
+        "et": "viinamari",
+        "be": "вінаград",
+        "lv": "vīnogas",
+        "lt": "vynuogė"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några vindruvor direkt från rankan"
+        },
+        {
+          "text": "Det här vindruvorna är väldigt saftiga och söta"
+        },
+        {
+          "text": "Barnen älskar att äta vindruvor som snacks"
+        },
+        {
+          "text": "Hon gjorde en sallad med vindruvor, ost och valnötter"
+        },
+        {
+          "text": "Vindruvor används både för mat och vinproduktion"
+        },
+        {
+          "text": "Jag föredrar blå vindruvor framför gröna"
+        },
+        {
+          "text": "Han skar vindruvorna i halvor för barnen"
+        },
+        {
+          "text": "Hon lade några torkade vindruvor i brödet"
+        },
+        {
+          "text": "Vingårdar med vindruvor finns i många länder"
+        },
+        {
+          "text": "Vindruvsolja används i hudvård."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "03e67382-45f7-4177-8991-01334eba2ba9",
+      "version": -1,
+      "word": "ett russin",
+      "forms": [
+        {
+          "form": "russinet"
+        },
+        {
+          "form": "russin"
+        },
+        {
+          "form": "russinen"
+        }
+      ],
+      "translations": {
+        "ru": "Изюм",
+        "en": "raisin",
+        "uk": "родзинка",
+        "ar": "زبيب",
+        "fa": "کشمش",
+        "so": "sabiib",
+        "es": "pasa",
+        "de": "Rosine",
+        "fr": "raisin sec",
+        "pl": "rodzynek",
+        "id": "kismis",
+        "hi": "किशमिश",
+        "zh": "葡萄干",
+        "it": "uvetta",
+        "tr": "kuru üzüm",
+        "sr": "суво грожђе",
+        "fi": "rusina",
+        "et": "rosin",
+        "be": "разынка",
+        "lv": "rozīne",
+        "lt": "razina"
+      },
+      "examples": [
+        {
+          "text": "Russin är gott att ha i bakverk"
+        },
+        {
+          "text": "Jag la lite russin i min frukostgröt"
+        },
+        {
+          "text": "Russin används ofta i bakverk som kanelbullar och bröd"
+        },
+        {
+          "text": "Hon föredrar russin i sallader för en söt kontrast"
+        },
+        {
+          "text": "Barnen åt russin istället för godis"
+        },
+        {
+          "text": "Russin kan vara klibbiga om de förvaras i värme"
+        },
+        {
+          "text": "Jag gillar inte russin i chokladkaka"
+        },
+        {
+          "text": "Russin innehåller naturliga sockerarter och är energirika"
+        },
+        {
+          "text": "Hon la en skål med russin på bordet"
+        },
+        {
+          "text": "Russin är vanliga i julbakning i Sverige"
+        },
+        {
+          "text": "Jag åt en russinbulle på kaféet"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "da9858b6-761c-4132-bfa5-e72a0feeeb3b",
+      "version": -1,
+      "word": "en melon",
+      "forms": [
+        {
+          "form": "meloner"
+        }
+      ],
+      "translations": {
+        "ru": "Дыня",
+        "en": "melon",
+        "uk": "диня",
+        "ar": "بطيخ",
+        "fa": "خربزه",
+        "so": "qare",
+        "es": "melón",
+        "de": "Melone",
+        "fr": "melon",
+        "pl": "melon",
+        "id": "melon",
+        "hi": "खरबूजा",
+        "zh": "甜瓜",
+        "it": "melone",
+        "tr": "kavun",
+        "sr": "диња",
+        "fi": "meloni",
+        "et": "melon",
+        "be": "дыня",
+        "lv": "melone",
+        "lt": "melionas"
+      },
+      "examples": [
+        {
+          "text": "det finns över etthundra olika typer av meloner, men samtliga är saftiga och smakar gott"
+        },
+        {
+          "text": "Jag plockade en mogen melon i trädgården"
+        },
+        {
+          "text": "Den här melonen är väldigt söt och saftig"
+        },
+        {
+          "text": "Barnen älskar att äta vattenmelon på stranden"
+        },
+        {
+          "text": "Hon gjorde en smoothie med melon och mynta"
+        },
+        {
+          "text": "Jag föredrar vattenmelon framför cantaloupemelon"
+        },
+        {
+          "text": "Han köpte en stor vattenmelon för hela familjen"
+        },
+        {
+          "text": "Hon lade några bitar melon i fruktsalladen"
+        },
+        {
+          "text": "På sommaren är kalla meloner särskilt goda"
+        },
+        {
+          "text": "Jag åt en skiva melon till frukost"
+        },
+        {
+          "text": "Melon och parmaskinka är en klassisk italiensk förrätt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8f339edd-8de8-4816-940b-a2cecea6d3a2",
+      "version": -1,
+      "word": "en vattenmelon",
+      "forms": [
+        {
+          "form": "vattenmeloner"
+        }
+      ],
+      "translations": {
+        "ru": "Арбуз",
+        "en": "watermelon",
+        "uk": "кавун",
+        "ar": "بطيخ",
+        "fa": "هندوانه",
+        "so": "qare",
+        "es": "sandía",
+        "de": "Wassermelone",
+        "fr": "pastèque",
+        "pl": "arbuz",
+        "id": "semangka",
+        "hi": "तरबूज",
+        "zh": "西瓜",
+        "it": "anguria",
+        "tr": "karpuz",
+        "sr": "лубеница",
+        "fi": "vesimeloni",
+        "et": "arbuus",
+        "be": "кавун",
+        "lv": "arbūzs",
+        "lt": "arbūzas"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en vattenmelon och delade den i skivor"
+        },
+        {
+          "text": "Den här vattenmelonen är väldigt saftig och söt"
+        },
+        {
+          "text": "Barnen älskar att äta vattenmelon på stranden"
+        },
+        {
+          "text": "Hon gjorde en fräsch sallad med vattenmelon och fetaost"
+        },
+        {
+          "text": "Jag föredrar kärnfria vattenmeloner"
+        },
+        {
+          "text": "Han köpte en minivattenmelon eftersom han bor ensam"
+        },
+        {
+          "text": "Hon lade några skivor vattenmelon i sitt iste"
+        },
+        {
+          "text": "På sommaren är kalla vattenmeloner särskilt goda"
+        },
+        {
+          "text": "Jag åt en vattenmelonskiva som mellanmål"
+        },
+        {
+          "text": "Vattenmelon och lime är en perfekt smakkombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b026d6f0-fabc-4829-875b-19db4de5e94c",
+      "version": -1,
+      "word": "ett fikon",
+      "forms": [
+        {
+          "form": "fikonet"
+        },
+        {
+          "form": "fikon"
+        },
+        {
+          "form": "fikonen"
+        }
+      ],
+      "translations": {
+        "ru": "Инжир",
+        "en": "fig",
+        "uk": "інжир",
+        "ar": "تين",
+        "fa": "انجیر",
+        "so": "berde",
+        "es": "higo",
+        "de": "Feige",
+        "fr": "figue",
+        "pl": "figa",
+        "id": "ara",
+        "hi": "अंजीर",
+        "zh": "无花果",
+        "it": "fico",
+        "tr": "incir",
+        "sr": "смоква",
+        "fi": "viikuna",
+        "et": "viigimari",
+        "be": "інжыр",
+        "lv": "vīģe",
+        "lt": "figa"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte färska fikon på marknaden"
+        },
+        {
+          "text": "Fikon är väldigt söta och goda"
+        },
+        {
+          "text": "Vi åt torkade fikon med nötter och ost"
+        },
+        {
+          "text": "Jag gjorde en sallad med fikon och getost"
+        },
+        {
+          "text": "Fikonen i kakan gjorde den extra saftig"
+        },
+        {
+          "text": "Torkade fikon är perfekta som mellanmål."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "27099fd0-6741-4d61-a768-a48c4e06c925",
+      "version": -1,
+      "word": "ett plommon",
+      "forms": [
+        {
+          "form": "plommonen"
+        },
+        {
+          "form": "plommon"
+        }
+      ],
+      "translations": {
+        "ru": "слива",
+        "en": "plum",
+        "uk": "слива",
+        "ar": "برقوق",
+        "fa": "آلو",
+        "so": "liin",
+        "es": "ciruela",
+        "de": "Pflaume",
+        "fr": "prune",
+        "pl": "śliwka",
+        "id": "prem",
+        "hi": "आलूबुखारा",
+        "zh": "李子",
+        "it": "prugna",
+        "tr": "erik",
+        "sr": "шљива",
+        "fi": "luumu",
+        "et": "ploom",
+        "be": "слiва",
+        "lv": "plūme",
+        "lt": "slyva"
+      },
+      "examples": [
+        {
+          "text": "Jag åt ett plommon till frukost"
+        },
+        {
+          "text": "ag plockade plommon från trädet"
+        },
+        {
+          "text": "Jag gjorde en plommonpaj"
+        },
+        {
+          "text": "Trädet i trädgården bär mycket plommon i år"
+        },
+        {
+          "text": "lommonträdet ger oss många frukter varje år"
+        },
+        {
+          "text": "Det finns många plommon i trädgården"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "74bc5a67-4f87-4bd2-97b7-fd344ddd4cd4",
+      "version": -1,
+      "word": "ett katrinplommon",
+      "forms": [
+        {
+          "form": "katrinplommonet"
+        },
+        {
+          "form": "katrinplommon"
+        },
+        {
+          "form": "katrinplommonen"
+        }
+      ],
+      "translations": {
+        "ru": "чернослив",
+        "en": "prune",
+        "uk": "чорнослив",
+        "ar": "برقوق مجفف",
+        "fa": "آلو خشک",
+        "so": "qare",
+        "es": "ciruela pasa",
+        "de": "Backpflaume",
+        "fr": "pruneau",
+        "pl": "suszona śliwka",
+        "id": "buah prem",
+        "hi": "सूखा आलूबुखारा",
+        "zh": "西梅干",
+        "it": "prugna secca",
+        "tr": "erik kurusu",
+        "sr": "сушена шљива",
+        "fi": "luumu",
+        "et": "kuivatatud ploom",
+        "be": "чарнасліў",
+        "lv": "žāvēta plūme",
+        "lt": "džiovinta slyva"
+      },
+      "examples": [
+        {
+          "text": "Katrinplommon är torkade plommon"
+        },
+        {
+          "text": "Katrinplommon är nyttiga och innehåller mycket fiber"
+        },
+        {
+          "text": "Katrinplommon är bra för matsmältningen"
+        },
+        {
+          "text": "Hon äter katrinplommon varje dag som mellanmål"
+        },
+        {
+          "text": "Jag använder katrinplommon i min köttgryta för att ge sötma."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0ed58845-accf-42fd-a732-304b4e627d55",
+      "version": 1,
+      "word": "en jordgubbe",
+      "forms": [
+        {
+          "form": "jordgubbar"
+        }
+      ],
+      "translations": {
+        "ru": "Клубника",
+        "en": "strawberry",
+        "uk": "полуниця",
+        "ar": "فراولة",
+        "fa": "توت‌فرنگی",
+        "so": "faraash",
+        "es": "fresa",
+        "de": "Erdbeere",
+        "fr": "fraise",
+        "pl": "truskawka",
+        "id": "stroberi",
+        "hi": "स्ट्रॉबेरी",
+        "zh": "草莓",
+        "it": "fragola",
+        "tr": "çilek",
+        "sr": "јагода",
+        "fi": "mansikka",
+        "et": "maasikas",
+        "be": "клубніцы",
+        "lv": "zemenes",
+        "lt": "braškė"
+      },
+      "examples": [
+        {
+          "text": "Jordgubben kom till Sverige på 1700-talet"
+        },
+        {
+          "text": "Jag älskar att äta jordgubbar med grädde på sommaren"
+        },
+        {
+          "text": "Vi plockade färska jordgubbar på gården idag"
+        },
+        {
+          "text": "Den här jordgubben är väldigt söt och saftig"
+        },
+        {
+          "text": "Hur mycket kostar en liter jordgubbar på marknaden?"
+        },
+        {
+          "text": "Barnen gjorde en tårta och dekorerade den med jordgubbar"
+        },
+        {
+          "text": "När midsommar firas i Sverige äter man ofta jordgubbar"
+        },
+        {
+          "text": "Jag har aldrig sett så stora jordgubbar förut!"
+        },
+        {
+          "text": "I vår trädgård odlar vi egna jordgubbar varje sommar"
+        },
+        {
+          "text": "Barnet tappade en jordgubbe på golvet och började gråta"
+        },
+        {
+          "text": "En skål med färska jordgubbar är den perfekta sommardesserten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b2ea0689-38d7-418d-9216-3287f7bedc19",
+      "version": -1,
+      "word": "ett körsbär",
+      "forms": [
+        {
+          "form": "körsbäret"
+        },
+        {
+          "form": "körsbär"
+        },
+        {
+          "form": "körsbären"
+        }
+      ],
+      "translations": {
+        "ru": "Вишня черешня",
+        "en": "cherry",
+        "uk": "вишня",
+        "ar": "كرز",
+        "fa": "گیلاس",
+        "so": "canab",
+        "es": "cereza",
+        "de": "Kirsche",
+        "fr": "cerise",
+        "pl": "wiśnia",
+        "id": "ceri",
+        "hi": "चेरी",
+        "zh": "樱桃",
+        "it": "ciliegia",
+        "tr": "kiraz",
+        "sr": "трешња",
+        "fi": "kirsikka",
+        "et": "kirss",
+        "be": "вішня",
+        "lv": "ķirsis",
+        "lt": "vyšnia"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några körsbär och lade dem i en skål"
+        },
+        {
+          "text": "Den här körsbären är väldigt söta och saftiga"
+        },
+        {
+          "text": "Barnen älskar att äta färska körsbär på sommaren"
+        },
+        {
+          "text": "Hon gjorde en smoothie med körsbär och banan"
+        },
+        {
+          "text": "Jag föredrar söta körsbär framför sura"
+        },
+        {
+          "text": "Han köpte en flaska körsbärslikör som souvenir"
+        },
+        {
+          "text": "Hon lade några körsbär i sin chokladkaka"
+        },
+        {
+          "text": "På våren blommar körsbärsträden i Japan"
+        },
+        {
+          "text": "Jag åt en skiva körsbärspaj med vaniljglass"
+        },
+        {
+          "text": "Körsbär och mandlar passar bra ihop i bakverk."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a6f2dd0c-0687-45c8-8531-28fb0119e299",
+      "version": -1,
+      "word": "ett hallon",
+      "forms": [
+        {
+          "form": "hallonet"
+        },
+        {
+          "form": "hallon"
+        },
+        {
+          "form": "hallonen"
+        }
+      ],
+      "translations": {
+        "ru": "малина",
+        "en": "raspberry",
+        "uk": "малина",
+        "ar": "توت العليق",
+        "fa": "تمشک",
+        "so": "rasberi",
+        "es": "frambuesa",
+        "de": "Himbeere",
+        "fr": "framboise",
+        "pl": "malina",
+        "id": "raspberi",
+        "hi": "रसभरी",
+        "zh": "覆盆子",
+        "it": "lampone",
+        "tr": "ahududu",
+        "sr": "малина",
+        "fi": "vadelma",
+        "et": "vaarikas",
+        "be": "маліна",
+        "lv": "avenes",
+        "lt": "avietė"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några hallon och lade dem i en skål"
+        },
+        {
+          "text": "Den här hallonen är väldigt söta och saftiga"
+        },
+        {
+          "text": "Barnen älskar att äta hallon med mjölk"
+        },
+        {
+          "text": "Hon gjorde en hallonpaj till efterrätt"
+        },
+        {
+          "text": "Jag föredrar färska hallon framför frysta"
+        },
+        {
+          "text": "Han köpte en burk hallonsylt i affären"
+        },
+        {
+          "text": "Hon lade några hallon på glassen som dekoration"
+        },
+        {
+          "text": "På sommaren smakar hallon som bäst"
+        },
+        {
+          "text": "Jag åt en skiva hallontårta med grädde"
+        },
+        {
+          "text": "Hallon och choklad är en perfekt kombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a9bae250-062d-4ddf-b56d-266d44f3b21b",
+      "version": -1,
+      "word": "ett blåbär",
+      "forms": [
+        {
+          "form": "blåbäret"
+        },
+        {
+          "form": "blåbär"
+        },
+        {
+          "form": "blåbären"
+        }
+      ],
+      "translations": {
+        "ru": "черника голубика",
+        "en": "blueberry",
+        "uk": "чорниця",
+        "ar": "توت أزرق",
+        "fa": "بلوبری",
+        "so": "bilberry",
+        "es": "arándano",
+        "de": "Blaubeere",
+        "fr": "myrtille",
+        "pl": "borówka",
+        "id": "blueberry",
+        "hi": "ब्लूबेरी",
+        "zh": "蓝莓",
+        "it": "mirtillo",
+        "tr": "yaban mersini",
+        "sr": "боровница",
+        "fi": "mustikka",
+        "et": "mustikas",
+        "be": "чарніца",
+        "lv": "mellenes",
+        "lt": "mėlynė"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några blåbär och lade dem i en skål"
+        },
+        {
+          "text": "Den här blåbären är väldigt söta och saftiga"
+        },
+        {
+          "text": "Barnen älskar att äta blåbär med mjölk och socker"
+        },
+        {
+          "text": "Hon bakade en blåbärspaj till efterrätt"
+        },
+        {
+          "text": "Jag föredrar färska blåbär framför frysta"
+        },
+        {
+          "text": "Han köpte en burk blåbärssylt i affären"
+        },
+        {
+          "text": "Hon lade några blåbär på glassen som dekoration"
+        },
+        {
+          "text": "På hösten smakar blåbär som bäst"
+        },
+        {
+          "text": "Jag åt en skiva blåbärskaka med vaniljglass"
+        },
+        {
+          "text": "Blåbär och citron är en fantastisk kombination i bakverk."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7e1074e0-412b-48fd-84ab-ef872697dabe",
+      "version": 1,
+      "word": "en mango",
+      "forms": [
+        {
+          "form": "mangor"
+        }
+      ],
+      "translations": {
+        "ru": "манго",
+        "en": "mango",
+        "uk": "манго",
+        "ar": "مانجو",
+        "fa": "انبه",
+        "so": "mango",
+        "es": "mango",
+        "de": "Mango",
+        "fr": "mangue",
+        "pl": "mango",
+        "id": "mangga",
+        "hi": "आम",
+        "zh": "芒果",
+        "it": "mango",
+        "tr": "mango",
+        "sr": "манго",
+        "fi": "mango",
+        "et": "mango",
+        "be": "манга",
+        "lv": "mango",
+        "lt": "mangas"
+      },
+      "examples": [
+        {
+          "text": "Mango är den mest ätna frukten i världen"
+        },
+        {
+          "text": "Jag köpte en mango på marknaden"
+        },
+        {
+          "text": "Vill du smaka på en mango? Mangon är mycket mogen och saftig"
+        },
+        {
+          "text": "Kan du skära upp mangon? De sålde färska mangor på torget"
+        },
+        {
+          "text": "Jag tycker om både söta och syrliga mangor"
+        },
+        {
+          "text": "Alla mangorna var perfekta för en sallad"
+        },
+        {
+          "text": "Mangorna i butiken är importerade från Indien"
+        },
+        {
+          "text": "Har du smakat färsk mango någon gång?"
+        },
+        {
+          "text": "Kan vi köpa några mangor till frukosten?"
+        },
+        {
+          "text": "Alla mangorna i lådan ser ut att vara perfekt mogna."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a6092e5a-7ec4-4842-afad-5de2b9f09f0b",
+      "version": -1,
+      "word": "en potatis",
+      "forms": [
+        {
+          "form": "potatisen"
+        },
+        {
+          "form": "potatisar"
+        },
+        {
+          "form": "potatisarna"
+        }
+      ],
+      "translations": {
+        "ru": "Картофель",
+        "en": "potato",
+        "uk": "картопля",
+        "ar": "بطاطا",
+        "fa": "سیب‌زمینی",
+        "so": "baradho",
+        "es": "patata",
+        "de": "Kartoffel",
+        "fr": "pomme de terre",
+        "pl": "ziemniak",
+        "id": "kentang",
+        "hi": "आलू",
+        "zh": "土豆",
+        "it": "patata",
+        "tr": "patates",
+        "sr": "кромпир",
+        "fi": "peruna",
+        "et": "kartul",
+        "be": "бульба",
+        "lv": "kartupeļi",
+        "lt": "bulvė"
+      },
+      "examples": [
+        {
+          "text": "Potatis kommer från Peru"
+        },
+        {
+          "text": "Jag älskar potatis i alla former"
+        },
+        {
+          "text": "Kan du skala potatisen? Vi behöver köpa mer potatis till middagen"
+        },
+        {
+          "text": "Jag föredrar kokt potatis framför stekt"
+        },
+        {
+          "text": "De bakade potatisar med smör och örter"
+        },
+        {
+          "text": "Potatismos är populärt bland barn."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e034f670-8fef-4e0c-b4f9-af9fbe3ccd06",
+      "version": -1,
+      "word": "en sötpotatis",
+      "forms": [
+        {
+          "form": "sötpotatisar"
+        }
+      ],
+      "translations": {
+        "ru": "сладкая картошка батат",
+        "en": "sweet potato, yam",
+        "uk": "солодка картопля, батат",
+        "ar": "بطاطا حلوة، يام",
+        "fa": "سیب‌زمینی شیرین، یام",
+        "so": "baradho macaan, yam",
+        "es": "batata dulce, ñame",
+        "de": "Süßkartoffel, Yams",
+        "fr": "patate douce, igname",
+        "pl": "słodki ziemniak, pochrzyn",
+        "id": "ubi jalar, ubi",
+        "hi": "शकरकंद, याम",
+        "zh": "红薯，山药",
+        "it": "patata dolce, igname",
+        "tr": "tatlı patates, yam",
+        "sr": "слатки кромпир, јам",
+        "fi": "bataatti, jamssi",
+        "et": "maguskartul, jamss",
+        "be": "салодкая бульба, батат",
+        "lv": "saldais kartupelis, jams",
+        "lt": "saldžioji bulvė, jamsas"
+      },
+      "examples": [
+        {
+          "text": "Sötpotatis är utmärkt bakad eller stekt"
+        },
+        {
+          "text": "Jag älskar att göra ugnsrostad sötpotatis"
+        },
+        {
+          "text": "Jag lagade mos av sötpotatis till middagen"
+        },
+        {
+          "text": "Sötpotatis är ett perfekt tillbehör till grillad kyckling"
+        },
+        {
+          "text": "Sötpotatis är sötare än vanlig potatis"
+        },
+        {
+          "text": "Sötpotatis är rik på vitaminer och fibrer"
+        },
+        {
+          "text": "Många föredrar sötpotatis som ett hälsosamt alternativ till vanlig potatis."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ad82f5b3-e20f-453a-964d-78034bb8530b",
+      "version": -1,
+      "word": "en sojaböna",
+      "forms": [
+        {
+          "form": "sojabönor"
+        }
+      ],
+      "translations": {
+        "ru": "Соевые бобы",
+        "en": "soybeans",
+        "uk": "соєві боби",
+        "ar": "فول الصويا",
+        "fa": "سویا",
+        "so": "digirta soya",
+        "es": "soja",
+        "de": "Sojabohnen",
+        "fr": "soja",
+        "pl": "soja",
+        "id": "kedelai",
+        "hi": "सोयाबीन",
+        "zh": "大豆",
+        "it": "soia",
+        "tr": "soya fasulyesi",
+        "sr": "соја",
+        "fi": "soijapavut",
+        "et": "sojaoad",
+        "be": "соявыя бабы",
+        "lv": "sojas pupas",
+        "lt": "sojos pupelės"
+      },
+      "examples": [
+        {
+          "text": "Jag kokade sojabönor och lade dem i salladen"
+        },
+        {
+          "text": "Sojabönor är en viktig del av asiatiska rätter"
+        },
+        {
+          "text": "Hon köpte en burk fermenterade sojabönor för att laga misosoppa"
+        },
+        {
+          "text": "Tofu görs av sojabönor och används i många vegetariska rätter"
+        },
+        {
+          "text": "Han åt en skål med edamame och drack grönt te"
+        },
+        {
+          "text": "Sojabönor är ett populärt alternativ till kött i veganska måltider"
+        },
+        {
+          "text": "Hon stekte sojabönor med vitlök och ingefära"
+        },
+        {
+          "text": "Sojabönor kan användas för att göra sojafärs och vegetariska burgare"
+        },
+        {
+          "text": "Jag föredrar att äta ekologiska sojabönor"
+        },
+        {
+          "text": "Sojabönor är en av de mest odlade baljväxterna i världen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "82aa2e66-8e15-447d-95ae-c0e2f7e71a6b",
+      "version": 1,
+      "word": "en böna",
+      "forms": [
+        {
+          "form": "bönan"
+        },
+        {
+          "form": "bönor"
+        },
+        {
+          "form": "bönorna"
+        }
+      ],
+      "translations": {
+        "ru": "фасоль бобы зерна",
+        "en": "beans, legumes, grains",
+        "uk": "квасоля, бобові, зерна",
+        "ar": "فاصوليا، بقوليات، حبوب",
+        "fa": "لوبیا، حبوبات، غلات",
+        "so": "digir, digirta, hadhuudh",
+        "es": "frijoles, legumbres, granos",
+        "de": "Bohnen, Hülsenfrüchte, Körner",
+        "fr": "haricots, légumineuses, grains",
+        "pl": "fasola, rośliny strączkowe, ziarna",
+        "id": "kacang, kacang-kacangan, biji-bijian",
+        "hi": "फलियां, दलहन, अनाज",
+        "zh": "豆类, 豆科植物, 谷物",
+        "it": "fagioli, legumi, cereali",
+        "tr": "fasulye, baklagiller, tahıllar",
+        "sr": "пасуљ, махунарке, зрна",
+        "fi": "pavut, palkokasvit, jyvät",
+        "et": "oad, kaunviljad, terad",
+        "be": "фасоля, бабовыя, зерне",
+        "lv": "pupiņas, pākšaugi, graudi",
+        "lt": "pupelės, ankštiniai, grūdai"
+      },
+      "examples": [
+        {
+          "text": "Kan du skicka bönorna, jag vill lägga dem i salladen?"
+        },
+        {
+          "text": "Jag köpte gröna bönor på marknaden"
+        },
+        {
+          "text": "Färska kaffebönor ger ett bättre kaffe"
+        },
+        {
+          "text": "Bönor är en viktig del av en vegetarisk kost"
+        },
+        {
+          "text": "De planterade bönor i trädgården på våren."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "636cfbd0-09df-41e6-b4b7-6d538c88643d",
+      "version": -1,
+      "word": "En ärta",
+      "forms": [
+        {
+          "form": "ärtan"
+        },
+        {
+          "form": "ärtor"
+        },
+        {
+          "form": "ärtorna"
+        }
+      ],
+      "translations": {
+        "ru": "горох",
+        "en": "peas",
+        "uk": "горох",
+        "ar": "بازلاء",
+        "fa": "نخود فرنگی",
+        "so": "digir",
+        "es": "guisantes",
+        "de": "Erbsen",
+        "fr": "pois",
+        "pl": "groszek",
+        "id": "kacang polong",
+        "hi": "मटर",
+        "zh": "豌豆",
+        "it": "piselli",
+        "tr": "bezelye",
+        "sr": "грашак",
+        "fi": "herneet",
+        "et": "herned",
+        "be": "гарох",
+        "lv": "zirņi",
+        "lt": "žirniai"
+      },
+      "examples": [
+        {
+          "text": "Svenskar äter ofta ärtsoppa, en soppa gjord på ärtor"
+        },
+        {
+          "text": "Jag kokade ärtor till middagen"
+        },
+        {
+          "text": "Färska ärtor är ett gott tillbehör till många rätter"
+        },
+        {
+          "text": "Prinsessan kände ärtan genom alla madrasser"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8d9b1a6a-4fea-46d2-8054-37e1d7a4bb5f",
+      "version": -1,
+      "word": "en dadel",
+      "forms": [
+        {
+          "form": "dadlar"
+        }
+      ],
+      "translations": {
+        "ru": "финики",
+        "en": "dates",
+        "uk": "фініки",
+        "ar": "تمر",
+        "fa": "خرما",
+        "so": "taariikhaha",
+        "es": "dátiles",
+        "de": "Datteln",
+        "fr": "dattes",
+        "pl": "daktyle",
+        "id": "kurma",
+        "hi": "खजूर",
+        "zh": "枣",
+        "it": "datteri",
+        "tr": "hurma",
+        "sr": "урме",
+        "fi": "taatelit",
+        "et": "datlid",
+        "be": "фінікі",
+        "lv": "dateles",
+        "lt": "datulės"
+      },
+      "examples": [
+        {
+          "text": "Jag åt några dadlar med mandlar som mellanmål"
+        },
+        {
+          "text": "Den här dadlarna är väldigt mjuka och söta"
+        },
+        {
+          "text": "Barnen älskar att äta dadlar istället för godis"
+        },
+        {
+          "text": "Hon gjorde en rawfood-kaka med dadlar och kakao"
+        },
+        {
+          "text": "Jag föredrar Medjool-dadlar eftersom de är extra saftiga"
+        },
+        {
+          "text": "Han köpte en påse torkade dadlar i affären"
+        },
+        {
+          "text": "Hon lade några hackade dadlar i gröten"
+        },
+        {
+          "text": "På Ramadan äter många dadlar vid solnedgången"
+        },
+        {
+          "text": "Jag åt en dadel fylld med jordnötssmör"
+        },
+        {
+          "text": "Dadlar och valnötter är en fantastisk kombination i bakverk."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "be3752ec-6bce-4833-934d-380c2238b052",
+      "version": -1,
+      "word": "en morot",
+      "forms": [
+        {
+          "form": "moroten"
+        },
+        {
+          "form": "morötter"
+        },
+        {
+          "form": "morötterna"
+        }
+      ],
+      "translations": {
+        "ru": "Морковь (второе значение стимул мотивация)",
+        "en": "carrot (also: incentive, motivation)",
+        "uk": "морква (також: стимул, мотивація)",
+        "ar": "جزر (أيضًا: حافز، دافع)",
+        "fa": "هویج (همچنین: انگیزه، محرک)",
+        "so": "karootada (sidoo kale: dhiirigelin, dhiirasho)",
+        "es": "zanahoria (también: incentivo, motivación)",
+        "de": "Karotte (auch: Anreiz, Motivation)",
+        "fr": "carotte (aussi : incitation, motivation)",
+        "pl": "marchewka (również: zachęta, motywacja)",
+        "id": "wortel (juga: insentif, motivasi)",
+        "hi": "गाजर (साथ ही: प्रोत्साहन, प्रेरणा)",
+        "zh": "胡萝卜（也：激励，动机）",
+        "it": "carota (anche: incentivo, motivazione)",
+        "tr": "havuç (aynı zamanda: teşvik, motivasyon)",
+        "sr": "шаргарепа (такође: подстицај, мотивација)",
+        "fi": "porkkana (myös: kannustin, motivaatio)",
+        "et": "porgand (ka: stiimul, motivatsioon)",
+        "be": "морква (таксама: стымул, матывацыя)",
+        "lv": "burkāns (arī: stimuls, motivācija)",
+        "lt": "morka (taip pat: paskata, motyvacija)"
+      },
+      "examples": [
+        {
+          "text": "Jag gillar att äta rå morot som mellanmål"
+        },
+        {
+          "text": "Jag köpte ett kilo morötter på marknaden"
+        },
+        {
+          "text": "Morötter är bra för synen"
+        },
+        {
+          "text": "Regeringen använder både morot och piska för att nå sina mål"
+        },
+        {
+          "text": "Vi odlar morötter i vår trädgård."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a70d0d4b-a842-40a7-abce-c7fde86c6fe6",
+      "version": -1,
+      "word": "en tomat",
+      "forms": [
+        {
+          "form": "tomater"
+        }
+      ],
+      "translations": {
+        "ru": "Помидор",
+        "en": "tomato",
+        "uk": "помідор",
+        "ar": "طماطم",
+        "fa": "گوجه‌فرنگی",
+        "so": "yaanyo",
+        "es": "tomate",
+        "de": "Tomate",
+        "fr": "tomate",
+        "pl": "pomidor",
+        "id": "tomat",
+        "hi": "टमाटर",
+        "zh": "番茄",
+        "it": "pomodoro",
+        "tr": "domates",
+        "sr": "парадајз",
+        "fi": "tomaatti",
+        "et": "tomat",
+        "be": "памідор",
+        "lv": "tomāts",
+        "lt": "pomidoras"
+      },
+      "examples": [
+        {
+          "text": "Tomaten kom till Sverige på 1600-talet"
+        },
+        {
+          "text": "Jag plockade några tomater från växthuset"
+        },
+        {
+          "text": "Den här tomaten är väldigt saftig och söt"
+        },
+        {
+          "text": "Barnen älskar att äta körsbärstomater som snacks"
+        },
+        {
+          "text": "Hon gjorde en tomatsoppa med vitlök och basilika"
+        },
+        {
+          "text": "Jag föredrar solmogna tomater framför butikstomater"
+        },
+        {
+          "text": "Han köpte en burk krossade tomater för att laga sås"
+        },
+        {
+          "text": "Hon lade några tomatskivor på pizzan innan den gräddades"
+        },
+        {
+          "text": "På sommaren är tomaterna som godast"
+        },
+        {
+          "text": "Jag åt en tomat direkt från trädgården"
+        },
+        {
+          "text": "Tomater och mozzarella är en perfekt kombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "de520598-d41c-44d8-8f2c-1b8973f550f5",
+      "version": -1,
+      "word": "en gurka",
+      "forms": [
+        {
+          "form": "gurkor"
+        }
+      ],
+      "translations": {
+        "ru": "огурец",
+        "en": "cucumber",
+        "uk": "огірок",
+        "ar": "خيار",
+        "fa": "خیار",
+        "so": "qajaar",
+        "es": "pepino",
+        "de": "Gurke",
+        "fr": "concombre",
+        "pl": "ogórek",
+        "id": "mentimun",
+        "hi": "खीरा",
+        "zh": "黄瓜",
+        "it": "cetriolo",
+        "tr": "salatalık",
+        "sr": "краставац",
+        "fi": "kurkku",
+        "et": "kurk",
+        "be": "агурок",
+        "lv": "gurķis",
+        "lt": "agurkas"
+      },
+      "examples": [
+        {
+          "text": "Jag plockade några gurkor från växthuset"
+        },
+        {
+          "text": "Den här gurkan är väldigt krispig och fräsch"
+        },
+        {
+          "text": "Barnen älskar att äta gurkstavar som snacks"
+        },
+        {
+          "text": "Hon gjorde en gurksoppa med vitlök och dill"
+        },
+        {
+          "text": "Jag föredrar ekologiska gurkor"
+        },
+        {
+          "text": "Han köpte en burk inlagd gurka till middagen"
+        },
+        {
+          "text": "Hon lade några gurkskivor på ögonen som ansiktsmask"
+        },
+        {
+          "text": "På sommaren smakar färska gurkor som bäst"
+        },
+        {
+          "text": "Jag åt en skiva smörgås med ost och gurka"
+        },
+        {
+          "text": "Gurka och mynta är en uppfriskande kombination i drinkar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a0cafa2b-c439-4f02-9a59-66433c920130",
+      "version": -1,
+      "word": "en gul lök",
+      "forms": [
+        {
+          "form": "gula lökar"
+        }
+      ],
+      "translations": {
+        "ru": "репчатый Лук",
+        "en": "onion",
+        "uk": "цибуля",
+        "ar": "بصل",
+        "fa": "پیاز",
+        "so": "basal",
+        "es": "cebolla",
+        "de": "Zwiebel",
+        "fr": "oignon",
+        "pl": "cebula",
+        "id": "bawang",
+        "hi": "प्याज",
+        "zh": "洋葱",
+        "it": "cipolla",
+        "tr": "soğan",
+        "sr": "лук",
+        "fi": "sipuli",
+        "et": "sibul",
+        "be": "цыбуля",
+        "lv": "sīpols",
+        "lt": "svogūnas"
+      },
+      "examples": [
+        {
+          "text": "Jag skar en gul lök i tunna skivor och stekte den"
+        },
+        {
+          "text": "Den här gula löken är väldigt stark och gör att jag gråter"
+        },
+        {
+          "text": "Barnen tycker inte om smaken av rå gul lök"
+        },
+        {
+          "text": "Hon gjorde en fransk löksoppa med karamelliserad gul lök"
+        },
+        {
+          "text": "Jag föredrar att använda gul lök i grytor"
+        },
+        {
+          "text": "Han köpte en nätpåse med gula lökar i mataffären"
+        },
+        {
+          "text": "Hon lade lite finhackad gul lök i salsan"
+        },
+        {
+          "text": "På vintern lagar jag ofta soppor med gul lök"
+        },
+        {
+          "text": "Jag förvarar alltid gul lök i en mörk och sval låda"
+        },
+        {
+          "text": "Gul lök och vitlök är basingredienser i nästan all matlagning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7b071f9e-a8b7-4846-9030-8697eea7934a",
+      "version": -1,
+      "word": "en röd lök",
+      "forms": [
+        {
+          "form": "röda lökar"
+        }
+      ],
+      "translations": {
+        "ru": "красный лук",
+        "en": "red onion",
+        "uk": "червона цибуля",
+        "ar": "بصل أحمر",
+        "fa": "پیاز قرمز",
+        "so": "basal cas",
+        "es": "cebolla roja",
+        "de": "rote Zwiebel",
+        "fr": "oignon rouge",
+        "pl": "czerwona cebula",
+        "id": "bawang merah",
+        "hi": "लाल प्याज",
+        "zh": "红洋葱",
+        "it": "cipolla rossa",
+        "tr": "kırmızı soğan",
+        "sr": "црни лук",
+        "fi": "punasipuli",
+        "et": "punane sibul",
+        "be": "чырвоны лук",
+        "lv": "sarkanais sīpols",
+        "lt": "raudonasis svogūnas"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en röd lök på marknaden"
+        },
+        {
+          "text": "Röd lök smakar milt och passar bra i sallader"
+        },
+        {
+          "text": "De röda lökarna används ofta i medelhavsmat"
+        },
+        {
+          "text": "Finhackad röd lök är perfekt som topping på smörgåsar"
+        },
+        {
+          "text": "Röd lök kan också ätas rå utan tillagning"
+        },
+        {
+          "text": "Hur brukar du använda röd lök i matlagning? Röd lök är både nyttig och god"
+        },
+        {
+          "text": "Jag föredrar röd lök framför gul lök i sallader"
+        },
+        {
+          "text": "Har du provat att marinera röd lök med vinäger?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bbb984cb-17f8-4630-beec-d5ad43a8f5f1",
+      "version": -1,
+      "word": "en vitlök",
+      "forms": [
+        {
+          "form": "vitlöken"
+        },
+        {
+          "form": "vitlökar"
+        },
+        {
+          "form": "vitlökarna"
+        }
+      ],
+      "translations": {
+        "ru": "чеснок",
+        "en": "garlic",
+        "uk": "часник",
+        "ar": "ثوم",
+        "fa": "سیر",
+        "so": "toon",
+        "es": "ajo",
+        "de": "Knoblauch",
+        "fr": "ail",
+        "pl": "czosnek",
+        "id": "bawang putih",
+        "hi": "लहसुन",
+        "zh": "大蒜",
+        "it": "aglio",
+        "tr": "sarımsak",
+        "sr": "бели лук",
+        "fi": "valkosipuli",
+        "et": "küüslauk",
+        "be": "часнок",
+        "lv": "ķiploks",
+        "lt": "česnakas"
+      },
+      "examples": [
+        {
+          "text": "Smaken och lukten av vitlök är dess kännetecken"
+        },
+        {
+          "text": "Jag älskar smaken av vitlök i maten"
+        },
+        {
+          "text": "Kan du köpa en vitlök på vägen hem? Jag använder alltid färsk vitlök när jag lagar mat"
+        },
+        {
+          "text": "Tillsätt lite vitlök i såsen för mer smak"
+        },
+        {
+          "text": "Du behöver bara en vitlöksklyfta till receptet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f9b04815-8496-4b9e-9a7e-12dd833c8965",
+      "version": -1,
+      "word": "en grönsallad",
+      "forms": [
+        {
+          "form": "grönsallader"
+        }
+      ],
+      "translations": {
+        "ru": "Салат",
+        "en": "lettuce",
+        "uk": "салат",
+        "ar": "خس",
+        "fa": "کاهو",
+        "so": "saladh",
+        "es": "lechuga",
+        "de": "Salat",
+        "fr": "laitue",
+        "pl": "sałata",
+        "id": "selada",
+        "hi": "सलाद पत्ता",
+        "zh": "生菜",
+        "it": "lattuga",
+        "tr": "marul",
+        "sr": "зелена салата",
+        "fi": "salaatti",
+        "et": "salat",
+        "be": "салата",
+        "lv": "salāti",
+        "lt": "salotos"
+      },
+      "examples": [
+        {
+          "text": "Grönsallad innehåller K-vitamin"
+        },
+        {
+          "text": "Jag blandade grönsallad med tomater och gurka"
+        },
+        {
+          "text": "Den här grönsalladen är väldigt krispig och fräsch"
+        },
+        {
+          "text": "Barnen gillar inte att äta grönsallad utan dressing"
+        },
+        {
+          "text": "Hon gjorde en dressing med olivolja och balsamvinäger till grönsalladen"
+        },
+        {
+          "text": "Jag föredrar ekologisk grönsallad"
+        },
+        {
+          "text": "Han köpte en påse färdigskuren grönsallad i affären"
+        },
+        {
+          "text": "Hon lade några blad grönsallad på smörgåsen"
+        },
+        {
+          "text": "På sommaren smakar grönsallad som bäst"
+        },
+        {
+          "text": "Jag åt en fräsch grönsallad med fetaost"
+        },
+        {
+          "text": "Grönsallad är en bra bas för många vegetariska rätter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f66b2e9a-3340-4637-90a1-32b31ffdd4a8",
+      "version": -1,
+      "word": "ett kål",
+      "forms": [
+        {
+          "form": "kålet"
+        },
+        {
+          "form": "kål"
+        },
+        {
+          "form": "kålen"
+        }
+      ],
+      "translations": {
+        "ru": "Капуста",
+        "en": "cabbage",
+        "uk": "капуста",
+        "ar": "كرنب",
+        "fa": "کلم",
+        "so": "kaabash",
+        "es": "col",
+        "de": "Kohl",
+        "fr": "chou",
+        "pl": "kapusta",
+        "id": "kubis",
+        "hi": "पत्ता गोभी",
+        "zh": "卷心菜",
+        "it": "cavolo",
+        "tr": "lahana",
+        "sr": "купус",
+        "fi": "kaali",
+        "et": "kapsas",
+        "be": "капуста",
+        "lv": "kāposts",
+        "lt": "kopūstas"
+      },
+      "examples": [
+        {
+          "text": "Jag kokade kål med potatis och morötter"
+        },
+        {
+          "text": "Den här kålen är väldigt färsk och krispig"
+        },
+        {
+          "text": "Den här kålen är väldigt färsk och krispig"
+        },
+        {
+          "text": "Barnen gillar inte att äta kokt kål"
+        },
+        {
+          "text": "Hon gjorde en coleslaw med vitkål och morötter"
+        },
+        {
+          "text": "Jag föredrar surkål framför färsk kål"
+        },
+        {
+          "text": "Han köpte en påse grönkål till sin smoothie"
+        },
+        {
+          "text": "Hon lade lite riven kål i wokpannan"
+        },
+        {
+          "text": "På vintern lagar jag ofta kålsoppa"
+        },
+        {
+          "text": "Jag åt en kålpudding med potatis och lingonsylt"
+        },
+        {
+          "text": "Kål och morötter passar bra ihop i sallader."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5c8f559d-63ea-418b-8d09-b2919553265d",
+      "version": -1,
+      "word": "en selleri",
+      "forms": [
+        {
+          "form": "selleri"
+        }
+      ],
+      "translations": {
+        "ru": "сельдерей",
+        "en": "celery",
+        "uk": "селера",
+        "ar": "كرفس",
+        "fa": "کرفس",
+        "so": "karooto",
+        "es": "apio",
+        "de": "Sellerie",
+        "fr": "céleri",
+        "pl": "seler",
+        "id": "seledri",
+        "hi": "अजवाइन",
+        "zh": "芹菜",
+        "it": "sedano",
+        "tr": "kereviz",
+        "sr": "целер",
+        "fi": "selleri",
+        "et": "seller",
+        "be": "сельдэрэй",
+        "lv": "selerija",
+        "lt": "salieras"
+      },
+      "examples": [
+        {
+          "text": "Det går åt mer kalorier av att äta selleri än vad du får av att äte det"
+        },
+        {
+          "text": "Jag skar selleri i tunna skivor och lade den i salladen"
+        },
+        {
+          "text": "Den här sellerin är väldigt färsk och krispig"
+        },
+        {
+          "text": "Den här sellerin är väldigt färsk och krispig"
+        },
+        {
+          "text": "Barnen tycker inte om smaken av rå selleri"
+        },
+        {
+          "text": "Hon gjorde en grön smoothie med selleri och äpple"
+        },
+        {
+          "text": "Jag föredrar att använda stjälkselleri i sallader"
+        },
+        {
+          "text": "Han köpte en rotselleri för att laga soppa"
+        },
+        {
+          "text": "Hon lade några selleristjälkar i grytan"
+        },
+        {
+          "text": "På vintern lagar jag ofta soppor med selleri"
+        },
+        {
+          "text": "Jag åt en grönsakswok med selleri och broccoli"
+        },
+        {
+          "text": "Selleri och citronsaft passar bra ihop i juicer."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "76ef1177-69a0-4bdd-a3a4-534e22bdefd9",
+      "version": -1,
+      "word": "ett blomkål",
+      "forms": [
+        {
+          "form": "blomkålet"
+        },
+        {
+          "form": "blomkål"
+        },
+        {
+          "form": "blomkålen"
+        }
+      ],
+      "translations": {
+        "ru": "цветная капуста",
+        "en": "cauliflower",
+        "uk": "цвітна капуста",
+        "ar": "قرنبيط",
+        "fa": "گل کلم",
+        "so": "kalluun",
+        "es": "coliflor",
+        "de": "Blumenkohl",
+        "fr": "chou-fleur",
+        "pl": "kalafior",
+        "id": "kembang kol",
+        "hi": "फूलगोभी",
+        "zh": "花椰菜",
+        "it": "cavolfiore",
+        "tr": "karnabahar",
+        "sr": "карфиол",
+        "fi": "kukkakaali",
+        "et": "lillkapsas",
+        "be": "каляфіёр",
+        "lv": "ziedkāposti",
+        "lt": "žiediniai kopūstai"
+      },
+      "examples": [
+        {
+          "text": "Vi äter blomkål doppade i ranch dressing"
+        },
+        {
+          "text": "Jag rostade blomkål i ugnen med olivolja och vitlök"
+        },
+        {
+          "text": "Den här blomkålen är väldigt fräsch och krispig"
+        },
+        {
+          "text": "Barnen tycker inte om smaken av rå blomkål"
+        },
+        {
+          "text": "Hon gjorde blomkålspuré istället för potatismos"
+        },
+        {
+          "text": "blomkål"
+        },
+        {
+          "text": "Jag föredrar ekologisk blomkål eftersom den smakar bättre"
+        },
+        {
+          "text": "Han köpte en stor blomkål för att göra gratäng"
+        },
+        {
+          "text": "Hon lade några blomkålsbuketter i curryn"
+        },
+        {
+          "text": "På vintern lagar jag ofta blomkålssoppa"
+        },
+        {
+          "text": "Jag åt en wok med blomkål och tofu"
+        },
+        {
+          "text": "Blomkål och parmesanost är en fantastisk kombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "47a891cb-b487-4818-a195-a3a4220fea8d",
+      "version": -1,
+      "word": "en aubergine",
+      "forms": [
+        {
+          "form": "aubergine"
+        }
+      ],
+      "translations": {
+        "ru": "баклажан",
+        "en": "eggplant",
+        "uk": "баклажан",
+        "ar": "باذنجان",
+        "fa": "بادمجان",
+        "so": "baqlashaan",
+        "es": "berenjena",
+        "de": "Aubergine",
+        "fr": "aubergine",
+        "pl": "bakłażan",
+        "id": "terong",
+        "hi": "बैंगन",
+        "zh": "茄子",
+        "it": "melanzana",
+        "tr": "patlıcan",
+        "sr": "плави патлиџан",
+        "fi": "munakoiso",
+        "et": "baklažaan",
+        "be": "баклажан",
+        "lv": "baklažāns",
+        "lt": "baklažanas"
+      },
+      "examples": [
+        {
+          "text": "Auberginen finns i olika färger, så som lila, vit och grön"
+        },
+        {
+          "text": "Jag grillade aubergine och serverade den med yoghurtsås"
+        },
+        {
+          "text": "Den här auberginen är väldigt mjuk och smakrik"
+        },
+        {
+          "text": "Barnen gillar inte att äta aubergine"
+        },
+        {
+          "text": "Hon gjorde en vegetarisk lasagne med aubergine istället för pasta"
+        },
+        {
+          "text": "Jag föredrar ugnsbakad aubergine framför stekt"
+        },
+        {
+          "text": "Han köpte en ekologisk aubergine på marknaden"
+        },
+        {
+          "text": "Hon lade några skivor aubergine i grytan"
+        },
+        {
+          "text": "På sommaren lagar jag ofta ratatouille med aubergine och zucchini"
+        },
+        {
+          "text": "Jag åt en moussaka med aubergine och lammfärs"
+        },
+        {
+          "text": "Aubergine och fetaost är en fantastisk kombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1b89bb0a-9826-4d14-adfc-40ac000ea966",
+      "version": -1,
+      "word": "ett spenat",
+      "translations": {
+        "ru": "Шпинат",
+        "en": "spinach",
+        "uk": "шпинат",
+        "ar": "سبانخ",
+        "fa": "اسفناج",
+        "so": "spinach",
+        "es": "espinaca",
+        "de": "Spinat",
+        "fr": "épinards",
+        "pl": "szpinak",
+        "id": "bayam",
+        "hi": "पालक",
+        "zh": "菠菜",
+        "it": "spinaci",
+        "tr": "ıspanak",
+        "sr": "спанаћ",
+        "fi": "pinaatti",
+        "et": "spinat",
+        "be": "шпінат",
+        "lv": "spināti",
+        "lt": "špinatai"
+      },
+      "examples": [
+        {
+          "text": "Spenat är en järn och kalciumrik källa"
+        },
+        {
+          "text": "Jag stekte spenat med vitlök och olivolja"
+        },
+        {
+          "text": "Den här spenaten är väldigt färsk och grön"
+        },
+        {
+          "text": "Barnen tycker inte om smaken av kokt spenat"
+        },
+        {
+          "text": "Hon gjorde en smoothie med spenat, banan och äpple"
+        },
+        {
+          "text": "Jag föredrar babyspenat i sallader"
+        },
+        {
+          "text": "Jag föredrar babyspenat i sallader"
+        },
+        {
+          "text": "Hon lade några spenatblad på smörgåsen"
+        },
+        {
+          "text": "Hon lade några spenatblad på smörgåsen"
+        },
+        {
+          "text": "Jag åt en quiche med spenat och ost"
+        },
+        {
+          "text": "Spenat och citron är en fantastisk kombination i matlagning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "11b7b495-1939-4364-adaf-4f3bc21099a3",
+      "version": -1,
+      "word": "en grönsak",
+      "forms": [
+        {
+          "form": "grönsaker"
+        }
+      ],
+      "translations": {
+        "ru": "Овощ",
+        "en": "vegetable",
+        "uk": "овоч",
+        "ar": "خضار",
+        "fa": "سبزی",
+        "so": "khudaar",
+        "es": "verdura",
+        "de": "Gemüse",
+        "fr": "légume",
+        "pl": "warzywo",
+        "id": "sayur",
+        "hi": "सब्जी",
+        "zh": "蔬菜",
+        "it": "verdura",
+        "tr": "sebze",
+        "sr": "поврће",
+        "fi": "vihannes",
+        "et": "köögivili",
+        "be": "гародніна",
+        "lv": "dārzenis",
+        "lt": "daržovė"
+      },
+      "examples": [
+        {
+          "text": "Grönsakerna har  sjudat i fem minuter"
+        },
+        {
+          "text": "Jag skar grönsakerna i bitar och stekte dem i olivolja"
+        },
+        {
+          "text": "De här grönsakerna är väldigt färska och smakrika"
+        },
+        {
+          "text": "Barnen tycker om att äta grönsaksstavar med dipp"
+        },
+        {
+          "text": "Hon gjorde en soppa med grönsaker och kyckling"
+        },
+        {
+          "text": "Jag föredrar att äta råa grönsaker i sallader"
+        },
+        {
+          "text": "Han köpte en påse frysta grönsaker för att laga wok"
+        },
+        {
+          "text": "Hon lade några färska grönsaker på smörgåsen"
+        },
+        {
+          "text": "På vintern är det svårare att hitta färska grönsaker"
+        },
+        {
+          "text": "Jag åt en grönsakssoppa med vitlök och persilja"
+        },
+        {
+          "text": "Grönsaker är en viktig del av en hälsosam kost."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7ae33323-3775-40f7-9d5f-2bf243d03e5c",
+      "version": 1,
+      "word": "ett vete",
+      "forms": [
+        {
+          "form": "vetet"
+        }
+      ],
+      "translations": {
+        "ru": "пшеница",
+        "en": "wheat",
+        "uk": "пшениця",
+        "ar": "قمح",
+        "fa": "گندم",
+        "so": "sarreen",
+        "es": "trigo",
+        "de": "Weizen",
+        "fr": "blé",
+        "pl": "pszenica",
+        "id": "gandum",
+        "hi": "गेहूं",
+        "zh": "小麦",
+        "it": "grano",
+        "tr": "buğday",
+        "sr": "пшеница",
+        "fi": "vehnä",
+        "et": "nisu",
+        "be": "пшаніца",
+        "lv": "kvieši",
+        "lt": "kviečiai"
+      },
+      "examples": [
+        {
+          "text": "Ett vete av hög kvalitet ger bättre mjöl"
+        },
+        {
+          "text": "De odlar ett vete som tål kyla"
+        },
+        {
+          "text": "Vetet används för att göra bröd och pasta"
+        },
+        {
+          "text": "Hur skördas vetet på bästa sätt?"
+        },
+        {
+          "text": "Vetet från denna region har hög kvalitet"
+        },
+        {
+          "text": "De odlar ekologiskt vete på gården"
+        },
+        {
+          "text": "Hur kan man förbättra vetets hållbarhet?"
+        },
+        {
+          "text": "Vetet förvaras i stora silos efter skörden"
+        },
+        {
+          "text": "Vetemjöl framställs genom att mala vetet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f7a98f8d-28c0-4152-9129-2576864bd745",
+      "version": 1,
+      "word": "ett ris",
+      "forms": [
+        {
+          "form": "riset"
+        },
+        {
+          "form": "ris"
+        },
+        {
+          "form": "risen"
+        }
+      ],
+      "translations": {
+        "ru": "рис",
+        "en": "rice",
+        "uk": "рис",
+        "ar": "أرز",
+        "fa": "برنج",
+        "so": "bariis",
+        "es": "arroz",
+        "de": "Reis",
+        "fr": "riz",
+        "pl": "ryż",
+        "id": "nasi",
+        "hi": "चावल",
+        "zh": "米饭",
+        "it": "riso",
+        "tr": "pirinç",
+        "sr": "пиринач",
+        "fi": "riisi",
+        "et": "riis",
+        "be": "рыс",
+        "lv": "rīsi",
+        "lt": "ryžiai"
+      },
+      "examples": [
+        {
+          "text": "Ris är en viktig källa kolhydrater i många dieter"
+        },
+        {
+          "text": "Jag äter ris med kyckling till middag"
+        },
+        {
+          "text": "Vi har köpt ett paket ris från butiken"
+        },
+        {
+          "text": "Riset kokades i tio minuter tills det blev klart"
+        },
+        {
+          "text": "Äter du helst potatis eller ris?"
+        },
+        {
+          "text": "Jag gillar att laga stekt ris med grönsaker"
+        },
+        {
+          "text": "Kan du ge mig en skål med kokt ris, tack?"
+        },
+        {
+          "text": "Barnen kastade ris på brudparet efter ceremonin"
+        },
+        {
+          "text": "Det är viktigt att skölja riset innan du kokar det"
+        },
+        {
+          "text": "Basmatiris är en av de mest populära sorterna av ris"
+        },
+        {
+          "text": "Hon beställde sushi med rå fisk och ris."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d892ab28-0145-49ef-a894-ea5806e45b90",
+      "version": -1,
+      "word": "en majs",
+      "forms": [
+        {
+          "form": "majsen"
+        }
+      ],
+      "translations": {
+        "ru": "кукуруза",
+        "en": "corn",
+        "uk": "кукурудза",
+        "ar": "ذرة",
+        "fa": "ذرت",
+        "so": "galley",
+        "es": "maíz",
+        "de": "Mais",
+        "fr": "maïs",
+        "pl": "kukurydza",
+        "id": "jagung",
+        "hi": "मकई",
+        "zh": "玉米",
+        "it": "mais",
+        "tr": "mısır",
+        "sr": "кукуруз",
+        "fi": "maissi",
+        "et": "mais",
+        "be": "кукуруза",
+        "lv": "kukurūza",
+        "lt": "kukurūzai"
+      },
+      "examples": [
+        {
+          "text": "Jag älskar att äta grillad majs"
+        },
+        {
+          "text": "Jag köpte en burk med konserverad majs"
+        },
+        {
+          "text": "Majs används ofta i sallader och tacos"
+        },
+        {
+          "text": "Popcorn görs av torkad majs"
+        },
+        {
+          "text": "Han odlar majs på sin gård"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "077cbb6a-79f3-4f44-a5f6-7e4ca752b373",
+      "version": -1,
+      "word": "ett snabbmat",
+      "translations": {
+        "ru": "фаст-фуд",
+        "en": "fast food",
+        "uk": "фаст-фуд",
+        "ar": "الوجبات السريعة",
+        "fa": "فست فود",
+        "so": "cunto degdeg ah",
+        "es": "comida rápida",
+        "de": "Fast Food",
+        "fr": "restauration rapide",
+        "pl": "fast food",
+        "id": "makanan cepat saji",
+        "hi": "फास्ट फूड",
+        "zh": "快餐",
+        "it": "fast food",
+        "tr": "fast food",
+        "sr": "брза храна",
+        "fi": "pikaruoka",
+        "et": "kiirtoit",
+        "be": "фаст-фуд",
+        "lv": "ātrā ēdināšana",
+        "lt": "greitas maistas"
+      },
+      "examples": [
+        {
+          "text": "Burgare och pommes frites anses vara snabbmat"
+        },
+        {
+          "text": "Jag åt snabbmat till lunch eftersom jag inte hade tid att laga mat"
+        },
+        {
+          "text": "Den här snabbmaten var väldigt fet och salt"
+        },
+        {
+          "text": "Den här snabbmaten var väldigt fet och salt"
+        },
+        {
+          "text": "Hon försöker minska sitt intag av snabbmat"
+        },
+        {
+          "text": "Jag föredrar sushi framför annan snabbmat"
+        },
+        {
+          "text": "Han köpte snabbmat på väg hem från jobbet"
+        },
+        {
+          "text": "Snabbmat är billigt men kan vara ohälsosamt"
+        },
+        {
+          "text": "De öppnade en ny snabbmatsrestaurang i stan"
+        },
+        {
+          "text": "Jag åt snabbmat i helgen, men nu vill jag äta nyttigare"
+        },
+        {
+          "text": "Snabbmat kan vara ett bra alternativ när man har bråttom."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6c2ee120-b8a8-492f-94a5-618eaf7caf78",
+      "version": -1,
+      "word": "en hamburgare",
+      "forms": [
+        {
+          "form": "hamburgare"
+        }
+      ],
+      "translations": {
+        "ru": "гамбургер",
+        "en": "hamburger",
+        "uk": "гамбургер",
+        "ar": "هامبرغر",
+        "fa": "همبرگر",
+        "so": "hamburger",
+        "es": "hamburguesa",
+        "de": "Hamburger",
+        "fr": "hamburger",
+        "pl": "hamburger",
+        "id": "hamburger",
+        "hi": "हैमबर्गर",
+        "zh": "汉堡包",
+        "it": "hamburger",
+        "tr": "hamburger",
+        "sr": "хамбургер",
+        "fi": "hampurilainen",
+        "et": "hamburger",
+        "be": "гамбургер",
+        "lv": "hamburgers",
+        "lt": "mėsainis"
+      },
+      "examples": [
+        {
+          "text": "Hamburgare uppfanns i Amerika"
+        },
+        {
+          "text": "Jag gjorde en hamburgare med sallad, tomat och lök"
+        },
+        {
+          "text": "Den här hamburgaren är för stor för att äta med händerna"
+        },
+        {
+          "text": "Barnen älskar hamburgare med ketchup och ost"
+        },
+        {
+          "text": "Hon beställde en vegetarisk hamburgare på restaurangen"
+        },
+        {
+          "text": "Jag föredrar att göra hamburgare hemma istället för att köpa snabbmat"
+        },
+        {
+          "text": "Han åt en cheeseburgare och en stor portion pommes frites"
+        },
+        {
+          "text": "Hamburgare med grillad lök är otroligt gott"
+        },
+        {
+          "text": "På sommaren grillar vi ofta hamburgare utomhus"
+        },
+        {
+          "text": "Jag vill prova en kycklingburgare nästa gång"
+        },
+        {
+          "text": "Hamburgare och milkshake är en klassisk kombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "27e77ccb-f3c6-449c-8228-471bc3f35f45",
+      "version": -1,
+      "word": "en cheeseburgare",
+      "forms": [
+        {
+          "form": "cheeseburgare"
+        }
+      ],
+      "translations": {
+        "ru": "чизбургер",
+        "en": "cheeseburger",
+        "uk": "чізбургер",
+        "ar": "تشيز برجر",
+        "fa": "چیزبرگر",
+        "so": "cheeseburger",
+        "es": "cheeseburger",
+        "de": "Cheeseburger",
+        "fr": "cheeseburger",
+        "pl": "cheeseburger",
+        "id": "cheeseburger",
+        "hi": "चीज़बर्गर",
+        "zh": "芝士汉堡",
+        "it": "cheeseburger",
+        "tr": "cheeseburger",
+        "sr": "чизбургер",
+        "fi": "juustohampurilainen",
+        "et": "juustuburger",
+        "be": "чызбургер",
+        "lv": "siera burgers",
+        "lt": "sūrio mėsainis"
+      },
+      "examples": [
+        {
+          "text": "en cheeseburgare är en hamburgare med en skiva ost"
+        },
+        {
+          "text": "Jag gjorde en hemmagjord cheeseburgare med extra ost"
+        },
+        {
+          "text": "Den här cheeseburgaren har en perfekt smält ost"
+        },
+        {
+          "text": "Barnen älskar cheeseburgare med ketchup och gurka"
+        },
+        {
+          "text": "Hon beställde en vegetarisk cheeseburgare på restaurangen"
+        },
+        {
+          "text": "Jag föredrar att göra cheeseburgare hemma istället för att köpa snabbmat"
+        },
+        {
+          "text": "Han åt en dubbel cheeseburgare och en stor portion pommes frites"
+        },
+        {
+          "text": "Cheeseburgare med grillad lök är otroligt gott"
+        },
+        {
+          "text": "På sommaren grillar vi ofta cheeseburgare utomhus"
+        },
+        {
+          "text": "Jag vill prova en bacon cheeseburgare nästa gång"
+        },
+        {
+          "text": "Cheeseburgare och milkshake är en klassisk kombination."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b98b48eb-4752-436e-a004-571a3ecdc2af",
+      "version": -1,
+      "word": "en pizza",
+      "forms": [
+        {
+          "form": "pizzan"
+        },
+        {
+          "form": "pizzor"
+        },
+        {
+          "form": "pizzorna"
+        }
+      ],
+      "translations": {
+        "ru": "пицца",
+        "en": "pizza",
+        "uk": "піца",
+        "ar": "بيتزا",
+        "fa": "پیتزا",
+        "so": "bizza",
+        "es": "pizza",
+        "de": "Pizza",
+        "fr": "pizza",
+        "pl": "pizza",
+        "id": "pizza",
+        "hi": "पिज़्ज़ा",
+        "zh": "披萨",
+        "it": "pizza",
+        "tr": "pizza",
+        "sr": "пицa",
+        "fi": "pizza",
+        "et": "pitsa",
+        "be": "піца",
+        "lv": "pica",
+        "lt": "pica"
+      },
+      "examples": [
+        {
+          "text": "Pizza är en italiensk rätt men den är populär i hela världen"
+        },
+        {
+          "text": "Jag vill beställa en pizza med ost och skinka"
+        },
+        {
+          "text": "Vi ska äta pizza till middag ikväll"
+        },
+        {
+          "text": "Kan jag få en stor pizza med pepperoni? Min favoritpizza är Margarita"
+        },
+        {
+          "text": "Pizzorna på det här stället är fantastiska."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6f69bfde-bc89-4f22-94c7-c9865125c5b4",
+      "version": -1,
+      "word": "en varmkorv",
+      "forms": [
+        {
+          "form": "varmkorvar"
+        }
+      ],
+      "translations": {
+        "ru": "хотдог",
+        "en": "hot dog",
+        "uk": "хот-дог",
+        "ar": "هوت دوج",
+        "fa": "هات داگ",
+        "so": "hot dog",
+        "es": "perrito caliente",
+        "de": "Hotdog",
+        "fr": "hot-dog",
+        "pl": "hot dog",
+        "id": "hot dog",
+        "hi": "हॉट डॉग",
+        "zh": "热狗",
+        "it": "hot dog",
+        "tr": "sosisli sandviç",
+        "sr": "хот-дог",
+        "fi": "hot dog",
+        "et": "hot dog",
+        "be": "хот-дог",
+        "lv": "hotdogs",
+        "lt": "dešrainis"
+      },
+      "examples": [
+        {
+          "text": "Jag föredrar varmkorv på en grillfest"
+        },
+        {
+          "text": "Jag beställde en varmkorv med bröd och en läsk"
+        },
+        {
+          "text": "Den här varmkorven är riktigt god och kryddig"
+        },
+        {
+          "text": "Barnen tycker om att äta varmkorv med senap"
+        },
+        {
+          "text": "Hon värmde upp några varmkorvar i mikron"
+        },
+        {
+          "text": "Jag föredrar grillad varmkorv framför kokt"
+        },
+        {
+          "text": "Vi åt varmkorv med potatismos och lingonsylt"
+        },
+        {
+          "text": "Han lade på extra lök på sin varmkorv"
+        },
+        {
+          "text": "På idrottstävlingen sålde de varmkorv och hamburgare"
+        },
+        {
+          "text": "Jag gillar att grilla varmkorv över öppen eld"
+        },
+        {
+          "text": "Varmkorv är ett klassiskt mellanmål i Sverige."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "986c3dda-77cd-4d04-8f4b-cea2495d607b",
+      "version": -1,
+      "word": "en måltid",
+      "forms": [
+        {
+          "form": "måltider"
+        }
+      ],
+      "translations": {
+        "ru": "прием пищи",
+        "en": "meal",
+        "uk": "прийом їжі",
+        "ar": "وجبة",
+        "fa": "وعده غذایی",
+        "so": "cunno",
+        "es": "comida",
+        "de": "Mahlzeit",
+        "fr": "repas",
+        "pl": "posiłek",
+        "id": "makan",
+        "hi": "भोजन",
+        "zh": "餐",
+        "it": "pasto",
+        "tr": "yemek",
+        "sr": "оброк",
+        "fi": "ateria",
+        "et": "toidukord",
+        "be": "прыём ежы",
+        "lv": "ēdiens",
+        "lt": "maistas"
+      },
+      "examples": [
+        {
+          "text": "Vi hade en trevlig måltid tillsammans"
+        },
+        {
+          "text": "Frukosten är dagens viktigaste måltid"
+        },
+        {
+          "text": "Middagen var en utsökt måltid med flera rätter"
+        },
+        {
+          "text": "Vi försöker äta hälsosamma måltider varje dag"
+        },
+        {
+          "text": "Har du planerat någon måltid för imorgon? Restaurangen serverar måltider till rimliga priser"
+        },
+        {
+          "text": "Dagens måltid är köttbullar med potatismos."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6c2e6e27-3566-4e8c-8ac3-5439d16c39e2",
+      "version": -1,
+      "word": "Till efterrätt",
+      "translations": {
+        "ru": "на десерт",
+        "en": "for dessert",
+        "uk": "на десерт",
+        "ar": "للحلوى",
+        "fa": "برای دسر",
+        "so": "macmacaan",
+        "es": "de postre",
+        "de": "zum Nachtisch",
+        "fr": "pour le dessert",
+        "pl": "na deser",
+        "id": "untuk pencuci mulut",
+        "hi": "मिठाई के लिए",
+        "zh": "甜点",
+        "it": "per dessert",
+        "tr": "tatlı için",
+        "sr": "за десерт",
+        "fi": "jälkiruoaksi",
+        "et": "magustoiduks",
+        "be": "на дэсерт",
+        "lv": "desertam",
+        "lt": "desertui"
+      },
+      "examples": [
+        {
+          "text": "Till efterrätt äter man färska jordgubbar med grädde"
+        },
+        {
+          "text": "Till efterrätt fanns det både glass och pannkakor"
+        },
+        {
+          "text": "Barnen åt chokladpudding till efterrätt"
+        },
+        {
+          "text": "Efter en stor middag tog vi bara frukt till efterrätt"
+        },
+        {
+          "text": "Han bakade kladdkaka till efterrätt"
+        },
+        {
+          "text": "Till efterrätt fanns det både glass och pannkakor"
+        },
+        {
+          "text": "Jag föredrar något lätt till efterrätt, som frukt eller yoghurt"
+        },
+        {
+          "text": "Hon åt en semla till efterrätt under fettisdagen"
+        },
+        {
+          "text": "Vi hade en fantastisk middag med jordgubbar och grädde till efterrätt"
+        },
+        {
+          "text": "Till efterrätt gjorde vi en bärsmoothie"
+        },
+        {
+          "text": "Chokladtårta till efterrätt är alltid en bra idé!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "222e0741-e26b-4df2-ab05-6b13fba5aa17",
+      "version": -1,
+      "word": "en alkohol",
+      "forms": [
+        {
+          "form": "alkoholer"
+        }
+      ],
+      "translations": {
+        "ru": "алкоголь",
+        "en": "alcohol",
+        "uk": "алкоголь",
+        "ar": "كحول",
+        "fa": "الکل",
+        "so": "khamri",
+        "es": "alcohol",
+        "de": "Alkohol",
+        "fr": "alcool",
+        "pl": "alkohol",
+        "id": "alkohol",
+        "hi": "शराब",
+        "zh": "酒精",
+        "it": "alcol",
+        "tr": "alkol",
+        "sr": "алкохол",
+        "fi": "alkoholi",
+        "et": "alkohol",
+        "be": "алкаголь",
+        "lv": "alkohols",
+        "lt": "alkoholis"
+      },
+      "examples": [
+        {
+          "text": "De här drickorna innehåller alkohol"
+        },
+        {
+          "text": "Metanol och etanol är två vanliga typer av alkoholer"
+        },
+        {
+          "text": "Det är förbjudet att sälja alkohol till minderåriga"
+        },
+        {
+          "text": "Systembolaget säljer alkoholhaltiga drycker i Sverige"
+        },
+        {
+          "text": "Ölets alkoholhalt är 5 procent"
+        },
+        {
+          "text": "Hur hög är alkoholhalten i det här vinet? Det är viktigt att vara försiktig med alkohol"
+        },
+        {
+          "text": "De serverade både alkoholhaltiga och alkoholfria drycker på festen"
+        },
+        {
+          "text": "Många väljer att minska sitt alkoholintag för hälsans skull"
+        },
+        {
+          "text": "Alkoholmissbruk kan ha allvarliga konsekvenser för både individen och samhället."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a73ee769-522d-4692-a56c-4d7aac564b92",
+      "version": -1,
+      "word": "ett sprit",
+      "translations": {
+        "ru": "крепкий алкоголь",
+        "en": "strong alcohol",
+        "uk": "міцний алкоголь",
+        "ar": "كحول قوي",
+        "fa": "الکل قوی",
+        "so": "alkohol xoog leh",
+        "es": "alcohol fuerte",
+        "de": "starker Alkohol",
+        "fr": "alcool fort",
+        "pl": "mocny alkohol",
+        "id": "alkohol kuat",
+        "hi": "मजबूत शराब",
+        "zh": "烈性酒",
+        "it": "alcol forte",
+        "tr": "güçlü alkol",
+        "sr": "јак алкохол",
+        "fi": "vahva alkoholi",
+        "et": "tugev alkohol",
+        "be": "моцны алкаголь",
+        "lv": "stiprs alkohols",
+        "lt": "stiprus alkoholis"
+      },
+      "examples": [
+        {
+          "text": "Jag dricker inte sprit, bara vin"
+        },
+        {
+          "text": "Han tog en liten mängd sprit i sin drink"
+        },
+        {
+          "text": "Sprit är en av de starkaste alkoholhaltiga dryckerna"
+        },
+        {
+          "text": "I Sverige kan man bara köpa sprit på Systembolaget"
+        },
+        {
+          "text": "I Sverige kan man bara köpa sprit på Systembolaget"
+        },
+        {
+          "text": "Jag vill prova en ny sorts sprit från Skottland"
+        },
+        {
+          "text": "Hon blandade sprit med juice och is"
+        },
+        {
+          "text": "Vissa använder sprit för att rengöra ytor"
+        },
+        {
+          "text": "Han köpte en flaska fin sprit som present"
+        },
+        {
+          "text": "Efter några glas sprit blev han väldigt pratglad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "437ef1c7-9c88-4b13-a315-95ecfe574b08",
+      "version": -1,
+      "word": "ett brännvin",
+      "translations": {
+        "ru": "шведская водка на картофеле. самогон",
+        "en": "Swedish potato vodka, moonshine",
+        "uk": "шведська картопляна горілка, самогон",
+        "ar": "فودكا بطاطس سويدية، مونشاين",
+        "fa": "ودکای سیب‌زمینی سوئدی، مشروب دست‌ساز",
+        "so": "vodka baradho Iswiidhish ah, moonshine",
+        "es": "vodka sueca de patata, aguardiente",
+        "de": "schwedischer Kartoffelwodka, Schwarzgebrannter",
+        "fr": "vodka suédoise de pomme de terre, moonshine",
+        "pl": "szwedzka wódka ziemniaczana, bimber",
+        "id": "vodka kentang Swedia, minuman keras",
+        "hi": "स्वीडिश आलू वोडका, चाँदनी",
+        "zh": "瑞典土豆伏特加，自酿酒",
+        "it": "vodka svedese di patate, distillato illegale",
+        "tr": "İsveç patates votkası, kaçak içki",
+        "sr": "шведска вотка од кромпира, ракија",
+        "fi": "ruotsalainen perunavodka, pontikka",
+        "et": "rootsi kartuliviin, puskar",
+        "be": "шведская бульбяная гарэлка, самагон",
+        "lv": "zviedru kartupeļu degvīns, kandža",
+        "lt": "švediška bulvių degtinė, naminė degtinė"
+      },
+      "examples": [
+        {
+          "text": "Många vuxna dricker brännvin, som är sprit"
+        },
+        {
+          "text": "Han drack en snaps med brännvin på julbordet"
+        },
+        {
+          "text": "Brännvin och sill är en klassisk svensk kombination"
+        },
+        {
+          "text": "Vi köpte kryddat brännvin till midsommarfirandet"
+        },
+        {
+          "text": "Det är svårt att hitta svenskt brännvin utanför Sverige"
+        },
+        {
+          "text": "Han föredrar akvavit framför vanligt brännvin"
+        },
+        {
+          "text": "På 1800-talet tillverkades mycket brännvin i Sverige"
+        },
+        {
+          "text": "Hon smakade på brännvin för första gången och tyckte att det var starkt"
+        },
+        {
+          "text": "Vissa använder brännvin för att göra egna snapsar"
+        },
+        {
+          "text": "Brännvin bör serveras väl kylt"
+        },
+        {
+          "text": "Han tog en liten skål med brännvin och skålade med sina vänner."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d61a11c5-ae58-4348-8fcd-4fead03f8acb",
+      "version": 1,
+      "word": "en isbit",
+      "forms": [
+        {
+          "form": "isbitar"
+        }
+      ],
+      "translations": {
+        "ru": "кубик льда",
+        "en": "ice cube",
+        "uk": "кубик льоду",
+        "ar": "مكعب ثلج",
+        "fa": "مکعب یخ",
+        "so": "kubad baraf ah",
+        "es": "cubito de hielo",
+        "de": "Eiswürfel",
+        "fr": "glaçon",
+        "pl": "kostka lodu",
+        "id": "es batu",
+        "hi": "बर्फ का टुकड़ा",
+        "zh": "冰块",
+        "it": "cubetto di ghiaccio",
+        "tr": "buz küpü",
+        "sr": "коцка леда",
+        "fi": "jääkuutio",
+        "et": "jääkuubik",
+        "be": "кубік лёду",
+        "lv": "ledus gabaliņš",
+        "lt": "ledo kubelis"
+      },
+      "examples": [
+        {
+          "text": "Kan du lägga några isbitar i mitt glas?"
+        },
+        {
+          "text": "Vi behöver fler isbitar till festen"
+        },
+        {
+          "text": "Han stoppade några isbitar i whiskyn"
+        },
+        {
+          "text": "De frös in nya isbitar i frysen"
+        },
+        {
+          "text": "Jag gillar inte när isbitarna smälter för fort"
+        },
+        {
+          "text": "Isbitar gör att drycken håller sig kall längre"
+        },
+        {
+          "text": "Vi har en form för att göra isbitar hemma"
+        },
+        {
+          "text": "De dekorerade bordet med glas fyllda med isbitar"
+        },
+        {
+          "text": "Han bet sönder en isbit med tänderna"
+        },
+        {
+          "text": "På sommaren använder vi isbitar varje dag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "650baee9-e38b-4cbf-a7e4-71295cc3e13a",
+      "version": 1,
+      "word": "en chilipeppar",
+      "forms": [
+        {
+          "form": "chilipeppar"
+        }
+      ],
+      "translations": {
+        "ru": "перец чили",
+        "en": "chili pepper",
+        "uk": "чилі перець",
+        "ar": "فلفل حار",
+        "fa": "فلفل چیلی",
+        "so": "basbaas",
+        "es": "chile",
+        "de": "Chilischote",
+        "fr": "piment chili",
+        "pl": "papryka chili",
+        "id": "cabai",
+        "hi": "मिर्ची",
+        "zh": "辣椒",
+        "it": "peperoncino",
+        "tr": "acı biber",
+        "sr": "љута паприка",
+        "fi": "chilipippuri",
+        "et": "tšillipipar",
+        "be": "чылі перац",
+        "lv": "čili pipars",
+        "lt": "čili pipiras"
+      },
+      "examples": [
+        {
+          "text": "Jag gillar att använda chilipeppar i mina rätter"
+        },
+        {
+          "text": "Lägg till lite chilipeppar för mer smak"
+        },
+        {
+          "text": "Jag använder torkad chilipeppar i soppor och grytor"
+        },
+        {
+          "text": "Den här chilipepparn är väldigt stark!"
+        },
+        {
+          "text": "Jag kan inte äta för mycket chilipeppar, det blir för starkt för mig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2dafac9c-fd1f-4136-a39d-6e0be885dddd",
+      "version": -1,
+      "word": "en paprika",
+      "forms": [
+        {
+          "form": "paprikor"
+        }
+      ],
+      "translations": {
+        "ru": "болгарский перец",
+        "en": "bell pepper",
+        "uk": "болгарський перець",
+        "ar": "فلفل رومي",
+        "fa": "فلفل دلمه‌ای",
+        "so": "basbaas buluug",
+        "es": "pimiento",
+        "de": "Paprika",
+        "fr": "poivron",
+        "pl": "papryka",
+        "id": "paprika",
+        "hi": "शिमला मिर्च",
+        "zh": "甜椒",
+        "it": "peperone",
+        "tr": "dolmalık biber",
+        "sr": "паприка",
+        "fi": "paprika",
+        "et": "paprika",
+        "be": "балгарскі перац",
+        "lv": "paprika",
+        "lt": "paprika"
+      },
+      "examples": [
+        {
+          "text": "Jag skar upp en paprika för att lägga i salladen"
+        },
+        {
+          "text": "Paprikan var röd och väldigt söt"
+        },
+        {
+          "text": "Vi köpte tre olika paprikor – röda, gula och gröna"
+        },
+        {
+          "text": "Kan du ge mig paprikan från kylen? De fyllde paprikorna med köttfärs och bakade dem i ugnen"
+        },
+        {
+          "text": "Hon föredrar att äta rå paprika som snacks"
+        },
+        {
+          "text": "Paprikan passar perfekt i både sallader och varma rätter"
+        },
+        {
+          "text": "På marknaden såldes färska paprikor i olika färger"
+        },
+        {
+          "text": "Jag kryddade soppan med lite torkad paprika"
+        },
+        {
+          "text": "Barnen gillar inte smaken av grön paprika, men äter gärna röd."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1bcfdb2d-80d8-4394-bfd9-68eb9022b0f9",
+      "version": -1,
+      "word": "en svamp",
+      "forms": [
+        {
+          "form": "svampar"
+        }
+      ],
+      "translations": {
+        "ru": "гриб грибок губка",
+        "en": "mushroom, fungus, sponge",
+        "uk": "гриб, грибок, губка",
+        "ar": "فطر، فطريات، إسفنج",
+        "fa": "قارچ، قارچ، اسفنج",
+        "so": "boqosha, fangas, isbuunyo",
+        "es": "hongo, hongo, esponja",
+        "de": "Pilz, Pilz, Schwamm",
+        "fr": "champignon, champignon, éponge",
+        "pl": "grzyb, grzyb, gąbka",
+        "id": "jamur, jamur, spons",
+        "hi": "मशरूम, फंगस, स्पंज",
+        "zh": "蘑菇, 真菌, 海绵",
+        "it": "fungo, fungo, spugna",
+        "tr": "mantar, mantar, sünger",
+        "sr": "печурка, гљива, сунђер",
+        "fi": "sieni, sieni, sieni",
+        "et": "seened, seened, käsn",
+        "be": "грыб, грыбок, губка",
+        "lv": "sēne, sēne, sūklis",
+        "lt": "grybas, grybelis, kempinė"
+      },
+      "examples": [
+        {
+          "text": "Då du äter svamp så förtär du fungi"
+        },
+        {
+          "text": "Vi hittade en stor karljohansvamp i skogen"
+        },
+        {
+          "text": "Hon skar svampen i skivor och stekte den i smör"
+        },
+        {
+          "text": "Jag tvättade bilen med en stor svamp"
+        },
+        {
+          "text": "Efter regnet växte det svamp överallt i skogen"
+        },
+        {
+          "text": "Använd en svamp för att rengöra ytan försiktigt"
+        },
+        {
+          "text": "Han fick fotsvamp och måste använda en speciell kräm"
+        },
+        {
+          "text": "Den här svampen är ätlig, men den smakar inte så gott"
+        },
+        {
+          "text": "Hon köpte ekologiska svampar på marknaden"
+        },
+        {
+          "text": "Det är viktigt att låta svampen torka innan du förvarar den"
+        },
+        {
+          "text": "Min svamp för att tvätta fönster är borta, var är den?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d094c87c-633e-401e-a553-594fd7f3042b",
+      "version": 1,
+      "word": "kakor",
+      "translations": {
+        "ru": "печенье",
+        "en": "cookie",
+        "uk": "печиво",
+        "ar": "بسكويت",
+        "fa": "کوکی",
+        "so": "buskud",
+        "es": "galleta",
+        "de": "Keks",
+        "fr": "biscuit",
+        "pl": "ciastko",
+        "id": "kue",
+        "hi": "कुकी",
+        "zh": "饼干",
+        "it": "biscotto",
+        "tr": "kurabiye",
+        "sr": "колачић",
+        "fi": "keksi",
+        "et": "küpsis",
+        "be": "печыва",
+        "lv": "cepums",
+        "lt": "sausainis"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en påse kakor på affären"
+        },
+        {
+          "text": "De bakade hembakade kakor med choklad"
+        },
+        {
+          "text": "Barnen åt upp alla kakorna på tio minuter!"
+        },
+        {
+          "text": "Hon gillar att doppa kakor i sitt kaffe"
+        },
+        {
+          "text": "Till julen bakar vi alltid pepparkakor"
+        },
+        {
+          "text": "Den här kakan smakar som min mormors recept! Han bjöd oss på småkakor och saft"
+        },
+        {
+          "text": "Min favoritkaka är havrekaka med russin"
+        },
+        {
+          "text": "Hon bakade en kaka med nötter och kanel"
+        },
+        {
+          "text": "Det finns glutenfria kakor för dem som är allergiska."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "59674e37-3d81-4cf4-894b-6b7182d01964",
+      "version": 1,
+      "word": "en bakelse",
+      "forms": [
+        {
+          "form": "bakelser"
+        }
+      ],
+      "translations": {
+        "ru": "пирожное",
+        "en": "pastry",
+        "uk": "випічка",
+        "ar": "معجنات",
+        "fa": "شیرینی",
+        "so": "keeg",
+        "es": "pastel",
+        "de": "Gebäck",
+        "fr": "pâtisserie",
+        "pl": "ciastko",
+        "id": "kue",
+        "hi": "पेस्ट्री",
+        "zh": "糕点",
+        "it": "pasticcino",
+        "tr": "hamur işi",
+        "sr": "пециво",
+        "fi": "leivonnainen",
+        "et": "kondiitritooted",
+        "be": "пірожнае",
+        "lv": "konditorejas izstrādājums",
+        "lt": "konditerijos gaminys"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en bakelse på caféet"
+        },
+        {
+          "text": "Bakelsen var väldigt god! På konditoriet fanns det många olika bakelser"
+        },
+        {
+          "text": "Bakelserna på det här stället är fantastiska!"
+        },
+        {
+          "text": "Jag beställde tre bakelser till efterrätt"
+        },
+        {
+          "text": "Min favoritbakelse innehåller vaniljkräm och choklad"
+        },
+        {
+          "text": "Hon gjorde sina egna bakelser med jordgubbar"
+        },
+        {
+          "text": "Vilken bakelse vill du ha?"
+        },
+        {
+          "text": "Han älskar traditionella svenska bakelser"
+        },
+        {
+          "text": "Bakelserna såg så fina ut att jag inte ville äta dem!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9988f59f-5666-425e-ba78-168fb63ef25d",
+      "version": 1,
+      "word": "en gryta",
+      "forms": [
+        {
+          "form": "grytan"
+        },
+        {
+          "form": "grytor"
+        },
+        {
+          "form": "grytorna"
+        }
+      ],
+      "translations": {
+        "ru": "рагу (первое значение горшок, казероль)",
+        "en": "stew (first meaning: pot, casserole)",
+        "uk": "рагу (перше значення: горщик, каструля)",
+        "ar": "يخنة (المعنى الأول: قدر، طاجن)",
+        "fa": "خورشت (معنی اول: قابلمه، کاسرول)",
+        "so": "cunto kariye (macnaha koowaad: dheri, casserole)",
+        "es": "estofado (primer significado: olla, cacerola)",
+        "de": "Eintopf (erste Bedeutung: Topf, Kasserolle)",
+        "fr": "ragoût (premier sens : pot, casserole)",
+        "pl": "gulasz (pierwsze znaczenie: garnek, zapiekanka)",
+        "id": "rebus (arti pertama: panci, casserole)",
+        "hi": "स्टू (पहला अर्थ: बर्तन, कैसरोल)",
+        "zh": "炖菜（第一个意思：锅，砂锅）",
+        "it": "stufato (primo significato: pentola, casseruola)",
+        "tr": "güveç (ilk anlam: tencere, güveç)",
+        "sr": "гулаш (прво значење: лонац, касерола)",
+        "fi": "pata (ensimmäinen merkitys: kattila, vuoka)",
+        "et": "hautis (esimene tähendus: pott, vormiroog)",
+        "be": "рагу (першае значэнне: гаршчок, касероль)",
+        "lv": "sautējums (pirmā nozīme: katls, kastrolis)",
+        "lt": "troškinys (pirmoji reikšmė: puodas, troškintuvas)"
+      },
+      "examples": [
+        {
+          "text": "Jag lagade en gryta med kyckling och grönsaker"
+        },
+        {
+          "text": "Grytan smakar fantastiskt!"
+        },
+        {
+          "text": "Grytan är i skåpet bredvid ugnen"
+        },
+        {
+          "text": "Jag älskar mustiga grytor på hösten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b2a51615-3a4c-4097-9474-3f608db0be66",
+      "version": 1,
+      "word": "en krydda",
+      "forms": [
+        {
+          "form": "kryddor"
+        }
+      ],
+      "translations": {
+        "ru": "специя приправа",
+        "en": "spice, seasoning",
+        "uk": "спеція, приправа",
+        "ar": "توابل، بهارات",
+        "fa": "ادویه، چاشنی",
+        "so": "xawaash, dhir udgoon",
+        "es": "especia, condimento",
+        "de": "Gewürz, Würze",
+        "fr": "épice, assaisonnement",
+        "pl": "przyprawa, przyprawa",
+        "id": "rempah, bumbu",
+        "hi": "मसाला, सीज़निंग",
+        "zh": "香料，调味品",
+        "it": "spezia, condimento",
+        "tr": "baharat, çeşni",
+        "sr": "зачин, зачин",
+        "fi": "mauste, maustaminen",
+        "et": "maitseaine, maitsestamine",
+        "be": "спецыя, прыправы",
+        "lv": "garšviela, garšvielas",
+        "lt": "prieskonis, prieskoniai"
+      },
+      "examples": [
+        {
+          "text": "Jag älskar kryddor från Indien"
+        },
+        {
+          "text": "Den här kryddan ger en stark smak"
+        },
+        {
+          "text": "Kryddor används ofta i matlagning"
+        },
+        {
+          "text": "Vilken krydda passar bäst till kött?"
+        },
+        {
+          "text": "Jag köpte flera olika kryddor på marknaden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "def95c95-f82b-4367-ac20-f3d6297286b1",
+      "version": -1,
+      "word": "en blandning",
+      "forms": [
+        {
+          "form": "blandningar"
+        }
+      ],
+      "translations": {
+        "ru": "Смесь (физическая смесь разного)",
+        "en": "mixture (physical mix of different things)",
+        "uk": "суміш (фізична суміш різного)",
+        "ar": "خليط (مزيج مادي من أشياء مختلفة)",
+        "fa": "مخلوط (ترکیب فیزیکی از چیزهای مختلف)",
+        "so": "isku-dar (isku-dar jireed oo waxyaabo kala duwan)",
+        "es": "mezcla (mezcla física de cosas diferentes)",
+        "de": "Mischung (physische Mischung verschiedener Dinge)",
+        "fr": "mélange (mélange physique de choses différentes)",
+        "pl": "mieszanina (fizyczna mieszanka różnych rzeczy)",
+        "id": "campuran (campuran fisik dari berbagai hal)",
+        "hi": "मिश्रण (विभिन्न चीजों का भौतिक मिश्रण)",
+        "zh": "混合物（不同事物的物理混合）",
+        "it": "miscela (miscuglio fisico di cose diverse)",
+        "tr": "karışım (farklı şeylerin fiziksel karışımı)",
+        "sr": "мешавина (физичка мешавина различитих ствари)",
+        "fi": "seos (erilaisten asioiden fyysinen sekoitus)",
+        "et": "segu (erinevate asjade füüsiline segu)",
+        "be": "сумесь (фізічная сумесь рознага)",
+        "lv": "maisījums (dažādu lietu fizisks maisījums)",
+        "lt": "mišinys (fizinis skirtingų dalykų mišinys)"
+      },
+      "examples": [
+        {
+          "text": "Häll i blandningen och rör om försiktigt"
+        },
+        {
+          "text": "Den här blandningen doftar underbart"
+        },
+        {
+          "text": "Hon gjorde en smoothie med en blandning av frukt och yoghurt"
+        },
+        {
+          "text": "Det är en spännande blandning av gammalt och nytt"
+        },
+        {
+          "text": "Blandningen måste jäsa i 30 minuter innan vi bakar brödet"
+        },
+        {
+          "text": "Han lyssnade på en blandning av rock och elektronisk musik"
+        },
+        {
+          "text": "Blandningen blev för söt, så jag tillsatte mer citron"
+        },
+        {
+          "text": "Många uppskattar blandningen av moderna och klassiska byggnader i staden"
+        },
+        {
+          "text": "Barnen älskar den här blandningen av nötter och torkad frukt"
+        },
+        {
+          "text": "Blandningen av olika smaker gör rätten unik."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

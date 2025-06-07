@@ -1,24 +1,43 @@
+
+
 import json
-import re
+import os
 
-with open("word.json", encoding="utf-8") as f:
-    data = json.load(f)
+def validate_and_count(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"❌ Ошибка в JSON файле {filepath}: {e}")
+        return None
+    except Exception as e:
+        print(f"⚠️ Не удалось открыть {filepath}: {e}")
+        return None
 
-bad_ids = []
+    if not isinstance(data, list):
+        print(f"❌ {filepath} должен содержать список категорий")
+        return None
 
-for category in data:
-    for entry in category.get("entries", []):
-        word_forms = [entry["word"]] + [f["form"] for f in entry.get("forms", [])]
-        for example in entry.get("examples", []):
-            text = example.get("text", "")
-            sentences = re.split(r'(?<=[.?!])\s+(?=\S)', text)
-            for i in range(len(sentences) - 1):
-                s1 = sentences[i].lower()
-                s2 = sentences[i+1].lower()
-                if any(wf.lower() in s1 for wf in word_forms) and any(wf.lower() in s2 for wf in word_forms):
-                    bad_ids.append((entry["id"], entry["examples"].index(example), text))
-                    break
+    total_categories = len(data)
+    total_words = 0
+    total_examples = 0
 
-print("Word IDs with misplaced punctuation:")
-for wid, index, example_text in bad_ids:
-    print(f"{wid} [example {index}]: {example_text}")
+    for category in data:
+        if not isinstance(category, dict) or "entries" not in category:
+            print(f"❌ Категория некорректна: {category}")
+            return None
+        total_words += len(category["entries"])
+        for entry in category["entries"]:
+            if not isinstance(entry, dict) or "examples" not in entry:
+                print(f"❌ Слово некорректно: {entry}")
+                return None
+            total_examples += len(entry["examples"])
+
+    print("✅ JSON файл корректен.")
+    print(f"📚 Категорий: {total_categories}")
+    print(f"🗂️ Слов: {total_words}")
+    print(f"💬 Примеров: {total_examples}")
+
+if __name__ == "__main__":
+    filepath = "word_translated.json"  # замените на путь к своему файлу
+    validate_and_count(filepath)

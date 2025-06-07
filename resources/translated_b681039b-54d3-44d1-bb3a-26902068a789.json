@@ -1,0 +1,158 @@
+{
+  "id": "b681039b-54d3-44d1-bb3a-26902068a789",
+  "translations": {
+    "ru": "автомобиль",
+    "en": "Car",
+    "uk": "автомобіль",
+    "ar": "سيارة",
+    "fa": "ماشین",
+    "so": "baabuur",
+    "es": "coche",
+    "de": "Auto",
+    "fr": "voiture",
+    "pl": "samochód",
+    "id": "mobil",
+    "hi": "कार",
+    "zh": "汽车",
+    "it": "auto",
+    "tr": "araba",
+    "sr": "аутомобил",
+    "fi": "auto",
+    "et": "auto",
+    "be": "аўтамабіль",
+    "lv": "automobilis",
+    "lt": "automobilis"
+  },
+  "entries": [
+    {
+      "id": "c8f5a864-2b36-422a-a171-0c20d05fb084",
+      "version": -1,
+      "word": "ett vinterdäck",
+      "forms": [
+        {
+          "form": "vinterdäcket"
+        },
+        {
+          "form": "vinterdäck"
+        },
+        {
+          "form": "vinterdäcken"
+        }
+      ],
+      "translations": {
+        "ru": "зимние шины",
+        "en": "winter tires",
+        "uk": "зимові шини",
+        "ar": "إطارات شتوية",
+        "fa": "لاستیک‌های زمستانی",
+        "so": "taayirada jiilaalka",
+        "es": "neumáticos de invierno",
+        "de": "Winterreifen",
+        "fr": "pneus d'hiver",
+        "pl": "opony zimowe",
+        "id": "ban musim dingin",
+        "hi": "सर्दियों के टायर",
+        "zh": "冬季轮胎",
+        "it": "pneumatici invernali",
+        "tr": "kış lastikleri",
+        "sr": "зимске гуме",
+        "fi": "talvirenkaat",
+        "et": "talverehvid",
+        "be": "зімовыя шыны",
+        "lv": "ziemas riepas",
+        "lt": "žieminės padangos"
+      },
+      "examples": [
+        {
+          "text": "Ett vinterdäck ger bättre grepp på hala vägar"
+        },
+        {
+          "text": "Jag måste köpa ett nytt vinterdäck till bilen"
+        },
+        {
+          "text": "Vinterdäcket är viktigt för säkerheten under vintern"
+        },
+        {
+          "text": "Du måste byta till vinterdäck innan det blir halt"
+        },
+        {
+          "text": "Moderna vinterdäck är både tysta och effektiva"
+        },
+        {
+          "text": "Vinterdäcken är monterade på bilen"
+        },
+        {
+          "text": "Har du bytt till vinterdäck än? Det är förbjudet att köra med dubbdäck på vissa vägar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a313c5f7-4333-497b-b6d9-fb19459fff6a",
+      "version": -1,
+      "word": "en dragkrok",
+      "forms": [
+        {
+          "form": "dragkrokar"
+        }
+      ],
+      "translations": {
+        "ru": "фаркоп, тяговый крюк, буксирный крюк",
+        "en": "tow bar, tow hook",
+        "uk": "фаркоп, тяговий гак, буксирний гак",
+        "ar": "قضيب السحب، خطاف السحب",
+        "fa": "میله یدک‌کش، قلاب یدک‌کش",
+        "so": "baar jiidid, qabsato jiidid",
+        "es": "barra de remolque, gancho de remolque",
+        "de": "Anhängerkupplung, Abschlepphaken",
+        "fr": "barre de remorquage, crochet de remorquage",
+        "pl": "hak holowniczy, zaczep holowniczy",
+        "id": "batang penarik, kait penarik",
+        "hi": "टो बार, टो हुक",
+        "zh": "拖车杆, 拖钩",
+        "it": "barra di traino, gancio di traino",
+        "tr": "çekme çubuğu, çekme kancası",
+        "sr": "кука за вучу, вучна кука",
+        "fi": "vetokoukku, vetotanko",
+        "et": "veokonks, veotala",
+        "be": "фаркоп, цяговы крук, буксірны крук",
+        "lv": "vilkšanas stienis, vilkšanas āķis",
+        "lt": "vilkimo strypas, vilkimo kabliukas"
+      },
+      "examples": [
+        {
+          "text": "Bilen har en avtagbar dragkrok"
+        },
+        {
+          "text": "Vi behöver en dragkrok för att dra husvagnen"
+        },
+        {
+          "text": "Har din bil dragkrok? Dragkroken måste vara godkänd enligt EU-standard"
+        },
+        {
+          "text": "De monterade en dragkrok på bilen i verkstaden"
+        },
+        {
+          "text": "Cykelhållaren fästs på dragkroken"
+        },
+        {
+          "text": "Min gamla bil hade aldrig någon dragkrok"
+        },
+        {
+          "text": "Efter olyckan böjdes dragkroken"
+        },
+        {
+          "text": "Dragkroken går att ta av när man inte använder den"
+        },
+        {
+          "text": "Jag köpte en bil utan dragkrok och ångrar mig nu."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

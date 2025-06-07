@@ -1,0 +1,807 @@
+{
+  "id": "c56d1db5-0e71-44df-8f6d-7c66f82d630e",
+  "translations": {
+    "ru": "Физические понятия и явления",
+    "en": "Physical concepts and phenomena",
+    "uk": "Фізичні поняття та явища",
+    "ar": "المفاهيم والظواهر الفيزيائية",
+    "fa": "مفاهیم و پدیده‌های فیزیکی",
+    "so": "Fikradaha iyo dhacdooyinka jireed",
+    "es": "Conceptos y fenómenos físicos",
+    "de": "Physikalische Konzepte und Phänomene",
+    "fr": "Concepts et phénomènes physiques",
+    "pl": "Koncepcje i zjawiska fizyczne",
+    "id": "Konsep dan fenomena fisik",
+    "hi": "भौतिक अवधारणाएँ और घटनाएँ",
+    "zh": "物理概念和现象",
+    "it": "Concetti e fenomeni fisici",
+    "tr": "Fiziksel kavramlar ve fenomenler",
+    "sr": "Физички концепти и феномени",
+    "fi": "Fysikaaliset käsitteet ja ilmiöt",
+    "et": "Füüsikalised mõisted ja nähtused",
+    "be": "Фізічныя паняцці і з'явы",
+    "lv": "Fizikālie jēdzieni un parādības",
+    "lt": "Fizinės sąvokos ir reiškiniai"
+  },
+  "entries": [
+    {
+      "id": "e9b9f991-01a7-4cc1-b93a-80ffa353f3d9",
+      "version": -1,
+      "word": "en värme",
+      "translations": {
+        "ru": "тепло, жара, обогрев",
+        "en": "warmth, heat, heating",
+        "uk": "тепло, спека, обігрів",
+        "ar": "دفء، حرارة، تدفئة",
+        "fa": "گرما، حرارت، گرمایش",
+        "so": "kulayl, kulayl, kuleyl",
+        "es": "calor, calor, calefacción",
+        "de": "Wärme, Hitze, Heizung",
+        "fr": "chaleur, chaleur, chauffage",
+        "pl": "ciepło, gorąco, ogrzewanie",
+        "id": "kehangatan, panas, pemanasan",
+        "hi": "गर्मी, ताप, हीटिंग",
+        "zh": "温暖, 热, 供暖",
+        "it": "calore, calore, riscaldamento",
+        "tr": "sıcaklık, ısı, ısıtma",
+        "sr": "топлота, врућина, грејање",
+        "fi": "lämpö, kuumuus, lämmitys",
+        "et": "soojus, kuumus, küte",
+        "be": "цяпло, спёка, ацяпленне",
+        "lv": "siltums, karstums, apkure",
+        "lt": "šiluma, karštis, šildymas"
+      },
+      "examples": [
+        {
+          "text": "Värmen i rummet är behaglig"
+        },
+        {
+          "text": "Solen ger oss ljus och värme"
+        },
+        {
+          "text": "Värmen i somras var ovanligt stark"
+        },
+        {
+          "text": "Den här jackan håller värmen bra"
+        },
+        {
+          "text": "Det behövs mer värme i huset på vintern"
+        },
+        {
+          "text": "Han talade med stor värme om sin familj"
+        },
+        {
+          "text": "Det fanns en speciell värme i hennes leende"
+        },
+        {
+          "text": "Jag känner en värme i ditt bemötande"
+        },
+        {
+          "text": "Hon välkomnade oss med stor värme"
+        },
+        {
+          "text": "Hans ord fyllde mig med värme."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5b0b120d-6115-4fc3-97bf-cb8132d25ab7",
+      "version": -1,
+      "word": "ett ljud",
+      "translations": {
+        "ru": "звук",
+        "en": "sound",
+        "uk": "звук",
+        "ar": "صوت",
+        "fa": "صدا",
+        "so": "dhawaq",
+        "es": "sonido",
+        "de": "Klang",
+        "fr": "son",
+        "pl": "dźwięk",
+        "id": "suara",
+        "hi": "ध्वनि",
+        "zh": "声音",
+        "it": "suono",
+        "tr": "ses",
+        "sr": "звук",
+        "fi": "ääni",
+        "et": "heli",
+        "be": "гук",
+        "lv": "skaņa",
+        "lt": "garsas"
+      },
+      "examples": [
+        {
+          "text": "Jag hörde ett konstigt ljud i rummet"
+        },
+        {
+          "text": "Det finns inget ljud i filmen"
+        },
+        {
+          "text": "Ljuden från trafiken är störande"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "00f92d84-f5e6-4e40-9825-bececfd5669e",
+      "version": -1,
+      "word": "ett ljus",
+      "translations": {
+        "ru": "свет (еще значение огонь, свеча)",
+        "en": "light (also means fire, candle)",
+        "uk": "світло (також означає вогонь, свічка)",
+        "ar": "ضوء (يعني أيضًا نار، شمعة)",
+        "fa": "نور (همچنین به معنای آتش، شمع است)",
+        "so": "iftiin (sidoo kale macnaheedu waa dab, shumac)",
+        "es": "luz (también significa fuego, vela)",
+        "de": "Licht (bedeutet auch Feuer, Kerze)",
+        "fr": "lumière (signifie aussi feu, bougie)",
+        "pl": "światło (również oznacza ogień, świeca)",
+        "id": "cahaya (juga berarti api, lilin)",
+        "hi": "प्रकाश (जिसका अर्थ आग, मोमबत्ती भी होता है)",
+        "zh": "光（也意味着火，蜡烛）",
+        "it": "luce (significa anche fuoco, candela)",
+        "tr": "ışık (aynı zamanda ateş, mum anlamına gelir)",
+        "sr": "светло (такође значи ватра, свећа)",
+        "fi": "valo (tarkoittaa myös tulta, kynttilää)",
+        "et": "valgus (tähendab ka tuld, küünalt)",
+        "be": "святло (таксама азначае агонь, свечка)",
+        "lv": "gaisma (arī nozīmē uguns, svece)",
+        "lt": "šviesa (taip pat reiškia ugnį, žvakę)"
+      },
+      "examples": [
+        {
+          "text": "Vi behöver mer ljus i rummet"
+        },
+        {
+          "text": "Ljuset från lampan var väldigt starkt"
+        },
+        {
+          "text": "Vi tände ett ljus på bordet"
+        },
+        {
+          "text": "Rummet var så ljust att vi inte behövde lampor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a3d791f0-8cf8-454a-b26f-00847fd385bd",
+      "version": -1,
+      "word": "ett solsken",
+      "forms": [
+        {
+          "form": "solskenet"
+        }
+      ],
+      "translations": {
+        "ru": "солнечный свет",
+        "en": "sunlight",
+        "uk": "сонячне світло",
+        "ar": "ضوء الشمس",
+        "fa": "نور خورشید",
+        "so": "iftiinka qorraxda",
+        "es": "luz solar",
+        "de": "Sonnenlicht",
+        "fr": "lumière du soleil",
+        "pl": "światło słoneczne",
+        "id": "sinar matahari",
+        "hi": "सूरज की रोशनी",
+        "zh": "阳光",
+        "it": "luce solare",
+        "tr": "gün ışığı",
+        "sr": "сунчева светлост",
+        "fi": "auringonvalo",
+        "et": "päikesevalgus",
+        "be": "сонечнае святло",
+        "lv": "saules gaisma",
+        "lt": "saulės šviesa"
+      },
+      "examples": [
+        {
+          "text": "Solskenet lyser genom fönstret"
+        },
+        {
+          "text": "Vi satt i solskenet och drack kaffe"
+        },
+        {
+          "text": "Barnen lekte i solskenet hela dagen"
+        },
+        {
+          "text": "Jag älskar att promenera i solskenet"
+        },
+        {
+          "text": "Efter regnet kom solskenet tillbaka"
+        },
+        {
+          "text": "Solskenet reflekteras i vattnet"
+        },
+        {
+          "text": "Hon log och hennes ansikte strålade i solskenet"
+        },
+        {
+          "text": "Det var en vacker dag med klart solsken"
+        },
+        {
+          "text": "Blommorna blomstrar i solskenet"
+        },
+        {
+          "text": "Jag saknar solskenet på vintern."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "15379318-c85b-4d27-9707-56a7f17e2d95",
+      "version": -1,
+      "word": "ett dagsljus",
+      "forms": [
+        {
+          "form": "dagsljuset"
+        }
+      ],
+      "translations": {
+        "ru": "дневной свет, естественное освещение от солнца в течение дня",
+        "en": "daylight, natural sunlight during the day",
+        "uk": "денне світло, природне сонячне освітлення протягом дня",
+        "ar": "ضوء النهار، ضوء الشمس الطبيعي خلال النهار",
+        "fa": "نور روز، نور طبیعی خورشید در طول روز",
+        "so": "iftiinka maalinta, iftiinka dabiiciga ah ee qorraxda maalintii",
+        "es": "luz del día, luz solar natural durante el día",
+        "de": "Tageslicht, natürliches Sonnenlicht während des Tages",
+        "fr": "lumière du jour, lumière naturelle du soleil pendant la journée",
+        "pl": "światło dzienne, naturalne światło słoneczne w ciągu dnia",
+        "id": "cahaya siang, sinar matahari alami di siang hari",
+        "hi": "दिन का उजाला, दिन के दौरान प्राकृतिक सूर्य का प्रकाश",
+        "zh": "日光，白天的自然阳光",
+        "it": "luce del giorno, luce solare naturale durante il giorno",
+        "tr": "gün ışığı, gün boyunca doğal güneş ışığı",
+        "sr": "dnevna svetlost, prirodna sunčeva svetlost tokom dana",
+        "fi": "päivänvalo, luonnollinen auringonvalo päivän aikana",
+        "et": "päevavalgus, loomulik päikesevalgus päeva jooksul",
+        "be": "дзённае святло, натуральнае сонечнае асвятленне на працягу дня",
+        "lv": "dienas gaisma, dabiskā saules gaisma dienas laikā",
+        "lt": "dienos šviesa, natūrali saulės šviesa dienos metu"
+      },
+      "examples": [
+        {
+          "text": "Vi behöver mer dagsljus i det här rummet"
+        },
+        {
+          "text": "De stora fönstren släpper in mycket dagsljus"
+        },
+        {
+          "text": "Hon vill måla medan det fortfarande finns dagsljus"
+        },
+        {
+          "text": "Vi tog bilderna i dagsljus för bättre kvalitet"
+        },
+        {
+          "text": "Det är svårt att arbeta utan dagsljus"
+        },
+        {
+          "text": "Jag såg honom först i riktigt dagsljus"
+        },
+        {
+          "text": "Hon föredrar att springa när det är dagsljus ute"
+        },
+        {
+          "text": "I norra Sverige har man lite dagsljus på vintern"
+        },
+        {
+          "text": "Du borde se tavlan i dagsljus, den ser bättre ut då"
+        },
+        {
+          "text": "Ljuset från lampan var inte som riktigt dagsljus."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "91a634ae-3936-47f1-92cc-72b0bd6fd2f0",
+      "version": -1,
+      "word": "ett mörker",
+      "forms": [
+        {
+          "form": "mörkret"
+        }
+      ],
+      "translations": {
+        "ru": "темнота мрак",
+        "en": "darkness, gloom",
+        "uk": "темрява, морок",
+        "ar": "ظلام، كآبة",
+        "fa": "تاریکی، افسردگی",
+        "so": "madow, murugo",
+        "es": "oscuridad, penumbra",
+        "de": "Dunkelheit, Düsternis",
+        "fr": "obscurité, morosité",
+        "pl": "ciemność, mrok",
+        "id": "kegelapan, kesuraman",
+        "hi": "अंधकार, उदासी",
+        "zh": "黑暗，阴郁",
+        "it": "oscurità, cupo",
+        "tr": "karanlık, kasvet",
+        "sr": "тама, мрак",
+        "fi": "pimeys, synkkyys",
+        "et": "pimedus, süngus",
+        "be": "цемра, змрок",
+        "lv": "tumsa, drūmums",
+        "lt": "tamsa, niūrumas"
+      },
+      "examples": [
+        {
+          "text": "Barnen är rädda för mörkret"
+        },
+        {
+          "text": "Mörkret föll snabbt över skogen"
+        },
+        {
+          "text": "Vi vet inte vad som döljer sig i mörkret"
+        },
+        {
+          "text": "Hans berättelse hade en ton av mörker"
+        },
+        {
+          "text": "Vi kunde inte se något i mörkret"
+        },
+        {
+          "text": "Jag kunde inte hitta vägen i mörkret."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1588f673-08d6-475c-9b81-adc2b7ec0d00",
+      "version": -1,
+      "word": "en stank",
+      "forms": [
+        {
+          "form": "stanker"
+        }
+      ],
+      "translations": {
+        "ru": "вонь, сильный неприятный запах",
+        "en": "stench, strong unpleasant smell",
+        "uk": "сморід, сильний неприємний запах",
+        "ar": "رائحة كريهة، رائحة قوية غير محببة",
+        "fa": "بوی بد، بوی قوی ناخوشایند",
+        "so": "ur xun, ur xoog leh oo aan fiicnayn",
+        "es": "hedor, olor fuerte y desagradable",
+        "de": "Gestank, starker unangenehmer Geruch",
+        "fr": "puanteur, forte odeur désagréable",
+        "pl": "smród, silny nieprzyjemny zapach",
+        "id": "bau busuk, bau kuat yang tidak menyenangkan",
+        "hi": "दुर्गंध, तीव्र अप्रिय गंध",
+        "zh": "恶臭，强烈的不愉快气味",
+        "it": "puzza, forte odore sgradevole",
+        "tr": "pis koku, güçlü hoş olmayan koku",
+        "sr": "смрад, јак непријатан мирис",
+        "fi": "löyhkä, voimakas epämiellyttävä haju",
+        "et": "hais, tugev ebameeldiv lõhn",
+        "be": "смурод, моцны непрыемны пах",
+        "lv": "smaka, spēcīga nepatīkama smaka",
+        "lt": "smarvė, stiprus nemalonus kvapas"
+      },
+      "examples": [
+        {
+          "text": "Det var en hemsk stank i rummet"
+        },
+        {
+          "text": "Stanken från soporna var outhärdlig"
+        },
+        {
+          "text": "En stank av rök fyllde rummet"
+        },
+        {
+          "text": "Vad är det för stank här? Det var en stank av gammal mat i kylen"
+        },
+        {
+          "text": "Hans beteende lämnar en stank av korruption."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "db02a0be-a786-4c73-ab99-bb6ce0833f83",
+      "version": 1,
+      "word": "en el",
+      "forms": [
+        {
+          "form": "elen"
+        }
+      ],
+      "translations": {
+        "ru": "электричество",
+        "en": "electricity",
+        "uk": "електрика",
+        "ar": "كهرباء",
+        "fa": "برق",
+        "so": "koronto",
+        "es": "electricidad",
+        "de": "Elektrizität",
+        "fr": "électricité",
+        "pl": "elektryczność",
+        "id": "listrik",
+        "hi": "बिजली",
+        "zh": "电力",
+        "it": "elettricità",
+        "tr": "elektrik",
+        "sr": "електрична енергија",
+        "fi": "sähkö",
+        "et": "elekter",
+        "be": "электрычнасць",
+        "lv": "elektrība",
+        "lt": "elektra"
+      },
+      "examples": [
+        {
+          "text": "Vi behöver mer el från förnybara energikällor"
+        },
+        {
+          "text": "Elen har blivit dyrare i år"
+        },
+        {
+          "text": "Hur mycket kostar elen per kilowattimme?"
+        },
+        {
+          "text": "Vi försöker spara på elen genom att släcka lampor"
+        },
+        {
+          "text": "El är en viktig del av vårt dagliga liv"
+        },
+        {
+          "text": "Under vintern använder vi mer el för uppvärmning"
+        },
+        {
+          "text": "Om elen försvinner blir det kallt i huset"
+        },
+        {
+          "text": "Min elräkning var mycket högre den här månaden"
+        },
+        {
+          "text": "Solen kan generera el genom solpaneler"
+        },
+        {
+          "text": "Hur produceras el i Sverige? Elen i vårt område kommer från vattenkraft"
+        },
+        {
+          "text": "Vi måste minska vår elförbrukning för att spara pengar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ad934f92-9164-437b-93c5-0760f48ad21d",
+      "version": -1,
+      "word": "ett dopp",
+      "forms": [
+        {
+          "form": "doppet"
+        },
+        {
+          "form": "dopp"
+        },
+        {
+          "form": "doppen"
+        }
+      ],
+      "translations": {
+        "ru": "Непродолжительное купание . Окунуться и выйти  второе значение это макать что-то",
+        "en": "brief bathing; to dip in and out; also means to dunk something",
+        "uk": "короткочасне купання; зануритися і вийти; також означає занурити щось",
+        "ar": "استحمام قصير؛ الغطس والدخول والخروج؛ يعني أيضًا غمس شيء ما",
+        "fa": "حمام کوتاه؛ فرو رفتن و بیرون آمدن؛ همچنین به معنای فرو بردن چیزی است",
+        "so": "qubeysi gaaban; in la dhex galo oo la baxo; sidoo kale waxay la macno tahay in wax la quusiyo",
+        "es": "baño breve; sumergirse y salir; también significa mojar algo",
+        "de": "kurzes Baden; eintauchen und wieder herauskommen; bedeutet auch, etwas einzutauchen",
+        "fr": "bain bref; plonger et sortir; signifie aussi tremper quelque chose",
+        "pl": "krótkie kąpanie; zanurzyć się i wyjść; oznacza również zanurzenie czegoś",
+        "id": "mandi singkat; mencelupkan dan keluar; juga berarti mencelupkan sesuatu",
+        "hi": "संक्षिप्त स्नान; अंदर डुबकी लगाना और बाहर आना; इसका मतलब कुछ डुबोना भी होता है",
+        "zh": "短暂的洗澡；进出浸泡；也意味着浸泡某物",
+        "it": "bagno breve; immergersi e uscire; significa anche immergere qualcosa",
+        "tr": "kısa banyo; içine dalıp çıkmak; ayrıca bir şeyi batırmak anlamına gelir",
+        "sr": "кратко купање; уронити и изаћи; такође значи умочити нешто",
+        "fi": "lyhyt kylpy; kastautua ja nousta pois; tarkoittaa myös jonkin kastamista",
+        "et": "lühike suplemine; sisse ja välja kastmine; tähendab ka millegi kastmist",
+        "be": "кароткае купанне; акунуцца і выйсці; таксама азначае макнуць нешта",
+        "lv": "īslaicīga peldēšanās; iemērkt un izņemt; arī nozīmē kaut ko iemērkt",
+        "lt": "trumpas maudymasis; panerti ir išlipti; taip pat reiškia kažką panardinti"
+      },
+      "examples": [
+        {
+          "text": "Jag kanske tar ett dopp idag"
+        },
+        {
+          "text": "Jag tog ett snabbt dopp i sjön innan frukost"
+        },
+        {
+          "text": "Barnen älskar att ta ett dopp i poolen på sommaren"
+        },
+        {
+          "text": "En kopp kaffe och ett dopp är perfekt på morgonen"
+        },
+        {
+          "text": "Jag tog ett kallt dopp i havet på julafton"
+        },
+        {
+          "text": "Ta ett dopp av kakan i chokladsåsen – det är så gott!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3eeaadf9-1d38-4372-bdd6-c5a686e38869",
+      "version": -1,
+      "word": "en prick",
+      "forms": [
+        {
+          "form": "prickar"
+        }
+      ],
+      "translations": {
+        "ru": "точка, пятно, пятнышко",
+        "en": "dot, spot, speck",
+        "uk": "крапка, пляма, цятка",
+        "ar": "نقطة، بقعة، لطخة",
+        "fa": "نقطه، لکه، خال",
+        "so": "dhibic, meel, dhibic yar",
+        "es": "punto, mancha, mota",
+        "de": "Punkt, Fleck, Tupfen",
+        "fr": "point, tache, petite tache",
+        "pl": "kropka, plama, plamka",
+        "id": "titik, noda, bintik",
+        "hi": "बिंदु, धब्बा, छोटा धब्बा",
+        "zh": "点, 斑点, 小斑点",
+        "it": "punto, macchia, chiazza",
+        "tr": "nokta, leke, benek",
+        "sr": "тачка, мрља, мрљица",
+        "fi": "piste, tahra, täplä",
+        "et": "punkt, laik, täpp",
+        "be": "кропка, пляма, плямка",
+        "lv": "punkts, plankums, punktiņš",
+        "lt": "taškas, dėmė, dėmelė"
+      },
+      "examples": [
+        {
+          "text": "Det finns en liten prick på min skjorta"
+        },
+        {
+          "text": "Jag såg en röd prick på kartan"
+        },
+        {
+          "text": "Hunden har vita prickar på svansen"
+        },
+        {
+          "text": "Himlen var full av små lysande prickar på natten"
+        },
+        {
+          "text": "Färgen lämnade en blå prick på bordet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ff301f6a-a049-4741-a96d-a19b5237fd2a",
+      "version": -1,
+      "word": "en rörelse",
+      "forms": [
+        {
+          "form": "rörelser"
+        }
+      ],
+      "translations": {
+        "ru": "движение (физическое или общественное)",
+        "en": "movement (physical or social)",
+        "uk": "рух (фізичний або соціальний)",
+        "ar": "حركة (جسدية أو اجتماعية)",
+        "fa": "حرکت (فیزیکی یا اجتماعی)",
+        "so": "dhaqdhaqaaq (jidheed ama bulsho)",
+        "es": "movimiento (físico o social)",
+        "de": "Bewegung (physisch oder sozial)",
+        "fr": "mouvement (physique ou social)",
+        "pl": "ruch (fizyczny lub społeczny)",
+        "id": "gerakan (fisik atau sosial)",
+        "hi": "आंदोलन (शारीरिक या सामाजिक)",
+        "zh": "运动（身体或社会）",
+        "it": "movimento (fisico o sociale)",
+        "tr": "hareket (fiziksel veya sosyal)",
+        "sr": "покрет (физички или друштвени)",
+        "fi": "liike (fyysinen tai sosiaalinen)",
+        "et": "liikumine (füüsiline või sotsiaalne)",
+        "be": "рух (фізічны або сацыяльны)",
+        "lv": "kustība (fiziska vai sociāla)",
+        "lt": "judėjimas (fizinis arba socialinis)"
+      },
+      "examples": [
+        {
+          "text": "Barnet gjorde en plötslig rörelse"
+        },
+        {
+          "text": "Jag såg en rörelse bakom gardinen"
+        },
+        {
+          "text": "Alla rörelser görs långsamt i yoga"
+        },
+        {
+          "text": "Kameran känner av minsta rörelse"
+        },
+        {
+          "text": "En konstnär studerar kroppens rörelser noggrant"
+        },
+        {
+          "text": "Klimataktivister startade en ny rörelse"
+        },
+        {
+          "text": "Feminismen är en viktig rörelse i historien"
+        },
+        {
+          "text": "Han var aktiv inom en politisk rörelse."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4760abbe-0a7b-4651-bb85-012b87a582cf",
+      "version": -1,
+      "word": "en yta",
+      "forms": [
+        {
+          "form": "ytor"
+        }
+      ],
+      "translations": {
+        "ru": "поверхность, площадь",
+        "en": "surface, area",
+        "uk": "поверхня, площа",
+        "ar": "سطح، مساحة",
+        "fa": "سطح، مساحت",
+        "so": "dusha, aag",
+        "es": "superficie, área",
+        "de": "Oberfläche, Fläche",
+        "fr": "surface, aire",
+        "pl": "powierzchnia, obszar",
+        "id": "permukaan, area",
+        "hi": "सतह, क्षेत्र",
+        "zh": "表面, 面积",
+        "it": "superficie, area",
+        "tr": "yüzey, alan",
+        "sr": "површина, област",
+        "fi": "pinta, alue",
+        "et": "pind, ala",
+        "be": "паверхня, плошча",
+        "lv": "virsma, platība",
+        "lt": "paviršius, plotas"
+      },
+      "examples": [
+        {
+          "text": "Bordet har en mycket slät yta"
+        },
+        {
+          "text": "Vi behöver en större yta för festen"
+        },
+        {
+          "text": "Solens strålar värmer ytan av jorden"
+        },
+        {
+          "text": "Vattnets yta var spegelblank"
+        },
+        {
+          "text": "Lägenhetens yta är 85 kvadratmeter"
+        },
+        {
+          "text": "Isens yta började spricka"
+        },
+        {
+          "text": "Vi målade hela ytan på en dag"
+        },
+        {
+          "text": "Snön täckte hela ytan av fältet"
+        },
+        {
+          "text": "Det finns små repor på ytan av skärmen"
+        },
+        {
+          "text": "De använder hela golvytan för danslektionerna."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "57b4dbc9-27f3-41dc-880a-9e11b7a2e48f",
+      "version": -1,
+      "word": "en tystnad",
+      "forms": [
+        {
+          "form": "tystnader"
+        }
+      ],
+      "translations": {
+        "ru": "тишина, молчание, безмолвие.",
+        "en": "silence, quiet, stillness",
+        "uk": "тиша, мовчання, безмовність",
+        "ar": "صمت، هدوء، سكون",
+        "fa": "سکوت، آرامش، سکون",
+        "so": "aamusnaan, deganaan, xasillooni",
+        "es": "silencio, quietud, calma",
+        "de": "Stille, Ruhe, Schweigen",
+        "fr": "silence, calme, quiétude",
+        "pl": "cisza, spokój, bezruch",
+        "id": "keheningan, ketenangan, ketidakgerakan",
+        "hi": "शांति, मौन, स्थिरता",
+        "zh": "沉默，安静，静止",
+        "it": "silenzio, quiete, immobilità",
+        "tr": "sessizlik, huzur, durgunluk",
+        "sr": "тишина, мир, непомичност",
+        "fi": "hiljaisuus, rauha, liikkumattomuus",
+        "et": "vaikus, rahu, liikumatus",
+        "be": "цішыня, маўчанне, бязмоўе",
+        "lv": "klusums, miers, nekustīgums",
+        "lt": "tyla, ramybė, nejudrumas"
+      },
+      "examples": [
+        {
+          "text": "En djup tystnad fyllde rummet"
+        },
+        {
+          "text": "Efter frågan spred sig en pinsam tystnad"
+        },
+        {
+          "text": "Vi satt i tystnad och tittade på solnedgången"
+        },
+        {
+          "text": "Skogen var fylld av tystnad"
+        },
+        {
+          "text": "Hon njöt av den tidiga morgonens tystnad"
+        },
+        {
+          "text": "Efter explosionen följde en ögonblicklig tystnad"
+        },
+        {
+          "text": "Han bröt tystnaden med ett skratt"
+        },
+        {
+          "text": "En tung tystnad lade sig över församlingen"
+        },
+        {
+          "text": "De utbytte blickar i tystnad"
+        },
+        {
+          "text": "När elen gick blev det en kuslig tystnad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

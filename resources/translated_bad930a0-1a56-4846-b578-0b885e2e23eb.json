@@ -1,0 +1,1481 @@
+{
+  "id": "bad930a0-1a56-4846-b578-0b885e2e23eb",
+  "translations": {
+    "ru": "безличные предложения",
+    "en": "Impersonal expressions",
+    "uk": "безособові вирази",
+    "ar": "تعبيرات غير شخصية",
+    "fa": "عبارات غیرشخصی",
+    "so": "weedho aan shakhsi ahayn",
+    "es": "expresiones impersonales",
+    "de": "unpersönliche Ausdrücke",
+    "fr": "expressions impersonnelles",
+    "pl": "wyrażenia bezosobowe",
+    "id": "ekspresi impersonal",
+    "hi": "निरपेक्ष अभिव्यक्तियाँ",
+    "zh": "非人称表达",
+    "it": "espressioni impersonali",
+    "tr": "kişiliksiz ifadeler",
+    "sr": "безлични изрази",
+    "fi": "persoonattomat ilmaisut",
+    "et": "umbisikused väljendid",
+    "be": "безасабовыя выразы",
+    "lv": "nepersoniski izteicieni",
+    "lt": "neasmeniniai posakiai"
+  },
+  "entries": [
+    {
+      "id": "ed93438f-7470-4b32-9ce2-3daf4795a5ac",
+      "version": -1,
+      "word": "det får en att ...",
+      "translations": {
+        "ru": "Это заставляет ... это наводит на мысль, это побуждает",
+        "en": "This makes ... this suggests, this prompts",
+        "uk": "Це змушує ... це наводить на думку, це спонукає",
+        "ar": "هذا يجعل ... هذا يوحي، هذا يحفز",
+        "fa": "این باعث می‌شود ... این نشان می‌دهد، این تحریک می‌کند",
+        "so": "Tani waxay ka dhigaysaa ... tani waxay soo jeedinaysaa, tani waxay kicisaa",
+        "es": "Esto hace ... esto sugiere, esto incita",
+        "de": "Das macht ... das deutet darauf hin, das veranlasst",
+        "fr": "Cela fait ... cela suggère, cela incite",
+        "pl": "To sprawia ... to sugeruje, to skłania",
+        "id": "Ini membuat ... ini menyarankan, ini mendorong",
+        "hi": "यह बनाता है ... यह सुझाव देता है, यह प्रेरित करता है",
+        "zh": "这使得 ... 这表明，这促使",
+        "it": "Questo fa ... questo suggerisce, questo spinge",
+        "tr": "Bu yapar ... bu önerir, bu teşvik eder",
+        "sr": "Ово чини ... ово сугерише, ово подстиче",
+        "fi": "Tämä tekee ... tämä viittaa, tämä kehottaa",
+        "et": "See teeb ... see viitab, see ajendab",
+        "be": "Гэта прымушае ... гэта наводзіць на думку, гэта падштурхоўвае",
+        "lv": "Tas liek ... tas liek domāt, tas mudina",
+        "lt": "Tai daro ... tai rodo, tai skatina"
+      },
+      "examples": [
+        {
+          "text": "Det får en att börja undra"
+        },
+        {
+          "text": "Det får en att tänka på livet"
+        },
+        {
+          "text": "Det får en att känna sig tacksam"
+        },
+        {
+          "text": "Det får en att vilja resa mer"
+        },
+        {
+          "text": "Det får en att förstå hur snabbt tiden går"
+        },
+        {
+          "text": "Det får en att minnas barndomen"
+        },
+        {
+          "text": "Det får en att reflektera över vad som är viktigt"
+        },
+        {
+          "text": "Det får en att undra vad som händer sen.Det får en att bli lite rörd"
+        },
+        {
+          "text": "Det får en att vilja göra skillnad"
+        },
+        {
+          "text": "Det får en att inse hur mycket man saknar någon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5f0208a7-df00-41fa-a016-f30b428199ab",
+      "version": -1,
+      "word": "det tar ...",
+      "translations": {
+        "ru": "Это занимает ... (о времени, усилиях и т. д.).",
+        "en": "It takes ... (time, effort, etc.)",
+        "uk": "Це займає ... (час, зусилля тощо).",
+        "ar": "يستغرق ... (الوقت، الجهد، إلخ).",
+        "fa": "این نیاز دارد ... (زمان، تلاش، و غیره).",
+        "so": "Waxay qaadataa ... (waqti, dadaal, iwm.).",
+        "es": "Se necesita ... (tiempo, esfuerzo, etc.).",
+        "de": "Es braucht ... (Zeit, Aufwand, usw.).",
+        "fr": "Cela prend ... (temps, effort, etc.).",
+        "pl": "To zajmuje ... (czas, wysiłek, itp.).",
+        "id": "Ini membutuhkan ... (waktu, usaha, dll.).",
+        "hi": "इसमें लगता है ... (समय, प्रयास, आदि)।",
+        "zh": "这需要...（时间、精力等）。",
+        "it": "Ci vuole ... (tempo, sforzo, ecc.).",
+        "tr": "Bu ... alır (zaman, çaba, vb.).",
+        "sr": "To zahteva ... (vreme, trud, itd.).",
+        "fi": "Se vie ... (aikaa, vaivaa jne.).",
+        "et": "See võtab ... (aega, pingutust jne.).",
+        "be": "Гэта займае ... (час, намаганні і г.д.).",
+        "lv": "Tas prasa ... (laiku, pūles utt.).",
+        "lt": "Tai užtrunka ... (laiko, pastangų ir pan.)."
+      },
+      "examples": [
+        {
+          "text": "Det tar ungefär 20 minuter att gå till stationen"
+        },
+        {
+          "text": "Hur lång tid tar det att laga den här maträtten? Det tar tre timmar att åka från Stockholm till Göteborg med tåg"
+        },
+        {
+          "text": "Det tar bara fem minuter att göra en kopp kaffe"
+        },
+        {
+          "text": "Det tar tid att lära sig ett nytt språk"
+        },
+        {
+          "text": "Det tar några dagar att vänja sig vid den nya rutinen"
+        },
+        {
+          "text": "Hur lång tid tar det att få ett visum? Det tar för lång tid att ladda ner den här filen"
+        },
+        {
+          "text": "Det tar bara en sekund att skicka ett meddelande"
+        },
+        {
+          "text": "Om du tränar regelbundet, tar det inte så lång tid att se resultat"
+        },
+        {
+          "text": "Hur lång tid tar det att lära sig svenska? Det tar ungefär en halvtimme att köra till flygplatsen"
+        },
+        {
+          "text": "Det tar bara ett par minuter att fylla i formuläret"
+        },
+        {
+          "text": "Det tar längre tid än jag trodde att läsa den här boken."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4866d213-774c-45d6-9421-31472d806d80",
+      "version": -1,
+      "word": "det betyder",
+      "forms": [
+        {
+          "form": "det betydde"
+        },
+        {
+          "form": "det har betytt"
+        }
+      ],
+      "translations": {
+        "ru": "это значит, то есть",
+        "en": "that means, that is",
+        "uk": "це означає, тобто",
+        "ar": "هذا يعني، أي",
+        "fa": "یعنی، به عبارت دیگر",
+        "so": "taas macnaheedu waa, taas oo ah",
+        "es": "eso significa, es decir",
+        "de": "das bedeutet, das heißt",
+        "fr": "cela signifie, c'est-à-dire",
+        "pl": "to znaczy, to jest",
+        "id": "itu berarti, yaitu",
+        "hi": "इसका मतलब है, अर्थात्",
+        "zh": "这意味着，即",
+        "it": "cioè, vale a dire",
+        "tr": "bu demektir ki, yani",
+        "sr": "то значи, то јест",
+        "fi": "se tarkoittaa, eli",
+        "et": "see tähendab, see on",
+        "be": "гэта значыць, то бок",
+        "lv": "tas nozīmē, tas ir",
+        "lt": "tai reiškia, tai yra"
+      },
+      "examples": [
+        {
+          "text": "Vad betyder det här ordet? Det betyder att du klarade testet"
+        },
+        {
+          "text": "Det betyder mycket för henne"
+        },
+        {
+          "text": "Det betyder inte att jag håller med"
+        },
+        {
+          "text": "Om vi missar tåget, betyder det att vi måste vänta"
+        },
+        {
+          "text": "När han säger så, betyder det att han är orolig"
+        },
+        {
+          "text": "Det betyder inget särskilt"
+        },
+        {
+          "text": "Vad betyder ditt namn? Det betyder att vi inte har tid"
+        },
+        {
+          "text": "Det betyder mycket att du kom hit."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "73dacb21-5cb3-4245-9391-39a97bc511b2",
+      "version": -1,
+      "word": "det gör att ...",
+      "translations": {
+        "ru": "это приводит к тому, что, это вызывает, это означает, что.",
+        "en": "this leads to, causes, means that",
+        "uk": "це призводить до того, що, це викликає, це означає, що",
+        "ar": "هذا يؤدي إلى، يسبب، يعني أن",
+        "fa": "این منجر به، باعث می‌شود، به این معنی است که",
+        "so": "tani waxay keentaa, sababtaa, macnaheedu waa in",
+        "es": "esto lleva a, causa, significa que",
+        "de": "dies führt zu, verursacht, bedeutet, dass",
+        "fr": "cela conduit à, cause, signifie que",
+        "pl": "to prowadzi do, powoduje, oznacza, że",
+        "id": "ini mengarah ke, menyebabkan, berarti bahwa",
+        "hi": "यह इसके लिए अग्रणी है, कारण बनता है, इसका मतलब है कि",
+        "zh": "这导致，导致，意味着",
+        "it": "questo porta a, causa, significa che",
+        "tr": "bu, yol açar, neden olur, anlamına gelir",
+        "sr": "ово доводи до, узрокује, значи да",
+        "fi": "tämä johtaa, aiheuttaa, tarkoittaa, että",
+        "et": "see viib, põhjustab, tähendab, et",
+        "be": "гэта прыводзіць да таго, што, выклікае, азначае, што",
+        "lv": "tas noved pie, izraisa, nozīmē, ka",
+        "lt": "tai veda prie, sukelia, reiškia, kad"
+      },
+      "examples": [
+        {
+          "text": "Det regnar mycket"
+        },
+        {
+          "text": "Det gör att floden svämmar över"
+        },
+        {
+          "text": "Han tränar varje dag"
+        },
+        {
+          "text": "Det gör att han blir starkare"
+        },
+        {
+          "text": "Vi samarbetar bra"
+        },
+        {
+          "text": "Det gör att projektet går snabbt framåt"
+        },
+        {
+          "text": "De sparar mycket pengar"
+        },
+        {
+          "text": "Det gör att de kan resa ofta"
+        },
+        {
+          "text": "Bilarna är billiga här"
+        },
+        {
+          "text": "Det gör att fler kan köpa en bil"
+        },
+        {
+          "text": "Du jobbar hårt"
+        },
+        {
+          "text": "Det gör att du kommer att lyckas"
+        },
+        {
+          "text": "Hon bor nära skolan"
+        },
+        {
+          "text": "Det gör att hon sparar tid varje dag"
+        },
+        {
+          "text": "Internet är långsamt"
+        },
+        {
+          "text": "Det gör att mötet blir försenat"
+        },
+        {
+          "text": "Systemet är lätt att använda"
+        },
+        {
+          "text": "Det gör att fler vill prova det"
+        },
+        {
+          "text": "Vädret är varmt"
+        },
+        {
+          "text": "Det gör att vi kan bada i sjön."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c08f8e53-2b03-47eb-a01e-e924f2ca970f",
+      "version": -1,
+      "word": "det är väldigt viktigt",
+      "translations": {
+        "ru": "Это очень важно",
+        "en": "This is very important",
+        "uk": "Це дуже важливо",
+        "ar": "هذا مهم جدًا",
+        "fa": "این بسیار مهم است",
+        "so": "Tani waa mid aad muhiim u ah",
+        "es": "Esto es muy importante",
+        "de": "Das ist sehr wichtig",
+        "fr": "C'est très important",
+        "pl": "To jest bardzo ważne",
+        "id": "Ini sangat penting",
+        "hi": "यह बहुत महत्वपूर्ण है",
+        "zh": "这非常重要",
+        "it": "Questo è molto importante",
+        "tr": "Bu çok önemli",
+        "sr": "Ово је веома важно",
+        "fi": "Tämä on erittäin tärkeää",
+        "et": "See on väga oluline",
+        "be": "Гэта вельмі важна",
+        "lv": "Tas ir ļoti svarīgi",
+        "lt": "Tai labai svarbu"
+      },
+      "examples": [
+        {
+          "text": "Det är väldigt viktigt att du kommer i tid"
+        },
+        {
+          "text": "Det är väldigt viktigt att dricka tillräckligt med vatten"
+        },
+        {
+          "text": "Det är väldigt viktigt att förstå problemet innan vi fattar ett beslut"
+        },
+        {
+          "text": "Det är väldigt viktigt att följa säkerhetsreglerna"
+        },
+        {
+          "text": "Det är väldigt viktigt att vi kommunicerar tydligt"
+        },
+        {
+          "text": "Det är väldigt viktigt att du lyssnar noga"
+        },
+        {
+          "text": "Det är väldigt viktigt att träna regelbundet för att hålla sig frisk"
+        },
+        {
+          "text": "Det är väldigt viktigt att barn får en bra utbildning"
+        },
+        {
+          "text": "Det är väldigt viktigt att respektera varandras åsikter"
+        },
+        {
+          "text": "Det är väldigt viktigt att vi håller oss till planen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e22aa49a-ed93-4e54-a16f-0df5cdc78942",
+      "version": -1,
+      "word": "det är möjligt",
+      "translations": {
+        "ru": "возможно (в принципе) но не факт",
+        "en": "possibly (in principle) but not certain",
+        "uk": "можливо (в принципі), але не факт",
+        "ar": "ممكن (من حيث المبدأ) ولكن غير مؤكد",
+        "fa": "ممکن است (در اصل) اما قطعی نیست",
+        "so": "suurtagal (mabda' ahaan) laakiin lama hubo",
+        "es": "posiblemente (en principio) pero no seguro",
+        "de": "möglicherweise (im Prinzip), aber nicht sicher",
+        "fr": "possiblement (en principe) mais pas certain",
+        "pl": "możliwe (w zasadzie), ale niepewne",
+        "id": "mungkin (pada prinsipnya) tetapi tidak pasti",
+        "hi": "संभवतः (सिद्धांत रूप में) लेकिन निश्चित नहीं",
+        "zh": "可能（原则上）但不确定",
+        "it": "possibilmente (in linea di principio) ma non certo",
+        "tr": "muhtemelen (prensipte) ama kesin değil",
+        "sr": "могуће (у принципу), али није сигурно",
+        "fi": "mahdollisesti (periaatteessa), mutta ei varmaa",
+        "et": "võimalik (põhimõtteliselt), kuid mitte kindel",
+        "be": "магчыма (у прынцыпе), але не факт",
+        "lv": "iespējams (principā), bet nav droši",
+        "lt": "galbūt (iš esmės), bet neaišku"
+      },
+      "examples": [
+        {
+          "text": "Det är möjligt att vi reser till Italien i sommar"
+        },
+        {
+          "text": "Det är möjligt att det regnar i morgon"
+        },
+        {
+          "text": "Det är möjligt att hitta ett jobb om du letar tillräckligt länge"
+        },
+        {
+          "text": "Det är möjligt att vi måste ändra planen"
+        },
+        {
+          "text": "Är det möjligt att få biljetter till konserten?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dd341043-665a-49ba-8a61-7542fa1e25d0",
+      "version": -1,
+      "word": "det går att ...",
+      "translations": {
+        "ru": "получится, возможно, это можно сделать (точно!)",
+        "en": "it will work out, possibly, definitely doable",
+        "uk": "вийде, можливо, це точно можна зробити",
+        "ar": "سيعمل، ربما، بالتأكيد يمكن القيام به",
+        "fa": "انجام خواهد شد، ممکن است، قطعاً قابل انجام است",
+        "so": "way shaqayn doontaa, suurtagal, hubaal waa la samayn karaa",
+        "es": "funcionará, posiblemente, definitivamente factible",
+        "de": "es wird klappen, möglicherweise, definitiv machbar",
+        "fr": "ça va marcher, peut-être, certainement faisable",
+        "pl": "uda się, możliwe, zdecydowanie wykonalne",
+        "id": "akan berhasil, mungkin, pasti bisa dilakukan",
+        "hi": "यह काम करेगा, संभवतः, निश्चित रूप से किया जा सकता है",
+        "zh": "会成功，可能，绝对可行",
+        "it": "funzionerà, forse, sicuramente fattibile",
+        "tr": "olacak, muhtemelen, kesinlikle yapılabilir",
+        "sr": "успеће, можда, дефинитивно изводљиво",
+        "fi": "onnistuu, mahdollisesti, ehdottomasti tehtävissä",
+        "et": "õnnestub, võimalik, kindlasti teostatav",
+        "be": "атрымаецца, магчыма, гэта дакладна можна зрабіць",
+        "lv": "izdosies, iespējams, noteikti izdarāms",
+        "lt": "pavyks, galbūt, tikrai įmanoma padaryti"
+      },
+      "examples": [
+        {
+          "text": "Det går att boka biljetter online"
+        },
+        {
+          "text": "Det går att lösa problemet med lite tid och tålamod"
+        },
+        {
+          "text": "Det går att laga den här telefonen"
+        },
+        {
+          "text": "Det går att flytta mötet till nästa vecka"
+        },
+        {
+          "text": "Det går att betala med kort i butiken"
+        },
+        {
+          "text": "Det går att äta den här fisken rå"
+        },
+        {
+          "text": "Det går att spara pengar om man planerar sin ekonomi väl"
+        },
+        {
+          "text": "Det går att resa till Sverige utan visum i 90 dagar"
+        },
+        {
+          "text": "Det går att få hjälp om du kontaktar kundtjänst"
+        },
+        {
+          "text": "Det går att förstå svenska om man lyssnar mycket"
+        },
+        {
+          "text": "Det går inte för mig att resa i helgen"
+        },
+        {
+          "text": "Om vi inte har tillräckligt med pengar, går det inte för oss att köpa huset"
+        },
+        {
+          "text": "Det går inte för alla att jobba hemifrån"
+        },
+        {
+          "text": "Det går inte för tåget att åka i tid på grund av tekniska problem"
+        },
+        {
+          "text": "Det går inte för mig att delta i mötet idag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bb3c48ae-06ca-4e2d-b582-e786aaae0e24",
+      "version": -1,
+      "word": "det beror på",
+      "translations": {
+        "ru": "это зависит от",
+        "en": "it depends on",
+        "uk": "це залежить від",
+        "ar": "يعتمد على",
+        "fa": "بستگی دارد به",
+        "so": "waxay ku xiran tahay",
+        "es": "depende de",
+        "de": "es hängt ab von",
+        "fr": "ça dépend de",
+        "pl": "to zależy od",
+        "id": "itu tergantung pada",
+        "hi": "यह निर्भर करता है",
+        "zh": "这取决于",
+        "it": "dipende da",
+        "tr": "bağlıdır",
+        "sr": "зависи од",
+        "fi": "se riippuu",
+        "et": "see sõltub",
+        "be": "гэта залежыць ад",
+        "lv": "tas ir atkarīgs no",
+        "lt": "tai priklauso nuo"
+      },
+      "examples": [
+        {
+          "text": "Det beror på hur mycket tid vi har.Det beror på vädret"
+        },
+        {
+          "text": "Det beror på hur man ser det"
+        },
+        {
+          "text": "Det beror på dig"
+        },
+        {
+          "text": "Det beror på situationen"
+        },
+        {
+          "text": "Det beror på vad du menar"
+        },
+        {
+          "text": "Det beror på vädret om vi åker"
+        },
+        {
+          "text": "Det beror på hur jag mår imorgon"
+        },
+        {
+          "text": "Det beror på vem du frågar"
+        },
+        {
+          "text": "Det beror på hur mycket det kostar"
+        },
+        {
+          "text": "Det beror på om jag hinner klart i tid"
+        },
+        {
+          "text": "Det beror på hur svårt det är"
+        },
+        {
+          "text": "Det beror på var du bor"
+        },
+        {
+          "text": "Det beror på vad som händer"
+        },
+        {
+          "text": "Det beror på om det är värt det."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "77c68061-a138-45d5-88da-c26c2f8b153e",
+      "version": -1,
+      "word": "det låter (som)....",
+      "translations": {
+        "ru": "это звучит ....",
+        "en": "it sounds ...",
+        "uk": "це звучить ...",
+        "ar": "يبدو ...",
+        "fa": "به نظر می‌رسد ...",
+        "so": "waxay u muuqataa ...",
+        "es": "suena ...",
+        "de": "es klingt ...",
+        "fr": "ça sonne ...",
+        "pl": "to brzmi ...",
+        "id": "kedengarannya ...",
+        "hi": "यह लगता है ...",
+        "zh": "听起来 ...",
+        "it": "suona ...",
+        "tr": "bu kulağa ... geliyor",
+        "sr": "звуча ...",
+        "fi": "se kuulostaa ...",
+        "et": "see kõlab ...",
+        "be": "гэта гучыць ...",
+        "lv": "tas izklausās ...",
+        "lt": "tai skamba ..."
+      },
+      "examples": [
+        {
+          "text": "Det låter kul! Det låter bra! Det låter intressant"
+        },
+        {
+          "text": "Det låter som en bra idé"
+        },
+        {
+          "text": "Det låter lite konstigt"
+        },
+        {
+          "text": "Det låter perfekt! Det låter som en dröm"
+        },
+        {
+          "text": "Det låter som att du behöver vila"
+        },
+        {
+          "text": "Det låter trevligt, men jag kan inte"
+        },
+        {
+          "text": "Det låter som en dålig idé"
+        },
+        {
+          "text": "Det låter för bra för att vara sant"
+        },
+        {
+          "text": "Det låter som en spännande resa"
+        },
+        {
+          "text": "Det låter som att du har haft en lång dag"
+        },
+        {
+          "text": "Det låter som en bra plan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3a534820-7410-4805-838d-483ac54f461c",
+      "version": -1,
+      "word": "det känns som att",
+      "translations": {
+        "ru": "кажется",
+        "en": "it seems",
+        "uk": "здається",
+        "ar": "يبدو",
+        "fa": "به نظر می‌رسد",
+        "so": "waxay u muuqataa",
+        "es": "parece",
+        "de": "es scheint",
+        "fr": "il semble",
+        "pl": "wydaje się",
+        "id": "sepertinya",
+        "hi": "ऐसा लगता है",
+        "zh": "似乎",
+        "it": "sembra",
+        "tr": "görünüşe göre",
+        "sr": "изгледа",
+        "fi": "näyttää siltä",
+        "et": "näib",
+        "be": "здаецца",
+        "lv": "šķiet",
+        "lt": "atrodo"
+      },
+      "examples": [
+        {
+          "text": "Det känns som att vi har varit här förut"
+        },
+        {
+          "text": "Det känns som att alla tittar på mig"
+        },
+        {
+          "text": "Det känns som att det här är början på något nytt"
+        },
+        {
+          "text": "Det känns som att någonting är fel"
+        },
+        {
+          "text": "Det känns som att jag har glömt något"
+        },
+        {
+          "text": "Det känns som att hon inte vill prata med mig"
+        },
+        {
+          "text": "Det känns som att jag inte räcker till"
+        },
+        {
+          "text": "Det känns som att alla andra har koll"
+        },
+        {
+          "text": "Det känns som att jag borde gjort mer"
+        },
+        {
+          "text": "Det känns som att vi är nära nu"
+        },
+        {
+          "text": "Det känns som att livet bara rusar förbi"
+        },
+        {
+          "text": "Det känns som att jag behöver vila."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a18e77e7-37cb-4293-8ccf-7cad5cc8db18",
+      "version": -1,
+      "word": "det känns",
+      "translations": {
+        "ru": "Ощущается как",
+        "en": "feels like",
+        "uk": "відчувається як",
+        "ar": "يشعر وكأنه",
+        "fa": "احساس می‌شود مانند",
+        "so": "waxay dareemeysaa sida",
+        "es": "se siente como",
+        "de": "fühlt sich an wie",
+        "fr": "se sent comme",
+        "pl": "czuje się jak",
+        "id": "terasa seperti",
+        "hi": "ऐसा लगता है जैसे",
+        "zh": "感觉像",
+        "it": "si sente come",
+        "tr": "gibi hissediyor",
+        "sr": "осећа се као",
+        "fi": "tuntuu kuin",
+        "et": "tundub nagu",
+        "be": "адчуваецца як",
+        "lv": "jūtas kā",
+        "lt": "jaučiasi kaip"
+      },
+      "examples": [
+        {
+          "text": "Det känns bra att vara här"
+        },
+        {
+          "text": "Det känns fel att ljuga"
+        },
+        {
+          "text": "Det känns som en dröm"
+        },
+        {
+          "text": "Det känns konstigt att säga hej då"
+        },
+        {
+          "text": "Det känns svårt att börja om"
+        },
+        {
+          "text": "Det känns viktigt att hjälpa andra"
+        },
+        {
+          "text": "Det känns som om något är fel"
+        },
+        {
+          "text": "Det känns inte rätt att gå nu"
+        },
+        {
+          "text": "Det känns lugnt nu när allt är klart"
+        },
+        {
+          "text": "Det känns som hemma här."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e70f768f-30cc-41f3-9088-9fff089b822c",
+      "version": -1,
+      "word": "det ser ut som",
+      "translations": {
+        "ru": "Выглядит как, похоже на то, что..., на вид — как, кажется, будто (по внешнему виду)",
+        "en": "looks like, seems as if, appears (by appearance)",
+        "uk": "виглядає як, здається, ніби, на вигляд",
+        "ar": "يبدو كأنه، يبدو كما لو، يظهر (بالمظهر)",
+        "fa": "به نظر می‌رسد، شبیه است به، ظاهر می‌شود (از نظر ظاهر)",
+        "so": "u eg yahay, u muuqda sidii, muuqda (muuqaal ahaan)",
+        "es": "parece como, parece como si, aparece (por apariencia)",
+        "de": "sieht aus wie, scheint als ob, erscheint (vom Aussehen her)",
+        "fr": "ressemble à, semble comme si, apparaît (par apparence)",
+        "pl": "wygląda jak, wydaje się, jakby, pojawia się (z wyglądu)",
+        "id": "terlihat seperti, sepertinya, muncul (dari penampilan)",
+        "hi": "जैसा दिखता है, ऐसा लगता है जैसे, प्रकट होता है (दिखावट से)",
+        "zh": "看起来像，似乎，好像（从外观上）",
+        "it": "sembra, sembra come se, appare (per aspetto)",
+        "tr": "görünüşe göre, sanki, görünür (görünüşe göre)",
+        "sr": "изгледа као, чини се као да, појављује се (по изгледу)",
+        "fi": "näyttää siltä kuin, vaikuttaa siltä kuin, ilmenee (ulkonäön perusteella)",
+        "et": "näeb välja nagu, tundub nagu, ilmub (välimuse järgi)",
+        "be": "выглядае як, здаецца, быццам, з'яўляецца (па знешнім выглядзе)",
+        "lv": "izskatās kā, šķiet, it kā, parādās (pēc izskata)",
+        "lt": "atrodo kaip, atrodo tarsi, pasirodo (pagal išvaizdą)"
+      },
+      "examples": [
+        {
+          "text": "Det ser ut som att du mår bättre nu"
+        },
+        {
+          "text": "Det ser ut som att det ska snöa"
+        },
+        {
+          "text": "Det ser ut som om han inte vill prata"
+        },
+        {
+          "text": "Det ser ut som ett gammalt hus"
+        },
+        {
+          "text": "Det ser ut som en olycka där borta"
+        },
+        {
+          "text": "Det ser ut som en vacker dag"
+        },
+        {
+          "text": "Det ser ut som att festen är över"
+        },
+        {
+          "text": "Det ser ut som en konstig idé"
+        },
+        {
+          "text": "Det ser ut som om du har haft roligt"
+        },
+        {
+          "text": "Det ser ut som vi är för sena."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "48e92a72-af9b-4972-a108-bdd929b894a4",
+      "version": -1,
+      "word": "det krävs",
+      "translations": {
+        "ru": "требуется необходимо",
+        "en": "required, necessary",
+        "uk": "вимагається, необхідно",
+        "ar": "مطلوب، ضروري",
+        "fa": "مورد نیاز، ضروری",
+        "so": "loo baahan yahay, lagama maarmaan",
+        "es": "requerido, necesario",
+        "de": "erforderlich, notwendig",
+        "fr": "requis, nécessaire",
+        "pl": "wymagane, konieczne",
+        "id": "diperlukan, perlu",
+        "hi": "आवश्यक, ज़रूरी",
+        "zh": "需要, 必要",
+        "it": "richiesto, necessario",
+        "tr": "gerekli, zorunlu",
+        "sr": "потребно, неопходно",
+        "fi": "vaadittu, tarpeellinen",
+        "et": "nõutav, vajalik",
+        "be": "патрабуецца, неабходна",
+        "lv": "nepieciešams, vajadzīgs",
+        "lt": "reikalingas, būtinas"
+      },
+      "examples": [
+        {
+          "text": "Det krävs tålamod för att lära sig ett språk"
+        },
+        {
+          "text": "Det krävs mer forskning inom detta område"
+        },
+        {
+          "text": "Det krävs hårt arbete för att nå sina mål"
+        },
+        {
+          "text": "Det krävs en biljett för att komma in"
+        },
+        {
+          "text": "Det krävs mod för att stå upp för sina åsikter"
+        },
+        {
+          "text": "Det krävs mer tid för att slutföra projektet"
+        },
+        {
+          "text": "Det krävs kunskap och erfarenhet för att få det här jobbet"
+        },
+        {
+          "text": "Det krävs en stor förändring för att förbättra situationen"
+        },
+        {
+          "text": "Det krävs bra samarbete för att lyckas"
+        },
+        {
+          "text": "Det krävs stark vilja för att övervinna svårigheter"
+        },
+        {
+          "text": "Det krävs att vi gör en noggrann analys innan vi fattar beslut"
+        },
+        {
+          "text": "Det krävs ingen förklaring – jag förstår redan allt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c32c767e-ab03-4a93-b5ff-9f1fccc4c333",
+      "version": -1,
+      "word": "det liger",
+      "translations": {
+        "ru": "это находится. располагается",
+        "en": "it is located, situated",
+        "uk": "це знаходиться, розташоване",
+        "ar": "يقع، موجود",
+        "fa": "قرار دارد، واقع شده است",
+        "so": "waxaa ku yaal, ku yaal",
+        "es": "está ubicado, situado",
+        "de": "es befindet sich, gelegen",
+        "fr": "il est situé, localisé",
+        "pl": "znajduje się, usytuowany",
+        "id": "terletak, berada",
+        "hi": "यह स्थित है, अवस्थित है",
+        "zh": "位于，坐落",
+        "it": "è situato, ubicato",
+        "tr": "bulunur, yerleşik",
+        "sr": "налази се, смештен",
+        "fi": "se sijaitsee, on sijoitettu",
+        "et": "see asub, paikneb",
+        "be": "гэта знаходзіцца, размешчана",
+        "lv": "tas atrodas, izvietots",
+        "lt": "jis yra, įsikūręs"
+      },
+      "examples": [
+        {
+          "text": "Var ligger apoteket? Det ligger en bok på bordet"
+        },
+        {
+          "text": "Det ligger en park nära mitt hus"
+        },
+        {
+          "text": "Det ligger en restaurang vid torget"
+        },
+        {
+          "text": "Det ligger en liten by vid kusten"
+        },
+        {
+          "text": "Det ligger en skola bredvid biblioteket"
+        },
+        {
+          "text": "Det ligger en stad norr om Stockholm"
+        },
+        {
+          "text": "Det ligger många sjöar i Sverige"
+        },
+        {
+          "text": "Det ligger ett hotell vid havet"
+        },
+        {
+          "text": "Det ligger en ö mitt i sjön"
+        },
+        {
+          "text": "Det ligger en busshållplats runt hörnet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3b5bc5ec-fdb7-4ed7-9ad1-7489aeb598cd",
+      "version": -1,
+      "word": "Det ska bli ...",
+      "translations": {
+        "ru": "Будет Станет (про ожидания) планы, личные ожидания",
+        "en": "will be, will become (expectations), plans, personal expectations",
+        "uk": "буде, стане (очікування), плани, особисті очікування",
+        "ar": "سيكون، سيصبح (توقعات)، خطط، توقعات شخصية",
+        "fa": "خواهد بود، خواهد شد (انتظارات)، برنامه‌ها، انتظارات شخصی",
+        "so": "wuxuu noqon doonaa, wuxuu noqon doonaa (filashooyin), qorshayaal, filashooyin shaqsiyeed",
+        "es": "será, se convertirá (expectativas), planes, expectativas personales",
+        "de": "wird sein, wird werden (Erwartungen), Pläne, persönliche Erwartungen",
+        "fr": "sera, deviendra (attentes), plans, attentes personnelles",
+        "pl": "będzie, stanie się (oczekiwania), plany, osobiste oczekiwania",
+        "id": "akan, akan menjadi (harapan), rencana, harapan pribadi",
+        "hi": "होगा, बन जाएगा (उम्मीदें), योजनाएँ, व्यक्तिगत उम्मीदें",
+        "zh": "将会, 将成为 (期望), 计划, 个人期望",
+        "it": "sarà, diventerà (aspettative), piani, aspettative personali",
+        "tr": "olacak, olacak (beklentiler), planlar, kişisel beklentiler",
+        "sr": "биће, постаће (очекивања), планови, лична очекивања",
+        "fi": "tulee olemaan, tulee (odotukset), suunnitelmat, henkilökohtaiset odotukset",
+        "et": "saab olema, saab (ootused), plaanid, isiklikud ootused",
+        "be": "будзе, стане (чаканні), планы, асабістыя чаканні",
+        "lv": "būs, kļūs (gaidas), plāni, personīgās gaidas",
+        "lt": "bus, taps (lūkesčiai), planai, asmeniniai lūkesčiai"
+      },
+      "examples": [
+        {
+          "text": "Det ska bli soligt i helgen"
+        },
+        {
+          "text": "Det ska bli kallare nästa vecka"
+        },
+        {
+          "text": "Det ska bli mycket snö i december"
+        },
+        {
+          "text": "Det ska bli regn imorgon"
+        },
+        {
+          "text": "Det ska bli varmt i sommar"
+        },
+        {
+          "text": "Det ska bli roligt att träffa dig! Det ska bli en stor fest på lördag"
+        },
+        {
+          "text": "Det ska bli en intressant kurs"
+        },
+        {
+          "text": "Det ska bli spännande att resa till Japan"
+        },
+        {
+          "text": "Det ska bli en lång dag på jobbet"
+        },
+        {
+          "text": "Det ska bli bättre snart"
+        },
+        {
+          "text": "Det ska bli lättare när du har mer erfarenhet"
+        },
+        {
+          "text": "Det ska bli tystare när barnen somnar"
+        },
+        {
+          "text": "Det ska bli skönt att få semester"
+        },
+        {
+          "text": "Det ska bli spännande att se hur det utvecklas."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c5972996-4e72-4d62-84d3-81770d75da5a",
+      "version": -1,
+      "word": "Det blir ...",
+      "translations": {
+        "ru": "Будет Станет, Становится. (Неизбежность)",
+        "en": "will be, becomes (inevitability)",
+        "uk": "буде, стає (неминучість)",
+        "ar": "سيكون، يصبح (حتمية)",
+        "fa": "خواهد بود، می‌شود (اجتناب‌ناپذیری)",
+        "so": "wuxuu noqon doonaa, wuxuu noqdaa (lama huraan)",
+        "es": "será, se convierte (inevitabilidad)",
+        "de": "wird sein, wird (Unvermeidlichkeit)",
+        "fr": "sera, devient (inévitabilité)",
+        "pl": "będzie, staje się (nieuchronność)",
+        "id": "akan menjadi, menjadi (keniscayaan)",
+        "hi": "होगा, बनता है (अनिवार्यता)",
+        "zh": "将会是，成为（不可避免性）",
+        "it": "sarà, diventa (inevitabilità)",
+        "tr": "olacak, olur (kaçınılmazlık)",
+        "sr": "биће, постаје (неизбежност)",
+        "fi": "tulee olemaan, tulee (väistämättömyys)",
+        "et": "saab olema, muutub (paratamatus)",
+        "be": "будзе, становіцца (непазбежнасць)",
+        "lv": "būs, kļūst (neizbēgamība)",
+        "lt": "bus, tampa (neišvengiamumas)"
+      },
+      "examples": [
+        {
+          "text": "Det blir en lång dag imorgon"
+        },
+        {
+          "text": "Det blir en spännande match ikväll"
+        },
+        {
+          "text": "Det blir roligt att träffa dig igen! Det blir soligt på söndag"
+        },
+        {
+          "text": "Det blir middag hos oss ikväll"
+        },
+        {
+          "text": "Det blir tre koppar kaffe, tack"
+        },
+        {
+          "text": "Det blir 250 kronor totalt"
+        },
+        {
+          "text": "Det blir svårt att hinna med allt"
+        },
+        {
+          "text": "Det blir inget problem"
+        },
+        {
+          "text": "Det blir en bra lösning för alla"
+        },
+        {
+          "text": "Det blir mörkare tidigare på hösten"
+        },
+        {
+          "text": "Det blir varmare på sommaren"
+        },
+        {
+          "text": "Det blir tyst när barnen somnar"
+        },
+        {
+          "text": "Det blir bättre med tiden"
+        },
+        {
+          "text": "Det blir inte lätt, men vi klarar det!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d7faca46-0f98-45d0-ad17-4da84f0f4bae",
+      "version": -1,
+      "word": "Det kommer att bli ...",
+      "translations": {
+        "ru": "Будет Станет (про ожидания)формальный, обьективный прогноз, неизбежность",
+        "en": "will be, will become (expectations), formal, objective forecast, inevitability",
+        "uk": "буде, стане (очікування), формальний, об'єктивний прогноз, неминучість",
+        "ar": "سيكون، سيصبح (توقعات)، توقع رسمي، موضوعي، حتمية",
+        "fa": "خواهد بود، خواهد شد (انتظارات)، پیش‌بینی رسمی، عینی، اجتناب‌ناپذیری",
+        "so": "wuxuu noqon doonaa, wuxuu noqon doonaa (filashooyin), saadaal rasmi ah, ujeedo, lama huraan",
+        "es": "será, se convertirá (expectativas), pronóstico formal, objetivo, inevitabilidad",
+        "de": "wird sein, wird werden (Erwartungen), formelle, objektive Prognose, Unvermeidlichkeit",
+        "fr": "sera, deviendra (attentes), prévision formelle, objective, inévitabilité",
+        "pl": "będzie, stanie się (oczekiwania), formalna, obiektywna prognoza, nieuchronność",
+        "id": "akan menjadi, akan menjadi (harapan), ramalan formal, objektif, keniscayaan",
+        "hi": "होगा, बन जाएगा (उम्मीदें), औपचारिक, वस्तुनिष्ठ पूर्वानुमान, अनिवार्यता",
+        "zh": "将会是，将会成为（期望），正式，客观预测，不可避免性",
+        "it": "sarà, diventerà (aspettative), previsione formale, obiettiva, inevitabilità",
+        "tr": "olacak, olacak (beklentiler), resmi, nesnel tahmin, kaçınılmazlık",
+        "sr": "биће, постаће (очекивања), формална, објективна прогноза, неизбежност",
+        "fi": "tulee olemaan, tulee (odotukset), muodollinen, objektiivinen ennuste, väistämättömyys",
+        "et": "saab olema, saab (ootused), ametlik, objektiivne prognoos, vältimatus",
+        "be": "будзе, стане (чаканні), фармальны, аб'ектыўны прагноз, непазбежнасць",
+        "lv": "būs, kļūs (gaidas), formāla, objektīva prognoze, neizbēgamība",
+        "lt": "bus, taps (lūkesčiai), oficiali, objektyvi prognozė, neišvengiamumas"
+      },
+      "examples": [
+        {
+          "text": "Det kommer att bli kallt imorgon"
+        },
+        {
+          "text": "Det kommer att bli en varm sommar"
+        },
+        {
+          "text": "Det kommer att bli regnigt hela veckan"
+        },
+        {
+          "text": "Det kommer att bli snöstorm på fredag"
+        },
+        {
+          "text": "Det kommer att bli soligt vid kusten"
+        },
+        {
+          "text": "Det kommer att bli en fantastisk fest! Det kommer att bli en lång dag på jobbet"
+        },
+        {
+          "text": "Det kommer att bli en spännande match"
+        },
+        {
+          "text": "Det kommer att bli ett stort projekt nästa år"
+        },
+        {
+          "text": "Det kommer att bli en tuff utmaning"
+        },
+        {
+          "text": "Det kommer att bli bättre snart"
+        },
+        {
+          "text": "Det kommer att bli svårt i början, men lättare senare"
+        },
+        {
+          "text": "Det kommer att bli tystare när renoveringen är klar"
+        },
+        {
+          "text": "Det kommer att bli en ny policy på företaget"
+        },
+        {
+          "text": "Det kommer att bli möjligt att arbeta hemifrån oftare."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c5f051ec-9f77-4480-89c7-91db82c769d4",
+      "version": -1,
+      "word": "stämmer det?",
+      "translations": {
+        "ru": "Это правда? Это правильно?",
+        "en": "Is it true? Is it correct?",
+        "uk": "Це правда? Це правильно?",
+        "ar": "هل هذا صحيح؟ هل هذا دقيق؟",
+        "fa": "آیا این درست است؟ آیا این صحیح است؟",
+        "so": "Ma run baa? Ma sax baa?",
+        "es": "¿Es verdad? ¿Es correcto?",
+        "de": "Ist es wahr? Ist es richtig?",
+        "fr": "Est-ce vrai ? Est-ce correct ?",
+        "pl": "Czy to prawda? Czy to poprawne?",
+        "id": "Apakah ini benar? Apakah ini benar?",
+        "hi": "क्या यह सच है? क्या यह सही है?",
+        "zh": "这是真的吗？这是正确的吗？",
+        "it": "È vero? È corretto?",
+        "tr": "Bu doğru mu? Bu doğru mu?",
+        "sr": "Да ли је то истина? Да ли је то тачно?",
+        "fi": "Onko se totta? Onko se oikein?",
+        "et": "Kas see on tõsi? Kas see on õige?",
+        "be": "Гэта праўда? Гэта правільна?",
+        "lv": "Vai tas ir taisnība? Vai tas ir pareizi?",
+        "lt": "Ar tai tiesa? Ar tai teisinga?"
+      },
+      "examples": [
+        {
+          "text": "Stämmer det att du ska flytta till Stockholm? Stämmer det att du har fått ett nytt jobb? Stämmer det att butiken ska stänga? Stämmer det att mötet börjar klockan 10? Stämmer det att vi ska lämna in rapporten senast på fredag? Jag hörde att priserna har gått upp"
+        },
+        {
+          "text": "Stämmer det?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bddbe49e-6070-4e5f-8b7c-2092fd7d5476",
+      "version": -1,
+      "word": "Är det sant?",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Är det sant? Jag trodde han skojade"
+        },
+        {
+          "text": "Är det sant att du ska flytta till Göteborg? Är det verkligen sant? – Jag har aldrig varit i Stockholm"
+        },
+        {
+          "text": "– Är det sant? Är det sant att du kan tala fem språk? Det låter galet! Är det sant? Är det sant att det ska snöa imorgon? Är det sant vad de sa på nyheterna? Är det sant att han vann? Jag hörde något konstigt… är det sant?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "843610f2-e4b7-4740-833a-fc275ea95931",
+      "version": -1,
+      "word": "Är det korrekt?",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Är det korrekt att använda det ordet här? Är det korrekt enligt grammatiken? Är det korrekt att du anländer klockan 10? Är det korrekt att säga \"Jag mår bra\"? Är det korrekt att han är född 1988? Är det korrekt att sätta punkt här? Det låter korrekt, men jag är inte säker"
+        },
+        {
+          "text": "Är det korrekt enligt svensk lag? Nej, det är inte helt korrekt – vi säger så här istället."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0865b4e3-c5fa-47b1-9616-5eecf63a7da7",
+      "version": -1,
+      "word": "(men) det gör inget",
+      "translations": {
+        "ru": "это не имеет значения но это неважно но ничего страшного но не беда",
+        "en": "it doesn't matter, but it's okay, no problem",
+        "uk": "це не має значення, але це нормально, без проблем",
+        "ar": "لا يهم، لكن لا بأس، لا مشكلة",
+        "fa": "مهم نیست، اما اشکالی ندارد، مشکلی نیست",
+        "so": "ma aha wax muhiim ah, laakiin waa hagaag, dhibaato ma leh",
+        "es": "no importa, pero está bien, no hay problema",
+        "de": "es spielt keine Rolle, aber es ist okay, kein Problem",
+        "fr": "ce n'est pas grave, mais c'est d'accord, pas de problème",
+        "pl": "to nie ma znaczenia, ale jest w porządku, nie ma problemu",
+        "id": "tidak masalah, tapi tidak apa-apa, tidak ada masalah",
+        "hi": "कोई बात नहीं, लेकिन यह ठीक है, कोई समस्या नहीं",
+        "zh": "没关系，但没问题，没问题",
+        "it": "non importa, ma va bene, nessun problema",
+        "tr": "önemli değil, ama sorun değil, problem yok",
+        "sr": "није важно, али је у реду, нема проблема",
+        "fi": "ei haittaa, mutta se on ok, ei ongelmaa",
+        "et": "see ei ole oluline, aga see on okei, pole probleemi",
+        "be": "гэта не мае значэння, але гэта нармальна, няма праблем",
+        "lv": "tas nav svarīgi, bet tas ir labi, nav problēmu",
+        "lt": "tai nesvarbu, bet viskas gerai, jokių problemų"
+      },
+      "examples": [
+        {
+          "text": "sovrum är litet men det gör inget, Jag är lite sen, men det gör inget"
+        },
+        {
+          "text": "Det regnar, men det gör inget – vi har paraply"
+        },
+        {
+          "text": "Jag gjorde ett misstag, men det gör inget"
+        },
+        {
+          "text": "Vi missade bussen, men det gör inget – vi kan gå"
+        },
+        {
+          "text": "Jag glömde köpa mjölk, men det gör inget, vi klarar oss ändå"
+        },
+        {
+          "text": "Han kan inte komma idag, men det gör inget, vi ses en annan dag"
+        },
+        {
+          "text": "Jag tappade min penna, men det gör inget, jag har en extra"
+        },
+        {
+          "text": "Hon är lite nervös inför provet, men det gör inget – hon är väl förberedd"
+        },
+        {
+          "text": "Vi hade planerat en utflykt, men det började regna"
+        },
+        {
+          "text": "Men det gör inget, vi kan titta på film istället"
+        },
+        {
+          "text": "Jag vet att jag glömde din födelsedag, men det gör inget, jag firar dig idag istället! Förlåt, jag kom för sent"
+        },
+        {
+          "text": "– Det gör inget! Jag tappade din penna"
+        },
+        {
+          "text": "Oj, jag spillde kaffe på bordet! – Det gör inget, jag torkar upp det"
+        },
+        {
+          "text": "Jag sa fel"
+        },
+        {
+          "text": "– Det gör inget, jag förstod vad du menade"
+        },
+        {
+          "text": "Jag gjorde ett misstag"
+        },
+        {
+          "text": "– Det gör inget, vi kan fixa det"
+        },
+        {
+          "text": "Vi missade bussen"
+        },
+        {
+          "text": "– Det gör inget, vi kan ta nästa"
+        },
+        {
+          "text": "Oj, jag råkade radera filen! – Det gör inget, jag har en backup."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "925e2069-6cc4-4444-9b0a-748c74552dfe",
+      "version": -1,
+      "word": "Det spelar ingen roll",
+      "translations": {
+        "ru": "это не имеет значения Неважно",
+        "en": "it doesn't matter, it's unimportant",
+        "uk": "це не має значення, це неважливо",
+        "ar": "لا يهم، إنه غير مهم",
+        "fa": "مهم نیست، بی‌اهمیت است",
+        "so": "maahan muhiim, ma ahan muhiim",
+        "es": "no importa, no es importante",
+        "de": "es spielt keine Rolle, es ist unwichtig",
+        "fr": "ça n'a pas d'importance, c'est sans importance",
+        "pl": "to nie ma znaczenia, to nieważne",
+        "id": "tidak masalah, tidak penting",
+        "hi": "कोई फर्क नहीं पड़ता, यह महत्वपूर्ण नहीं है",
+        "zh": "这不重要, 不重要",
+        "it": "non importa, non è importante",
+        "tr": "önemli değil, önemsiz",
+        "sr": "није важно, небитно је",
+        "fi": "sillä ei ole merkitystä, se on merkityksetön",
+        "et": "see ei ole oluline, see on tähtsusetu",
+        "be": "гэта не мае значэння, гэта не важна",
+        "lv": "tam nav nozīmes, tas nav svarīgi",
+        "lt": "tai nesvarbu, tai nėra svarbu"
+      },
+      "examples": [
+        {
+          "text": "Det spelar ingen roll vilken färg du väljer"
+        },
+        {
+          "text": "Det spelar ingen roll om vi går nu eller senare"
+        },
+        {
+          "text": "Oj, jag glömde köpa mjölk"
+        },
+        {
+          "text": "Det spelar ingen roll, vi klarar oss utan det"
+        },
+        {
+          "text": "Det spelar ingen roll vad de säger, vi gör som vi vill"
+        },
+        {
+          "text": "Det spelar ingen roll om det regnar, vi går ändå ut"
+        },
+        {
+          "text": "Det spelar ingen roll hur mycket du tränar om du inte äter bra"
+        },
+        {
+          "text": "Det spelar ingen roll hur gammal du är, du kan alltid lära dig något nytt"
+        },
+        {
+          "text": "Det spelar ingen roll var vi träffas, bara vi ses"
+        },
+        {
+          "text": "Det spelar ingen roll vem som vann, det viktigaste är att vi hade kul"
+        },
+        {
+          "text": "Det spelar ingen roll om vi tar bilen eller tåget, vi kommer dit ändå"
+        },
+        {
+          "text": "Det spelar ingen roll hur länge du väntar, vissa saker förändras aldrig"
+        },
+        {
+          "text": "Det spelar ingen roll hur dyrt det är, det är värt det"
+        },
+        {
+          "text": "Det spelar ingen roll om du gör fel, det viktigaste är att du försöker."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2fecb039-8874-43ac-a27c-c24ef169a53c",
+      "version": -1,
+      "word": "Hur fungerar det med ...?",
+      "translations": {
+        "ru": "Как это работает с ...?» / Как обстоит дело с ...?",
+        "en": "How does it work with...? / How is it with...?",
+        "uk": "Як це працює з...? / Як йдуть справи з...?",
+        "ar": "كيف يعمل مع ...؟ / كيف هو مع ...؟",
+        "fa": "چگونه با ... کار می‌کند؟ / چگونه است با ...؟",
+        "so": "Sidee buu ula shaqeeyaa...? / Sidee bay tahay la...? ",
+        "es": "¿Cómo funciona con...? / ¿Cómo está con...?",
+        "de": "Wie funktioniert es mit...? / Wie ist es mit...?",
+        "fr": "Comment ça marche avec...? / Comment ça se passe avec...?",
+        "pl": "Jak to działa z...? / Jak jest z...?",
+        "id": "Bagaimana cara kerjanya dengan...? / Bagaimana dengan...?",
+        "hi": "यह ... के साथ कैसे काम करता है? / यह ... के साथ कैसा है?",
+        "zh": "它如何与...一起工作？/ 它与...如何？",
+        "it": "Come funziona con...? / Com'è con...?",
+        "tr": "Bu nasıl çalışıyor...? / Bu nasıl...?",
+        "sr": "Како то функционише са...? / Како је са...?",
+        "fi": "Miten se toimii...? / Miten on...?",
+        "et": "Kuidas see töötab koos...? / Kuidas on lood...?",
+        "be": "Як гэта працуе з...? / Як ідуць справы з...?",
+        "lv": "Kā tas darbojas ar...? / Kā ir ar...?",
+        "lt": "Kaip tai veikia su...? / Kaip yra su...?"
+      },
+      "examples": [
+        {
+          "text": "Hur fungerar det med kollektivtrafiken i Stockholm? Hur fungerar det med att hyra en lägenhet här? Hur fungerar det med betalningen? Hur fungerar det med semesterdagar på ditt jobb? Hur fungerar det med att få uppehållstillstånd? Hur fungerar det med försäkringar om man blir sjuk? Hur fungerar det med skolsystemet i Sverige? Hur fungerar det med att ansöka om bidrag? Hur fungerar det med pensionen här? det gör inget"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

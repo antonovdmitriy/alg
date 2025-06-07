@@ -1,0 +1,445 @@
+{
+  "id": "8ee932da-c919-4a0f-afd4-c1ae4ec6e457",
+  "translations": {
+    "ru": "Пословицы, крылатые фразы",
+    "en": "Proverbs and sayings",
+    "uk": "Прислів'я та крилаті фрази",
+    "ar": "الأمثال والعبارات المأثورة",
+    "fa": "ضرب‌المثل‌ها و عبارات معروف",
+    "so": "Maahmaahyo iyo odhaahyo",
+    "es": "Proverbios y dichos",
+    "de": "Sprichwörter und Redewendungen",
+    "fr": "Proverbes et expressions",
+    "pl": "Przysłowia i powiedzenia",
+    "id": "Peribahasa dan ungkapan",
+    "hi": "कहावतें और मुहावरे",
+    "zh": "谚语和俗语",
+    "it": "Proverbi e modi di dire",
+    "tr": "Atasözleri ve deyimler",
+    "sr": "Пословице и изреке",
+    "fi": "Sanonnat ja lentävät lauseet",
+    "et": "Vanad sõnad ja väljendid",
+    "be": "Прыказкі і крылатыя фразы",
+    "lv": "Sakāmvārdi un teicieni",
+    "lt": "Patarlių ir posakių"
+  },
+  "entries": [
+    {
+      "id": "577173d4-b2a2-4d44-9a88-4c5a2d672c12",
+      "version": -1,
+      "word": "det är ingen ko på isen",
+      "translations": {
+        "ru": "Всё в порядке / ничего страшного. Нет коровы на льду. Нет повода для волнения",
+        "en": "Everything's fine / no problem. No reason to worry.",
+        "uk": "Все гаразд / нічого страшного. Немає причин для хвилювання.",
+        "ar": "كل شيء على ما يرام / لا مشكلة. لا داعي للقلق.",
+        "fa": "همه چیز خوب است / مشکلی نیست. دلیلی برای نگرانی وجود ندارد.",
+        "so": "Wax walba waa hagaagsan yihiin / dhibaato ma jirto. Sabab looma baahna in la walwalo.",
+        "es": "Todo está bien / no hay problema. No hay razón para preocuparse.",
+        "de": "Alles in Ordnung / kein Problem. Kein Grund zur Sorge.",
+        "fr": "Tout va bien / pas de problème. Pas de raison de s'inquiéter.",
+        "pl": "Wszystko w porządku / nie ma problemu. Nie ma powodu do niepokoju.",
+        "id": "Semuanya baik-baik saja / tidak ada masalah. Tidak ada alasan untuk khawatir.",
+        "hi": "सब कुछ ठीक है / कोई समस्या नहीं है। चिंता की कोई बात नहीं है।",
+        "zh": "一切都好 / 没问题。没有理由担心。",
+        "it": "Tutto va bene / nessun problema. Nessun motivo di preoccupazione.",
+        "tr": "Her şey yolunda / sorun yok. Endişelenecek bir neden yok.",
+        "sr": "Све је у реду / нема проблема. Нема разлога за бригу.",
+        "fi": "Kaikki on hyvin / ei ongelmaa. Ei syytä huoleen.",
+        "et": "Kõik on korras / pole probleemi. Pole põhjust muretsemiseks.",
+        "be": "Усё ў парадку / няма праблем. Няма падстаў для хвалявання.",
+        "lv": "Viss ir kārtībā / nav problēmu. Nav iemesla uztraukties.",
+        "lt": "Viskas gerai / jokių problemų. Nėra priežasties nerimauti."
+      },
+      "examples": [
+        {
+          "text": "– Jag är lite sen, förlåt! – Ingen fara, det är ingen ko på isen"
+        },
+        {
+          "text": "Om vi missar bussen, är det ingen ko på isen – det går en till om tio minuter"
+        },
+        {
+          "text": "– Vi har inte städat än! – Lugna dig, det är ingen ko på isen"
+        },
+        {
+          "text": "– Du glömde skriva ut biljetten"
+        },
+        {
+          "text": "– Det är ingen ko på isen, jag har den i mobilen"
+        },
+        {
+          "text": "– Jag tror vi glömde mjölken! – Äsch, det är ingen ko på isen, vi köper imorgon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f8666b50-cb05-43ad-b314-cf23b66a4984",
+      "version": -1,
+      "word": "Det ligger en hund begraven",
+      "translations": {
+        "ru": "«Здесь что-то нечисто» или «Здесь кроется подвох».. Здесь зарыта собака.",
+        "en": "There's something fishy here. There's a catch. That's where the problem lies.",
+        "uk": "Тут щось нечисто. Тут є підступ. Тут закопана собака.",
+        "ar": "هناك شيء مريب هنا. هناك خدعة. هنا تكمن المشكلة.",
+        "fa": "اینجا چیزی مشکوک است. یک نکته پنهان وجود دارد. مشکل اینجاست.",
+        "so": "Halkan wax baa qaldan. Wax baa qarsoon. Halkaas ayaa dhibaatadu ku jirtaa.",
+        "es": "Aquí hay algo sospechoso. Hay una trampa. Ahí es donde está el problema.",
+        "de": "Hier ist etwas faul. Es gibt einen Haken. Da liegt das Problem.",
+        "fr": "Il y a quelque chose de louche ici. Il y a un piège. C'est là que réside le problème.",
+        "pl": "Coś tu jest podejrzane. Jest tu haczyk. Tu leży problem.",
+        "id": "Ada sesuatu yang mencurigakan di sini. Ada jebakan. Di situlah letak masalahnya.",
+        "hi": "यहाँ कुछ गड़बड़ है। यहाँ कोई चाल है। समस्या यहीं है।",
+        "zh": "这里有些可疑。这里有陷阱。问题就出在这里。",
+        "it": "C'è qualcosa di sospetto qui. C'è un trucco. È lì che sta il problema.",
+        "tr": "Burada bir gariplik var. Bir tuzak var. Sorun burada yatıyor.",
+        "sr": "Овде нешто није у реду. Постоји замка. Ту лежи проблем.",
+        "fi": "Täällä on jotain hämärää. Tässä on koukku. Siinä on ongelman ydin.",
+        "et": "Siin on midagi kahtlast. Siin on konks. Siin peitub probleem.",
+        "be": "Тут нешта нячыста. Тут ёсць падвох. Тут пахавана сабака.",
+        "lv": "Šeit kaut kas nav kārtībā. Te ir kāds āķis. Te slēpjas problēma.",
+        "lt": "Čia kažkas neaiškaus. Čia yra kabliukas. Čia slypi problema."
+      },
+      "examples": [
+        {
+          "text": "Vi fick ett väldigt billigt erbjudande, men jag tror att det ligger en hund begraven"
+        },
+        {
+          "text": "Allt verkar bra på ytan, men det känns som att det ligger en hund begraven"
+        },
+        {
+          "text": "De säger att allt är löst, men jag tror att det ligger en hund begraven"
+        },
+        {
+          "text": "Om någon erbjuder något gratis, kan du räkna med att det ligger en hund begraven"
+        },
+        {
+          "text": "Det låter för bra för att vara sant"
+        },
+        {
+          "text": "Det måste ligga en hund begraven någonstans."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4bde0c00-a63d-475d-a0fa-6e33c5b0cdd5",
+      "version": -1,
+      "word": "att ana ugglor i mossen",
+      "translations": {
+        "ru": "Что-то не так, что-то странное. Чувствовать (подозревать), что в болоте совы.",
+        "en": "Something's off, something's strange. To sense (suspect) that something is wrong.",
+        "uk": "Щось не так, щось дивне. Відчувати (підозрювати), що щось не так.",
+        "ar": "هناك شيء غير صحيح، شيء غريب. الشعور (الشك) بأن هناك خطأ ما.",
+        "fa": "چیزی درست نیست، چیزی عجیب است. حس کردن (شک کردن) که چیزی اشتباه است.",
+        "so": "Waxbaa khaldan, waxbaa la yaab leh. Dareemid (shakid) in wax khaldan yahay.",
+        "es": "Algo está mal, algo es extraño. Sentir (sospechar) que algo está mal.",
+        "de": "Etwas stimmt nicht, etwas ist seltsam. Das Gefühl (der Verdacht), dass etwas nicht stimmt.",
+        "fr": "Quelque chose ne va pas, quelque chose est étrange. Sentir (soupçonner) que quelque chose ne va pas.",
+        "pl": "Coś jest nie tak, coś jest dziwne. Czuć (podejrzewać), że coś jest nie tak.",
+        "id": "Ada yang salah, ada yang aneh. Merasakan (mencurigai) bahwa ada yang salah.",
+        "hi": "कुछ गड़बड़ है, कुछ अजीब है। महसूस करना (संदेह करना) कि कुछ गलत है।",
+        "zh": "有些不对劲，有些奇怪。感觉（怀疑）有什么不对。",
+        "it": "Qualcosa non va, qualcosa è strano. Sentire (sospettare) che qualcosa non va.",
+        "tr": "Bir şeyler ters, bir şeyler garip. Bir şeylerin yanlış olduğunu hissetmek (şüphelenmek).",
+        "sr": "Нешто није у реду, нешто је чудно. Осећати (сумњати) да нешто није у реду.",
+        "fi": "Jokin on pielessä, jokin on outoa. Tuntea (epäillä), että jokin on vialla.",
+        "et": "Midagi on valesti, midagi on kummaline. Tunda (kahtlustada), et midagi on valesti.",
+        "be": "Нешта не так, нешта дзіўнае. Адчуваць (падазраваць), што нешта не так.",
+        "lv": "Kaut kas nav kārtībā, kaut kas ir dīvains. Just (aizdomāties), ka kaut kas nav kārtībā.",
+        "lt": "Kažkas ne taip, kažkas keista. Jausti (įtarti), kad kažkas negerai."
+      },
+      "examples": [
+        {
+          "text": "Det är något konstigt med det här avtalet"
+        },
+        {
+          "text": "Jag anar ugglor i mossen"
+        },
+        {
+          "text": "När han kom hem tidigare än vanligt, började hon ana ugglor i mossen"
+        },
+        {
+          "text": "Om ett erbjudande låter för bra för att vara sant, bör du ana ugglor i mossen"
+        },
+        {
+          "text": "När priset på bilen var så lågt, började jag ana ugglor i mossen"
+        },
+        {
+          "text": "Det känns som om något är fel här"
+        },
+        {
+          "text": "Jag anar ugglor i mossen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "840afe27-33ca-4337-a8ae-17e20f8cdbf6",
+      "version": -1,
+      "word": "Inte ha rent mjöl i påsen",
+      "translations": {
+        "ru": "когда кто-то что-то скрывает. Не имеет чистой муки в сумке.",
+        "en": "when someone is hiding something. To have a skeleton in the closet.",
+        "uk": "коли хтось щось приховує. Мати скелет у шафі.",
+        "ar": "عندما يخفي شخص ما شيئًا. لديه هيكل عظمي في الخزانة.",
+        "fa": "وقتی کسی چیزی را پنهان می‌کند. داشتن اسکلت در کمد.",
+        "so": "marka qof uu wax qarinayo. Inaad iskelet ku leedahay armaajo.",
+        "es": "cuando alguien está ocultando algo. Tener un esqueleto en el armario.",
+        "de": "wenn jemand etwas versteckt. Eine Leiche im Keller haben.",
+        "fr": "quand quelqu'un cache quelque chose. Avoir un squelette dans le placard.",
+        "pl": "kiedy ktoś coś ukrywa. Mieć trupa w szafie.",
+        "id": "ketika seseorang menyembunyikan sesuatu. Memiliki kerangka di lemari.",
+        "hi": "जब कोई कुछ छुपा रहा हो। अलमारी में कंकाल होना।",
+        "zh": "当某人隐藏某事时。衣柜里有骷髅。",
+        "it": "quando qualcuno nasconde qualcosa. Avere uno scheletro nell'armadio.",
+        "tr": "birisi bir şey sakladığında. Dolapta iskelet bulundurmak.",
+        "sr": "када неко нешто крије. Имати костура у орману.",
+        "fi": "kun joku piilottelee jotain. Olla luuranko kaapissa.",
+        "et": "kui keegi midagi varjab. Omada luukere kapis.",
+        "be": "калі нехта нешта хавае. Мець шкілет у шафе.",
+        "lv": "kad kāds kaut ko slēpj. Ir skelets skapī.",
+        "lt": "kai kas nors kažką slepia. Turėti skeletą spintoje."
+      },
+      "examples": [
+        {
+          "text": "Om någon beter sig misstänkt kanske de inte har rent mjöl i påsen"
+        },
+        {
+          "text": "Om du har rent mjöl i påsen, behöver du inte vara orolig för en granskning"
+        },
+        {
+          "text": "När företaget granskades upptäckte man att de inte hade rent mjöl i påsen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2027d9fe-ac50-43ac-a7a4-a1fec298a230",
+      "version": 1,
+      "word": "nu är det kokta fläsket stekt",
+      "translations": {
+        "ru": "Теперь всё пропало! Теперь нам крышка! Вареная свинина жарится",
+        "en": "It's all over now! We're doomed! The cooked pork is frying.",
+        "uk": "Тепер все пропало! Нам кінець! Варена свинина смажиться.",
+        "ar": "لقد انتهى كل شيء الآن! نحن هالكون! لحم الخنزير المطبوخ يقلى.",
+        "fa": "همه چیز تمام شد! ما محکوم به فنا هستیم! گوشت خوک پخته در حال سرخ شدن است.",
+        "so": "Wax walba way dhammaadeen hadda! Waxaan ku jirnaa halis! Doofaarka la kariyey ayaa shiilaya.",
+        "es": "¡Todo ha terminado ahora! ¡Estamos condenados! El cerdo cocido se está friendo.",
+        "de": "Es ist jetzt alles vorbei! Wir sind verloren! Das gekochte Schweinefleisch brät.",
+        "fr": "Tout est fini maintenant ! Nous sommes condamnés ! Le porc cuit est en train de frire.",
+        "pl": "To już koniec! Jesteśmy zgubieni! Gotowana wieprzowina się smaży.",
+        "id": "Semuanya sudah berakhir sekarang! Kita hancur! Daging babi yang dimasak sedang digoreng.",
+        "hi": "अब सब खत्म हो गया! हम बर्बाद हो गए हैं! पका हुआ सूअर का मांस तल रहा है।",
+        "zh": "现在一切都结束了！我们完蛋了！煮熟的猪肉正在煎。",
+        "it": "È tutto finito ora! Siamo spacciati! Il maiale cotto sta friggendo.",
+        "tr": "Artık her şey bitti! Mahvolduk! Pişmiş domuz eti kızarıyor.",
+        "sr": "Сада је све готово! Пропали смо! Кувана свињетина се пржи.",
+        "fi": "Nyt on kaikki ohi! Olemme tuhoon tuomittuja! Keitetty porsas paistuu.",
+        "et": "Nüüd on kõik läbi! Me oleme hukule määratud! Keedetud sealiha praeb.",
+        "be": "Цяпер усё прапала! Нам канец! Вараная свініна смажыцца.",
+        "lv": "Tagad viss ir beidzies! Mēs esam nolemti! Vārīta cūkgaļa cepas.",
+        "lt": "Dabar viskas baigta! Mes pasmerkti! Virta kiauliena kepa."
+      },
+      "examples": [
+        {
+          "text": "– Chefen såg mej komma för sent.."
+        },
+        {
+          "text": "– Haha!"
+        },
+        {
+          "text": "Nu är det kokta fläsket stekt!"
+        },
+        {
+          "text": "Om vi inte skickar in deklarationen idag – nu är det kokta fläsket stekt!"
+        },
+        {
+          "text": "– Glömde du radera filerna innan du skickade?"
+        },
+        {
+          "text": "– Ja.."
+        },
+        {
+          "text": "– Åh nej"
+        },
+        {
+          "text": "Nu är det kokta fläsket stekt"
+        },
+        {
+          "text": "Barnen målade på väggen igen! Nu är det kokta fläsket stekt när mamma kommer hem"
+        },
+        {
+          "text": "Jag tryckte fel knapp och allt försvann"
+        },
+        {
+          "text": "Nu är det kokta fläsket stekt..."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1510b529-d2bf-4f76-b6e6-098c305e1f61",
+      "version": -1,
+      "word": "hålla tummarna",
+      "translations": {
+        "ru": "Жест пожелания удачи, держать кулаки или большие пальцы",
+        "en": "gesture for wishing luck, to keep one's fingers or thumbs crossed",
+        "uk": "жест для побажання удачі, тримати пальці або великі пальці схрещеними",
+        "ar": "إيماءة لتمني الحظ، إبقاء الأصابع أو الإبهام متقاطعة",
+        "fa": "اشاره برای آرزوی موفقیت، انگشتان یا شست‌ها را ضربدری نگه داشتن",
+        "so": "dhaqaaq loogu talagalay in lagu rajeeyo nasiib, faraha ama suulasha la isdhaafsado",
+        "es": "gesto para desear suerte, mantener los dedos o pulgares cruzados",
+        "de": "Geste zum Wünschen von Glück, die Finger oder Daumen gekreuzt halten",
+        "fr": "geste pour souhaiter bonne chance, garder les doigts ou les pouces croisés",
+        "pl": "gest na życzenie powodzenia, trzymać palce lub kciuki skrzyżowane",
+        "id": "gerakan untuk mengharapkan keberuntungan, menjaga jari atau ibu jari tetap bersilang",
+        "hi": "सौभाग्य की कामना के लिए इशारा, उंगलियों या अंगूठों को क्रॉस करना",
+        "zh": "祝好运的手势，保持手指或拇指交叉",
+        "it": "gesto per augurare fortuna, tenere le dita o i pollici incrociati",
+        "tr": "şans dilemek için jest, parmakları veya başparmakları çapraz tutmak",
+        "sr": "гест за жељење среће, држати прсте или палчеве прекрштене",
+        "fi": "ele onnen toivottamiseksi, pitää sormet tai peukalot ristissä",
+        "et": "žest õnne soovimiseks, hoida sõrmed või pöidlad risti",
+        "be": "жэст для пажадання поспеху, трымаць пальцы або вялікія пальцы скрыжаванымі",
+        "lv": "žests veiksmes vēlēšanai, turēt pirkstus vai īkšķus sakrustotus",
+        "lt": "gestas sėkmės linkėjimui, laikyti pirštus arba nykščius sukryžiuotus"
+      },
+      "examples": [
+        {
+          "text": "jag håller tummarna att det ska hända"
+        },
+        {
+          "text": "jag håller tummarna för min vän"
+        },
+        {
+          "text": "Jag ska hålla tummarna för dig på provet imorgon! Vi höll tummarna när laget spelade finalen"
+        },
+        {
+          "text": "Håll tummarna att det blir fint väder på bröllopet! Hon sa: \"Jag håller tummarna för att du får jobbet!\" Vi håller tummarna för att resan ska gå bra"
+        },
+        {
+          "text": "Håll tummarna för att jag inte blir sjuk inför semestern"
+        },
+        {
+          "text": "De höll tummarna när deras vän deltog i tävlingen"
+        },
+        {
+          "text": "Håll tummarna att tåget inte blir försenat! Jag behöver verkligen tur, så håll tummarna för mig"
+        },
+        {
+          "text": "Vi kommer alla att hålla tummarna för att det går bra för dig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5fbbe328-48ec-4626-88f0-06d8a8acdf68",
+      "version": -1,
+      "word": "Hälsan tiger still",
+      "translations": {
+        "ru": "Здоровье хранит тишину",
+        "en": "Health is silent",
+        "uk": "Здоров'я зберігає тишу",
+        "ar": "الصحة صامتة",
+        "fa": "سلامتی خاموش است",
+        "so": "Caafimaadku waa aamusan yahay",
+        "es": "La salud es silenciosa",
+        "de": "Gesundheit ist still",
+        "fr": "La santé est silencieuse",
+        "pl": "Zdrowie jest ciche",
+        "id": "Kesehatan itu diam",
+        "hi": "स्वास्थ्य मौन है",
+        "zh": "健康是无声的",
+        "it": "La salute è silenziosa",
+        "tr": "Sağlık sessizdir",
+        "sr": "Здравље је тихо",
+        "fi": "Terveys on hiljainen",
+        "et": "Tervis on vaikne",
+        "be": "Здароўе маўчыць",
+        "lv": "Veselība ir klusa",
+        "lt": "Sveikata yra tyli"
+      },
+      "examples": [
+        {
+          "text": "Hälsan tiger still, men när man blir sjuk inser man hur viktigt det är"
+        },
+        {
+          "text": "Man glömmer lätt bort hur viktigt det är att vara frisk, hälsan tiger still"
+        },
+        {
+          "text": "Hälsan tiger still, men sjukdomen gör sig alltid hörd"
+        },
+        {
+          "text": "När jag var ung tänkte jag inte så mycket på min kropp, för hälsan tiger still"
+        },
+        {
+          "text": "Det är lätt att glömma att uppskatta livet när allt känns bra – hälsan tiger still"
+        },
+        {
+          "text": "Jag har lärt mig att ta hand om mig själv, för även om hälsan tiger still, är den inte självklar"
+        },
+        {
+          "text": "Som talesättet säger: Hälsan tiger still, men vi borde prata mer om vikten av att må bra."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "08541768-244a-4fc2-be73-a607db27a663",
+      "version": -1,
+      "word": "att kratta manegen",
+      "translations": {
+        "ru": "Подготовить почву , подготовить условия",
+        "en": "to prepare the ground, to set the stage",
+        "uk": "підготувати ґрунт, створити умови",
+        "ar": "تحضير الأرض، تهيئة الظروف",
+        "fa": "آماده‌سازی زمین، فراهم کردن شرایط",
+        "so": "u diyaari dhulka, u diyaari xaaladaha",
+        "es": "preparar el terreno, crear las condiciones",
+        "de": "den Boden bereiten, die Voraussetzungen schaffen",
+        "fr": "préparer le terrain, créer les conditions",
+        "pl": "przygotować grunt, stworzyć warunki",
+        "id": "mempersiapkan tanah, menciptakan kondisi",
+        "hi": "भूमि तैयार करना, मंच तैयार करना",
+        "zh": "准备地面，创造条件",
+        "it": "preparare il terreno, creare le condizioni",
+        "tr": "zemini hazırlamak, koşulları oluşturmak",
+        "sr": "припремити терен, створити услове",
+        "fi": "valmistella maaperää, luoda edellytykset",
+        "et": "ette valmistama maapinda, looma tingimusi",
+        "be": "падрыхтаваць глебу, стварыць умовы",
+        "lv": "sagatavot augsni, radīt apstākļus",
+        "lt": "paruošti dirvą, sukurti sąlygas"
+      },
+      "examples": [
+        {
+          "text": "Politikern krattade manegen för en ny reform"
+        },
+        {
+          "text": "De krattade manegen för det nya projektet genom att fixa all administration"
+        },
+        {
+          "text": "Föräldrarna krattade manegen så att barnen skulle få en bra start i livet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

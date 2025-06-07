@@ -1,0 +1,298 @@
+{
+  "id": "beb5b047-6ac7-4e24-acb4-6bee4f3bbe20",
+  "translations": {
+    "ru": "предлоги",
+    "en": "Prepositions",
+    "uk": "прийменники",
+    "ar": "حروف الجر",
+    "fa": "حروف اضافه",
+    "so": "ereyada isku xira",
+    "es": "preposiciones",
+    "de": "Präpositionen",
+    "fr": "prépositions",
+    "pl": "przyimki",
+    "id": "preposisi",
+    "hi": "पूर्वसर्ग",
+    "zh": "介词",
+    "it": "preposizioni",
+    "tr": "edatlar",
+    "sr": "предлози",
+    "fi": "prepositiot",
+    "et": "eessõnad",
+    "be": "прыназоўнікі",
+    "lv": "prievārdi",
+    "lt": "prielinksniai"
+  },
+  "entries": [
+    {
+      "id": "180a7050-92ea-4fb8-8c08-8761e918102c",
+      "version": 1,
+      "word": "hos",
+      "translations": {
+        "ru": "находиться в месте человека",
+        "en": "to be at a person's location",
+        "uk": "бути на місці людини",
+        "ar": "أن تكون في موقع الشخص",
+        "fa": "در مکان شخص بودن",
+        "so": "inuu joogo meesha qofka",
+        "es": "estar en la ubicación de una persona",
+        "de": "an einem Ort einer Person sein",
+        "fr": "être à l'emplacement d'une personne",
+        "pl": "być w miejscu osoby",
+        "id": "berada di lokasi seseorang",
+        "hi": "किसी व्यक्ति के स्थान पर होना",
+        "zh": "在某人的位置",
+        "it": "essere nella posizione di una persona",
+        "tr": "bir kişinin konumunda olmak",
+        "sr": "бити на месту особе",
+        "fi": "olla henkilön sijainnissa",
+        "et": "olla inimese asukohas",
+        "be": "знаходзіцца ў месцы чалавека",
+        "lv": "atrasties personas atrašanās vietā",
+        "lt": "būti asmens vietoje"
+      },
+      "examples": [
+        {
+          "text": "Jag är hos mamma/läkaren/en kompis/polisen"
+        },
+        {
+          "text": "Vi var hos grannarna i går"
+        },
+        {
+          "text": "Barnen är hos tandläkaren"
+        },
+        {
+          "text": "Jag är hos läkaren just nu"
+        },
+        {
+          "text": "Vi var hos farmor i helgen"
+        },
+        {
+          "text": "Hon bor fortfarande hos sina föräldrar"
+        },
+        {
+          "text": "Jag har ett möte hos banken"
+        },
+        {
+          "text": "Vi var hos Anna igår kväll"
+        },
+        {
+          "text": "Han jobbar hos Ericsson"
+        },
+        {
+          "text": "Jag åt middag hos en kompis"
+        },
+        {
+          "text": "Hos mig finns alltid kaffe!"
+        },
+        {
+          "text": "Var du hos tandläkaren i morse?"
+        },
+        {
+          "text": "De sov över hos oss i natt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f040189d-d6d1-48b9-b2ef-f8a39dd093aa",
+      "version": -1,
+      "word": "på",
+      "translations": {
+        "ru": "в публичном месте",
+        "en": "in a public place",
+        "uk": "у публічному місці",
+        "ar": "في مكان عام",
+        "fa": "در یک مکان عمومی",
+        "so": "meel dadweyne ah",
+        "es": "en un lugar público",
+        "de": "an einem öffentlichen Ort",
+        "fr": "dans un lieu public",
+        "pl": "w miejscu publicznym",
+        "id": "di tempat umum",
+        "hi": "सार्वजनिक स्थान पर",
+        "zh": "在公共场所",
+        "it": "in un luogo pubblico",
+        "tr": "halka açık bir yerde",
+        "sr": "на јавном месту",
+        "fi": "julkisella paikalla",
+        "et": "avalikus kohas",
+        "be": "у публічным месцы",
+        "lv": "publiskā vietā",
+        "lt": "viešoje vietoje"
+      },
+      "examples": [
+        {
+          "text": "Jag är på en restaurang/ett kaffe/universitetet"
+        },
+        {
+          "text": "Jag är på jobbet hela dagen"
+        },
+        {
+          "text": "Hon studerar på universitetet"
+        },
+        {
+          "text": "Vi var på restaurang i fredags"
+        },
+        {
+          "text": "Barnen är på skolan nu"
+        },
+        {
+          "text": "Han ligger på sjukhuset"
+        },
+        {
+          "text": "Jag träffade honom på banken"
+        },
+        {
+          "text": "De tränar på gymmet varje kväll"
+        },
+        {
+          "text": "Vi ska gå på bio i kväll"
+        },
+        {
+          "text": "Hon jobbar på apoteket"
+        },
+        {
+          "text": "Vi ses på biblioteket kl"
+        },
+        {
+          "text": "17."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7efde1ea-0b19-44ba-8492-f8885a6854a2",
+      "version": 1,
+      "word": "på",
+      "translations": {
+        "ru": "в направлении но с целью заняться активностью",
+        "en": "towards, but with the purpose to engage in an activity",
+        "uk": "у напрямку, але з метою зайнятися діяльністю",
+        "ar": "نحو، ولكن بهدف الانخراط في نشاط",
+        "fa": "به سمت، اما با هدف شرکت در یک فعالیت",
+        "so": "xagga, laakiin ujeedadu tahay in lagu hawlgalo",
+        "es": "hacia, pero con el propósito de participar en una actividad",
+        "de": "in Richtung, aber mit dem Ziel, sich an einer Aktivität zu beteiligen",
+        "fr": "vers, mais dans le but de s'engager dans une activité",
+        "pl": "w kierunku, ale z zamiarem zaangażowania się w działalność",
+        "id": "menuju, tetapi dengan tujuan untuk terlibat dalam suatu kegiatan",
+        "hi": "की ओर, लेकिन गतिविधि में शामिल होने के उद्देश्य से",
+        "zh": "朝向，但目的是参与一项活动",
+        "it": "verso, ma con l'intento di impegnarsi in un'attività",
+        "tr": "yönünde, ancak bir faaliyete katılma amacıyla",
+        "sr": "ка, али са циљем да се укључи у активност",
+        "fi": "kohti, mutta tarkoituksena osallistua toimintaan",
+        "et": "suunas, kuid eesmärgiga osaleda tegevuses",
+        "be": "у напрамку, але з мэтай заняцца дзейнасцю",
+        "lv": "virzienā, bet ar mērķi iesaistīties aktivitātē",
+        "lt": "link, bet su tikslu užsiimti veikla"
+      },
+      "examples": [
+        {
+          "text": "Jag ska gå på bio/museum/gym/krogen"
+        },
+        {
+          "text": "Jag ska gå på möte om en timme"
+        },
+        {
+          "text": "Hon brukar gå på yoga varje vecka"
+        },
+        {
+          "text": "Ska du på kurs nästa månad?"
+        },
+        {
+          "text": "Vi ska på fest hos Emma i helgen"
+        },
+        {
+          "text": "Jag har varit på bio två gånger i år"
+        },
+        {
+          "text": "Han går på teater med sin fru ibland"
+        },
+        {
+          "text": "Jag ska på läkarbesök i morgon"
+        },
+        {
+          "text": "Vi går på restaurang efter jobbet"
+        },
+        {
+          "text": "Har du varit på konferens tidigare?"
+        },
+        {
+          "text": "Jag ska på intervju i eftermiddag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "33cf7eb0-f13e-442d-a3b3-06f4b9d80e5f",
+      "version": -1,
+      "word": "ur",
+      "translations": {
+        "ru": "из, от, еще в выражении точки зрения. при движении изнутри наружу.",
+        "en": "from, out of, also expressing point of view; movement from inside to outside",
+        "uk": "з, зсередини, також вираження точки зору; рух зсередини назовні",
+        "ar": "من، من الداخل إلى الخارج، أيضًا تعبير عن وجهة نظر؛ حركة من الداخل إلى الخارج",
+        "fa": "از، بیرون از، همچنین بیان دیدگاه؛ حرکت از داخل به خارج",
+        "so": "ka, ka baxsan, sidoo kale muujinta aragtida; dhaqdhaqaaqa gudaha ilaa dibadda",
+        "es": "de, fuera de, también expresando punto de vista; movimiento de adentro hacia afuera",
+        "de": "von, aus, auch Ausdruck des Standpunkts; Bewegung von innen nach außen",
+        "fr": "de, hors de, exprimant également un point de vue; mouvement de l'intérieur vers l'extérieur",
+        "pl": "z, z wewnątrz, także wyrażenie punktu widzenia; ruch z wewnątrz na zewnątrz",
+        "id": "dari, keluar dari, juga mengekspresikan sudut pandang; gerakan dari dalam ke luar",
+        "hi": "से, बाहर, दृष्टिकोण व्यक्त करना भी; अंदर से बाहर की ओर गति",
+        "zh": "从，出于，也表示观点；从内到外的运动",
+        "it": "da, fuori da, anche esprimendo un punto di vista; movimento dall'interno all'esterno",
+        "tr": "den, dışarı, aynı zamanda bakış açısını ifade etme; içeriden dışarıya hareket",
+        "sr": "из, изнутра, такође изражавање тачке гледишта; кретање изнутра ка споља",
+        "fi": "sta, ulos, myös näkökulman ilmaiseminen; liike sisältä ulos",
+        "et": "seest, välja, samuti vaatenurga väljendamine; liikumine seestpoolt väljapoole",
+        "be": "з, знутры, таксама выражэнне пункту гледжання; рух знутры вонкі",
+        "lv": "no, ārā, arī izteikt viedokli; kustība no iekšpuses uz ārpusi",
+        "lt": "iš, išorėn, taip pat reiškiant požiūrį; judėjimas iš vidaus į išorę"
+      },
+      "examples": [
+        {
+          "text": "Han tog brevet ur väskan"
+        },
+        {
+          "text": "Filmen är baserad på en bok ur 1800-talet"
+        },
+        {
+          "text": "De kom ut ur huset snabbt"
+        },
+        {
+          "text": "Ur miljösynpunkt är det en dålig idé"
+        },
+        {
+          "text": "Hon klippte ut en artikel ur tidningen"
+        },
+        {
+          "text": "Hissen är ur funktion"
+        },
+        {
+          "text": "Han föll ur stolen av skratt"
+        },
+        {
+          "text": "Ur hans perspektiv var det rätt beslut"
+        },
+        {
+          "text": "Hon valdes ut ur en stor grupp sökande"
+        },
+        {
+          "text": "Ur skogen hördes konstiga ljud."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

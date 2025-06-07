@@ -1,0 +1,1360 @@
+{
+  "id": "c78fa44f-a5eb-4c31-8c39-cf9245c61dd2",
+  "translations": {
+    "ru": "цвета",
+    "en": "Colors",
+    "uk": "кольори",
+    "ar": "ألوان",
+    "fa": "رنگ‌ها",
+    "so": "midabada",
+    "es": "colores",
+    "de": "Farben",
+    "fr": "couleurs",
+    "pl": "kolory",
+    "id": "warna",
+    "hi": "रंग",
+    "zh": "颜色",
+    "it": "colori",
+    "tr": "renkler",
+    "sr": "боје",
+    "fi": "värit",
+    "et": "värvid",
+    "be": "колеры",
+    "lv": "krāsas",
+    "lt": "spalvos"
+  },
+  "entries": [
+    {
+      "id": "bb20e838-2207-440a-948b-ea974e3fd50a",
+      "version": -1,
+      "word": "svart",
+      "forms": [
+        {
+          "form": "svart"
+        },
+        {
+          "form": "svarta"
+        }
+      ],
+      "translations": {
+        "ru": "черный",
+        "en": "black",
+        "uk": "чорний",
+        "ar": "أسود",
+        "fa": "سیاه",
+        "so": "madow",
+        "es": "negro",
+        "de": "schwarz",
+        "fr": "noir",
+        "pl": "czarny",
+        "id": "hitam",
+        "hi": "काला",
+        "zh": "黑色",
+        "it": "nero",
+        "tr": "siyah",
+        "sr": "црн",
+        "fi": "musta",
+        "et": "must",
+        "be": "чорны",
+        "lv": "melns",
+        "lt": "juodas"
+      },
+      "examples": [
+        {
+          "text": "Den svarta katten går över skärmen"
+        },
+        {
+          "text": "Jag älskar att bära svarta kläder"
+        },
+        {
+          "text": "Han dricker alltid sitt kaffe svart"
+        },
+        {
+          "text": "Det var en svart dag i historien"
+        },
+        {
+          "text": "Min katt är helt svart"
+        },
+        {
+          "text": "Hon har en svart humor"
+        },
+        {
+          "text": "På natten är havet nästan helt svart"
+        },
+        {
+          "text": "De säljer varor på den svarta marknaden"
+        },
+        {
+          "text": "Hans ekonomi har gått i svart"
+        },
+        {
+          "text": "Hennes ögon var nästan svarta av ilska"
+        },
+        {
+          "text": "Molnen gjorde himlen svart."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dc984e3d-7b98-41b5-8382-d3aecf062f51",
+      "version": -1,
+      "word": "brun",
+      "forms": [
+        {
+          "form": "brunt"
+        },
+        {
+          "form": "bruna"
+        }
+      ],
+      "translations": {
+        "ru": "коричневый",
+        "en": "brown",
+        "uk": "коричневий",
+        "ar": "بني",
+        "fa": "قهوه‌ای",
+        "so": "bunni",
+        "es": "marrón",
+        "de": "braun",
+        "fr": "marron",
+        "pl": "brązowy",
+        "id": "cokelat",
+        "hi": "भूरा",
+        "zh": "棕色",
+        "it": "marrone",
+        "tr": "kahverengi",
+        "sr": "браон",
+        "fi": "ruskea",
+        "et": "pruun",
+        "be": "карычневы",
+        "lv": "brūns",
+        "lt": "rudas"
+      },
+      "examples": [
+        {
+          "text": "Jag älskar min bruna väska"
+        },
+        {
+          "text": "Hennes ögon är mörkbruna"
+        },
+        {
+          "text": "På hösten blir löven gula, röda och bruna"
+        },
+        {
+          "text": "Han har brunt hår och blå ögon"
+        },
+        {
+          "text": "Efter semestern var jag helt brun"
+        },
+        {
+          "text": "Katten har en fin brun päls"
+        },
+        {
+          "text": "De bruna skorna passar perfekt till kostymen"
+        },
+        {
+          "text": "Hon köpte ett par bruna läderhandskar"
+        },
+        {
+          "text": "Hans hud blev brun efter en vecka i Spanien"
+        },
+        {
+          "text": "Kaffet var så starkt att det nästan såg svart ut, inte brunt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "40c7f188-aa14-425d-9162-239a00417a89",
+      "version": -1,
+      "word": "grå",
+      "forms": [
+        {
+          "form": "grått"
+        },
+        {
+          "form": "gråa"
+        }
+      ],
+      "translations": {
+        "ru": "серый",
+        "en": "gray",
+        "uk": "сірий",
+        "ar": "رمادي",
+        "fa": "خاکستری",
+        "so": "cawl",
+        "es": "gris",
+        "de": "grau",
+        "fr": "gris",
+        "pl": "szary",
+        "id": "abu-abu",
+        "hi": "धूसर",
+        "zh": "灰色",
+        "it": "grigio",
+        "tr": "gri",
+        "sr": "сив",
+        "fi": "harmaa",
+        "et": "hall",
+        "be": "шэры",
+        "lv": "pelēks",
+        "lt": "pilkas"
+      },
+      "examples": [
+        {
+          "text": "Gråa moln indikerar oftast reg"
+        },
+        {
+          "text": "Jag gillar att bära grå kläder"
+        },
+        {
+          "text": "Hennes hår har blivit helt grått"
+        },
+        {
+          "text": "Det var en grå och regnig dag"
+        },
+        {
+          "text": "Grå betonghus dominerar stadsbilden"
+        },
+        {
+          "text": "Han har en grå kostym på sig"
+        },
+        {
+          "text": "Katten har en fin grå päls"
+        },
+        {
+          "text": "Jag tycker att grått passar bra med blått"
+        },
+        {
+          "text": "Hon kände sig trött och grå efter en lång arbetsdag"
+        },
+        {
+          "text": "Fåglarna var en blandning av vita och gråa nyanser"
+        },
+        {
+          "text": "Många människor får grått hår vid 50-årsåldern."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "da888b34-9013-47e8-8964-1ed2ae8cdbbe",
+      "version": 1,
+      "word": "vit",
+      "forms": [
+        {
+          "form": "vitt"
+        },
+        {
+          "form": "vita"
+        }
+      ],
+      "translations": {
+        "ru": "белый",
+        "en": "white",
+        "uk": "білий",
+        "ar": "أبيض",
+        "fa": "سفید",
+        "so": "caddaan",
+        "es": "blanco",
+        "de": "weiß",
+        "fr": "blanc",
+        "pl": "biały",
+        "id": "putih",
+        "hi": "सफेद",
+        "zh": "白色",
+        "it": "bianco",
+        "tr": "beyaz",
+        "sr": "бели",
+        "fi": "valkoinen",
+        "et": "valge",
+        "be": "белы",
+        "lv": "balts",
+        "lt": "baltas"
+      },
+      "examples": [
+        {
+          "text": "Vitt bröd är inte hälsosamt för dig"
+        },
+        {
+          "text": "Jag älskar vita blommor"
+        },
+        {
+          "text": "Hennes hår var vitt som snö"
+        },
+        {
+          "text": "Vi målade om huset i vitt"
+        },
+        {
+          "text": "Kan jag få ett glas vitt vin?"
+        },
+        {
+          "text": "Hans skjorta var helt vit"
+        },
+        {
+          "text": "De vita molnen svävade på himlen"
+        },
+        {
+          "text": "Katten har vita tassar"
+        },
+        {
+          "text": "Han berättade en vit lögn för att inte såra henne"
+        },
+        {
+          "text": "Mina skor var vita, men nu är de smutsiga"
+        },
+        {
+          "text": "En vit duva symboliserar fred."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9bf4c5cb-5649-4338-bab7-ca84baf33197",
+      "version": 1,
+      "word": "röd",
+      "forms": [
+        {
+          "form": "rött"
+        },
+        {
+          "form": "röda"
+        }
+      ],
+      "translations": {
+        "ru": "красный",
+        "en": "red",
+        "uk": "червоний",
+        "ar": "أحمر",
+        "fa": "قرمز",
+        "so": "casaan",
+        "es": "rojo",
+        "de": "rot",
+        "fr": "rouge",
+        "pl": "czerwony",
+        "id": "merah",
+        "hi": "लाल",
+        "zh": "红色",
+        "it": "rosso",
+        "tr": "kırmızı",
+        "sr": "црвен",
+        "fi": "punainen",
+        "et": "punane",
+        "be": "чырвоны",
+        "lv": "sarkans",
+        "lt": "raudona"
+      },
+      "examples": [
+        {
+          "text": "Grönt och rött är valdigt 50-tal"
+        },
+        {
+          "text": "Han gav henne en bukett med röda rosor"
+        },
+        {
+          "text": "Stoppa vid rött ljus!"
+        },
+        {
+          "text": "Jag gillar rött vin mer än vitt vin"
+        },
+        {
+          "text": "Hon blev röd i ansiktet av skam"
+        },
+        {
+          "text": "Vi bor i ett litet rött hus på landet"
+        },
+        {
+          "text": "Hans skjorta var röd och blå"
+        },
+        {
+          "text": "Räddningstjänsten har en röd brandbil"
+        },
+        {
+          "text": "Han har alltid röda siffror i sin budget"
+        },
+        {
+          "text": "Julen är förknippad med rött och grönt"
+        },
+        {
+          "text": "De röda dagarna i kalendern är helgdagar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0cbf80e4-76b3-4486-bdea-4184db7d6f0a",
+      "version": -1,
+      "word": "grön",
+      "forms": [
+        {
+          "form": "grönt"
+        },
+        {
+          "form": "gröna"
+        }
+      ],
+      "translations": {
+        "ru": "зеленый",
+        "en": "green",
+        "uk": "зелений",
+        "ar": "أخضر",
+        "fa": "سبز",
+        "so": "cagaar",
+        "es": "verde",
+        "de": "grün",
+        "fr": "vert",
+        "pl": "zielony",
+        "id": "hijau",
+        "hi": "हरा",
+        "zh": "绿色",
+        "it": "verde",
+        "tr": "yeşil",
+        "sr": "зелен",
+        "fi": "vihreä",
+        "et": "roheline",
+        "be": "зялёны",
+        "lv": "zaļš",
+        "lt": "žalias"
+      },
+      "examples": [
+        {
+          "text": "Den gröna grodan är i vattnet"
+        },
+        {
+          "text": "Jag älskar att ha gröna växter hemma"
+        },
+        {
+          "text": "Hon har vackra gröna ögon"
+        },
+        {
+          "text": "Träden blir gröna på våren"
+        },
+        {
+          "text": "Vi fick grönt ljus att starta projektet"
+        },
+        {
+          "text": "Han blev grön av avund när han såg deras nya bil"
+        },
+        {
+          "text": "Den här bananen är fortfarande grön"
+        },
+        {
+          "text": "Gröna energikällor blir allt viktigare"
+        },
+        {
+          "text": "Hon har verkligen gröna fingrar och odlar allt själv"
+        },
+        {
+          "text": "Vi köpte gröna äpplen på marknaden"
+        },
+        {
+          "text": "Hans nya tröja är ljusgrön."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3a798387-4c40-4be0-9874-6fcd614b6f1e",
+      "version": -1,
+      "word": "blå",
+      "forms": [
+        {
+          "form": "blått"
+        },
+        {
+          "form": "blåa"
+        }
+      ],
+      "translations": {
+        "ru": "синий",
+        "en": "blue",
+        "uk": "синій",
+        "ar": "أزرق",
+        "fa": "آبی",
+        "so": "buluug",
+        "es": "azul",
+        "de": "blau",
+        "fr": "bleu",
+        "pl": "niebieski",
+        "id": "biru",
+        "hi": "नीला",
+        "zh": "蓝色",
+        "it": "blu",
+        "tr": "mavi",
+        "sr": "плави",
+        "fi": "sininen",
+        "et": "sinine",
+        "be": "сіні",
+        "lv": "zils",
+        "lt": "mėlyna"
+      },
+      "examples": [
+        {
+          "text": "Han valde en blå bil"
+        },
+        {
+          "text": "Havet är djupt blått idag"
+        },
+        {
+          "text": "Hon köpte en blå klänning till festen"
+        },
+        {
+          "text": "Hans bil är blå och väldigt snygg"
+        },
+        {
+          "text": "Vi målade dörren blå för att ge huset lite färg"
+        },
+        {
+          "text": "Blå blommor växer längs stigen"
+        },
+        {
+          "text": "Jag älskar att titta på den blåa himlen"
+        },
+        {
+          "text": "Hon har en blå ryggsäck som alltid syns i mängden"
+        },
+        {
+          "text": "Blå färg symboliserar lugn och harmoni"
+        },
+        {
+          "text": "Kan du hitta en blå penna till mig?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "05221f07-dd0d-430e-a4a5-2a9b061e7be8",
+      "version": -1,
+      "word": "gul",
+      "forms": [
+        {
+          "form": "gult"
+        },
+        {
+          "form": "gula"
+        }
+      ],
+      "translations": {
+        "ru": "желтый",
+        "en": "yellow",
+        "uk": "жовтий",
+        "ar": "أصفر",
+        "fa": "زرد",
+        "so": "jaalle",
+        "es": "amarillo",
+        "de": "gelb",
+        "fr": "jaune",
+        "pl": "żółty",
+        "id": "kuning",
+        "hi": "पीला",
+        "zh": "黄色",
+        "it": "giallo",
+        "tr": "sarı",
+        "sr": "жут",
+        "fi": "keltainen",
+        "et": "kollane",
+        "be": "жоўты",
+        "lv": "dzeltens",
+        "lt": "geltona"
+      },
+      "examples": [
+        {
+          "text": "Hanna har en gul mössa"
+        },
+        {
+          "text": "Solen lyser starkt och är gul"
+        },
+        {
+          "text": "Jag köpte en gul tröja i butiken"
+        },
+        {
+          "text": "Bananen är fortfarande grön, men snart blir den gul"
+        },
+        {
+          "text": "Gult ljus betyder att man ska sakta ner"
+        },
+        {
+          "text": "Hon dekorerade köket med gula gardiner"
+        },
+        {
+          "text": "På hösten blir bladen gula och faller av träden"
+        },
+        {
+          "text": "Hans ansikte såg nästan gult ut när han var sjuk"
+        },
+        {
+          "text": "Han blev gul av avund när han såg min nya bil"
+        },
+        {
+          "text": "Den gula bussen kom precis i tid"
+        },
+        {
+          "text": "Vi såg en stor gul solros på fältet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fd2090e1-e01a-4261-b394-4c7456f511a5",
+      "version": -1,
+      "word": "orange",
+      "translations": {
+        "ru": "оранжевый",
+        "en": "orange",
+        "uk": "помаранчевий",
+        "ar": "برتقالي",
+        "fa": "نارنجی",
+        "so": "buluug",
+        "es": "naranja",
+        "de": "orange",
+        "fr": "orange",
+        "pl": "pomarańczowy",
+        "id": "oranye",
+        "hi": "नारंगी",
+        "zh": "橙色",
+        "it": "arancione",
+        "tr": "turuncu",
+        "sr": "наранџаста",
+        "fi": "oranssi",
+        "et": "oranž",
+        "be": "аранжавы",
+        "lv": "oranžs",
+        "lt": "oranžinė"
+      },
+      "examples": [
+        {
+          "text": "Jag älskar min orange jacka"
+        },
+        {
+          "text": "Hennes hår har en orange nyans"
+        },
+        {
+          "text": "Solnedgången var vackert orange"
+        },
+        {
+          "text": "Han har en orange cykel som syns tydligt i mörkret"
+        },
+        {
+          "text": "Vi målade barnrummet i en orange färg"
+        },
+        {
+          "text": "De orange blommorna lyste i solen"
+        },
+        {
+          "text": "Jag tycker att orange passar bra med blått"
+        },
+        {
+          "text": "Morötter är ljusorange"
+        },
+        {
+          "text": "Brandmän har ofta orange reflexvästar"
+        },
+        {
+          "text": "Den orange katten sov på soffan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f6cd37f4-fda4-425d-843d-6da8c4d16d27",
+      "version": -1,
+      "word": "rosa",
+      "translations": {
+        "ru": "розовый",
+        "en": "pink",
+        "uk": "рожевий",
+        "ar": "وردي",
+        "fa": "صورتی",
+        "so": "casaan",
+        "es": "rosa",
+        "de": "rosa",
+        "fr": "rose",
+        "pl": "różowy",
+        "id": "merah muda",
+        "hi": "गुलाबी",
+        "zh": "粉色",
+        "it": "rosa",
+        "tr": "pembe",
+        "sr": "розе",
+        "fi": "vaaleanpunainen",
+        "et": "roosa",
+        "be": "ружовы",
+        "lv": "rozā",
+        "lt": "rožinė"
+      },
+      "examples": [
+        {
+          "text": "Den rosa glasyren på en jordgubbstårta är min favorit"
+        },
+        {
+          "text": "Jag köpte en rosa klänning.Vi målade väggarna i ett rosa rum"
+        },
+        {
+          "text": "Jag älskar min nya rosa mobiltelefon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "720c79ae-491d-4149-a350-cea5b564ccdc",
+      "version": -1,
+      "word": "beige",
+      "translations": {
+        "ru": "бежевый",
+        "en": "beige",
+        "uk": "бежевий",
+        "ar": "بيج",
+        "fa": "بژ",
+        "so": "beej",
+        "es": "beige",
+        "de": "beige",
+        "fr": "beige",
+        "pl": "beżowy",
+        "id": "beige",
+        "hi": "बेज",
+        "zh": "米色",
+        "it": "beige",
+        "tr": "bej",
+        "sr": "беж",
+        "fi": "beige",
+        "et": "beež",
+        "be": "бэжавы",
+        "lv": "bēšs",
+        "lt": "smėlio"
+      },
+      "examples": [
+        {
+          "text": "Beige är en blek krämfärg med en gulaktig ton"
+        },
+        {
+          "text": "Väggarna i rummet är målade i en ljus beige färg"
+        },
+        {
+          "text": "En beige jack"
+        },
+        {
+          "text": "Ett beige hus"
+        },
+        {
+          "text": "De beige gardinerna"
+        },
+        {
+          "text": "Hon köpte en beige kappa till vintern"
+        },
+        {
+          "text": "Jag tycker om beige kläder eftersom de är neutrala"
+        },
+        {
+          "text": "Möblerna i vardagsrummet är i beige toner"
+        },
+        {
+          "text": "ag älskar kombinationen av beige och vitt i köket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "327e346f-6012-46df-bd2d-373b6205f666",
+      "version": -1,
+      "word": "en färg",
+      "forms": [
+        {
+          "form": "färgen"
+        },
+        {
+          "form": "färger"
+        },
+        {
+          "form": "färgerna"
+        }
+      ],
+      "translations": {
+        "ru": "цвет краска",
+        "en": "color, paint",
+        "uk": "колір, фарба",
+        "ar": "لون، طلاء",
+        "fa": "رنگ، رنگ",
+        "so": "midab, rinji",
+        "es": "color, pintura",
+        "de": "Farbe, Farbe",
+        "fr": "couleur, peinture",
+        "pl": "kolor, farba",
+        "id": "warna, cat",
+        "hi": "रंग, पेंट",
+        "zh": "颜色, 油漆",
+        "it": "colore, vernice",
+        "tr": "renk, boya",
+        "sr": "боја, боја",
+        "fi": "väri, maali",
+        "et": "värv, värv",
+        "be": "колер, фарба",
+        "lv": "krāsa, krāsa",
+        "lt": "spalva, dažai"
+      },
+      "examples": [
+        {
+          "text": "Den nya polotröjan finns i tre färger"
+        },
+        {
+          "text": "Vilken färg gillar du mest? Jag målade väggen med blå färg"
+        },
+        {
+          "text": "Himmelen är en vacker blå färg idag"
+        },
+        {
+          "text": "Vilken färg ska vi välja för gardinerna? Jag köpte vit färg för att måla om köket"
+        },
+        {
+          "text": "Hans berättelser ger färg till våra samtal"
+        },
+        {
+          "text": "Beige tapeter ger en lugn känsla i rummet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1a6cfa9d-dd9f-49bc-84ec-94d065c6619a",
+      "version": -1,
+      "word": "färgglad",
+      "forms": [
+        {
+          "form": "färgglatt"
+        },
+        {
+          "form": "färgglada"
+        }
+      ],
+      "translations": {
+        "ru": "цветастый, в ярких цветах",
+        "en": "colorful, in bright colors",
+        "uk": "кольоровий, у яскравих кольорах",
+        "ar": "ملون، بألوان زاهية",
+        "fa": "رنگارنگ، در رنگ‌های روشن",
+        "so": "midabo badan, midabo dhalaalaya",
+        "es": "colorido, en colores brillantes",
+        "de": "bunt, in leuchtenden Farben",
+        "fr": "coloré, en couleurs vives",
+        "pl": "kolorowy, w jasnych kolorach",
+        "id": "berwarna-warni, dalam warna-warna cerah",
+        "hi": "रंगीन, चमकीले रंगों में",
+        "zh": "色彩斑斓，色彩鲜艳",
+        "it": "colorato, in colori vivaci",
+        "tr": "renkli, parlak renklerde",
+        "sr": "шарен, у светлим бојама",
+        "fi": "värikäs, kirkkaissa väreissä",
+        "et": "värviline, erksates värvides",
+        "be": "каляровы, у яркіх колерах",
+        "lv": "krāsains, spilgtās krāsās",
+        "lt": "spalvingas, ryškiomis spalvomis"
+      },
+      "examples": [
+        {
+          "text": "Hon hade på sig en färgglad tröja"
+        },
+        {
+          "text": "Hon har alltid på sig färgglada kläder"
+        },
+        {
+          "text": "Jag köpte en färgglad matta till vardagsrummet"
+        },
+        {
+          "text": "Barnen älskar att rita med färgglada pennor"
+        },
+        {
+          "text": "Hennes tavla är väldigt färgglad och livfull"
+        },
+        {
+          "text": "På festivalen fanns det många färgglada ballonger och dekorationer"
+        },
+        {
+          "text": "Han bar en färgglatt slips som alla lade märke till"
+        },
+        {
+          "text": "Vi dekorerade rummet med färgglada lampor för festen"
+        },
+        {
+          "text": "Färgglada blommor prydde hela trädgården"
+        },
+        {
+          "text": "Hennes stil är alltid färgglad och kreativ"
+        },
+        {
+          "text": "Jag tycker om att köpa färgglada vykort när jag reser."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5a804ed4-8fe8-4aec-83ad-de2e76294fd2",
+      "version": 1,
+      "word": "indigo",
+      "translations": {
+        "ru": "индиго",
+        "en": "indigo",
+        "uk": "індиго",
+        "ar": "نيلي",
+        "fa": "نیلی",
+        "so": "indigo",
+        "es": "índigo",
+        "de": "indigo",
+        "fr": "indigo",
+        "pl": "indygo",
+        "id": "nila",
+        "hi": "इंडिगो",
+        "zh": "靛蓝",
+        "it": "indaco",
+        "tr": "çivit",
+        "sr": "индиго",
+        "fi": "indigo",
+        "et": "indigo",
+        "be": "індыга",
+        "lv": "indigo",
+        "lt": "indigo"
+      },
+      "examples": [
+        {
+          "text": "Indigo får sitt namn från västen som kallas indigo"
+        },
+        {
+          "text": "Himlen var färgad i indigo vid solnedgången"
+        },
+        {
+          "text": "Hon köpte en klänning i en vacker indigofärg"
+        },
+        {
+          "text": "Indigo används ofta i textilindustrin som färgämne"
+        },
+        {
+          "text": "Indigo är en av färgerna i regnbågen"
+        },
+        {
+          "text": "Har du sett ett indigofärgat tyg någon gång?"
+        },
+        {
+          "text": "Regnbågen hade alla färger, inklusive indigo"
+        },
+        {
+          "text": "De målade väggarna i ett mörkt indigo för att skapa en mysig atmosfär"
+        },
+        {
+          "text": "Den indigofärgade himlen på kvällen var fascinerande."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "367d8d43-6dc7-4cd6-bf29-4343a30bde04",
+      "version": -1,
+      "word": "persikofärgad",
+      "forms": [
+        {
+          "form": "persikofärgat"
+        },
+        {
+          "form": "persikofärgad"
+        }
+      ],
+      "translations": {
+        "ru": "персиковый",
+        "en": "peach",
+        "uk": "персиковий",
+        "ar": "خوخي",
+        "fa": "هلو",
+        "so": "qare",
+        "es": "melocotón",
+        "de": "pfirsich",
+        "fr": "pêche",
+        "pl": "brzoskwiniowy",
+        "id": "persik",
+        "hi": "आड़ू",
+        "zh": "桃子",
+        "it": "pesca",
+        "tr": "şeftali",
+        "sr": "бресква",
+        "fi": "persikka",
+        "et": "virsik",
+        "be": "персікавы",
+        "lv": "persiku",
+        "lt": "persikas"
+      },
+      "examples": [
+        {
+          "text": "Vilken möbelfärg passar med persikofärgade väggar"
+        },
+        {
+          "text": "Jag älskar min persikofärgade halsduk"
+        },
+        {
+          "text": "Hennes persikofärgade klänning passade perfekt till festen"
+        },
+        {
+          "text": "Vi målade om vardagsrummet i en persikofärgad ton"
+        },
+        {
+          "text": "Det fanns många persikofärgade blommor i trädgården"
+        },
+        {
+          "text": "Solnedgången var persikofärgad och magisk"
+        },
+        {
+          "text": "Hon har persikofärgad hy och ljusa ögon"
+        },
+        {
+          "text": "Vi valde persikofärgade kuddar till soffan"
+        },
+        {
+          "text": "Hennes naglar var målade i en persikofärgad nyans"
+        },
+        {
+          "text": "Jag köpte en persikofärgad blus som matchar mina byxor"
+        },
+        {
+          "text": "Den persikofärgade himlen var otroligt vacker."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d96c305b-901a-4711-aaa1-b80f05ea52ee",
+      "version": -1,
+      "word": "mörk",
+      "forms": [
+        {
+          "form": "mörkt"
+        },
+        {
+          "form": "mörka"
+        }
+      ],
+      "translations": {
+        "ru": "темный",
+        "en": "dark",
+        "uk": "темний",
+        "ar": "مظلم",
+        "fa": "تاریک",
+        "so": "madow",
+        "es": "oscuro",
+        "de": "dunkel",
+        "fr": "sombre",
+        "pl": "ciemny",
+        "id": "gelap",
+        "hi": "अंधेरा",
+        "zh": "黑暗",
+        "it": "scuro",
+        "tr": "karanlık",
+        "sr": "таман",
+        "fi": "tumma",
+        "et": "tume",
+        "be": "цёмны",
+        "lv": "tumšs",
+        "lt": "tamsus"
+      },
+      "examples": [
+        {
+          "text": "Bilen är faktiskt mörkgrön"
+        },
+        {
+          "text": "Himlen är mörk ikväll"
+        },
+        {
+          "text": "Hon har mörkt hår"
+        },
+        {
+          "text": "Det var en mörk natt utan måne"
+        },
+        {
+          "text": "Hans mörka kostym passade bra för festen"
+        },
+        {
+          "text": "Filmen hade en mörk handling"
+        },
+        {
+          "text": "Ljuset är för svagt, rummet känns mörkt"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "82e9236d-ff0a-46e9-8b21-51d53764c5e0",
+      "version": -1,
+      "word": "mörkt",
+      "translations": {
+        "ru": "темно",
+        "en": "dark (adverb)",
+        "uk": "темно",
+        "ar": "مظلم",
+        "fa": "تاریک",
+        "so": "madow",
+        "es": "oscuro",
+        "de": "dunkel",
+        "fr": "sombre",
+        "pl": "ciemno",
+        "id": "gelap",
+        "hi": "अंधेरा",
+        "zh": "黑暗",
+        "it": "scuro",
+        "tr": "karanlık",
+        "sr": "мрачно",
+        "fi": "pimeästi",
+        "et": "pimedalt",
+        "be": "цёмна",
+        "lv": "tumši",
+        "lt": "tamsiai"
+      },
+      "examples": [
+        {
+          "text": "Det är mörkt ute"
+        },
+        {
+          "text": "Det är väldigt mörkt här inne"
+        },
+        {
+          "text": "På vintern blir det mörkt tidigt på kvällen"
+        },
+        {
+          "text": "Det är mörkt i skogen på natten"
+        },
+        {
+          "text": "I källaren var det kallt och mörkt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c0203861-4800-4277-878b-8c22a20156e9",
+      "version": -1,
+      "word": "randig",
+      "forms": [
+        {
+          "form": "randigt"
+        },
+        {
+          "form": "randiga"
+        }
+      ],
+      "translations": {
+        "ru": "полосатый",
+        "en": "striped",
+        "uk": "смугастий",
+        "ar": "مخطط",
+        "fa": "راه راه",
+        "so": "xariijiyey",
+        "es": "a rayas",
+        "de": "gestreift",
+        "fr": "rayé",
+        "pl": "pasiasty",
+        "id": "bergaris",
+        "hi": "धारीदार",
+        "zh": "条纹的",
+        "it": "a righe",
+        "tr": "çizgili",
+        "sr": "пругаст",
+        "fi": "raidallinen",
+        "et": "triibuline",
+        "be": "паласаты",
+        "lv": "svītrains",
+        "lt": "dryžuotas"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en randig tröja på rea"
+        },
+        {
+          "text": "Den randiga mattan passar perfekt i vardagsrummet"
+        },
+        {
+          "text": "Hon har en randig katt som älskar att jaga möss"
+        },
+        {
+          "text": "Randiga zebror är vanliga på savannen"
+        },
+        {
+          "text": "Jag behöver randigt papper för att skriva ner mina anteckningar"
+        },
+        {
+          "text": "De randiga tapeterna gör rummet större"
+        },
+        {
+          "text": "Jag tycker om randiga kläder, de ser alltid moderna ut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a6e94ce4-faab-4a9e-8c2c-40ef58678aab",
+      "version": -1,
+      "word": "prickig",
+      "forms": [
+        {
+          "form": "prickigt"
+        },
+        {
+          "form": "prickiga"
+        }
+      ],
+      "translations": {
+        "ru": "в горошек, пятнистые",
+        "en": "polka-dotted, spotted",
+        "uk": "в горошок, плямистий",
+        "ar": "منقط، مرقط",
+        "fa": "خال‌خالی، لکه‌دار",
+        "so": "dhibco leh, dhibco leh",
+        "es": "de lunares, manchado",
+        "de": "gepunktet, gefleckt",
+        "fr": "à pois, tacheté",
+        "pl": "w kropki, cętkowany",
+        "id": "berbintik, berbintik-bintik",
+        "hi": "बिंदुयुक्त, धब्बेदार",
+        "zh": "圆点的, 斑点的",
+        "it": "a pois, maculato",
+        "tr": "benekli, lekeli",
+        "sr": "на тачке, пегав",
+        "fi": "pilkullinen, täplikäs",
+        "et": "täpiline, laiguline",
+        "be": "у гарошак, плямісты",
+        "lv": "punktots, plankumains",
+        "lt": "taškuotas, dėmėtas"
+      },
+      "examples": [
+        {
+          "text": "Hon bar en prickig klänning till festen"
+        },
+        {
+          "text": "Vi målade köket med en prickig tapet"
+        },
+        {
+          "text": "Hans skjorta var prickig med små vita prickar"
+        },
+        {
+          "text": "Barnet fick prickiga utslag på huden"
+        },
+        {
+          "text": "Jag älskar att bära prickiga strumpor"
+        },
+        {
+          "text": "På loppmarknaden hittade jag en prickig väska"
+        },
+        {
+          "text": "Hennes naglar var målade i ett prickigt mönster"
+        },
+        {
+          "text": "Katten har en prickig päls"
+        },
+        {
+          "text": "Vi köpte en prickig matta till vardagsrummet"
+        },
+        {
+          "text": "Han hade en prickig fluga som såg rolig ut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4eace1ae-00fa-4574-af2b-019ae9fc0a34",
+      "version": -1,
+      "word": "rutig",
+      "forms": [
+        {
+          "form": "rutigt"
+        },
+        {
+          "form": "rutiga"
+        }
+      ],
+      "translations": {
+        "ru": "в клеточку, клетчатый",
+        "en": "checkered, plaid",
+        "uk": "картатий",
+        "ar": "مربعات",
+        "fa": "چهارخانه",
+        "so": "jeexjeexan",
+        "es": "a cuadros",
+        "de": "kariert",
+        "fr": "à carreaux",
+        "pl": "w kratkę",
+        "id": "kotak-kotak",
+        "hi": "चेकर्ड",
+        "zh": "格子",
+        "it": "a quadri",
+        "tr": "ekose",
+        "sr": "карирано",
+        "fi": "ruudullinen",
+        "et": "ruuduline",
+        "be": "у клетку",
+        "lv": "rūtains",
+        "lt": "langeliais"
+      },
+      "examples": [
+        {
+          "text": "Han har på sig en rutig skjorta"
+        },
+        {
+          "text": "Hon köpte ett rutigt tyg för att sy gardiner"
+        },
+        {
+          "text": "De valde rutiga dukar till festen"
+        },
+        {
+          "text": "De rutiga byxorna blev snabbt populära"
+        },
+        {
+          "text": "Han föredrar att bära rutiga skjortor till vardags"
+        },
+        {
+          "text": "En rutig kostym kan ge ett stilfullt intryck"
+        },
+        {
+          "text": "Jag gillar rutiga skjortor, de är både snygga och praktiska"
+        },
+        {
+          "text": "Hon valde ett rutigt mönster till sin nya soffa"
+        },
+        {
+          "text": "De rutiga byxorna var på rea, så jag köpte dem."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

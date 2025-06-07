@@ -1,0 +1,1738 @@
+{
+  "id": "c5a3a223-40e1-4732-a1fa-1133a33c2eef",
+  "translations": {
+    "ru": "медицина и здоровье",
+    "en": "Medicine and health",
+    "uk": "медицина та здоров'я",
+    "ar": "الطب والصحة",
+    "fa": "پزشکی و سلامت",
+    "so": "daawo iyo caafimaad",
+    "es": "medicina y salud",
+    "de": "Medizin und Gesundheit",
+    "fr": "médecine et santé",
+    "pl": "medycyna i zdrowie",
+    "id": "kedokteran dan kesehatan",
+    "hi": "चिकित्सा और स्वास्थ्य",
+    "zh": "医学与健康",
+    "it": "medicina e salute",
+    "tr": "tıp ve sağlık",
+    "sr": "медицина и здравље",
+    "fi": "lääketiede ja terveys",
+    "et": "meditsiin ja tervis",
+    "be": "медыцына і здароўе",
+    "lv": "medicīna un veselība",
+    "lt": "medicina ir sveikata"
+  },
+  "entries": [
+    {
+      "id": "1edb5671-0c8b-4180-8fd9-29cc6bf3d462",
+      "version": -1,
+      "word": "en sjukdom",
+      "forms": [
+        {
+          "form": "sjukdomar"
+        }
+      ],
+      "translations": {
+        "ru": "болезнь заболевание",
+        "en": "illness, disease",
+        "uk": "хвороба, захворювання",
+        "ar": "مرض، داء",
+        "fa": "بیماری، مرض",
+        "so": "xanuun, cudur",
+        "es": "enfermedad, dolencia",
+        "de": "Krankheit, Erkrankung",
+        "fr": "maladie, affection",
+        "pl": "choroba, schorzenie",
+        "id": "penyakit, gangguan",
+        "hi": "बीमारी, रोग",
+        "zh": "疾病, 病症",
+        "it": "malattia, patologia",
+        "tr": "hastalık, rahatsızlık",
+        "sr": "болест, обољење",
+        "fi": "sairaus, tauti",
+        "et": "haigus, tõbi",
+        "be": "хвароба, захворванне",
+        "lv": "slimība, saslimšana",
+        "lt": "liga, susirgimas"
+      },
+      "examples": [
+        {
+          "text": "Jag har gått ner mycket i vikt på grund utav sjukdomen"
+        },
+        {
+          "text": "Hon lider av en allvarlig sjukdom"
+        },
+        {
+          "text": "Influensa är en vanlig sjukdom på vintern"
+        },
+        {
+          "text": "Forskare arbetar för att hitta botemedel mot olika sjukdomar"
+        },
+        {
+          "text": "Sjukdomen orsakades av dålig hygien"
+        },
+        {
+          "text": "n hälsosam livsstil kan förebygga många sjukdomar"
+        },
+        {
+          "text": "Diabetes är en kronisk sjukdom"
+        },
+        {
+          "text": "Covid-19 är en smittsam sjukdom."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "449d242a-6f80-4f64-89f2-702ae061093a",
+      "version": -1,
+      "word": "en förkylning",
+      "forms": [
+        {
+          "form": "förkylningar"
+        }
+      ],
+      "translations": {
+        "ru": "простуда",
+        "en": "cold (illness)",
+        "uk": "застуда",
+        "ar": "زكام",
+        "fa": "سرماخوردگی",
+        "so": "hargab",
+        "es": "resfriado",
+        "de": "Erkältung",
+        "fr": "rhume",
+        "pl": "przeziębienie",
+        "id": "pilek",
+        "hi": "जुकाम",
+        "zh": "感冒",
+        "it": "raffreddore",
+        "tr": "soğuk algınlığı",
+        "sr": "прехлада",
+        "fi": "flunssa",
+        "et": "külmetus",
+        "be": "прастуда",
+        "lv": "saaukstēšanās",
+        "lt": "peršalimas"
+      },
+      "examples": [
+        {
+          "text": "Jag tror att jag blev förkyld"
+        },
+        {
+          "text": "Jag har fått en förkylning"
+        },
+        {
+          "text": "Hon stannade hemma från jobbet på grund av en förkylning"
+        },
+        {
+          "text": "Förkylningen började med halsont och snuva"
+        },
+        {
+          "text": "Jag känner mig trött och har ont i halsen – det är nog en förkylning"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e22be7f6-7ea0-4ba2-89f7-d050dfff62e3",
+      "version": -1,
+      "word": "en skada",
+      "forms": [
+        {
+          "form": "skador"
+        }
+      ],
+      "translations": {
+        "ru": "травма повреждение (может быть внутренней) еще ущерб вред",
+        "en": "injury, damage (can be internal), harm",
+        "uk": "травма, пошкодження (може бути внутрішнім), шкода",
+        "ar": "إصابة، ضرر (يمكن أن يكون داخليًا)، أذى",
+        "fa": "آسیب، خسارت (می‌تواند داخلی باشد)، ضرر",
+        "so": "dhaawac, waxyeelo (waxay noqon kartaa gudaha), dhib",
+        "es": "lesión, daño (puede ser interno), perjuicio",
+        "de": "Verletzung, Schaden (kann intern sein), Schaden",
+        "fr": "blessure, dommage (peut être interne), préjudice",
+        "pl": "uraz, uszkodzenie (może być wewnętrzne), szkoda",
+        "id": "cedera, kerusakan (bisa internal), bahaya",
+        "hi": "चोट, क्षति (आंतरिक हो सकती है), हानि",
+        "zh": "伤害，损害（可以是内部的），危害",
+        "it": "lesione, danno (può essere interno), danno",
+        "tr": "yaralanma, hasar (içsel olabilir), zarar",
+        "sr": "повреда, оштећење (може бити унутрашње), штета",
+        "fi": "vamma, vaurio (voi olla sisäinen), haitta",
+        "et": "vigastus, kahju (võib olla sisemine), kahju",
+        "be": "траўма, пашкоджанне (можа быць унутраным), шкода",
+        "lv": "trauma, bojājums (var būt iekšējs), kaitējums",
+        "lt": "trauma, pažeidimas (gali būti vidinis), žala"
+      },
+      "examples": [
+        {
+          "text": "Tjejen har en mindre skada"
+        },
+        {
+          "text": "Hon fick en allvarlig skada under fotbollsmatchen"
+        },
+        {
+          "text": "Skadorna på bilen var större än förväntat efter olyckan"
+        },
+        {
+          "text": "Rökning kan orsaka stora skador på lungorna"
+        },
+        {
+          "text": "Skadornas omfattning är ännu inte helt klarlagd.Hon fick en skada på foten under träningen"
+        },
+        {
+          "text": "Han skadade sig när han ramlade från cykeln."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4d777d5d-14b4-4513-a4ac-901b2cb14fd1",
+      "version": 1,
+      "word": "ett sår",
+      "forms": [
+        {
+          "form": "såret"
+        },
+        {
+          "form": "sår"
+        },
+        {
+          "form": "såren"
+        }
+      ],
+      "translations": {
+        "ru": "порез рана травма",
+        "en": "cut, wound, injury",
+        "uk": "поріз, рана, травма",
+        "ar": "قطع، جرح، إصابة",
+        "fa": "بریدگی، زخم، آسیب",
+        "so": "gooyn, dhaawac, dhaawac",
+        "es": "corte, herida, lesión",
+        "de": "Schnitt, Wunde, Verletzung",
+        "fr": "coupure, plaie, blessure",
+        "pl": "cięcie, rana, uraz",
+        "id": "luka, cedera, luka",
+        "hi": "कट, घाव, चोट",
+        "zh": "割伤, 伤口, 受伤",
+        "it": "taglio, ferita, infortunio",
+        "tr": "kesik, yara, yaralanma",
+        "sr": "посекотина, рана, повреда",
+        "fi": "viilto, haava, vamma",
+        "et": "lõige, haav, vigastus",
+        "be": "порэз, рана, траўма",
+        "lv": "griezums, brūce, ievainojums",
+        "lt": "pjūvis, žaizda, sužalojimas"
+      },
+      "examples": [
+        {
+          "text": "Pojken ramlade och har ett djupt sår på sitt ben"
+        },
+        {
+          "text": "Han fick ett sår på handen efter olyckan"
+        },
+        {
+          "text": "Såret behöver tvättas och läggas om"
+        },
+        {
+          "text": "Har du sett hur djupt såret är?"
+        },
+        {
+          "text": "Det var ett djupt sår i hennes hjärta efter separationen"
+        },
+        {
+          "text": "Såret måste hållas rent för att undvika infektion"
+        },
+        {
+          "text": "Såret på hennes arm blödde mycket"
+        },
+        {
+          "text": "Det är viktigt att behandla såret med antiseptisk lösning"
+        },
+        {
+          "text": "Såren från barndomen påverkar honom fortfarande."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7ffa8a38-edc8-4ff1-8899-81c1f844b872",
+      "version": -1,
+      "word": "en medicin",
+      "forms": [
+        {
+          "form": "mediciner"
+        }
+      ],
+      "translations": {
+        "ru": "лекарство",
+        "en": "medicine",
+        "uk": "ліки",
+        "ar": "دواء",
+        "fa": "دارو",
+        "so": "daawo",
+        "es": "medicina",
+        "de": "Medizin",
+        "fr": "médicament",
+        "pl": "lekarstwo",
+        "id": "obat",
+        "hi": "दवा",
+        "zh": "药",
+        "it": "medicina",
+        "tr": "ilaç",
+        "sr": "лек",
+        "fi": "lääke",
+        "et": "ravim",
+        "be": "лекі",
+        "lv": "zāles",
+        "lt": "vaistas"
+      },
+      "examples": [
+        {
+          "text": "Läkaren gav mig medicin för mina magsmärtor"
+        },
+        {
+          "text": "Jag behöver köpa medicin mot huvudvärk"
+        },
+        {
+          "text": "Läkaren skrev ut en ny medicin för att behandla infektionen"
+        },
+        {
+          "text": "Har du tagit din medicin idag? Vissa mediciner kan ha biverkningar, så var försiktig"
+        },
+        {
+          "text": "Medicinens effekt märks ofta efter några dagar"
+        },
+        {
+          "text": "Du måste ta medicin tre gånger om dagen"
+        },
+        {
+          "text": "Läkaren skrev ut medicin för hosta"
+        },
+        {
+          "text": "Alvedon är en vanlig receptfri medicin"
+        },
+        {
+          "text": "Läkaren varnade för möjliga biverkningar av medicinen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5fa9d049-6950-41dd-91dd-aa2743d62c62",
+      "version": -1,
+      "word": "en medicin",
+      "forms": [
+        {
+          "form": "mediciner"
+        }
+      ],
+      "translations": {
+        "ru": "медицина",
+        "en": "medicine (field)",
+        "uk": "медицина",
+        "ar": "الطب",
+        "fa": "پزشکی",
+        "so": "daawo",
+        "es": "medicina",
+        "de": "Medizin",
+        "fr": "médecine",
+        "pl": "medycyna",
+        "id": "kedokteran",
+        "hi": "चिकित्सा",
+        "zh": "医学",
+        "it": "medicina",
+        "tr": "tıp",
+        "sr": "медицина",
+        "fi": "lääketiede",
+        "et": "meditsiin",
+        "be": "медыцына",
+        "lv": "medicīna",
+        "lt": "medicina"
+      },
+      "examples": [
+        {
+          "text": "Hon studerar medicin vid universitetet"
+        },
+        {
+          "text": "Framsteg inom medicinen har räddat miljontals liv"
+        },
+        {
+          "text": "Medicinens historia sträcker sig flera tusen år tillbaka"
+        },
+        {
+          "text": "Han har alltid varit intresserad av forskning inom medicin"
+        },
+        {
+          "text": "Modern medicin har gjort det möjligt att bota många sjukdomar"
+        },
+        {
+          "text": "Han vill studera medicin för att bli läkare."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "745fdf1a-c6de-4831-be77-9a059e302f64",
+      "version": -1,
+      "word": "en smärta",
+      "forms": [
+        {
+          "form": "smärtor"
+        }
+      ],
+      "translations": {
+        "ru": "боль (физическая и душевная)",
+        "en": "pain (physical and emotional)",
+        "uk": "біль (фізичний і душевний)",
+        "ar": "ألم (جسدي وعاطفي)",
+        "fa": "درد (جسمی و احساسی)",
+        "so": "xanuun (jidheed iyo dareen)",
+        "es": "dolor (físico y emocional)",
+        "de": "Schmerz (körperlich und emotional)",
+        "fr": "douleur (physique et émotionnelle)",
+        "pl": "ból (fizyczny i emocjonalny)",
+        "id": "rasa sakit (fisik dan emosional)",
+        "hi": "दर्द (शारीरिक और भावनात्मक)",
+        "zh": "痛苦（身体和情感）",
+        "it": "dolore (fisico ed emotivo)",
+        "tr": "ağrı (fiziksel ve duygusal)",
+        "sr": "бол (физички и емотивни)",
+        "fi": "kipu (fyysinen ja emotionaalinen)",
+        "et": "valu (füüsiline ja emotsionaalne)",
+        "be": "боль (фізічная і душэўная)",
+        "lv": "sāpes (fiziskas un emocionālas)",
+        "lt": "skausmas (fizinis ir emocinis)"
+      },
+      "examples": [
+        {
+          "text": "Han kände en skarp smärta i knäet efter fallet"
+        },
+        {
+          "text": "Smärtan i ryggen blev värre efter att han lyfte den tunga lådan"
+        },
+        {
+          "text": "Jag har haft smärtor i magen hela dagen"
+        },
+        {
+          "text": "Medicinen hjälpte till att lindra smärtan"
+        },
+        {
+          "text": "Hon beskriver en konstant smärta i axeln efter olyckan"
+        },
+        {
+          "text": "Sorgen orsakade en djup smärta i hennes hjärta"
+        },
+        {
+          "text": "Smärtan av att förlora någon man älskar är svår att beskriva"
+        },
+        {
+          "text": "Efter skilsmässan gick han igenom mycket smärta"
+        },
+        {
+          "text": "Hon försökte dölja sin inre smärta, men det var tydligt att hon led"
+        },
+        {
+          "text": "Musiken hjälpte honom att hantera sin smärta"
+        },
+        {
+          "text": "Läkaren gav honom en spruta för att lindra smärtan"
+        },
+        {
+          "text": "Skadan orsakade mycket smärta"
+        },
+        {
+          "text": "Hon beskriver en outhärdlig fysisk smärta"
+        },
+        {
+          "text": "Förlusten lämnade honom med en djup känslomässig smärta"
+        },
+        {
+          "text": "Han vaknade mitt i natten av outhärdlig smärta i magen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6daf2b95-73b7-442b-a907-555a96766d40",
+      "version": -1,
+      "word": "ett ont",
+      "translations": {
+        "ru": "боль (физическая и душевная)",
+        "en": "pain (physical and emotional)",
+        "uk": "біль (фізичний і душевний)",
+        "ar": "ألم (جسدي وعاطفي)",
+        "fa": "درد (جسمی و احساسی)",
+        "so": "xanuun (jidheed iyo dareen)",
+        "es": "dolor (físico y emocional)",
+        "de": "Schmerz (körperlich und emotional)",
+        "fr": "douleur (physique et émotionnelle)",
+        "pl": "ból (fizyczny i emocjonalny)",
+        "id": "rasa sakit (fisik dan emosional)",
+        "hi": "दर्द (शारीरिक और भावनात्मक)",
+        "zh": "痛苦（身体和情感）",
+        "it": "dolore (fisico ed emotivo)",
+        "tr": "ağrı (fiziksel ve duygusal)",
+        "sr": "бол (физички и емотивни)",
+        "fi": "kipu (fyysinen ja emotionaalinen)",
+        "et": "valu (füüsiline ja emotsionaalne)",
+        "be": "боль (фізічная і душэўная)",
+        "lv": "sāpes (fiziskas un emocionālas)",
+        "lt": "skausmas (fizinis ir emocinis)"
+      },
+      "examples": [
+        {
+          "text": "Jag har ont i huvudet"
+        },
+        {
+          "text": "Hon fick ont i ryggen efter att ha burit den tunga väskan"
+        },
+        {
+          "text": "Barnet grät för att han hade ont i magen"
+        },
+        {
+          "text": "Jag får alltid ont i fötterna efter en lång promenad"
+        },
+        {
+          "text": "Efter operationen hade han mycket ont"
+        },
+        {
+          "text": "Det gjorde ont i hjärtat att se henne ledsen"
+        },
+        {
+          "text": "Att höra hans ord gjorde verkligen ont"
+        },
+        {
+          "text": "Det gör ont att förlora någon man älskar"
+        },
+        {
+          "text": "Jag har ont i halsen"
+        },
+        {
+          "text": "Det gör ont att böja knäet"
+        },
+        {
+          "text": "Jag känner att det är ont i min axel"
+        },
+        {
+          "text": "Har du fortfarande ont i tanden efter besöket hos tandläkaren? Det gör verkligen ont att trampa på en sten barfota"
+        },
+        {
+          "text": "Hon har haft ont i knät i flera dagar efter löpningen"
+        },
+        {
+          "text": "Jag har lite ont i nacken, kanske sov jag fel"
+        },
+        {
+          "text": "Att se någon gråta kan göra ont även för en främling."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b601a258-6d2a-48bf-be3b-bfc4fe758a2c",
+      "version": -1,
+      "word": "en värk",
+      "forms": [
+        {
+          "form": "värkar"
+        }
+      ],
+      "translations": {
+        "ru": "Боль (ноющая долгая или хроническая боль)",
+        "en": "pain (aching, long-lasting or chronic pain)",
+        "uk": "біль (ниючий, тривалий або хронічний біль)",
+        "ar": "ألم (ألم مؤلم، طويل الأمد أو مزمن)",
+        "fa": "درد (درد مزمن، طولانی یا مزمن)",
+        "so": "xanuun (xanuun, dheer ama xanuun joogto ah)",
+        "es": "dolor (dolor persistente, duradero o crónico)",
+        "de": "Schmerz (schmerzhaft, langanhaltend oder chronisch)",
+        "fr": "douleur (douleur lancinante, persistante ou chronique)",
+        "pl": "ból (ból tępy, długotrwały lub przewlekły)",
+        "id": "nyeri (nyeri yang sakit, tahan lama atau kronis)",
+        "hi": "दर्द (दर्दनाक, लंबे समय तक चलने वाला या पुराना दर्द)",
+        "zh": "疼痛（疼痛、持久或慢性疼痛）",
+        "it": "dolore (dolore doloroso, duraturo o cronico)",
+        "tr": "ağrı (ağrılı, uzun süreli veya kronik ağrı)",
+        "sr": "бол (болан, дуготрајан или хроничан бол)",
+        "fi": "kipu (särkevä, pitkäkestoinen tai krooninen kipu)",
+        "et": "valu (valutav, pikaajaline või krooniline valu)",
+        "be": "боль (ныючы, працяглы або хранічны боль)",
+        "lv": "sāpes (sāpes, ilgstošas vai hroniskas sāpes)",
+        "lt": "skausmas (skausmingas, ilgalaikis arba lėtinis skausmas)"
+      },
+      "examples": [
+        {
+          "text": "Jag har haft värk i ryggen hela dagen"
+        },
+        {
+          "text": "Hon klagade över en konstant värk i axeln"
+        },
+        {
+          "text": "Efter träningen fick jag en stark värk i benen"
+        },
+        {
+          "text": "Värken i nacken gör det svårt att sova"
+        },
+        {
+          "text": "Tandläkaren sa att värken i tanden beror på en infektion"
+        },
+        {
+          "text": "Hon började känna värkar strax före förlossningen"
+        },
+        {
+          "text": "Värkarna blev starkare och kom med kortare mellanrum"
+        },
+        {
+          "text": "Barnmorskan bad henne att andas djupt under värken."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7d7e03e5-400f-432c-aa71-5db6a65345b4",
+      "version": -1,
+      "word": "en feber",
+      "forms": [
+        {
+          "form": "feber"
+        }
+      ],
+      "translations": {
+        "ru": "жар",
+        "en": "fever",
+        "uk": "лихоманка",
+        "ar": "حمى",
+        "fa": "تب",
+        "so": "qandho",
+        "es": "fiebre",
+        "de": "Fieber",
+        "fr": "fièvre",
+        "pl": "gorączka",
+        "id": "demam",
+        "hi": "बुखार",
+        "zh": "发烧",
+        "it": "febbre",
+        "tr": "ateş",
+        "sr": "грозница",
+        "fi": "kuume",
+        "et": "palavik",
+        "be": "ліхаманка",
+        "lv": "drudzis",
+        "lt": "karščiavimas"
+      },
+      "examples": [
+        {
+          "text": "Hon har haft hög feber i tre dagar"
+        },
+        {
+          "text": "Febern steg snabbt under natten, så vi ringde läkaren"
+        },
+        {
+          "text": "Barnet har lätt feber, men mår annars bra"
+        },
+        {
+          "text": "Förkylningen började med huvudvärk och lite feber"
+        },
+        {
+          "text": "Om febern inte går ner inom två dagar bör du söka vård"
+        },
+        {
+          "text": "Han kände sig yr och hade hög feber hela dagen"
+        },
+        {
+          "text": "Vid influensa är feber ett vanligt symptom"
+        },
+        {
+          "text": "Feberns orsaker kan vara infektioner eller inflammationer i kroppen"
+        },
+        {
+          "text": "Jag tog en tablett för att få ner febern"
+        },
+        {
+          "text": "Hennes feber försvann efter några dagar med vila och vätska"
+        },
+        {
+          "text": "Han har feber och stannar hemma från jobbet idag"
+        },
+        {
+          "text": "Efter medicinen gick febern ner snabbt"
+        },
+        {
+          "text": "På kvällen gick febern upp igen"
+        },
+        {
+          "text": "Efter en vecka är han äntligen feberfri."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "54ad4857-4528-4c41-812a-cd7e7f468ca7",
+      "version": -1,
+      "word": "en huvudvärk",
+      "forms": [
+        {
+          "form": "huvudvärkar"
+        }
+      ],
+      "translations": {
+        "ru": "головная боль",
+        "en": "headache",
+        "uk": "головний біль",
+        "ar": "صداع",
+        "fa": "سردرد",
+        "so": "madax xanuun",
+        "es": "dolor de cabeza",
+        "de": "Kopfschmerzen",
+        "fr": "mal de tête",
+        "pl": "ból głowy",
+        "id": "sakit kepala",
+        "hi": "सिरदर्द",
+        "zh": "头痛",
+        "it": "mal di testa",
+        "tr": "baş ağrısı",
+        "sr": "главобоља",
+        "fi": "päänsärky",
+        "et": "peavalu",
+        "be": "галаўны боль",
+        "lv": "galvassāpes",
+        "lt": "galvos skausmas"
+      },
+      "examples": [
+        {
+          "text": "Jag har haft huvudvärk hela dagen"
+        },
+        {
+          "text": "Hon tog en tablett för att lindra huvudvärken"
+        },
+        {
+          "text": "Efter en lång arbetsdag fick han svår huvudvärk"
+        },
+        {
+          "text": "Huvudvärken kan bero på stress eller sömnbrist"
+        },
+        {
+          "text": "Om huvudvärken inte går över, bör du kontakta en läkare"
+        },
+        {
+          "text": "Jag känner alltid lite huvudvärk när jag inte dricker tillräckligt med vatten"
+        },
+        {
+          "text": "Det är svårt att koncentrera sig när man har huvudvärk"
+        },
+        {
+          "text": "Huvudvärkens orsaker kan vara många – allt från spänningar till migrän"
+        },
+        {
+          "text": "Efter konserten hade jag lätt huvudvärk på grund av det höga ljudet"
+        },
+        {
+          "text": "Hon beskriver sin huvudvärk som pulserande och mycket smärtsam"
+        },
+        {
+          "text": "Drick vatten för att lindra huvudvärken"
+        },
+        {
+          "text": "Hon lider av kronisk huvudvärk och måste ofta ta medicin."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "da8824d9-9ba1-4786-a18f-08d396b44c0e",
+      "version": -1,
+      "word": "ett magont",
+      "translations": {
+        "ru": "боль в животе (разговорное)",
+        "en": "stomach ache (colloquial)",
+        "uk": "біль у животі",
+        "ar": "وجع بطن",
+        "fa": "دل‌درد",
+        "so": "calool xanuun",
+        "es": "dolor de barriga",
+        "de": "Bauchweh",
+        "fr": "mal de ventre",
+        "pl": "ból brzucha",
+        "id": "sakit perut",
+        "hi": "पेट दर्द",
+        "zh": "肚子痛",
+        "it": "mal di pancia",
+        "tr": "karın ağrısı",
+        "sr": "бол у стомаку",
+        "fi": "vatsakipu",
+        "et": "kõhuvalu",
+        "be": "боль у жываце",
+        "lv": "vēdersāpes",
+        "lt": "pilvo skausmas"
+      },
+      "examples": [
+        {
+          "text": "Jag har haft magont sedan igår kväll"
+        },
+        {
+          "text": "Hon fick magont efter att ha ätit för mycket choklad"
+        },
+        {
+          "text": "Om ditt magont inte går över snart, borde du kontakta en läkare"
+        },
+        {
+          "text": "Barnet klagade på magont och ville inte gå till skolan"
+        },
+        {
+          "text": "Stress kan orsaka magont hos vissa människor"
+        },
+        {
+          "text": "Efter middagen kände han lätt magont, men det gick över snabbt"
+        },
+        {
+          "text": "Magontet blev värre efter att han drack kallt vatten"
+        },
+        {
+          "text": "Hon använde värme på magen för att lindra sitt magont"
+        },
+        {
+          "text": "Magontet kan vara ett symptom på en infektion eller inflammation"
+        },
+        {
+          "text": "Det är vanligt att små barn får magont efter att ha ätit för snabbt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5b9e83cc-5593-4fe7-bb7d-b538d68ecb09",
+      "version": -1,
+      "word": "en buksmärta",
+      "forms": [
+        {
+          "form": "buksmärtor"
+        }
+      ],
+      "translations": {
+        "ru": "боль в брюшной полости (медецинское)",
+        "en": "abdominal pain (medical)",
+        "uk": "біль у черевній порожнині (медичний)",
+        "ar": "ألم في البطن (طبي)",
+        "fa": "درد شکم (پزشکی)",
+        "so": "xanuun caloosha (caafimaad)",
+        "es": "dolor abdominal (médico)",
+        "de": "Bauchschmerzen (medizinisch)",
+        "fr": "douleur abdominale (médical)",
+        "pl": "ból brzucha (medyczny)",
+        "id": "nyeri perut (medis)",
+        "hi": "पेट में दर्द (चिकित्सा)",
+        "zh": "腹痛（医学）",
+        "it": "dolore addominale (medico)",
+        "tr": "karın ağrısı (tıbbi)",
+        "sr": "бол у стомаку (медицински)",
+        "fi": "vatsakipu (lääketieteellinen)",
+        "et": "kõhuvalu (meditsiiniline)",
+        "be": "боль у брушной поласці (медыцынскае)",
+        "lv": "vēdera sāpes (medicīnisks)",
+        "lt": "pilvo skausmas (medicininis)"
+      },
+      "examples": [
+        {
+          "text": "Patienten klagade på svår buksmärta efter måltiden"
+        },
+        {
+          "text": "Buksmärtan kan vara ett tecken på en inflammation i blindtarmen"
+        },
+        {
+          "text": "Om du har långvarig buksmärta, bör du kontakta en läkare"
+        },
+        {
+          "text": "Hon upplevde plötslig buksmärta och åkte till akuten"
+        },
+        {
+          "text": "Stress kan ibland orsaka lätt buksmärta, även om det inte finns en fysisk sjukdom"
+        },
+        {
+          "text": "Läkaren undersökte orsaken till patientens buksmärtor"
+        },
+        {
+          "text": "Buksmärtorna förvärrades under natten, och han kunde inte sova"
+        },
+        {
+          "text": "Vissa livsmedel kan förvärra buksmärta hos känsliga personer"
+        },
+        {
+          "text": "Behandlingen lindrade snabbt buksmärtan och förbättrade hennes tillstånd"
+        },
+        {
+          "text": "Kronisk buksmärta kan vara svår att diagnostisera utan omfattande tester."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d1194300-071d-4c63-9596-0c6904254a0f",
+      "version": -1,
+      "word": "en diarre",
+      "forms": [
+        {
+          "form": "diarréer"
+        }
+      ],
+      "translations": {
+        "ru": "диарея понос",
+        "en": "diarrhea",
+        "uk": "діарея",
+        "ar": "إسهال",
+        "fa": "اسهال",
+        "so": "shuban",
+        "es": "diarrea",
+        "de": "Durchfall",
+        "fr": "diarrhée",
+        "pl": "biegunka",
+        "id": "diare",
+        "hi": "दस्त",
+        "zh": "腹泻",
+        "it": "diarrea",
+        "tr": "ishal",
+        "sr": "дијареја",
+        "fi": "ripuli",
+        "et": "kõhulahtisus",
+        "be": "панос",
+        "lv": "caureja",
+        "lt": "viduriavimas"
+      },
+      "examples": [
+        {
+          "text": "Den här medicinen kommer att stoppa diarren"
+        },
+        {
+          "text": "Han drabbades av diarré efter att ha ätit dålig mat"
+        },
+        {
+          "text": "Diarrén kan bero på en infektion i magen"
+        },
+        {
+          "text": "Vid långvarig diarré är det viktigt att dricka mycket vätska"
+        },
+        {
+          "text": "Hon hade både feber och diarré, så hon stannade hemma från jobbet"
+        },
+        {
+          "text": "Barnet fick diarré efter att ha ätit för mycket glass"
+        },
+        {
+          "text": "Diarrén varade bara en dag, men den var mycket besvärlig"
+        },
+        {
+          "text": "För att förhindra diarré är det viktigt att tvätta händerna ordentligt"
+        },
+        {
+          "text": "Han köpte medicin mot diarré på apoteket"
+        },
+        {
+          "text": "Vid resor till tropiska länder är risken för diarré högre"
+        },
+        {
+          "text": "Läkaren rekommenderade en speciell diet för att minska diarrén."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d18d93a8-cbd7-406e-9bb5-107066b9255e",
+      "version": -1,
+      "word": "en brännskada",
+      "forms": [
+        {
+          "form": "brännskador"
+        }
+      ],
+      "translations": {
+        "ru": "ожог",
+        "en": "burn",
+        "uk": "опік",
+        "ar": "حرق",
+        "fa": "سوختگی",
+        "so": "gubasho",
+        "es": "quemadura",
+        "de": "Verbrennung",
+        "fr": "brûlure",
+        "pl": "oparzenie",
+        "id": "luka bakar",
+        "hi": "जलन",
+        "zh": "烧伤",
+        "it": "ustione",
+        "tr": "yanık",
+        "sr": "опекотина",
+        "fi": "palovamma",
+        "et": "põletus",
+        "be": "апёк",
+        "lv": "apdegums",
+        "lt": "nudegimas"
+      },
+      "examples": [
+        {
+          "text": "Hon spillde kokande vatten på sin väsntra hand och har fått andra gradens brännskador"
+        },
+        {
+          "text": "Hon fick en brännskada på handen från het olja"
+        },
+        {
+          "text": "En lätt brännskada kan behandlas hemma"
+        },
+        {
+          "text": "Han fick allvarliga brännskador i ansiktet efter olyckan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9c458fa9-455d-4dc4-9016-ffcf44f882c2",
+      "version": 1,
+      "word": "ett symptom",
+      "forms": [
+        {
+          "form": "symptomet"
+        },
+        {
+          "form": "symptom"
+        },
+        {
+          "form": "symptomen"
+        }
+      ],
+      "translations": {
+        "ru": "симптом",
+        "en": "symptom",
+        "uk": "симптом",
+        "ar": "عرض",
+        "fa": "علائم",
+        "so": "calaamad",
+        "es": "síntoma",
+        "de": "Symptom",
+        "fr": "symptôme",
+        "pl": "objaw",
+        "id": "gejala",
+        "hi": "लक्षण",
+        "zh": "症状",
+        "it": "sintomo",
+        "tr": "belirti",
+        "sr": "симптом",
+        "fi": "oire",
+        "et": "sümptom",
+        "be": "сімптом",
+        "lv": "simptoms",
+        "lt": "simptomas"
+      },
+      "examples": [
+        {
+          "text": "Jag har haft de här symptomen i tre månader och jag vet fortfarande inte vad det är"
+        },
+        {
+          "text": "Feber och hosta är vanliga symptom på en förkylning"
+        },
+        {
+          "text": "Hon sökte vård på grund av långvariga symptom som huvudvärk och trötthet"
+        },
+        {
+          "text": "Ett viktigt symptom på stress kan vara sömnproblem"
+        },
+        {
+          "text": "Om symptomen förvärras bör du kontakta en läkare"
+        },
+        {
+          "text": "Han visade inga tydliga symptom på sjukdom, men han kände sig ändå dålig"
+        },
+        {
+          "text": "Symptomet på migrän är ofta en pulserande huvudvärk"
+        },
+        {
+          "text": "Vissa symptom, som feber och trötthet, kan tyda på influensa"
+        },
+        {
+          "text": "Det är svårt att diagnostisera sjukdomen bara utifrån symptom"
+        },
+        {
+          "text": "Symptomens varaktighet kan ge viktig information till läkaren"
+        },
+        {
+          "text": "Smärta i bröstet kan vara ett symptom på hjärtproblem"
+        },
+        {
+          "text": "Patienten sökte vård på grund av akuta symptom"
+        },
+        {
+          "text": "Vilka symptom hade du innan du sökte vård?"
+        },
+        {
+          "text": "Medicinen hjälpte att lindra symptomen på bara några timmar"
+        },
+        {
+          "text": "Feber är ett vanligt symptom vid virusinfektioner"
+        },
+        {
+          "text": "Symptomen på stress kan variera från person till person"
+        },
+        {
+          "text": "För att ställa rätt diagnos behöver läkaren mer information än bara symptom."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "abfd960c-637a-44f7-8d95-acc5a3a72347",
+      "version": 1,
+      "word": "att stuka",
+      "forms": [
+        {
+          "form": "stukar"
+        },
+        {
+          "form": "stukade"
+        },
+        {
+          "form": "stukat"
+        }
+      ],
+      "translations": {
+        "ru": "вывихнуть, подвернуть",
+        "en": "to sprain, to twist",
+        "uk": "вивихнути, підвернути",
+        "ar": "التواء, لف",
+        "fa": "پیچ خوردن, رگ به رگ شدن",
+        "so": "jeex, qalloocin",
+        "es": "torcer, esguince",
+        "de": "verstauchen, verdrehen",
+        "fr": "fouler, tordre",
+        "pl": "skręcić, zwichnąć",
+        "id": "terkilir, memutar",
+        "hi": "मोड़ना, मरोड़ना",
+        "zh": "扭伤, 扭曲",
+        "it": "storcere, slogare",
+        "tr": "burkmak, bükmek",
+        "sr": "ишчашити, уврнути",
+        "fi": "nyrjäyttää, vääntää",
+        "et": "nikastama, väänama",
+        "be": "вывіхнуць, падвярнуць",
+        "lv": "izmežģīt, savērpt",
+        "lt": "išnarinti, susukti"
+      },
+      "examples": [
+        {
+          "text": "Han lyckades stuka foten när han spelade fotboll"
+        },
+        {
+          "text": "Jag tror att jag har stukat handleden efter fallet"
+        },
+        {
+          "text": "Hon stukade fotleden när hon snubblade på trappan"
+        },
+        {
+          "text": "Om du stukar foten, är det viktigt att vila och kyla ner området"
+        },
+        {
+          "text": "Han stukade tummen när han försökte lyfta en tung låda"
+        },
+        {
+          "text": "Stukade leder kan vara smärtsamma, men de läker ofta snabbt med rätt vård"
+        },
+        {
+          "text": "Hon använde ett elastiskt bandage för att stabilisera sin stukade fot"
+        },
+        {
+          "text": "När jag halkade på isen, stukade jag fotleden"
+        },
+        {
+          "text": "En stukad fot kan ta några veckor att läka helt"
+        },
+        {
+          "text": "Lägg is på det stukade området för att minska svullnaden"
+        },
+        {
+          "text": "Har du någonsin stukat foten under en promenad?"
+        },
+        {
+          "text": "Stukade fingrar är vanliga bland basketspelare"
+        },
+        {
+          "text": "Vad ska jag göra om jag stukar handleden?"
+        },
+        {
+          "text": "Han använde en ispåse för att kyla ner sin stukade vrist"
+        },
+        {
+          "text": "Det tar ofta ett par veckor att återhämta sig från en stukad fot."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "88267077-a46a-4adb-b825-71a0f992784c",
+      "version": -1,
+      "word": "en hosta",
+      "forms": [
+        {
+          "form": "hostor"
+        }
+      ],
+      "translations": {
+        "ru": "кашель",
+        "en": "cough",
+        "uk": "кашель",
+        "ar": "سعال",
+        "fa": "سرفه",
+        "so": "qufac",
+        "es": "tos",
+        "de": "Husten",
+        "fr": "toux",
+        "pl": "kaszel",
+        "id": "batuk",
+        "hi": "खांसी",
+        "zh": "咳嗽",
+        "it": "tosse",
+        "tr": "öksürük",
+        "sr": "кашљање",
+        "fi": "yskä",
+        "et": "köha",
+        "be": "кашаль",
+        "lv": "klepus",
+        "lt": "kosulys"
+      },
+      "examples": [
+        {
+          "text": "Jag har hosta"
+        },
+        {
+          "text": "Han har haft hosta i flera dagar"
+        },
+        {
+          "text": "Hostan gör det svårt att sova"
+        },
+        {
+          "text": "Det är viktigt att behandla hostan i tid"
+        },
+        {
+          "text": "Jag har en rethosta som inte försvinner"
+        },
+        {
+          "text": "Han har slemhosta efter förkylningen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d5924a9b-147d-429b-8d50-01eb5e6e6ee9",
+      "version": -1,
+      "word": "att hosta",
+      "forms": [
+        {
+          "form": "hostar"
+        },
+        {
+          "form": "hostade"
+        },
+        {
+          "form": "hostat"
+        }
+      ],
+      "translations": {
+        "ru": "кашлять",
+        "en": "to cough",
+        "uk": "кашляти",
+        "ar": "يسعل",
+        "fa": "سرفه کردن",
+        "so": "qufac",
+        "es": "toser",
+        "de": "husten",
+        "fr": "tousser",
+        "pl": "kaszleć",
+        "id": "batuk",
+        "hi": "खाँसना",
+        "zh": "咳嗽",
+        "it": "tossire",
+        "tr": "öksürmek",
+        "sr": "кашљати",
+        "fi": "yskiä",
+        "et": "köhima",
+        "be": "кашляць",
+        "lv": "klepot",
+        "lt": "kosėti"
+      },
+      "examples": [
+        {
+          "text": "Jag hostade hela natten och kunde inte sova"
+        },
+        {
+          "text": "Jag hostar mycket på morgonen när jag vaknar"
+        },
+        {
+          "text": "Hon hostade så mycket att hon fick ont i halsen"
+        },
+        {
+          "text": "Om du hostar, täck munnen med armen"
+        },
+        {
+          "text": "Han hostar fortfarande, trots att han har tagit medicin"
+        },
+        {
+          "text": "När barnet började hosta på natten blev föräldrarna oroliga"
+        },
+        {
+          "text": "Barnet började hosta efter att ha lekt ute i kylan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "785c5376-efad-4919-a171-c53510b6a45d",
+      "version": -1,
+      "word": "en hicka",
+      "forms": [
+        {
+          "form": "hickor"
+        }
+      ],
+      "translations": {
+        "ru": "икота",
+        "en": "hiccup",
+        "uk": "гикавка",
+        "ar": "فواق",
+        "fa": "سکسکه",
+        "so": "qandho",
+        "es": "hipo",
+        "de": "Schluckauf",
+        "fr": "hoquet",
+        "pl": "czkawka",
+        "id": "cegukan",
+        "hi": "हिचकी",
+        "zh": "打嗝",
+        "it": "singhiozzo",
+        "tr": "hıçkırık",
+        "sr": "штуцање",
+        "fi": "nikotus",
+        "et": "luksumine",
+        "be": "ікота",
+        "lv": "žagas",
+        "lt": "žagsulys"
+      },
+      "examples": [
+        {
+          "text": "Hickan kom plötsligt och försvann lika snabbt"
+        },
+        {
+          "text": "Hur brukar du bli av med hicka? Jag fick en hicka efter att ha druckit kolsyrad läsk"
+        },
+        {
+          "text": "Hickan gick över efter några minuter"
+        },
+        {
+          "text": "Hon försökte bli av med hickan genom att dricka vatten"
+        },
+        {
+          "text": "Barnet hade en långvarig hicka som inte ville sluta"
+        },
+        {
+          "text": "Det sägs att skrämma någon kan hjälpa mot hicka"
+        },
+        {
+          "text": "Om du får hicka, prova att hålla andan i några sekunder."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1fe3891a-2cb5-4f57-9fcd-eed4ac4817b7",
+      "version": -1,
+      "word": "att hicka",
+      "forms": [
+        {
+          "form": "hickar"
+        },
+        {
+          "form": "hickade"
+        },
+        {
+          "form": "hickat"
+        }
+      ],
+      "translations": {
+        "ru": "икать",
+        "en": "to hiccup",
+        "uk": "гикати",
+        "ar": "الفواق",
+        "fa": "سکسکه کردن",
+        "so": "qandho",
+        "es": "tener hipo",
+        "de": "schluckauf haben",
+        "fr": "avoir le hoquet",
+        "pl": "mieć czkawkę",
+        "id": "cegukan",
+        "hi": "हिचकी लेना",
+        "zh": "打嗝",
+        "it": "avere il singhiozzo",
+        "tr": "hıçkırmak",
+        "sr": "имати штуцање",
+        "fi": "saada hikka",
+        "et": "luksumine",
+        "be": "ікаць",
+        "lv": "žagoties",
+        "lt": "žagsėti"
+      },
+      "examples": [
+        {
+          "text": "Hon hickade i nästan tio minuter efter att ha skrattat så mycket"
+        },
+        {
+          "text": "Jag började hicka precis innan mötet började"
+        },
+        {
+          "text": "Hon hickade så mycket att hon började skratta"
+        },
+        {
+          "text": "Om du fortsätter att hicka, kanske du borde prova att hålla andan"
+        },
+        {
+          "text": "Han hickade hela natten och kunde inte somna"
+        },
+        {
+          "text": "Jag vet inte varför jag hickar, men det är väldigt irriterande."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0d2e0674-3aa1-409a-91cc-2d9f952b6420",
+      "version": 1,
+      "word": "olycka",
+      "translations": {
+        "ru": "авария несчастный случай происшествие",
+        "en": "accident, mishap, incident",
+        "uk": "аварія, нещасний випадок, інцидент",
+        "ar": "حادث، عطل، واقعة",
+        "fa": "تصادف، حادثه، رویداد",
+        "so": "shil, dhacdo, dhacdo",
+        "es": "accidente, percance, incidente",
+        "de": "Unfall, Missgeschick, Vorfall",
+        "fr": "accident, mésaventure, incident",
+        "pl": "wypadek, nieszczęśliwy wypadek, incydent",
+        "id": "kecelakaan, kemalangan, insiden",
+        "hi": "दुर्घटना, हादसा, घटना",
+        "zh": "事故, 不幸事件, 事件",
+        "it": "incidente, contrattempo, evento",
+        "tr": "kaza, aksilik, olay",
+        "sr": "несрећа, незгода, инцидент",
+        "fi": "onnettomuus, vahinko, tapaus",
+        "et": "õnnetus, äpardus, juhtum",
+        "be": "аварыя, няшчасны выпадак, інцыдэнт",
+        "lv": "avārija, neveiksmīgs gadījums, incidents",
+        "lt": "avarija, nelaimingas atsitikimas, incidentas"
+      },
+      "examples": [
+        {
+          "text": "Det inträffade en allvarlig olycka på motorvägen i morse"
+        },
+        {
+          "text": "Hon skadades i en olycka på jobbet"
+        },
+        {
+          "text": "Barnet föll och slog sig, men det var bara en liten olycka"
+        },
+        {
+          "text": "Olyckan orsakade stora trafikproblem i flera timmar"
+        },
+        {
+          "text": "Han körde för fort och det ledde till en olycka"
+        },
+        {
+          "text": "Det är viktigt att anmäla en arbetsplatsolycka till arbetsgivaren"
+        },
+        {
+          "text": "Hon överlevde mirakulöst en svår olycka"
+        },
+        {
+          "text": "Olyckorna på vintern ökar på grund av hala vägar"
+        },
+        {
+          "text": "Efter olyckan tog det lång tid för henne att återhämta sig"
+        },
+        {
+          "text": "Polisen utreder vad som orsakade olyckan"
+        },
+        {
+          "text": "Har du någonsin varit med om en trafikolycka?"
+        },
+        {
+          "text": "Olyckan kunde ha undvikits om han hade varit mer försiktig"
+        },
+        {
+          "text": "Det är viktigt att veta vad man ska göra vid en arbetsplatsolycka"
+        },
+        {
+          "text": "Polisen undersöker vad som orsakade olyckan vid järnvägen"
+        },
+        {
+          "text": "Efter flera olyckor på vägen beslutade kommunen att installera fartkameror."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7d6bceeb-ab90-4a02-9186-824ce03a211b",
+      "version": -1,
+      "word": "en kräfta",
+      "forms": [
+        {
+          "form": "kräftor"
+        }
+      ],
+      "translations": {
+        "ru": "рак",
+        "en": "cancer",
+        "uk": "рак",
+        "ar": "سرطان",
+        "fa": "سرطان",
+        "so": "cancer",
+        "es": "cáncer",
+        "de": "Krebs",
+        "fr": "cancer",
+        "pl": "rak",
+        "id": "kanker",
+        "hi": "कैंसर",
+        "zh": "癌症",
+        "it": "cancro",
+        "tr": "kanser",
+        "sr": "рак",
+        "fi": "syöpä",
+        "et": "vähk",
+        "be": "рак",
+        "lv": "vēzis",
+        "lt": "vėžys"
+      },
+      "examples": [
+        {
+          "text": "Läkaren diagnostiserade honom med en aggressiv form av kräfta"
+        },
+        {
+          "text": "Kräfta är en sjukdom som påverkar många människor"
+        },
+        {
+          "text": "Forskning på kräfta har gjort stora framsteg de senaste åren"
+        },
+        {
+          "text": "Tidig upptäckt av kräfta kan rädda liv"
+        },
+        {
+          "text": "Han engagerade sig i att samla pengar till kräftforskning"
+        },
+        {
+          "text": "Han är engagerad i att sprida medvetenhet om kräfta som sjukdom"
+        },
+        {
+          "text": "Tidig behandling av kräfta ökar chanserna till överlevnad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "17c90a76-38e9-4f66-b8b6-6aae60c78a1b",
+      "version": -1,
+      "word": "rökning",
+      "translations": {
+        "ru": "курение",
+        "en": "smoking",
+        "uk": "куріння",
+        "ar": "التدخين",
+        "fa": "سیگار کشیدن",
+        "so": "sigaar cabid",
+        "es": "fumar",
+        "de": "Rauchen",
+        "fr": "fumer",
+        "pl": "palenie",
+        "id": "merokok",
+        "hi": "धूम्रपान",
+        "zh": "吸烟",
+        "it": "fumare",
+        "tr": "sigara içmek",
+        "sr": "пушење",
+        "fi": "tupakointi",
+        "et": "suitsetamine",
+        "be": "курэнне",
+        "lv": "smēķēšana",
+        "lt": "rūkymas"
+      },
+      "examples": [
+        {
+          "text": "Det finns en separat terrass för rökning som del av restaurangen"
+        },
+        {
+          "text": "Rökning är förbjuden här"
+        },
+        {
+          "text": "Många människor försöker sluta med rökning"
+        },
+        {
+          "text": "Rökning är skadligt för hälsan"
+        },
+        {
+          "text": "Restaurangen har en särskild zon för rökning"
+        },
+        {
+          "text": "Passiv rökning kan också vara farlig"
+        },
+        {
+          "text": "Hans rökning har minskat sedan han började använda nikotintuggummi"
+        },
+        {
+          "text": "Rökning i bilen kan göra att den luktar illa"
+        },
+        {
+          "text": "Hennes rökning påverkade hennes hälsa negativt"
+        },
+        {
+          "text": "Långvarig rökning ökar risken för lungcancer"
+        },
+        {
+          "text": "Han är beroende av rökning och har svårt att sluta"
+        },
+        {
+          "text": "Rökning är inte tillåten på tåget"
+        },
+        {
+          "text": "Vi såg en skylt med texten: \"Förbjuden rökning\""
+        },
+        {
+          "text": "På flygplatsen finns särskilda områden för rökning"
+        },
+        {
+          "text": "Många hotell har rum där rökning är förbjuden"
+        },
+        {
+          "text": "Sverige har stränga lagar om rökning på offentliga platser."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c1088669-f572-4c99-83a4-5914a9d57b5a",
+      "version": -1,
+      "word": "ett läkarbesök",
+      "forms": [
+        {
+          "form": "läkarbesöket"
+        },
+        {
+          "form": "läkarbesök"
+        },
+        {
+          "form": "läkarbesöken"
+        }
+      ],
+      "translations": {
+        "ru": "визит к врачу, приём у врача",
+        "en": "doctor's visit, medical appointment",
+        "uk": "візит до лікаря, медичний прийом",
+        "ar": "زيارة الطبيب، موعد طبي",
+        "fa": "ویزیت دکتر، قرار ملاقات پزشکی",
+        "so": "booqashada dhakhtarka, ballan caafimaad",
+        "es": "visita al médico, cita médica",
+        "de": "Arztbesuch, medizinischer Termin",
+        "fr": "visite chez le médecin, rendez-vous médical",
+        "pl": "wizyta u lekarza, wizyta medyczna",
+        "id": "kunjungan dokter, janji medis",
+        "hi": "डॉक्टर की यात्रा, चिकित्सा नियुक्ति",
+        "zh": "看医生，医疗预约",
+        "it": "visita dal medico, appuntamento medico",
+        "tr": "doktor ziyareti, tıbbi randevu",
+        "sr": "посета лекару, медицински преглед",
+        "fi": "lääkärikäynti, lääkäriaika",
+        "et": "arsti visiit, meditsiiniline kohtumine",
+        "be": "візіт да лекара, медыцынскі прыём",
+        "lv": "vizīte pie ārsta, medicīniska tikšanās",
+        "lt": "vizitas pas gydytoją, medicininis susitikimas"
+      },
+      "examples": [
+        {
+          "text": "Jag har ett läkarbesök i morgon klockan tio"
+        },
+        {
+          "text": "Hon glömde sitt läkarbesök och måste boka om"
+        },
+        {
+          "text": "Läkarbesöket tog bara 15 minuter"
+        },
+        {
+          "text": "Han blev sjuk och behövde ett akut läkarbesök"
+        },
+        {
+          "text": "Det är viktigt att gå på regelbundna läkarbesök"
+        },
+        {
+          "text": "Hon bokade ett läkarbesök via 1177"
+        },
+        {
+          "text": "Mitt senaste läkarbesök var förra månaden"
+        },
+        {
+          "text": "Du kan avboka ditt läkarbesök online"
+        },
+        {
+          "text": "Läkarbesöket gav inga tydliga svar"
+        },
+        {
+          "text": "Han var nervös inför sitt första läkarbesök i Sverige."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

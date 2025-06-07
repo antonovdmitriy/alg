@@ -1,0 +1,1955 @@
+{
+  "id": "747b27c2-4312-47ba-a360-aa34a5e97a01",
+  "translations": {
+    "ru": "отпуск, поездка",
+    "en": "Vacation and travel",
+    "uk": "відпустка і подорож",
+    "ar": "إجازة وسفر",
+    "fa": "تعطیلات و سفر",
+    "so": "fasax iyo safar",
+    "es": "vacaciones y viaje",
+    "de": "Urlaub und Reise",
+    "fr": "vacances et voyage",
+    "pl": "wakacje i podróż",
+    "id": "liburan dan perjalanan",
+    "hi": "छुट्टी और यात्रा",
+    "zh": "假期和旅行",
+    "it": "vacanza e viaggio",
+    "tr": "tatil ve seyahat",
+    "sr": "одмор и путовање",
+    "fi": "loma ja matka",
+    "et": "puhkus ja reis",
+    "be": "адпачынак і падарожжа",
+    "lv": "atvaļinājums un ceļojums",
+    "lt": "atostogos ir kelionė"
+  },
+  "entries": [
+    {
+      "id": "bad08612-a8f8-4a73-b560-74c9d6f4a67e",
+      "version": 1,
+      "word": "på semester",
+      "translations": {
+        "ru": "в отпуске",
+        "en": "on vacation",
+        "uk": "у відпустці",
+        "ar": "في إجازة",
+        "fa": "در تعطیلات",
+        "so": "fasax",
+        "es": "de vacaciones",
+        "de": "im Urlaub",
+        "fr": "en vacances",
+        "pl": "na wakacjach",
+        "id": "sedang berlibur",
+        "hi": "छुट्टी पर",
+        "zh": "在度假",
+        "it": "in vacanza",
+        "tr": "tatilde",
+        "sr": "на одмору",
+        "fi": "lomalla",
+        "et": "puhkusel",
+        "be": "у адпачынку",
+        "lv": "atvaļinājumā",
+        "lt": "atostogaujant"
+      },
+      "examples": [
+        {
+          "text": "Jag är på semester i Spanien"
+        },
+        {
+          "text": "Vi åker på semester nästa vecka"
+        },
+        {
+          "text": "Hon är på semester och svarar inte på mejl"
+        },
+        {
+          "text": "Var ska du åka på semester?"
+        },
+        {
+          "text": "Hur var det på semestern?"
+        },
+        {
+          "text": "Jag vill tillbaka till jobbet efter en lång semester."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "89c1031c-67a0-40a7-a5d0-53205034a59e",
+      "version": -1,
+      "word": "en semester",
+      "forms": [
+        {
+          "form": "semestrar"
+        }
+      ],
+      "translations": {
+        "ru": "отпуск",
+        "en": "vacation",
+        "uk": "відпустка",
+        "ar": "إجازة",
+        "fa": "تعطیلات",
+        "so": "fasax",
+        "es": "vacaciones",
+        "de": "Urlaub",
+        "fr": "vacances",
+        "pl": "wakacje",
+        "id": "liburan",
+        "hi": "छुट्टी",
+        "zh": "假期",
+        "it": "vacanza",
+        "tr": "tatil",
+        "sr": "одмор",
+        "fi": "loma",
+        "et": "puhkus",
+        "be": "адпачынак",
+        "lv": "atvaļinājums",
+        "lt": "atostogos"
+      },
+      "examples": [
+        {
+          "text": "Jag ska åka till Spanien på semester"
+        },
+        {
+          "text": "När har du semester i år? Han tog två veckors semester i juli"
+        },
+        {
+          "text": "Semestern var underbar, vi reste runt i Italien"
+        },
+        {
+          "text": "Många svenskar åker utomlands under sin semester"
+        },
+        {
+          "text": "Jag behöver en liten semester från allt"
+        },
+        {
+          "text": "Efter ett långt projekt tog vi en kort semester"
+        },
+        {
+          "text": "Hon känner sig som på semester när hon är på landet"
+        },
+        {
+          "text": "I Sverige har de flesta fem veckors semester per år"
+        },
+        {
+          "text": "Arbetsgivaren måste godkänna din semester i förväg."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9324e12f-05b8-4729-a8c3-6b11193496e6",
+      "version": -1,
+      "word": "en ledighet",
+      "forms": [
+        {
+          "form": "ledigheter"
+        }
+      ],
+      "translations": {
+        "ru": "отсутствие на работе или учебе (освобождение)",
+        "en": "absence from work or study (leave)",
+        "uk": "відсутність на роботі або навчанні (відпустка)",
+        "ar": "الغياب عن العمل أو الدراسة (إجازة)",
+        "fa": "غیبت از کار یا تحصیل (مرخصی)",
+        "so": "ka maqnaanshaha shaqada ama waxbarashada (fasax)",
+        "es": "ausencia del trabajo o estudio (permiso)",
+        "de": "Abwesenheit von der Arbeit oder dem Studium (Urlaub)",
+        "fr": "absence du travail ou des études (congé)",
+        "pl": "nieobecność w pracy lub na studiach (urlop)",
+        "id": "ketidakhadiran dari pekerjaan atau studi (cuti)",
+        "hi": "काम या अध्ययन से अनुपस्थिति (छुट्टी)",
+        "zh": "工作或学习的缺席（请假）",
+        "it": "assenza dal lavoro o dallo studio (permesso)",
+        "tr": "iş veya eğitimden izinli olma (izin)",
+        "sr": "одсуство са посла или студија (одсуство)",
+        "fi": "poissaolo työstä tai opiskelusta (loma)",
+        "et": "töölt või õpingutest puudumine (puhkus)",
+        "be": "адсутнасць на працы або вучобе (адпачынак)",
+        "lv": "prombūtne no darba vai studijām (atvaļinājums)",
+        "lt": "nedalyvavimas darbe ar studijose (atostogos)"
+      },
+      "examples": [
+        {
+          "text": "Jag har ansökt om ledighet för nästa vecka"
+        },
+        {
+          "text": "Läraren är på ledighet i två dagar"
+        },
+        {
+          "text": "Alla behöver lite ledighet ibland"
+        },
+        {
+          "text": "Hon tog ledighet för att ta hand om sina barn"
+        },
+        {
+          "text": "Efter tre veckors ledighet är jag tillbaka på jobbet"
+        },
+        {
+          "text": "Hur ofta tar du ledighet från jobbet? Under ledigheten läste jag flera böcker"
+        },
+        {
+          "text": "Kan jag få ledighet för att gå till läkaren? Lång ledighet kan hjälpa till att minska stress"
+        },
+        {
+          "text": "Han frågade om extra ledighet för att resa."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "eea758e3-e671-4b99-8409-f0b5176cf4b3",
+      "version": 1,
+      "word": "i helgen",
+      "translations": {
+        "ru": "на выходных, в эти выходные",
+        "en": "on the weekend, this weekend",
+        "uk": "на вихідних, цих вихідних",
+        "ar": "في عطلة نهاية الأسبوع، في عطلة نهاية الأسبوع هذه",
+        "fa": "در آخر هفته، این آخر هفته",
+        "so": "dhamaadka usbuuca, usbuucan dhamaadka",
+        "es": "el fin de semana, este fin de semana",
+        "de": "am Wochenende, dieses Wochenende",
+        "fr": "le week-end, ce week-end",
+        "pl": "w weekend, w ten weekend",
+        "id": "pada akhir pekan, akhir pekan ini",
+        "hi": "सप्ताहांत में, इस सप्ताहांत",
+        "zh": "在周末，这个周末",
+        "it": "nel fine settimana, questo fine settimana",
+        "tr": "hafta sonu, bu hafta sonu",
+        "sr": "за викенд, овог викенда",
+        "fi": "viikonloppuna, tänä viikonloppuna",
+        "et": "nädalavahetusel, sel nädalavahetusel",
+        "be": "на выходных, у гэтыя выходныя",
+        "lv": "nedēļas nogalē, šajā nedēļas nogalē",
+        "lt": "savaitgalį, šį savaitgalį"
+      },
+      "examples": [
+        {
+          "text": "Vad ska du göra i helgen?"
+        },
+        {
+          "text": "Vi ska åka till landet i helgen"
+        },
+        {
+          "text": "I helgen ska vi ha en stor fest"
+        },
+        {
+          "text": "Jag har inga planer i helgen"
+        },
+        {
+          "text": "Det ska bli soligt i helgen, perfekt för en utflykt!"
+        },
+        {
+          "text": "Vad gjorde du i helgen?"
+        },
+        {
+          "text": "Vi var på en konsert i helgen"
+        },
+        {
+          "text": "I helgen besökte vi mina föräldrar"
+        },
+        {
+          "text": "Jag vilade mycket i helgen"
+        },
+        {
+          "text": "Vi hade mycket att göra i helgen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9715a17f-b69f-4f0a-b19e-1872abf0160f",
+      "version": 1,
+      "word": "på landet",
+      "translations": {
+        "ru": "за городом, в сельской местности",
+        "en": "out of town, in the countryside",
+        "uk": "за містом, у сільській місцевості",
+        "ar": "خارج المدينة، في الريف",
+        "fa": "خارج از شهر، در حومه",
+        "so": "bannaan magaalada, baadiyaha",
+        "es": "fuera de la ciudad, en el campo",
+        "de": "außerhalb der Stadt, auf dem Land",
+        "fr": "hors de la ville, à la campagne",
+        "pl": "poza miastem, na wsi",
+        "id": "di luar kota, di pedesaan",
+        "hi": "शहर से बाहर, ग्रामीण क्षेत्र में",
+        "zh": "城外，在乡村",
+        "it": "fuori città, in campagna",
+        "tr": "şehrin dışında, kırsal alanda",
+        "sr": "ван града, на селу",
+        "fi": "kaupungin ulkopuolella, maaseudulla",
+        "et": "linnast väljas, maal",
+        "be": "за горадам, у сельскай мясцовасці",
+        "lv": "ārpus pilsētas, laukos",
+        "lt": "už miesto, kaimo vietovėje"
+      },
+      "examples": [
+        {
+          "text": "Mina morföräldrar bor på landet"
+        },
+        {
+          "text": "Jag tycker om att vara på landet på sommaren"
+        },
+        {
+          "text": "De har en stor gård på landet"
+        },
+        {
+          "text": "Det är lugnare på landet än i staden"
+        },
+        {
+          "text": "Vi tillbringar ofta helgerna på landet"
+        },
+        {
+          "text": "Vi har en sommarstuga på landet.På midsommar åker många svenskar på landet"
+        },
+        {
+          "text": "Att ha en trädgård på landet är underbart!"
+        },
+        {
+          "text": "Barnen älskar att leka utomhus på landet"
+        },
+        {
+          "text": "Vi grillar ofta på landet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7676b1de-1c01-40e0-8184-dd9944620046",
+      "version": -1,
+      "word": "en resa",
+      "forms": [
+        {
+          "form": "resor"
+        }
+      ],
+      "translations": {
+        "ru": "путешествие поездка",
+        "en": "trip, journey",
+        "uk": "подорож, поїздка",
+        "ar": "رحلة, سفر",
+        "fa": "سفر, سفر",
+        "so": "safarka, safar",
+        "es": "viaje, travesía",
+        "de": "Reise, Fahrt",
+        "fr": "voyage, périple",
+        "pl": "podróż, wycieczka",
+        "id": "perjalanan, perjalanan",
+        "hi": "यात्रा, सफर",
+        "zh": "旅行, 旅程",
+        "it": "viaggio, percorso",
+        "tr": "seyahat, yolculuk",
+        "sr": "путовање, пут",
+        "fi": "matka, matka",
+        "et": "reis, teekond",
+        "be": "падарожжа, паездка",
+        "lv": "ceļojums, brauciens",
+        "lt": "kelionė, kelionė"
+      },
+      "examples": [
+        {
+          "text": "Vi ska åka på en resa till Spanien"
+        },
+        {
+          "text": "Jag planerar en resa till Japan nästa år"
+        },
+        {
+          "text": "Resan var fantastisk! Hur lång är resan från Stockholm till Göteborg? Jag älskar att göra långa resor.Vi gjorde en resa till Malmö över helgen"
+        },
+        {
+          "text": "Han är på en affärsresa i Tyskland"
+        },
+        {
+          "text": "Skolklassen gjorde en resa till ett museum"
+        },
+        {
+          "text": "Resan tog bara två timmar med tåg"
+        },
+        {
+          "text": "Vi hade en guidad resa genom staden"
+        },
+        {
+          "text": "Hela livet är en resa full av lärdomar"
+        },
+        {
+          "text": "Att lära sig ett nytt språk är en resa"
+        },
+        {
+          "text": "Han har haft en lång resa till att bli läkare"
+        },
+        {
+          "text": "Boken handlar om en inre resa och självinsikt"
+        },
+        {
+          "text": "Det har varit en tuff resa, men vi klarade det!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f37fa4b6-f972-48ae-b3d2-7e9881f05a3a",
+      "version": -1,
+      "word": "en resenär",
+      "forms": [
+        {
+          "form": "resenärer"
+        }
+      ],
+      "translations": {
+        "ru": "Путешественник пассажир",
+        "en": "traveler, passenger",
+        "uk": "мандрівник, пасажир",
+        "ar": "مسافر، راكب",
+        "fa": "مسافر، مسافر",
+        "so": "safarre, rakaab",
+        "es": "viajero, pasajero",
+        "de": "Reisender, Passagier",
+        "fr": "voyageur, passager",
+        "pl": "podróżnik, pasażer",
+        "id": "pelancong, penumpang",
+        "hi": "यात्री, यात्री",
+        "zh": "旅行者，乘客",
+        "it": "viaggiatore, passeggero",
+        "tr": "gezgin, yolcu",
+        "sr": "путник, путник",
+        "fi": "matkustaja, matkustaja",
+        "et": "reisija, reisija",
+        "be": "падарожнік, пасажыр",
+        "lv": "ceļotājs, pasažieris",
+        "lt": "keliautojas, keleivis"
+      },
+      "examples": [
+        {
+          "text": "Resenärerna väntade på tåget vid perrongen"
+        },
+        {
+          "text": "Jag är en erfaren resenär och älskar att upptäcka nya platser"
+        },
+        {
+          "text": "Flygplatsen var full av stressade resenärer"
+        },
+        {
+          "text": "Som resenär måste du alltid ha ditt pass med dig"
+        },
+        {
+          "text": "Resenären frågade konduktören om avgångstiden"
+        },
+        {
+          "text": "Många resenärer pendlar mellan Stockholm och Uppsala varje dag"
+        },
+        {
+          "text": "Bussen var full av morgontrötta resenärer"
+        },
+        {
+          "text": "Resenären köpte en biljett i automaten"
+        },
+        {
+          "text": "Tåget var försenat, vilket orsakade problem för många resenärer"
+        },
+        {
+          "text": "Som resenär är det viktigt att planera sin rutt i förväg"
+        },
+        {
+          "text": "Vi är alla resenärer på livets väg"
+        },
+        {
+          "text": "Hon ser sig själv som en evig resenär genom världen"
+        },
+        {
+          "text": "Filosofen beskrev människan som en resenär mellan födelse och död"
+        },
+        {
+          "text": "Han är en resenär genom olika kulturer och språk"
+        },
+        {
+          "text": "En sann resenär samlar minnen, inte saker."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0a3366fc-f39c-44e4-89c9-8f4d5af340cf",
+      "version": 1,
+      "word": "ett resmål",
+      "forms": [
+        {
+          "form": "resmålet"
+        },
+        {
+          "form": "resmål"
+        },
+        {
+          "form": "resmålen"
+        }
+      ],
+      "translations": {
+        "ru": "место назначения, пункт назначения, туристическое направление",
+        "en": "destination, tourist spot",
+        "uk": "місце призначення, туристичний напрямок",
+        "ar": "وجهة، موقع سياحي",
+        "fa": "مقصد، مکان گردشگری",
+        "so": "meesha loo socdo, goob dalxiis",
+        "es": "destino, lugar turístico",
+        "de": "Reiseziel, Touristenort",
+        "fr": "destination, site touristique",
+        "pl": "cel podróży, miejsce turystyczne",
+        "id": "tujuan, tempat wisata",
+        "hi": "गंतव्य, पर्यटन स्थल",
+        "zh": "目的地，旅游景点",
+        "it": "destinazione, luogo turistico",
+        "tr": "hedef, turistik yer",
+        "sr": "одредиште, туристичка дестинација",
+        "fi": "kohde, turistikohde",
+        "et": "sihtkoht, turismisihtkoht",
+        "be": "месца прызначэння, турыстычны напрамак",
+        "lv": "galamērķis, tūrisma objekts",
+        "lt": "kelionės tikslas, turistinė vieta"
+      },
+      "examples": [
+        {
+          "text": "Spanien är ett populärt resmål på sommaren"
+        },
+        {
+          "text": "Vilket resmål föredrar du för din nästa semester?"
+        },
+        {
+          "text": "Thailand är ett resmål med vackra stränder och god mat"
+        },
+        {
+          "text": "Vi valde ett exotiskt resmål för vår bröllopsresa"
+        },
+        {
+          "text": "Resmålen i Europa är väldigt varierade och intressanta"
+        },
+        {
+          "text": "Vilket är ditt drömresmål?"
+        },
+        {
+          "text": "Många väljer resmål som är nära havet"
+        },
+        {
+          "text": "Vi hittade ett billigt hotell på vårt resmål"
+        },
+        {
+          "text": "Ett populärt resmål för vintersport är Alperna"
+        },
+        {
+          "text": "Resmålen i Asien lockar många turister varje år."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a58ec5c4-833b-4d66-88fb-1c22dc45bf14",
+      "version": 1,
+      "word": "ett flyg",
+      "forms": [
+        {
+          "form": "flyget"
+        },
+        {
+          "form": "flyg"
+        },
+        {
+          "form": "flygen"
+        }
+      ],
+      "translations": {
+        "ru": "рейс авиаперелёт, второе значение авиация, полет",
+        "en": "flight (aviation), also means flying",
+        "uk": "політ (авіація), також означає літання",
+        "ar": "رحلة (طيران)، تعني أيضًا الطيران",
+        "fa": "پرواز (هوانوردی)، همچنین به معنای پرواز کردن",
+        "so": "duulimaad (duulista), sidoo kale waxay la macno tahay duulid",
+        "es": "vuelo (aviación), también significa volar",
+        "de": "Flug (Luftfahrt), bedeutet auch Fliegen",
+        "fr": "vol (aviation), signifie aussi voler",
+        "pl": "lot (lotnictwo), oznacza również latanie",
+        "id": "penerbangan (penerbangan), juga berarti terbang",
+        "hi": "उड़ान (विमानन), उड़ने का भी अर्थ है",
+        "zh": "飞行（航空），也意味着飞翔",
+        "it": "volo (aviazione), significa anche volare",
+        "tr": "uçuş (havacılık), ayrıca uçmak anlamına gelir",
+        "sr": "лет (авијација), такође значи летење",
+        "fi": "lento (ilmailu), tarkoittaa myös lentämistä",
+        "et": "lend (lennundus), tähendab ka lendamist",
+        "be": "палёт (авіяцыя), таксама азначае лятанне",
+        "lv": "lidojums (aviācija), arī nozīmē lidot",
+        "lt": "skrydis (aviacija), taip pat reiškia skraidymą"
+      },
+      "examples": [
+        {
+          "text": "Vårt flyg till Paris är försenat"
+        },
+        {
+          "text": "Hon bokade ett direkt flyg till New York"
+        },
+        {
+          "text": "När avgår nästa flyg till London?"
+        },
+        {
+          "text": "Flyget till Stockholm går från gate 14"
+        },
+        {
+          "text": "Vi måste checka in vårt bagage innan flyget lyfter"
+        },
+        {
+          "text": "Flyget är ett av de snabbaste transportsätten"
+        },
+        {
+          "text": "Flyg är en viktig del av globaliseringen"
+        },
+        {
+          "text": "Inrikes flyg är populärt i Sverige"
+        },
+        {
+          "text": "Miljöaktivister kritiserar ökat flyg på grund av utsläpp"
+        },
+        {
+          "text": "Flyget revolutionerade resandet på 1900-talet"
+        },
+        {
+          "text": "Örnen tog ett elegant flyg över sjön"
+        },
+        {
+          "text": "Hans drömmar tog flyg när han fick jobbet han ville ha"
+        },
+        {
+          "text": "Innovationerna inom rymdteknik har tagit flyg på senare år."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d98de3f8-e20f-4e77-be24-7eba8e26de5d",
+      "version": -1,
+      "word": "en restid",
+      "forms": [
+        {
+          "form": "restider"
+        }
+      ],
+      "translations": {
+        "ru": "время в пути",
+        "en": "travel time",
+        "uk": "час у дорозі",
+        "ar": "وقت السفر",
+        "fa": "زمان سفر",
+        "so": "waqti safar",
+        "es": "tiempo de viaje",
+        "de": "Reisezeit",
+        "fr": "temps de trajet",
+        "pl": "czas podróży",
+        "id": "waktu perjalanan",
+        "hi": "यात्रा का समय",
+        "zh": "旅行时间",
+        "it": "tempo di viaggio",
+        "tr": "seyahat süresi",
+        "sr": "време путовања",
+        "fi": "matka-aika",
+        "et": "reisiaeg",
+        "be": "час у дарозе",
+        "lv": "ceļojuma laiks",
+        "lt": "kelionės laikas"
+      },
+      "examples": [
+        {
+          "text": "Restiden från Stockholm till Göteborg är cirka tre timmar med tåg"
+        },
+        {
+          "text": "Hur lång är restiden med bil till Malmö? Restiden med flyg till Paris är bara två timmar"
+        },
+        {
+          "text": "Vi försöker alltid optimera restiden genom att ta snabbaste rutten"
+        },
+        {
+          "text": "Pendlares restid kan variera beroende på trafik."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6d8c0da1-4afb-4770-ab91-70a4a5c1ac4f",
+      "version": -1,
+      "word": "en guidebok",
+      "forms": [
+        {
+          "form": "guideböcker"
+        }
+      ],
+      "translations": {
+        "ru": "путеводитель",
+        "en": "guidebook",
+        "uk": "путівник",
+        "ar": "دليل",
+        "fa": "راهنما",
+        "so": "buugga hagaha",
+        "es": "guía",
+        "de": "Reiseführer",
+        "fr": "guide",
+        "pl": "przewodnik",
+        "id": "buku panduan",
+        "hi": "मार्गदर्शिका",
+        "zh": "指南",
+        "it": "guida",
+        "tr": "rehber kitap",
+        "sr": "водич",
+        "fi": "opaskirja",
+        "et": "juhend",
+        "be": "падарожнік",
+        "lv": "ceļvedis",
+        "lt": "vadovas"
+      },
+      "examples": [
+        {
+          "text": "En guidebok kommer att ge dig användbar information inför din resa"
+        },
+        {
+          "text": "Jag köpte en guidebok om Paris inför min resa"
+        },
+        {
+          "text": "Guideboken rekommenderade flera intressanta museer"
+        },
+        {
+          "text": "Har du en guidebok för att utforska staden? I guideboken finns det kartor och tips för turister."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "39f354af-6627-480b-bc99-fbf9259d4401",
+      "version": -1,
+      "word": "en karta",
+      "forms": [
+        {
+          "form": "kartor"
+        }
+      ],
+      "translations": {
+        "ru": "карта",
+        "en": "map",
+        "uk": "карта",
+        "ar": "خريطة",
+        "fa": "نقشه",
+        "so": "khariidad",
+        "es": "mapa",
+        "de": "Karte",
+        "fr": "carte",
+        "pl": "mapa",
+        "id": "peta",
+        "hi": "नक्शा",
+        "zh": "地图",
+        "it": "mappa",
+        "tr": "harita",
+        "sr": "мапа",
+        "fi": "kartta",
+        "et": "kaart",
+        "be": "карта",
+        "lv": "karte",
+        "lt": "žemėlapis"
+      },
+      "examples": [
+        {
+          "text": "Kolla din karta så du kan hitta vägen till din destination"
+        },
+        {
+          "text": "Jag behöver en karta för att hitta till hotellet"
+        },
+        {
+          "text": "Vi köpte flera olika kartor innan vår resa"
+        },
+        {
+          "text": "Kan du visa mig på kartan var vi är? Kartorna är mycket detaljerade och hjälper turisterna"
+        },
+        {
+          "text": "Jag laddade ner en digital karta på min telefon"
+        },
+        {
+          "text": "Kartan över staden är gammal och behöver uppdateras"
+        },
+        {
+          "text": "Barnen ritade en skattkarta för sitt spel"
+        },
+        {
+          "text": "Har du sett kartorna över vandringslederna? På väggen i klassrummet hänger en stor världskarta."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f6e7b92b-9366-4d6e-b107-534311114abf",
+      "version": -1,
+      "word": "en resväska",
+      "forms": [
+        {
+          "form": "resväskor"
+        }
+      ],
+      "translations": {
+        "ru": "чемодан",
+        "en": "suitcase",
+        "uk": "валіза",
+        "ar": "حقيبة سفر",
+        "fa": "چمدان",
+        "so": "boorso",
+        "es": "maleta",
+        "de": "Koffer",
+        "fr": "valise",
+        "pl": "walizka",
+        "id": "koper",
+        "hi": "सूटकेस",
+        "zh": "行李箱",
+        "it": "valigia",
+        "tr": "bavul",
+        "sr": "кофер",
+        "fi": "matkalaukku",
+        "et": "kohver",
+        "be": "чамадан",
+        "lv": "koferis",
+        "lt": "lagaminas"
+      },
+      "examples": [
+        {
+          "text": "Lämna inte värdesaker i din resväska"
+        },
+        {
+          "text": "Jag packade min resväska inför resan"
+        },
+        {
+          "text": "Min resväska är tung eftersom jag packade för mycket"
+        },
+        {
+          "text": "Vi köpte en ny resväska inför semestern"
+        },
+        {
+          "text": "Kan du hjälpa mig att bära resväskan?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "baee80eb-f9e9-405e-ac03-413bb942310d",
+      "version": -1,
+      "word": "en turist",
+      "forms": [
+        {
+          "form": "turister"
+        }
+      ],
+      "translations": {
+        "ru": "турист",
+        "en": "tourist",
+        "uk": "турист",
+        "ar": "سائح",
+        "fa": "گردشگر",
+        "so": "dalxiis",
+        "es": "turista",
+        "de": "Tourist",
+        "fr": "touriste",
+        "pl": "turysta",
+        "id": "turis",
+        "hi": "पर्यटक",
+        "zh": "游客",
+        "it": "turista",
+        "tr": "turist",
+        "sr": "туриста",
+        "fi": "turisti",
+        "et": "turist",
+        "be": "турыст",
+        "lv": "tūrists",
+        "lt": "turistas"
+      },
+      "examples": [
+        {
+          "text": "Turisten tar bilder på djuren"
+        },
+        {
+          "text": "Många turister besöker Stockholm varje år"
+        },
+        {
+          "text": "Jag såg en grupp turister vid slottet"
+        },
+        {
+          "text": "Turisten frågade om vägen till museet"
+        },
+        {
+          "text": "På sommaren är det fullt av turister i Gamla stan"
+        },
+        {
+          "text": "Hon arbetar som guide för utländska turister"
+        },
+        {
+          "text": "Jag känner mig som en turist i min egen stad"
+        },
+        {
+          "text": "Vi var turister i Paris förra sommaren"
+        },
+        {
+          "text": "Många turister vill prova svensk mat när de besöker Sverige"
+        },
+        {
+          "text": "En turist bör alltid respektera lokala traditioner"
+        },
+        {
+          "text": "Turisterna tog många bilder av utsikten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2290b121-2619-4fb0-a873-5874ca9dbe39",
+      "version": -1,
+      "word": "en guide",
+      "forms": [
+        {
+          "form": "guider"
+        }
+      ],
+      "translations": {
+        "ru": "гид",
+        "en": "guide",
+        "uk": "гід",
+        "ar": "دليل",
+        "fa": "راهنما",
+        "so": "hanuun",
+        "es": "guía",
+        "de": "Führer",
+        "fr": "guide",
+        "pl": "przewodnik",
+        "id": "panduan",
+        "hi": "मार्गदर्शक",
+        "zh": "指南",
+        "it": "guida",
+        "tr": "rehber",
+        "sr": "водич",
+        "fi": "opas",
+        "et": "juhend",
+        "be": "гід",
+        "lv": "ceļvedis",
+        "lt": "vadovas"
+      },
+      "examples": [
+        {
+          "text": "Guiden visade oss runt i Gamla stan"
+        },
+        {
+          "text": "Vi bokade en guide för att få veta mer om historien"
+        },
+        {
+          "text": "Hon arbetar som guide på ett museum"
+        },
+        {
+          "text": "Guiden talade både svenska och engelska"
+        },
+        {
+          "text": "Vi hade en fantastisk guide under vår resa i Rom."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "cd64d8db-d87d-40d6-82d0-4ce5481cf5b2",
+      "version": -1,
+      "word": "en utflykt",
+      "forms": [
+        {
+          "form": "utflykter"
+        }
+      ],
+      "translations": {
+        "ru": "экскурсия, поездка на природу, прогулка за город, выезд",
+        "en": "excursion, nature trip, outing, trip out of town",
+        "uk": "екскурсія, поїздка на природу, прогулянка за місто, виїзд",
+        "ar": "رحلة، رحلة طبيعية، نزهة، رحلة خارج المدينة",
+        "fa": "گردش، سفر طبیعت، گردش بیرون شهر، سفر خارج از شهر",
+        "so": "safarka, safarka dabeecadda, socodka magaalada ka baxsan, safarka magaalada ka baxsan",
+        "es": "excursión, viaje a la naturaleza, salida, viaje fuera de la ciudad",
+        "de": "Ausflug, Naturausflug, Ausflug, Ausflug aus der Stadt",
+        "fr": "excursion, voyage nature, sortie, voyage hors de la ville",
+        "pl": "wycieczka, wyjazd na łono natury, wypad, wyjazd za miasto",
+        "id": "ekskursi, perjalanan alam, jalan-jalan, perjalanan keluar kota",
+        "hi": "भ्रमण, प्रकृति यात्रा, बाहर घूमना, शहर से बाहर यात्रा",
+        "zh": "游览, 自然之旅, 郊游, 出城旅行",
+        "it": "escursione, viaggio nella natura, gita, viaggio fuori città",
+        "tr": "gezi, doğa gezisi, gezinti, şehir dışı gezi",
+        "sr": "екскурзија, излет у природу, излазак, путовање ван града",
+        "fi": "retki, luontoretki, ulkoilu, matka kaupungin ulkopuolelle",
+        "et": "ekskursioon, looduse reis, väljasõit, linnast väljasõit",
+        "be": "экскурсія, паездка на прыроду, прагулка за горад, выезд",
+        "lv": "ekskursija, dabas ceļojums, izbrauciens, izbrauciens ārpus pilsētas",
+        "lt": "ekskursija, gamtos kelionė, išvyka, kelionė už miesto"
+      },
+      "examples": [
+        {
+          "text": "Vi gjorde en utflykt till havet i lördags"
+        },
+        {
+          "text": "Barnen älskar att åka på utflykt med skolan"
+        },
+        {
+          "text": "Vi planerar en utflykt till skogen i helgen"
+        },
+        {
+          "text": "Utflykten blev inställd på grund av regn"
+        },
+        {
+          "text": "Det var en fantastisk utflykt med vackra vyer"
+        },
+        {
+          "text": "Har du någon gång gjort en utflykt ensam? De tog med fika på utflykten"
+        },
+        {
+          "text": "Utflykten tog hela dagen"
+        },
+        {
+          "text": "Vi hade en skolutflykt till ett museum"
+        },
+        {
+          "text": "Jag gillar att göra spontana utflykter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e72ca78a-17a2-4eb0-87a6-86c488650c93",
+      "version": 2,
+      "word": "en reservation",
+      "forms": [
+        {
+          "form": "reservationer"
+        }
+      ],
+      "translations": {
+        "ru": "бронирование бронь",
+        "en": "booking, reservation",
+        "uk": "бронювання, резервування",
+        "ar": "حجز، تحفظ",
+        "fa": "رزرو، نگهداری",
+        "so": "ballan, kayd",
+        "es": "reserva, reservación",
+        "de": "Buchung, Reservierung",
+        "fr": "réservation, réservation",
+        "pl": "rezerwacja, zarezerwowanie",
+        "id": "pemesanan, reservasi",
+        "hi": "बुकिंग, आरक्षण",
+        "zh": "预订, 预留",
+        "it": "prenotazione, riserva",
+        "tr": "rezervasyon, ayırtma",
+        "sr": "резервација, резервација",
+        "fi": "varaus, varaus",
+        "et": "broneerimine, reserveerimine",
+        "be": "браняванне, рэзервацыя",
+        "lv": "rezervācija, rezervēšana",
+        "lt": "rezervacija, užsakymas"
+      },
+      "examples": [
+        {
+          "text": "Göra en reservation"
+        },
+        {
+          "text": "Vi gjorde vår reservation ungefär två månader tidigare"
+        },
+        {
+          "text": "Jag har gjort en reservation på restaurangen"
+        },
+        {
+          "text": "Vi behöver en reservation för två personer."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000002"
+      ]
+    },
+    {
+      "id": "51074f5c-5e26-40ca-972f-623bf4eacf64",
+      "version": 1,
+      "word": "en bokning",
+      "forms": [
+        {
+          "form": "bokningar"
+        }
+      ],
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Jag har gjort en bokning på ett hotell i Stockholm"
+        },
+        {
+          "text": "Kan jag ändra min bokning? Vi måste bekräfta bokningen innan vi åker"
+        },
+        {
+          "text": "Flygbolaget skickade en bekräftelse på bokningen"
+        },
+        {
+          "text": "Har du en bokning för två personer?"
+        },
+        {
+          "text": "Jag har en bokning hos frisören imorgon"
+        },
+        {
+          "text": "Bokningen hos tandläkaren är klockan 10"
+        },
+        {
+          "text": "Vi gjorde en bokning på en fin restaurang"
+        },
+        {
+          "text": "Det är svårt att få en bokning på den här populära kliniken"
+        },
+        {
+          "text": "Jag måste avboka min bokning"
+        },
+        {
+          "text": "Jag fick en kod för att bekräfta min bokning"
+        },
+        {
+          "text": "Bokningen av biobiljetterna var enkel online"
+        },
+        {
+          "text": "Vi har en bokning för teaterföreställningen"
+        },
+        {
+          "text": "Du kan se din bokning på hemsidan"
+        },
+        {
+          "text": "Jag fick ett mejl med min bokningsbekräftelse."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "25cd57f6-fa95-47f3-9859-428b8e649462",
+      "version": 1,
+      "word": "ett hotell",
+      "forms": [
+        {
+          "form": "hotellet"
+        },
+        {
+          "form": "hotell"
+        },
+        {
+          "form": "hotellen"
+        }
+      ],
+      "translations": {
+        "ru": "отель",
+        "en": "hotel",
+        "uk": "готель",
+        "ar": "فندق",
+        "fa": "هتل",
+        "so": "huteel",
+        "es": "hotel",
+        "de": "Hotel",
+        "fr": "hôtel",
+        "pl": "hotel",
+        "id": "hotel",
+        "hi": "होटल",
+        "zh": "酒店",
+        "it": "hotel",
+        "tr": "otel",
+        "sr": "хотел",
+        "fi": "hotelli",
+        "et": "hotell",
+        "be": "гатэль",
+        "lv": "viesnīca",
+        "lt": "viešbutis"
+      },
+      "examples": [
+        {
+          "text": "Hotellet hade sexhundra rum, en restaurang och en simbassäng"
+        },
+        {
+          "text": "Vi bodde på ett fint hotell vid havet"
+        },
+        {
+          "text": "Hotellet har en stor pool och ett spa"
+        },
+        {
+          "text": "Det finns många hotell i centrala Stockholm"
+        },
+        {
+          "text": "Har du bokat ett hotell för resan?"
+        },
+        {
+          "text": "Hotellen i området är ofta fullbokade på sommaren"
+        },
+        {
+          "text": "Vi brukar alltid bo på hotell när vi reser"
+        },
+        {
+          "text": "Vi checkade in på hotellet sent på kvällen"
+        },
+        {
+          "text": "Vi måste checka ut innan klockan tolv"
+        },
+        {
+          "text": "Vi hittade ett billigt hotell nära flygplatsen"
+        },
+        {
+          "text": "Vi hittade ett billigt hotell nära flygplatsen"
+        },
+        {
+          "text": "Hotellen i denna stad är mycket populära bland turister."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bd5d0dec-74db-461a-a0b7-f5225f642c45",
+      "version": -1,
+      "word": "ett vandrarhem",
+      "forms": [
+        {
+          "form": "vandrarhemmet"
+        },
+        {
+          "form": "vandrarhem"
+        },
+        {
+          "form": "vandrarhemmen"
+        }
+      ],
+      "translations": {
+        "ru": "Хостел или семейная гостиница кровать и обед",
+        "en": "hostel or family hotel, bed and breakfast",
+        "uk": "хостел або сімейний готель, ліжко та сніданок",
+        "ar": "نزل أو فندق عائلي، سرير وإفطار",
+        "fa": "هاستل یا هتل خانوادگی، تخت و صبحانه",
+        "so": "hostel ama hudheel qoys, sariir iyo quraac",
+        "es": "hostal o hotel familiar, cama y desayuno",
+        "de": "Hostel oder Familienhotel, Bett und Frühstück",
+        "fr": "auberge de jeunesse ou hôtel familial, lit et petit-déjeuner",
+        "pl": "hostel lub hotel rodzinny, łóżko i śniadanie",
+        "id": "hostel atau hotel keluarga, tempat tidur dan sarapan",
+        "hi": "हॉस्टल या पारिवारिक होटल, बिस्तर और नाश्ता",
+        "zh": "旅舍或家庭旅馆，床和早餐",
+        "it": "ostello o hotel familiare, letto e colazione",
+        "tr": "hostel veya aile oteli, yatak ve kahvaltı",
+        "sr": "хостел или породични хотел, кревет и доручак",
+        "fi": "hostelli tai perhehotelli, sänky ja aamiainen",
+        "et": "hostel või perehotell, voodi ja hommikusöök",
+        "be": "хостэл або сямейны гатэль, ложак і сняданак",
+        "lv": "hostelis vai ģimenes viesnīca, gulta un brokastis",
+        "lt": "hostelis arba šeimos viešbutis, lova ir pusryčiai"
+      },
+      "examples": [
+        {
+          "text": "Vi bodde på ett vandrarhem under vår resa i Sverige"
+        },
+        {
+          "text": "Vandrarhemmet var rent och prisvärt"
+        },
+        {
+          "text": "Många vandrarhem erbjuder också frukost"
+        },
+        {
+          "text": "Ett vandrarhem är ett bra val om man vill spara pengar"
+        },
+        {
+          "text": "Vi hittade ett mysigt vandrarhem nära centrum."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "814d0531-187a-44de-8418-34d4f64c813d",
+      "version": -1,
+      "word": "en stuga",
+      "forms": [
+        {
+          "form": "stugor"
+        }
+      ],
+      "translations": {
+        "ru": "коттедж",
+        "en": "cottage",
+        "uk": "котедж",
+        "ar": "كوخ",
+        "fa": "کلبه",
+        "so": "guri yar",
+        "es": "cabaña",
+        "de": "Hütte",
+        "fr": "cottage",
+        "pl": "domek",
+        "id": "pondok",
+        "hi": "कुटिया",
+        "zh": "小屋",
+        "it": "cottage",
+        "tr": "kulübe",
+        "sr": "викендица",
+        "fi": "mökki",
+        "et": "maamaja",
+        "be": "катэдж",
+        "lv": "mājiņa",
+        "lt": "namelis"
+      },
+      "examples": [
+        {
+          "text": "Vi spenderar sommaren i vår stuga vid sjön"
+        },
+        {
+          "text": "De hyrde en stuga i fjällen för semestern"
+        },
+        {
+          "text": "Vi har en liten stuga på landet"
+        },
+        {
+          "text": "Stugan har två sovrum och ett kök"
+        },
+        {
+          "text": "Det är mysigt att bo i en stuga på vintern"
+        },
+        {
+          "text": "Vi åker till stugan varje helg för att koppla av."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "97d20615-335c-414a-b98d-5e978d17bc1e",
+      "version": -1,
+      "word": "en reception",
+      "forms": [
+        {
+          "form": "receptioner"
+        }
+      ],
+      "translations": {
+        "ru": "ресепшн",
+        "en": "reception",
+        "uk": "рецепція",
+        "ar": "استقبال",
+        "fa": "پذیرش",
+        "so": "soo dhaweyn",
+        "es": "recepción",
+        "de": "Rezeption",
+        "fr": "réception",
+        "pl": "recepcja",
+        "id": "resepsi",
+        "hi": "रिसेप्शन",
+        "zh": "接待",
+        "it": "reception",
+        "tr": "resepsiyon",
+        "sr": "рецепција",
+        "fi": "vastaanotto",
+        "et": "vastuvõtt",
+        "be": "рэцэпцыя",
+        "lv": "reģistratūra",
+        "lt": "registratūra"
+      },
+      "examples": [
+        {
+          "text": "Vi checkade in och ut vid receptionen"
+        },
+        {
+          "text": "Jag frågade om vägen i receptionen"
+        },
+        {
+          "text": "Receptionen är öppen dygnet runt på hotellet"
+        },
+        {
+          "text": "Du kan lämna nyckeln i receptionen när du checkar ut"
+        },
+        {
+          "text": "Var ligger receptionen i det här hotellet? Receptionen har information om lokala sevärdheter"
+        },
+        {
+          "text": "Receptionisten gav oss nyckeln till rummet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d25b5ff9-8e13-4eed-a648-db5121fdeace",
+      "version": 1,
+      "word": "rökfri",
+      "forms": [
+        {
+          "form": "rökfria"
+        },
+        {
+          "form": "rökfritt"
+        }
+      ],
+      "translations": {
+        "ru": "без курения некурящий",
+        "en": "non-smoking",
+        "uk": "некурящий",
+        "ar": "غير مدخن",
+        "fa": "غیر سیگاری",
+        "so": "aan sigaar cabbin",
+        "es": "no fumador",
+        "de": "nichtraucher",
+        "fr": "non-fumeur",
+        "pl": "niepalący",
+        "id": "bebas rokok",
+        "hi": "धूम्रपान रहित",
+        "zh": "无烟",
+        "it": "non fumatori",
+        "tr": "sigara içilmeyen",
+        "sr": "непушачки",
+        "fi": "savuton",
+        "et": "mittesuitsetaja",
+        "be": "некурэнне",
+        "lv": "nesmēķētājs",
+        "lt": "nerūkantis"
+      },
+      "examples": [
+        {
+          "text": "Kan du ordna ett rökfritt rum åt mig, tack?"
+        },
+        {
+          "text": "Alla våra hotellrum är rökfria"
+        },
+        {
+          "text": "Det är rökfritt på restaurangen"
+        },
+        {
+          "text": "Vi föredrar att bo i rökfria miljöer"
+        },
+        {
+          "text": "Rökfri zon har skapats runt lekplatsen"
+        },
+        {
+          "text": "Regeringen förespråkar en rökfri generation till 2030"
+        },
+        {
+          "text": "Är det här hotellet rökfritt?"
+        },
+        {
+          "text": "Vi vill ha ett rökfritt bord på restaurangen"
+        },
+        {
+          "text": "All kollektivtrafik är nu helt rökfri"
+        },
+        {
+          "text": "Att leva rökfritt minskar risken för sjukdomar"
+        },
+        {
+          "text": "De införde nya regler för att skapa fler rökfria områden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4d115e68-11d3-4c49-a385-483e78948f22",
+      "version": 1,
+      "word": "ett rumsnummer",
+      "forms": [
+        {
+          "form": "rumsnumret"
+        },
+        {
+          "form": "rumsnummer"
+        },
+        {
+          "form": "rumsnumren"
+        }
+      ],
+      "translations": {
+        "ru": "номер комнаты в отеле",
+        "en": "hotel room number",
+        "uk": "номер кімнати в готелі",
+        "ar": "رقم غرفة الفندق",
+        "fa": "شماره اتاق هتل",
+        "so": "lambarka qolka hoteelka",
+        "es": "número de habitación de hotel",
+        "de": "Hotelzimmernummer",
+        "fr": "numéro de chambre d'hôtel",
+        "pl": "numer pokoju hotelowego",
+        "id": "nomor kamar hotel",
+        "hi": "होटल का कमरा नंबर",
+        "zh": "酒店房间号",
+        "it": "numero della camera d'albergo",
+        "tr": "otel oda numarası",
+        "sr": "број собе у хотелу",
+        "fi": "hotellihuoneen numero",
+        "et": "hotellitoa number",
+        "be": "нумар пакоя ў гатэлі",
+        "lv": "viesnīcas numura numurs",
+        "lt": "viešbučio kambario numeris"
+      },
+      "examples": [
+        {
+          "text": "Vi kommer att bo på City Hotell rumsnummer sjuhundrasju"
+        },
+        {
+          "text": "Kan du säga vilket rumsnummer du har?"
+        },
+        {
+          "text": "Mitt rumsnummer är 305"
+        },
+        {
+          "text": "Receptionisten bad mig skriva ner mitt rumsnummer"
+        },
+        {
+          "text": "Kan du hjälpa mig att hitta rumsnummer 12?"
+        },
+        {
+          "text": "Det står inget rumsnummer på dörren."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f81e8d39-cae3-40fe-83f7-d9e9a1357866",
+      "version": -1,
+      "word": "en rumsnyckel",
+      "forms": [
+        {
+          "form": "rumsnycklar"
+        }
+      ],
+      "translations": {
+        "ru": "ключ от двери",
+        "en": "door key",
+        "uk": "ключ від дверей",
+        "ar": "مفتاح الباب",
+        "fa": "کلید در",
+        "so": "furaha albaabka",
+        "es": "llave de la puerta",
+        "de": "Türschlüssel",
+        "fr": "clé de la porte",
+        "pl": "klucz do drzwi",
+        "id": "kunci pintu",
+        "hi": "दरवाज़े की चाबी",
+        "zh": "门钥匙",
+        "it": "chiave della porta",
+        "tr": "kapı anahtarı",
+        "sr": "ključevi od vrata",
+        "fi": "oven avain",
+        "et": "ukse võti",
+        "be": "ключ ад дзвярэй",
+        "lv": "durvju atslēga",
+        "lt": "durų raktas"
+      },
+      "examples": [
+        {
+          "text": "Jag tappade bort min rumsnyckel"
+        },
+        {
+          "text": "Har du rumsnyckeln? Du kan hämta rumsnyckeln i receptionen"
+        },
+        {
+          "text": "Jag tappade min rumsnyckel och måste be om en ny"
+        },
+        {
+          "text": "Vem har rumsnyckeln till gästrummet? Rumsnyckeln låg på bordet hela tiden"
+        },
+        {
+          "text": "Om du tappar bort rumsnyckeln, meddela receptionen direkt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "81d463b5-a0e3-4a45-bf49-b42e4d1880f5",
+      "version": 1,
+      "word": "telefonväckning",
+      "translations": {
+        "ru": "телефонный звонок для пробуждения",
+        "en": "wake-up call",
+        "uk": "дзвінок для пробудження",
+        "ar": "مكالمة إيقاظ",
+        "fa": "تماس بیدارباش",
+        "so": "wacitaan toosinta",
+        "es": "llamada de despertador",
+        "de": "Weckruf",
+        "fr": "appel de réveil",
+        "pl": "budzenie telefoniczne",
+        "id": "panggilan bangun",
+        "hi": "जगाने के लिए कॉल",
+        "zh": "叫醒电话",
+        "it": "chiamata di sveglia",
+        "tr": "uyandırma çağrısı",
+        "sr": "позив за буђење",
+        "fi": "herätyssoitto",
+        "et": "äratuskõne",
+        "be": "тэлефонны званок для абуджэння",
+        "lv": "modināšanas zvans",
+        "lt": "žadinimo skambutis"
+      },
+      "examples": [
+        {
+          "text": "Hej, jag slulle vilja ha telefonväckning klockan kvart i sex på mogronen"
+        },
+        {
+          "text": "Kan jag beställa en telefonväckning klockan sju?"
+        },
+        {
+          "text": "Receptionisten ordnade en telefonväckning åt oss"
+        },
+        {
+          "text": "Jag vaknade innan telefonväckningen kom"
+        },
+        {
+          "text": "Hotellet erbjuder telefonväckning som en gratis tjänst"
+        },
+        {
+          "text": "De glömde att ringa min telefonväckning, så jag försov mig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c79b4497-2c5b-4eec-9b7f-30d55162cf58",
+      "version": -1,
+      "word": "en enkelsäng",
+      "forms": [
+        {
+          "form": "enkelsängar"
+        }
+      ],
+      "translations": {
+        "ru": "односпальная кровать",
+        "en": "single bed",
+        "uk": "односпальне ліжко",
+        "ar": "سرير فردي",
+        "fa": "تخت یک‌نفره",
+        "so": "sariir keliya",
+        "es": "cama individual",
+        "de": "Einzelbett",
+        "fr": "lit simple",
+        "pl": "łóżko pojedyncze",
+        "id": "tempat tidur tunggal",
+        "hi": "एकल बिस्तर",
+        "zh": "单人床",
+        "it": "letto singolo",
+        "tr": "tek kişilik yatak",
+        "sr": "једнокревет",
+        "fi": "yksittäinen sänky",
+        "et": "üheinimesevoodi",
+        "be": "аднамеснае ложка",
+        "lv": "vienvietīga gulta",
+        "lt": "viengulė lova"
+      },
+      "examples": [
+        {
+          "text": "Rummet hade en enkelsäng"
+        },
+        {
+          "text": "Vi köpte en ny enkelsäng till sonen"
+        },
+        {
+          "text": "Rummet är litet, så det får bara plats en enkelsäng"
+        },
+        {
+          "text": "Jag föredrar en dubbelsäng framför en enkelsäng"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f7f0df75-53ed-4dfa-b81f-ed2e31e794f2",
+      "version": -1,
+      "word": "en dubbelsäng",
+      "forms": [
+        {
+          "form": "dubbelsängar"
+        }
+      ],
+      "translations": {
+        "ru": "двуспальная кровать",
+        "en": "double bed",
+        "uk": "двоспальне ліжко",
+        "ar": "سرير مزدوج",
+        "fa": "تخت دو نفره",
+        "so": "sariir laba qof ah",
+        "es": "cama doble",
+        "de": "Doppelbett",
+        "fr": "lit double",
+        "pl": "łóżko podwójne",
+        "id": "tempat tidur ganda",
+        "hi": "डबल बेड",
+        "zh": "双人床",
+        "it": "letto matrimoniale",
+        "tr": "çift kişilik yatak",
+        "sr": "француски лежај",
+        "fi": "parisänky",
+        "et": "kaheinimesevoodi",
+        "be": "двухспальны ложак",
+        "lv": "divguļamā gulta",
+        "lt": "dvivietė lova"
+      },
+      "examples": [
+        {
+          "text": "Dubbelsängen har mycket plats"
+        },
+        {
+          "text": "Vi köpte en ny dubbelsäng till sovrummet"
+        },
+        {
+          "text": "Sovrummet har en stor dubbelsäng och två nattduksbord"
+        },
+        {
+          "text": "Vi delar en dubbelsäng på hotellet"
+        },
+        {
+          "text": "Vill ni ha ett rum med en dubbelsäng eller två enkelsängar? Rummet med dubbelsäng kostar lite mer."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6bba8c91-1e27-44e2-bf44-a3981bf9ee51",
+      "version": -1,
+      "word": "en ryggsäck",
+      "forms": [
+        {
+          "form": "ryggsäckar"
+        }
+      ],
+      "translations": {
+        "ru": "рюкзак",
+        "en": "backpack",
+        "uk": "рюкзак",
+        "ar": "حقيبة ظهر",
+        "fa": "کوله‌پشتی",
+        "so": "boorso dhabarka",
+        "es": "mochila",
+        "de": "Rucksack",
+        "fr": "sac à dos",
+        "pl": "plecak",
+        "id": "ransel",
+        "hi": "बैकपैक",
+        "zh": "背包",
+        "it": "zaino",
+        "tr": "sırt çantası",
+        "sr": "ранчеви",
+        "fi": "reppu",
+        "et": "seljakott",
+        "be": "заплечнік",
+        "lv": "mugursoma",
+        "lt": "kuprinė"
+      },
+      "examples": [
+        {
+          "text": "Han bar sina böcker, blyertspennor och papper i ryggsäcken"
+        },
+        {
+          "text": "Jag har alltid min ryggsäck med mig"
+        },
+        {
+          "text": "Ryggsäcken är full av böcker"
+        },
+        {
+          "text": "Hon packade sin ryggsäck för resan"
+        },
+        {
+          "text": "Barnen bär sina ryggsäckar till skolan"
+        },
+        {
+          "text": "Jag behöver en större ryggsäck för vandringen"
+        },
+        {
+          "text": "Han köpte en vattentät ryggsäck för camping"
+        },
+        {
+          "text": "Ryggsäcken har många fickor och fack"
+        },
+        {
+          "text": "En ergonomisk ryggsäck är viktig för ryggen"
+        },
+        {
+          "text": "Min nya ryggsäck har plats för en laptop"
+        },
+        {
+          "text": "Resenären bar en stor ryggsäck på ryggen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4c7147f4-f140-4e26-9670-07eb30c77e30",
+      "version": 1,
+      "word": "en biljett",
+      "forms": [
+        {
+          "form": "biljetter"
+        }
+      ],
+      "translations": {
+        "ru": "билет",
+        "en": "ticket",
+        "uk": "квиток",
+        "ar": "تذكرة",
+        "fa": "بلیط",
+        "so": "tigidh",
+        "es": "boleto",
+        "de": "Ticket",
+        "fr": "billet",
+        "pl": "bilet",
+        "id": "tiket",
+        "hi": "टिकट",
+        "zh": "票",
+        "it": "biglietto",
+        "tr": "bilet",
+        "sr": "карта",
+        "fi": "lippu",
+        "et": "pilet",
+        "be": "білет",
+        "lv": "biļete",
+        "lt": "bilietas"
+      },
+      "examples": [
+        {
+          "text": "Jag har köpt en biljett till konserten"
+        },
+        {
+          "text": "Var kan jag köpa en bussbiljett? Biljetterna till matchen blev snabbt slutsålda"
+        },
+        {
+          "text": "Kan du visa mig din biljett? Vi behöver köpa två biljetter till tåget"
+        },
+        {
+          "text": "Jag har tappat bort min biljett"
+        },
+        {
+          "text": "Vad ska jag göra? Biljetten var ganska dyr, men föreställningen var fantastisk"
+        },
+        {
+          "text": "Jag bokade biljetterna online för att spara tid"
+        },
+        {
+          "text": "Finns det någon studentrabatt på biljetter?"
+        },
+        {
+          "text": "Hon gav mig en biljett till premiären som en överraskning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "66246376-e13a-4d5c-b4e8-1563e6f62324",
+      "version": -1,
+      "word": "en hemester",
+      "forms": [
+        {
+          "form": "hemestrar"
+        }
+      ],
+      "translations": {
+        "ru": "Отпуск дома или в той же местности",
+        "en": "staycation",
+        "uk": "відпустка вдома",
+        "ar": "إجازة في المنزل",
+        "fa": "تعطیلات در خانه",
+        "so": "fasax guriga",
+        "es": "vacaciones en casa",
+        "de": "Urlaub zu Hause",
+        "fr": "vacances à la maison",
+        "pl": "wakacje w domu",
+        "id": "liburan di rumah",
+        "hi": "घर पर छुट्टी",
+        "zh": "居家度假",
+        "it": "vacanza a casa",
+        "tr": "evde tatil",
+        "sr": "одмор код куће",
+        "fi": "loma kotona",
+        "et": "puhkus kodus",
+        "be": "адпачынак дома",
+        "lv": "atvaļinājums mājās",
+        "lt": "atostogos namuose"
+      },
+      "examples": [
+        {
+          "text": "I stället för att resa utomlands, varför inte ta en hemester"
+        },
+        {
+          "text": "Vi valde att ha en hemester i år och njuta av vår trädgård"
+        },
+        {
+          "text": "Under min hemester besökte jag lokala sevärdheter och museum"
+        },
+        {
+          "text": "Många svenskar väljer hemester för att spara pengar och minska stressen av resor"
+        },
+        {
+          "text": "Förra sommaren hade vi en fantastisk hemester med grillkvällar och utflykter i närområdet"
+        },
+        {
+          "text": "På grund av restriktioner valde vi hemester istället för att resa utomlands"
+        },
+        {
+          "text": "En hemester kan vara lika avkopplande som en resa till en annan plats"
+        },
+        {
+          "text": "Jag hade en mysig hemester och fokuserade på att läsa böcker och koppla av"
+        },
+        {
+          "text": "Hemestern gav mig möjlighet att upptäcka nya platser i min egen stad"
+        },
+        {
+          "text": "Vi planerar en hemester i sommar med cykelturer och picknickar i skogen"
+        },
+        {
+          "text": "Att ha en hemester är ett hållbart sätt att semestra."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

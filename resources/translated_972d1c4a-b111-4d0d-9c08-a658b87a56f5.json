@@ -1,0 +1,2950 @@
+{
+  "id": "972d1c4a-b111-4d0d-9c08-a658b87a56f5",
+  "translations": {
+    "ru": "Тело",
+    "en": "Body",
+    "uk": "Тіло",
+    "ar": "جسم",
+    "fa": "بدن",
+    "so": "Jidh",
+    "es": "Cuerpo",
+    "de": "Körper",
+    "fr": "Corps",
+    "pl": "Ciało",
+    "id": "Tubuh",
+    "hi": "शरीर",
+    "zh": "身体",
+    "it": "Corpo",
+    "tr": "Vücut",
+    "sr": "Тело",
+    "fi": "Keho",
+    "et": "Keha",
+    "be": "Цела",
+    "lv": "Ķermenis",
+    "lt": "Kūnas"
+  },
+  "entries": [
+    {
+      "id": "455ab7cf-db11-4ea3-9483-8a0bf3a36e26",
+      "version": -1,
+      "word": "en kropp",
+      "forms": [
+        {
+          "form": "kroppar"
+        }
+      ],
+      "translations": {
+        "ru": "Тело",
+        "en": "body",
+        "uk": "тіло",
+        "ar": "جسم",
+        "fa": "بدن",
+        "so": "jidh",
+        "es": "cuerpo",
+        "de": "Körper",
+        "fr": "corps",
+        "pl": "ciało",
+        "id": "tubuh",
+        "hi": "शरीर",
+        "zh": "身体",
+        "it": "corpo",
+        "tr": "vücut",
+        "sr": "тело",
+        "fi": "keho",
+        "et": "keha",
+        "be": "цела",
+        "lv": "ķermenis",
+        "lt": "kūnas"
+      },
+      "examples": [
+        {
+          "text": "Mat är bensin för kroppen"
+        },
+        {
+          "text": "Jag känner mig trött i kroppen efter träningen"
+        },
+        {
+          "text": "Han har en muskulös kropp"
+        },
+        {
+          "text": "Kroppen behöver rörelse för att må bra"
+        },
+        {
+          "text": "Jag tränar för att hålla kroppen i form"
+        },
+        {
+          "text": "Kroppen åldras med tiden"
+        },
+        {
+          "text": "Det är viktigt att ta hand om sin kropp"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3b7f4afd-cf3f-4119-a36f-d290f38a7021",
+      "version": -1,
+      "word": "en bål",
+      "forms": [
+        {
+          "form": "bålar"
+        }
+      ],
+      "translations": {
+        "ru": "туловище",
+        "en": "torso",
+        "uk": "тулуб",
+        "ar": "الجذع",
+        "fa": "تنه",
+        "so": "jidhka",
+        "es": "torso",
+        "de": "Rumpf",
+        "fr": "torse",
+        "pl": "tułów",
+        "id": "badan",
+        "hi": "धड़",
+        "zh": "躯干",
+        "it": "torso",
+        "tr": "gövde",
+        "sr": "труп",
+        "fi": "vartalo",
+        "et": "kere",
+        "be": "тулава",
+        "lv": "ķermenis",
+        "lt": "liemuo"
+      },
+      "examples": [
+        {
+          "text": "Bålen är överdelen av kroppen som är kopplad till armarna benen och huvudet"
+        },
+        {
+          "text": "Efter operationen kände han smärta i hela bålen"
+        },
+        {
+          "text": "Yoga hjälper till att stärka musklerna i bålen"
+        },
+        {
+          "text": "Läkaren undersökte patientens bål för att hitta orsaken till smärtan"
+        },
+        {
+          "text": "En stark bål är avgörande för att förebygga ryggproblem"
+        },
+        {
+          "text": "Under träningen fokuserade de på bålens flexibilitet och styrka"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ae7a0d16-d7d1-4f53-a16e-36367e919c2b",
+      "version": -1,
+      "word": "ett huvud",
+      "forms": [
+        {
+          "form": "huvudet"
+        },
+        {
+          "form": "huvuden"
+        },
+        {
+          "form": "huvudena"
+        }
+      ],
+      "translations": {
+        "ru": "Голова",
+        "en": "head",
+        "uk": "голова",
+        "ar": "رأس",
+        "fa": "سر",
+        "so": "madax",
+        "es": "cabeza",
+        "de": "Kopf",
+        "fr": "tête",
+        "pl": "głowa",
+        "id": "kepala",
+        "hi": "सिर",
+        "zh": "头",
+        "it": "testa",
+        "tr": "baş",
+        "sr": "глава",
+        "fi": "pää",
+        "et": "pea",
+        "be": "галава",
+        "lv": "galva",
+        "lt": "galva"
+      },
+      "examples": [
+        {
+          "text": "Ha på dig en hjälm för att skydda huvudet"
+        },
+        {
+          "text": "Jag har ont i huvudet"
+        },
+        {
+          "text": "Ett barn ritade ett stort huvud på teckningen"
+        },
+        {
+          "text": "Människor har olika form på sina huvuden"
+        },
+        {
+          "text": "Statyn har flera huvuden på toppen"
+        },
+        {
+          "text": "Barnet slog huvudet i bordet och började gråta."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5569b054-eb0a-483d-b62d-a5c11c7dde2c",
+      "version": -1,
+      "word": "ett hår",
+      "forms": [
+        {
+          "form": "håret"
+        }
+      ],
+      "translations": {
+        "ru": "волосы, мех, шерсть",
+        "en": "hair, fur, wool",
+        "uk": "волосся, хутро, шерсть",
+        "ar": "شعر، فرو، صوف",
+        "fa": "مو، خز، پشم",
+        "so": "timo, dhogor, dhogor",
+        "es": "pelo, piel, lana",
+        "de": "Haar, Fell, Wolle",
+        "fr": "cheveux, fourrure, laine",
+        "pl": "włosy, futro, wełna",
+        "id": "rambut, bulu, wol",
+        "hi": "बाल, फर, ऊन",
+        "zh": "头发, 毛皮, 羊毛",
+        "it": "capelli, pelliccia, lana",
+        "tr": "saç, kürk, yün",
+        "sr": "коса, крзно, вуна",
+        "fi": "hiukset, turkki, villa",
+        "et": "juuksed, karusnahk, vill",
+        "be": "валасы, футра, воўна",
+        "lv": "mati, kažokāda, vilna",
+        "lt": "plaukai, kailis, vilna"
+      },
+      "examples": [
+        {
+          "text": "Kvinnan har svart hår"
+        },
+        {
+          "text": "Hon har långt hår"
+        },
+        {
+          "text": "Jag tvättade håret i morse"
+        },
+        {
+          "text": "Hunden fäller mycket hår på våren"
+        },
+        {
+          "text": "Jag är allergisk mot kattens hår"
+        },
+        {
+          "text": "Borstpenseln är tillverkad av naturligt hår"
+        },
+        {
+          "text": "Han tvättar sitt hår varje dag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a5b09c75-85e5-42fd-89e9-25e54b6dd979",
+      "version": -1,
+      "word": "ett ansikte",
+      "forms": [
+        {
+          "form": "ansiktet"
+        },
+        {
+          "form": "ansikten"
+        },
+        {
+          "form": "ansiktena"
+        }
+      ],
+      "translations": {
+        "ru": "лицо",
+        "en": "face",
+        "uk": "обличчя",
+        "ar": "وجه",
+        "fa": "صورت",
+        "so": "waji",
+        "es": "cara",
+        "de": "Gesicht",
+        "fr": "visage",
+        "pl": "twarz",
+        "id": "wajah",
+        "hi": "चेहरा",
+        "zh": "脸",
+        "it": "viso",
+        "tr": "yüz",
+        "sr": "лице",
+        "fi": "kasvot",
+        "et": "nägu",
+        "be": "твар",
+        "lv": "seja",
+        "lt": "veidas"
+      },
+      "examples": [
+        {
+          "text": "Flickan tvättar sitt ansikte"
+        },
+        {
+          "text": "Hon har ett vackert ansikte med stora blå ögon"
+        },
+        {
+          "text": "Jag tvättade mitt ansikte innan jag gick och lade mig"
+        },
+        {
+          "text": "Barnet hade ett glatt ansikte när det fick sin present"
+        },
+        {
+          "text": "Ansiktet på bilden är svårt att känna igen"
+        },
+        {
+          "text": "Alla ansikten i rummet såg bekanta ut"
+        },
+        {
+          "text": "Hon täckte sitt ansikte med händerna när hon blev generad"
+        },
+        {
+          "text": "Ansiktena i folkmassan var fyllda av förväntan"
+        },
+        {
+          "text": "Solen brände hans ansikte under hela dagen"
+        },
+        {
+          "text": "Jag såg ett välbekant ansikte på tåget idag.Företaget behöver ett nytt ansikte utåt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7dcb9fde-ce36-4b4d-bedd-90ed52502fe7",
+      "version": -1,
+      "word": "en panna",
+      "forms": [
+        {
+          "form": "pannor"
+        }
+      ],
+      "translations": {
+        "ru": "лоб",
+        "en": "forehead",
+        "uk": "лоб",
+        "ar": "جبين",
+        "fa": "پیشانی",
+        "so": "foodda",
+        "es": "frente",
+        "de": "Stirn",
+        "fr": "front",
+        "pl": "czoło",
+        "id": "dahi",
+        "hi": "माथा",
+        "zh": "额头",
+        "it": "fronte",
+        "tr": "alın",
+        "sr": "чело",
+        "fi": "otsa",
+        "et": "otsmik",
+        "be": "лоб",
+        "lv": "pieris",
+        "lt": "kakta"
+      },
+      "examples": [
+        {
+          "text": "Jag slog mig i pannan när jag reste mig för snabbt"
+        },
+        {
+          "text": "Svetten rann nerför pannan efter löpningen"
+        },
+        {
+          "text": "Han hade en djup rynka i pannan när han funderade"
+        },
+        {
+          "text": "Hon lade handen på pannan för att känna om han hade feber"
+        },
+        {
+          "text": "Ett stort blåmärke syntes på pannan efter fallet"
+        },
+        {
+          "text": "Barnet vilade sitt huvud mot sin mammas panna"
+        },
+        {
+          "text": "Han rynkade pannan när han såg det svåra problemet"
+        },
+        {
+          "text": "Solen brände hans panna under hela dagen"
+        },
+        {
+          "text": "Ett ärr löper tvärs över hans panna sedan barndomen"
+        },
+        {
+          "text": "Hon kysste honom försiktigt på pannan innan hon gick."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9f85060b-6f16-4a47-acc4-d57e070e4a79",
+      "version": -1,
+      "word": "ett öga",
+      "forms": [
+        {
+          "form": "ögat"
+        },
+        {
+          "form": "ögon"
+        },
+        {
+          "form": "ögonen"
+        }
+      ],
+      "translations": {
+        "ru": "глаз",
+        "en": "eye",
+        "uk": "око",
+        "ar": "عين",
+        "fa": "چشم",
+        "so": "il",
+        "es": "ojo",
+        "de": "Auge",
+        "fr": "œil",
+        "pl": "oko",
+        "id": "mata",
+        "hi": "आंख",
+        "zh": "眼睛",
+        "it": "occhio",
+        "tr": "göz",
+        "sr": "око",
+        "fi": "silmä",
+        "et": "silm",
+        "be": "вока",
+        "lv": "acs",
+        "lt": "akis"
+      },
+      "examples": [
+        {
+          "text": "Sandstrand och palmer så långt ögat når"
+        },
+        {
+          "text": "Hon har ett grönt öga och ett blått"
+        },
+        {
+          "text": "Jag fick något i ögat och det gör ont"
+        },
+        {
+          "text": "Läkaren undersökte patientens ögon med en lampa"
+        },
+        {
+          "text": "Hon kastade ett snabbt öga på klockan"
+        },
+        {
+          "text": "Barnet gnuggade sig i ögonen eftersom det var trött"
+        },
+        {
+          "text": "Jag kunde inte tro mina ögon! Han har ett gott öga till sin nya kollega"
+        },
+        {
+          "text": "Håll ett öga på min väska medan jag är borta"
+        },
+        {
+          "text": "Läraren blundade för elevernas småprat under lektionen"
+        },
+        {
+          "text": "Hon öppnade ögonen för en helt ny värld genom sin resa."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f2b1928a-4417-4413-ad21-95024c3db50c",
+      "version": 1,
+      "word": "ett ögonbryn",
+      "forms": [
+        {
+          "form": "ögonbrynet"
+        },
+        {
+          "form": "ögonbryn"
+        },
+        {
+          "form": "ögonbrynen"
+        }
+      ],
+      "translations": {
+        "ru": "бровь",
+        "en": "eyebrow",
+        "uk": "брова",
+        "ar": "حاجب",
+        "fa": "ابرو",
+        "so": "sun",
+        "es": "ceja",
+        "de": "Augenbraue",
+        "fr": "sourcil",
+        "pl": "brew",
+        "id": "alis",
+        "hi": "भौं",
+        "zh": "眉毛",
+        "it": "sopracciglio",
+        "tr": "kaş",
+        "sr": "обрва",
+        "fi": "kulmakarva",
+        "et": "kulm",
+        "be": "брыво",
+        "lv": "uzacs",
+        "lt": "antakis"
+      },
+      "examples": [
+        {
+          "text": "Hon har naturligt tjocka ögonbryn"
+        },
+        {
+          "text": "Han höjde på ögonbrynen när han hörde nyheten"
+        },
+        {
+          "text": "Jag brukar forma mina ögonbryn varannan vecka"
+        },
+        {
+          "text": "Hennes ögonbryn var perfekt målade"
+        },
+        {
+          "text": "Rynka inte på ögonbrynen, jag skojar bara!"
+        },
+        {
+          "text": "Hans buskiga ögonbryn gav honom ett strängt utseende"
+        },
+        {
+          "text": "Många modeikoner föredrar naturliga ögonbryn istället för tunna"
+        },
+        {
+          "text": "Jag tappade nästan mina ögonbryn i en olycka med en tändare"
+        },
+        {
+          "text": "Kosmetologen rekommenderade en ny metod för att fixa ögonbrynen"
+        },
+        {
+          "text": "Hennes ögonbryn lyfte sig av förvåning när hon såg resultatet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b70b7903-18e8-4f75-b344-65e95a688847",
+      "version": 1,
+      "word": "ett ögonlock",
+      "forms": [
+        {
+          "form": "ögonlocket"
+        },
+        {
+          "form": "ögonlock"
+        },
+        {
+          "form": "ögonlocken"
+        }
+      ],
+      "translations": {
+        "ru": "веко",
+        "en": "eyelid",
+        "uk": "повіка",
+        "ar": "جفن",
+        "fa": "پلک",
+        "so": "balbalo",
+        "es": "párpado",
+        "de": "Augenlid",
+        "fr": "paupière",
+        "pl": "powieka",
+        "id": "kelopak mata",
+        "hi": "पलक",
+        "zh": "眼睑",
+        "it": "palpebra",
+        "tr": "göz kapağı",
+        "sr": "капак",
+        "fi": "silmäluomi",
+        "et": "silmalaug",
+        "be": "века",
+        "lv": "acs plakstiņš",
+        "lt": "vokas"
+      },
+      "examples": [
+        {
+          "text": "Ett ögonlock skyddar ögat från smuts"
+        },
+        {
+          "text": "Ögonlocket svullnade efter insektsbettet"
+        },
+        {
+          "text": "Kan du känna ryckningar i ögonlocket ibland?"
+        },
+        {
+          "text": "Människan har två ögonlock per öga – ett övre och ett undre"
+        },
+        {
+          "text": "Ögonlock kan bli torra på vintern"
+        },
+        {
+          "text": "Ögonlocken rörde sig när han sov"
+        },
+        {
+          "text": "Alla ögonlocken var röda och irriterade efter allergin"
+        },
+        {
+          "text": "Jag känner en liten irritation på mitt ögonlock"
+        },
+        {
+          "text": "Han rörde knappt ett ögonlock när han fick höra nyheten"
+        },
+        {
+          "text": "Torra ögonlock är vanliga på vintern."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6ba33ef5-0966-49f4-9833-73ae3e4c8a9a",
+      "version": -1,
+      "word": "en näsa",
+      "forms": [
+        {
+          "form": "näsor"
+        }
+      ],
+      "translations": {
+        "ru": "Нос",
+        "en": "nose",
+        "uk": "ніс",
+        "ar": "أنف",
+        "fa": "بینی",
+        "so": "san",
+        "es": "nariz",
+        "de": "Nase",
+        "fr": "nez",
+        "pl": "nos",
+        "id": "hidung",
+        "hi": "नाक",
+        "zh": "鼻子",
+        "it": "naso",
+        "tr": "burun",
+        "sr": "нос",
+        "fi": "nenä",
+        "et": "nina",
+        "be": "нос",
+        "lv": "deguns",
+        "lt": "nosis"
+      },
+      "examples": [
+        {
+          "text": "Min näsa är täppt"
+        },
+        {
+          "text": "Hon har en liten och söt näsa"
+        },
+        {
+          "text": "Jag har ont i näsan efter att jag slog mig"
+        },
+        {
+          "text": "Näsorna på hundar är mycket känsliga"
+        },
+        {
+          "text": "Han torkade näsan med en näsduk"
+        },
+        {
+          "text": "Det är viktigt att skydda näsan i kallt väder"
+        },
+        {
+          "text": "Barnet har en röd näsa efter att ha varit ute i kylan"
+        },
+        {
+          "text": "Han har en krokig näsa som ser unik ut"
+        },
+        {
+          "text": "Näsorna på vissa djur kan känna dofter på flera kilometers avstånd"
+        },
+        {
+          "text": "Jag har en stor finne på näsan som gör ont."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9381e89b-c6d8-4076-a575-08c3a333f556",
+      "version": -1,
+      "word": "en kind",
+      "forms": [
+        {
+          "form": "kinder"
+        }
+      ],
+      "translations": {
+        "ru": "Щека",
+        "en": "cheek",
+        "uk": "щока",
+        "ar": "خد",
+        "fa": "گونه",
+        "so": "daanka",
+        "es": "mejilla",
+        "de": "Wange",
+        "fr": "joue",
+        "pl": "policzek",
+        "id": "pipi",
+        "hi": "गाल",
+        "zh": "脸颊",
+        "it": "guancia",
+        "tr": "yanak",
+        "sr": "образ",
+        "fi": "poski",
+        "et": "põsk",
+        "be": "шчака",
+        "lv": "vaigs",
+        "lt": "skruostas"
+      },
+      "examples": [
+        {
+          "text": "Hennes kinder är väldigt röda"
+        },
+        {
+          "text": "Hon kysste honom mjukt på kinden"
+        },
+        {
+          "text": "Barnets kinder var runda och rosiga"
+        },
+        {
+          "text": "Efter att ha sprungit i kylan var hans kinder helt röda"
+        },
+        {
+          "text": "Tårar rann nerför hennes kinder när hon hörde nyheten"
+        },
+        {
+          "text": "Han fick en smäll på kinden i slagsmålet"
+        },
+        {
+          "text": "Hon strök sitt barn över kinden och log"
+        },
+        {
+          "text": "Vinden kändes kall mot kinderna"
+        },
+        {
+          "text": "Han bet sig i kinden medan han åt"
+        },
+        {
+          "text": "Pojken blåste på sin kompis kind för att skoja"
+        },
+        {
+          "text": "Om någon slår dig på ena kinden, vänd också den andra till."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bbfbf39f-23f5-4bfa-8cbf-731d20ebd8ce",
+      "version": 1,
+      "word": "ett öra",
+      "forms": [
+        {
+          "form": "öron"
+        }
+      ],
+      "translations": {
+        "ru": "ухо",
+        "en": "ear",
+        "uk": "вухо",
+        "ar": "أذن",
+        "fa": "گوش",
+        "so": "dheg",
+        "es": "oreja",
+        "de": "Ohr",
+        "fr": "oreille",
+        "pl": "ucho",
+        "id": "telinga",
+        "hi": "कान",
+        "zh": "耳朵",
+        "it": "orecchio",
+        "tr": "kulak",
+        "sr": "ухо",
+        "fi": "korva",
+        "et": "kõrv",
+        "be": "вуха",
+        "lv": "auss",
+        "lt": "ausis"
+      },
+      "examples": [
+        {
+          "text": "Jag har två öron"
+        },
+        {
+          "text": "Jag har ont i mitt vänstra öra"
+        },
+        {
+          "text": "Barnet hade små, söta öron"
+        },
+        {
+          "text": "Hon har ett örhänge i varje öra"
+        },
+        {
+          "text": "Öronen fryser när det är kallt ute"
+        },
+        {
+          "text": "Katten spetsade öronen när den hörde ett ljud"
+        },
+        {
+          "text": "Har du hört det här?"
+        },
+        {
+          "text": "Jag tror inte mina öron!"
+        },
+        {
+          "text": "Läraren bad oss att spetsa öronen och lyssna noggrant"
+        },
+        {
+          "text": "Jag tappade hörlurarna och nu gör det ont i örat när jag använder dem"
+        },
+        {
+          "text": "Elefanten har stora öron som hjälper den att svalka sig"
+        },
+        {
+          "text": "Hon håller alltid en penna bakom sitt öra."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "525298c2-73df-4e13-9309-ab89a0db7ab1",
+      "version": -1,
+      "word": "en mun",
+      "forms": [
+        {
+          "form": "munnar"
+        }
+      ],
+      "translations": {
+        "ru": "Рот",
+        "en": "mouth",
+        "uk": "рот",
+        "ar": "فم",
+        "fa": "دهان",
+        "so": "afka",
+        "es": "boca",
+        "de": "Mund",
+        "fr": "bouche",
+        "pl": "usta",
+        "id": "mulut",
+        "hi": "मुंह",
+        "zh": "嘴",
+        "it": "bocca",
+        "tr": "ağız",
+        "sr": "уста",
+        "fi": "suu",
+        "et": "suu",
+        "be": "рот",
+        "lv": "mute",
+        "lt": "burna"
+      },
+      "examples": [
+        {
+          "text": "Han öppnade sin mun för att säga något"
+        },
+        {
+          "text": "En mun full av mat är inte trevlig att se"
+        },
+        {
+          "text": "Munnen är en viktig del av kroppen"
+        },
+        {
+          "text": "Tandläkaren undersökte munnen noggrant"
+        },
+        {
+          "text": "Han hade en bit bröd i munnen när telefonen ringde"
+        },
+        {
+          "text": "Munnen måste hållas ren för god munhygien"
+        },
+        {
+          "text": "Barnet log med hela munnen"
+        },
+        {
+          "text": "Tandläkaren sa att det inte fanns några problem i munnen"
+        },
+        {
+          "text": "Jag hade inte förväntat mig att hon skulle säga det, så jag stod där med öppen mun."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6987ac85-a129-4c65-80da-42b4f6422c10",
+      "version": 1,
+      "word": "en tand",
+      "forms": [
+        {
+          "form": "tänder"
+        }
+      ],
+      "translations": {
+        "ru": "зуб, зубы",
+        "en": "tooth, teeth",
+        "uk": "зуб, зуби",
+        "ar": "سن، أسنان",
+        "fa": "دندان، دندان‌ها",
+        "so": "ilko, ilko",
+        "es": "diente, dientes",
+        "de": "Zahn, Zähne",
+        "fr": "dent, dents",
+        "pl": "ząb, zęby",
+        "id": "gigi, gigi-gigi",
+        "hi": "दांत, दांत",
+        "zh": "牙齿, 牙齿",
+        "it": "dente, denti",
+        "tr": "diş, dişler",
+        "sr": "зуб, зуби",
+        "fi": "hammas, hampaat",
+        "et": "hammas, hambad",
+        "be": "зуб, зубы",
+        "lv": "zobs, zobi",
+        "lt": "dantis, dantys"
+      },
+      "examples": [
+        {
+          "text": "Har du borstat tänderna?"
+        },
+        {
+          "text": "Barnet har tappat sina första tänder"
+        },
+        {
+          "text": "Hon har vita och fina tänder"
+        },
+        {
+          "text": "Tandläkaren undersökte hans tänder noggrant"
+        },
+        {
+          "text": "Jag har ont i en av mina tänder."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9d27b213-da7e-4990-b61a-c0b2af5d2581",
+      "version": -1,
+      "word": "en läpp",
+      "forms": [
+        {
+          "form": "läppar"
+        }
+      ],
+      "translations": {
+        "ru": "губа",
+        "en": "lip",
+        "uk": "губа",
+        "ar": "شفة",
+        "fa": "لب",
+        "so": "dibno",
+        "es": "labio",
+        "de": "Lippe",
+        "fr": "lèvre",
+        "pl": "warga",
+        "id": "bibir",
+        "hi": "होंठ",
+        "zh": "嘴唇",
+        "it": "labbro",
+        "tr": "dudak",
+        "sr": "усна",
+        "fi": "huuli",
+        "et": "huul",
+        "be": "вусна",
+        "lv": "lūpa",
+        "lt": "lūpa"
+      },
+      "examples": [
+        {
+          "text": "Du har någonting på läppen"
+        },
+        {
+          "text": "Hon målade sina läppar med rött läppstift"
+        },
+        {
+          "text": "Hans läppar var torra efter en lång vandring"
+        },
+        {
+          "text": "Barnet darrade på läppen innan det började gråta"
+        },
+        {
+          "text": "Jag bet mig i läppen när jag åt"
+        },
+        {
+          "text": "Vinden fick hennes läppar att spricka"
+        },
+        {
+          "text": "Han lade fingret mot läpparna och viskade \"schh\""
+        },
+        {
+          "text": "Hon log och hennes läppar sken i solljuset"
+        },
+        {
+          "text": "Efter kyssen var hennes läppar lite svullna"
+        },
+        {
+          "text": "Jag såg att han bet sig i läppen av frustration"
+        },
+        {
+          "text": "Hans läppar formade ett tyst \"tack\"."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f842e383-a858-495c-a191-2de8f8056a38",
+      "version": -1,
+      "word": "en mustasch",
+      "translations": {
+        "ru": "усы",
+        "en": "mustache",
+        "uk": "вуса",
+        "ar": "شارب",
+        "fa": "سبیل",
+        "so": "gadh",
+        "es": "bigote",
+        "de": "Schnurrbart",
+        "fr": "moustache",
+        "pl": "wąsy",
+        "id": "kumis",
+        "hi": "मूंछ",
+        "zh": "胡子",
+        "it": "baffi",
+        "tr": "bıyık",
+        "sr": "бркови",
+        "fi": "viikset",
+        "et": "vuntsid",
+        "be": "вусы",
+        "lv": "ūsas",
+        "lt": "ūsai"
+      },
+      "examples": [
+        {
+          "text": "Mannen har en tjock mustasch"
+        },
+        {
+          "text": "Han har haft mustasch sedan han var 20 år gammal"
+        },
+        {
+          "text": "Jag bestämde mig för att raka av mustaschen"
+        },
+        {
+          "text": "Hans mustasch är så stor att den nästan täcker hans mun"
+        },
+        {
+          "text": "Många män odlar mustasch i november för att stödja Movember-kampanjen"
+        },
+        {
+          "text": "Min farfar hade en imponerande mustasch och ett långt skägg"
+        },
+        {
+          "text": "Han vred sina mustascher medan han tänkte"
+        },
+        {
+          "text": "Efter semestern kom han tillbaka med både mustasch och skägg"
+        },
+        {
+          "text": "Hans smala mustasch fick honom att se ut som en gammaldags skådespelare"
+        },
+        {
+          "text": "Kocken hade en tjock mustasch och pratade med fransk accent"
+        },
+        {
+          "text": "Hon log när hon såg honom med en lösmustasch på festen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0fb3c5b1-ba68-472f-b6c3-6d42088056ed",
+      "version": 1,
+      "word": "ett skägg",
+      "forms": [
+        {
+          "form": "skägget"
+        },
+        {
+          "form": "skägg"
+        },
+        {
+          "form": "skäggen"
+        }
+      ],
+      "translations": {
+        "ru": "борода",
+        "en": "beard",
+        "uk": "борода",
+        "ar": "لحية",
+        "fa": "ریش",
+        "so": "gadh",
+        "es": "barba",
+        "de": "Bart",
+        "fr": "barbe",
+        "pl": "broda",
+        "id": "janggut",
+        "hi": "दाढ़ी",
+        "zh": "胡子",
+        "it": "barba",
+        "tr": "sakal",
+        "sr": "брада",
+        "fi": "parta",
+        "et": "habe",
+        "be": "барада",
+        "lv": "bārda",
+        "lt": "barzda"
+      },
+      "examples": [
+        {
+          "text": "Han har haft skägg sedan han var 25 år"
+        },
+        {
+          "text": "Jag bestämde mig för att raka av skägget"
+        },
+        {
+          "text": "Hans skägg var tjockt och vältrimmat"
+        },
+        {
+          "text": "Vikingar hade ofta stora skägg"
+        },
+        {
+          "text": "Hans skägg börjar bli grått"
+        },
+        {
+          "text": "Under vintern skyddar skägget mot kylan"
+        },
+        {
+          "text": "Min fru gillar inte mitt skägg, men jag älskar det!"
+        },
+        {
+          "text": "Han har en liten fläck i skägget där inget hår växer"
+        },
+        {
+          "text": "Många män odlade skägg under pandemin"
+        },
+        {
+          "text": "Om du trimmar skägget rätt ser det mer stiligt ut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dd89d096-23f4-44e5-ae98-e6bbc8c9d203",
+      "version": -1,
+      "word": "en haka",
+      "forms": [
+        {
+          "form": "hakor"
+        }
+      ],
+      "translations": {
+        "ru": "подбородок",
+        "en": "chin",
+        "uk": "підборіддя",
+        "ar": "ذقن",
+        "fa": "چانه",
+        "so": "gadh",
+        "es": "barbilla",
+        "de": "Kinn",
+        "fr": "menton",
+        "pl": "broda",
+        "id": "dagu",
+        "hi": "ठोड़ी",
+        "zh": "下巴",
+        "it": "mento",
+        "tr": "çene",
+        "sr": "брада",
+        "fi": "leuka",
+        "et": "lõug",
+        "be": "падбародак",
+        "lv": "zods",
+        "lt": "smakras"
+      },
+      "examples": [
+        {
+          "text": "Han stödde hakan på handen medan han tänkte"
+        },
+        {
+          "text": "Boxaren fick en kraftig smäll på hakan"
+        },
+        {
+          "text": "Hon klappade sig på hakan och funderade"
+        },
+        {
+          "text": "Hans haka var täckt av skäggstubb"
+        },
+        {
+          "text": "Efter semestern fick jag en liten dubbelhaka"
+        },
+        {
+          "text": "Barnet lutade hakan mot bordet och såg trött ut"
+        },
+        {
+          "text": "Hon höjde hakan och såg självsäker ut"
+        },
+        {
+          "text": "Hakan på statyn var lite skadad"
+        },
+        {
+          "text": "Han rynkade hakan och såg misstänksam ut"
+        },
+        {
+          "text": "Läkaren undersökte hans haka efter fallet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "71478f9b-63f7-48cc-b21c-f91d2a25940d",
+      "version": -1,
+      "word": "en nacke",
+      "forms": [
+        {
+          "form": "nackar"
+        }
+      ],
+      "translations": {
+        "ru": "шея иногда затылок",
+        "en": "neck, sometimes nape",
+        "uk": "шия, іноді потилиця",
+        "ar": "الرقبة، أحيانًا مؤخرة العنق",
+        "fa": "گردن، گاهی اوقات پس گردن",
+        "so": "luqunta, mararka qaar dhabarka",
+        "es": "cuello, a veces nuca",
+        "de": "Hals, manchmal Nacken",
+        "fr": "cou, parfois nuque",
+        "pl": "szyja, czasami kark",
+        "id": "leher, kadang-kadang tengkuk",
+        "hi": "गर्दन, कभी-कभी ग्रीवा",
+        "zh": "颈部，有时是后颈",
+        "it": "collo, a volte nuca",
+        "tr": "boyun, bazen ense",
+        "sr": "врат, понекад потиљак",
+        "fi": "kaula, joskus niska",
+        "et": "kael, mõnikord kukal",
+        "be": "шыя, часам патыліца",
+        "lv": "kakls, dažreiz pakausis",
+        "lt": "kaklas, kartais sprandas"
+      },
+      "examples": [
+        {
+          "text": "Det finns en konstig svullnad på min nacke"
+        },
+        {
+          "text": "Jag har ont i nacken efter att ha sovit fel"
+        },
+        {
+          "text": "Hon kände en kall vind i nacken"
+        },
+        {
+          "text": "Hans nacke var stel efter en lång arbetsdag"
+        },
+        {
+          "text": "Jag fick gåshud på nacken av den läskiga filmen"
+        },
+        {
+          "text": "Hon masserade sin mans nacke för att lindra spänningar"
+        },
+        {
+          "text": "Bebisen sov med huvudet lutat mot nacken på sin mamma"
+        },
+        {
+          "text": "Han knackade mig lätt i nacken för att få min uppmärksamhet"
+        },
+        {
+          "text": "Efter träningen kände jag mig trött i nacken och axlarna"
+        },
+        {
+          "text": "Hon hade en tatuering av en fjäril i nacken"
+        },
+        {
+          "text": "Han satt med böjd nacke och stirrade på sin telefon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "93a7f6cb-d302-4d77-8392-ef8d40fb3f9c",
+      "version": -1,
+      "word": "en hals",
+      "forms": [
+        {
+          "form": "halsar"
+        }
+      ],
+      "translations": {
+        "ru": "горло, шея",
+        "en": "throat, neck",
+        "uk": "горло, шия",
+        "ar": "حلق، رقبة",
+        "fa": "گلو، گردن",
+        "so": "hunguri, qoorta",
+        "es": "garganta, cuello",
+        "de": "Hals, Nacken",
+        "fr": "gorge, cou",
+        "pl": "gardło, szyja",
+        "id": "tenggorokan, leher",
+        "hi": "गला, गर्दन",
+        "zh": "喉咙, 颈部",
+        "it": "gola, collo",
+        "tr": "boğaz, boyun",
+        "sr": "грло, врат",
+        "fi": "kurkku, kaula",
+        "et": "kõri, kael",
+        "be": "горла, шыя",
+        "lv": "rīkle, kakls",
+        "lt": "gerklė, kaklas"
+      },
+      "examples": [
+        {
+          "text": "Han har ont i halsen"
+        },
+        {
+          "text": "De har långa halsar"
+        },
+        {
+          "text": "Hon har en halsduk runt halsen"
+        },
+        {
+          "text": "Han har en tatuering på halsen"
+        },
+        {
+          "text": "Hennes hals var täckt av smycken"
+        },
+        {
+          "text": "Jag har ont i halsen och kan knappt prata"
+        },
+        {
+          "text": "Han svalde för mycket och fick ont i halsen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1d2cea06-692e-4af0-a4ab-e85ce805c69f",
+      "version": -1,
+      "word": "en axel",
+      "forms": [
+        {
+          "form": "axlar"
+        }
+      ],
+      "translations": {
+        "ru": "плечо",
+        "en": "shoulder",
+        "uk": "плече",
+        "ar": "كتف",
+        "fa": "شانه",
+        "so": "garabka",
+        "es": "hombro",
+        "de": "Schulter",
+        "fr": "épaule",
+        "pl": "ramię",
+        "id": "bahu",
+        "hi": "कंधा",
+        "zh": "肩膀",
+        "it": "spalla",
+        "tr": "omuz",
+        "sr": "рамено",
+        "fi": "olkapää",
+        "et": "õlg",
+        "be": "плячо",
+        "lv": "plecs",
+        "lt": "petys"
+      },
+      "examples": [
+        {
+          "text": "Han ryckte på axlarna och sa att han inte visste"
+        },
+        {
+          "text": "Efter träningen kände hon smärta i axlarna"
+        },
+        {
+          "text": "Barnet satt på sin pappas axlar under konserten"
+        },
+        {
+          "text": "Hon la huvudet på hans axel och blundade"
+        },
+        {
+          "text": "Hans axlar var breda och muskulösa"
+        },
+        {
+          "text": "Läraren klappade honom på axeln och log"
+        },
+        {
+          "text": "Han bar en tung ryggsäck på axlarna"
+        },
+        {
+          "text": "Hon fick en massage för sina stela axlar"
+        },
+        {
+          "text": "Han kände plötsligt en smärta i höger axel"
+        },
+        {
+          "text": "Polisen la en hand på hans axel och bad honom lugna sig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b72ed898-bb8e-4c91-96da-26c49d5c6bbc",
+      "version": -1,
+      "word": "en rygg",
+      "forms": [
+        {
+          "form": "ryggar"
+        }
+      ],
+      "translations": {
+        "ru": "Спина",
+        "en": "back",
+        "uk": "спина",
+        "ar": "ظهر",
+        "fa": "پشت",
+        "so": "dhabarka",
+        "es": "espalda",
+        "de": "Rücken",
+        "fr": "dos",
+        "pl": "plecy",
+        "id": "punggung",
+        "hi": "पीठ",
+        "zh": "背部",
+        "it": "schiena",
+        "tr": "sırt",
+        "sr": "леђа",
+        "fi": "selkä",
+        "et": "selg",
+        "be": "спіна",
+        "lv": "mugura",
+        "lt": "nugara"
+      },
+      "examples": [
+        {
+          "text": "Han har ont i ryggen efter att ha lyft tunga lådor"
+        },
+        {
+          "text": "Du ska alltid sitta rak i ryggen"
+        },
+        {
+          "text": "Efter löpningen kände jag mig stel i ryggen"
+        },
+        {
+          "text": "Bergets rygg är täckt av snö"
+        },
+        {
+          "text": "Hon låg på rygg och tittade på stjärnorna"
+        },
+        {
+          "text": "Jag har ont i ryggen efter en lång dag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6b22281d-61d3-4b69-b468-4b497a622e23",
+      "version": -1,
+      "word": "ett bröst",
+      "forms": [
+        {
+          "form": "bröst"
+        },
+        {
+          "form": "brösten"
+        }
+      ],
+      "translations": {
+        "ru": "Грудь грудная клетка",
+        "en": "chest, rib cage",
+        "uk": "грудна клітка",
+        "ar": "صدر، قفص صدري",
+        "fa": "قفسه سینه",
+        "so": "laabta, feeraha",
+        "es": "pecho, caja torácica",
+        "de": "Brust, Brustkorb",
+        "fr": "poitrine, cage thoracique",
+        "pl": "klatka piersiowa",
+        "id": "dada, tulang rusuk",
+        "hi": "छाती, पसली का पिंजरा",
+        "zh": "胸部，肋骨",
+        "it": "petto, gabbia toracica",
+        "tr": "göğüs, göğüs kafesi",
+        "sr": "грудни кош, грудни кавез",
+        "fi": "rinta, rintakehä",
+        "et": "rind, rinnakorv",
+        "be": "грудная клетка",
+        "lv": "krūtis, ribu būris",
+        "lt": "krūtinė, šonkaulių narvas"
+      },
+      "examples": [
+        {
+          "text": "Doktorn och sjuksköterskan röntgar patientens bröst"
+        },
+        {
+          "text": "Han kände en plötslig smärta i bröstet"
+        },
+        {
+          "text": "Hennes bröst var ömma efter amningen"
+        },
+        {
+          "text": "Efter träningen kände han att musklerna i bröstet var spända"
+        },
+        {
+          "text": "Hon la sin hand på bröstet och suckade djupt"
+        },
+        {
+          "text": "Han tryckte boken mot bröstet och log"
+        },
+        {
+          "text": "Bröstcancer är en av de vanligaste cancerformerna hos kvinnor"
+        },
+        {
+          "text": "Läkaren undersökte patientens bröstkorg med ett stetoskop"
+        },
+        {
+          "text": "Under löpningen kände han ett tryck i bröstet"
+        },
+        {
+          "text": "Hon bar en klänning med en djup urringning som visade hennes bröst"
+        },
+        {
+          "text": "Hans bröst höjdes och sänktes i takt med andningen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "747092c1-f396-42c6-9533-285a893befa8",
+      "version": -1,
+      "word": "en mage",
+      "forms": [
+        {
+          "form": "magar"
+        }
+      ],
+      "translations": {
+        "ru": "Живот желудок",
+        "en": "abdomen, stomach",
+        "uk": "живіт, шлунок",
+        "ar": "بطن، معدة",
+        "fa": "شکم، معده",
+        "so": "caloosha, caloosha",
+        "es": "abdomen, estómago",
+        "de": "Bauch, Magen",
+        "fr": "abdomen, estomac",
+        "pl": "brzuch, żołądek",
+        "id": "perut, lambung",
+        "hi": "पेट, आमाशय",
+        "zh": "腹部，胃",
+        "it": "addome, stomaco",
+        "tr": "karın, mide",
+        "sr": "стомак, желудац",
+        "fi": "vatsa, mahalaukku",
+        "et": "kõht, magu",
+        "be": "жывот, страўнік",
+        "lv": "vēders, kuņģis",
+        "lt": "pilvas, skrandis"
+      },
+      "examples": [
+        {
+          "text": "Han har ont i magen efter att ha ätit för mycket"
+        },
+        {
+          "text": "Barnet låg på magen och ritade"
+        },
+        {
+          "text": "Jag har fjärilar i magen inför intervjun"
+        },
+        {
+          "text": "Hans mage kurrade eftersom han inte hade ätit på länge"
+        },
+        {
+          "text": "Efter löpningen kände jag mig svag i magen"
+        },
+        {
+          "text": "Hon har en liten rund mage efter semestern"
+        },
+        {
+          "text": "Läkaren undersökte min mage och sa att allt var normalt"
+        },
+        {
+          "text": "Han tränar varje dag för att få en platt mage"
+        },
+        {
+          "text": "Om du har känslig mage bör du undvika stark mat"
+        },
+        {
+          "text": "Jag åt något konstigt och nu gör magen ont."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4a1b5436-d405-4a30-a12a-b84b0ca6fc4a",
+      "version": -1,
+      "word": "en arm",
+      "forms": [
+        {
+          "form": "armar"
+        }
+      ],
+      "translations": {
+        "ru": "Рука (от плеча до кисти)",
+        "en": "arm (from shoulder to wrist)",
+        "uk": "рука (від плеча до зап'ястя)",
+        "ar": "ذراع (من الكتف إلى المعصم)",
+        "fa": "بازو (از شانه تا مچ)",
+        "so": "gacan (laga bilaabo garabka ilaa curcurka)",
+        "es": "brazo (desde el hombro hasta la muñeca)",
+        "de": "Arm (von der Schulter bis zum Handgelenk)",
+        "fr": "bras (de l'épaule au poignet)",
+        "pl": "ramię (od ramienia do nadgarstka)",
+        "id": "lengan (dari bahu ke pergelangan tangan)",
+        "hi": "बांह (कंधे से कलाई तक)",
+        "zh": "手臂（从肩膀到手腕）",
+        "it": "braccio (dalla spalla al polso)",
+        "tr": "kol (omuzdan bileğe kadar)",
+        "sr": "рука (од рамена до зглоба)",
+        "fi": "käsivarsi (olkapäästä ranteeseen)",
+        "et": "käsi (õlast randmeni)",
+        "be": "рука (ад пляча да запясця)",
+        "lv": "roka (no pleca līdz plaukstas locītavai)",
+        "lt": "ranka (nuo peties iki riešo)"
+      },
+      "examples": [
+        {
+          "text": "Han bröt sin arm när han föll av cykeln"
+        },
+        {
+          "text": "Hon lade en arm om sin vän och tröstade henne"
+        },
+        {
+          "text": "Efter träningen kände han sig trött i armarna"
+        },
+        {
+          "text": "Han tog mig i armen och drog mig åt sidan"
+        },
+        {
+          "text": "Barnet lyfte armarna och ville bli upplyft"
+        },
+        {
+          "text": "Jag har fått en konstig smärta i vänster arm"
+        },
+        {
+          "text": "Läkaren undersökte min arm och sa att den var okej"
+        },
+        {
+          "text": "Hon korsade armarna och såg skeptisk ut"
+        },
+        {
+          "text": "Han sov med armarna under huvudet"
+        },
+        {
+          "text": "Hon sträckte ut armen för att nå boken på hyllan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e895167a-2243-44e8-ab9a-991297d09860",
+      "version": -1,
+      "word": "en hand",
+      "forms": [
+        {
+          "form": "handen"
+        },
+        {
+          "form": "händer"
+        },
+        {
+          "form": "händerna"
+        }
+      ],
+      "translations": {
+        "ru": "Рука (от запястья до кончиков пальцев)",
+        "en": "hand (from wrist to fingertips)",
+        "uk": "рука (від зап'ястя до кінчиків пальців)",
+        "ar": "يد (من المعصم إلى أطراف الأصابع)",
+        "fa": "دست (از مچ تا نوک انگشتان)",
+        "so": "gacan (laga bilaabo curcurka ilaa faraha)",
+        "es": "mano (desde la muñeca hasta las yemas de los dedos)",
+        "de": "Hand (vom Handgelenk bis zu den Fingerspitzen)",
+        "fr": "main (du poignet aux bouts des doigts)",
+        "pl": "ręka (od nadgarstka do czubków palców)",
+        "id": "tangan (dari pergelangan tangan hingga ujung jari)",
+        "hi": "हाथ (कलाई से उंगलियों के सिरे तक)",
+        "zh": "手（从手腕到指尖）",
+        "it": "mano (dal polso alla punta delle dita)",
+        "tr": "el (bilekten parmak uçlarına kadar)",
+        "sr": "рука (од зглоба до врхова прстију)",
+        "fi": "käsi (ranteesta sormenpäihin)",
+        "et": "käsi (randmest kuni sõrmeotsteni)",
+        "be": "рука (ад запясця да кончыкаў пальцаў)",
+        "lv": "roka (no plaukstas locītavas līdz pirkstu galiem)",
+        "lt": "ranka (nuo riešo iki pirštų galiukų)"
+      },
+      "examples": [
+        {
+          "text": "Barnet räcker upp handen"
+        },
+        {
+          "text": "Jag har ont i min vänstra hand"
+        },
+        {
+          "text": "Hon tvättade sina händer noggrant"
+        },
+        {
+          "text": "Kan du ge mig din hand för att hjälpa mig upp?  Du har fria händer att lösa problemet"
+        },
+        {
+          "text": "Kan du ge mig en hjälpande hand?  Hon klarade uppgiften på egen hand."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ec162340-8c89-4181-859c-4f24046b506d",
+      "version": -1,
+      "word": "en armbåge",
+      "forms": [
+        {
+          "form": "armbågar"
+        }
+      ],
+      "translations": {
+        "ru": "локоть",
+        "en": "elbow",
+        "uk": "лікоть",
+        "ar": "كوع",
+        "fa": "آرنج",
+        "so": "xusul",
+        "es": "codo",
+        "de": "Ellbogen",
+        "fr": "coude",
+        "pl": "łokieć",
+        "id": "siku",
+        "hi": "कोहनी",
+        "zh": "肘",
+        "it": "gomito",
+        "tr": "dirsek",
+        "sr": "лакат",
+        "fi": "kyynärpää",
+        "et": "küünarnukk",
+        "be": "локаць",
+        "lv": "elkonis",
+        "lt": "alkūnė"
+      },
+      "examples": [
+        {
+          "text": "Jag slog i armbågen när jag gick förbi bordet"
+        },
+        {
+          "text": "Hon satt och lutade sig på armbågarna medan hon läste"
+        },
+        {
+          "text": "Hon satt och lutade sig på armbågarna medan hon läste"
+        },
+        {
+          "text": "Läkaren undersökte hans armbåge efter fallet"
+        },
+        {
+          "text": "Han böjde sin armbåge och sträckte sig efter kaffekoppen"
+        },
+        {
+          "text": "Barnet satte sig med armbågarna på bordet och lyssnade noggrant"
+        },
+        {
+          "text": "Jag fick ont i armbågen efter att ha lyft tunga vikter"
+        },
+        {
+          "text": "Han trängde sig fram i kön med armbågarna"
+        },
+        {
+          "text": "Efter skadan kunde han inte räta ut sin armbåge ordentligt"
+        },
+        {
+          "text": "Hon gav honom en lätt armbåge i sidan och log."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fe253ab9-97f7-4c7e-a9fa-cbf806835f57",
+      "version": -1,
+      "word": "en handled",
+      "forms": [
+        {
+          "form": "handleder"
+        }
+      ],
+      "translations": {
+        "ru": "запястье",
+        "en": "wrist",
+        "uk": "зап'ястя",
+        "ar": "معصم",
+        "fa": "مچ دست",
+        "so": "curcurka",
+        "es": "muñeca",
+        "de": "Handgelenk",
+        "fr": "poignet",
+        "pl": "nadgarstek",
+        "id": "pergelangan tangan",
+        "hi": "कलाई",
+        "zh": "手腕",
+        "it": "polso",
+        "tr": "bilek",
+        "sr": "зглоб",
+        "fi": "ranne",
+        "et": "randme",
+        "be": "запясце",
+        "lv": "plaukstas locītava",
+        "lt": "riešas"
+      },
+      "examples": [
+        {
+          "text": "Hon vred på handleden för att se vad klockan visade"
+        },
+        {
+          "text": "Han bar ett läderarmband på sin vänstra handled"
+        },
+        {
+          "text": "Efter fallet hade han smärta i höger handled"
+        },
+        {
+          "text": "Jag stukade handleden när jag ramlade ner för trappan"
+        },
+        {
+          "text": "Hon satte ett elastiskt bandage runt handleden"
+        },
+        {
+          "text": "Läkaren undersökte hans svullna handled"
+        },
+        {
+          "text": "Han knackade lätt på handleden och sa \"vi måste gå\""
+        },
+        {
+          "text": "Hon vilade handleden på bordet medan hon skrev"
+        },
+        {
+          "text": "Efter flera timmar vid datorn kände han sig stel i handleden"
+        },
+        {
+          "text": "Han tog tag i hennes handled och drog henne åt sidan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "86bf2089-e2ca-42ac-bf99-7658ce85a988",
+      "version": -1,
+      "word": "ett finger",
+      "forms": [
+        {
+          "form": "fingret"
+        },
+        {
+          "form": "fingrar"
+        },
+        {
+          "form": "fingrarna"
+        }
+      ],
+      "translations": {
+        "ru": "Палец",
+        "en": "finger",
+        "uk": "палець",
+        "ar": "إصبع",
+        "fa": "انگشت",
+        "so": "farta",
+        "es": "dedo",
+        "de": "Finger",
+        "fr": "doigt",
+        "pl": "palec",
+        "id": "jari",
+        "hi": "उंगली",
+        "zh": "手指",
+        "it": "dito",
+        "tr": "parmak",
+        "sr": "прст",
+        "fi": "sormi",
+        "et": "sõrm",
+        "be": "палец",
+        "lv": "pirksts",
+        "lt": "pirštas"
+      },
+      "examples": [
+        {
+          "text": "Jag skar mig i fingret när jag skivade lök"
+        },
+        {
+          "text": "Han knackade lätt med fingret på bordet"
+        },
+        {
+          "text": "Hon snurrade ringen runt sitt finger"
+        },
+        {
+          "text": "Läkaren undersökte hans svullna finger"
+        },
+        {
+          "text": "Barnet pekade med fingret på leksaken"
+        },
+        {
+          "text": "Jag brände fingret när jag tog ut plåten ur ugnen"
+        },
+        {
+          "text": "Han vickade på fingrarna för att mjuka upp dem"
+        },
+        {
+          "text": "Hon har väldigt smala fingrar"
+        },
+        {
+          "text": "Han bet sig i fingret när han tänkte."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "649dcb93-8c3c-4b16-8b7c-64e90b139f97",
+      "version": -1,
+      "word": "en skinka",
+      "forms": [
+        {
+          "form": "skinkor"
+        }
+      ],
+      "translations": {
+        "ru": "ягодицы",
+        "en": "buttocks",
+        "uk": "сідниці",
+        "ar": "الأرداف",
+        "fa": "باسن",
+        "so": "dabada",
+        "es": "nalgas",
+        "de": "Gesäß",
+        "fr": "fesses",
+        "pl": "pośladki",
+        "id": "bokong",
+        "hi": "नितंब",
+        "zh": "臀部",
+        "it": "glutei",
+        "tr": "kalçalar",
+        "sr": "задњица",
+        "fi": "pakarat",
+        "et": "tuharad",
+        "be": "ягадзіцы",
+        "lv": "sēžamvieta",
+        "lt": "sėdmenys"
+      },
+      "examples": [
+        {
+          "text": "Hon ramlade bakåt och landade hårt på skinkorna"
+        },
+        {
+          "text": "Efter att ha suttit länge började mina skinkor domna"
+        },
+        {
+          "text": "Hon gör många knäböj för att träna sina skinkor"
+        },
+        {
+          "text": "Han fick en hård smäll på skinkorna när han ramlade"
+        },
+        {
+          "text": "Jag fick en spruta i skinkan hos läkaren"
+        },
+        {
+          "text": "Hon masserade sina ömma skinkor efter träningen"
+        },
+        {
+          "text": "Barnet satt på skinkorna och lekte på golvet"
+        },
+        {
+          "text": "Efter cykelturen gjorde det ont i skinkorna"
+        },
+        {
+          "text": "Läkaren undersökte smärtan i hans skinka"
+        },
+        {
+          "text": "Hon har tränat upp sina skinkor ordentligt"
+        },
+        {
+          "text": "Efter att ha ramlat kände han ett blåmärke på skinkan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3f30abc4-b90d-4b1e-9ad2-fc61d3900fd8",
+      "version": -1,
+      "word": "ett ben",
+      "forms": [
+        {
+          "form": "benet"
+        },
+        {
+          "form": "ben"
+        },
+        {
+          "form": "benen"
+        }
+      ],
+      "translations": {
+        "ru": "Нога, второе значение кость",
+        "en": "leg, second meaning: bone",
+        "uk": "нога, друге значення: кістка",
+        "ar": "ساق، المعنى الثاني: عظم",
+        "fa": "پا، معنای دوم: استخوان",
+        "so": "lug, macnaha labaad: lafo",
+        "es": "pierna, segundo significado: hueso",
+        "de": "Bein, zweite Bedeutung: Knochen",
+        "fr": "jambe, deuxième sens : os",
+        "pl": "noga, drugie znaczenie: kość",
+        "id": "kaki, arti kedua: tulang",
+        "hi": "टांग, दूसरा अर्थ: हड्डी",
+        "zh": "腿，第二个意思：骨头",
+        "it": "gamba, secondo significato: osso",
+        "tr": "bacak, ikinci anlam: kemik",
+        "sr": "нога, друго значење: кост",
+        "fi": "jalka, toinen merkitys: luu",
+        "et": "jalg, teine tähendus: luu",
+        "be": "нага, другое значэнне: костка",
+        "lv": "kāja, otrā nozīme: kauls",
+        "lt": "koja, antra reikšmė: kaulas"
+      },
+      "examples": [
+        {
+          "text": "Han ramlade och skrapade upp benet"
+        },
+        {
+          "text": "Dina ben finns under din hud"
+        },
+        {
+          "text": "Han bröt benet när han åkte skidor"
+        },
+        {
+          "text": "Hon har långa och smala ben"
+        },
+        {
+          "text": "Läkaren undersökte benet efter skadan"
+        },
+        {
+          "text": "Efter att ha suttit länge domnade mina ben"
+        },
+        {
+          "text": "Barnet sparkade med benen när det låg i vaggan"
+        },
+        {
+          "text": "Skelettet består av 206 ben"
+        },
+        {
+          "text": "Hon sträckte ut benen efter en lång promenad"
+        },
+        {
+          "text": "Han la benen på ryggen och sprang därifrån"
+        },
+        {
+          "text": "Hans ben var trötta efter löpningen"
+        },
+        {
+          "text": "Bordet har fyra ben."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ea9ea988-2d85-44e7-a63e-674e75623a6d",
+      "version": -1,
+      "word": "ett lår",
+      "forms": [
+        {
+          "form": "låret"
+        },
+        {
+          "form": "lår"
+        },
+        {
+          "form": "låren"
+        }
+      ],
+      "translations": {
+        "ru": "бедро",
+        "en": "thigh",
+        "uk": "стегно",
+        "ar": "فخذ",
+        "fa": "ران",
+        "so": "bowdo",
+        "es": "muslo",
+        "de": "Oberschenkel",
+        "fr": "cuisse",
+        "pl": "udo",
+        "id": "paha",
+        "hi": "जांघ",
+        "zh": "大腿",
+        "it": "coscia",
+        "tr": "uyluk",
+        "sr": "бут",
+        "fi": "reisi",
+        "et": "reis",
+        "be": "сцягно",
+        "lv": "augšstilbs",
+        "lt": "šlaunis"
+      },
+      "examples": [
+        {
+          "text": "Han fick ett stort blåmärke på låret efter att ha ramlat"
+        },
+        {
+          "text": "Efter löpningen kände jag smärta i låret"
+        },
+        {
+          "text": "Hon har mycket starka lårmuskler tack vare träningen"
+        },
+        {
+          "text": "Barnet satt på sin pappas lår och lekte"
+        },
+        {
+          "text": "Jag fick en sträckning i låret när jag hoppade"
+        },
+        {
+          "text": "Låret känns stelt efter lång tid i bilen"
+        },
+        {
+          "text": "Hon klappade sig på låret och reste sig upp"
+        },
+        {
+          "text": "Han masserade sitt lår efter träningen"
+        },
+        {
+          "text": "Jag slog mitt lår mot bordskanten och det gjorde ont"
+        },
+        {
+          "text": "Låren skakade av ansträngningen efter bergsklättringen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7a57f3ba-e7f6-4405-87ed-7f3411cb8ca0",
+      "version": -1,
+      "word": "ett knä",
+      "forms": [
+        {
+          "form": "knät"
+        },
+        {
+          "form": "knän"
+        },
+        {
+          "form": "knäna"
+        }
+      ],
+      "translations": {
+        "ru": "колено",
+        "en": "knee",
+        "uk": "коліно",
+        "ar": "ركبة",
+        "fa": "زانو",
+        "so": "jilib",
+        "es": "rodilla",
+        "de": "Knie",
+        "fr": "genou",
+        "pl": "kolano",
+        "id": "lutut",
+        "hi": "घुटना",
+        "zh": "膝盖",
+        "it": "ginocchio",
+        "tr": "diz",
+        "sr": "колено",
+        "fi": "polvi",
+        "et": "põlv",
+        "be": "калена",
+        "lv": "ceļgals",
+        "lt": "kelis"
+      },
+      "examples": [
+        {
+          "text": "Pojken ramlade och skrapade sina knän"
+        },
+        {
+          "text": "Jag satte mig på knä för att knyta skorna"
+        },
+        {
+          "text": "Efter löpningen började mitt knä göra ont"
+        },
+        {
+          "text": "Barnet satt på sin mammas knä och lekte"
+        },
+        {
+          "text": "Han föll och skrapade upp båda knäna"
+        },
+        {
+          "text": "Läkaren undersökte mitt svullna knä"
+        },
+        {
+          "text": "Hon fick en spark på knät under fotbollsmatchen"
+        },
+        {
+          "text": "Hon fick en spark på knät under fotbollsmatchen"
+        },
+        {
+          "text": "Knät knakade varje gång jag böjde det"
+        },
+        {
+          "text": "Hon la en filt över sina knän för att hålla sig varm"
+        },
+        {
+          "text": "Min farfar brukade ha mig på knäet och berätta sagor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "af9a9332-9762-423c-be14-d0d00f79728a",
+      "version": -1,
+      "word": "en fotled",
+      "forms": [
+        {
+          "form": "fotleder"
+        }
+      ],
+      "translations": {
+        "ru": "Голеностоп  Щиколотка",
+        "en": "ankle",
+        "uk": "щиколотка",
+        "ar": "الكاحل",
+        "fa": "مچ پا",
+        "so": "canqow",
+        "es": "tobillo",
+        "de": "Knöchel",
+        "fr": "cheville",
+        "pl": "kostka",
+        "id": "pergelangan kaki",
+        "hi": "टखना",
+        "zh": "脚踝",
+        "it": "caviglia",
+        "tr": "ayak bileği",
+        "sr": "чланак",
+        "fi": "nilkka",
+        "et": "pahkluu",
+        "be": "шчыкалатка",
+        "lv": "potīte",
+        "lt": "čiurna"
+      },
+      "examples": [
+        {
+          "text": "Jag tror att jat stukade min fotled"
+        },
+        {
+          "text": "Jag stukade fotleden när jag sprang nerför trappan"
+        },
+        {
+          "text": "Efter skadan blev min fotled svullen"
+        },
+        {
+          "text": "Hon vrickade fotleden under träningen"
+        },
+        {
+          "text": "Läkaren undersökte hans fotled och sa att inget var brutet"
+        },
+        {
+          "text": "Jag fick en elastisk linda för att stabilisera min fotled"
+        },
+        {
+          "text": "Efter en lång promenad kände jag smärta i fotleden"
+        },
+        {
+          "text": "Han masserade sin fotled för att minska svullnaden"
+        },
+        {
+          "text": "Fysioterapeuten visade övningar för att stärka fotleden"
+        },
+        {
+          "text": "Hon kunde inte stödja sig på fotleden efter olyckan"
+        },
+        {
+          "text": "Löpning kan vara påfrestande för fotlederna om man inte har rätt skor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "786fecea-f306-465f-b841-c30a0807d761",
+      "version": -1,
+      "word": "en vad/två",
+      "forms": [
+        {
+          "form": "vader"
+        }
+      ],
+      "translations": {
+        "ru": "икра ноги",
+        "en": "calf (leg)",
+        "uk": "литка",
+        "ar": "بطة الساق",
+        "fa": "ماهیچه ساق پا",
+        "so": "gudubka lugta",
+        "es": "pantorrilla",
+        "de": "Wade",
+        "fr": "mollet",
+        "pl": "łydka",
+        "id": "betis",
+        "hi": "पिंडली",
+        "zh": "小腿",
+        "it": "polpaccio",
+        "tr": "baldır",
+        "sr": "лист",
+        "fi": "pohje",
+        "et": "säär",
+        "be": "ікраножная мышца",
+        "lv": "ikrs",
+        "lt": "blauzda"
+      },
+      "examples": [
+        {
+          "text": "Efter löprundan kände jag smärta i vaden"
+        },
+        {
+          "text": "Hon masserade sina trötta vader efter vandringen"
+        },
+        {
+          "text": "Jag sträckte en muskel i vaden under träningen"
+        },
+        {
+          "text": "Vaderna blev spända efter en lång dag på jobbet"
+        },
+        {
+          "text": "Han fick kramp i vaden när han simmade i kallt vatten"
+        },
+        {
+          "text": "Stretching hjälper till att undvika smärta i vaderna"
+        },
+        {
+          "text": "Jag tränar ofta mina vader på gymmet"
+        },
+        {
+          "text": "Under löpturen började vaden kännas stel"
+        },
+        {
+          "text": "Han slog sig på vaden när han ramlade av cykeln"
+        },
+        {
+          "text": "Efter promenaden var hennes vader ömma."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "22c835ba-b007-47ba-8591-9fb6b5b3d553",
+      "version": -1,
+      "word": "en fot",
+      "forms": [
+        {
+          "form": "fötter"
+        }
+      ],
+      "translations": {
+        "ru": "Ступня",
+        "en": "foot",
+        "uk": "ступня",
+        "ar": "قدم",
+        "fa": "پا",
+        "so": "lug",
+        "es": "pie",
+        "de": "Fuß",
+        "fr": "pied",
+        "pl": "stopa",
+        "id": "kaki",
+        "hi": "पैर",
+        "zh": "脚",
+        "it": "piede",
+        "tr": "ayak",
+        "sr": "стопало",
+        "fi": "jalka",
+        "et": "jalg",
+        "be": "ступня",
+        "lv": "pēda",
+        "lt": "pėda"
+      },
+      "examples": [
+        {
+          "text": "Jag har fått en blåsa på foten efter att ha gått för mycket"
+        },
+        {
+          "text": "Hon föll och bröt foten"
+        },
+        {
+          "text": "Efter träningen kände han sig trött i fötterna"
+        },
+        {
+          "text": "Han gick barfota på stranden"
+        },
+        {
+          "text": "Jag har kalla fötter på vintern"
+        },
+        {
+          "text": "Läkaren undersökte foten och sa att den var stukad"
+        },
+        {
+          "text": "Hon fick en kramp i foten mitt i natten"
+        },
+        {
+          "text": "Fotbollsspelare måste ha starka fötter och snabba reflexer"
+        },
+        {
+          "text": "Jag satte ner foten och sa \"Nu räcker det!\""
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7d63b844-6a6c-416e-abf3-62cb2ccbdbd6",
+      "version": -1,
+      "word": "en häl",
+      "forms": [
+        {
+          "form": "hälar"
+        }
+      ],
+      "translations": {
+        "ru": "пятка",
+        "en": "heel",
+        "uk": "п'ятка",
+        "ar": "كعب",
+        "fa": "پاشنه",
+        "so": "cirib",
+        "es": "talón",
+        "de": "Ferse",
+        "fr": "talon",
+        "pl": "pięta",
+        "id": "tumit",
+        "hi": "एड़ी",
+        "zh": "脚跟",
+        "it": "tallone",
+        "tr": "topuk",
+        "sr": "пета",
+        "fi": "kantapää",
+        "et": "kand",
+        "be": "пятка",
+        "lv": "papēdis",
+        "lt": "kulnas"
+      },
+      "examples": [
+        {
+          "text": "Efter löpningen kände jag en smärta i hälen"
+        },
+        {
+          "text": "Hon fick en blåsa på hälen av sina nya skor"
+        },
+        {
+          "text": "Läkaren undersökte min häl och sa att den var inflammerad"
+        },
+        {
+          "text": "Jag masserade mina hälar efter att ha gått i högklackade skor hela dagen"
+        },
+        {
+          "text": "Hans hälar var spruckna och torra"
+        },
+        {
+          "text": "Han satte först ner hälen och rullade sedan fram foten"
+        },
+        {
+          "text": "Hon gick barfota och kände den svala sanden mot hälarna"
+        },
+        {
+          "text": "Barnet stod på hälarna och försökte hålla balansen"
+        },
+        {
+          "text": "Achilleshäl är ett uttryck för en persons svaga punkt"
+        },
+        {
+          "text": "Efter vandringen hade han ömma hälar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "039594ca-2a6a-4fe5-aec6-7f1e224a895f",
+      "version": -1,
+      "word": "en hud",
+      "forms": [
+        {
+          "form": "Hudar"
+        }
+      ],
+      "translations": {
+        "ru": "кожа",
+        "en": "skin",
+        "uk": "шкіра",
+        "ar": "جلد",
+        "fa": "پوست",
+        "so": "maqaarka",
+        "es": "piel",
+        "de": "Haut",
+        "fr": "peau",
+        "pl": "skóra",
+        "id": "kulit",
+        "hi": "त्वचा",
+        "zh": "皮肤",
+        "it": "pelle",
+        "tr": "cilt",
+        "sr": "кожа",
+        "fi": "iho",
+        "et": "nahk",
+        "be": "скура",
+        "lv": "āda",
+        "lt": "oda"
+      },
+      "examples": [
+        {
+          "text": "Huden är kroppens största organ"
+        },
+        {
+          "text": "Huden på mina händer är torr"
+        },
+        {
+          "text": "Vargen bytte hud varje vinter"
+        },
+        {
+          "text": "Produkten är bra för huden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a823dbf6-0b50-49c4-947c-58a3db23b10e",
+      "version": -1,
+      "word": "ett blod",
+      "forms": [
+        {
+          "form": "blodet"
+        }
+      ],
+      "translations": {
+        "ru": "кровь",
+        "en": "blood",
+        "uk": "кров",
+        "ar": "دم",
+        "fa": "خون",
+        "so": "dhiig",
+        "es": "sangre",
+        "de": "Blut",
+        "fr": "sang",
+        "pl": "krew",
+        "id": "darah",
+        "hi": "खून",
+        "zh": "血",
+        "it": "sangue",
+        "tr": "kan",
+        "sr": "крв",
+        "fi": "veri",
+        "et": "veri",
+        "be": "кроў",
+        "lv": "asinis",
+        "lt": "kraujas"
+      },
+      "examples": [
+        {
+          "text": "Han tappade mycket blod efter olyckan"
+        },
+        {
+          "text": "Blodet transporterar syre till kroppens organ"
+        },
+        {
+          "text": "Hon donerade blod till sjukhuset"
+        },
+        {
+          "text": "Det fanns blodspår på golvet"
+        },
+        {
+          "text": "Läkaren tog ett blodprov för analys"
+        },
+        {
+          "text": "Jag måste ta ett blodprov i morgon"
+        },
+        {
+          "text": "Vilken blodgrupp har du? Regelbunden motion förbättrar blodcirkulationen"
+        },
+        {
+          "text": "Mitt blodtryck är för högt"
+        },
+        {
+          "text": "Patienten behövde en blodtransfusion"
+        },
+        {
+          "text": "Han agerade i kallt blod under krisen"
+        },
+        {
+          "text": "Det var en blodig scen i filmen"
+        },
+        {
+          "text": "Det är viktigt att veta sin blodgrupp vid nödsituationer"
+        },
+        {
+          "text": "Han känner sig svag på grund av lågt blodtryck"
+        },
+        {
+          "text": "Efter olyckan behövde han en blodtransfusion"
+        },
+        {
+          "text": "Blodcirkulationen förbättras av regelbunden träning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "cbb0c69a-1fcf-4fa8-91ba-4a6170f102ac",
+      "version": -1,
+      "word": "en muskel",
+      "forms": [
+        {
+          "form": "muskler"
+        }
+      ],
+      "translations": {
+        "ru": "мускул",
+        "en": "muscle",
+        "uk": "м'яз",
+        "ar": "عضلة",
+        "fa": "ماهیچه",
+        "so": "murqo",
+        "es": "músculo",
+        "de": "Muskel",
+        "fr": "muscle",
+        "pl": "mięsień",
+        "id": "otot",
+        "hi": "मांसपेशी",
+        "zh": "肌肉",
+        "it": "muscolo",
+        "tr": "kas",
+        "sr": "мишић",
+        "fi": "lihas",
+        "et": "lihas",
+        "be": "мускул",
+        "lv": "muskulis",
+        "lt": "raumenys"
+      },
+      "examples": [
+        {
+          "text": "Efter gymmet kändes mina muskler trötta"
+        },
+        {
+          "text": "Han har mycket starka muskler tack vare styrketräning"
+        },
+        {
+          "text": "Läkaren sa att jag har en inflammerad muskel i ryggen"
+        },
+        {
+          "text": "Hon sträckte en muskel i benet under löpningen"
+        },
+        {
+          "text": "Musklerna hjälper till att hålla kroppen stabil"
+        },
+        {
+          "text": "Efter massagen kändes musklerna avslappnade"
+        },
+        {
+          "text": "Han spände musklerna för att visa hur stark han var"
+        },
+        {
+          "text": "Jag fick kramp i muskeln när jag simmade"
+        },
+        {
+          "text": "Jag fick kramp i muskeln när jag simmade"
+        },
+        {
+          "text": "Hon har tränat upp sina muskler under flera år."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1f3279ce-62e5-466c-ba83-de144d0c5343",
+      "version": -1,
+      "word": "en tår",
+      "forms": [
+        {
+          "form": "tårar"
+        }
+      ],
+      "translations": {
+        "ru": "Слеза",
+        "en": "tear",
+        "uk": "сльоза",
+        "ar": "دمعة",
+        "fa": "اشک",
+        "so": "ilmo",
+        "es": "lágrima",
+        "de": "Träne",
+        "fr": "larme",
+        "pl": "łza",
+        "id": "air mata",
+        "hi": "आंसू",
+        "zh": "眼泪",
+        "it": "lacrima",
+        "tr": "gözyaşı",
+        "sr": "суза",
+        "fi": "kyynel",
+        "et": "pisar",
+        "be": "слёза",
+        "lv": "asaras",
+        "lt": "ašara"
+      },
+      "examples": [
+        {
+          "text": "Hennes ögon var fyllda med tårar när hon sa farväl"
+        },
+        {
+          "text": "Hennes ögon var fyllda med tårar när hon sa farväl"
+        },
+        {
+          "text": "Tårarna rann ner för hans kinder när han hörde den tragiska nyheten"
+        },
+        {
+          "text": "Barnet torkade sina tårar och log igen"
+        },
+        {
+          "text": "Tårarna av skratt gjorde hennes ögon alldeles blanka"
+        },
+        {
+          "text": "Hon brast ut i tårar när hon fick reda på att hon hade vunnit tävlingen"
+        },
+        {
+          "text": "Tårarna i hans ögon visade hur mycket han saknade henne"
+        },
+        {
+          "text": "Han grät så mycket att hans tårar blötte ner tröjan"
+        },
+        {
+          "text": "Det var en kväll full av skratt och tårar"
+        },
+        {
+          "text": "Hennes tårar av lättnad rann ner på kudden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3d7670f5-d3a7-497c-ae70-120e5d86a36a",
+      "version": -1,
+      "word": "ett hjärta",
+      "forms": [
+        {
+          "form": "hjärtat"
+        },
+        {
+          "form": "hjärtan"
+        },
+        {
+          "form": "hjärtana"
+        }
+      ],
+      "translations": {
+        "ru": "сердце",
+        "en": "heart",
+        "uk": "серце",
+        "ar": "قلب",
+        "fa": "قلب",
+        "so": "wadnaha",
+        "es": "corazón",
+        "de": "Herz",
+        "fr": "cœur",
+        "pl": "serce",
+        "id": "hati",
+        "hi": "दिल",
+        "zh": "心",
+        "it": "cuore",
+        "tr": "kalp",
+        "sr": "срце",
+        "fi": "sydän",
+        "et": "süda",
+        "be": "сэрца",
+        "lv": "sirds",
+        "lt": "širdis"
+      },
+      "examples": [
+        {
+          "text": "Mitt hjärta slog snabbare när jag såg henne"
+        },
+        {
+          "text": "Hon har ett hjärta av guld och hjälper alltid andra"
+        },
+        {
+          "text": "Efter löpningen kände jag hjärtat dunka hårt"
+        },
+        {
+          "text": "Hans ord krossade hennes hjärta"
+        },
+        {
+          "text": "Hjärtat är en viktig muskel i kroppen"
+        },
+        {
+          "text": "Jag följer mitt hjärta och gör det jag älskar"
+        },
+        {
+          "text": "Hon la handen på sitt hjärta och log"
+        },
+        {
+          "text": "Min farfar fick problem med hjärtat och behövde vård"
+        },
+        {
+          "text": "Jag känner det i mitt hjärta att vi ses igen"
+        },
+        {
+          "text": "Hjärtat slog så hårt att han kunde höra det."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6128112a-3d16-4d0b-8fd5-f5af76443dd9",
+      "version": 1,
+      "word": "en dröm",
+      "forms": [
+        {
+          "form": "drömmen"
+        },
+        {
+          "form": "drömmar"
+        },
+        {
+          "form": "drömmarna"
+        }
+      ],
+      "translations": {
+        "ru": "сон или мечта",
+        "en": "sleep or dream",
+        "uk": "сон або мрія",
+        "ar": "نوم أو حلم",
+        "fa": "خواب یا رویا",
+        "so": "hurdo ama riyo",
+        "es": "sueño o sueño",
+        "de": "Schlaf oder Traum",
+        "fr": "sommeil ou rêve",
+        "pl": "sen lub marzenie",
+        "id": "tidur atau mimpi",
+        "hi": "नींद या सपना",
+        "zh": "睡眠或梦想",
+        "it": "sonno o sogno",
+        "tr": "uyku veya rüya",
+        "sr": "сан или сан",
+        "fi": "uni tai unelma",
+        "et": "uni või unistus",
+        "be": "сон або мара",
+        "lv": "miegs vai sapnis",
+        "lt": "miegas arba svajonė"
+      },
+      "examples": [
+        {
+          "text": "Jag hade en konstig dröm i natt"
+        },
+        {
+          "text": "Drömmen var väldigt realistisk"
+        },
+        {
+          "text": "Hon har stora drömmar om framtiden"
+        },
+        {
+          "text": "Drömmen handlade om att jag kunde flyga"
+        },
+        {
+          "text": "Hennes dröm är att bli läkare"
+        },
+        {
+          "text": "Det här huset är drömmen för oss!"
+        },
+        {
+          "text": "Han vaknade upp och mindes inte drömmen"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

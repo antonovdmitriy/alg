@@ -1,0 +1,994 @@
+{
+  "id": "5fc055ed-7ca1-4b66-bfa9-61fea94df4c6",
+  "translations": {
+    "ru": "транспорт",
+    "en": "Transport",
+    "uk": "транспорт",
+    "ar": "نقل",
+    "fa": "حمل و نقل",
+    "so": "gaadiid",
+    "es": "transporte",
+    "de": "Transport",
+    "fr": "transport",
+    "pl": "transport",
+    "id": "transportasi",
+    "hi": "परिवहन",
+    "zh": "运输",
+    "it": "trasporto",
+    "tr": "taşıma",
+    "sr": "транспорт",
+    "fi": "kuljetus",
+    "et": "transport",
+    "be": "транспарт",
+    "lv": "transports",
+    "lt": "transportas"
+  },
+  "entries": [
+    {
+      "id": "fe667356-cc61-421b-9521-e102f3852475",
+      "version": -1,
+      "word": "en passagerare",
+      "forms": [
+        {
+          "form": "passagerare"
+        }
+      ],
+      "translations": {
+        "ru": "пассажир",
+        "en": "passenger",
+        "uk": "пасажир",
+        "ar": "راكب",
+        "fa": "مسافر",
+        "so": "rakaab",
+        "es": "pasajero",
+        "de": "Passagier",
+        "fr": "passager",
+        "pl": "pasażer",
+        "id": "penumpang",
+        "hi": "यात्री",
+        "zh": "乘客",
+        "it": "passeggero",
+        "tr": "yolcu",
+        "sr": "путник",
+        "fi": "matkustaja",
+        "et": "reisija",
+        "be": "пасажыр",
+        "lv": "pasažieris",
+        "lt": "keleivis"
+      },
+      "examples": [
+        {
+          "text": "Det fanns hundra passagerare ombord på flygplanet"
+        },
+        {
+          "text": "Hur många passagerare ryms i den här bilen? Passagerarna väntade på bussen vid hållplatsen"
+        },
+        {
+          "text": "Jag var den enda passageraren i taxin"
+        },
+        {
+          "text": "Passagerarna ombord på fartyget fick njuta av solnedgången."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "629afebb-6ac9-4d33-8a10-cf3a420077e5",
+      "version": -1,
+      "word": "en bil",
+      "forms": [
+        {
+          "form": "bilar"
+        }
+      ],
+      "translations": {
+        "ru": "автомобиль",
+        "en": "car",
+        "uk": "автомобіль",
+        "ar": "سيارة",
+        "fa": "ماشین",
+        "so": "baabuur",
+        "es": "coche",
+        "de": "Auto",
+        "fr": "voiture",
+        "pl": "samochód",
+        "id": "mobil",
+        "hi": "कार",
+        "zh": "汽车",
+        "it": "auto",
+        "tr": "araba",
+        "sr": "аутомобил",
+        "fi": "auto",
+        "et": "auto",
+        "be": "аўтамабіль",
+        "lv": "automobilis",
+        "lt": "automobilis"
+      },
+      "examples": [
+        {
+          "text": "Den bilen är för dyr"
+        },
+        {
+          "text": "Jag tänker inte köpa den"
+        },
+        {
+          "text": "Har du en bil, eller åker du buss? Min bil är röd och mycket snabb"
+        },
+        {
+          "text": "Vi köpte en ny bil förra veckan"
+        },
+        {
+          "text": "Jag lärde mig att köra bil när jag var 18"
+        },
+        {
+          "text": "Vi måste tanka bilen innan vi åker."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aabd8e8a-ebf0-4519-868a-7f42d004bc30",
+      "version": -1,
+      "word": "ett flygplan",
+      "forms": [
+        {
+          "form": "flygplanet"
+        },
+        {
+          "form": "flygplan"
+        },
+        {
+          "form": "flygplanen"
+        }
+      ],
+      "translations": {
+        "ru": "самолет",
+        "en": "airplane",
+        "uk": "літак",
+        "ar": "طائرة",
+        "fa": "هواپیما",
+        "so": "diyaarad",
+        "es": "avión",
+        "de": "Flugzeug",
+        "fr": "avion",
+        "pl": "samolot",
+        "id": "pesawat",
+        "hi": "विमान",
+        "zh": "飞机",
+        "it": "aereo",
+        "tr": "uçak",
+        "sr": "авион",
+        "fi": "lentokone",
+        "et": "lennuk",
+        "be": "самалёт",
+        "lv": "lidmašīna",
+        "lt": "lėktuvas"
+      },
+      "examples": [
+        {
+          "text": "Ett flygplan flög över staden"
+        },
+        {
+          "text": "Flygplanet är försenat"
+        },
+        {
+          "text": "Det finns många flygplan på flygplatsen"
+        },
+        {
+          "text": "Flygplanen lyfte samtidigt"
+        },
+        {
+          "text": "Vi ska resa med flygplan till Spanien"
+        },
+        {
+          "text": "Vi steg ombord på flygplanet i tid"
+        },
+        {
+          "text": "Barnen älskar att titta på flygplan"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c058f500-96e0-4756-8308-76794eef224a",
+      "version": 1,
+      "word": "ett tåg",
+      "forms": [
+        {
+          "form": "tåget"
+        },
+        {
+          "form": "tåg"
+        },
+        {
+          "form": "tågen"
+        }
+      ],
+      "translations": {
+        "ru": "поезд",
+        "en": "train",
+        "uk": "поїзд",
+        "ar": "قطار",
+        "fa": "قطار",
+        "so": "tareen",
+        "es": "tren",
+        "de": "Zug",
+        "fr": "train",
+        "pl": "pociąg",
+        "id": "kereta",
+        "hi": "ट्रेन",
+        "zh": "火车",
+        "it": "treno",
+        "tr": "tren",
+        "sr": "воз",
+        "fi": "juna",
+        "et": "rong",
+        "be": "цягнік",
+        "lv": "vilciens",
+        "lt": "traukinys"
+      },
+      "examples": [
+        {
+          "text": "När går nästa tåg?"
+        },
+        {
+          "text": "Jag tar tåget till Stockholm imorgon"
+        },
+        {
+          "text": "När går nästa tåg till Göteborg?"
+        },
+        {
+          "text": "Snabbtåget mellan Malmö och Stockholm är mycket bekvämt"
+        },
+        {
+          "text": "Vi köpte biljetter till nattåget"
+        },
+        {
+          "text": "Barnen älskar att åka tåg"
+        },
+        {
+          "text": "Tågen var försenade på grund av snön"
+        },
+        {
+          "text": "Vi såg ett långt godståg passera stationen"
+        },
+        {
+          "text": "Bröllopståget gick genom hela byn"
+        },
+        {
+          "text": "Hon vinkade adjö när tåget lämnade perrongen"
+        },
+        {
+          "text": "Vi måste skynda oss, tåget går om fem minuter!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9a390dae-90de-4c1e-96aa-8aed4c15c964",
+      "version": -1,
+      "word": "en tågstation",
+      "forms": [
+        {
+          "form": "tågstationer"
+        }
+      ],
+      "translations": {
+        "ru": "станция поезда",
+        "en": "train station",
+        "uk": "залізнична станція",
+        "ar": "محطة القطار",
+        "fa": "ایستگاه قطار",
+        "so": "saldhigga tareenka",
+        "es": "estación de tren",
+        "de": "Bahnhof",
+        "fr": "gare",
+        "pl": "stacja kolejowa",
+        "id": "stasiun kereta",
+        "hi": "रेलवे स्टेशन",
+        "zh": "火车站",
+        "it": "stazione ferroviaria",
+        "tr": "tren istasyonu",
+        "sr": "железничка станица",
+        "fi": "rautatieasema",
+        "et": "rongijaam",
+        "be": "чыгуначная станцыя",
+        "lv": "dzelzceļa stacija",
+        "lt": "geležinkelio stotis"
+      },
+      "examples": [
+        {
+          "text": "Det finns en tågstation i centrum"
+        },
+        {
+          "text": "Vi möts på tågstationen klockan fem"
+        },
+        {
+          "text": "Tågstationen ligger nära hotellet"
+        },
+        {
+          "text": "Det tar fem minuter att gå till tågstationen"
+        },
+        {
+          "text": "Vilken tågstation är närmast flygplatsen? Tågstationen i Stockholm är en av de största i Sverige"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b82c6647-c917-46d9-a0c0-464ddf39dd09",
+      "version": -1,
+      "word": "en spårvagn",
+      "forms": [
+        {
+          "form": "spårvagnar"
+        }
+      ],
+      "translations": {
+        "ru": "трамвай",
+        "en": "tram",
+        "uk": "трамвай",
+        "ar": "ترام",
+        "fa": "تراموا",
+        "so": "taraam",
+        "es": "tranvía",
+        "de": "Straßenbahn",
+        "fr": "tramway",
+        "pl": "tramwaj",
+        "id": "trem",
+        "hi": "ट्राम",
+        "zh": "电车",
+        "it": "tram",
+        "tr": "tramvay",
+        "sr": "трамвај",
+        "fi": "raitiovaunu",
+        "et": "tramm",
+        "be": "трамвай",
+        "lv": "tramvajs",
+        "lt": "tramvajus"
+      },
+      "examples": [
+        {
+          "text": "Jag åker spårvagn till jobbet varje dag"
+        },
+        {
+          "text": "När går nästa spårvagn till centrum? Spårvagnarna i Göteborg är blåa"
+        },
+        {
+          "text": "Vi måste hoppa av vid nästa spårvagnshållplats"
+        },
+        {
+          "text": "Spårvagnen var försenad på grund av ett tekniskt fel"
+        },
+        {
+          "text": "Många turister gillar att åka spårvagn genom staden"
+        },
+        {
+          "text": "Jag tappade min väska på spårvagnen"
+        },
+        {
+          "text": "Spårvagnsföraren ropade ut nästa hållplats"
+        },
+        {
+          "text": "Det finns ingen spårvagn i Malmö, bara bussar"
+        },
+        {
+          "text": "Spårvagnarna är ett miljövänligt transportmedel."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3ec1ed95-b7c4-419e-8f50-665d79e6edec",
+      "version": -1,
+      "word": "en buss",
+      "forms": [
+        {
+          "form": "bussar"
+        }
+      ],
+      "translations": {
+        "ru": "автобус",
+        "en": "bus",
+        "uk": "автобус",
+        "ar": "حافلة",
+        "fa": "اتوبوس",
+        "so": "baska",
+        "es": "autobús",
+        "de": "Bus",
+        "fr": "bus",
+        "pl": "autobus",
+        "id": "bus",
+        "hi": "बस",
+        "zh": "公共汽车",
+        "it": "autobus",
+        "tr": "otobüs",
+        "sr": "аутобус",
+        "fi": "bussi",
+        "et": "buss",
+        "be": "аўтобус",
+        "lv": "autobuss",
+        "lt": "autobusas"
+      },
+      "examples": [
+        {
+          "text": "Jag tar bussen till jobbet varje dag"
+        },
+        {
+          "text": "När går nästa buss till centrum? Bussarna i Stockholm är ofta punktliga"
+        },
+        {
+          "text": "Vi måste hoppa av vid nästa busshållplats"
+        },
+        {
+          "text": "Bussföraren hälsade vänligt på passagerarna"
+        },
+        {
+          "text": "Många turister tar en sightseeingbuss genom staden"
+        },
+        {
+          "text": "Vi måste köpa en bussbiljett innan vi kliver på"
+        },
+        {
+          "text": "Skolbussen hämtar barnen varje morgon"
+        },
+        {
+          "text": "Det är billigare att åka buss än att ta taxi"
+        },
+        {
+          "text": "Jag missade bussen och måste vänta i tjugo minuter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e7280eaf-8523-4274-b012-07fb68e24ab1",
+      "version": -1,
+      "word": "en tunnelbana",
+      "forms": [
+        {
+          "form": "tunnelbanor"
+        }
+      ],
+      "translations": {
+        "ru": "метро",
+        "en": "subway, metro",
+        "uk": "метро",
+        "ar": "مترو",
+        "fa": "مترو",
+        "so": "metro",
+        "es": "metro",
+        "de": "U-Bahn",
+        "fr": "métro",
+        "pl": "metro",
+        "id": "kereta bawah tanah",
+        "hi": "मेट्रो",
+        "zh": "地铁",
+        "it": "metropolitana",
+        "tr": "metro",
+        "sr": "метро",
+        "fi": "metro",
+        "et": "metroo",
+        "be": "метро",
+        "lv": "metro",
+        "lt": "metro"
+      },
+      "examples": [
+        {
+          "text": "Jag tar tunnelbanan till jobbet varje dag"
+        },
+        {
+          "text": "När går nästa tunnelbanetåg till Slussen? Tunnelbanan i Stockholm har tre linjer: röd, grön och blå"
+        },
+        {
+          "text": "Vi måste hoppa av vid nästa tunnelbanestation"
+        },
+        {
+          "text": "Tunnelbanan är ofta det snabbaste sättet att resa i Stockholm"
+        },
+        {
+          "text": "Vi köpte en månadskort för tunnelbanan"
+        },
+        {
+          "text": "På kvällen kan tunnelbanan vara ganska tom"
+        },
+        {
+          "text": "Stockholms tunnelbana är känd för sin vackra konst"
+        },
+        {
+          "text": "Jag tycker det är bekvämare att åka tunnelbana än buss"
+        },
+        {
+          "text": "Vi gick vilse och fick kolla på tunnelbanekartan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4ace7e04-2d52-4776-a523-3177b219be30",
+      "version": -1,
+      "word": "en taxi",
+      "forms": [
+        {
+          "form": "taxibilar"
+        },
+        {
+          "form": "taxin"
+        },
+        {
+          "form": "taxibilarna"
+        }
+      ],
+      "translations": {
+        "ru": "такси",
+        "en": "taxi",
+        "uk": "таксі",
+        "ar": "تاكسي",
+        "fa": "تاکسی",
+        "so": "taksi",
+        "es": "taxi",
+        "de": "Taxi",
+        "fr": "taxi",
+        "pl": "taksówka",
+        "id": "taksi",
+        "hi": "टैक्सी",
+        "zh": "出租车",
+        "it": "taxi",
+        "tr": "taksi",
+        "sr": "такси",
+        "fi": "taksi",
+        "et": "taksot",
+        "be": "таксі",
+        "lv": "taksometrs",
+        "lt": "taksi"
+      },
+      "examples": [
+        {
+          "text": "Kninnan sätter sig i en taxi"
+        },
+        {
+          "text": "Vi tog en taxi till flygplatsen"
+        },
+        {
+          "text": "Jag ska beställa en taxi till hotellet"
+        },
+        {
+          "text": "Hur mycket kostar det att åka taxi till centrum? Det är svårt att få tag på en taxi sent på kvällen"
+        },
+        {
+          "text": "Taxin kom precis i tid."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0e167921-91b9-4a4d-8698-d4afe43a8f7d",
+      "version": -1,
+      "word": "en cykel",
+      "forms": [
+        {
+          "form": "cyklar"
+        }
+      ],
+      "translations": {
+        "ru": "велосипед",
+        "en": "bicycle",
+        "uk": "велосипед",
+        "ar": "دراجة",
+        "fa": "دوچرخه",
+        "so": "baaskiil",
+        "es": "bicicleta",
+        "de": "Fahrrad",
+        "fr": "vélo",
+        "pl": "rower",
+        "id": "sepeda",
+        "hi": "साइकिल",
+        "zh": "自行车",
+        "it": "bicicletta",
+        "tr": "bisiklet",
+        "sr": "бицикл",
+        "fi": "polkupyörä",
+        "et": "jalgratas",
+        "be": "веласіпед",
+        "lv": "velosipēds",
+        "lt": "dviratis"
+      },
+      "examples": [
+        {
+          "text": "Cykeln är behandigt sätt att ta sig runt staden"
+        },
+        {
+          "text": "Jag cyklar till jobbet varje dag"
+        },
+        {
+          "text": "Hon köpte en ny cykel i somras"
+        },
+        {
+          "text": "Det finns en cykelväg längs hela sjön"
+        },
+        {
+          "text": "Barnen lånade cyklarna från skolan"
+        },
+        {
+          "text": "Min gamla cykel behöver repareras"
+        },
+        {
+          "text": "Hur ofta använder du din cykel?  Jag behöver köpa en cykel till min dotter"
+        },
+        {
+          "text": "De cyklar ofta i parken på helgerna"
+        },
+        {
+          "text": "Han lagade punkteringen på sin cykel själv"
+        },
+        {
+          "text": "Det finns många cyklar i den här staden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "73af4cf8-3fb3-4ec2-a8ab-adc4f9a138cc",
+      "version": -1,
+      "word": "en motocykel",
+      "forms": [
+        {
+          "form": "motorcyklar"
+        }
+      ],
+      "translations": {
+        "ru": "мотоцикл",
+        "en": "motorcycle",
+        "uk": "мотоцикл",
+        "ar": "دراجة نارية",
+        "fa": "موتور سیکلت",
+        "so": "mooto",
+        "es": "motocicleta",
+        "de": "Motorrad",
+        "fr": "moto",
+        "pl": "motocykl",
+        "id": "sepeda motor",
+        "hi": "मोटरसाइकिल",
+        "zh": "摩托车",
+        "it": "motocicletta",
+        "tr": "motosiklet",
+        "sr": "мотоцикл",
+        "fi": "moottoripyörä",
+        "et": "mootorratas",
+        "be": "матацыкл",
+        "lv": "motocikls",
+        "lt": "motociklas"
+      },
+      "examples": [
+        {
+          "text": "När det är fint väder åker han till stranden på sin mororcykel"
+        },
+        {
+          "text": "Han älskar att köra motocykel på sommaren"
+        },
+        {
+          "text": "ag köpte en ny motocykel förra veckan"
+        },
+        {
+          "text": "Motocykelföraren hade en svart hjälm"
+        },
+        {
+          "text": "Vi såg en grupp motorcyklar köra förbi"
+        },
+        {
+          "text": "Att köra motocykel kan vara både spännande och farligt"
+        },
+        {
+          "text": "Han drömmer om att åka genom Europa på sin motocykel"
+        },
+        {
+          "text": "Jag måste köpa en ny motocykelhjälm"
+        },
+        {
+          "text": "Motocykelklubben har en träff varje månad"
+        },
+        {
+          "text": "Det är viktigt att ha skyddskläder när man kör motocykel"
+        },
+        {
+          "text": "Min vän planerar att ta körkort för motocykel."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ba9de011-6550-400c-9706-1d0f52749058",
+      "version": -1,
+      "word": "en moped",
+      "forms": [
+        {
+          "form": "moped"
+        }
+      ],
+      "translations": {
+        "ru": "скутер",
+        "en": "scooter",
+        "uk": "скутер",
+        "ar": "سكوتر",
+        "fa": "اسکوتر",
+        "so": "mooto",
+        "es": "scooter",
+        "de": "Roller",
+        "fr": "scooter",
+        "pl": "skuter",
+        "id": "skuter",
+        "hi": "स्कूटर",
+        "zh": "滑板车",
+        "it": "scooter",
+        "tr": "scooter",
+        "sr": "скутер",
+        "fi": "skootteri",
+        "et": "roller",
+        "be": "скутар",
+        "lv": "motorollers",
+        "lt": "motoroleris"
+      },
+      "examples": [
+        {
+          "text": "I Grekland hyrde vi mopeder och körde runt staden"
+        },
+        {
+          "text": "Han fick en moped i födelsedagspresent"
+        },
+        {
+          "text": "I Sverige måste man ha hjälm när man kör moped"
+        },
+        {
+          "text": "Hon tog sitt mopedkort när hon var 15 år gammal"
+        },
+        {
+          "text": "Vi åkte moped genom stan en sommarkväll"
+        },
+        {
+          "text": "Mopeden går inte snabbare än 45 km/h"
+        },
+        {
+          "text": "Min bror lagade sin moped själv"
+        },
+        {
+          "text": "Mopeder är populära bland ungdomar"
+        },
+        {
+          "text": "Det är billigare att köra moped än bil"
+        },
+        {
+          "text": "Han parkerade mopeden vid busshållplatsen"
+        },
+        {
+          "text": "Det finns speciella vägar för mopeder i vissa städer."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "924c45e5-bbd3-4b09-ad94-01c155e2f1c4",
+      "version": -1,
+      "word": "en båt",
+      "forms": [
+        {
+          "form": "båten"
+        },
+        {
+          "form": "båtar"
+        },
+        {
+          "form": "båtarna"
+        }
+      ],
+      "translations": {
+        "ru": "лодка",
+        "en": "boat",
+        "uk": "човен",
+        "ar": "قارب",
+        "fa": "قایق",
+        "so": "doon",
+        "es": "barco",
+        "de": "Boot",
+        "fr": "bateau",
+        "pl": "łódź",
+        "id": "perahu",
+        "hi": "नाव",
+        "zh": "船",
+        "it": "barca",
+        "tr": "tekne",
+        "sr": "чамац",
+        "fi": "vene",
+        "et": "paat",
+        "be": "лодка",
+        "lv": "laiva",
+        "lt": "valtis"
+      },
+      "examples": [
+        {
+          "text": "Det är roligt att åka båt"
+        },
+        {
+          "text": "Vi åkte ut med båten på sjön"
+        },
+        {
+          "text": "Vi tog en båt till ön"
+        },
+        {
+          "text": "Båtarna i hamnen är stora och moderna"
+        },
+        {
+          "text": "Min pappa äger en liten båt"
+        },
+        {
+          "text": "Jag drömmer om att ha en segelbåt"
+        },
+        {
+          "text": "Vi hyrde en båt för att utforska skärgården"
+        },
+        {
+          "text": "Det var en härlig dag på båten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c2558209-9462-46f1-8b4c-396648eb6adb",
+      "version": -1,
+      "word": "en färja",
+      "forms": [
+        {
+          "form": "färjor"
+        }
+      ],
+      "translations": {
+        "ru": "паром",
+        "en": "ferry",
+        "uk": "пором",
+        "ar": "عبّارة",
+        "fa": "کشتی مسافربری",
+        "so": "doon",
+        "es": "transbordador",
+        "de": "Fähre",
+        "fr": "ferry",
+        "pl": "prom",
+        "id": "feri",
+        "hi": "फेरी",
+        "zh": "渡轮",
+        "it": "traghetto",
+        "tr": "feribot",
+        "sr": "трајект",
+        "fi": "lautta",
+        "et": "praam",
+        "be": "паром",
+        "lv": "prāmis",
+        "lt": "keltas"
+      },
+      "examples": [
+        {
+          "text": "Vi ska ta en färja till Gotland"
+        },
+        {
+          "text": "Finns det en färja som går över sjön? Färjan avgår klockan 10"
+        },
+        {
+          "text": "De väntar på färjan vid hamnen"
+        },
+        {
+          "text": "Det går många färjor mellan Sverige och Danmark"
+        },
+        {
+          "text": "Flera små färjor används i skärgården"
+        },
+        {
+          "text": "Alla färjorna är fullbokade i sommar"
+        },
+        {
+          "text": "Färjorna mellan öarna går flera gånger om dagen"
+        },
+        {
+          "text": "Vi väntar på färjan som går till Finland."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "73467228-ff1b-411e-97a8-4c454d364230",
+      "version": -1,
+      "word": "en helikopter",
+      "forms": [
+        {
+          "form": "helikoptrar"
+        }
+      ],
+      "translations": {
+        "ru": "вертолет",
+        "en": "helicopter",
+        "uk": "гелікоптер",
+        "ar": "مروحية",
+        "fa": "هلیکوپتر",
+        "so": "helikobtar",
+        "es": "helicóptero",
+        "de": "Hubschrauber",
+        "fr": "hélicoptère",
+        "pl": "helikopter",
+        "id": "helikopter",
+        "hi": "हेलीकॉप्टर",
+        "zh": "直升机",
+        "it": "elicottero",
+        "tr": "helikopter",
+        "sr": "хеликоптер",
+        "fi": "helikopteri",
+        "et": "helikopter",
+        "be": "верталёт",
+        "lv": "helikopters",
+        "lt": "sraigtasparnis"
+      },
+      "examples": [
+        {
+          "text": "VDn åker till jobbet med helikopter"
+        },
+        {
+          "text": "Vi såg en helikopter flyga över staden"
+        },
+        {
+          "text": "Vi flög helikopter över fjällen"
+        },
+        {
+          "text": "Räddningshelikoptern anlände snabbt till olycksplatsen"
+        },
+        {
+          "text": "Helikoptern landade på sjukhusets tak"
+        },
+        {
+          "text": "Min dröm är att flyga en helikopter själv"
+        },
+        {
+          "text": "Polishelikoptern sökte efter den försvunna personen"
+        },
+        {
+          "text": "Vi såg en stor militärhelikopter flyga förbi"
+        },
+        {
+          "text": "Helikopterturen över staden var fantastisk! Helikoptrar används ofta i nödsituationer"
+        },
+        {
+          "text": "Piloten manövrerade helikoptern med stor skicklighet"
+        },
+        {
+          "text": "De filmade från en helikopter för att få bättre bilder."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3790 @@
+{
+  "id": "c0905753-d487-4d18-a023-a3c72f00d543",
+  "translations": {
+    "ru": "дом и недвижимость",
+    "en": "Home and real estate",
+    "uk": "дім і нерухомість",
+    "ar": "المنزل والعقارات",
+    "fa": "خانه و املاک",
+    "so": "guri iyo hanti ma guurto ah",
+    "es": "hogar y bienes raíces",
+    "de": "Haus und Immobilien",
+    "fr": "maison et immobilier",
+    "pl": "dom i nieruchomości",
+    "id": "rumah dan real estat",
+    "hi": "घर और अचल संपत्ति",
+    "zh": "家和房地产",
+    "it": "casa e immobili",
+    "tr": "ev ve emlak",
+    "sr": "кућа и некретнине",
+    "fi": "koti ja kiinteistöt",
+    "et": "kodu ja kinnisvara",
+    "be": "дом і нерухомасць",
+    "lv": "mājas un nekustamais īpašums",
+    "lt": "namai ir nekilnojamasis turtas"
+  },
+  "entries": [
+    {
+      "id": "ff800471-b547-44a7-926f-11cf9761a807",
+      "version": -1,
+      "word": "ett hushål",
+      "forms": [
+        {
+          "form": "hushållet"
+        },
+        {
+          "form": "hushåll"
+        },
+        {
+          "form": "hushållen"
+        }
+      ],
+      "translations": {
+        "ru": "домохозяйство",
+        "en": "household",
+        "uk": "домогосподарство",
+        "ar": "أسرة",
+        "fa": "خانوار",
+        "so": "qoys",
+        "es": "hogar",
+        "de": "Haushalt",
+        "fr": "ménage",
+        "pl": "gospodarstwo domowe",
+        "id": "rumah tangga",
+        "hi": "गृहस्थी",
+        "zh": "家庭",
+        "it": "famiglia",
+        "tr": "hane",
+        "sr": "домаћинство",
+        "fi": "kotitalous",
+        "et": "leibkond",
+        "be": "дамашняя гаспадарка",
+        "lv": "mājsaimniecība",
+        "lt": "namų ūkis"
+      },
+      "examples": [
+        {
+          "text": "I vårt hushåll hjälps alla åt med städningen"
+        },
+        {
+          "text": "Hushållet består av fyra personer"
+        },
+        {
+          "text": "Många hushåll behöver spara på elförbrukninge"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "76c89230-94b5-4742-aa06-e6ee8a9215e0",
+      "version": -1,
+      "word": "en fastighet",
+      "forms": [
+        {
+          "form": "fastigheter"
+        }
+      ],
+      "translations": {
+        "ru": "собственность, недвижимость",
+        "en": "property, real estate",
+        "uk": "власність, нерухомість",
+        "ar": "ملكية، عقارات",
+        "fa": "ملک، املاک و مستغلات",
+        "so": "hantida, guryaha",
+        "es": "propiedad, bienes raíces",
+        "de": "Eigentum, Immobilien",
+        "fr": "propriété, immobilier",
+        "pl": "własność, nieruchomości",
+        "id": "properti, real estat",
+        "hi": "संपत्ति, अचल संपत्ति",
+        "zh": "财产, 房地产",
+        "it": "proprietà, immobili",
+        "tr": "mülkiyet, gayrimenkul",
+        "sr": "својина, некретнине",
+        "fi": "omaisuus, kiinteistö",
+        "et": "omand, kinnisvara",
+        "be": "уласнасць, нерухомасць",
+        "lv": "īpašums, nekustamais īpašums",
+        "lt": "nuosavybė, nekilnojamasis turtas"
+      },
+      "examples": [
+        {
+          "text": "De köpte en fastighet i centrala Stockholm"
+        },
+        {
+          "text": "Fastigheten är till salu för tio miljoner kronor"
+        },
+        {
+          "text": "Vi hyr en fastighet för vårt kontor"
+        },
+        {
+          "text": "De äger flera fastigheter runt om i landet"
+        },
+        {
+          "text": "Fastigheten inkluderar både byggnader och mark"
+        },
+        {
+          "text": "Fastighetsskatt betalas årligen av ägaren."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "12008949-5b9f-4466-be51-19b2397ed47f",
+      "version": -1,
+      "word": "en bostad",
+      "forms": [
+        {
+          "form": "bostäder"
+        }
+      ],
+      "translations": {
+        "ru": "место жительства, жильё",
+        "en": "place of residence, housing",
+        "uk": "місце проживання, житло",
+        "ar": "مكان الإقامة، السكن",
+        "fa": "محل اقامت، مسکن",
+        "so": "meel degenaansho, guri",
+        "es": "lugar de residencia, vivienda",
+        "de": "Wohnort, Unterkunft",
+        "fr": "lieu de résidence, logement",
+        "pl": "miejsce zamieszkania, mieszkanie",
+        "id": "tempat tinggal, perumahan",
+        "hi": "निवास स्थान, आवास",
+        "zh": "居住地，住房",
+        "it": "luogo di residenza, alloggio",
+        "tr": "ikametgah, konut",
+        "sr": "место становања, стан",
+        "fi": "asuinpaikka, asunto",
+        "et": "elukoht, elamispind",
+        "be": "месца жыхарства, жыллё",
+        "lv": "dzīvesvieta, mājoklis",
+        "lt": "gyvenamoji vieta, būstas"
+      },
+      "examples": [
+        {
+          "text": "Vi letar efter en ny bostad i Malmö"
+        },
+        {
+          "text": "Hans bostad ligger i centrala Stockholm"
+        },
+        {
+          "text": "Många unga har svårt att hitta en bostad"
+        },
+        {
+          "text": "De bor i en rymlig bostad nära havet"
+        },
+        {
+          "text": "Kommunen erbjuder stöd till personer utan bostad"
+        },
+        {
+          "text": "Bostadspriserna har stigit kraftigt de senaste åren"
+        },
+        {
+          "text": "Hon har skrivit under ett kontrakt för sin nya bostad"
+        },
+        {
+          "text": "Alla invånare har rätt till en trygg bostad"
+        },
+        {
+          "text": "Vi ska renovera vår bostad nästa år"
+        },
+        {
+          "text": "Studentbostäder är ofta billigare än vanliga bostäder."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fa531bc6-c502-4566-abfd-b6f33db30088",
+      "version": -1,
+      "word": "ett ställe",
+      "forms": [
+        {
+          "form": "stället"
+        },
+        {
+          "form": "ställen"
+        },
+        {
+          "form": "ställena"
+        }
+      ],
+      "translations": {
+        "ru": "место",
+        "en": "place",
+        "uk": "місце",
+        "ar": "مكان",
+        "fa": "مکان",
+        "so": "meel",
+        "es": "lugar",
+        "de": "Ort",
+        "fr": "lieu",
+        "pl": "miejsce",
+        "id": "tempat",
+        "hi": "स्थान",
+        "zh": "地方",
+        "it": "luogo",
+        "tr": "yer",
+        "sr": "место",
+        "fi": "paikka",
+        "et": "koht",
+        "be": "месца",
+        "lv": "vieta",
+        "lt": "vieta"
+      },
+      "examples": [
+        {
+          "text": "Kan du rekommendera ett ställe att fika på? Vi träffades på samma ställe varje dag"
+        },
+        {
+          "text": "Jag har aldrig sett ett så vackert ställe"
+        },
+        {
+          "text": "Stället ligger nära stranden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "067ecf68-4c92-4d02-affa-85e6d7ef1924",
+      "version": -1,
+      "word": "ett lån",
+      "forms": [
+        {
+          "form": "lånet"
+        },
+        {
+          "form": "lån"
+        },
+        {
+          "form": "lånen"
+        }
+      ],
+      "translations": {
+        "ru": "ипотека заем кредит",
+        "en": "mortgage, loan, credit",
+        "uk": "іпотека, позика, кредит",
+        "ar": "رهن عقاري، قرض، ائتمان",
+        "fa": "وام مسکن، وام، اعتبار",
+        "so": "amaah guri, amaah, deyn",
+        "es": "hipoteca, préstamo, crédito",
+        "de": "Hypothek, Darlehen, Kredit",
+        "fr": "hypothèque, prêt, crédit",
+        "pl": "hipoteka, pożyczka, kredyt",
+        "id": "hipotek, pinjaman, kredit",
+        "hi": "बंधक, ऋण, क्रेडिट",
+        "zh": "抵押贷款, 贷款, 信用",
+        "it": "ipoteca, prestito, credito",
+        "tr": "ipotek, kredi, kredi",
+        "sr": "хипотека, зајам, кредит",
+        "fi": "asuntolaina, laina, luotto",
+        "et": "hüpoteek, laen, krediit",
+        "be": "іпатэка, пазыка, крэдыт",
+        "lv": "hipotēka, aizdevums, kredīts",
+        "lt": "hipoteka, paskola, kreditas"
+      },
+      "examples": [
+        {
+          "text": "Hon skulle också plocka blommorna på sju olika ställen"
+        },
+        {
+          "text": "Han tog ett lån för att köpa en lägenhet"
+        },
+        {
+          "text": "Banken godkände mitt lån på 500 000 kronor"
+        },
+        {
+          "text": "Vi har ett bostadslån med låg ränta"
+        },
+        {
+          "text": "Studenten ansökte om ett studielån"
+        },
+        {
+          "text": "Hon har betalat tillbaka hela lånet"
+        },
+        {
+          "text": "Företaget tog ett stort lån för att expandera sin verksamhet"
+        },
+        {
+          "text": "Lånet måste återbetalas inom fem år"
+        },
+        {
+          "text": "Många unga har svårt att få lån utan fast anställning"
+        },
+        {
+          "text": "Jag fick ett lån av mina föräldrar för att köpa en bil"
+        },
+        {
+          "text": "Banken erbjuder olika typer av lån beroende på kundens behov."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9d0c68fd-e50a-4868-bfc8-f3b8ed0d78f4",
+      "version": -1,
+      "word": "hyra i andra hand",
+      "translations": {
+        "ru": "аренда вторые руки",
+        "en": "rental, second-hand",
+        "uk": "оренда, секонд-хенд",
+        "ar": "إيجار، مستعمل",
+        "fa": "اجاره، دست دوم",
+        "so": "kirada, gacanta labaad",
+        "es": "alquiler, de segunda mano",
+        "de": "Miete, gebraucht",
+        "fr": "location, d'occasion",
+        "pl": "wynajem, używane",
+        "id": "sewa, bekas",
+        "hi": "किराया, सेकंड हैंड",
+        "zh": "租赁，二手",
+        "it": "noleggio, usato",
+        "tr": "kiralama, ikinci el",
+        "sr": "изнајмљивање, половно",
+        "fi": "vuokraus, käytetty",
+        "et": "rent, kasutatud",
+        "be": "арэнда, другасортны",
+        "lv": "īre, lietots",
+        "lt": "nuoma, naudotas"
+      },
+      "examples": [
+        {
+          "text": "Jag hyr en lägenhet i andra hand eftersom jag inte hittar något förstahandskontrakt"
+        },
+        {
+          "text": "Att hyra i andra hand kan vara dyrare än förstahandskontrakt"
+        },
+        {
+          "text": "Vi hyr en bostad i andra hand under sex månader"
+        },
+        {
+          "text": "Om du hyr i andra hand bör du ha ett skriftligt kontrakt"
+        },
+        {
+          "text": "Många studenter hyr i andra hand på grund av bostadsbristen"
+        },
+        {
+          "text": "Jag fick hyra i andra hand av en vän som flyttade utomlands"
+        },
+        {
+          "text": "Att hyra i andra hand kräver tillstånd från hyresvärden"
+        },
+        {
+          "text": "Hon hyrde i andra hand och blev lurad på depositionen"
+        },
+        {
+          "text": "Många hyr i andra hand medan de väntar på en fast bostad"
+        },
+        {
+          "text": "Det finns risker med att hyra i andra hand om man inte har ett avtal."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c542d8c9-73f0-4ccf-861f-bccb200b4748",
+      "version": -1,
+      "word": "en lägenhet",
+      "forms": [
+        {
+          "form": "lägenheter"
+        }
+      ],
+      "translations": {
+        "ru": "квартира",
+        "en": "apartment, flat",
+        "uk": "квартира",
+        "ar": "شقة",
+        "fa": "آپارتمان",
+        "so": "guri dabaq ah",
+        "es": "apartamento",
+        "de": "Wohnung",
+        "fr": "appartement",
+        "pl": "mieszkanie",
+        "id": "apartemen",
+        "hi": "अपार्टमेंट",
+        "zh": "公寓",
+        "it": "appartamento",
+        "tr": "daire",
+        "sr": "стан",
+        "fi": "asunto",
+        "et": "korter",
+        "be": "кватэра",
+        "lv": "dzīvoklis",
+        "lt": "butas"
+      },
+      "examples": [
+        {
+          "text": "Jag har en liten lägenhet i New York"
+        },
+        {
+          "text": "Jag bor i en liten lägenhet i centrala Malmö"
+        },
+        {
+          "text": "Hon har precis köpt en ny lägenhet"
+        },
+        {
+          "text": "Lägenheten har två rum och en balkong"
+        },
+        {
+          "text": "Det är svårt att hitta en billig lägenhet i Stockholm"
+        },
+        {
+          "text": "Vi hyr en lägenhet i andra hand"
+        },
+        {
+          "text": "Lägenheten ligger på fjärde våningen utan hiss"
+        },
+        {
+          "text": "Hyresvärden renoverade hela lägenheten innan vi flyttade in"
+        },
+        {
+          "text": "Jag vill ha en större lägenhet eftersom vi väntar barn"
+        },
+        {
+          "text": "Han letar efter en möblerad lägenhet att hyra"
+        },
+        {
+          "text": "Lägenheterna i det här området är väldigt dyra."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1b6de801-04c7-4f5e-88de-cdb1d7cfc75a",
+      "version": -1,
+      "word": "ett hus",
+      "forms": [
+        {
+          "form": "huset"
+        },
+        {
+          "form": "hus"
+        },
+        {
+          "form": "husen"
+        }
+      ],
+      "translations": {
+        "ru": "дом здание",
+        "en": "house, building",
+        "uk": "будинок, будівля",
+        "ar": "منزل، مبنى",
+        "fa": "خانه، ساختمان",
+        "so": "guri, dhismo",
+        "es": "casa, edificio",
+        "de": "Haus, Gebäude",
+        "fr": "maison, bâtiment",
+        "pl": "dom, budynek",
+        "id": "rumah, bangunan",
+        "hi": "घर, इमारत",
+        "zh": "房子, 建筑",
+        "it": "casa, edificio",
+        "tr": "ev, bina",
+        "sr": "кућа, зграда",
+        "fi": "talo, rakennus",
+        "et": "maja, hoone",
+        "be": "дом, будынак",
+        "lv": "māja, ēka",
+        "lt": "namas, pastatas"
+      },
+      "examples": [
+        {
+          "text": "Vi bor i ett stort hus på landet"
+        },
+        {
+          "text": "Huset har tre våningar och en stor trädgård"
+        },
+        {
+          "text": "De köpte ett hus nära havet"
+        },
+        {
+          "text": "Mina föräldrar bor i ett gammalt hus från 1800-talet"
+        },
+        {
+          "text": "Det här huset har stått här i över hundra år"
+        },
+        {
+          "text": "Husen i det här området är väldigt dyra"
+        },
+        {
+          "text": "Vi funderar på att bygga ett nytt hus"
+        },
+        {
+          "text": "Han renoverar sitt hus just nu"
+        },
+        {
+          "text": "Alla hus på den här gatan ser likadana ut"
+        },
+        {
+          "text": "Hon hyr ett litet hus vid sjön under sommaren."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2bc14357-bc04-45a8-ba7d-655128edace9",
+      "version": -1,
+      "word": "ett tillträde",
+      "forms": [
+        {
+          "form": "tillträdet"
+        },
+        {
+          "form": "tillträden"
+        },
+        {
+          "form": "tillträdena"
+        }
+      ],
+      "translations": {
+        "ru": "Начало владения, заселение доступ",
+        "en": "start of ownership, moving in, access",
+        "uk": "початок володіння, заселення, доступ",
+        "ar": "بداية الملكية، الانتقال، الوصول",
+        "fa": "شروع مالکیت، اسباب‌کشی، دسترسی",
+        "so": "bilow lahaansho, guuritaan, gelitaan",
+        "es": "inicio de propiedad, mudanza, acceso",
+        "de": "Beginn des Eigentums, Einzug, Zugang",
+        "fr": "début de la propriété, emménagement, accès",
+        "pl": "początek własności, wprowadzenie się, dostęp",
+        "id": "mulai kepemilikan, pindah masuk, akses",
+        "hi": "स्वामित्व की शुरुआत, प्रवेश, पहुंच",
+        "zh": "所有权开始，搬入，访问",
+        "it": "inizio della proprietà, trasferimento, accesso",
+        "tr": "mülkiyetin başlangıcı, taşınma, erişim",
+        "sr": "почетак власништва, усељење, приступ",
+        "fi": "omistuksen alku, muutto, pääsy",
+        "et": "omandi algus, sissekolimine, juurdepääs",
+        "be": "пачатак уласнасці, засяленне, доступ",
+        "lv": "īpašumtiesību sākums, ievākšanās, piekļuve",
+        "lt": "nuosavybės pradžia, įsikraustymas, prieiga"
+      },
+      "examples": [
+        {
+          "text": "Tillträde till lägenheten sker den första januari"
+        },
+        {
+          "text": "När har vi tillträde till huset? Köparen får tillträde till fastigheten efter kontraktsskrivningen"
+        },
+        {
+          "text": "Det är tillträde till lägenheten från första februari."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c375c334-64f0-41eb-a0b4-efe086f24ca7",
+      "version": -1,
+      "word": "en herrgård",
+      "forms": [
+        {
+          "form": "herrgardar"
+        }
+      ],
+      "translations": {
+        "ru": "Особняк большой дом поместье усадьба",
+        "en": "mansion, large house, estate",
+        "uk": "особняк, великий будинок, маєток",
+        "ar": "قصر، منزل كبير، عقار",
+        "fa": "عمارت، خانه بزرگ، ملک",
+        "so": "guri weyn, guri weyn, hanti",
+        "es": "mansión, casa grande, finca",
+        "de": "Herrenhaus, großes Haus, Anwesen",
+        "fr": "manoir, grande maison, domaine",
+        "pl": "rezydencja, duży dom, posiadłość",
+        "id": "rumah besar, rumah besar, perkebunan",
+        "hi": "महल, बड़ा घर, संपत्ति",
+        "zh": "豪宅, 大房子, 庄园",
+        "it": "villa, grande casa, tenuta",
+        "tr": "konak, büyük ev, mülk",
+        "sr": "вила, велика кућа, имање",
+        "fi": "kartano, iso talo, tila",
+        "et": "mõis, suur maja, kinnistu",
+        "be": "асабняк, вялікі дом, маёнтак",
+        "lv": "muiža, liela māja, īpašums",
+        "lt": "dvaras, didelis namas, turtas"
+      },
+      "examples": [
+        {
+          "text": "Det finns många gamla herrgårdar i Sverige"
+        },
+        {
+          "text": "Herrgårdar var vanliga bland adelns familjer under 1700-talet"
+        },
+        {
+          "text": "Många herrgårdar används idag som hotell eller konferenscenter"
+        },
+        {
+          "text": "Vi besökte en vacker herrgård på landet i helgen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "faa2c723-a85f-4b49-9faf-6e23e5807507",
+      "version": -1,
+      "word": "en sovsal",
+      "forms": [
+        {
+          "form": "sovsalen"
+        },
+        {
+          "form": "sovsalar"
+        },
+        {
+          "form": "sovsalarna"
+        }
+      ],
+      "translations": {
+        "ru": "общежитие  общая спальня, спальное помещение (в хостеле, общежитии)",
+        "en": "dormitory, shared bedroom, sleeping area (in a hostel, dorm)",
+        "uk": "гуртожиток, спільна спальня, спальна зона (в хостелі, гуртожитку)",
+        "ar": "سكن طلاب، غرفة نوم مشتركة، منطقة نوم (في نزل، سكن)",
+        "fa": "خوابگاه، اتاق خواب مشترک، منطقه خواب (در هاستل، خوابگاه)",
+        "so": "guri jiif, qol jiif wadaag ah, aag jiif (hostel, guri jiif)",
+        "es": "dormitorio, dormitorio compartido, área de dormir (en un hostal, dormitorio)",
+        "de": "Schlafsaal, Gemeinschaftsschlafzimmer, Schlafbereich (in einem Hostel, Wohnheim)",
+        "fr": "dortoir, chambre partagée, espace de couchage (dans une auberge, dortoir)",
+        "pl": "akademik, wspólna sypialnia, strefa sypialna (w hostelu, akademiku)",
+        "id": "asrama, kamar tidur bersama, area tidur (di hostel, asrama)",
+        "hi": "छात्रावास, साझा शयनकक्ष, सोने का क्षेत्र (हॉस्टल, छात्रावास में)",
+        "zh": "宿舍，共用卧室，睡眠区（在旅馆，宿舍中）",
+        "it": "dormitorio, camera condivisa, area notte (in un ostello, dormitorio)",
+        "tr": "yurt, ortak yatak odası, uyuma alanı (hostelde, yurtta)",
+        "sr": "дормиторијум, заједничка спаваћа соба, простор за спавање (у хостелу, дому)",
+        "fi": "asuntola, jaettu makuuhuone, nukkumisalue (hostellissa, asuntolassa)",
+        "et": "ühiselamu, jagatud magamistuba, magamisala (hostelis, ühiselamus)",
+        "be": "інтэрнат, агульная спальня, спальная зона (у хостэле, інтэрнаце)",
+        "lv": "kopmītne, kopīga guļamistaba, guļamzona (hostelī, kopmītnē)",
+        "lt": "bendrabutis, bendra miegamoji, miego zona (hostelyje, bendrabutyje)"
+      },
+      "examples": [
+        {
+          "text": "Jag bodde i en sovsal alla fyra universitetsår"
+        },
+        {
+          "text": "Vi bodde i en sovsal på ett vandrarhem i Stockholm"
+        },
+        {
+          "text": "Sovsalen var full av resenärer från hela världen"
+        },
+        {
+          "text": "Det finns separata sovsalar för män och kvinnor"
+        },
+        {
+          "text": "Vi sov i en stor sovsal med tio våningssängar"
+        },
+        {
+          "text": "Många vandrarhem erbjuder billiga sängplatser i sovsalar"
+        },
+        {
+          "text": "Sovsalen var ren och bekväm, men det var svårt att sova på grund av snarkningar"
+        },
+        {
+          "text": "Han föredrar privatrum framför sovsalar när han reser"
+        },
+        {
+          "text": "Vi fick låna filtar och kuddar i sovsalen"
+        },
+        {
+          "text": "Det fanns låsbara skåp för värdesaker i sovsalen"
+        },
+        {
+          "text": "Efter en lång dag var det skönt att krypa ner i sängen i sovsalen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "87bf3324-aaac-4d8f-9473-431f83b53ad7",
+      "version": -1,
+      "word": "en lägenhetsbyggnad",
+      "forms": [
+        {
+          "form": "lägenhetsbyggnader"
+        }
+      ],
+      "translations": {
+        "ru": "многоквартирный дом",
+        "en": "apartment building",
+        "uk": "багатоквартирний будинок",
+        "ar": "مبنى سكني",
+        "fa": "ساختمان آپارتمانی",
+        "so": "dhismo dabaqyo badan",
+        "es": "edificio de apartamentos",
+        "de": "Mehrfamilienhaus",
+        "fr": "immeuble d'appartements",
+        "pl": "budynek mieszkalny",
+        "id": "gedung apartemen",
+        "hi": "अपार्टमेंट इमारत",
+        "zh": "公寓楼",
+        "it": "edificio di appartamenti",
+        "tr": "apartman binası",
+        "sr": "стамбена зграда",
+        "fi": "kerrostalo",
+        "et": "kortermaja",
+        "be": "шматкватэрны дом",
+        "lv": "daudzdzīvokļu ēka",
+        "lt": "daugiabutis namas"
+      },
+      "examples": [
+        {
+          "text": "Det finns 24 lägenheter i den här lägenhetsbyggnaden"
+        },
+        {
+          "text": "Vi bor i en stor lägenhetsbyggnad nära centrum"
+        },
+        {
+          "text": "Lägenhetsbyggnaden har fem våningar och en hiss"
+        },
+        {
+          "text": "Det byggs många nya lägenhetsbyggnader i Stockholm"
+        },
+        {
+          "text": "Den gamla lägenhetsbyggnaden ska renoveras nästa år"
+        },
+        {
+          "text": "Alla lägenhetsbyggnader i området har liknande arkitektur"
+        },
+        {
+          "text": "Hyresvärden ansvarar för underhållet av lägenhetsbyggnaden"
+        },
+        {
+          "text": "Bostadsrättsföreningen sköter ekonomi och drift av lägenhetsbyggnaden"
+        },
+        {
+          "text": "Lägenhetsbyggnaden har en innergård med lekplats"
+        },
+        {
+          "text": "Branden spred sig snabbt i lägenhetsbyggnaden"
+        },
+        {
+          "text": "Lägenhetsbyggnader i Sverige har ofta bra isolering och modern standard."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2501bd81-e872-407b-9b1f-3f1116fd202c",
+      "version": -1,
+      "word": "ett radhus",
+      "forms": [
+        {
+          "form": "radhuset"
+        },
+        {
+          "form": "radhus"
+        },
+        {
+          "form": "radhusen"
+        }
+      ],
+      "translations": {
+        "ru": "таунхаус, рядный дом, секционный дом.",
+        "en": "townhouse, row house, sectional house",
+        "uk": "таунхаус, рядний будинок, секційний будинок",
+        "ar": "تاون هاوس، منزل متصل، منزل مقسم",
+        "fa": "تاون‌هاوس، خانه ردیفی، خانه بخشی",
+        "so": "guri magaalada, guri saf ah, guri qaybsan",
+        "es": "casa adosada, casa en hilera, casa seccional",
+        "de": "Reihenhaus, Reihenhaus, Sektionalhaus",
+        "fr": "maison de ville, maison en rangée, maison sectionnelle",
+        "pl": "dom szeregowy, dom w zabudowie szeregowej, dom sekcyjny",
+        "id": "rumah kota, rumah deret, rumah sektional",
+        "hi": "टाउनहाउस, पंक्ति घर, अनुभागीय घर",
+        "zh": "联排别墅, 排屋, 分段房屋",
+        "it": "casa a schiera, casa a fila, casa sezionale",
+        "tr": "kent evi, sıra ev, bölümlü ev",
+        "sr": "таунхаус, редна кућа, секцијска кућа",
+        "fi": "kaupunkitalo, rivitalo, osatalo",
+        "et": "linnamaja, ridaelamu, sektsioonmaja",
+        "be": "таўнхаус, радны дом, секцыйны дом",
+        "lv": "pilsētas māja, rindu māja, sekciju māja",
+        "lt": "miesto namas, eilinis namas, sekcinis namas"
+      },
+      "examples": [
+        {
+          "text": "Vi bor i ett radhus med trädgård"
+        },
+        {
+          "text": "De köpte ett nytt radhus i utkanten av staden"
+        },
+        {
+          "text": "Radhuset har tre våningar och källare"
+        },
+        {
+          "text": "Jag vill bo i radhus i stället för lägenhet"
+        },
+        {
+          "text": "Vi tittade på flera radhus innan vi bestämde oss"
+        },
+        {
+          "text": "Radhusen ligger nära skolan och affären"
+        },
+        {
+          "text": "Det finns ett radhus till salu på vår gata"
+        },
+        {
+          "text": "Familjen flyttade från lägenhet till radhus"
+        },
+        {
+          "text": "Varje radhus har en egen parkeringsplats"
+        },
+        {
+          "text": "Vi har grillkvällar med grannarna i vårt radhusområde."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "55fa1689-a3a6-4f32-be88-09be03de72da",
+      "version": 1,
+      "word": "en inneboende",
+      "forms": [
+        {
+          "form": "inneboende"
+        }
+      ],
+      "translations": {
+        "ru": "сожитель, жилец, комнатосъёмщик, (кто снимает не всю квартиру)",
+        "en": "roommate, tenant, lodger (someone renting part of an apartment)",
+        "uk": "співмешканець, орендар, квартирант (той, хто орендує частину квартири)",
+        "ar": "زميل سكن، مستأجر، نزيل (شخص يستأجر جزءًا من شقة)",
+        "fa": "هم‌اتاقی، مستأجر، مهمان (کسی که بخشی از یک آپارتمان را اجاره می‌کند)",
+        "so": "saaxiib guriga, kirayste, deggane (qof kiraysta qayb ka mid ah guri dabaq ah)",
+        "es": "compañero de piso, inquilino, huésped (alguien que alquila parte de un apartamento)",
+        "de": "Mitbewohner, Mieter, Untermieter (jemand, der einen Teil einer Wohnung mietet)",
+        "fr": "colocataire, locataire, pensionnaire (quelqu'un qui loue une partie d'un appartement)",
+        "pl": "współlokator, najemca, lokator (ktoś wynajmujący część mieszkania)",
+        "id": "teman sekamar, penyewa, penghuni (seseorang yang menyewa sebagian dari apartemen)",
+        "hi": "रूममेट, किरायेदार, लॉजर (कोई जो अपार्टमेंट का हिस्सा किराए पर लेता है)",
+        "zh": "室友, 租客, 寄宿者 (租用公寓部分的人)",
+        "it": "coinquilino, inquilino, ospite (qualcuno che affitta parte di un appartamento)",
+        "tr": "ev arkadaşı, kiracı, pansiyoner (bir dairenin bir kısmını kiralayan biri)",
+        "sr": "цимер, станар, подстанар (неко ко изнајмљује део стана)",
+        "fi": "kämppäkaveri, vuokralainen, alivuokralainen (joku, joka vuokraa osan asunnosta)",
+        "et": "toakaaslane, üürnik, üüriline (keegi, kes üürib osa korterist)",
+        "be": "сужыцель, арандатар, кватарант (той, хто арандуе частку кватэры)",
+        "lv": "istabas biedrs, īrnieks, īrnieks (kāds, kurš īrē daļu dzīvokļa)",
+        "lt": "kambariokas, nuomininkas, nuomininkas (kažkas, nuomojantis dalį buto)"
+      },
+      "examples": [
+        {
+          "text": "Jag har en inneboende som hyr ett rum hos mig"
+        },
+        {
+          "text": "Vi söker en inneboende till vårt andra sovrum"
+        },
+        {
+          "text": "Hon bor som inneboende hos en gammal dam"
+        },
+        {
+          "text": "Kontraktet gäller bara för den inneboende"
+        },
+        {
+          "text": "De har haft flera inneboende under åren"
+        },
+        {
+          "text": "Jag trivdes inte som inneboende, det var för trångt"
+        },
+        {
+          "text": "Det är vanligt med inneboende i stora städer"
+        },
+        {
+          "text": "Hon sa upp sin lägenhet och blev inneboende"
+        },
+        {
+          "text": "Har du haft en inneboende förut?"
+        },
+        {
+          "text": "De skrev ett tydligt avtal med sin inneboende."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "06d2eff3-a401-4770-8e33-226913c5f7d4",
+      "version": -1,
+      "word": "en etta",
+      "forms": [
+        {
+          "form": "ettor"
+        }
+      ],
+      "translations": {
+        "ru": "однокомнатная квартира или студия",
+        "en": "one-room apartment or studio",
+        "uk": "однокімнатна квартира або студія",
+        "ar": "شقة بغرفة واحدة أو استوديو",
+        "fa": "آپارتمان یک‌خوابه یا استودیو",
+        "so": "guri hal qol ah ama studio",
+        "es": "apartamento de una habitación o estudio",
+        "de": "Einzimmerwohnung oder Studio",
+        "fr": "appartement d'une pièce ou studio",
+        "pl": "kawalerka lub studio",
+        "id": "apartemen satu kamar atau studio",
+        "hi": "एक कमरे का अपार्टमेंट या स्टूडियो",
+        "zh": "一居室公寓或单间",
+        "it": "monolocale o studio",
+        "tr": "tek odalı daire veya stüdyo",
+        "sr": "једнособан стан или студио",
+        "fi": "yksiö tai studio",
+        "et": "ühetoaline korter või stuudio",
+        "be": "аднапакаёвая кватэра або студыя",
+        "lv": "vienistabas dzīvoklis vai studija",
+        "lt": "vieno kambario butas arba studija"
+      },
+      "examples": [
+        {
+          "text": "Jag bor i en etta i centrala Stockholm"
+        },
+        {
+          "text": "Ettan är liten men mysig"
+        },
+        {
+          "text": "Det finns många små ettor i det här området"
+        },
+        {
+          "text": "Bor du i en etta eller en större lägenhet? Det är svårt att få tag i en billig etta i Stockholm."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b051ea6e-56de-465e-a592-87bb06843833",
+      "version": -1,
+      "word": "en tvåa",
+      "forms": [
+        {
+          "form": "tvåor"
+        }
+      ],
+      "translations": {
+        "ru": "двушка",
+        "en": "two-room apartment",
+        "uk": "двокімнатна квартира",
+        "ar": "شقة من غرفتين",
+        "fa": "آپارتمان دو خوابه",
+        "so": "guri laba qol",
+        "es": "apartamento de dos habitaciones",
+        "de": "Zweizimmerwohnung",
+        "fr": "appartement de deux pièces",
+        "pl": "mieszkanie dwupokojowe",
+        "id": "apartemen dua kamar",
+        "hi": "दो कमरे का अपार्टमेंट",
+        "zh": "两居室公寓",
+        "it": "appartamento di due stanze",
+        "tr": "iki odalı daire",
+        "sr": "двособан стан",
+        "fi": "kaksio",
+        "et": "kahetoaline korter",
+        "be": "двухпакаёвая кватэра",
+        "lv": "divistabu dzīvoklis",
+        "lt": "dviejų kambarių butas"
+      },
+      "examples": [
+        {
+          "text": "Jag bor i en tvåa i centrum"
+        },
+        {
+          "text": "Vi letar efter en större tvåa nära jobbet"
+        },
+        {
+          "text": "Hyran för en tvåa i Stockholm är ganska hög"
+        },
+        {
+          "text": "Hon köpte en tvåa i Malmö förra året"
+        },
+        {
+          "text": "Det finns en ledig tvåa i det här området"
+        },
+        {
+          "text": "Tvåan har en stor balkong och ett modernt kök"
+        },
+        {
+          "text": "Vi bor i en tvåa med öppen planlösning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "20e9afe2-def3-4441-9843-e7cc7be803ca",
+      "version": -1,
+      "word": "en trea",
+      "forms": [
+        {
+          "form": "treor"
+        }
+      ],
+      "translations": {
+        "ru": "трешка",
+        "en": "three-room apartment",
+        "uk": "трикімнатна квартира",
+        "ar": "شقة بثلاث غرف",
+        "fa": "آپارتمان سه‌خوابه",
+        "so": "guri saddex qol ah",
+        "es": "apartamento de tres habitaciones",
+        "de": "Drei-Zimmer-Wohnung",
+        "fr": "appartement de trois pièces",
+        "pl": "mieszkanie trzypokojowe",
+        "id": "apartemen tiga kamar",
+        "hi": "तीन कमरों का अपार्टमेंट",
+        "zh": "三居室公寓",
+        "it": "appartamento di tre stanze",
+        "tr": "üç odalı daire",
+        "sr": "трособан стан",
+        "fi": "kolmen huoneen asunto",
+        "et": "kolmetoaline korter",
+        "be": "трохпакаёвая кватэра",
+        "lv": "trīsistabu dzīvoklis",
+        "lt": "trijų kambarių butas"
+      },
+      "examples": [
+        {
+          "text": "Vi bor i en trea i centrum"
+        },
+        {
+          "text": "En trea passar perfekt för en liten familj"
+        },
+        {
+          "text": "De flyttade nyligen in i en trea i Malmö"
+        },
+        {
+          "text": "Vi funderar på att hyra en större lägenhet, kanske en trea."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f8182838-da35-406f-8d0a-24b60df8a6ee",
+      "version": -1,
+      "word": "3 r.o.k (tre rum och kök)",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vi bor i en lägenhet med 3 r.o.k på 80 kvadratmeter"
+        },
+        {
+          "text": "De letar efter en större lägenhet, minst 3 r.o.k"
+        },
+        {
+          "text": "En 3 r.o.k i centrala Stockholm kan vara väldigt dyr"
+        },
+        {
+          "text": "Vår nya lägenhet är 3 r.o.k och har balkong"
+        },
+        {
+          "text": "Mäklaren visade oss en fin 3 r.o.k med öppen planlösning"
+        },
+        {
+          "text": "De hyr en 3 r.o.k i andra hand medan de letar efter något eget"
+        },
+        {
+          "text": "För en familj med barn är en 3 r.o.k ofta ett bra val"
+        },
+        {
+          "text": "Det finns en ledig 3 r.o.k i det nybyggda bostadsområdet"
+        },
+        {
+          "text": "Vi funderar på att byta vår 2 r.o.k mot en 3 r.o.k"
+        },
+        {
+          "text": "En 3 r.o.k i förorten är billigare än i innerstan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8f102a1d-dbc6-457e-b449-a63f5743b18f",
+      "version": -1,
+      "word": "en fyra",
+      "forms": [
+        {
+          "form": "fyror"
+        }
+      ],
+      "translations": {
+        "ru": "четырехкомнатная",
+        "en": "four-room apartment",
+        "uk": "чотирикімнатна квартира",
+        "ar": "شقة من أربع غرف",
+        "fa": "آپارتمان چهار اتاقه",
+        "so": "guri afar qol ah",
+        "es": "apartamento de cuatro habitaciones",
+        "de": "Vierzimmerwohnung",
+        "fr": "appartement de quatre pièces",
+        "pl": "mieszkanie czteropokojowe",
+        "id": "apartemen empat kamar",
+        "hi": "चार कमरे का अपार्टमेंट",
+        "zh": "四居室公寓",
+        "it": "appartamento di quattro stanze",
+        "tr": "dört odalı daire",
+        "sr": "четворособан стан",
+        "fi": "neljän huoneen asunto",
+        "et": "neljatoaline korter",
+        "be": "чатырохпакаёвая кватэра",
+        "lv": "četristabu dzīvoklis",
+        "lt": "keturių kambarių butas"
+      },
+      "examples": [
+        {
+          "text": "Vi letar efter en fyra eftersom vi behöver mer plats"
+        },
+        {
+          "text": "En fyra i innerstan är ofta väldigt dyr"
+        },
+        {
+          "text": "Vi bor i en fyra med två balkonger och öppen planlösning"
+        },
+        {
+          "text": "Han bytte sin trea mot en fyra efter att familjen växte"
+        },
+        {
+          "text": "Det är svårt att hitta en hyreslägenhet som är en fyra"
+        },
+        {
+          "text": "Mäklaren visade oss en rymlig fyra nära tunnelbanan"
+        },
+        {
+          "text": "Familjen trivs i sin fyra eftersom barnen har varsitt rum"
+        },
+        {
+          "text": "Vi hittade en fyra i ett nybyggt område utanför staden"
+        },
+        {
+          "text": "Att köpa en fyra är en stor investering, men vi behöver utrymmet"
+        },
+        {
+          "text": "De bor i en fyra med sjöutsikt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b3b0c77e-0625-4580-98ec-a03a7acf29d0",
+      "version": 1,
+      "word": "en femma",
+      "forms": [
+        {
+          "form": "femmor"
+        }
+      ],
+      "translations": {
+        "ru": "пятикомнатная",
+        "en": "five-room apartment",
+        "uk": "п'ятикімнатна квартира",
+        "ar": "شقة من خمس غرف",
+        "fa": "آپارتمان پنج‌اتاقه",
+        "so": "guri shan qol",
+        "es": "apartamento de cinco habitaciones",
+        "de": "Fünfzimmerwohnung",
+        "fr": "appartement de cinq pièces",
+        "pl": "mieszkanie pięciopokojowe",
+        "id": "apartemen lima kamar",
+        "hi": "पाँच कमरे का अपार्टमेंट",
+        "zh": "五室公寓",
+        "it": "appartamento di cinque stanze",
+        "tr": "beş odalı daire",
+        "sr": "петособан стан",
+        "fi": "viisihuoneinen asunto",
+        "et": "viietoaline korter",
+        "be": "пяціпакаёвая кватэра",
+        "lv": "piecu istabu dzīvoklis",
+        "lt": "penkių kambarių butas"
+      },
+      "examples": [
+        {
+          "text": "Vi letar efter en femma nära centrum"
+        },
+        {
+          "text": "De bor i en stor femma med utsikt över havet"
+        },
+        {
+          "text": "Hur mycket kostar en femma i den här stadsdelen?"
+        },
+        {
+          "text": "En femma är perfekt för en stor familj"
+        },
+        {
+          "text": "De renoverade sin femma och gjorde om vardagsrummet"
+        },
+        {
+          "text": "Vi flyttade till en femma för att få mer plats för barnen"
+        },
+        {
+          "text": "Hur stor är hyran för en femma i Stockholm?"
+        },
+        {
+          "text": "De köpte en femma i ett nybyggt område"
+        },
+        {
+          "text": "Får vi plats i en femma om vi får ett barn till?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ef1ff120-de8c-4221-b8fb-6a69609010cb",
+      "version": 1,
+      "word": "ett trevåningshus",
+      "forms": [
+        {
+          "form": "trevåningshuset"
+        },
+        {
+          "form": "trevåningshus"
+        },
+        {
+          "form": "trevåningshusen"
+        }
+      ],
+      "translations": {
+        "ru": "трехэтажный дом",
+        "en": "three-story house",
+        "uk": "триповерховий будинок",
+        "ar": "منزل من ثلاثة طوابق",
+        "fa": "خانه سه طبقه",
+        "so": "guri saddex dabaq ah",
+        "es": "casa de tres pisos",
+        "de": "dreistöckiges Haus",
+        "fr": "maison à trois étages",
+        "pl": "dom trzypiętrowy",
+        "id": "rumah tiga lantai",
+        "hi": "तीन मंजिला घर",
+        "zh": "三层楼的房子",
+        "it": "casa a tre piani",
+        "tr": "üç katlı ev",
+        "sr": "троспратна кућа",
+        "fi": "kolmikerroksinen talo",
+        "et": "kolmekorruseline maja",
+        "be": "трохпавярховы дом",
+        "lv": "trīsstāvu māja",
+        "lt": "trijų aukštų namas"
+      },
+      "examples": [
+        {
+          "text": "Vi bor i ett trevåningshus nära centrum"
+        },
+        {
+          "text": "Trevåningshuset byggdes på 1800-talet"
+        },
+        {
+          "text": "Det finns många trevåningshus i den här stadsdelen"
+        },
+        {
+          "text": "De köpte ett gammalt trevåningshus och renoverade det"
+        },
+        {
+          "text": "Huset är ett trevåningshus med en stor trädgård"
+        },
+        {
+          "text": "Hur många trevåningshus finns det i din stad?"
+        },
+        {
+          "text": "Huset är ett trevåningshus med en hiss och en stor balkong"
+        },
+        {
+          "text": "Trevåningshusen här byggdes för över hundra år sedan"
+        },
+        {
+          "text": "Vi planerar att flytta till ett trevåningshus på landet"
+        },
+        {
+          "text": "De hyr en lägenhet i ett modernt trevåningshus."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a982dc6b-4751-4b50-bcff-e8c5c6feb1dd",
+      "version": -1,
+      "word": "ett rum",
+      "forms": [
+        {
+          "form": "rummet"
+        },
+        {
+          "form": "rum"
+        },
+        {
+          "form": "rummen"
+        }
+      ],
+      "translations": {
+        "ru": "комната помещение, также значение пространство",
+        "en": "room, space",
+        "uk": "кімната, простір",
+        "ar": "غرفة، مساحة",
+        "fa": "اتاق، فضا",
+        "so": "qol, meel",
+        "es": "habitación, espacio",
+        "de": "Zimmer, Raum",
+        "fr": "chambre, espace",
+        "pl": "pokój, przestrzeń",
+        "id": "ruang, ruang",
+        "hi": "कमरा, स्थान",
+        "zh": "房间, 空间",
+        "it": "stanza, spazio",
+        "tr": "oda, alan",
+        "sr": "соба, простор",
+        "fi": "huone, tila",
+        "et": "tuba, ruum",
+        "be": "пакой, прастора",
+        "lv": "istaba, telpa",
+        "lt": "kambarys, erdvė"
+      },
+      "examples": [
+        {
+          "text": "Vi har ett rum till gäster"
+        },
+        {
+          "text": "Rummet är stort och ljust"
+        },
+        {
+          "text": "Det finns många rum i huset"
+        },
+        {
+          "text": "Rummen på hotellet är moderna"
+        },
+        {
+          "text": "Jag har bokat ett rum på hotellet"
+        },
+        {
+          "text": "Barnen leker i sitt rum"
+        },
+        {
+          "text": "Finns det tillräckligt med rum i bilen för alla?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6f50b305-ddad-487e-8846-7f530a40af7b",
+      "version": -1,
+      "word": "ett sovrum",
+      "forms": [
+        {
+          "form": "sovrummet"
+        },
+        {
+          "form": "sovrum"
+        },
+        {
+          "form": "sovrummen"
+        }
+      ],
+      "translations": {
+        "ru": "Спальня",
+        "en": "bedroom",
+        "uk": "спальня",
+        "ar": "غرفة نوم",
+        "fa": "اتاق خواب",
+        "so": "qolka jiifka",
+        "es": "dormitorio",
+        "de": "Schlafzimmer",
+        "fr": "chambre",
+        "pl": "sypialnia",
+        "id": "kamar tidur",
+        "hi": "शयनकक्ष",
+        "zh": "卧室",
+        "it": "camera da letto",
+        "tr": "yatak odası",
+        "sr": "спаваћа соба",
+        "fi": "makuuhuone",
+        "et": "magamistuba",
+        "be": "спальня",
+        "lv": "guļamistaba",
+        "lt": "miegamasis"
+      },
+      "examples": [
+        {
+          "text": "Mitt sovrum är litet men mysigt"
+        },
+        {
+          "text": "Lägenheten har två sovrum och ett stort vardagsrum"
+        },
+        {
+          "text": "Vi renoverade sovrummet och målade om väggarna"
+        },
+        {
+          "text": "Barnen har varsitt sovrum"
+        },
+        {
+          "text": "Det finns ett extra sovrum för gästerna"
+        },
+        {
+          "text": "Hon vill ha ett större sovrum med mer förvaring"
+        },
+        {
+          "text": "Sovrummet har en stor säng och en garderob"
+        },
+        {
+          "text": "Jag älskar att ha en balkong vid mitt sovrum"
+        },
+        {
+          "text": "Vi gjorde om ett gammalt kontor till ett sovrum"
+        },
+        {
+          "text": "Sovrummen i det här huset är väldigt ljusa och luftiga."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "40e576d3-0b78-4478-ad70-b278a619f955",
+      "version": -1,
+      "word": "ett kök",
+      "forms": [
+        {
+          "form": "köket"
+        },
+        {
+          "form": "kök"
+        },
+        {
+          "form": "köken"
+        }
+      ],
+      "translations": {
+        "ru": "Кухня",
+        "en": "kitchen",
+        "uk": "кухня",
+        "ar": "مطبخ",
+        "fa": "آشپزخانه",
+        "so": "jiko",
+        "es": "cocina",
+        "de": "Küche",
+        "fr": "cuisine",
+        "pl": "kuchnia",
+        "id": "dapur",
+        "hi": "रसोई",
+        "zh": "厨房",
+        "it": "cucina",
+        "tr": "mutfak",
+        "sr": "кухиња",
+        "fi": "keittiö",
+        "et": "köök",
+        "be": "кухня",
+        "lv": "virtuve",
+        "lt": "virtuvė"
+      },
+      "examples": [
+        {
+          "text": "Jag städade köket"
+        },
+        {
+          "text": "Vi har ett kök med stor matplats"
+        },
+        {
+          "text": "Jag drömmer om ett kök med moderna apparater"
+        },
+        {
+          "text": "Köket är hemmets hjärta"
+        },
+        {
+          "text": "Det finns olika typer av kök, till exempel lantliga eller moderna"
+        },
+        {
+          "text": "Många restauranger har öppna kök där man kan se kockarna arbeta"
+        },
+        {
+          "text": "Alla köken i byggnaden är nyrenoverade"
+        },
+        {
+          "text": "Köket är den plats där vi tillbringar mycket tid tillsammans"
+        },
+        {
+          "text": "Vi renoverade vårt kök förra året."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e8acfdca-ecaa-47e4-ae2a-1196954c060f",
+      "version": 1,
+      "word": "ett badrum",
+      "forms": [
+        {
+          "form": "badrummet"
+        },
+        {
+          "form": "badrum"
+        },
+        {
+          "form": "badrummen"
+        }
+      ],
+      "translations": {
+        "ru": "Ванная",
+        "en": "bathroom",
+        "uk": "ванна кімната",
+        "ar": "حمام",
+        "fa": "حمام",
+        "so": "musqul",
+        "es": "baño",
+        "de": "Badezimmer",
+        "fr": "salle de bain",
+        "pl": "łazienka",
+        "id": "kamar mandi",
+        "hi": "बाथरूम",
+        "zh": "浴室",
+        "it": "bagno",
+        "tr": "banyo",
+        "sr": "купатило",
+        "fi": "kylpyhuone",
+        "et": "vannituba",
+        "be": "ванная",
+        "lv": "vannas istaba",
+        "lt": "vonios kambarys"
+      },
+      "examples": [
+        {
+          "text": "Vi har ett badrum med separat WC"
+        },
+        {
+          "text": "Vi har bara ett badrum i huset"
+        },
+        {
+          "text": "Badrummet behöver renoveras"
+        },
+        {
+          "text": "Kan jag låna toaletten i badrummet?"
+        },
+        {
+          "text": "Det finns ett stort badkar i badrummet"
+        },
+        {
+          "text": "Jag håller på att städa badrummet"
+        },
+        {
+          "text": "Vi ska installera en ny dusch i badrummet"
+        },
+        {
+          "text": "Badrummen i det här hotellet är väldigt moderna"
+        },
+        {
+          "text": "Finns det handdukar i badrummet?"
+        },
+        {
+          "text": "Lägenheten har två badrum, vilket är praktiskt"
+        },
+        {
+          "text": "Jag glömde min tandborste i badrummet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ecd31b78-4b91-490a-913b-1d4a69f3f540",
+      "version": -1,
+      "word": "ett vardagsrum",
+      "forms": [
+        {
+          "form": "vardagsrummet"
+        },
+        {
+          "form": "vardagsrum"
+        },
+        {
+          "form": "vardagsrummen"
+        }
+      ],
+      "translations": {
+        "ru": "Гостинная",
+        "en": "living room",
+        "uk": "вітальня",
+        "ar": "غرفة المعيشة",
+        "fa": "اتاق نشیمن",
+        "so": "qolka fadhiga",
+        "es": "sala de estar",
+        "de": "Wohnzimmer",
+        "fr": "salon",
+        "pl": "salon",
+        "id": "ruang tamu",
+        "hi": "बैठक कक्ष",
+        "zh": "客厅",
+        "it": "soggiorno",
+        "tr": "oturma odası",
+        "sr": "дневна соба",
+        "fi": "olohuone",
+        "et": "elutuba",
+        "be": "гасцёўня",
+        "lv": "viesistaba",
+        "lt": "svetainė"
+      },
+      "examples": [
+        {
+          "text": "Vi har en stor världskarta i vardagsrummet"
+        },
+        {
+          "text": "Vårt vardagsrum är stort och ljust"
+        },
+        {
+          "text": "Hon köpte en ny soffa till vardagsrummet"
+        },
+        {
+          "text": "I vardagsrummet har vi en TV och en bokhylla"
+        },
+        {
+          "text": "i renoverade vardagsrummet förra året"
+        },
+        {
+          "text": "Barnen leker ofta i vardagsrummet"
+        },
+        {
+          "text": "Vardagsrummet har en öppen spis"
+        },
+        {
+          "text": "Jag älskar att dricka kaffe i vardagsrummet på morgonen"
+        },
+        {
+          "text": "Vi har en matplats i vardagsrummet"
+        },
+        {
+          "text": "Hennes vardagsrum är modernt inrett"
+        },
+        {
+          "text": "De satte upp nya gardiner i vardagsrummet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1729fc50-f5bf-4d3b-b8f3-18947d6d8c8b",
+      "version": -1,
+      "word": "en matsal",
+      "forms": [
+        {
+          "form": "matsalar"
+        }
+      ],
+      "translations": {
+        "ru": "столовая",
+        "en": "dining room",
+        "uk": "їдальня",
+        "ar": "غرفة الطعام",
+        "fa": "اتاق ناهارخوری",
+        "so": "qolka cuntada",
+        "es": "comedor",
+        "de": "Esszimmer",
+        "fr": "salle à manger",
+        "pl": "jadalnia",
+        "id": "ruang makan",
+        "hi": "भोजन कक्ष",
+        "zh": "餐厅",
+        "it": "sala da pranzo",
+        "tr": "yemek odası",
+        "sr": "трпезарија",
+        "fi": "ruokasali",
+        "et": "söögituba",
+        "be": "сталовая",
+        "lv": "ēdamistaba",
+        "lt": "valgomasis"
+      },
+      "examples": [
+        {
+          "text": "Vi har en stor matsal där hela familjen kan samlas"
+        },
+        {
+          "text": "Matsalen i skolan serverar lunch varje dag"
+        },
+        {
+          "text": "Hon köpte ett nytt matsalsbord till matsalen"
+        },
+        {
+          "text": "Restaurangens matsal var elegant inredd"
+        },
+        {
+          "text": "Slottet har en imponerande matsal med kristallkronor"
+        },
+        {
+          "text": "Vi äter oftast i köket, men på helgerna använder vi matsalen"
+        },
+        {
+          "text": "Matsalen i hotellet har plats för 100 gäster"
+        },
+        {
+          "text": "I vissa äldre hus finns en separat matsal"
+        },
+        {
+          "text": "Barnen samlades i skolans matsal för att äta lunch"
+        },
+        {
+          "text": "Vi vill öppna upp mellan köket och matsalen för mer rymd."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "604eb16b-ac6c-4f04-869a-1391f5c05f3a",
+      "version": -1,
+      "word": "ett matrum",
+      "forms": [
+        {
+          "form": "matrummet"
+        },
+        {
+          "form": "matrumm"
+        },
+        {
+          "form": "matrummen"
+        }
+      ],
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vi har ett matrum med ett stort bord"
+        },
+        {
+          "text": "Ett matrum är viktigt i en stor familj"
+        },
+        {
+          "text": "Matrummet är precis bredvid köket"
+        },
+        {
+          "text": "I matrummet finns det plats för tio personer"
+        },
+        {
+          "text": "Huset har två matrum"
+        },
+        {
+          "text": "Alla matrummen i byggnaden är ljusa och rymliga"
+        },
+        {
+          "text": "De har ett stort matrum där hela familjen kan äta tillsammans."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fafcd478-feaf-45c6-8ab3-629162d445e9",
+      "version": -1,
+      "word": "en hall",
+      "forms": [
+        {
+          "form": "hallar"
+        }
+      ],
+      "translations": {
+        "ru": "прихожая, коридор",
+        "en": "hallway, corridor",
+        "uk": "передпокій, коридор",
+        "ar": "مدخل، ممر",
+        "fa": "راهرو، دالان",
+        "so": "qolka hore, jaranjar",
+        "es": "vestíbulo, corredor",
+        "de": "Flur, Korridor",
+        "fr": "entrée, couloir",
+        "pl": "przedpokój, korytarz",
+        "id": "lorong, koridor",
+        "hi": "प्रवेश कक्ष, गलियारा",
+        "zh": "门厅, 走廊",
+        "it": "ingresso, corridoio",
+        "tr": "antre, koridor",
+        "sr": "предсобље, ходник",
+        "fi": "eteinen, käytävä",
+        "et": "esik, koridor",
+        "be": "пярэдпакой, калідор",
+        "lv": "priekšnams, koridors",
+        "lt": "prieškambaris, koridorius"
+      },
+      "examples": [
+        {
+          "text": "Badrummet är i slutet av hallen"
+        },
+        {
+          "text": "Lägenheten har en rymlig hall med garderober"
+        },
+        {
+          "text": "Jag ställde mina skor i hallen"
+        },
+        {
+          "text": "Hallen var trång, så vi fick vänta utanför"
+        },
+        {
+          "text": "Vi vill renovera hallen och lägga nytt golv"
+        },
+        {
+          "text": "I hallen finns en spegel och en klädhängare"
+        },
+        {
+          "text": "Barnens jackor och skor ligger alltid överallt i hallen"
+        },
+        {
+          "text": "Hallen leder till köket och vardagsrummet"
+        },
+        {
+          "text": "Hon hörde någon prata ute i hallen"
+        },
+        {
+          "text": "Hallen är det första man ser när man kommer in i ett hem"
+        },
+        {
+          "text": "Vi behöver mer förvaring i hallen för våra skor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c879d590-8dc5-405c-a73f-606ee906058c",
+      "version": -1,
+      "word": "en vind",
+      "forms": [
+        {
+          "form": "vindar"
+        }
+      ],
+      "translations": {
+        "ru": "чердак",
+        "en": "attic",
+        "uk": "горище",
+        "ar": "علية",
+        "fa": "اتاق زیر شیروانی",
+        "so": "saqafka sare",
+        "es": "ático",
+        "de": "Dachboden",
+        "fr": "grenier",
+        "pl": "strych",
+        "id": "loteng",
+        "hi": "अटारी",
+        "zh": "阁楼",
+        "it": "soffitta",
+        "tr": "çatı katı",
+        "sr": "поткровље",
+        "fi": "ullakko",
+        "et": "pööning",
+        "be": "гарыш",
+        "lv": "bēniņi",
+        "lt": "palėpė"
+      },
+      "examples": [
+        {
+          "text": "Vi förvarar gamla möbler på vinden"
+        },
+        {
+          "text": "Huset har en stor vind som kan göras om till ett extra rum"
+        },
+        {
+          "text": "Jag hittade en gammal resväska på vinden"
+        },
+        {
+          "text": "Det är kallt på vinden på vintern"
+        },
+        {
+          "text": "Hon gick upp på vinden för att leta efter jullådan"
+        },
+        {
+          "text": "Vinden är full av damm och spindelnät"
+        },
+        {
+          "text": "Vi planerar att renovera vinden och göra ett gästrum där"
+        },
+        {
+          "text": "I gamla hus kan vinden vara ganska låg och svår att använda"
+        },
+        {
+          "text": "Hon förvarar sina gamla kläder på vinden"
+        },
+        {
+          "text": "Det luktar gammalt trä och papper på vinden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c8759659-f646-4a97-896f-384741fa5306",
+      "version": -1,
+      "word": "en källare",
+      "forms": [
+        {
+          "form": "källaren"
+        },
+        {
+          "form": "källare"
+        },
+        {
+          "form": "källarna"
+        }
+      ],
+      "translations": {
+        "ru": "подвал",
+        "en": "basement",
+        "uk": "підвал",
+        "ar": "قبو",
+        "fa": "زیرزمین",
+        "so": "saldhig",
+        "es": "sótano",
+        "de": "Keller",
+        "fr": "sous-sol",
+        "pl": "piwnica",
+        "id": "ruang bawah tanah",
+        "hi": "तहखाना",
+        "zh": "地下室",
+        "it": "cantina",
+        "tr": "bodrum",
+        "sr": "подрум",
+        "fi": "kellari",
+        "et": "kelder",
+        "be": "падвал",
+        "lv": "pagrabs",
+        "lt": "rūsys"
+      },
+      "examples": [
+        {
+          "text": "De har en stor källare under huset"
+        },
+        {
+          "text": "Källaren är kall och mörk"
+        },
+        {
+          "text": "I gamla hus finns ofta flera källare"
+        },
+        {
+          "text": "Källarna används som förråd"
+        },
+        {
+          "text": "Vi har tvättstugan i källaren"
+        },
+        {
+          "text": "Källaren är perfekt för att lagra vin"
+        },
+        {
+          "text": "Hon gick ner i källaren för att hämta verktyg"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7a4a23a8-38d1-4a9c-9043-9d2062d13fda",
+      "version": -1,
+      "word": "en tvättstuga",
+      "forms": [
+        {
+          "form": "tvättstugor"
+        }
+      ],
+      "translations": {
+        "ru": "постирочная",
+        "en": "laundry room",
+        "uk": "пральня",
+        "ar": "غرفة الغسيل",
+        "fa": "اتاق لباسشویی",
+        "so": "qolka dharka lagu dhaqo",
+        "es": "lavandería",
+        "de": "Waschküche",
+        "fr": "buanderie",
+        "pl": "pralnia",
+        "id": "ruang cuci",
+        "hi": "कपड़े धोने का कमरा",
+        "zh": "洗衣房",
+        "it": "lavanderia",
+        "tr": "çamaşır odası",
+        "sr": "вешерај",
+        "fi": "pyykkitupa",
+        "et": "pesuruum",
+        "be": "пральня",
+        "lv": "veļas mazgātava",
+        "lt": "skalbykla"
+      },
+      "examples": [
+        {
+          "text": "Jag har bokat tid i tvättstugan"
+        },
+        {
+          "text": "Tvättstugan är i källaren"
+        },
+        {
+          "text": "Det finns två tvättstugor i vårt hus."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ee2076de-be06-4fc8-9cdb-75f859b674f3",
+      "version": -1,
+      "word": "ett förråd",
+      "forms": [
+        {
+          "form": "förråd"
+        },
+        {
+          "form": "förråd"
+        },
+        {
+          "form": "förråden"
+        }
+      ],
+      "translations": {
+        "ru": "кладовка",
+        "en": "storage room, closet",
+        "uk": "комора",
+        "ar": "غرفة تخزين",
+        "fa": "اتاق ذخیره‌سازی",
+        "so": "qol kayd",
+        "es": "cuarto de almacenamiento",
+        "de": "Abstellraum",
+        "fr": "débarras",
+        "pl": "schowek",
+        "id": "ruang penyimpanan",
+        "hi": "भंडारण कक्ष",
+        "zh": "储藏室",
+        "it": "ripostiglio",
+        "tr": "depo odası",
+        "sr": "складиште",
+        "fi": "varastohuone",
+        "et": "panipaik",
+        "be": "кладоўка",
+        "lv": "glabātuve",
+        "lt": "sandėliukas"
+      },
+      "examples": [
+        {
+          "text": "Förråd kan också finnas i källaren"
+        },
+        {
+          "text": "Vi förvarar vinterkläder i förrådet"
+        },
+        {
+          "text": "Huset har ett stort förråd i källaren"
+        },
+        {
+          "text": "Hon hyrde ett extra förråd för sina möbler"
+        },
+        {
+          "text": "Förrådet är fullt av gamla kartonger"
+        },
+        {
+          "text": "Det finns ett förråd i anslutning till lägenheten"
+        },
+        {
+          "text": "Vi måste rensa förrådet, det är för mycket saker där"
+        },
+        {
+          "text": "Han hade ett litet förråd på vinden där han förvarade verktyg"
+        },
+        {
+          "text": "Butiken har ett stort förråd med varor"
+        },
+        {
+          "text": "Jag glömde mina gamla böcker i förrådet"
+        },
+        {
+          "text": "Förrådet används för att lagra cyklar och däck."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "48d6b853-8e73-4aa2-9bf4-e8a229bdf951",
+      "version": -1,
+      "word": "en balkong",
+      "forms": [
+        {
+          "form": "balkonger"
+        }
+      ],
+      "translations": {
+        "ru": "балкон",
+        "en": "balcony",
+        "uk": "балкон",
+        "ar": "شرفة",
+        "fa": "بالکن",
+        "so": "balakoon",
+        "es": "balcón",
+        "de": "Balkon",
+        "fr": "balcon",
+        "pl": "balkon",
+        "id": "balkon",
+        "hi": "बालकनी",
+        "zh": "阳台",
+        "it": "balcone",
+        "tr": "balkon",
+        "sr": "балкон",
+        "fi": "parveke",
+        "et": "rõdu",
+        "be": "балкон",
+        "lv": "balkons",
+        "lt": "balkonas"
+      },
+      "examples": [
+        {
+          "text": "Lägenheten har en stor balkong med utsikt över staden"
+        },
+        {
+          "text": "Hon älskar att sitta på balkongen och dricka kaffe på morgonen"
+        },
+        {
+          "text": "Vi planterade blommor i krukor på balkongen"
+        },
+        {
+          "text": "Det är förbjudet att grilla på balkongen i många hyreshus"
+        },
+        {
+          "text": "Han rökte en cigarett på balkongen och tittade på solnedgången"
+        },
+        {
+          "text": "Balkongen är inglasad så vi kan använda den året runt"
+        },
+        {
+          "text": "Hon dekorerade balkongen med ljusslingor och möbler"
+        },
+        {
+          "text": "Vi har en liten balkong, men det räcker för två personer"
+        },
+        {
+          "text": "Balkongen på fjärde våningen har fantastisk utsikt över havet"
+        },
+        {
+          "text": "När det är varmt ute äter vi ofta middag på balkongen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b16a65c6-ce8b-4795-9d78-f0ab04467fc0",
+      "version": -1,
+      "word": "en nyckel",
+      "forms": [
+        {
+          "form": "nycklar"
+        }
+      ],
+      "translations": {
+        "ru": "ключ",
+        "en": "key",
+        "uk": "ключ",
+        "ar": "مفتاح",
+        "fa": "کلید",
+        "so": "furaha",
+        "es": "llave",
+        "de": "Schlüssel",
+        "fr": "clé",
+        "pl": "klucz",
+        "id": "kunci",
+        "hi": "चाबी",
+        "zh": "钥匙",
+        "it": "chiave",
+        "tr": "anahtar",
+        "sr": "кључ",
+        "fi": "avain",
+        "et": "võti",
+        "be": "ключ",
+        "lv": "atslēga",
+        "lt": "raktas"
+      },
+      "examples": [
+        {
+          "text": "Jag tappade min nyckel och kunde inte komma in"
+        },
+        {
+          "text": "Har du nyckeln till bilen? Han låste dörren med sin nyckel"
+        },
+        {
+          "text": "Alla hyresgäster fick en extra nyckel till källarförrådet"
+        },
+        {
+          "text": "Hon letade i väskan men hittade inte sina nycklar"
+        },
+        {
+          "text": "Den här nyckeln passar inte till låset"
+        },
+        {
+          "text": "Jag har en nyckelknippa med fem nycklar"
+        },
+        {
+          "text": "Vi fick en extra nyckel till fritidshuset"
+        },
+        {
+          "text": "Han glömde att lämna tillbaka nyckeln till receptionen"
+        },
+        {
+          "text": "Hon har alltid en reservnyckel i fickan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8a12797c-6110-4eb1-bbed-89d959061b37",
+      "version": 1,
+      "word": "en stol",
+      "forms": [
+        {
+          "form": "stolar"
+        }
+      ],
+      "translations": {
+        "ru": "стул",
+        "en": "chair",
+        "uk": "стілець",
+        "ar": "كرسي",
+        "fa": "صندلی",
+        "so": "kursi",
+        "es": "silla",
+        "de": "Stuhl",
+        "fr": "chaise",
+        "pl": "krzesło",
+        "id": "kursi",
+        "hi": "कुर्सी",
+        "zh": "椅子",
+        "it": "sedia",
+        "tr": "sandalye",
+        "sr": "столица",
+        "fi": "tuoli",
+        "et": "tool",
+        "be": "крэсла",
+        "lv": "krēsls",
+        "lt": "kėdė"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte en dyna till min stol"
+        },
+        {
+          "text": "Jag behöver en stol att sitta på"
+        },
+        {
+          "text": "Stolen är väldigt bekväm"
+        },
+        {
+          "text": "Vi köpte nya stolar till köket"
+        },
+        {
+          "text": "Hur många stolar behöver vi för festen?"
+        },
+        {
+          "text": "Det finns inte tillräckligt med stolar för alla"
+        },
+        {
+          "text": "Hon satt på en stol och läste en bok."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a113242b-8860-422e-9e66-6bb199be2c15",
+      "version": -1,
+      "word": "en möbel",
+      "forms": [
+        {
+          "form": "möbler"
+        }
+      ],
+      "translations": {
+        "ru": "мебель",
+        "en": "furniture",
+        "uk": "меблі",
+        "ar": "أثاث",
+        "fa": "مبلمان",
+        "so": "alaabta guriga",
+        "es": "muebles",
+        "de": "Möbel",
+        "fr": "meubles",
+        "pl": "meble",
+        "id": "perabot",
+        "hi": "फर्नीचर",
+        "zh": "家具",
+        "it": "mobili",
+        "tr": "mobilya",
+        "sr": "намештај",
+        "fi": "huonekalut",
+        "et": "mööbel",
+        "be": "мэбля",
+        "lv": "mēbeles",
+        "lt": "baldai"
+      },
+      "examples": [
+        {
+          "text": "Vi lastar på möblerna på lastbilen"
+        },
+        {
+          "text": "Vi köpte nya möbler till vardagsrummet"
+        },
+        {
+          "text": "Hon har antika möbler i sitt hus"
+        },
+        {
+          "text": "Den här möbeln passar perfekt i sovrummet"
+        },
+        {
+          "text": "Jag behöver en bekväm möbel att sitta på"
+        },
+        {
+          "text": "Möblerna i lägenheten är moderna och stilrena"
+        },
+        {
+          "text": "Vi ska flytta, så vi säljer några av våra möbler"
+        },
+        {
+          "text": "Ikea säljer möbler som är lätta att montera"
+        },
+        {
+          "text": "Han beställde möbler online och fick dem levererade hem"
+        },
+        {
+          "text": "Vi renoverade köket och bytte alla möbler"
+        },
+        {
+          "text": "Hon tycker om klassiska möbler i trä."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e7eba991-906d-4a8b-b7c6-4d3d248f1f8e",
+      "version": -1,
+      "word": "ett golv",
+      "forms": [
+        {
+          "form": "golvet"
+        },
+        {
+          "form": "golv"
+        },
+        {
+          "form": "golven"
+        }
+      ],
+      "translations": {
+        "ru": "пол",
+        "en": "floor",
+        "uk": "підлога",
+        "ar": "أرضية",
+        "fa": "کف",
+        "so": "dabaq",
+        "es": "suelo",
+        "de": "Boden",
+        "fr": "sol",
+        "pl": "podłoga",
+        "id": "lantai",
+        "hi": "फर्श",
+        "zh": "地板",
+        "it": "pavimento",
+        "tr": "zemin",
+        "sr": "под",
+        "fi": "lattia",
+        "et": "põrand",
+        "be": "падлога",
+        "lv": "grīda",
+        "lt": "grindys"
+      },
+      "examples": [
+        {
+          "text": "Vi behöver lägga ett nytt golv i vardagsrummet"
+        },
+        {
+          "text": "Ett golv av trä känns varmt och hemtrevligt"
+        },
+        {
+          "text": "Golvet är täckt av en mjuk matta"
+        },
+        {
+          "text": "Han torkade upp vattenfläcken på golvet"
+        },
+        {
+          "text": "Alla golv i huset är av olika material"
+        },
+        {
+          "text": "Det finns golv av trä, sten och plast i den här katalogen"
+        },
+        {
+          "text": "Golven i den gamla byggnaden är ojämna"
+        },
+        {
+          "text": "Alla golven i skolan ska renoveras nästa år"
+        },
+        {
+          "text": "Golvet i köket behöver renoveras"
+        },
+        {
+          "text": "De valde ett mörkt golv till vardagsrummet"
+        },
+        {
+          "text": "Alla golven i huset är gjorda av trä."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bcd4e6e6-0e18-440a-b565-e6f76d9f0fa8",
+      "version": -1,
+      "word": "ett tak",
+      "forms": [
+        {
+          "form": "taket"
+        },
+        {
+          "form": "tak"
+        },
+        {
+          "form": "taken"
+        }
+      ],
+      "translations": {
+        "ru": "потолок крыша",
+        "en": "ceiling, roof",
+        "uk": "стеля, дах",
+        "ar": "سقف، سطح",
+        "fa": "سقف، بام",
+        "so": "saqaf, saqafka sare",
+        "es": "techo, tejado",
+        "de": "Decke, Dach",
+        "fr": "plafond, toit",
+        "pl": "sufit, dach",
+        "id": "plafon, atap",
+        "hi": "छत, छत",
+        "zh": "天花板, 屋顶",
+        "it": "soffitto, tetto",
+        "tr": "tavan, çatı",
+        "sr": "плафон, кров",
+        "fi": "katto, katto",
+        "et": "lagi, katus",
+        "be": "столь, дах",
+        "lv": "griesti, jumts",
+        "lt": "lubos, stogas"
+      },
+      "examples": [
+        {
+          "text": "Husets tak är täckt med tegelpannor"
+        },
+        {
+          "text": "Det regnade hela natten och droppade från taket"
+        },
+        {
+          "text": "Vi behöver reparera taket efter stormen"
+        },
+        {
+          "text": "Han klättrade upp på taket för att fixa antennen"
+        },
+        {
+          "text": "Snön rasade ner från taket"
+        },
+        {
+          "text": "Taket i vardagsrummet är målat vitt"
+        },
+        {
+          "text": "Hon satte upp en lampa i taket"
+        },
+        {
+          "text": "Rummet hade ett väldigt lågt tak"
+        },
+        {
+          "text": "Han stirrade upp i taket och tänkte på dagen"
+        },
+        {
+          "text": "Vi vill ha träbjälkar i taket för en rustik känsla."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7cf2193c-374c-4531-8fec-4b1b56ff6ffc",
+      "version": -1,
+      "word": "en vägg",
+      "forms": [
+        {
+          "form": "väggar"
+        }
+      ],
+      "translations": {
+        "ru": "стена",
+        "en": "wall",
+        "uk": "стіна",
+        "ar": "جدار",
+        "fa": "دیوار",
+        "so": "derbi",
+        "es": "pared",
+        "de": "Wand",
+        "fr": "mur",
+        "pl": "ściana",
+        "id": "dinding",
+        "hi": "दीवार",
+        "zh": "墙",
+        "it": "muro",
+        "tr": "duvar",
+        "sr": "зид",
+        "fi": "seinä",
+        "et": "sein",
+        "be": "сцяна",
+        "lv": "siena",
+        "lt": "siena"
+      },
+      "examples": [
+        {
+          "text": "Tavlan hänger på väggen"
+        },
+        {
+          "text": "Vi målade väggarna i vardagsrummet vita"
+        },
+        {
+          "text": "Det finns en spricka i väggen"
+        },
+        {
+          "text": "Han kände sig som om han pratade med en vägg"
+        },
+        {
+          "text": "Jag satte upp en spegel på väggen i hallen"
+        },
+        {
+          "text": "Vi hängde tavlor på väggarna i köket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2a3f9501-ada6-45f8-83f4-e563536f146e",
+      "version": -1,
+      "word": "ett hushållsarbete",
+      "forms": [
+        {
+          "form": "hushållsarbete"
+        },
+        {
+          "form": "hushållsarbeten"
+        },
+        {
+          "form": "hushållsarbetena"
+        }
+      ],
+      "translations": {
+        "ru": "работа по дому",
+        "en": "housework",
+        "uk": "домашня робота",
+        "ar": "الأعمال المنزلية",
+        "fa": "کارهای خانه",
+        "so": "shaqada guriga",
+        "es": "tareas del hogar",
+        "de": "Hausarbeit",
+        "fr": "travaux ménagers",
+        "pl": "prace domowe",
+        "id": "pekerjaan rumah",
+        "hi": "घरेलू काम",
+        "zh": "家务",
+        "it": "lavori domestici",
+        "tr": "ev işleri",
+        "sr": "кућни послови",
+        "fi": "kotityöt",
+        "et": "majapidamistööd",
+        "be": "хатняя праца",
+        "lv": "mājas darbi",
+        "lt": "namų ruošos darbai"
+      },
+      "examples": [
+        {
+          "text": "Vårt tak utgör golvet för dem som bor ovanför oss"
+        },
+        {
+          "text": "Hon delade upp hushållsarbetet med sin man"
+        },
+        {
+          "text": "Hushållsarbetet tar mycket tid om man har en stor familj"
+        },
+        {
+          "text": "Barnen lär sig hushållsarbete genom att hjälpa till hemma"
+        },
+        {
+          "text": "Många tycker att hushållsarbete är tråkigt, men det måste göras"
+        },
+        {
+          "text": "Robotdammsugare kan underlätta hushållsarbetet"
+        },
+        {
+          "text": "Vi delar på hushållsarbetet så att ingen blir för trött"
+        },
+        {
+          "text": "Hushållsarbetet blir lättare med en diskmaskin"
+        },
+        {
+          "text": "Många äldre behöver hjälp med hushållsarbete"
+        },
+        {
+          "text": "Efter en lång arbetsdag har jag ingen energi kvar för hushållsarbete"
+        },
+        {
+          "text": "I vissa familjer gör kvinnor mer hushållsarbete än män."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5db053a8-fb8f-4d37-95d4-75ca7b6ee3e5",
+      "version": -1,
+      "word": "en bokhylla",
+      "forms": [
+        {
+          "form": "bokhyllor"
+        }
+      ],
+      "translations": {
+        "ru": "книжная полка, книжный шкаф",
+        "en": "bookshelf, bookcase",
+        "uk": "книжкова полиця, книжкова шафа",
+        "ar": "رف كتب، خزانة كتب",
+        "fa": "قفسه کتاب، کتابخانه",
+        "so": "shelf buug, armaajo buug",
+        "es": "estante de libros, librero",
+        "de": "Bücherregal, Bücherschrank",
+        "fr": "étagère à livres, bibliothèque",
+        "pl": "półka na książki, regał na książki",
+        "id": "rak buku, lemari buku",
+        "hi": "पुस्तक शेल्फ, पुस्तक अलमारी",
+        "zh": "书架，书柜",
+        "it": "scaffale per libri, libreria",
+        "tr": "kitap rafı, kitaplık",
+        "sr": "полица за књиге, орман за књиге",
+        "fi": "kirjahylly, kirjahyllykkö",
+        "et": "raamaturiiul, raamaturiiul",
+        "be": "кніжная паліца, кніжны шаф",
+        "lv": "grāmatu plaukts, grāmatu skapis",
+        "lt": "knygų lentyna, knygų spinta"
+      },
+      "examples": [
+        {
+          "text": "Han köpte en bokhylla för att ställa sina böcker i"
+        },
+        {
+          "text": "Jag behöver en större bokhylla för alla mina böcker"
+        },
+        {
+          "text": "Hon köpte en ny bokhylla på IKEA"
+        },
+        {
+          "text": "Bokhyllan i vardagsrummet är full av romaner"
+        },
+        {
+          "text": "Han har en antik bokhylla av ek"
+        },
+        {
+          "text": "Vi ställde bokhyllan vid väggen nära fönstret"
+        },
+        {
+          "text": "Det finns en inbyggd bokhylla i arbetsrummet"
+        },
+        {
+          "text": "Hon organiserade sina böcker i bokhyllan efter färg"
+        },
+        {
+          "text": "Barnens bokhyllor är fyllda med sagoböcker"
+        },
+        {
+          "text": "Bokhyllorna i biblioteket är flera meter höga"
+        },
+        {
+          "text": "Jag ska damma av bokhyllan imorgon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2d7c8233-5af0-406a-adea-05441c0ce495",
+      "version": -1,
+      "word": "en vas",
+      "forms": [
+        {
+          "form": "vaser"
+        }
+      ],
+      "translations": {
+        "ru": "ваза",
+        "en": "vase",
+        "uk": "ваза",
+        "ar": "مزهرية",
+        "fa": "گلدان",
+        "so": "weel ubax",
+        "es": "jarrón",
+        "de": "Vase",
+        "fr": "vase",
+        "pl": "wazon",
+        "id": "vas",
+        "hi": "फूलदान",
+        "zh": "花瓶",
+        "it": "vaso",
+        "tr": "vazo",
+        "sr": "ваза",
+        "fi": "maljakko",
+        "et": "vaas",
+        "be": "ваза",
+        "lv": "vāze",
+        "lt": "vaza"
+      },
+      "examples": [
+        {
+          "text": "Hon ställde en vas med rosor på bordet"
+        },
+        {
+          "text": "Vasen gick sönder när den föll från hyllan"
+        },
+        {
+          "text": "Vi köpte en vacker vas i glas"
+        },
+        {
+          "text": "Han fyllde vasen med vatten innan han satte i blommorna"
+        },
+        {
+          "text": "Det står en antik vas på spiselkransen"
+        },
+        {
+          "text": "Hon älskar att samla på handgjorda vaser"
+        },
+        {
+          "text": "Vasen var en present från hennes mormor"
+        },
+        {
+          "text": "Jag behöver en större vas för de här blommorna"
+        },
+        {
+          "text": "Vaserna i fönstret är fyllda med färska tulpaner"
+        },
+        {
+          "text": "De satte en vacker keramisk vas på matbordet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "277e5f8e-acf3-4e45-b33d-6674ce52d44b",
+      "version": -1,
+      "word": "en dörr",
+      "forms": [
+        {
+          "form": "dörrar"
+        }
+      ],
+      "translations": {
+        "ru": "дверь",
+        "en": "door",
+        "uk": "двері",
+        "ar": "باب",
+        "fa": "در",
+        "so": "albaab",
+        "es": "puerta",
+        "de": "Tür",
+        "fr": "porte",
+        "pl": "drzwi",
+        "id": "pintu",
+        "hi": "दरवाज़ा",
+        "zh": "门",
+        "it": "porta",
+        "tr": "kapı",
+        "sr": "врата",
+        "fi": "ovi",
+        "et": "uks",
+        "be": "дзверы",
+        "lv": "durvis",
+        "lt": "durys"
+      },
+      "examples": [
+        {
+          "text": "Mannen låser upp bildörren med nyckeln"
+        },
+        {
+          "text": "Jag öppnade dörren för att släppa in katten"
+        },
+        {
+          "text": "Dörren till sovrummet är alltid stängd"
+        },
+        {
+          "text": "Jag knackade på dörren, men ingen öppnade"
+        },
+        {
+          "text": "Utbildning öppnar många dörrar i livet"
+        },
+        {
+          "text": ": Stäng dörren, det drar!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3ed7e99b-60b5-4e2b-9ae3-5102f5997770",
+      "version": 1,
+      "word": "ett fönster",
+      "forms": [
+        {
+          "form": "fönstret"
+        },
+        {
+          "form": "fönster"
+        },
+        {
+          "form": "fönstren"
+        }
+      ],
+      "translations": {
+        "ru": "окно",
+        "en": "window",
+        "uk": "вікно",
+        "ar": "نافذة",
+        "fa": "پنجره",
+        "so": "daaqad",
+        "es": "ventana",
+        "de": "Fenster",
+        "fr": "fenêtre",
+        "pl": "okno",
+        "id": "jendela",
+        "hi": "खिड़की",
+        "zh": "窗户",
+        "it": "finestra",
+        "tr": "pencere",
+        "sr": "прозор",
+        "fi": "ikkuna",
+        "et": "aken",
+        "be": "акно",
+        "lv": "logs",
+        "lt": "langas"
+      },
+      "examples": [
+        {
+          "text": "Badrummet har ett litet fönster"
+        },
+        {
+          "text": "Jag öppnade fönstret för att vädra rummet"
+        },
+        {
+          "text": "Fönstren i huset är stora och släpper in mycket ljus"
+        },
+        {
+          "text": "Hon satte en blomkruka på fönsterbrädan"
+        },
+        {
+          "text": "Vinden blåste rakt in genom det öppna fönstret"
+        },
+        {
+          "text": "De tvättade fönstren inför våren"
+        },
+        {
+          "text": "Det är kallt, stäng fönstret!"
+        },
+        {
+          "text": "Han tittade ut genom fönstret och såg snön falla"
+        },
+        {
+          "text": "Fönstret var trasigt och behövde bytas"
+        },
+        {
+          "text": "Hon drog undan gardinerna för att släppa in solen genom fönstret"
+        },
+        {
+          "text": "Barnet pekade på fågeln utanför fönstret."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3d99e89c-db3b-44c9-88f0-216899879d54",
+      "version": -1,
+      "word": "en fläkt",
+      "forms": [
+        {
+          "form": "fläktar"
+        }
+      ],
+      "translations": {
+        "ru": "вентиллятор",
+        "en": "fan",
+        "uk": "вентилятор",
+        "ar": "مروحة",
+        "fa": "پنکه",
+        "so": "faan",
+        "es": "ventilador",
+        "de": "Ventilator",
+        "fr": "ventilateur",
+        "pl": "wentylator",
+        "id": "kipas angin",
+        "hi": "पंखा",
+        "zh": "风扇",
+        "it": "ventilatore",
+        "tr": "vantilatör",
+        "sr": "вентилатор",
+        "fi": "tuuletin",
+        "et": "ventilaator",
+        "be": "вентылятар",
+        "lv": "ventilators",
+        "lt": "ventiliatorius"
+      },
+      "examples": [
+        {
+          "text": "När jag satte på fläkten blåste mina papper över hela rummet"
+        },
+        {
+          "text": "Vi köpte en ny fläkt för att svalka oss på sommaren"
+        },
+        {
+          "text": "Fläkten på kontoret är trasig, så det är väldigt varmt"
+        },
+        {
+          "text": "Han satte på fläkten för att få lite sval luft"
+        },
+        {
+          "text": "Fläktarna på datorn låter väldigt högt"
+        },
+        {
+          "text": "Vi installerade en ny köksfläkt över spisen"
+        },
+        {
+          "text": "Köksfläkten behöver rengöras regelbundet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e472b2a2-b150-4549-80df-9b5a75614864",
+      "version": -1,
+      "word": "en luftkonditionering",
+      "forms": [
+        {
+          "form": "luftkonditioneringar"
+        }
+      ],
+      "translations": {
+        "ru": "кондиционер",
+        "en": "air conditioner",
+        "uk": "кондиціонер",
+        "ar": "مكيف الهواء",
+        "fa": "تهویه مطبوع",
+        "so": "qaboojiye hawada",
+        "es": "aire acondicionado",
+        "de": "Klimaanlage",
+        "fr": "climatiseur",
+        "pl": "klimatyzator",
+        "id": "pendingin udara",
+        "hi": "वातानुकूलक",
+        "zh": "空调",
+        "it": "condizionatore d'aria",
+        "tr": "klima",
+        "sr": "клима уређај",
+        "fi": "ilmastointilaite",
+        "et": "konditsioneer",
+        "be": "кандыцыянер",
+        "lv": "gaisa kondicionieris",
+        "lt": "oro kondicionierius"
+      },
+      "examples": [
+        {
+          "text": "Externa luftkonditioneringsapparater är rätt billiga"
+        },
+        {
+          "text": "Luftkonditioneringen fungerar inte i bilen"
+        },
+        {
+          "text": "Modern luftkonditionering är både tyst och energieffektiv"
+        },
+        {
+          "text": "Kontoret blev mycket bekvämare med luftkonditionering"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "cda30de3-eae1-40f7-92fd-09f32bd168ca",
+      "version": -1,
+      "word": "en hyresvärd",
+      "forms": [
+        {
+          "form": "hyresvärdar"
+        }
+      ],
+      "translations": {
+        "ru": "арендодатель лендлорд",
+        "en": "landlord",
+        "uk": "орендодавець",
+        "ar": "المالك",
+        "fa": "صاحبخانه",
+        "so": "mulkiilaha",
+        "es": "propietario",
+        "de": "Vermieter",
+        "fr": "propriétaire",
+        "pl": "wynajmujący",
+        "id": "pemilik",
+        "hi": "मकान मालिक",
+        "zh": "房东",
+        "it": "proprietario",
+        "tr": "ev sahibi",
+        "sr": "власник",
+        "fi": "vuokranantaja",
+        "et": "üürileandja",
+        "be": "арэндадаўца",
+        "lv": "īpašnieks",
+        "lt": "nuomotojas"
+      },
+      "examples": [
+        {
+          "text": "Min hyresvärd är väldigt hjälpsam"
+        },
+        {
+          "text": "Hyresvärden hjälper oss med reparationer"
+        },
+        {
+          "text": "Jag måste ringa min hyresvärd om en läcka i köket"
+        },
+        {
+          "text": "Hyresvärden är ansvarig för att bostaden är i gott skick"
+        },
+        {
+          "text": "Vår hyresvärd är en stor fastighetsägare"
+        },
+        {
+          "text": "Vi hyr en lägenhet av en privat hyresvärd."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "db337e18-b98d-4bd8-816c-76200c0aed0b",
+      "version": -1,
+      "word": "en gräsmatta",
+      "forms": [
+        {
+          "form": "gräsmattor"
+        }
+      ],
+      "translations": {
+        "ru": "лужайка, газон",
+        "en": "lawn, grass",
+        "uk": "газон, трава",
+        "ar": "عشب، حديقة",
+        "fa": "چمن، علف",
+        "so": "caws, beer",
+        "es": "césped, hierba",
+        "de": "Rasen, Gras",
+        "fr": "pelouse, herbe",
+        "pl": "trawnik, trawa",
+        "id": "rumput, halaman",
+        "hi": "लॉन, घास",
+        "zh": "草坪, 草",
+        "it": "prato, erba",
+        "tr": "çim, çimen",
+        "sr": "травњак, трава",
+        "fi": "nurmi, ruoho",
+        "et": "muru, rohi",
+        "be": "газон, трава",
+        "lv": "zāliens, zāle",
+        "lt": "veja, žolė"
+      },
+      "examples": [
+        {
+          "text": "Barnen leker på gräsmattan utanför huset"
+        },
+        {
+          "text": "Vi behöver klippa gräsmattan innan gästerna kommer"
+        },
+        {
+          "text": "Det är förbjudet att gå på gräsmattan i parken"
+        },
+        {
+          "text": "Gräsmattan ser så grön och frisk ut efter regnet"
+        },
+        {
+          "text": "De rullade ut ny gräsmatta i trädgården"
+        },
+        {
+          "text": "Han låg på gräsmattan och solade.Vi anlägger en ny gräsmatta runt huset"
+        },
+        {
+          "text": "Det fanns en stor gräsmatta mitt i bostadsområdet"
+        },
+        {
+          "text": "Hon vattnar gräsmattan varje morgon för att hålla den grön"
+        },
+        {
+          "text": "På sommaren brukar vi ha picknick på gräsmattan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "968f7c76-b362-4c57-b212-292051729571",
+      "version": -1,
+      "word": "en trädgård",
+      "forms": [
+        {
+          "form": "trädgården"
+        },
+        {
+          "form": "trädgårdar"
+        },
+        {
+          "form": "trädgårdarna"
+        }
+      ],
+      "translations": {
+        "ru": "сад",
+        "en": "garden",
+        "uk": "сад",
+        "ar": "حديقة",
+        "fa": "باغ",
+        "so": "beerta",
+        "es": "jardín",
+        "de": "Garten",
+        "fr": "jardin",
+        "pl": "ogród",
+        "id": "taman",
+        "hi": "बगीचा",
+        "zh": "花园",
+        "it": "giardino",
+        "tr": "bahçe",
+        "sr": "врт",
+        "fi": "puutarha",
+        "et": "aed",
+        "be": "сад",
+        "lv": "dārzs",
+        "lt": "sodas"
+      },
+      "examples": [
+        {
+          "text": "De har en vacker trädgård bakom huset"
+        },
+        {
+          "text": "Trädgården är full av blommor"
+        },
+        {
+          "text": "Många hus i området har stora trädgårdar"
+        },
+        {
+          "text": "Vi spenderar mycket tid i trädgården på sommaren"
+        },
+        {
+          "text": "Han planterade rosor i sin trädgård"
+        },
+        {
+          "text": "Botaniska trädgården i Göteborg är fantastisk"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2eabd46d-e28a-43b7-b7e4-756004cc1636",
+      "version": -1,
+      "word": "en gardin",
+      "forms": [
+        {
+          "form": "gardiner"
+        }
+      ],
+      "translations": {
+        "ru": "занавеска штора",
+        "en": "curtain",
+        "uk": "завіса",
+        "ar": "ستارة",
+        "fa": "پرده",
+        "so": "daah",
+        "es": "cortina",
+        "de": "Vorhang",
+        "fr": "rideau",
+        "pl": "zasłona",
+        "id": "tirai",
+        "hi": "पर्दा",
+        "zh": "窗帘",
+        "it": "tenda",
+        "tr": "perde",
+        "sr": "завеса",
+        "fi": "verho",
+        "et": "kardin",
+        "be": "заслона",
+        "lv": "aizkars",
+        "lt": "užuolaida"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte nya gardiner till vardagsrummet"
+        },
+        {
+          "text": "Gardinerna i sovrummet är ljusa och luftiga"
+        },
+        {
+          "text": "Jag drog för gardinerna för att blockera solen"
+        },
+        {
+          "text": "De röda gardinerna passar perfekt till mattan"
+        },
+        {
+          "text": "Vi behöver längre gardiner till det stora fönstret."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "76c30479-0543-4a42-b225-18b680855bac",
+      "version": -1,
+      "word": "en krukväxt",
+      "forms": [
+        {
+          "form": "krukväxter"
+        }
+      ],
+      "translations": {
+        "ru": "растение в горшке",
+        "en": "potted plant",
+        "uk": "рослина в горщику",
+        "ar": "نبتة في وعاء",
+        "fa": "گیاه گلدانی",
+        "so": "geed dheri ku jira",
+        "es": "planta en maceta",
+        "de": "Topfpflanze",
+        "fr": "plante en pot",
+        "pl": "roślina doniczkowa",
+        "id": "tanaman dalam pot",
+        "hi": "गमले का पौधा",
+        "zh": "盆栽植物",
+        "it": "pianta in vaso",
+        "tr": "saksı bitkisi",
+        "sr": "биљка у саксији",
+        "fi": "ruukkukasvi",
+        "et": "potitaim",
+        "be": "расліна ў гаршку",
+        "lv": "augs podā",
+        "lt": "augalas vazone"
+      },
+      "examples": [
+        {
+          "text": "Hon har många krukväxter i sitt vardagsrum"
+        },
+        {
+          "text": "Den här krukväxten behöver mycket sol och vatten"
+        },
+        {
+          "text": "Jag vattnar mina krukväxter en gång i veckan"
+        },
+        {
+          "text": "En grön krukväxt gör hemmet mysigare"
+        },
+        {
+          "text": "Krukväxterna i fönstret trivs i ljuset"
+        },
+        {
+          "text": "Hon köpte en ny krukväxt till kontoret"
+        },
+        {
+          "text": "Om bladen blir gula kan krukväxten ha fått för mycket vatten"
+        },
+        {
+          "text": "Han älskar att ta hand om sina krukväxter"
+        },
+        {
+          "text": "De satte en stor krukväxt i hörnet av rummet"
+        },
+        {
+          "text": "Det finns både blommande och gröna krukväxter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a3ef4cf7-5485-4cb2-8c74-f6b810e10675",
+      "version": -1,
+      "word": "ett blombord",
+      "forms": [
+        {
+          "form": "blombordet"
+        },
+        {
+          "form": "blombord"
+        },
+        {
+          "form": "blomborden"
+        }
+      ],
+      "translations": {
+        "ru": "цветочный столик",
+        "en": "flower table",
+        "uk": "квітковий стіл",
+        "ar": "طاولة زهور",
+        "fa": "میز گل",
+        "so": "miiska ubaxa",
+        "es": "mesa de flores",
+        "de": "Blumentisch",
+        "fr": "table à fleurs",
+        "pl": "stolik na kwiaty",
+        "id": "meja bunga",
+        "hi": "फूलों की मेज",
+        "zh": "花桌",
+        "it": "tavolo per fiori",
+        "tr": "çiçek masası",
+        "sr": "цветни сто",
+        "fi": "kukkapöytä",
+        "et": "lillelaud",
+        "be": "кветкавы столік",
+        "lv": "ziedu galds",
+        "lt": "gėlių stalas"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte ett nytt blombord till vardagsrummet"
+        },
+        {
+          "text": "Blombordet står i hörnet nära fönstret"
+        },
+        {
+          "text": "Hon placerade sina växter på ett vackert blombord av trä"
+        },
+        {
+          "text": "Blomborden i affären är gjorda av metall och glas"
+        },
+        {
+          "text": "Vi behöver ett större blombord för alla våra krukväxter"
+        },
+        {
+          "text": "Blombordet var en present från min mormor"
+        },
+        {
+          "text": "De ställde blomborden på balkongen för att visa sina blommor"
+        },
+        {
+          "text": "Jag hittade ett antikt blombord på loppmarknaden"
+        },
+        {
+          "text": "Blombordens höjd gör att blommorna syns tydligt i rummet"
+        },
+        {
+          "text": "Vi målade om vårt gamla blombord så att det passar bättre till inredningen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a9411204-1b90-42a7-a01b-4b9fb7ebd069",
+      "version": -1,
+      "word": "en belysningen",
+      "translations": {
+        "ru": "освещение",
+        "en": "lighting",
+        "uk": "освітлення",
+        "ar": "إضاءة",
+        "fa": "روشنایی",
+        "so": "iftiin",
+        "es": "iluminación",
+        "de": "Beleuchtung",
+        "fr": "éclairage",
+        "pl": "oświetlenie",
+        "id": "pencahayaan",
+        "hi": "प्रकाश",
+        "zh": "照明",
+        "it": "illuminazione",
+        "tr": "aydınlatma",
+        "sr": "осветљење",
+        "fi": "valaistus",
+        "et": "valgustus",
+        "be": "асвятленне",
+        "lv": "apgaismojums",
+        "lt": "apšvietimas"
+      },
+      "examples": [
+        {
+          "text": "Det beror ofta på att belysningen är bra"
+        },
+        {
+          "text": "Belysningen i rummet är för svag"
+        },
+        {
+          "text": "Vi behöver bättre belysning i köket"
+        },
+        {
+          "text": "Vi behöver bättre belysning i köket"
+        },
+        {
+          "text": "Han justerade belysningen för att skapa en mysigare atmosfär"
+        },
+        {
+          "text": "Dålig belysning kan orsaka trötta ögon"
+        },
+        {
+          "text": "Belysningen i korridoren är rörelsestyrd"
+        },
+        {
+          "text": "Vi installerade LED-lampor för att förbättra belysningen"
+        },
+        {
+          "text": "Konstverket ser bättre ut under rätt belysning"
+        },
+        {
+          "text": "Belysningen på scenen ändrades under föreställningen"
+        },
+        {
+          "text": "Hon ville ha varmare belysning i vardagsrummet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "06a0874d-973c-4a12-ab21-1012747345b3",
+      "version": -1,
+      "word": "en taklampa",
+      "forms": [
+        {
+          "form": "taklampor"
+        }
+      ],
+      "translations": {
+        "ru": "потолочная лампа",
+        "en": "ceiling lamp",
+        "uk": "стельова лампа",
+        "ar": "مصباح سقف",
+        "fa": "چراغ سقفی",
+        "so": "laambad saqafka",
+        "es": "lámpara de techo",
+        "de": "Deckenlampe",
+        "fr": "lampe de plafond",
+        "pl": "lampa sufitowa",
+        "id": "lampu langit-langit",
+        "hi": "छत की बत्ती",
+        "zh": "天花板灯",
+        "it": "lampada da soffitto",
+        "tr": "tavan lambası",
+        "sr": "плафонска лампа",
+        "fi": "kattolamppu",
+        "et": "laelamp",
+        "be": "стольная лямпа",
+        "lv": "griestu lampa",
+        "lt": "lubų lempa"
+      },
+      "examples": [
+        {
+          "text": "Vi köpte en ny taklampa till vardagsrummet"
+        },
+        {
+          "text": "Taklampan lyser inte, kanske behöver vi byta glödlampan"
+        },
+        {
+          "text": "I köket har vi en stark taklampa för bättre belysning"
+        },
+        {
+          "text": "Hon valde en modern taklampa med dimmerfunktion"
+        },
+        {
+          "text": "Taklamporna i butiken finns i många olika stilar och färger"
+        },
+        {
+          "text": "Jag gillar kristallkronor, men en enkel taklampa passar bättre här"
+        },
+        {
+          "text": "Han monterade taklampan själv utan hjälp av en elektriker"
+        },
+        {
+          "text": "Vi behöver en större taklampa för att lysa upp hela rummet"
+        },
+        {
+          "text": "Taklampan hänger lite för lågt, vi kanske ska justera den"
+        },
+        {
+          "text": "Barnen valde en färgglad taklampa till sitt rum."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "977039f1-7f58-4fae-9b67-51f284911f35",
+      "version": -1,
+      "word": "ett stambyte",
+      "forms": [
+        {
+          "form": "stambytet"
+        },
+        {
+          "form": "stambyten"
+        },
+        {
+          "form": "stambytena"
+        }
+      ],
+      "translations": {
+        "ru": "замена стояков, капитальная замена труб (в жилом доме)",
+        "en": "replacement of risers, major pipe replacement (in a residential building)",
+        "uk": "заміна стояків, капітальна заміна труб (у житловому будинку)",
+        "ar": "استبدال الأنابيب الرأسية، استبدال الأنابيب الرئيسي (في مبنى سكني)",
+        "fa": "تعویض رایزرها، تعویض عمده لوله‌ها (در یک ساختمان مسکونی)",
+        "so": "bedelka tuubooyinka, bedelka weyn ee tuubooyinka (guri degenaansho)",
+        "es": "reemplazo de columnas, reemplazo mayor de tuberías (en un edificio residencial)",
+        "de": "Austausch von Steigleitungen, umfassender Rohrwechsel (in einem Wohngebäude)",
+        "fr": "remplacement des colonnes montantes, remplacement majeur des tuyaux (dans un immeuble résidentiel)",
+        "pl": "wymiana pionów, główna wymiana rur (w budynku mieszkalnym)",
+        "id": "penggantian riser, penggantian pipa besar (di gedung perumahan)",
+        "hi": "राइज़र का प्रतिस्थापन, प्रमुख पाइप प्रतिस्थापन (एक आवासीय भवन में)",
+        "zh": "更换立管，主要管道更换（在住宅楼中）",
+        "it": "sostituzione dei montanti, sostituzione principale delle tubature (in un edificio residenziale)",
+        "tr": "dikey boruların değiştirilmesi, ana boru değişimi (bir konut binasında)",
+        "sr": "замена вертикала, велика замена цеви (у стамбеној згради)",
+        "fi": "nousuputkien vaihto, merkittävä putkiston vaihto (asuinrakennuksessa)",
+        "et": "püstikute vahetus, torude põhjalik vahetus (elamutes)",
+        "be": "замена стоякоў, капітальная замена труб (у жылым доме)",
+        "lv": "stāvvada nomaiņa, galvenā cauruļu nomaiņa (dzīvojamā ēkā)",
+        "lt": "stovu keitimas, pagrindinis vamzdžių keitimas (gyvenamajame name)"
+      },
+      "examples": [
+        {
+          "text": "Ett stambyte är planerat i fastigheten nästa år"
+        },
+        {
+          "text": "Stambytet kan ta flera månader"
+        },
+        {
+          "text": "Under stambytet kan man inte använda badrummet"
+        },
+        {
+          "text": "Efter stambytet fick vi ett helt nytt badrum"
+        },
+        {
+          "text": "Stambyte är nödvändigt för att undvika vattenskador"
+        },
+        {
+          "text": "Hela huset ska genomgå ett stambyte"
+        },
+        {
+          "text": "Föreningen informerade om kommande stambyte"
+        },
+        {
+          "text": "Ett stambyte innebär ofta mycket byggstök"
+        },
+        {
+          "text": "Stambytet inkluderar byte av vatten- och avloppsrör"
+        },
+        {
+          "text": "Man får ofta rabatt på hyran under stambyte."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fae1c2b8-ae81-479c-a476-44447b197e6c",
+      "version": -1,
+      "word": "ett byggande",
+      "translations": {
+        "ru": "строительство, строение, процесс постройки",
+        "en": "construction, building, building process",
+        "uk": "будівництво, будівля, процес будівництва",
+        "ar": "البناء، المبنى، عملية البناء",
+        "fa": "ساخت و ساز، ساختمان، فرآیند ساخت",
+        "so": "dhismo, dhisme, habka dhismaha",
+        "es": "construcción, edificio, proceso de construcción",
+        "de": "Bau, Gebäude, Bauprozess",
+        "fr": "construction, bâtiment, processus de construction",
+        "pl": "budowa, budynek, proces budowy",
+        "id": "konstruksi, bangunan, proses pembangunan",
+        "hi": "निर्माण, इमारत, निर्माण प्रक्रिया",
+        "zh": "建设, 建筑, 建筑过程",
+        "it": "costruzione, edificio, processo di costruzione",
+        "tr": "inşaat, bina, inşa süreci",
+        "sr": "изградња, зграда, процес изградње",
+        "fi": "rakentaminen, rakennus, rakennusprosessi",
+        "et": "ehitus, hoone, ehitusprotsess",
+        "be": "будаўніцтва, будынак, працэс будаўніцтва",
+        "lv": "būvniecība, ēka, būvniecības process",
+        "lt": "statyba, pastatas, statybos procesas"
+      },
+      "examples": [
+        {
+          "text": "Byggandet av det nya sjukhuset har börjat"
+        },
+        {
+          "text": "Hållbart byggande blir allt viktigare"
+        },
+        {
+          "text": "Kommunen vill stoppa byggande nära vattnet"
+        },
+        {
+          "text": "Det är mycket ljud från byggandet utanför"
+        },
+        {
+          "text": "Byggandet av relationer kräver tid och tillit"
+        },
+        {
+          "text": "Vi diskuterade byggandet av ett nytt bostadsområde"
+        },
+        {
+          "text": "Föreningen jobbar med byggande av gemenskap"
+        },
+        {
+          "text": "Byggandet har försenats på grund av vädret"
+        },
+        {
+          "text": "Planen gäller byggande av skolor i området"
+        },
+        {
+          "text": "Byggandet av broar är både praktiskt och symboliskt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c2980517-330a-4e19-bc99-b90390a3a673",
+      "version": -1,
+      "word": "en bostadsbrist",
+      "translations": {
+        "ru": "нехватка жилья, жилищный кризис",
+        "en": "housing shortage, housing crisis",
+        "uk": "нестача житла, житлова криза",
+        "ar": "نقص الإسكان، أزمة الإسكان",
+        "fa": "کمبود مسکن، بحران مسکن",
+        "so": "yarida guryaha, dhibaatooyinka guryaha",
+        "es": "escasez de vivienda, crisis de vivienda",
+        "de": "Wohnungsmangel, Wohnungskrise",
+        "fr": "pénurie de logements, crise du logement",
+        "pl": "niedobór mieszkań, kryzys mieszkaniowy",
+        "id": "kekurangan perumahan, krisis perumahan",
+        "hi": "आवास की कमी, आवास संकट",
+        "zh": "住房短缺, 住房危机",
+        "it": "carenza di alloggi, crisi abitativa",
+        "tr": "konut sıkıntısı, konut krizi",
+        "sr": "недостатак станова, стамбена криза",
+        "fi": "asuntopula, asuntokriisi",
+        "et": "elamispindade puudus, elamukriis",
+        "be": "недахоп жылля, жыллёвы крызіс",
+        "lv": "mājokļu trūkums, mājokļu krīze",
+        "lt": "būsto trūkumas, būsto krizė"
+      },
+      "examples": [
+        {
+          "text": "Det är bostadsbrist i hela landet"
+        },
+        {
+          "text": "Studenter påverkas särskilt av bostadsbristen"
+        },
+        {
+          "text": "Regeringen vill bygga fler bostäder för att minska bostadsbristen"
+        },
+        {
+          "text": "Bostadsbristen gör det svårt för unga att flytta hemifrån"
+        },
+        {
+          "text": "I Malmö finns det fortfarande bostadsbrist"
+        },
+        {
+          "text": "Akut bostadsbrist tvingar familjer att bo trångt"
+        },
+        {
+          "text": "Fler hyresrätter behövs för att lösa bostadsbristen"
+        },
+        {
+          "text": "Bostadsbristen leder till höga priser"
+        },
+        {
+          "text": "Kommunen planerar nya områden för att motverka bostadsbristen"
+        },
+        {
+          "text": "De flesta unga i Stockholm påverkas av bostadsbrist."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

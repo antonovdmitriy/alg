@@ -1,0 +1,4588 @@
+{
+  "id": "6b265d4d-64fa-4eb1-a7c8-ad0d977d2bca",
+  "translations": {
+    "ru": "Время и дата",
+    "en": "Time and date",
+    "uk": "Час і дата",
+    "ar": "الوقت والتاريخ",
+    "fa": "زمان و تاریخ",
+    "so": "Waqti iyo taariikh",
+    "es": "Hora y fecha",
+    "de": "Zeit und Datum",
+    "fr": "Heure et date",
+    "pl": "Czas i data",
+    "id": "Waktu dan tanggal",
+    "hi": "समय और तारीख",
+    "zh": "时间和日期",
+    "it": "Ora e data",
+    "tr": "Zaman ve tarih",
+    "sr": "Време и датум",
+    "fi": "Aika ja päivämäärä",
+    "et": "Aeg ja kuupäev",
+    "be": "Час і дата",
+    "lv": "Laiks un datums",
+    "lt": "Laikas ir data"
+  },
+  "entries": [
+    {
+      "id": "0ff1af66-1634-456f-97d8-5f7fa36ad3ce",
+      "version": -1,
+      "word": "på våren",
+      "translations": {
+        "ru": "весной",
+        "en": "in spring",
+        "uk": "навесні",
+        "ar": "في الربيع",
+        "fa": "در بهار",
+        "so": "guga",
+        "es": "en primavera",
+        "de": "im Frühling",
+        "fr": "au printemps",
+        "pl": "wiosną",
+        "id": "di musim semi",
+        "hi": "वसंत में",
+        "zh": "在春天",
+        "it": "in primavera",
+        "tr": "ilkbaharda",
+        "sr": "у пролеће",
+        "fi": "keväällä",
+        "et": "kevadel",
+        "be": "вясной",
+        "lv": "pavasarī",
+        "lt": "pavasarį"
+      },
+      "examples": [
+        {
+          "text": "På våren blommar träden"
+        },
+        {
+          "text": "Vi brukar resa till landet på våren"
+        },
+        {
+          "text": "Det blir varmare på våren"
+        },
+        {
+          "text": "På våren börjar fåglarna sjunga tidigt på morgonen"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bc5da3c8-c3a2-44aa-bd7e-3cb93c8953b1",
+      "version": -1,
+      "word": "på sommaren",
+      "translations": {
+        "ru": "летом",
+        "en": "in summer",
+        "uk": "влітку",
+        "ar": "في الصيف",
+        "fa": "در تابستان",
+        "so": "xagaaga",
+        "es": "en verano",
+        "de": "im Sommer",
+        "fr": "en été",
+        "pl": "latem",
+        "id": "di musim panas",
+        "hi": "गर्मी में",
+        "zh": "在夏天",
+        "it": "in estate",
+        "tr": "yazın",
+        "sr": "лети",
+        "fi": "kesällä",
+        "et": "suvel",
+        "be": "улетку",
+        "lv": "vasarā",
+        "lt": "vasarą"
+      },
+      "examples": [
+        {
+          "text": "På sommaren är det varmt och soligt"
+        },
+        {
+          "text": "Vi brukar åka till landet på sommaren"
+        },
+        {
+          "text": "Det finns många turister i Sverige på sommaren"
+        },
+        {
+          "text": "På sommaren är dagarna långa och nätterna korta"
+        },
+        {
+          "text": "Vi brukar grilla mycket på sommaren"
+        },
+        {
+          "text": "På sommaren reser många svenskar utomlands"
+        },
+        {
+          "text": "Det regnar ibland mycket på sommaren"
+        },
+        {
+          "text": "På sommaren blommar många vackra blommor"
+        },
+        {
+          "text": "Vi badar i havet på sommaren"
+        },
+        {
+          "text": "På sommaren har vi semester"
+        },
+        {
+          "text": "Jag älskar att äta jordgubbar på sommaren"
+        },
+        {
+          "text": "På sommaren kan man sitta ute länge på kvällarna"
+        },
+        {
+          "text": "Sverige är väldigt vackert på sommaren."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e1e3f387-6553-4841-bd9e-362763c54c36",
+      "version": -1,
+      "word": "på vintern",
+      "translations": {
+        "ru": "зимой",
+        "en": "in winter",
+        "uk": "взимку",
+        "ar": "في الشتاء",
+        "fa": "در زمستان",
+        "so": "jiilaalka",
+        "es": "en invierno",
+        "de": "im Winter",
+        "fr": "en hiver",
+        "pl": "zimą",
+        "id": "di musim dingin",
+        "hi": "सर्दियों में",
+        "zh": "在冬天",
+        "it": "in inverno",
+        "tr": "kışın",
+        "sr": "зими",
+        "fi": "talvella",
+        "et": "talvel",
+        "be": "зімой",
+        "lv": "ziemā",
+        "lt": "žiemą"
+      },
+      "examples": [
+        {
+          "text": "På vintern är det kallt och mörkt"
+        },
+        {
+          "text": "Vi åker skidor på vintern"
+        },
+        {
+          "text": "Många firar jul på vintern"
+        },
+        {
+          "text": "På vintern är dagarna korta och nätterna långa"
+        },
+        {
+          "text": "Vi brukar åka skridskor på vintern"
+        },
+        {
+          "text": "På vintern är det ofta minusgrader i Sverige"
+        },
+        {
+          "text": "Många djur går i ide på vintern"
+        },
+        {
+          "text": "På vintern måste man ha varma kläder"
+        },
+        {
+          "text": "Det blir mörkt tidigt på vintern"
+        },
+        {
+          "text": "På vintern är det vanligt med snöstormar i norra Sverige"
+        },
+        {
+          "text": "Många reser till varma länder på vintern"
+        },
+        {
+          "text": "Vi tänder ljus och dricker varm choklad på vintern"
+        },
+        {
+          "text": "På vintern är det julmarknader i många svenska städer."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aeb63ca5-e290-4ae4-967b-74b8e68a3514",
+      "version": -1,
+      "word": "på hösten",
+      "translations": {
+        "ru": "осенью",
+        "en": "in autumn",
+        "uk": "восени",
+        "ar": "في الخريف",
+        "fa": "در پاییز",
+        "so": "xilliga dayrta",
+        "es": "en otoño",
+        "de": "im Herbst",
+        "fr": "en automne",
+        "pl": "jesienią",
+        "id": "di musim gugur",
+        "hi": "पतझड़ में",
+        "zh": "在秋天",
+        "it": "in autunno",
+        "tr": "sonbaharda",
+        "sr": "у јесен",
+        "fi": "syksyllä",
+        "et": "sügisel",
+        "be": "восенню",
+        "lv": "rudenī",
+        "lt": "rudenį"
+      },
+      "examples": [
+        {
+          "text": "På hösten blir det kallare och mörkare"
+        },
+        {
+          "text": "Många svenskar plockar svamp på hösten"
+        },
+        {
+          "text": "På hösten skiftar löven färg till gult och rött"
+        },
+        {
+          "text": "På hösten börjar skolan igen"
+        },
+        {
+          "text": "Det regnar ofta mycket på hösten"
+        },
+        {
+          "text": "På hösten blir kvällarna kyliga"
+        },
+        {
+          "text": "Många flyttfåglar lämnar Sverige på hösten"
+        },
+        {
+          "text": "På hösten är det vackert i skogen"
+        },
+        {
+          "text": "Vi brukar tända ljus och mysa på hösten"
+        },
+        {
+          "text": "På hösten finns det många svampar i skogen"
+        },
+        {
+          "text": "Jag tycker om att promenera i parken på hösten"
+        },
+        {
+          "text": "På hösten dricker jag gärna te eller varm choklad"
+        },
+        {
+          "text": "Många älskar att läsa böcker på hösten"
+        },
+        {
+          "text": "På hösten blir dagarna kortare."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1d6bb1c4-39a1-4e2a-aa2a-423e2cc8ce6f",
+      "version": -1,
+      "word": "fyra årstider",
+      "translations": {
+        "ru": "четыре сезона",
+        "en": "four seasons",
+        "uk": "чотири сезони",
+        "ar": "أربعة فصول",
+        "fa": "چهار فصل",
+        "so": "afar xilli",
+        "es": "cuatro estaciones",
+        "de": "vier Jahreszeiten",
+        "fr": "quatre saisons",
+        "pl": "cztery pory roku",
+        "id": "empat musim",
+        "hi": "चार मौसम",
+        "zh": "四个季节",
+        "it": "quattro stagioni",
+        "tr": "dört mevsim",
+        "sr": "четири годишња доба",
+        "fi": "neljä vuodenaikaa",
+        "et": "neli aastaaega",
+        "be": "чатыры сезоны",
+        "lv": "četri gadalaiki",
+        "lt": "keturi metų laikai"
+      },
+      "examples": [
+        {
+          "text": "Sverige har fyra årstider: vår, sommar, höst och vinter"
+        },
+        {
+          "text": "Vi älskar att resa under alla fyra årstider"
+        },
+        {
+          "text": "De fyra årstiderna påverkar vårt humör och energi"
+        },
+        {
+          "text": "I Japan firar man de fyra årstiderna med speciella festivaler"
+        },
+        {
+          "text": "Det svenska klimatet är unikt eftersom vi har tydliga fyra årstider"
+        },
+        {
+          "text": "Konstnären målade en serie tavlor som representerar de fyra årstiderna"
+        },
+        {
+          "text": "Maten vi äter varierar beroende på de fyra årstiderna"
+        },
+        {
+          "text": "Vivaldi skrev det berömda musikverket \"De fyra årstiderna\""
+        },
+        {
+          "text": "Man kan njuta av naturen på olika sätt under de fyra årstiderna"
+        },
+        {
+          "text": "Många restauranger erbjuder menyer anpassade efter de fyra årstiderna."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c43eb917-7d89-450f-94e9-b570e7d8c075",
+      "version": 1,
+      "word": "Idag",
+      "translations": {
+        "ru": "Сегодня",
+        "en": "Today",
+        "uk": "Сьогодні",
+        "ar": "اليوم",
+        "fa": "امروز",
+        "so": "Maanta",
+        "es": "Hoy",
+        "de": "Heute",
+        "fr": "Aujourd'hui",
+        "pl": "Dzisiaj",
+        "id": "Hari ini",
+        "hi": "आज",
+        "zh": "今天",
+        "it": "Oggi",
+        "tr": "Bugün",
+        "sr": "Данас",
+        "fi": "Tänään",
+        "et": "Täna",
+        "be": "Сёння",
+        "lv": "Šodien",
+        "lt": "Šiandien"
+      },
+      "examples": [
+        {
+          "text": "Hon ser väldigt ledsen ut idag"
+        },
+        {
+          "text": "Idag är det måndag"
+        },
+        {
+          "text": "Jag har mycket att göra idag"
+        },
+        {
+          "text": "Vad blir det för middag idag?"
+        },
+        {
+          "text": "Idag ska vi gå på bio"
+        },
+        {
+          "text": "Det är varmt och soligt idag"
+        },
+        {
+          "text": "Jag känner mig trött idag"
+        },
+        {
+          "text": "Idag har vi en viktig möte"
+        },
+        {
+          "text": "Jag börjar mitt nya jobb idag!"
+        },
+        {
+          "text": "Idag är det min födelsedag!"
+        },
+        {
+          "text": "Affären stänger tidigare idag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c3196f37-ef46-471b-86d4-72fad11609e2",
+      "version": -1,
+      "word": "i morse",
+      "translations": {
+        "ru": "ранее сегодня утром",
+        "en": "earlier this morning",
+        "uk": "раніше сьогодні вранці",
+        "ar": "في وقت سابق من صباح اليوم",
+        "fa": "اوایل امروز صبح",
+        "so": "subaxnimadii hore ee maanta",
+        "es": "más temprano esta mañana",
+        "de": "früher heute Morgen",
+        "fr": "plus tôt ce matin",
+        "pl": "wcześniej dzisiaj rano",
+        "id": "tadi pagi",
+        "hi": "आज सुबह पहले",
+        "zh": "今天早些时候",
+        "it": "questa mattina presto",
+        "tr": "bu sabah erken saatlerde",
+        "sr": "раније јутрос",
+        "fi": "aikaisemmin tänä aamuna",
+        "et": "varem täna hommikul",
+        "be": "раней сёння раніцай",
+        "lv": "agrāk šorīt",
+        "lt": "anksčiau šį rytą"
+      },
+      "examples": [
+        {
+          "text": "Jag åt frukost klockan sju i morse"
+        },
+        {
+          "text": "Det var väldigt kallt i morse"
+        },
+        {
+          "text": "Jag var trött i morse, men nu mår jag bättre.Jag vaknade tidigt i morse"
+        },
+        {
+          "text": "I morse regnade det mycket"
+        },
+        {
+          "text": "Jag glömde min mobil hemma i morse"
+        },
+        {
+          "text": "I morse var det trafikstockning på vägen till jobbet"
+        },
+        {
+          "text": "Vi pratade om resan i morse"
+        },
+        {
+          "text": "Jag missade bussen i morse"
+        },
+        {
+          "text": "I morse såg jag en räv i skogen"
+        },
+        {
+          "text": "Jag drack en kopp kaffe i morse"
+        },
+        {
+          "text": "I morse var jag sen till jobbet"
+        },
+        {
+          "text": "Min katt var väldigt busig i morse."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "13f43cd4-c0ae-46bd-bc36-92dd94138c76",
+      "version": 1,
+      "word": "Igår",
+      "translations": {
+        "ru": "Вчера",
+        "en": "Yesterday",
+        "uk": "Вчора",
+        "ar": "أمس",
+        "fa": "دیروز",
+        "so": "Shalay",
+        "es": "Ayer",
+        "de": "Gestern",
+        "fr": "Hier",
+        "pl": "Wczoraj",
+        "id": "Kemarin",
+        "hi": "कल",
+        "zh": "昨天",
+        "it": "Ieri",
+        "tr": "Dün",
+        "sr": "Јуче",
+        "fi": "Eilen",
+        "et": "Eile",
+        "be": "Учора",
+        "lv": "Vakar",
+        "lt": "Vakar"
+      },
+      "examples": [
+        {
+          "text": "Vad gjorde du igår?"
+        },
+        {
+          "text": "Det var soligt igår"
+        },
+        {
+          "text": "Jag träffade min vän igår"
+        },
+        {
+          "text": "Igår var det måndag"
+        },
+        {
+          "text": "Vi hade en fest igår"
+        },
+        {
+          "text": "Jag såg en bra film igår"
+        },
+        {
+          "text": "Igår var jag väldigt trött"
+        },
+        {
+          "text": "Det regnade hela dagen igår"
+        },
+        {
+          "text": "Jag åt sushi till middag igår"
+        },
+        {
+          "text": "Min chef var på kontoret igår"
+        },
+        {
+          "text": "Jag glömde min plånbok hemma igår"
+        },
+        {
+          "text": "Igår var en fantastisk dag!"
+        },
+        {
+          "text": "Vi reste till Göteborg igår."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7cde3235-4abb-4f00-a67f-dcb437f46f78",
+      "version": 1,
+      "word": "i förrgår",
+      "translations": {
+        "ru": "позавчера",
+        "en": "the day before yesterday",
+        "uk": "позавчора",
+        "ar": "أول أمس",
+        "fa": "پریروز",
+        "so": "maalintii ka horreysay shalay",
+        "es": "anteayer",
+        "de": "vorgestern",
+        "fr": "avant-hier",
+        "pl": "przedwczoraj",
+        "id": "kemarin lusa",
+        "hi": "परसों",
+        "zh": "前天",
+        "it": "l'altro ieri",
+        "tr": "evvelsi gün",
+        "sr": "прекјуче",
+        "fi": "toissapäivänä",
+        "et": "üleeile",
+        "be": "пазаўчора",
+        "lv": "aizvakar",
+        "lt": "užvakar"
+      },
+      "examples": [
+        {
+          "text": "Vad gjorde du i förrgår?"
+        },
+        {
+          "text": "I förrgår var det kallt, men igår var det varmare"
+        },
+        {
+          "text": "Jag träffade honom i förrgår"
+        },
+        {
+          "text": "Jag var på bio i förrgår"
+        },
+        {
+          "text": "I förrgår var det väldigt soligt"
+        },
+        {
+          "text": "Vi åt middag på den nya restaurangen i förrgår"
+        },
+        {
+          "text": "I förrgår köpte jag en ny tröja"
+        },
+        {
+          "text": "Jag var sjuk i förrgår men mår bättre nu"
+        },
+        {
+          "text": "I förrgår glömde jag mina nycklar hemma"
+        },
+        {
+          "text": "I förrgår var det snöstorm här"
+        },
+        {
+          "text": "Min vän fyllde år i förrgår"
+        },
+        {
+          "text": "Vi fick besked om jobbet i förrgår"
+        },
+        {
+          "text": "Jag tränade mycket i förrgår, så jag har träningsvärk idag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "93b4732e-82d4-4203-ae75-49fca91e40c8",
+      "version": -1,
+      "word": "förra veckan",
+      "translations": {
+        "ru": "на прошлой неделе",
+        "en": "last week",
+        "uk": "минулого тижня",
+        "ar": "الأسبوع الماضي",
+        "fa": "هفته گذشته",
+        "so": "usbuucii hore",
+        "es": "la semana pasada",
+        "de": "letzte Woche",
+        "fr": "la semaine dernière",
+        "pl": "w zeszłym tygodniu",
+        "id": "minggu lalu",
+        "hi": "पिछले हफ्ते",
+        "zh": "上周",
+        "it": "la settimana scorsa",
+        "tr": "geçen hafta",
+        "sr": "прошле недеље",
+        "fi": "viime viikolla",
+        "et": "eelmisel nädalal",
+        "be": "на мінулым тыдні",
+        "lv": "pagājušajā nedēļā",
+        "lt": "praėjusią savaitę"
+      },
+      "examples": [
+        {
+          "text": "Jag träffade honom förra veckan"
+        },
+        {
+          "text": "Förra veckan var jag på semester"
+        },
+        {
+          "text": "Det regnade mycket förra veckan"
+        },
+        {
+          "text": "Vi avslutade projektet förra veckan"
+        },
+        {
+          "text": "Förra veckan började jag en ny kurs."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "12c7c86a-7054-4740-b029-d2c9d1665a31",
+      "version": -1,
+      "word": "förra månaden",
+      "translations": {
+        "ru": "в прошлом месяце",
+        "en": "last month",
+        "uk": "минулого місяця",
+        "ar": "الشهر الماضي",
+        "fa": "ماه گذشته",
+        "so": "bisha la soo dhaafay",
+        "es": "el mes pasado",
+        "de": "letzten Monat",
+        "fr": "le mois dernier",
+        "pl": "w zeszłym miesiącu",
+        "id": "bulan lalu",
+        "hi": "पिछले महीने",
+        "zh": "上个月",
+        "it": "il mese scorso",
+        "tr": "geçen ay",
+        "sr": "прошлог месеца",
+        "fi": "viime kuussa",
+        "et": "eelmisel kuul",
+        "be": "у мінулым месяцы",
+        "lv": "pagājušajā mēnesī",
+        "lt": "praėjusį mėnesį"
+      },
+      "examples": [
+        {
+          "text": "Jag var i Stockholm förra månaden"
+        },
+        {
+          "text": "Förra månaden var det kallare än nu"
+        },
+        {
+          "text": "Jag började ett nytt jobb förra månaden"
+        },
+        {
+          "text": "Förra månaden hade vi mycket att göra på jobbet"
+        },
+        {
+          "text": "Jag köpte en ny mobil förra månaden"
+        },
+        {
+          "text": "Förra månaden var jag på semester i Spanien"
+        },
+        {
+          "text": "Vi flyttade till en ny lägenhet förra månaden"
+        },
+        {
+          "text": "Förra månaden tränade jag mycket på gymmet"
+        },
+        {
+          "text": "Det regnade nästan varje dag förra månaden"
+        },
+        {
+          "text": "Förra månaden var elräkningen väldigt hög"
+        },
+        {
+          "text": "Jag såg en fantastisk film förra månaden"
+        },
+        {
+          "text": "Vi åt på en ny restaurang förra månaden"
+        },
+        {
+          "text": "Jag fick min lön senare än vanligt förra månaden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3c59655a-a472-4880-adc7-0491df2586d8",
+      "version": 1,
+      "word": "förra året",
+      "translations": {
+        "ru": "в прошлом году",
+        "en": "last year",
+        "uk": "минулого року",
+        "ar": "العام الماضي",
+        "fa": "سال گذشته",
+        "so": "sannadkii hore",
+        "es": "el año pasado",
+        "de": "letztes Jahr",
+        "fr": "l'année dernière",
+        "pl": "w zeszłym roku",
+        "id": "tahun lalu",
+        "hi": "पिछले साल",
+        "zh": "去年",
+        "it": "l'anno scorso",
+        "tr": "geçen yıl",
+        "sr": "прошле године",
+        "fi": "viime vuonna",
+        "et": "eelmisel aastal",
+        "be": "у мінулым годзе",
+        "lv": "pagājušajā gadā",
+        "lt": "praėjusiais metais"
+      },
+      "examples": [
+        {
+          "text": "Vi reste till Italien förra året"
+        },
+        {
+          "text": "Förra året var det väldigt kallt på vintern"
+        },
+        {
+          "text": "Jag började ett nytt jobb förra året"
+        },
+        {
+          "text": "Förra året var ett viktigt år för företaget"
+        },
+        {
+          "text": "De flyttade till sitt nya hus förra året"
+        },
+        {
+          "text": "Förra året firade vi jul hos mina föräldrar"
+        },
+        {
+          "text": "Förra året sprang jag ett maraton för första gången"
+        },
+        {
+          "text": "De köpte en ny bil förra året"
+        },
+        {
+          "text": "Vad gjorde du förra året på din födelsedag?"
+        },
+        {
+          "text": "Förra året var mycket bättre än i år."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ec0bfcb7-be05-4e7e-9026-045f7d9ba116",
+      "version": -1,
+      "word": "I fjol",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vi träffades i fjol"
+        },
+        {
+          "text": "I fjol hade vi en varm sommar"
+        },
+        {
+          "text": "I fjol snöade det mer än i år"
+        },
+        {
+          "text": "Vi firade nyår i fjol i fjällen"
+        },
+        {
+          "text": "I fjol reste jag till Spanien"
+        },
+        {
+          "text": "Vi köpte vårt hus i fjol"
+        },
+        {
+          "text": "I fjol var jag sjuk hela december"
+        },
+        {
+          "text": "I fjol var jag sjuk hela december"
+        },
+        {
+          "text": "I fjol fick jag ett nytt jobb"
+        },
+        {
+          "text": "Jag träffade henne för första gången i fjol"
+        },
+        {
+          "text": "I fjol firade vi midsommar i Skåne"
+        },
+        {
+          "text": "I fjol var elpriserna mycket lägre"
+        },
+        {
+          "text": "Jag började träna regelbundet i fjol"
+        },
+        {
+          "text": "I fjol var jag i Sverige för första gången."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "44e7132b-7f46-460c-95ee-dc858d0d41a9",
+      "version": 1,
+      "word": "i måndags",
+      "translations": {
+        "ru": "в прошлый понедельник",
+        "en": "last Monday",
+        "uk": "минулого понеділка",
+        "ar": "الإثنين الماضي",
+        "fa": "دوشنبه گذشته",
+        "so": "Isniintii hore",
+        "es": "el lunes pasado",
+        "de": "letzten Montag",
+        "fr": "lundi dernier",
+        "pl": "w zeszły poniedziałek",
+        "id": "Senin lalu",
+        "hi": "पिछले सोमवार",
+        "zh": "上周一",
+        "it": "lunedì scorso",
+        "tr": "geçen Pazartesi",
+        "sr": "прошлог понедељка",
+        "fi": "viime maanantaina",
+        "et": "eelmisel esmaspäeval",
+        "be": "у мінулы панядзелак",
+        "lv": "pagājušajā pirmdienā",
+        "lt": "praėjusį pirmadienį"
+      },
+      "examples": [
+        {
+          "text": "Vi hade ett möte i måndags"
+        },
+        {
+          "text": "Vad gjorde du i måndags?"
+        },
+        {
+          "text": "Det regnade hela dagen i måndags"
+        },
+        {
+          "text": "Jag var på gymmet i måndags kväll"
+        },
+        {
+          "text": "I måndags var vädret bättre än idag"
+        },
+        {
+          "text": "Jag träffade honom i måndags"
+        },
+        {
+          "text": "Kommer du ihåg vad som hände i måndags?"
+        },
+        {
+          "text": "Jag hade semester i måndags"
+        },
+        {
+          "text": "I måndags var vi på bio."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ca3627cb-727e-4cb2-8eaf-5f2c83433b88",
+      "version": -1,
+      "word": "häromdagen",
+      "translations": {
+        "ru": "на днях (несколько дней назад) недавно пару дней назад",
+        "en": "a few days ago, recently, a couple of days ago",
+        "uk": "кілька днів тому, нещодавно, пару днів тому",
+        "ar": "منذ بضعة أيام، مؤخراً، قبل بضعة أيام",
+        "fa": "چند روز پیش، اخیراً، چند روز قبل",
+        "so": "maalmo ka hor, dhawaan, dhowr maalmood ka hor",
+        "es": "hace unos días, recientemente, hace un par de días",
+        "de": "vor ein paar Tagen, kürzlich, vor ein paar Tagen",
+        "fr": "il y a quelques jours, récemment, il y a quelques jours",
+        "pl": "kilka dni temu, niedawno, parę dni temu",
+        "id": "beberapa hari yang lalu, baru-baru ini, beberapa hari yang lalu",
+        "hi": "कुछ दिन पहले, हाल ही में, कुछ दिन पहले",
+        "zh": "几天前，最近，几天前",
+        "it": "qualche giorno fa, recentemente, un paio di giorni fa",
+        "tr": "birkaç gün önce, yakın zamanda, birkaç gün önce",
+        "sr": "пре неколико дана, недавно, пре пар дана",
+        "fi": "muutama päivä sitten, äskettäin, pari päivää sitten",
+        "et": "paar päeva tagasi, hiljuti, paar päeva tagasi",
+        "be": "некалькі дзён таму, нядаўна, пару дзён таму",
+        "lv": "pirms dažām dienām, nesen, pirms pāris dienām",
+        "lt": "prieš kelias dienas, neseniai, prieš porą dienų"
+      },
+      "examples": [
+        {
+          "text": "Jag träffade en gammal vän häromdagen"
+        },
+        {
+          "text": "Häromdagen köpte jag en ny bok"
+        },
+        {
+          "text": "Häromdagen såg jag en jättebra film på bio"
+        },
+        {
+          "text": "Hon ringde mig häromdagen och vi pratade i en timme"
+        },
+        {
+          "text": "Jag hörde en intressant nyhet häromdagen"
+        },
+        {
+          "text": "Häromdagen gick vi på en konsert"
+        },
+        {
+          "text": "Häromdagen glömde jag mina nycklar hemma"
+        },
+        {
+          "text": "Jag såg dig i stan häromdagen, men du verkade ha bråttom"
+        },
+        {
+          "text": "Häromdagen fick jag ett oväntat brev"
+        },
+        {
+          "text": "Vi pratade om det häromdagen, minns du?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7b4829d5-d661-4a0e-bbb6-81196243f8b0",
+      "version": -1,
+      "word": "för .... sedan",
+      "translations": {
+        "ru": "времени назад",
+        "en": "time ago",
+        "uk": "час тому",
+        "ar": "منذ وقت",
+        "fa": "زمان پیش",
+        "so": "waqti hore",
+        "es": "hace tiempo",
+        "de": "vor einiger Zeit",
+        "fr": "il y a du temps",
+        "pl": "czas temu",
+        "id": "waktu lalu",
+        "hi": "समय पहले",
+        "zh": "时间前",
+        "it": "tempo fa",
+        "tr": "zaman önce",
+        "sr": "време пре",
+        "fi": "aikaa sitten",
+        "et": "aega tagasi",
+        "be": "час таму",
+        "lv": "laiks atpakaļ",
+        "lt": "laikas atgal"
+      },
+      "examples": [
+        {
+          "text": "Jag flyttade till Sverige för två år sedan"
+        },
+        {
+          "text": "Hon träffade sin man för tio år sedan"
+        },
+        {
+          "text": "För femtio år sedan byggdes det här huset"
+        },
+        {
+          "text": "För tre år sedan började jag studera svenska"
+        },
+        {
+          "text": "De gifte sig för tjugo år sedan"
+        },
+        {
+          "text": "För hur många år sedan började du jobba här? För tjugo år sedan såg jag den här filmen för första gången"
+        },
+        {
+          "text": "För fem år sedan var vädret mycket kallare på vintern"
+        },
+        {
+          "text": "För ett år sedan blev vi föräldrar"
+        },
+        {
+          "text": "För tre år sedan flyttade de till en ny stad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ca04e7dd-0022-451e-b53b-aec48e532dce",
+      "version": -1,
+      "word": "förut",
+      "translations": {
+        "ru": "раньше, прежде (о недавнем прошлом)",
+        "en": "earlier, before (about the recent past)",
+        "uk": "раніше, до (про недавнє минуле)",
+        "ar": "سابقًا، قبل (عن الماضي القريب)",
+        "fa": "قبلاً، پیش از (درباره گذشته نزدیک)",
+        "so": "hore, ka hor (ku saabsan waayihii dhawaa)",
+        "es": "anteriormente, antes (sobre el pasado reciente)",
+        "de": "früher, zuvor (über die jüngste Vergangenheit)",
+        "fr": "plus tôt, avant (à propos du passé récent)",
+        "pl": "wcześniej, przed (o niedawnej przeszłości)",
+        "id": "sebelumnya, sebelum (tentang masa lalu yang baru saja terjadi)",
+        "hi": "पहले, पूर्व में (हाल के अतीत के बारे में)",
+        "zh": "较早，以前（关于最近的过去）",
+        "it": "prima, prima di (riguardo al passato recente)",
+        "tr": "daha önce, önce (yakın geçmiş hakkında)",
+        "sr": "раније, пре (о недавној прошлости)",
+        "fi": "aikaisemmin, ennen (koskien lähimenneisyyttä)",
+        "et": "varem, enne (hiljutise mineviku kohta)",
+        "be": "раней, да (пра нядаўняе мінулае)",
+        "lv": "agrāk, pirms (par neseno pagātni)",
+        "lt": "anksčiau, prieš (apie neseną praeitį)"
+      },
+      "examples": [
+        {
+          "text": "Jag bodde i Malmö förut"
+        },
+        {
+          "text": "Vi träffades förut"
+        },
+        {
+          "text": "Jag såg den här filmen förut"
+        },
+        {
+          "text": "Jag var i Stockholm förut"
+        },
+        {
+          "text": "Förut var det bättre väder"
+        },
+        {
+          "text": "Förut brukade jag träna varje dag"
+        },
+        {
+          "text": "Förut var det enklare att hitta jobb"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "890ba9f2-ebe6-4696-b3c2-d8378633dbe1",
+      "version": -1,
+      "word": "Förr i tiden",
+      "translations": {
+        "ru": "в прошлом, раньше ( о давнем прошлом)",
+        "en": "in the past, earlier (about the distant past)",
+        "uk": "у минулому, раніше (про далеке минуле)",
+        "ar": "في الماضي، سابقًا (عن الماضي البعيد)",
+        "fa": "در گذشته، قبلاً (درباره گذشته دور)",
+        "so": "waagii hore, hore (ku saabsan waqti hore)",
+        "es": "en el pasado, anteriormente (sobre el pasado distante)",
+        "de": "in der Vergangenheit, früher (über die ferne Vergangenheit)",
+        "fr": "dans le passé, plus tôt (à propos du passé lointain)",
+        "pl": "w przeszłości, wcześniej (o odległej przeszłości)",
+        "id": "di masa lalu, sebelumnya (tentang masa lalu yang jauh)",
+        "hi": "अतीत में, पहले (दूर के अतीत के बारे में)",
+        "zh": "在过去，以前（关于遥远的过去）",
+        "it": "nel passato, prima (riguardo al passato remoto)",
+        "tr": "geçmişte, daha önce (uzak geçmiş hakkında)",
+        "sr": "у прошлости, раније (о далекој прошлости)",
+        "fi": "menneisyydessä, aiemmin (kaukana menneisyydessä)",
+        "et": "minevikus, varem (kaugest minevikust)",
+        "be": "у мінулым, раней (пра далёкае мінулае)",
+        "lv": "pagātnē, agrāk (par tālo pagātni)",
+        "lt": "praeityje, anksčiau (apie tolimą praeitį)"
+      },
+      "examples": [
+        {
+          "text": "Förr i tiden var det tradition att en flicka skulle plocka sju sorters blommor mitt i natten då det var midsommar"
+        },
+        {
+          "text": "Förr i tiden var det vanligare att folk bodde i små byar"
+        },
+        {
+          "text": "Förr i tiden hade folk inte mobiltelefoner"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6d5010f1-82e1-4e4e-a942-498172abd3f8",
+      "version": 1,
+      "word": "imorgon",
+      "translations": {
+        "ru": "Завтра",
+        "en": "Tomorrow",
+        "uk": "Завтра",
+        "ar": "غدًا",
+        "fa": "فردا",
+        "so": "Berri",
+        "es": "Mañana",
+        "de": "Morgen",
+        "fr": "Demain",
+        "pl": "Jutro",
+        "id": "Besok",
+        "hi": "कल",
+        "zh": "明天",
+        "it": "Domani",
+        "tr": "Yarın",
+        "sr": "Сутра",
+        "fi": "Huomenna",
+        "et": "Homme",
+        "be": "Заўтра",
+        "lv": "Rīt",
+        "lt": "Rytoj"
+      },
+      "examples": [
+        {
+          "text": "Imorgon är min födelsedag"
+        },
+        {
+          "text": "Har du tid imorgon?"
+        },
+        {
+          "text": "Ska vi ses imorgon kväll?"
+        },
+        {
+          "text": "Vad händer imorgon på jobbet?"
+        },
+        {
+          "text": "Vad ska du göra imorgon?"
+        },
+        {
+          "text": "Imorgon kväll ska vi gå på bio"
+        },
+        {
+          "text": "Imorgon bitti åker jag till jobbet tidigt"
+        },
+        {
+          "text": "Jag börjar träna imorgon"
+        },
+        {
+          "text": "Det blir bättre väder imorgon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f0010e76-ac71-453b-ae25-0f39e1ac671b",
+      "version": 1,
+      "word": "ett år",
+      "forms": [
+        {
+          "form": "året"
+        },
+        {
+          "form": "år"
+        },
+        {
+          "form": "åren"
+        }
+      ],
+      "translations": {
+        "ru": "Год",
+        "en": "Year",
+        "uk": "Рік",
+        "ar": "سنة",
+        "fa": "سال",
+        "so": "Sannad",
+        "es": "Año",
+        "de": "Jahr",
+        "fr": "An",
+        "pl": "Rok",
+        "id": "Tahun",
+        "hi": "साल",
+        "zh": "年",
+        "it": "Anno",
+        "tr": "Yıl",
+        "sr": "Година",
+        "fi": "Vuosi",
+        "et": "Aasta",
+        "be": "Год",
+        "lv": "Gads",
+        "lt": "Metai"
+      },
+      "examples": [
+        {
+          "text": "Jag har bott i Sverige i ett år"
+        },
+        {
+          "text": "Året gick väldigt snabbt"
+        },
+        {
+          "text": "Jag har inte varit där på flera år"
+        },
+        {
+          "text": "Alla åren var fulla av minnen"
+        },
+        {
+          "text": "Jag flyttade hit för ett år sedan"
+        },
+        {
+          "text": "Vi reser till fjällen varje år"
+        },
+        {
+          "text": "Jag hoppas att jag är klar med studierna om ett år"
+        },
+        {
+          "text": "Hur många år har du bott här?"
+        },
+        {
+          "text": "Året börjar alltid med januari"
+        },
+        {
+          "text": "Om ett år kommer jag att resa till Spanien"
+        },
+        {
+          "text": "De senaste åren har varit svåra för många."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2081649d-778e-49d9-a5a3-ba512a8871fa",
+      "version": -1,
+      "word": "en månad",
+      "forms": [
+        {
+          "form": "månader"
+        }
+      ],
+      "translations": {
+        "ru": "месяц",
+        "en": "Month",
+        "uk": "місяць",
+        "ar": "شهر",
+        "fa": "ماه",
+        "so": "bisha",
+        "es": "mes",
+        "de": "Monat",
+        "fr": "mois",
+        "pl": "miesiąc",
+        "id": "bulan",
+        "hi": "महीना",
+        "zh": "月",
+        "it": "mese",
+        "tr": "ay",
+        "sr": "месец",
+        "fi": "kuukausi",
+        "et": "kuu",
+        "be": "месяц",
+        "lv": "mēnesis",
+        "lt": "mėnuo"
+      },
+      "examples": [
+        {
+          "text": "Jag ska vara i Spanien i en månad"
+        },
+        {
+          "text": "Jag har jobbat här i en månad nu"
+        },
+        {
+          "text": "Det är billigare att hyra bil i en månad än i en vecka"
+        },
+        {
+          "text": "Jag har bott här i en månad"
+        },
+        {
+          "text": "Det tar ungefär en månad att lära sig grunderna"
+        },
+        {
+          "text": "Han är borta i en månad"
+        },
+        {
+          "text": "Jag ska resa utomlands i en månad"
+        },
+        {
+          "text": "Vi har bara en månad kvar tills semestern börjar"
+        },
+        {
+          "text": "Jag har tränat i en månad och ser redan resultat"
+        },
+        {
+          "text": "Den här kursen varar i en månad"
+        },
+        {
+          "text": "Min bebis är en månad gammal"
+        },
+        {
+          "text": "Jag fick min första lön för en månad sedan"
+        },
+        {
+          "text": "Jag ska testa det här jobbet i en månad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7139c515-ab76-458b-97d0-389c481be3b3",
+      "version": -1,
+      "word": "en vecka månader",
+      "translations": {
+        "ru": "Неделя",
+        "en": "Week",
+        "uk": "Тиждень",
+        "ar": "أسبوع",
+        "fa": "هفته",
+        "so": "Toddobaad",
+        "es": "Semana",
+        "de": "Woche",
+        "fr": "Semaine",
+        "pl": "Tydzień",
+        "id": "Minggu",
+        "hi": "सप्ताह",
+        "zh": "周",
+        "it": "Settimana",
+        "tr": "Hafta",
+        "sr": "Недеља",
+        "fi": "Viikko",
+        "et": "Nädal",
+        "be": "Тыдзень",
+        "lv": "Nedēļa",
+        "lt": "Savaitė"
+      },
+      "examples": [
+        {
+          "text": "Det är sju dagar på en vecka"
+        },
+        {
+          "text": "Jag ska vara i Norge i en vecka"
+        },
+        {
+          "text": "Jag har jobbat här i en vecka nu"
+        },
+        {
+          "text": "Det är billigare att hyra bil i en vecka än i en dag"
+        },
+        {
+          "text": "Jag har bott här i en vecka"
+        },
+        {
+          "text": "Det tar ungefär en vecka att få ett pass"
+        },
+        {
+          "text": "Han är borta i en vecka"
+        },
+        {
+          "text": "Jag ska resa utomlands i en vecka"
+        },
+        {
+          "text": "Vi har bara en vecka kvar tills semestern börjar"
+        },
+        {
+          "text": "Jag har tränat i en vecka och ser redan resultat"
+        },
+        {
+          "text": "Den här kursen varar i en vecka"
+        },
+        {
+          "text": "Min bebis är en vecka gammal"
+        },
+        {
+          "text": "Jag fick min första lön för en vecka sedan"
+        },
+        {
+          "text": "Jag ska testa det här jobbet i en vecka."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bd016691-cec1-44fd-981b-e7fccc6cddfd",
+      "version": 1,
+      "word": "en dygn",
+      "forms": [
+        {
+          "form": "dygnet"
+        },
+        {
+          "form": "dygn"
+        },
+        {
+          "form": "dygnen"
+        }
+      ],
+      "translations": {
+        "ru": "сутки",
+        "en": "24 hours",
+        "uk": "24 години",
+        "ar": "24 ساعة",
+        "fa": "24 ساعت",
+        "so": "24 saacadood",
+        "es": "24 horas",
+        "de": "24 Stunden",
+        "fr": "24 heures",
+        "pl": "24 godziny",
+        "id": "24 jam",
+        "hi": "24 घंटे",
+        "zh": "24小时",
+        "it": "24 ore",
+        "tr": "24 saat",
+        "sr": "24 сата",
+        "fi": "24 tuntia",
+        "et": "24 tundi",
+        "be": "24 гадзіны",
+        "lv": "24 stundas",
+        "lt": "24 valandos"
+      },
+      "examples": [
+        {
+          "text": "Ett dygn har 24 timmar"
+        },
+        {
+          "text": "Vi stannade på hotellet i tre dygn"
+        },
+        {
+          "text": "Det har regnat i flera dygn i sträck"
+        },
+        {
+          "text": "Temperaturen mäts varje timme under ett helt dygn"
+        },
+        {
+          "text": "Jag har varit vaken i nästan ett dygn"
+        },
+        {
+          "text": "Dygnet börjar med natten och slutar med dagen"
+        },
+        {
+          "text": "Vi kan leverera paketet inom 24 dygnstimmar"
+        },
+        {
+          "text": "Hur många dygn ska vi stanna på semester?"
+        },
+        {
+          "text": "Vi har inte haft ström på två dygn"
+        },
+        {
+          "text": "Dygnen är längre på andra planeter i vårt solsystem"
+        },
+        {
+          "text": "Vi arbetade i ett helt dygn utan paus"
+        },
+        {
+          "text": "Butiken är öppen dygnet runt"
+        },
+        {
+          "text": "Vi svarar på ditt meddelande inom ett dygn."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5cf8f076-38eb-4d71-9c04-35c75a6d5d9f",
+      "version": -1,
+      "word": "en dag",
+      "forms": [
+        {
+          "form": "dagar"
+        }
+      ],
+      "translations": {
+        "ru": "день (второе значение однажды неопределенный момент в будущем)",
+        "en": "Day (second meaning: once, an indefinite moment in the future)",
+        "uk": "день (друге значення: колись, невизначений момент у майбутньому)",
+        "ar": "يوم (المعنى الثاني: ذات مرة، لحظة غير محددة في المستقبل)",
+        "fa": "روز (معنی دوم: یک بار، لحظه‌ای نامشخص در آینده)",
+        "so": "maalin (macnaha labaad: mar, waqti aan la cayimin mustaqbalka)",
+        "es": "día (segundo significado: una vez, un momento indefinido en el futuro)",
+        "de": "Tag (zweite Bedeutung: einmal, ein unbestimmter Moment in der Zukunft)",
+        "fr": "jour (deuxième sens : une fois, un moment indéfini dans le futur)",
+        "pl": "dzień (drugie znaczenie: kiedyś, nieokreślony moment w przyszłości)",
+        "id": "hari (arti kedua: sekali, momen yang tidak ditentukan di masa depan)",
+        "hi": "दिन (दूसरा अर्थ: एक बार, भविष्य में एक अनिश्चित क्षण)",
+        "zh": "天（第二个意思：曾经，未来不确定的时刻）",
+        "it": "giorno (secondo significato: una volta, un momento indefinito nel futuro)",
+        "tr": "gün (ikinci anlam: bir kez, gelecekte belirsiz bir an)",
+        "sr": "дан (друго значење: једном, неодређени тренутак у будућности)",
+        "fi": "päivä (toinen merkitys: kerran, epämääräinen hetki tulevaisuudessa)",
+        "et": "päev (teine tähendus: kord, määramatu hetk tulevikus)",
+        "be": "дзень (другое значэнне: аднойчы, нявызначаны момант у будучыні)",
+        "lv": "diena (otrā nozīme: reiz, nenoteikts brīdis nākotnē)",
+        "lt": "diena (antra reikšmė: kartą, neapibrėžtas momentas ateityje)"
+      },
+      "examples": [
+        {
+          "text": "Vi ska träffas en dag nästa vecka"
+        },
+        {
+          "text": "Hon jobbade hela dagen utan paus"
+        },
+        {
+          "text": "Det är en solig dag idag"
+        },
+        {
+          "text": "Jag tränar varje dag för att hålla mig i form"
+        },
+        {
+          "text": "En dag kommer du att förstå vad jag menar"
+        },
+        {
+          "text": "En dag ska jag skriva en bok"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e038e445-6f86-4053-b7f3-16380018cf0c",
+      "version": -1,
+      "word": "en timme",
+      "forms": [
+        {
+          "form": "timmar"
+        }
+      ],
+      "translations": {
+        "ru": "Час",
+        "en": "Hour",
+        "uk": "Година",
+        "ar": "ساعة",
+        "fa": "ساعت",
+        "so": "Saac",
+        "es": "Hora",
+        "de": "Stunde",
+        "fr": "Heure",
+        "pl": "Godzina",
+        "id": "Jam",
+        "hi": "घंटा",
+        "zh": "小时",
+        "it": "Ora",
+        "tr": "Saat",
+        "sr": "Сат",
+        "fi": "Tunti",
+        "et": "Tund",
+        "be": "Гадзіна",
+        "lv": "Stunda",
+        "lt": "Valanda"
+      },
+      "examples": [
+        {
+          "text": "Jag ska träna i en timme"
+        },
+        {
+          "text": "Jag har väntat här i en timme"
+        },
+        {
+          "text": "Det tar en timme att köra dit"
+        },
+        {
+          "text": "Jag har jobbat i en timme"
+        },
+        {
+          "text": "Det tar ungefär en timme att laga middag"
+        },
+        {
+          "text": "Han är borta i en timme"
+        },
+        {
+          "text": "Jag ska sova en timme till"
+        },
+        {
+          "text": "Vi har bara en timme kvar tills mötet börjar"
+        },
+        {
+          "text": "Jag har tränat i en timme och känner mig pigg"
+        },
+        {
+          "text": "Filmen varade i en timme och trettio minuter"
+        },
+        {
+          "text": "Vi väntade i en timme innan bussen kom"
+        },
+        {
+          "text": "För en timme sedan var jag fortfarande på jobbet"
+        },
+        {
+          "text": "Jag ska testa den här kursen i en timme."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1d1bf200-a70f-403c-ad0a-04b9e697a753",
+      "version": 1,
+      "word": "en halvtimme",
+      "forms": [
+        {
+          "form": "halvtimmar"
+        }
+      ],
+      "translations": {
+        "ru": "полчаса",
+        "en": "Half an hour",
+        "uk": "півгодини",
+        "ar": "نصف ساعة",
+        "fa": "نیم ساعت",
+        "so": "nus saac",
+        "es": "media hora",
+        "de": "eine halbe Stunde",
+        "fr": "une demi-heure",
+        "pl": "pół godziny",
+        "id": "setengah jam",
+        "hi": "आधा घंटा",
+        "zh": "半小时",
+        "it": "mezz'ora",
+        "tr": "yarım saat",
+        "sr": "пола сата",
+        "fi": "puoli tuntia",
+        "et": "pool tundi",
+        "be": "паўгадзіны",
+        "lv": "pusstunda",
+        "lt": "pusvalandis"
+      },
+      "examples": [
+        {
+          "text": "Jag ska vila i en halvtimme"
+        },
+        {
+          "text": "Det tar en halvtimme att gå dit"
+        },
+        {
+          "text": "Jag väntade på dig i en halvtimme!"
+        },
+        {
+          "text": "Vi har en halvtimme kvar tills filmen börjar"
+        },
+        {
+          "text": "Jag har tränat i en halvtimme nu"
+        },
+        {
+          "text": "Det tar en halvtimme att laga maten"
+        },
+        {
+          "text": "Jag måste vara på jobbet om en halvtimme"
+        },
+        {
+          "text": "Han sov bara en halvtimme i natt"
+        },
+        {
+          "text": "Vi kan ta en paus i en halvtimme"
+        },
+        {
+          "text": "Jag ska gå en promenad i en halvtimme"
+        },
+        {
+          "text": "Flyget blev försenat med en halvtimme"
+        },
+        {
+          "text": "Jag ska ringa dig om en halvtimme"
+        },
+        {
+          "text": "Vi behöver bara en halvtimme till för att bli klara."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7a52d4db-133f-428b-9b75-2b2829bc796a",
+      "version": 1,
+      "word": "en minut",
+      "forms": [
+        {
+          "form": "minuter"
+        }
+      ],
+      "translations": {
+        "ru": "Минута",
+        "en": "Minute",
+        "uk": "Хвилина",
+        "ar": "دقيقة",
+        "fa": "دقیقه",
+        "so": "Daqiiqad",
+        "es": "Minuto",
+        "de": "Minute",
+        "fr": "Minute",
+        "pl": "Minuta",
+        "id": "Menit",
+        "hi": "मिनट",
+        "zh": "分钟",
+        "it": "Minuto",
+        "tr": "Dakika",
+        "sr": "Минута",
+        "fi": "Minuutti",
+        "et": "Minut",
+        "be": "Хвіліна",
+        "lv": "Minūte",
+        "lt": "Minutė"
+      },
+      "examples": [
+        {
+          "text": "Det är en minut till midnatt"
+        },
+        {
+          "text": "Jag kommer om en minut"
+        },
+        {
+          "text": "Det tar en minut att värma maten"
+        },
+        {
+          "text": "Vänta en minut, jag är snart klar!"
+        },
+        {
+          "text": "Kan du vänta en minut?"
+        },
+        {
+          "text": "Jag har tränat i en minut och är redan trött!"
+        },
+        {
+          "text": "Det tar en minut att koka upp vatten"
+        },
+        {
+          "text": "Bussen kommer om en minut"
+        },
+        {
+          "text": "Han var här för en minut sedan"
+        },
+        {
+          "text": "Jag behöver en minut för att tänka"
+        },
+        {
+          "text": "Kan du ge mig en minut?"
+        },
+        {
+          "text": "Jag såg en intressant nyhet för en minut sedan"
+        },
+        {
+          "text": "Vi har bara en minut kvar av filmen"
+        },
+        {
+          "text": "Jag var klar på en minut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6ae701e4-857c-4b99-9ff1-619b9a3d10bc",
+      "version": 1,
+      "word": "en sekund",
+      "forms": [
+        {
+          "form": "sekunder"
+        }
+      ],
+      "translations": {
+        "ru": "Секунда",
+        "en": "Second",
+        "uk": "Секунда",
+        "ar": "ثانية",
+        "fa": "ثانیه",
+        "so": "Ilbiriqsi",
+        "es": "Segundo",
+        "de": "Sekunde",
+        "fr": "Seconde",
+        "pl": "Sekunda",
+        "id": "Detik",
+        "hi": "सेकंड",
+        "zh": "秒",
+        "it": "Secondo",
+        "tr": "Saniye",
+        "sr": "Секунда",
+        "fi": "Sekunti",
+        "et": "Sekund",
+        "be": "Секунда",
+        "lv": "Sekunde",
+        "lt": "Sekundė"
+      },
+      "examples": [
+        {
+          "text": "Jag kommer om en sekund"
+        },
+        {
+          "text": "Det tar en sekund att klicka på knappen"
+        },
+        {
+          "text": "Vänta en sekund, jag måste tänka!"
+        },
+        {
+          "text": "Kan du vänta en sekund?"
+        },
+        {
+          "text": "Jag har bara en sekund kvar att svara!"
+        },
+        {
+          "text": "Det tar en sekund att starta datorn"
+        },
+        {
+          "text": "Bilen stannade på en sekund"
+        },
+        {
+          "text": "Jag såg henne bara en sekund"
+        },
+        {
+          "text": "Kan du ge mig en sekund att tänka?"
+        },
+        {
+          "text": "Det kändes som en sekund, men det var en timme"
+        },
+        {
+          "text": "Jag var borta i en sekund, och plötsligt var han borta!"
+        },
+        {
+          "text": "Min mobil dog på en sekund"
+        },
+        {
+          "text": "Det var tyst i en sekund innan han svarade."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "96558f9a-576c-404f-9601-b4b3eeaad605",
+      "version": -1,
+      "word": "en klocka",
+      "forms": [
+        {
+          "form": "klockor"
+        }
+      ],
+      "translations": {
+        "ru": "Часы",
+        "en": "Clock",
+        "uk": "Годинник",
+        "ar": "ساعة",
+        "fa": "ساعت",
+        "so": "Saacad",
+        "es": "Reloj",
+        "de": "Uhr",
+        "fr": "Horloge",
+        "pl": "Zegar",
+        "id": "Jam",
+        "hi": "घड़ी",
+        "zh": "钟",
+        "it": "Orologio",
+        "tr": "Saat",
+        "sr": "Сат",
+        "fi": "Kello",
+        "et": "Kell",
+        "be": "Гадзіннік",
+        "lv": "Pulkstenis",
+        "lt": "Laikrodis"
+      },
+      "examples": [
+        {
+          "text": "Väggklockan hänger på väggen"
+        },
+        {
+          "text": "Jag har en ny klocka på armen"
+        },
+        {
+          "text": "Klockan på väggen visar fel tid"
+        },
+        {
+          "text": "Vad är klockan nu? Hon köpte en dyr klocka i Schweiz"
+        },
+        {
+          "text": "Klockorna i staden slog tolv."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "76cc1d92-d7ce-4a22-88e0-32f7c383d157",
+      "version": -1,
+      "word": "en väckarklocka",
+      "forms": [
+        {
+          "form": "väckarklockor"
+        }
+      ],
+      "translations": {
+        "ru": "Будильник",
+        "en": "Alarm clock",
+        "uk": "Будильник",
+        "ar": "منبه",
+        "fa": "ساعت زنگ‌دار",
+        "so": "Saacad alaarm",
+        "es": "Despertador",
+        "de": "Wecker",
+        "fr": "Réveil",
+        "pl": "Budzik",
+        "id": "Jam alarm",
+        "hi": "अलार्म घड़ी",
+        "zh": "闹钟",
+        "it": "Sveglia",
+        "tr": "Çalar saat",
+        "sr": "Будилник",
+        "fi": "Herätyskello",
+        "et": "Äratuskell",
+        "be": "Будзільнік",
+        "lv": "Modinātājs",
+        "lt": "Žadintuvas"
+      },
+      "examples": [
+        {
+          "text": "Väckarklockan är ställd på klockan fem"
+        },
+        {
+          "text": "Min väckarklocka ringer klockan sju varje morgon"
+        },
+        {
+          "text": "Jag behöver en ny väckarklocka, min gamla fungerar inte längre"
+        },
+        {
+          "text": "Väckarklockan väckte mig mitt i en dröm"
+        },
+        {
+          "text": "Jag glömde att ställa väckarklockan i går kväll."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6e653275-b196-4440-bf49-5139d610c007",
+      "version": -1,
+      "word": "klockan",
+      "translations": {
+        "ru": "Аналог  o'clock.или Часы",
+        "en": "Analog of o'clock or clock",
+        "uk": "Аналог годинника або годинник",
+        "ar": "نظير الساعة أو ساعة",
+        "fa": "معادل ساعت یا ساعت",
+        "so": "Isku mid ah saacadda ama saacad",
+        "es": "Análogo de o'clock o reloj",
+        "de": "Analog von Uhr oder Uhr",
+        "fr": "Analogue de l'heure ou horloge",
+        "pl": "Analog zegara lub zegar",
+        "id": "Analog dari jam atau jam",
+        "hi": "घड़ी का समकक्ष या घड़ी",
+        "zh": "时钟的模拟或钟表",
+        "it": "Analogo di o'clock o orologio",
+        "tr": "Saatin analoğu veya saat",
+        "sr": "Аналог сата или сат",
+        "fi": "Kellon analogi tai kello",
+        "et": "Kella analoog või kell",
+        "be": "Аналог гадзінніка або гадзіннік",
+        "lv": "Pulksteņa analogs vai pulkstenis",
+        "lt": "Laikrodžio analogas arba laikrodis"
+      },
+      "examples": [
+        {
+          "text": "Dina vänner kom klockan 7"
+        },
+        {
+          "text": "Jag börjar jobbet klockan åtta"
+        },
+        {
+          "text": "Vi ska träffas klockan sex på kvällen"
+        },
+        {
+          "text": "Filmen börjar klockan kvart över nio"
+        },
+        {
+          "text": "Bussen går klockan halv elva"
+        },
+        {
+          "text": "Jag vaknar klockan sju varje dag"
+        },
+        {
+          "text": "Affären öppnar klockan tio"
+        },
+        {
+          "text": "Mötet slutar klockan femton och trettio"
+        },
+        {
+          "text": "Vi åt middag klockan halv sju"
+        },
+        {
+          "text": "Bion börjar klockan tjugo i åtta"
+        },
+        {
+          "text": "Jag går och lägger mig klockan elva"
+        },
+        {
+          "text": "Tåget går klockan sju."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ef28213a-64f3-419b-bae5-6768842da0c3",
+      "version": -1,
+      "word": "vad är klockan nu?",
+      "translations": {
+        "ru": "сколько времени",
+        "en": "What time is it?",
+        "uk": "Котра година?",
+        "ar": "كم الساعة؟",
+        "fa": "ساعت چند است؟",
+        "so": "Waa imisa saacadu?",
+        "es": "¿Qué hora es?",
+        "de": "Wie spät ist es?",
+        "fr": "Quelle heure est-il ?",
+        "pl": "Która godzina?",
+        "id": "Jam berapa sekarang?",
+        "hi": "कितने बजे हैं?",
+        "zh": "现在几点了？",
+        "it": "Che ore sono?",
+        "tr": "Saat kaç?",
+        "sr": "Колико је сати?",
+        "fi": "Paljonko kello on?",
+        "et": "Mis kell on?",
+        "be": "Колькі часу?",
+        "lv": "Cik ir pulkstenis?",
+        "lt": "Kiek valandų?"
+      },
+      "examples": [
+        {
+          "text": "Vad är klockan nu? Klockan är fem över två"
+        },
+        {
+          "text": "Vad är klockan nu? Den är nästan halv tre"
+        },
+        {
+          "text": "Vad är klockan nu?  Klockan är kvart över två."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "54091554-34d3-4e7b-b396-459b79ab93aa",
+      "version": -1,
+      "word": "hur mycket är klockan?",
+      "translations": {
+        "ru": "сколько времени",
+        "en": "What time is it?",
+        "uk": "Котра година?",
+        "ar": "كم الساعة؟",
+        "fa": "ساعت چند است؟",
+        "so": "Waa imisa saacadu?",
+        "es": "¿Qué hora es?",
+        "de": "Wie spät ist es?",
+        "fr": "Quelle heure est-il ?",
+        "pl": "Która godzina?",
+        "id": "Jam berapa sekarang?",
+        "hi": "कितने बजे हैं?",
+        "zh": "现在几点了？",
+        "it": "Che ore sono?",
+        "tr": "Saat kaç?",
+        "sr": "Колико је сати?",
+        "fi": "Paljonko kello on?",
+        "et": "Mis kell on?",
+        "be": "Колькі часу?",
+        "lv": "Cik ir pulkstenis?",
+        "lt": "Kiek valandų?"
+      },
+      "examples": [
+        {
+          "text": "hur mycket är klockan?  Klockan är kvart i två"
+        },
+        {
+          "text": "hur mycket är klockan?  Klockan är redan elva!  hur mycket är klockan? Klockan är fem över sju."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6a17c4fc-9ff6-48cb-a75f-5b4d6cbc1323",
+      "version": -1,
+      "word": "en tid",
+      "forms": [
+        {
+          "form": "tider"
+        }
+      ],
+      "translations": {
+        "ru": "время (второе значение назначенная встреча, визит)",
+        "en": "Time (second meaning: scheduled meeting, visit)",
+        "uk": "час (друге значення: запланована зустріч, візит)",
+        "ar": "وقت (المعنى الثاني: اجتماع مجدول، زيارة)",
+        "fa": "زمان (معنی دوم: ملاقات برنامه‌ریزی‌شده، بازدید)",
+        "so": "waqti (macnaha labaad: kulan la qorsheeyay, booqasho)",
+        "es": "tiempo (segundo significado: reunión programada, visita)",
+        "de": "Zeit (zweite Bedeutung: geplantes Treffen, Besuch)",
+        "fr": "temps (deuxième sens : réunion programmée, visite)",
+        "pl": "czas (drugie znaczenie: zaplanowane spotkanie, wizyta)",
+        "id": "waktu (arti kedua: pertemuan terjadwal, kunjungan)",
+        "hi": "समय (दूसरा अर्थ: निर्धारित बैठक, यात्रा)",
+        "zh": "时间（第二个意思：预定的会议，访问）",
+        "it": "tempo (secondo significato: incontro programmato, visita)",
+        "tr": "zaman (ikinci anlam: planlanmış toplantı, ziyaret)",
+        "sr": "време (друго значење: заказан састанак, посета)",
+        "fi": "aika (toinen merkitys: aikataulutettu tapaaminen, vierailu)",
+        "et": "aeg (teine tähendus: planeeritud kohtumine, visiit)",
+        "be": "час (другое значэнне: запланаваная сустрэча, візіт)",
+        "lv": "laiks (otrā nozīme: ieplānota tikšanās, vizīte)",
+        "lt": "laikas (antra reikšmė: suplanuotas susitikimas, vizitas)"
+      },
+      "examples": [
+        {
+          "text": "Jag har inte mycket tid idag"
+        },
+        {
+          "text": "Tiden går snabbt när man har roligt"
+        },
+        {
+          "text": "Det finns olika tider i historien"
+        },
+        {
+          "text": "I framtiden kan det bli bättre tider"
+        },
+        {
+          "text": "Vi har bokat en tid hos läkaren"
+        },
+        {
+          "text": "Jag kommer på utsatt tid"
+        },
+        {
+          "text": "Hur mycket tid har vi kvar? Det var en fantastisk tid i mitt liv"
+        },
+        {
+          "text": "Tiderna förändras och vi med dem."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c22a8a4f-72d0-4c32-9dd3-d3eafa035167",
+      "version": -1,
+      "word": "en framtiden",
+      "translations": {
+        "ru": "будущее",
+        "en": "Future",
+        "uk": "майбутнє",
+        "ar": "مستقبل",
+        "fa": "آینده",
+        "so": "mustaqbal",
+        "es": "futuro",
+        "de": "Zukunft",
+        "fr": "avenir",
+        "pl": "przyszłość",
+        "id": "masa depan",
+        "hi": "भविष्य",
+        "zh": "未来",
+        "it": "futuro",
+        "tr": "gelecek",
+        "sr": "будућност",
+        "fi": "tulevaisuus",
+        "et": "tulevik",
+        "be": "будучыня",
+        "lv": "nākotne",
+        "lt": "ateitis"
+      },
+      "examples": [
+        {
+          "text": "Jag ser fram emot framtiden med spänning"
+        },
+        {
+          "text": "Ingen vet vad som kommer att hända i framtiden"
+        },
+        {
+          "text": "Hon planerar för framtiden och sparar pengar"
+        },
+        {
+          "text": "Framtiden ser ljus ut för företaget"
+        },
+        {
+          "text": "Vi måste tänka på framtiden och ta hand om miljön"
+        },
+        {
+          "text": "I framtiden hoppas jag kunna resa mer"
+        },
+        {
+          "text": "Barnen är vår framtid"
+        },
+        {
+          "text": "Han talade om sina drömmar för framtiden"
+        },
+        {
+          "text": "Framtidens teknologi kommer att förändra världen"
+        },
+        {
+          "text": "Vi måste fatta beslut som påverkar framtiden positivt"
+        },
+        {
+          "text": "Jag hoppas att vi får mer tid tillsammans i framtiden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3acc9521-3040-4be1-b745-d734f2bab86d",
+      "version": 1,
+      "word": "vänta ett ögonblick",
+      "translations": {
+        "ru": "Подожди минутку",
+        "en": "Wait a minute",
+        "uk": "Зачекай хвилинку",
+        "ar": "انتظر دقيقة",
+        "fa": "یک دقیقه صبر کن",
+        "so": "Sug daqiiqad",
+        "es": "Espera un minuto",
+        "de": "Warte eine Minute",
+        "fr": "Attends une minute",
+        "pl": "Poczekaj minutę",
+        "id": "Tunggu sebentar",
+        "hi": "एक मिनट रुको",
+        "zh": "等一下",
+        "it": "Aspetta un minuto",
+        "tr": "Bir dakika bekle",
+        "sr": "Сачекај минут",
+        "fi": "Odota hetki",
+        "et": "Oota hetk",
+        "be": "Пачакай хвілінку",
+        "lv": "Pagaidi minūti",
+        "lt": "Palauk minutę"
+      },
+      "examples": [
+        {
+          "text": "Kan du vänta ett ögonblick medan jag hämtar min telefon?"
+        },
+        {
+          "text": "Vänta ett ögonblick, jag ska kolla i kalendern"
+        },
+        {
+          "text": "Jag är snart klar, vänta ett ögonblick!"
+        },
+        {
+          "text": "Vänta ett ögonblick, så ska jag hjälpa dig med datorn"
+        },
+        {
+          "text": "Kundtjänsten bad mig vänta ett ögonblick medan de letade efter information"
+        },
+        {
+          "text": "Kan du vänta ett ögonblick medan jag avslutar telefonsamtalet? Ett ögonblick, jag ska bara svara på det här mejlet"
+        },
+        {
+          "text": "Om du kan vänta ett ögonblick, så ska jag fixa problemet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7ec95d30-dd0b-412c-b4a3-956c2eda1ee6",
+      "version": 1,
+      "word": "Vänta en stund",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vänta en stund, jag ska bara hämta min jacka"
+        },
+        {
+          "text": "Kan du vänta en stund? Jag är snart klar"
+        },
+        {
+          "text": "Vänta en stund, jag ringer tillbaka"
+        },
+        {
+          "text": "Vänta en stund tills regnet slutar"
+        },
+        {
+          "text": "Jag orkar inte vänta en stund till!"
+        },
+        {
+          "text": "Om du inte kan vänta en stund, får du gå utan mig"
+        },
+        {
+          "text": "Vänta en stund, jag måste kolla min kalender"
+        },
+        {
+          "text": "Vänta en stund innan du öppnar paketet"
+        },
+        {
+          "text": "Vänta en stund, jag har ett viktigt meddelande"
+        },
+        {
+          "text": "Vänta en stund, bussen kommer snart."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a637ce16-1fa9-4a41-a191-599968622fe7",
+      "version": -1,
+      "word": "Vänta lite!",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Vänta lite! Jag måste tänka"
+        },
+        {
+          "text": "Vänta lite, jag ska bara hämta min mobil"
+        },
+        {
+          "text": "Vänta lite nu, vad sa du? Vänta lite, jag kollar på nätet"
+        },
+        {
+          "text": "Kan du vänta lite? Jag är inte klar än"
+        },
+        {
+          "text": "Vänta lite, bussen kommer snart"
+        },
+        {
+          "text": "Vänta lite, jag ska bara avsluta det här"
+        },
+        {
+          "text": "Vänta lite, jag hörde inte vad du sa"
+        },
+        {
+          "text": "Vänta lite, jag måste prata med dig"
+        },
+        {
+          "text": "Vänta lite, jag ska hämta ett glas vatten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b5bc9038-50e7-4d2e-a5c8-1453e5c1429a",
+      "version": -1,
+      "word": "en kalender",
+      "forms": [
+        {
+          "form": "kalendrar"
+        }
+      ],
+      "translations": {
+        "ru": "Календарь",
+        "en": "Calendar",
+        "uk": "Календар",
+        "ar": "تقويم",
+        "fa": "تقویم",
+        "so": "Kalandar",
+        "es": "Calendario",
+        "de": "Kalender",
+        "fr": "Calendrier",
+        "pl": "Kalendarz",
+        "id": "Kalender",
+        "hi": "कैलेंडर",
+        "zh": "日历",
+        "it": "Calendario",
+        "tr": "Takvim",
+        "sr": "Календар",
+        "fi": "Kalenteri",
+        "et": "Kalender",
+        "be": "Каляндар",
+        "lv": "Kalendārs",
+        "lt": "Kalendorius"
+      },
+      "examples": [
+        {
+          "text": "Jag markerade vår årsdag i kalendern"
+        },
+        {
+          "text": "Jag har lagt in mötet i min kalender"
+        },
+        {
+          "text": "Kan du kolla din kalender och se om du är ledig? Jag köpte en ny väggkalender för det här året"
+        },
+        {
+          "text": "Min digitala kalender synkroniseras med min mobil"
+        },
+        {
+          "text": "I december öppnar barn en lucka i sin adventskalender varje dag"
+        },
+        {
+          "text": "Vi kan boka ett möte nästa vecka, jag ska bara dubbelkolla min kalender"
+        },
+        {
+          "text": "Jag använder en almanacka för att planera mina dagar"
+        },
+        {
+          "text": "Min kalender är fullbokad den här månaden"
+        },
+        {
+          "text": "Har du skrivit in deadline i kalendern? Kalendern visar att vi har en röd dag på måndag."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4ac90a23-1a08-4701-be5e-3e5b2bc286b2",
+      "version": 1,
+      "word": "Vilken tid",
+      "translations": {
+        "ru": "Во сколько? в котором часу.",
+        "en": "At what time? At which hour.",
+        "uk": "О котрій годині? О котрій годині.",
+        "ar": "في أي وقت؟ في أي ساعة.",
+        "fa": "در چه زمانی؟ در چه ساعتی.",
+        "so": "Saacaddee? Saacaddee.",
+        "es": "¿A qué hora? ¿A qué hora?",
+        "de": "Um wie viel Uhr? Um welche Stunde?",
+        "fr": "À quelle heure ? À quelle heure.",
+        "pl": "O której godzinie? O której godzinie.",
+        "id": "Jam berapa? Jam berapa.",
+        "hi": "किस समय? किस घंटे में।",
+        "zh": "几点？几点钟。",
+        "it": "A che ora? A che ora.",
+        "tr": "Saat kaçta? Hangi saatte.",
+        "sr": "U koliko sati? U koliko sati.",
+        "fi": "Mihin aikaan? Mihin aikaan.",
+        "et": "Mis kell? Mis kell.",
+        "be": "А каторай гадзіне? А каторай гадзіне.",
+        "lv": "Cikos? Cik stundā.",
+        "lt": "Kurią valandą? Kurią valandą."
+      },
+      "examples": [
+        {
+          "text": "Vilken tid börjar mötet?"
+        },
+        {
+          "text": "Vilken tid ska vi åka hem?"
+        },
+        {
+          "text": "Vilken tid slutar jobbet?"
+        },
+        {
+          "text": "Vilken tid går bussen till Stockholm?"
+        },
+        {
+          "text": "Vilken tid kan du komma?"
+        },
+        {
+          "text": "Vilken tid är det frukost på hotellet?"
+        },
+        {
+          "text": "Vilken tid vaknar du vanligtvis?"
+        },
+        {
+          "text": "Vilken tid kommer paketet att levereras?"
+        },
+        {
+          "text": "Vilken tid måste vi checka ut från hotellet?"
+        },
+        {
+          "text": "Vilken tid öppnar banken?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b059bf6b-f86d-47b0-9ddd-f6d6afaa664b",
+      "version": 1,
+      "word": "Hur dags",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Hur dags börjar mötet?"
+        },
+        {
+          "text": "Hur dags går bussen till Malmö?"
+        },
+        {
+          "text": "Hur dags slutar filmen?"
+        },
+        {
+          "text": "Hur dags ska vi träffas imorgon?"
+        },
+        {
+          "text": "Hur dags vaknar du vanligtvis?"
+        },
+        {
+          "text": "Hur dags är middagen klar?"
+        },
+        {
+          "text": "Hur dags kommer tåget till Göteborg?"
+        },
+        {
+          "text": "Hur dags börjar lektionerna i din skola?"
+        },
+        {
+          "text": "Hur dags brukar du gå och lägga dig?"
+        },
+        {
+          "text": "Hur dags är det bäst att ringa dig?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "83b646e1-5bf9-4710-90b4-591bcc33c04d",
+      "version": -1,
+      "word": "När har du tid?",
+      "translations": {
+        "ru": "Когда у тебя будет время?",
+        "en": "When will you have time?",
+        "uk": "Коли у тебе буде час?",
+        "ar": "متى سيكون لديك وقت؟",
+        "fa": "چه زمانی وقت خواهی داشت؟",
+        "so": "Goorma ayaad waqti heli doontaa?",
+        "es": "¿Cuándo tendrás tiempo?",
+        "de": "Wann wirst du Zeit haben?",
+        "fr": "Quand auras-tu du temps ?",
+        "pl": "Kiedy będziesz mieć czas?",
+        "id": "Kapan kamu punya waktu?",
+        "hi": "तुम्हारे पास समय कब होगा?",
+        "zh": "你什么时候有时间？",
+        "it": "Quando avrai tempo?",
+        "tr": "Ne zaman vaktin olacak?",
+        "sr": "Када ћеш имати времена?",
+        "fi": "Milloin sinulla on aikaa?",
+        "et": "Millal sul aega on?",
+        "be": "Калі ў цябе будзе час?",
+        "lv": "Kad tev būs laiks?",
+        "lt": "Kada turėsi laiko?"
+      },
+      "examples": [
+        {
+          "text": "När har du tid att hjälpa mig? Jag är väldigt upptagen, men jag har tid på fredag"
+        },
+        {
+          "text": "När har du tid att gå på bio? Jag vet inte när jag har tid, jag måste kolla min kalender"
+        },
+        {
+          "text": "När har du tid att fixa bilen? Kan du säga när du har tid för en kopp kaffe? Jag har tid nu om du vill prata"
+        },
+        {
+          "text": "När har du tid att ringa mig? Jag har ingen tid den här veckan, men nästa vecka fungerar"
+        },
+        {
+          "text": "Låt mig veta när du har tid att ses."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f502eee3-7883-43fd-aa0e-e97a80ced675",
+      "version": -1,
+      "word": "Har du tid i dag?",
+      "translations": {
+        "ru": "У тебя есть время сегодня?",
+        "en": "Do you have time today?",
+        "uk": "У тебе є час сьогодні?",
+        "ar": "هل لديك وقت اليوم؟",
+        "fa": "آیا امروز وقت داری؟",
+        "so": "Ma haysaa waqti maanta?",
+        "es": "¿Tienes tiempo hoy?",
+        "de": "Hast du heute Zeit?",
+        "fr": "As-tu du temps aujourd'hui ?",
+        "pl": "Czy masz dzisiaj czas?",
+        "id": "Apakah kamu punya waktu hari ini?",
+        "hi": "क्या आपके पास आज समय है?",
+        "zh": "你今天有时间吗？",
+        "it": "Hai tempo oggi?",
+        "tr": "Bugün zamanın var mı?",
+        "sr": "Да ли имаш времена данас?",
+        "fi": "Onko sinulla aikaa tänään?",
+        "et": "Kas sul on täna aega?",
+        "be": "Ці ёсць у цябе час сёння?",
+        "lv": "Vai tev ir laiks šodien?",
+        "lt": "Ar turi laiko šiandien?"
+      },
+      "examples": [
+        {
+          "text": "Har du tid i dag att träffas? Jag har tid i dag efter jobbet"
+        },
+        {
+          "text": "Har du tid i dag att hjälpa mig med datorn? Jag är upptagen just nu, men jag har tid i dag på kvällen"
+        },
+        {
+          "text": "Jag är upptagen just nu, men jag har tid i dag på kvällen"
+        },
+        {
+          "text": "Har du tid i dag för en fika? Jag vet inte om jag har tid i dag, jag måste kolla min kalender"
+        },
+        {
+          "text": "Har du tid i dag eller är du upptagen hela dagen? Har du tid i dag att gå på bio? Jag tror att jag har lite tid i dag efter lunch"
+        },
+        {
+          "text": "Har du tid i dag att prata en stund?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "454b59fa-6d56-4374-a6db-d187fa5d3310",
+      "version": 1,
+      "word": "fem över två",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går fem över två"
+        },
+        {
+          "text": "Jag har ett möte fem över två"
+        },
+        {
+          "text": "Kan vi ses fem över två?"
+        },
+        {
+          "text": "Tåget anländer fem över två"
+        },
+        {
+          "text": "Filmen börjar inte förrän fem över två"
+        },
+        {
+          "text": "Jag kommer tillbaka fem över två"
+        },
+        {
+          "text": "Vi ses fem över två utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän fem över två"
+        },
+        {
+          "text": "Läkaren kan ta emot dig fem över två"
+        },
+        {
+          "text": "Jag var där fem över två, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bbc6ec6f-e191-4fb5-849e-e922aa69304f",
+      "version": 1,
+      "word": "tio över två",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går tio över två"
+        },
+        {
+          "text": "Jag har ett möte tio över två"
+        },
+        {
+          "text": "Kan vi ses tio över två?"
+        },
+        {
+          "text": "Tåget anländer tio över två"
+        },
+        {
+          "text": "Filmen börjar tio över två"
+        },
+        {
+          "text": "Jag kommer tillbaka tio över två"
+        },
+        {
+          "text": "Vi ses tio över två utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän tio över två"
+        },
+        {
+          "text": "Läkaren kan ta emot dig tio över två"
+        },
+        {
+          "text": "Jag var där tio över två, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5ab011cf-f064-4362-aeea-48537dbc3ce9",
+      "version": 1,
+      "word": "kvart över två",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går kvart över två"
+        },
+        {
+          "text": "Jag har ett möte kvart över två"
+        },
+        {
+          "text": "Kan vi ses kvart över två?"
+        },
+        {
+          "text": "Tåget anländer kvart över två"
+        },
+        {
+          "text": "Filmen börjar kvart över två"
+        },
+        {
+          "text": "Jag kommer tillbaka kvart över två"
+        },
+        {
+          "text": "Vi ses kvart över två utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän kvart över två"
+        },
+        {
+          "text": "Läkaren kan ta emot dig kvart över två"
+        },
+        {
+          "text": "Jag var där kvart över två, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ff7a84a2-4519-48c2-b55b-77984b9dfdcf",
+      "version": 1,
+      "word": "tjugo över två",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går tjugo över två"
+        },
+        {
+          "text": "Jag har ett möte tjugo över två"
+        },
+        {
+          "text": "Kan vi ses tjugo över två?"
+        },
+        {
+          "text": "Tåget anländer tjugo över två"
+        },
+        {
+          "text": "Filmen börjar tjugo över två"
+        },
+        {
+          "text": "Jag kommer tillbaka tjugo över två"
+        },
+        {
+          "text": "Vi ses tjugo över två utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän tjugo över två"
+        },
+        {
+          "text": "Läkaren kan ta emot dig tjugo över två"
+        },
+        {
+          "text": "Jag var där tjugo över två, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ec9be33b-0e99-4a87-8d77-4b37990a0382",
+      "version": 1,
+      "word": "fem i halv tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går fem i halv tre"
+        },
+        {
+          "text": "Jag har ett möte fem i halv tre"
+        },
+        {
+          "text": "Kan vi ses fem i halv tre?"
+        },
+        {
+          "text": "Tåget anländer fem i halv tre"
+        },
+        {
+          "text": "Filmen börjar fem i halv tre"
+        },
+        {
+          "text": "Jag kommer tillbaka fem i halv tre"
+        },
+        {
+          "text": "Vi ses fem i halv tre utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän fem i halv tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig fem i halv tre"
+        },
+        {
+          "text": "Jag var där fem i halv tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c47e1f0f-c00b-4540-955d-476c4358de53",
+      "version": 1,
+      "word": "halv tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går halv tre"
+        },
+        {
+          "text": "Jag har ett möte halv tre"
+        },
+        {
+          "text": "Kan vi ses halv tre?"
+        },
+        {
+          "text": "Tåget anländer halv tre"
+        },
+        {
+          "text": "Filmen börjar halv tre"
+        },
+        {
+          "text": "Jag kommer tillbaka halv tre"
+        },
+        {
+          "text": "Vi ses halv tre utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän halv tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig halv tre"
+        },
+        {
+          "text": "Jag var där halv tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "007624ca-6053-44a0-bb08-b14d9461588f",
+      "version": 1,
+      "word": "fem över halv tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går fem över halv tre"
+        },
+        {
+          "text": "Jag har ett möte fem över halv tre"
+        },
+        {
+          "text": "Kan vi ses fem över halv tre?"
+        },
+        {
+          "text": "Tåget anländer fem över halv tre"
+        },
+        {
+          "text": "Filmen börjar fem över halv tre"
+        },
+        {
+          "text": "Jag kommer tillbaka fem över halv tre"
+        },
+        {
+          "text": "Vi ses fem över halv tre utanförkaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän fem över halv tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig fem över halv tre"
+        },
+        {
+          "text": "Jag var där fem över halv tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "91a5ed2f-8416-423d-b266-5ed5c7eab675",
+      "version": 1,
+      "word": "tjugo i tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går tjugo i tre"
+        },
+        {
+          "text": "Jag har ett möte tjugo i tre"
+        },
+        {
+          "text": "Kan vi ses tjugo i tre?"
+        },
+        {
+          "text": "Tåget anländer tjugo i tre"
+        },
+        {
+          "text": "Filmen börjar tjugo i tre"
+        },
+        {
+          "text": "Jag kommer tillbaka tjugo i tre"
+        },
+        {
+          "text": "Vi ses tjugo i tre utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän tjugo i tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig tjugo i tre"
+        },
+        {
+          "text": "Jag var där tjugo i tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bc732a78-6b3d-4232-8fa5-a8e8d461d1c3",
+      "version": 1,
+      "word": "kvart i tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går kvart i tre"
+        },
+        {
+          "text": "Jag har ett möte kvart i tre"
+        },
+        {
+          "text": "Kan vi ses kvart i tre?"
+        },
+        {
+          "text": "Tåget anländer kvart i tre"
+        },
+        {
+          "text": "Filmen börjar kvart i tre"
+        },
+        {
+          "text": "Jag kommer tillbaka kvart i tre"
+        },
+        {
+          "text": "Vi ses kvart i tre utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän kvart i tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig kvart i tre"
+        },
+        {
+          "text": "Jag var där kvart i tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2573a900-8968-447e-ac34-ea7fa49b9f41",
+      "version": 1,
+      "word": "tio i tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går tio i tre"
+        },
+        {
+          "text": "Jag har ett möte tio i tre"
+        },
+        {
+          "text": "Kan vi ses tio i tre?"
+        },
+        {
+          "text": "Tåget anländer tio i tre"
+        },
+        {
+          "text": "Filmen börjar tio i tre"
+        },
+        {
+          "text": "Jag kommer tillbaka tio i tre"
+        },
+        {
+          "text": "Vi ses tio i tre utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän tio i tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig tio i tre"
+        },
+        {
+          "text": "Jag var där tio i tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f3af368d-207a-4a7a-a953-0731e7714fc5",
+      "version": 1,
+      "word": "fem i tre",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Bussen går fem i tre"
+        },
+        {
+          "text": "Jag har ett möte fem i tre"
+        },
+        {
+          "text": "Kan vi ses fem i tre?"
+        },
+        {
+          "text": "Tåget anländer fem i tre"
+        },
+        {
+          "text": "Filmen börjar fem i tre"
+        },
+        {
+          "text": "Jag kommer tillbaka fem i tre"
+        },
+        {
+          "text": "Vi ses fem i tre utanför kaféet"
+        },
+        {
+          "text": "Bussen avgår inte förrän fem i tre"
+        },
+        {
+          "text": "Läkaren kan ta emot dig fem i tre"
+        },
+        {
+          "text": "Jag var där fem i tre, men du var inte där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "912b1063-15d9-4735-85bf-1cf375b78ffd",
+      "version": 1,
+      "word": "fjorton och femton",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Tåget avgår klockan fjorton och femton"
+        },
+        {
+          "text": "Mötet börjar exakt klockan fjorton och femton"
+        },
+        {
+          "text": "Bussen kommer klockan fjorton och femton"
+        },
+        {
+          "text": "Filmen börjar fjorton och femton, så kom i tid"
+        },
+        {
+          "text": "Jag måste vara där klockan fjorton och femton"
+        },
+        {
+          "text": "Flyget landar fjorton och femton enligt tidtabellen"
+        },
+        {
+          "text": "Kan vi träffas fjorton och femton?"
+        },
+        {
+          "text": "Butiken stänger klockan fjorton och femton i dag"
+        },
+        {
+          "text": "Sändningen börjar exakt klockan fjorton och femton"
+        },
+        {
+          "text": "Vi ses vid stationen fjorton och femton."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6230b3b0-3feb-4574-9a1c-eb80a74e6112",
+      "version": 1,
+      "word": "fjorton och trettiofem",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Tåget avgår klockan fjorton och trettiofem"
+        },
+        {
+          "text": "Mötet börjar exakt klockan fjorton och trettiofem"
+        },
+        {
+          "text": "Bussen kommer klockan fjorton och trettiofem"
+        },
+        {
+          "text": "Filmen börjar fjorton och trettiofem, så kom i tid"
+        },
+        {
+          "text": "Jag måste vara där klockan fjorton och trettiofem"
+        },
+        {
+          "text": "Flyget landar fjorton och trettiofem enligt tidtabellen"
+        },
+        {
+          "text": "Kan vi träffas fjorton och trettiofem?"
+        },
+        {
+          "text": "Butiken stänger klockan fjorton och trettiofem i dag"
+        },
+        {
+          "text": "Sändningen börjar exakt klockan fjorton och trettiofem"
+        },
+        {
+          "text": "Vi ses vid stationen fjorton och trettiofem."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f7650529-fd47-4097-a8df-0d9b6e263ce5",
+      "version": 1,
+      "word": "fjorton och femtio",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Tåget avgår klockan fjorton och femtio"
+        },
+        {
+          "text": "Mötet börjar exakt klockan fjorton och femtio"
+        },
+        {
+          "text": "Bussen kommer klockan fjorton och femtio"
+        },
+        {
+          "text": "Filmen börjar fjorton och femtio, så kom i tid"
+        },
+        {
+          "text": "Jag måste vara där klockan fjorton och femtio"
+        },
+        {
+          "text": "Flyget landar fjorton och femtio enligt tidtabellen"
+        },
+        {
+          "text": "Kan vi träffas fjorton och femtio?"
+        },
+        {
+          "text": "Butiken stänger klockan fjorton och femtio i dag"
+        },
+        {
+          "text": "Sändningen börjar exakt klockan fjorton och femtio"
+        },
+        {
+          "text": "Vi ses vid stationen fjorton och femtio."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ed762531-e90d-4139-8091-dff325a0840b",
+      "version": 1,
+      "word": "nästa gång",
+      "translations": {
+        "ru": "в следующий раз",
+        "en": "next time",
+        "uk": "наступного разу",
+        "ar": "المرة القادمة",
+        "fa": "دفعه بعد",
+        "so": "marka xigta",
+        "es": "la próxima vez",
+        "de": "nächstes Mal",
+        "fr": "la prochaine fois",
+        "pl": "następnym razem",
+        "id": "lain kali",
+        "hi": "अगली बार",
+        "zh": "下次",
+        "it": "la prossima volta",
+        "tr": "bir dahaki sefere",
+        "sr": "следећи пут",
+        "fi": "seuraavalla kerralla",
+        "et": "järgmine kord",
+        "be": "наступным разам",
+        "lv": "nākamreiz",
+        "lt": "kitą kartą"
+      },
+      "examples": [
+        {
+          "text": "Jag ska försöka bättre nästa gång"
+        },
+        {
+          "text": "Nästa gång ska vi träffas hos mig"
+        },
+        {
+          "text": "Kan vi göra det bättre nästa gång?"
+        },
+        {
+          "text": "Jag hoppas att vi kan vinna nästa gång"
+        },
+        {
+          "text": "Vi ses nästa gång på samma plats"
+        },
+        {
+          "text": "Misslyckas inte, nästa gång blir det bättre"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "68a0a998-b895-489a-9fdf-849be1f870cf",
+      "version": 1,
+      "word": "förra gången",
+      "translations": {
+        "ru": "в прошлый раз",
+        "en": "last time",
+        "uk": "минулого разу",
+        "ar": "المرة الماضية",
+        "fa": "دفعه قبل",
+        "so": "markii hore",
+        "es": "la última vez",
+        "de": "letztes Mal",
+        "fr": "la dernière fois",
+        "pl": "ostatnim razem",
+        "id": "terakhir kali",
+        "hi": "पिछली बार",
+        "zh": "上次",
+        "it": "l'ultima volta",
+        "tr": "son sefer",
+        "sr": "прошли пут",
+        "fi": "viime kerralla",
+        "et": "eelmine kord",
+        "be": "мінулай раз",
+        "lv": "pēdējo reizi",
+        "lt": "paskutinį kartą"
+      },
+      "examples": [
+        {
+          "text": "Förra gången var jag försenad"
+        },
+        {
+          "text": "Förra gången var vi på bio, men nu vill jag gå på teater"
+        },
+        {
+          "text": "Jag gjorde ett misstag förra gången, men nu vet jag bättre"
+        },
+        {
+          "text": "Förra gången vi spelade vann jag!"
+        },
+        {
+          "text": "Jag minns inte vad vi pratade om förra gången"
+        },
+        {
+          "text": "Det gick snabbare än förra gången"
+        },
+        {
+          "text": "Förra gången regnade det, men i dag är det soligt"
+        },
+        {
+          "text": "Du sa något intressant förra gången"
+        },
+        {
+          "text": "Jag glömde att fråga dig förra gången"
+        },
+        {
+          "text": "Han var nervös förra gången, men nu är han lugn"
+        },
+        {
+          "text": "Jag hoppas det går bättre än förra gången."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "671a3591-041d-428e-b7cd-372b306ea3a2",
+      "version": 1,
+      "word": "Senast",
+      "translations": {
+        "ru": "в последний раз",
+        "en": "the last time",
+        "uk": "останній раз",
+        "ar": "آخر مرة",
+        "fa": "آخرین بار",
+        "so": "markii ugu dambeysay",
+        "es": "la última vez",
+        "de": "das letzte Mal",
+        "fr": "la dernière fois",
+        "pl": "ostatni raz",
+        "id": "terakhir kali",
+        "hi": "आखिरी बार",
+        "zh": "最后一次",
+        "it": "l'ultima volta",
+        "tr": "son kez",
+        "sr": "последњи пут",
+        "fi": "viimeinen kerta",
+        "et": "viimane kord",
+        "be": "апошні раз",
+        "lv": "pēdējo reizi",
+        "lt": "paskutinį kartą"
+      },
+      "examples": [
+        {
+          "text": "När träffade du henne senast?"
+        },
+        {
+          "text": "Jag var hos tandläkaren senast i oktober"
+        },
+        {
+          "text": "Senast vi sågs var på en fest"
+        },
+        {
+          "text": "Vad gjorde du senast du var i Stockholm?"
+        },
+        {
+          "text": "Jag såg honom senast i förrgår"
+        },
+        {
+          "text": "Vilken bok läste du senast?"
+        },
+        {
+          "text": "Det var längre sedan än senast vi pratade"
+        },
+        {
+          "text": "Jag var sjuk senast vi skulle träffas"
+        },
+        {
+          "text": "Det var bättre än senast"
+        },
+        {
+          "text": "Senast jag reste var i somras."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9cdf85d3-0b0e-4d84-bb3d-198671b5cc1c",
+      "version": -1,
+      "word": "den här gången",
+      "translations": {
+        "ru": "на этот раз",
+        "en": "this time",
+        "uk": "цього разу",
+        "ar": "هذه المرة",
+        "fa": "این بار",
+        "so": "markan",
+        "es": "esta vez",
+        "de": "dieses Mal",
+        "fr": "cette fois",
+        "pl": "tym razem",
+        "id": "kali ini",
+        "hi": "इस बार",
+        "zh": "这次",
+        "it": "questa volta",
+        "tr": "bu sefer",
+        "sr": "овог пута",
+        "fi": "tällä kertaa",
+        "et": "seekord",
+        "be": "гэтым разам",
+        "lv": "šoreiz",
+        "lt": "šį kartą"
+      },
+      "examples": [
+        {
+          "text": "Den här gången gick det bättre än förra gången"
+        },
+        {
+          "text": "Jag ska göra det rätt den här gången"
+        },
+        {
+          "text": "Den här gången lyckades jag laga maten utan att bränna den"
+        },
+        {
+          "text": "Vi måste vara försiktigare den här gången"
+        },
+        {
+          "text": "Jag hoppas att allt går smidigt den här gången"
+        },
+        {
+          "text": "Kan vi försöka en gång till? Den här gången ska jag göra mitt bästa"
+        },
+        {
+          "text": "Den här gången var vädret mycket bättre än förra gången."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b111aa43-4f2c-4c4a-819f-299b35c0dce8",
+      "version": 1,
+      "word": "i förväg",
+      "translations": {
+        "ru": "заранее",
+        "en": "in advance",
+        "uk": "заздалегідь",
+        "ar": "مقدماً",
+        "fa": "از قبل",
+        "so": "hore",
+        "es": "por adelantado",
+        "de": "im Voraus",
+        "fr": "à l'avance",
+        "pl": "z wyprzedzeniem",
+        "id": "di muka",
+        "hi": "पहले से",
+        "zh": "提前",
+        "it": "in anticipo",
+        "tr": "önceden",
+        "sr": "унапред",
+        "fi": "etukäteen",
+        "et": "ette",
+        "be": "загадзя",
+        "lv": "iepriekš",
+        "lt": "iš anksto"
+      },
+      "examples": [
+        {
+          "text": "Jag bokade biljetterna i förväg"
+        },
+        {
+          "text": "Kan du meddela mig i förväg om mötet ändras?"
+        },
+        {
+          "text": "Vi måste planera allt i förväg"
+        },
+        {
+          "text": "Han packade sina saker i förväg för resan"
+        },
+        {
+          "text": "Om du vill ha specialmat, måste du beställa det i förväg"
+        },
+        {
+          "text": "Läraren gav oss uppgifterna i förväg"
+        },
+        {
+          "text": "Vi fick informationen i förväg, så vi var förberedda"
+        },
+        {
+          "text": "Det är bäst att förbereda sig i förväg för intervjun"
+        },
+        {
+          "text": "Om du ska avboka, gör det i förväg"
+        },
+        {
+          "text": "Jag visste i förväg att det skulle bli svårt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b34ae86b-468e-45be-aa7b-514f1e8695e1",
+      "version": -1,
+      "word": "på förhand",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Jag visste på förhand att mötet skulle bli svårt"
+        },
+        {
+          "text": "Vi måste diskutera planen på förhand"
+        },
+        {
+          "text": "Hon hade lärt sig allt på förhand och var redo"
+        },
+        {
+          "text": "Beställ biljetterna på förhand, så slipper du stressa"
+        },
+        {
+          "text": "Om du betalar på förhand, får du rabatt"
+        },
+        {
+          "text": "Kontrakten måste godkännas på förhand"
+        },
+        {
+          "text": "Vi fick ingen information på förhand"
+        },
+        {
+          "text": "Ansökningen måste skickas in på förhand"
+        },
+        {
+          "text": "På förhand tack för din hjälp"
+        },
+        {
+          "text": "Beslutet hade fattats på förhand."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "76d31185-65fa-4734-8633-cca3b91a2f1e",
+      "version": -1,
+      "word": "den tjugofjärde mars tjugohundraarton",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "nittonhundranittiofem"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8e29f89c-5bee-4ba6-9158-255ab246254e",
+      "version": -1,
+      "word": "Jag fyller år (den tjugoandra juni)",
+      "translations": {
+        "ru": "как сказать дату рождения",
+        "en": "how to say the date of birth",
+        "uk": "як сказати дату народження",
+        "ar": "كيف تقول تاريخ الميلاد",
+        "fa": "چگونه تاریخ تولد را بگوییم",
+        "so": "sida loo yiraahdo taariikhda dhalashada",
+        "es": "cómo decir la fecha de nacimiento",
+        "de": "wie man das Geburtsdatum sagt",
+        "fr": "comment dire la date de naissance",
+        "pl": "jak powiedzieć datę urodzenia",
+        "id": "bagaimana mengatakan tanggal lahir",
+        "hi": "जन्म तिथि कैसे कहें",
+        "zh": "如何说出生日期",
+        "it": "come dire la data di nascita",
+        "tr": "doğum tarihini nasıl söylenir",
+        "sr": "како рећи датум рођења",
+        "fi": "kuinka sanoa syntymäaika",
+        "et": "kuidas öelda sünnikuupäeva",
+        "be": "як сказаць дату нараджэння",
+        "lv": "kā pateikt dzimšanas datumu",
+        "lt": "kaip pasakyti gimimo datą"
+      },
+      "examples": [
+        {
+          "text": "Jag fyller år den trettonde januari Jag fyller år den 10 oktober"
+        },
+        {
+          "text": "Min bror fyller år på fredag"
+        },
+        {
+          "text": "När fyller du år? Jag fyller 40 år nästa år"
+        },
+        {
+          "text": "Vi ska ha en stor fest när jag fyller år"
+        },
+        {
+          "text": "Jag fyller år den 5 maj"
+        },
+        {
+          "text": "Jag fyller år på sommaren"
+        },
+        {
+          "text": "Jag fyller år på måndag"
+        },
+        {
+          "text": "Jag fyller år nästa vecka"
+        },
+        {
+          "text": "Jag fyller år i november"
+        },
+        {
+          "text": "Jag fyller 36 år den 14 februari."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6a4119ca-12c4-43c1-9405-381e59ad00b3",
+      "version": -1,
+      "word": "Min födelsedag är (den tjugoandra juni)",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Min födelsedag är den trettonde januari"
+        },
+        {
+          "text": "Min födelsedag är den 5 maj"
+        },
+        {
+          "text": "Min födelsedag är i juni"
+        },
+        {
+          "text": "Min födelsedag är på vintern"
+        },
+        {
+          "text": "Min födelsedag är den 3 mars"
+        },
+        {
+          "text": "När är din födelsedag? Min födelsedag är i augusti, men jag firar den i september"
+        },
+        {
+          "text": "Min födelsedag är alltid på vintern"
+        },
+        {
+          "text": "Vi ska resa bort på min födelsedag"
+        },
+        {
+          "text": "Min födelsedag var igår"
+        },
+        {
+          "text": "Jag får alltid fina presenter på min födelsedag"
+        },
+        {
+          "text": "Min födelsedag är en viktig dag för mig"
+        },
+        {
+          "text": "Jag minns min födelsedag förra året, det var en fantastisk dag!  Min födelsedag är snart, jag måste planera en fest."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0dd0a9ea-7f77-4263-bcec-7233020022c1",
+      "version": -1,
+      "word": "just nu",
+      "translations": {
+        "ru": "прямо сейчас, в данный момент",
+        "en": "right now, at the moment",
+        "uk": "прямо зараз, в даний момент",
+        "ar": "الآن، في هذه اللحظة",
+        "fa": "همین حالا، در این لحظه",
+        "so": "hadda, xilligan",
+        "es": "ahora mismo, en este momento",
+        "de": "jetzt gerade, im Moment",
+        "fr": "tout de suite, en ce moment",
+        "pl": "właśnie teraz, w tej chwili",
+        "id": "sekarang juga, saat ini",
+        "hi": "अभी, इस क्षण",
+        "zh": "现在, 此刻",
+        "it": "proprio adesso, al momento",
+        "tr": "şu anda, bu anda",
+        "sr": "upravo sada, u ovom trenutku",
+        "fi": "juuri nyt, tällä hetkellä",
+        "et": "praegu, hetkel",
+        "be": "прама зараз, у дадзены момант",
+        "lv": "tieši tagad, šobrīd",
+        "lt": "dabar, šiuo momentu"
+      },
+      "examples": [
+        {
+          "text": "Jag lyssnar på musik just nu"
+        },
+        {
+          "text": "Hon jobbar just nu, så vi kan prata senare"
+        },
+        {
+          "text": "Just nu regnar det ute"
+        },
+        {
+          "text": "Jag känner mig väldigt trött just nu"
+        },
+        {
+          "text": "Just nu lagar jag mat"
+        },
+        {
+          "text": "Det finns inga biljetter kvar just nu"
+        },
+        {
+          "text": "Just nu är jag i Stockholm"
+        },
+        {
+          "text": "Vi har en del tekniska problem just nu"
+        },
+        {
+          "text": "Jag vill inte tänka på det just nu"
+        },
+        {
+          "text": "Just nu är det viktigaste att vi samarbetar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "06b10437-460f-4270-b4b6-8dc1462e5973",
+      "version": -1,
+      "word": "nyss",
+      "translations": {
+        "ru": "только что (за несколько минут, секунд, мгновений до)",
+        "en": "just now (a few minutes, seconds, moments ago)",
+        "uk": "щойно (кілька хвилин, секунд, миттєвостей тому)",
+        "ar": "الآن فقط (منذ بضع دقائق، ثوانٍ، لحظات)",
+        "fa": "همین الان (چند دقیقه، ثانیه، لحظه پیش)",
+        "so": "hadda (dhowr daqiiqo, ilbiriqsi, daqiiqado ka hor)",
+        "es": "justo ahora (hace unos minutos, segundos, momentos)",
+        "de": "gerade eben (vor ein paar Minuten, Sekunden, Momenten)",
+        "fr": "à l'instant (il y a quelques minutes, secondes, moments)",
+        "pl": "właśnie teraz (kilka minut, sekund, chwil temu)",
+        "id": "baru saja (beberapa menit, detik, momen yang lalu)",
+        "hi": "अभी-अभी (कुछ मिनट, सेकंड, क्षण पहले)",
+        "zh": "刚才（几分钟前，几秒钟前，几刻钟前）",
+        "it": "appena adesso (pochi minuti, secondi, momenti fa)",
+        "tr": "az önce (birkaç dakika, saniye, an önce)",
+        "sr": "управо сада (пре неколико минута, секунди, тренутака)",
+        "fi": "juuri nyt (muutama minuutti, sekunti, hetki sitten)",
+        "et": "just nüüd (paar minutit, sekundit, hetke tagasi)",
+        "be": "толькі што (некалькі хвілін, секунд, момантаў таму)",
+        "lv": "tikko (pirms dažām minūtēm, sekundēm, mirkļiem)",
+        "lt": "ką tik (prieš kelias minutes, sekundes, akimirkas)"
+      },
+      "examples": [
+        {
+          "text": "Jag såg honom nyss"
+        },
+        {
+          "text": "Jag har nyss ätit middag"
+        },
+        {
+          "text": "Hon ringde nyss och sa att hon kommer snart"
+        },
+        {
+          "text": "Jag vaknade nyss och känner mig fortfarande trött"
+        },
+        {
+          "text": "Barnen kom nyss hem från skolan"
+        },
+        {
+          "text": "Jag har nyss läst färdigt boken"
+        },
+        {
+          "text": "Hon kom nyss tillbaka från affären."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "06daf243-ebb5-46a2-9e50-7453579cb0bd",
+      "version": 1,
+      "word": "för tillfället",
+      "translations": {
+        "ru": "сейчас , в настоящий момент, временно, все может измениться",
+        "en": "now, at the present moment, temporarily, everything may change",
+        "uk": "зараз, в даний момент, тимчасово, все може змінитися",
+        "ar": "الآن، في الوقت الحالي، مؤقتًا، كل شيء قد يتغير",
+        "fa": "اکنون، در حال حاضر، به طور موقت، همه چیز ممکن است تغییر کند",
+        "so": "hadda, xilligan la joogo, si ku meel gaar ah, wax walba way is beddeli karaan",
+        "es": "ahora, en el momento presente, temporalmente, todo puede cambiar",
+        "de": "jetzt, im gegenwärtigen Moment, vorübergehend, alles kann sich ändern",
+        "fr": "maintenant, à l'heure actuelle, temporairement, tout peut changer",
+        "pl": "teraz, w chwili obecnej, tymczasowo, wszystko może się zmienić",
+        "id": "sekarang, pada saat ini, sementara, semuanya bisa berubah",
+        "hi": "अभी, वर्तमान क्षण में, अस्थायी रूप से, सब कुछ बदल सकता है",
+        "zh": "现在，目前，暂时，一切都可能改变",
+        "it": "ora, al momento presente, temporaneamente, tutto può cambiare",
+        "tr": "şimdi, şu anda, geçici olarak, her şey değişebilir",
+        "sr": "сада, у овом тренутку, привремено, све може да се промени",
+        "fi": "nyt, tällä hetkellä, väliaikaisesti, kaikki voi muuttua",
+        "et": "praegu, hetkel, ajutiselt, kõik võib muutuda",
+        "be": "зараз, у дадзены момант, часова, усё можа змяніцца",
+        "lv": "tagad, pašreizējā brīdī, uz laiku, viss var mainīties",
+        "lt": "dabar, šiuo metu, laikinai, viskas gali pasikeisti"
+      },
+      "examples": [
+        {
+          "text": "Kalle bor för tillfället i ett familjehem hos Anna"
+        },
+        {
+          "text": "För tillfället jobbar jag hemifrån"
+        },
+        {
+          "text": "Vi har inga biljetter kvar för tillfället"
+        },
+        {
+          "text": "För tillfället är jag upptagen, kan vi prata senare?"
+        },
+        {
+          "text": "För tillfället hyr vi en lägenhet, men vi letar efter något eget"
+        },
+        {
+          "text": "Jag har inga planer för tillfället"
+        },
+        {
+          "text": "För tillfället går det bra med jobbet"
+        },
+        {
+          "text": "De har pausat projektet för tillfället"
+        },
+        {
+          "text": "Jag bor hos mina föräldrar för tillfället"
+        },
+        {
+          "text": "För tillfället försöker jag spara pengar"
+        },
+        {
+          "text": "Vi har tekniska problem för tillfället, men vi jobbar på det."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1892f45b-372b-4578-9e5b-89e1e2c6686f",
+      "version": -1,
+      "word": "nu för tiden",
+      "translations": {
+        "ru": "в настоящее время в наши дни сейчас по сравнению с прошлым",
+        "en": "currently, nowadays, now compared to the past",
+        "uk": "в даний час, в наші дні, зараз у порівнянні з минулим",
+        "ar": "حاليًا، في الوقت الحاضر، الآن مقارنة بالماضي",
+        "fa": "در حال حاضر، امروزه، اکنون در مقایسه با گذشته",
+        "so": "wakhtigan, maalmahan, hadda marka loo eego waagii hore",
+        "es": "actualmente, hoy en día, ahora en comparación con el pasado",
+        "de": "derzeit, heutzutage, jetzt im Vergleich zur Vergangenheit",
+        "fr": "actuellement, de nos jours, maintenant par rapport au passé",
+        "pl": "obecnie, w dzisiejszych czasach, teraz w porównaniu z przeszłością",
+        "id": "saat ini, dewasa ini, sekarang dibandingkan dengan masa lalu",
+        "hi": "वर्तमान में, आजकल, अब की तुलना में अतीत",
+        "zh": "目前，如今，现在与过去相比",
+        "it": "attualmente, al giorno d'oggi, ora rispetto al passato",
+        "tr": "şu anda, günümüzde, geçmişe kıyasla şimdi",
+        "sr": "тренутно, данас, сада у поређењу са прошлошћу",
+        "fi": "tällä hetkellä, nykyään, nyt verrattuna menneisyyteen",
+        "et": "praegu, tänapäeval, nüüd võrreldes minevikuga",
+        "be": "у цяперашні час, у нашы дні, цяпер у параўнанні з мінулым",
+        "lv": "pašlaik, mūsdienās, tagad salīdzinot ar pagātni",
+        "lt": "šiuo metu, šiais laikais, dabar palyginti su praeitimi"
+      },
+      "examples": [
+        {
+          "text": "Nu för tiden använder nästan alla smartphones"
+        },
+        {
+          "text": "Det är vanligt att arbeta hemifrån nu för tiden"
+        },
+        {
+          "text": "Nu för tiden tittar folk mer på streamingtjänster än på TV"
+        },
+        {
+          "text": "Barn leker mindre utomhus nu för tiden"
+        },
+        {
+          "text": "Nu för tiden är det lättare att resa än förr"
+        },
+        {
+          "text": "Folk är mer medvetna om sin hälsa nu för tiden"
+        },
+        {
+          "text": "Det är dyrt att bo i storstäder nu för tiden"
+        },
+        {
+          "text": "Nu för tiden lär sig många svenska genom appar"
+        },
+        {
+          "text": "Mode förändras snabbt nu för tiden"
+        },
+        {
+          "text": "Nu för tiden skickar man sällan brev, de flesta använder e-post."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b7e9b1c0-de0f-4ceb-8f2b-83304b5b8d43",
+      "version": -1,
+      "word": "numera",
+      "translations": {
+        "ru": "в настоящее время в наши дни сейчас по сравнению с прошлым",
+        "en": "currently, nowadays, now compared to the past",
+        "uk": "в даний час, в наші дні, зараз у порівнянні з минулим",
+        "ar": "حاليًا، في الوقت الحاضر، الآن مقارنة بالماضي",
+        "fa": "در حال حاضر، امروزه، اکنون در مقایسه با گذشته",
+        "so": "wakhtigan, maalmahan, hadda marka loo eego waagii hore",
+        "es": "actualmente, hoy en día, ahora en comparación con el pasado",
+        "de": "derzeit, heutzutage, jetzt im Vergleich zur Vergangenheit",
+        "fr": "actuellement, de nos jours, maintenant par rapport au passé",
+        "pl": "obecnie, w dzisiejszych czasach, teraz w porównaniu z przeszłością",
+        "id": "saat ini, dewasa ini, sekarang dibandingkan dengan masa lalu",
+        "hi": "वर्तमान में, आजकल, अब की तुलना में अतीत",
+        "zh": "目前，如今，现在与过去相比",
+        "it": "attualmente, al giorno d'oggi, ora rispetto al passato",
+        "tr": "şu anda, günümüzde, geçmişe kıyasla şimdi",
+        "sr": "тренутно, данас, сада у поређењу са прошлошћу",
+        "fi": "tällä hetkellä, nykyään, nyt verrattuna menneisyyteen",
+        "et": "praegu, tänapäeval, nüüd võrreldes minevikuga",
+        "be": "у цяперашні час, у нашы дні, цяпер у параўнанні з мінулым",
+        "lv": "pašlaik, mūsdienās, tagad salīdzinot ar pagātni",
+        "lt": "šiuo metu, šiais laikais, dabar palyginti su praeitimi"
+      },
+      "examples": [
+        {
+          "text": "Numera arbetar han hemifrån"
+        },
+        {
+          "text": "Vi har ingen bil numera"
+        },
+        {
+          "text": "Numera äter jag inte kött"
+        },
+        {
+          "text": "Hon bodde i Göteborg, men numera bor hon i Malmö"
+        },
+        {
+          "text": "Numera är det svårt att hitta sådana produkter"
+        },
+        {
+          "text": "Vi använder numera bara elektroniska biljetter"
+        },
+        {
+          "text": "Numera är det vanligt att jobba deltid"
+        },
+        {
+          "text": "Förr skrev vi brev, men numera skickar vi e-post"
+        },
+        {
+          "text": "Numera kan man betala med mobilen"
+        },
+        {
+          "text": "Numera är jag mer avslappnad än förr."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c7efad03-fe4a-48f9-abc9-3e26e5dcef6e",
+      "version": -1,
+      "word": "I dagens ...",
+      "translations": {
+        "ru": "в настоящем, в современном (+ существительное)",
+        "en": "in the present, modern (+ noun)",
+        "uk": "у теперішньому, сучасному (+ іменник)",
+        "ar": "في الحاضر، الحديث (+ اسم)",
+        "fa": "در حال حاضر، مدرن (+ اسم)",
+        "so": "waqtigan, casriga (+ magac)",
+        "es": "en el presente, moderno (+ sustantivo)",
+        "de": "in der Gegenwart, modern (+ Substantiv)",
+        "fr": "dans le présent, moderne (+ nom)",
+        "pl": "w teraźniejszości, nowoczesny (+ rzeczownik)",
+        "id": "di masa kini, modern (+ kata benda)",
+        "hi": "वर्तमान में, आधुनिक (+ संज्ञा)",
+        "zh": "在现在，现代的（+名词）",
+        "it": "nel presente, moderno (+ sostantivo)",
+        "tr": "günümüzde, modern (+ isim)",
+        "sr": "у садашњем, модерном (+ именица)",
+        "fi": "nykyhetkessä, moderni (+ substantiivi)",
+        "et": "praeguses, kaasaegne (+ nimisõna)",
+        "be": "у цяперашнім, сучасным (+ назоўнік)",
+        "lv": "mūsdienās, moderns (+ lietvārds)",
+        "lt": "dabartyje, modernus (+ daiktavardis)"
+      },
+      "examples": [
+        {
+          "text": "I dagens läge är det svårt att få lån"
+        },
+        {
+          "text": "I dagens tidning står det om nyheten"
+        },
+        {
+          "text": "I dagens samhälle är teknologin mycket viktig"
+        },
+        {
+          "text": "I dagens möte diskuterade vi framtidsplaner"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b25436b0-ef4b-4e52-a407-2568c2e81dc4",
+      "version": -1,
+      "word": "hittills",
+      "translations": {
+        "ru": "до сих пор, на данный момент, пока что",
+        "en": "so far, at the moment, for now",
+        "uk": "досі, на даний момент, поки що",
+        "ar": "حتى الآن، في الوقت الحالي، في الوقت الراهن",
+        "fa": "تا کنون، در حال حاضر، فعلاً",
+        "so": "illaa hadda, waqtigan xaadirka ah, hadda",
+        "es": "hasta ahora, en este momento, por ahora",
+        "de": "bis jetzt, im Moment, vorerst",
+        "fr": "jusqu'à présent, en ce moment, pour l'instant",
+        "pl": "jak dotąd, w tej chwili, na razie",
+        "id": "sejauh ini, saat ini, untuk saat ini",
+        "hi": "अब तक, इस समय, फिलहाल",
+        "zh": "到目前为止，目前，暂时",
+        "it": "finora, al momento, per ora",
+        "tr": "şu ana kadar, şu anda, şimdilik",
+        "sr": "до сада, у овом тренутку, за сада",
+        "fi": "tähän mennessä, tällä hetkellä, toistaiseksi",
+        "et": "siiani, hetkel, praegu",
+        "be": "да гэтага часу, на дадзены момант, пакуль што",
+        "lv": "līdz šim, pašlaik, pagaidām",
+        "lt": "iki šiol, šiuo metu, kol kas"
+      },
+      "examples": [
+        {
+          "text": "Hittills har vi haft tur med vädret"
+        },
+        {
+          "text": "Jag har inte fått något svar hittills"
+        },
+        {
+          "text": "Filmen är ganska bra hittills"
+        },
+        {
+          "text": "Det här är det bästa resultatet hittills"
+        },
+        {
+          "text": "Hittills har allt gått enligt plan"
+        },
+        {
+          "text": "Ingen har gjort det snabbare hittills"
+        },
+        {
+          "text": "Hittills har jag läst tre kapitel"
+        },
+        {
+          "text": "Hittills verkar det fungera"
+        },
+        {
+          "text": "Han har inte sagt något hittills"
+        },
+        {
+          "text": "Hittills har kursen varit intressant."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "69538c82-451e-4c42-898c-2a6b7fcc70b6",
+      "version": 1,
+      "word": "någonsin",
+      "translations": {
+        "ru": "когда-нибудь, когда-либо",
+        "en": "sometime, ever",
+        "uk": "колись, будь-коли",
+        "ar": "في وقت ما، أبداً",
+        "fa": "گاهی، هرگز",
+        "so": "mar uun, weligaa",
+        "es": "alguna vez, jamás",
+        "de": "irgendwann, jemals",
+        "fr": "un jour, jamais",
+        "pl": "kiedyś, kiedykolwiek",
+        "id": "suatu saat, pernah",
+        "hi": "कभी, कभी भी",
+        "zh": "某时, 曾经",
+        "it": "qualche volta, mai",
+        "tr": "bir gün, hiç",
+        "sr": "некaд, икад",
+        "fi": "joskus, koskaan",
+        "et": "kunagi, kunagi",
+        "be": "калі-небудзь, калі-небудзь",
+        "lv": "kādreiz, jebkad",
+        "lt": "kada nors, kada nors"
+      },
+      "examples": [
+        {
+          "text": "Har du någonsin varit i Japan?"
+        },
+        {
+          "text": "Har du någonsin sett en sådan stor hund?"
+        },
+        {
+          "text": "Jag har aldrig någonsin varit så trött"
+        },
+        {
+          "text": "Det här är den bästa filmen jag någonsin har sett"
+        },
+        {
+          "text": "Har du någonsin provat att åka skidor?"
+        },
+        {
+          "text": "Jag har aldrig någonsin glömt hennes födelsedag"
+        },
+        {
+          "text": "Detta är det bästa jag någonsin har gjort."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9036cdde-78a9-4645-a331-a5166e81f11d",
+      "version": -1,
+      "word": "sent",
+      "translations": {
+        "ru": "поздно с опозданием в поздний час",
+        "en": "late, with delay, at a late hour",
+        "uk": "пізно, із запізненням, у пізню годину",
+        "ar": "متأخر، مع تأخير، في ساعة متأخرة",
+        "fa": "دیر، با تأخیر، در ساعت دیر",
+        "so": "goor dambe, dib u dhac, saacad dambe",
+        "es": "tarde, con retraso, a una hora tardía",
+        "de": "spät, mit Verzögerung, zu später Stunde",
+        "fr": "tard, avec retard, à une heure tardive",
+        "pl": "późno, z opóźnieniem, o późnej godzinie",
+        "id": "terlambat, dengan penundaan, pada jam larut",
+        "hi": "देर से, देरी के साथ, देर रात में",
+        "zh": "晚，延迟，深夜",
+        "it": "tardi, con ritardo, a un'ora tarda",
+        "tr": "geç, gecikmeli, geç saatte",
+        "sr": "касно, са закашњењем, у касни сат",
+        "fi": "myöhään, viiveellä, myöhäiseen aikaan",
+        "et": "hilja, viivitusega, hilisel tunnil",
+        "be": "позна, з затрымкай, у позні час",
+        "lv": "vēlu, ar kavēšanos, vēlā stundā",
+        "lt": "vėlai, su vėlavimu, vėlyvą valandą"
+      },
+      "examples": [
+        {
+          "text": "Det är sent och jag är trött"
+        },
+        {
+          "text": "Jag gick och la mig sent i går"
+        },
+        {
+          "text": "Det är för sent att göra något nu"
+        },
+        {
+          "text": "Filmen började sent på kvällen"
+        },
+        {
+          "text": "Hon kom sent till mötet"
+        },
+        {
+          "text": "Jag vaknade sent i morse"
+        },
+        {
+          "text": "Det är aldrig för sent att lära sig något nytt"
+        },
+        {
+          "text": "Han insåg sitt misstag för sent"
+        },
+        {
+          "text": "Hon ångrade sig, men det var för sent"
+        },
+        {
+          "text": "Han kom sent till festen, men bättre sent än aldrig"
+        },
+        {
+          "text": "Jag vill inte komma sent till tåget."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "db35d743-b875-4fa0-8701-819ca291ab8f",
+      "version": -1,
+      "word": "tidigt",
+      "translations": {
+        "ru": "рано",
+        "en": "early",
+        "uk": "рано",
+        "ar": "مبكر",
+        "fa": "زود",
+        "so": "hore",
+        "es": "temprano",
+        "de": "früh",
+        "fr": "tôt",
+        "pl": "wcześnie",
+        "id": "awal",
+        "hi": "जल्दी",
+        "zh": "早",
+        "it": "presto",
+        "tr": "erken",
+        "sr": "рано",
+        "fi": "aikaisin",
+        "et": "vara",
+        "be": "рана",
+        "lv": "agri",
+        "lt": "anksti"
+      },
+      "examples": [
+        {
+          "text": "Jag gick upp tidigt"
+        },
+        {
+          "text": "Jag gick och lade mig tidigt igår"
+        },
+        {
+          "text": "Han vaknade tidigt och gick ut på en promenad"
+        },
+        {
+          "text": "Tidigt på morgonen är det väldigt tyst"
+        },
+        {
+          "text": "Du måste vara där tidigt om du vill få en bra plats"
+        },
+        {
+          "text": "Hon föddes för tidigt, men är nu helt frisk"
+        },
+        {
+          "text": "Tidigt på året är det fortfarande kallt"
+        },
+        {
+          "text": "Jag tycker inte om att gå upp tidigt"
+        },
+        {
+          "text": "Det är för tidigt att säga något säkert"
+        },
+        {
+          "text": "Vi kom tidigt och fick de bästa platserna"
+        },
+        {
+          "text": "De började sitt arbete tidigt på morgonen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "12de11a1-f872-4feb-96d8-10a15a8a0d41",
+      "version": 1,
+      "word": "strax",
+      "translations": {
+        "ru": "очень скоро, через мгновение, вот-вот.",
+        "en": "very soon, in a moment, any minute now.",
+        "uk": "дуже скоро, за мить, ось-ось",
+        "ar": "قريبًا جدًا، في لحظة، في أي لحظة الآن",
+        "fa": "خیلی زود، در یک لحظه، هر لحظه اکنون",
+        "so": "aad u dhakhso badan, daqiiqad gudaheed, wakhti kasta hadda",
+        "es": "muy pronto, en un momento, en cualquier momento ahora",
+        "de": "sehr bald, in einem Moment, jeden Moment jetzt",
+        "fr": "très bientôt, dans un instant, d'une minute à l'autre",
+        "pl": "bardzo szybko, za chwilę, w każdej chwili",
+        "id": "segera, dalam sekejap, kapan saja sekarang",
+        "hi": "बहुत जल्द, एक पल में, अब किसी भी क्षण",
+        "zh": "很快，瞬间，随时",
+        "it": "molto presto, tra un momento, da un momento all'altro",
+        "tr": "çok yakında, bir an içinde, her an şimdi",
+        "sr": "врло брзо, за тренутак, сваког тренутка сада",
+        "fi": "hyvin pian, hetkessä, hetkenä minä hyvänsä",
+        "et": "väga varsti, hetkega, iga hetk nüüd",
+        "be": "вельмі хутка, праз імгненне, вось-вось",
+        "lv": "ļoti drīz, mirklī, jebkurā brīdī tagad",
+        "lt": "labai greitai, akimirksniu, bet kurią akimirką dabar"
+      },
+      "examples": [
+        {
+          "text": "Jag är strax tillbaka"
+        },
+        {
+          "text": "Kan du vänta?"
+        },
+        {
+          "text": "Jag är där strax!"
+        },
+        {
+          "text": "Bussen går strax, skynda dig!"
+        },
+        {
+          "text": "Läkarens kontor öppnar strax"
+        },
+        {
+          "text": "Jag fixar det strax, vänta lite"
+        },
+        {
+          "text": "Mötet börjar strax, var redo!"
+        },
+        {
+          "text": "Strax efter lunch gick vi ut på en promenad"
+        },
+        {
+          "text": "Om du ringer henne nu, svarar hon strax"
+        },
+        {
+          "text": "Filmen startar strax, släck lamporna"
+        },
+        {
+          "text": "Jag måste gå nu, men vi ses strax igen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "356460c3-f977-468d-9b5e-0dc485e01f97",
+      "version": -1,
+      "word": "en brådska",
+      "translations": {
+        "ru": "спешка, срочность",
+        "en": "hurry, urgency",
+        "uk": "поспіх, терміновість",
+        "ar": "عجلة، استعجال",
+        "fa": "عجله، فوریت",
+        "so": "degdeg, degdegsiin",
+        "es": "prisa, urgencia",
+        "de": "Eile, Dringlichkeit",
+        "fr": "hâte, urgence",
+        "pl": "pośpiech, pilność",
+        "id": "terburu-buru, urgensi",
+        "hi": "जल्दी, तात्कालिकता",
+        "zh": "匆忙, 紧迫",
+        "it": "fretta, urgenza",
+        "tr": "acele, aciliyet",
+        "sr": "журба, хитност",
+        "fi": "kiire, kiireellisyys",
+        "et": "kiirustamine, kiireloomulisus",
+        "be": "спех, тэрміновасць",
+        "lv": "steiga, steidzamība",
+        "lt": "skuba, skubumas"
+      },
+      "examples": [
+        {
+          "text": "Det är ingen brådska, vi har gott om tid"
+        },
+        {
+          "text": "Varför har du så brådska? Hon gick i all hast och med stor brådska"
+        },
+        {
+          "text": "Jag märkte hans brådska när han sprang till tåget"
+        },
+        {
+          "text": "Vi behöver inte ha brådska, låt oss göra det ordentligt"
+        },
+        {
+          "text": "I sin brådska glömde han att ta med plånboken"
+        },
+        {
+          "text": "Hon sa att det var brådska och att vi måste skynda oss"
+        },
+        {
+          "text": "Vi får ta det lugnt, det är ingen brådska"
+        },
+        {
+          "text": "Brådskan gjorde att han gjorde ett misstag"
+        },
+        {
+          "text": "Har du brådska, eller kan vi prata en stund?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a0a41201-34ee-4f58-939a-f187317ad333",
+      "version": -1,
+      "word": "(den) 24 mars 2018",
+      "translations": {
+        "ru": "дата в сообщениях и предложениях",
+        "en": "date in messages and sentences",
+        "uk": "дата в повідомленнях і реченнях",
+        "ar": "التاريخ في الرسائل والجمل",
+        "fa": "تاریخ در پیام‌ها و جملات",
+        "so": "taariikhda farriimaha iyo jumladaha",
+        "es": "fecha en mensajes y oraciones",
+        "de": "Datum in Nachrichten und Sätzen",
+        "fr": "date dans les messages et les phrases",
+        "pl": "data w wiadomościach i zdaniach",
+        "id": "tanggal dalam pesan dan kalimat",
+        "hi": "संदेशों और वाक्यों में तारीख",
+        "zh": "消息和句子中的日期",
+        "it": "data nei messaggi e nelle frasi",
+        "tr": "mesajlarda ve cümlelerde tarih",
+        "sr": "датум у порукама и реченицама",
+        "fi": "päivämäärä viesteissä ja lauseissa",
+        "et": "kuupäev sõnumites ja lausetes",
+        "be": "дата ў паведамленнях і сказах",
+        "lv": "datums ziņojumos un teikumos",
+        "lt": "data žinutėse ir sakiniuose"
+      },
+      "examples": [],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aed7bc7d-abda-43c1-9071-51b7486549c8",
+      "version": -1,
+      "word": "24/3 2018",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7ba4b72e-c2e0-43e0-965c-d45c7b56cc54",
+      "version": -1,
+      "word": "2018/03/24",
+      "translations": {
+        "ru": "дата отдельная, например на месте подписи",
+        "en": "separate date, for example, at the place of signature",
+        "uk": "окрема дата, наприклад, на місці підпису",
+        "ar": "تاريخ منفصل، على سبيل المثال، في مكان التوقيع",
+        "fa": "تاریخ جداگانه، به عنوان مثال، در محل امضا",
+        "so": "taariikh gooni ah, tusaale ahaan, meesha saxiixa",
+        "es": "fecha separada, por ejemplo, en el lugar de la firma",
+        "de": "separates Datum, zum Beispiel an der Stelle der Unterschrift",
+        "fr": "date séparée, par exemple, à l'endroit de la signature",
+        "pl": "oddzielna data, na przykład w miejscu podpisu",
+        "id": "tanggal terpisah, misalnya, di tempat tanda tangan",
+        "hi": "अलग तारीख, उदाहरण के लिए, हस्ताक्षर के स्थान पर",
+        "zh": "单独的日期，例如在签名处",
+        "it": "data separata, ad esempio, nel luogo della firma",
+        "tr": "ayrı tarih, örneğin imza yerinde",
+        "sr": "одвојен датум, на пример, на месту потписа",
+        "fi": "erillinen päivämäärä, esimerkiksi allekirjoituksen kohdalla",
+        "et": "eraldi kuupäev, näiteks allkirja kohal",
+        "be": "асобная дата, напрыклад, на месцы подпісу",
+        "lv": "atsevišķs datums, piemēram, paraksta vietā",
+        "lt": "atskira data, pavyzdžiui, parašo vietoje"
+      },
+      "examples": [],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f3e534d7-12d6-4645-88ac-ae5918aa46fd",
+      "version": -1,
+      "word": "den tjugofjärde mars tvåtusenarton (24th March 2018)",
+      "translations": {
+        "ru": "как сказать дату",
+        "en": "how to say the date",
+        "uk": "як сказати дату",
+        "ar": "كيف تقول التاريخ",
+        "fa": "چگونه تاریخ را بگوییم",
+        "so": "sida loo sheego taariikhda",
+        "es": "cómo decir la fecha",
+        "de": "wie man das Datum sagt",
+        "fr": "comment dire la date",
+        "pl": "jak powiedzieć datę",
+        "id": "bagaimana cara mengatakan tanggal",
+        "hi": "तारीख कैसे कहें",
+        "zh": "如何说日期",
+        "it": "come dire la data",
+        "tr": "tarihi nasıl söyleyeceksin",
+        "sr": "како рећи датум",
+        "fi": "kuinka sanoa päivämäärä",
+        "et": "kuidas kuupäeva öelda",
+        "be": "як сказаць дату",
+        "lv": "kā pateikt datumu",
+        "lt": "kaip pasakyti datą"
+      },
+      "examples": [],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

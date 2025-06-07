@@ -1,0 +1,1451 @@
+{
+  "id": "ca8705aa-a4a9-4bbc-9c0f-3a7f113d2380",
+  "translations": {
+    "ru": "Текст, языковые понятия",
+    "en": "Text, linguistic concepts",
+    "uk": "Текст, мовні поняття",
+    "ar": "نص، مفاهيم لغوية",
+    "fa": "متن، مفاهیم زبانی",
+    "so": "Qoraal, fikradaha luqadeed",
+    "es": "Texto, conceptos lingüísticos",
+    "de": "Text, sprachliche Konzepte",
+    "fr": "Texte, concepts linguistiques",
+    "pl": "Tekst, pojęcia językowe",
+    "id": "Teks, konsep linguistik",
+    "hi": "पाठ, भाषाई अवधारणाएँ",
+    "zh": "文本，语言概念",
+    "it": "Testo, concetti linguistici",
+    "tr": "Metin, dilbilimsel kavramlar",
+    "sr": "Текст, језички концепти",
+    "fi": "Teksti, kielelliset käsitteet",
+    "et": "Tekst, keelelised mõisted",
+    "be": "Тэкст, моўныя паняцці",
+    "lv": "Teksts, valodas jēdzieni",
+    "lt": "Tekstas, kalbinės sąvokos"
+  },
+  "entries": [
+    {
+      "id": "ee13c52e-85dc-4109-92d0-e3d858d3423c",
+      "version": -1,
+      "word": "Hälsningar",
+      "translations": {
+        "ru": "С уважением, С наилучшими пожеланиями (в конце письма)",
+        "en": "Best regards, with best wishes (at the end of a letter)",
+        "uk": "З повагою, з найкращими побажаннями",
+        "ar": "مع أطيب التحيات، مع أطيب التمنيات",
+        "fa": "با احترام، با بهترین آرزوها",
+        "so": "Ixtiraam leh, oo leh rabitaan wanaagsan",
+        "es": "Saludos cordiales, con los mejores deseos",
+        "de": "Mit freundlichen Grüßen, mit den besten Wünschen",
+        "fr": "Cordialement, avec mes meilleurs vœux",
+        "pl": "Z poważaniem, z najlepszymi życzeniami",
+        "id": "Salam hormat, dengan harapan terbaik",
+        "hi": "सादर, शुभकामनाओं के साथ",
+        "zh": "致以诚挚的问候，致以最美好的祝愿",
+        "it": "Cordiali saluti, con i migliori auguri",
+        "tr": "Saygılarımla, en iyi dileklerimle",
+        "sr": "С поштовањем, са најбољим жељама",
+        "fi": "Ystävällisin terveisin, parhaiden toivotusten kera",
+        "et": "Lugupidamisega, parimate soovidega",
+        "be": "З павагай, з найлепшымі пажаданнямі",
+        "lv": "Ar cieņu, ar labākajiem vēlējumiem",
+        "lt": "Pagarbiai, su geriausiais linkėjimais"
+      },
+      "examples": [
+        {
+          "text": "Vänliga hälsningar"
+        },
+        {
+          "text": "Varma hälsningar"
+        },
+        {
+          "text": "Tack för din hjälp"
+        },
+        {
+          "text": "Hälsningar, Anna"
+        },
+        {
+          "text": "Vi hörs snart igen"
+        },
+        {
+          "text": "Vänliga hälsningar, Lars"
+        },
+        {
+          "text": "Jag ser fram emot vårt möte"
+        },
+        {
+          "text": "Med vänliga hälsningar, Erik Johansson"
+        },
+        {
+          "text": "Tack för ett trevligt samtal"
+        },
+        {
+          "text": "Bästa hälsningar, Karin"
+        },
+        {
+          "text": "Vi önskar er en fin helg! Med varma hälsningar, Teamet på Företag AB"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9415bfb9-0f22-4755-85ac-55c740a07ea1",
+      "version": -1,
+      "word": "Med vänlig hälsning,",
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Hej Erik, Tack för informationen"
+        },
+        {
+          "text": "Jag återkommer när jag har mer att berätta"
+        },
+        {
+          "text": "Med vänlig hälsning"
+        },
+        {
+          "text": "Anna"
+        },
+        {
+          "text": "Hej, Jag är intresserad av tjänsten ni annonserade"
+        },
+        {
+          "text": "Bifogat finner ni mitt CV"
+        },
+        {
+          "text": "Med vänlig hälsning Dmitry Ivanov"
+        },
+        {
+          "text": "Hej Maria, Det var trevligt att träffas på seminariet"
+        },
+        {
+          "text": "Låt oss hålla kontakten"
+        },
+        {
+          "text": "Med vänlig hälsning Lars"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7c5007c3-ef7f-4af7-b1fd-fb5457b1b0cd",
+      "version": -1,
+      "word": "en nutid",
+      "translations": {
+        "ru": "настоящее время",
+        "en": "present tense",
+        "uk": "теперішній час",
+        "ar": "الزمن الحاضر",
+        "fa": "زمان حال",
+        "so": "wakhtiga hadda",
+        "es": "tiempo presente",
+        "de": "Präsens",
+        "fr": "temps présent",
+        "pl": "czas teraźniejszy",
+        "id": "waktu sekarang",
+        "hi": "वर्तमान काल",
+        "zh": "现在时",
+        "it": "tempo presente",
+        "tr": "şimdiki zaman",
+        "sr": "садашње време",
+        "fi": "preesens",
+        "et": "olevik",
+        "be": "цяперашні час",
+        "lv": "tagadne",
+        "lt": "esamasis laikas"
+      },
+      "examples": [
+        {
+          "text": "Nutid i svenska språket uttrycks med presens"
+        },
+        {
+          "text": "Jag talar svenska i nutid, men jag talade engelska i dåtid"
+        },
+        {
+          "text": "I nutid säger vi \"jag går\", men i dåtid säger vi \"jag gick\""
+        },
+        {
+          "text": "Många verb i nutid får ändelsen -r"
+        },
+        {
+          "text": "Kan du böja det här verbet i nutid?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ecf898fa-ee2f-4b20-9462-599ad7281de9",
+      "version": -1,
+      "word": "en dåtid",
+      "translations": {
+        "ru": "прошедшее время",
+        "en": "past tense",
+        "uk": "минулий час",
+        "ar": "زمن الماضي",
+        "fa": "زمان گذشته",
+        "so": "waqti hore",
+        "es": "tiempo pasado",
+        "de": "Vergangenheit",
+        "fr": "temps passé",
+        "pl": "czas przeszły",
+        "id": "masa lampau",
+        "hi": "भूतकाल",
+        "zh": "过去时",
+        "it": "tempo passato",
+        "tr": "geçmiş zaman",
+        "sr": "прошло време",
+        "fi": "menneisyys",
+        "et": "minevik",
+        "be": "мінуўшы час",
+        "lv": "pagātnes laiks",
+        "lt": "praeities laikas"
+      },
+      "examples": [
+        {
+          "text": "Dåtid i svenska språket uttrycks med preteritum och perfekt"
+        },
+        {
+          "text": "Jag talar svenska i nutid, men jag talade engelska i dåtid"
+        },
+        {
+          "text": "I dåtid säger vi \"jag gick\", men i nutid säger vi \"jag går\""
+        },
+        {
+          "text": "Preteritum används för att beskriva händelser i dåtid"
+        },
+        {
+          "text": "Kan du böja det här verbet i dåtid?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "19f464ce-b569-42e1-8b68-52e82c20b376",
+      "version": 1,
+      "word": "ett subjektspronomen",
+      "forms": [
+        {
+          "form": "subjektspronomenet"
+        },
+        {
+          "form": "subjektspronomen"
+        },
+        {
+          "form": "subjektspronomina"
+        }
+      ],
+      "translations": {
+        "ru": "личные местоимения",
+        "en": "personal pronouns",
+        "uk": "особові займенники",
+        "ar": "الضمائر الشخصية",
+        "fa": "ضمیرهای شخصی",
+        "so": "magacyada shakhsiyeed",
+        "es": "pronombres personales",
+        "de": "persönliche Pronomen",
+        "fr": "pronoms personnels",
+        "pl": "zaimki osobowe",
+        "id": "kata ganti orang",
+        "hi": "व्यक्तिगत सर्वनाम",
+        "zh": "人称代词",
+        "it": "pronomi personali",
+        "tr": "kişisel zamirler",
+        "sr": "личне заменице",
+        "fi": "persoonapronominit",
+        "et": "isikulised asesõnad",
+        "be": "асабовыя займеннікі",
+        "lv": "personas vietniekvārdi",
+        "lt": "asmeniniai įvardžiai"
+      },
+      "examples": [
+        {
+          "text": "Ett subjektspronomen används för att ersätta subjektet i en mening"
+        },
+        {
+          "text": "Det finns många subjektspronomen i svenska språket"
+        },
+        {
+          "text": "Subjektspronomen ersätter substantiv i en mening"
+        },
+        {
+          "text": "Jag och du är exempel på subjektspronomen"
+        },
+        {
+          "text": "I meningen \"Jag bor i Sverige\" är \"jag\" ett subjektspronomen"
+        },
+        {
+          "text": "Barn lär sig subjektspronomen tidigt när de börjar prata"
+        },
+        {
+          "text": "Subjektspronomen används för att undvika upprepning i en text"
+        },
+        {
+          "text": "Det finns subjektiva och objektiva pronomen"
+        },
+        {
+          "text": "Subjektspronomen används som subjekt"
+        },
+        {
+          "text": "Subjektspronomen på svenska inkluderar \"han\" och \"hon\""
+        },
+        {
+          "text": "Vilket subjektspronomen använder man för en person man inte känner?"
+        },
+        {
+          "text": "Hen är ett könsneutralt subjektspronomen i svenska"
+        },
+        {
+          "text": "Läraren förklarade skillnaden mellan subjektspronomen och objektspronomen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "bf5f3a3c-7f86-44a5-a900-5c90e5309866",
+      "version": 1,
+      "word": "en preposition",
+      "forms": [
+        {
+          "form": "prepositioner"
+        }
+      ],
+      "translations": {
+        "ru": "предлог",
+        "en": "preposition",
+        "uk": "прийменник",
+        "ar": "حرف جر",
+        "fa": "حرف اضافه",
+        "so": "ereyga xiriirka",
+        "es": "preposición",
+        "de": "Präposition",
+        "fr": "préposition",
+        "pl": "przyimek",
+        "id": "preposisi",
+        "hi": "पूर्वसर्ग",
+        "zh": "介词",
+        "it": "preposizione",
+        "tr": "edat",
+        "sr": "предлог",
+        "fi": "prepositio",
+        "et": "eessõna",
+        "be": "прыназоўнік",
+        "lv": "prievārds",
+        "lt": "prielinksnis"
+      },
+      "examples": [
+        {
+          "text": "På svenska finns det många prepositioner"
+        },
+        {
+          "text": "Vilken preposition ska jag använda här?"
+        },
+        {
+          "text": "Prepositionerna i svenska språket kan vara svåra att lära sig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "28c093f2-b0be-4a1a-93dc-533be1d04b65",
+      "version": 1,
+      "word": "ett substantiv",
+      "forms": [
+        {
+          "form": "substantivet"
+        },
+        {
+          "form": "substantiv"
+        },
+        {
+          "form": "substantiven"
+        }
+      ],
+      "translations": {
+        "ru": "существительное",
+        "en": "noun",
+        "uk": "іменник",
+        "ar": "اسم",
+        "fa": "اسم",
+        "so": "magac",
+        "es": "sustantivo",
+        "de": "Substantiv",
+        "fr": "nom",
+        "pl": "rzeczownik",
+        "id": "kata benda",
+        "hi": "संज्ञा",
+        "zh": "名词",
+        "it": "sostantivo",
+        "tr": "isim",
+        "sr": "именица",
+        "fi": "substantiivi",
+        "et": "nimisõna",
+        "be": "назоўнік",
+        "lv": "lietvārds",
+        "lt": "daiktavardis"
+      },
+      "examples": [
+        {
+          "text": "Ett substantiv är en ordklass"
+        },
+        {
+          "text": "Vilka substantiv är vanliga i svenska?"
+        },
+        {
+          "text": "Substantiven kan vara både konkreta och abstrakta"
+        },
+        {
+          "text": "Substantiv är en av de viktigaste ordklasserna i språket"
+        },
+        {
+          "text": "Svenska substantiv har två genus: en-ord och ett-ord"
+        },
+        {
+          "text": "Det finns många långa substantiv i svenska, särskilt sammansatta ord"
+        },
+        {
+          "text": "Substantiven kan ha både bestämd och obestämd form"
+        },
+        {
+          "text": "Barn lär sig substantiv tidigt när de börjar prata."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2385c17c-dc93-4b12-bbc9-5d8f46cc85f8",
+      "version": -1,
+      "word": "ett verb",
+      "forms": [
+        {
+          "form": "verbet"
+        },
+        {
+          "form": "verb"
+        },
+        {
+          "form": "verben"
+        }
+      ],
+      "translations": {
+        "ru": "глагол",
+        "en": "verb",
+        "uk": "дієслово",
+        "ar": "فعل",
+        "fa": "فعل",
+        "so": "fal",
+        "es": "verbo",
+        "de": "Verb",
+        "fr": "verbe",
+        "pl": "czasownik",
+        "id": "kata kerja",
+        "hi": "क्रिया",
+        "zh": "动词",
+        "it": "verbo",
+        "tr": "fiil",
+        "sr": "глагол",
+        "fi": "verbi",
+        "et": "tegusõna",
+        "be": "дзеяслоў",
+        "lv": "darbības vārds",
+        "lt": "veiksmažodis"
+      },
+      "examples": [
+        {
+          "text": "Verb beskriver handlingar och tillstånd"
+        },
+        {
+          "text": "Det finns starka och svaga verb i svenska"
+        },
+        {
+          "text": "Verben böjs i olika tempus"
+        },
+        {
+          "text": "Verb är en av de viktigaste ordklasserna"
+        },
+        {
+          "text": "Alla meningar måste ha ett verb"
+        },
+        {
+          "text": "Modala hjälpverb ändrar betydelsen av andra verb"
+        },
+        {
+          "text": "Det finns både starka och svaga verb i svenska"
+        },
+        {
+          "text": "Verben böjs i olika tempus beroende på tiden."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "67ac8e28-2124-4500-9bd1-8e488f7c68b4",
+      "version": -1,
+      "word": "ett adjektiv",
+      "forms": [
+        {
+          "form": "adjektivet"
+        },
+        {
+          "form": "adjektiv"
+        },
+        {
+          "form": "adjektiven"
+        }
+      ],
+      "translations": {
+        "ru": "прилагательное",
+        "en": "adjective",
+        "uk": "прикметник",
+        "ar": "صفة",
+        "fa": "صفت",
+        "so": "sifo",
+        "es": "adjetivo",
+        "de": "Adjektiv",
+        "fr": "adjectif",
+        "pl": "przymiotnik",
+        "id": "kata sifat",
+        "hi": "विशेषण",
+        "zh": "形容词",
+        "it": "aggettivo",
+        "tr": "sıfat",
+        "sr": "придев",
+        "fi": "adjektiivi",
+        "et": "omadussõna",
+        "be": "прыметнік",
+        "lv": "īpašības vārds",
+        "lt": "būdvardis"
+      },
+      "examples": [
+        {
+          "text": "Adjektiv beskriver substantiv"
+        },
+        {
+          "text": "Det finns många adjektiv i svenska språket"
+        },
+        {
+          "text": "Adjektiven kan böjas beroende på substantivet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "047b1048-a64b-4482-8be9-00956ee8c9de",
+      "version": -1,
+      "word": "ett adverb",
+      "forms": [
+        {
+          "form": "adverbet"
+        },
+        {
+          "form": "adverb"
+        },
+        {
+          "form": "adverben"
+        }
+      ],
+      "translations": {
+        "ru": "наречие",
+        "en": "adverb",
+        "uk": "прислівник",
+        "ar": "حال",
+        "fa": "قید",
+        "so": "fal",
+        "es": "adverbio",
+        "de": "Adverb",
+        "fr": "adverbe",
+        "pl": "przysłówek",
+        "id": "kata keterangan",
+        "hi": "क्रिया विशेषण",
+        "zh": "副词",
+        "it": "avverbio",
+        "tr": "zarf",
+        "sr": "прилог",
+        "fi": "adverbi",
+        "et": "määrsõna",
+        "be": "прыслоўе",
+        "lv": "apstākļa vārds",
+        "lt": "prieveiksmis"
+      },
+      "examples": [
+        {
+          "text": "Adverb beskriver verb, adjektiv eller andra adverb"
+        },
+        {
+          "text": "Det finns många adverb i svenska språket"
+        },
+        {
+          "text": "Adverben används för att ge mer information i en mening"
+        },
+        {
+          "text": "Adverb beskriver hur något görs.I  svenska språket finns det många tidsadverb.Snabbt, långsamt och vackert är exempel på adverb"
+        },
+        {
+          "text": "Adverb kan förändra betydelsen av en mening"
+        },
+        {
+          "text": "Ordet ’aldrig’ är ett vanligt adverb."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "342da350-681b-4749-a0db-ba77dbe97951",
+      "version": -1,
+      "word": "en mening",
+      "forms": [
+        {
+          "form": "meningar"
+        }
+      ],
+      "translations": {
+        "ru": "предложение, мнение, взгляд, мысль, смысл",
+        "en": "sentence, opinion, view, thought, meaning",
+        "uk": "речення, думка, погляд, думка, значення",
+        "ar": "جملة، رأي، وجهة نظر، فكر، معنى",
+        "fa": "جمله، نظر، دیدگاه، فکر، معنا",
+        "so": "weedh, aragti, aragti, fikir, macno",
+        "es": "frase, opinión, vista, pensamiento, significado",
+        "de": "Satz, Meinung, Ansicht, Gedanke, Bedeutung",
+        "fr": "phrase, opinion, vue, pensée, sens",
+        "pl": "zdanie, opinia, pogląd, myśl, znaczenie",
+        "id": "kalimat, pendapat, pandangan, pemikiran, arti",
+        "hi": "वाक्य, राय, दृष्टिकोण, विचार, अर्थ",
+        "zh": "句子, 意见, 观点, 思想, 意义",
+        "it": "frase, opinione, vista, pensiero, significato",
+        "tr": "cümle, görüş, bakış, düşünce, anlam",
+        "sr": "реченица, мишљење, поглед, мисао, значење",
+        "fi": "lause, mielipide, näkymä, ajatus, merkitys",
+        "et": "lause, arvamus, vaade, mõte, tähendus",
+        "be": "сказ, меркаванне, погляд, думка, значэнне",
+        "lv": "teikums, viedoklis, skats, doma, nozīme",
+        "lt": "sakinys, nuomonė, vaizdas, mintis, reikšmė"
+      },
+      "examples": [
+        {
+          "text": "Jag  förstod inte meningen"
+        },
+        {
+          "text": "Vad är meningen med det här? Vi har olika meningar om saken"
+        },
+        {
+          "text": "Kan du skriva en mening på svenska? Meningen var otydlig"
+        },
+        {
+          "text": "I min mening är det fel"
+        },
+        {
+          "text": "Han sa allt i en enda mening"
+        },
+        {
+          "text": "Det finns en mening med livet"
+        },
+        {
+          "text": "Hon läste upp meningen högt"
+        },
+        {
+          "text": "Texten består av fem meningar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "36ed0f58-6ac1-4205-bb51-0c882c2d56c9",
+      "version": -1,
+      "word": "en rad",
+      "forms": [
+        {
+          "form": "rader"
+        }
+      ],
+      "translations": {
+        "ru": "строка, ряд",
+        "en": "line, row",
+        "uk": "лінія, ряд",
+        "ar": "خط، صف",
+        "fa": "خط، ردیف",
+        "so": "xariiq, saf",
+        "es": "línea, fila",
+        "de": "Linie, Reihe",
+        "fr": "ligne, rangée",
+        "pl": "linia, rząd",
+        "id": "garis, baris",
+        "hi": "रेखा, पंक्ति",
+        "zh": "线, 行",
+        "it": "linea, fila",
+        "tr": "çizgi, sıra",
+        "sr": "линија, ред",
+        "fi": "viiva, rivi",
+        "et": "joon, rida",
+        "be": "лінія, рад",
+        "lv": "līnija, rinda",
+        "lt": "linija, eilė"
+      },
+      "examples": [
+        {
+          "text": "Läs den första raden i boken"
+        },
+        {
+          "text": "Vi satt på tredje raden i teatern"
+        },
+        {
+          "text": "Skriv ditt namn på den första raden"
+        },
+        {
+          "text": "Texten är indelad i korta rader för att vara lättläs"
+        },
+        {
+          "text": "Det finns fem rader med bänkar i kyrkan"
+        },
+        {
+          "text": "Bilarna är parkerade i raka rader"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aebfd29c-a64a-4d56-9fde-4ff4e1724ea5",
+      "version": 1,
+      "word": "ett ord",
+      "forms": [
+        {
+          "form": "ordet"
+        },
+        {
+          "form": "ord"
+        },
+        {
+          "form": "orden"
+        }
+      ],
+      "translations": {
+        "ru": "слово",
+        "en": "word",
+        "uk": "слово",
+        "ar": "كلمة",
+        "fa": "کلمه",
+        "so": "eray",
+        "es": "palabra",
+        "de": "Wort",
+        "fr": "mot",
+        "pl": "słowo",
+        "id": "kata",
+        "hi": "शब्द",
+        "zh": "词",
+        "it": "parola",
+        "tr": "kelime",
+        "sr": "реч",
+        "fi": "sana",
+        "et": "sõna",
+        "be": "слова",
+        "lv": "vārds",
+        "lt": "žodis"
+      },
+      "examples": [
+        {
+          "text": "Kan du säga ett ord på svenska?"
+        },
+        {
+          "text": "Han höll sitt ord"
+        },
+        {
+          "text": "Jag förstod inte ett enda ord"
+        },
+        {
+          "text": "Skriv fem ord som rimmar"
+        },
+        {
+          "text": "Vad betyder det där ordet?"
+        },
+        {
+          "text": "Hon lär sig tio nya ord varje dag"
+        },
+        {
+          "text": "De diskuterade ordens betydelse"
+        },
+        {
+          "text": "Han sa inte ett ord hela kvällen"
+        },
+        {
+          "text": "Med andra ord: vi måste börja om"
+        },
+        {
+          "text": "Det är bara tomma ord."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b613fa1b-13a8-4117-8134-c87e59d0f5de",
+      "version": -1,
+      "word": "en punkt",
+      "forms": [
+        {
+          "form": "punkter"
+        }
+      ],
+      "translations": {
+        "ru": "точка, пункт в списке или плане, точка как место на карте или теле",
+        "en": "dot, point in a list or plan, spot (on a map or body)",
+        "uk": "крапка, пункт у списку або плані, місце на карті або тілі",
+        "ar": "نقطة، نقطة في قائمة أو خطة، بقعة (على خريطة أو جسم)",
+        "fa": "نقطه، نقطه در فهرست یا برنامه، نقطه (روی نقشه یا بدن)",
+        "so": "dhibic, qodob ku jira liis ama qorshe, meel (khariidad ama jirka)",
+        "es": "punto, punto en una lista o plan, lugar (en un mapa o cuerpo)",
+        "de": "Punkt, Punkt in einer Liste oder einem Plan, Stelle (auf einer Karte oder am Körper)",
+        "fr": "point, point dans une liste ou un plan, endroit (sur une carte ou un corps)",
+        "pl": "kropka, punkt na liście lub w planie, miejsce (na mapie lub ciele)",
+        "id": "titik, poin dalam daftar atau rencana, tempat (di peta atau tubuh)",
+        "hi": "बिंदु, सूची या योजना में बिंदु, स्थान (नक्शे या शरीर पर)",
+        "zh": "点，列表或计划中的点，地图或身体上的点",
+        "it": "punto, punto in un elenco o piano, luogo (su una mappa o corpo)",
+        "tr": "nokta, liste veya planda nokta, harita veya vücutta nokta",
+        "sr": "тачка, тачка у списку или плану, место (на мапи или телу)",
+        "fi": "piste, kohta luettelossa tai suunnitelmassa, paikka (kartalla tai kehossa)",
+        "et": "punkt, punkt loendis või plaanis, koht (kaardil või kehal)",
+        "be": "кропка, пункт у спісе або плане, месца (на карце або целе)",
+        "lv": "punkts, punkts sarakstā vai plānā, vieta (kartē vai ķermenī)",
+        "lt": "taškas, punktas sąraše ar plane, vieta (žemėlapyje ar kūne)"
+      },
+      "examples": [
+        {
+          "text": "Sätt en punkt i slutet av meningen"
+        },
+        {
+          "text": "Vi diskuterade flera punkter på mötet"
+        },
+        {
+          "text": "Det här är en känslig punkt för honom"
+        },
+        {
+          "text": "Låt oss gå vidare till nästa punkt"
+        },
+        {
+          "text": "Hon pekade på en punkt på kartan"
+        },
+        {
+          "text": "Jag håller med dig på den punkten"
+        },
+        {
+          "text": "Han satte punkt och gick därifrån"
+        },
+        {
+          "text": "Skriv varje punkt på en ny rad"
+        },
+        {
+          "text": "Vi måste komma till punkten nu"
+        },
+        {
+          "text": "Punkt slut!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dbfa648a-a92d-4f6a-a5ad-c8e385db157f",
+      "version": -1,
+      "word": "ett kommatecken",
+      "forms": [
+        {
+          "form": "kommatecknet"
+        },
+        {
+          "form": "kommatecken"
+        },
+        {
+          "form": "kommatecknen"
+        }
+      ],
+      "translations": {
+        "ru": "запятая",
+        "en": "comma",
+        "uk": "кома",
+        "ar": "فاصلة",
+        "fa": "ویرگول",
+        "so": "tusmo",
+        "es": "coma",
+        "de": "Komma",
+        "fr": "virgule",
+        "pl": "przecinek",
+        "id": "koma",
+        "hi": "अल्पविराम",
+        "zh": "逗号",
+        "it": "virgola",
+        "tr": "virgül",
+        "sr": "запета",
+        "fi": "pilkku",
+        "et": "koma",
+        "be": "коска",
+        "lv": "komats",
+        "lt": "kablelis"
+      },
+      "examples": [
+        {
+          "text": "Glöm inte att sätta ett kommatecken här"
+        },
+        {
+          "text": "Jag vet inte var kommatecknet ska stå"
+        },
+        {
+          "text": "Det är ett vanligt fel att använda för många kommatecken"
+        },
+        {
+          "text": "Efter varje ord i listan sätter man ett kommatecken"
+        },
+        {
+          "text": "Kommatecknet skiljer satser åt"
+        },
+        {
+          "text": "Det finns inget kommatecken före \"och\" på svenska"
+        },
+        {
+          "text": "Hon skrev hela texten utan ett enda kommatecken"
+        },
+        {
+          "text": "Läraren rättade mina kommatecken"
+        },
+        {
+          "text": "Ett kommatecken kan ändra betydelsen helt"
+        },
+        {
+          "text": "Här behövs ett kommatecken för att förtydliga meningen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7c16489c-c04b-433f-8b80-c06b75ebd218",
+      "version": 1,
+      "word": "ett frågetecken",
+      "forms": [
+        {
+          "form": "frågetecknet"
+        },
+        {
+          "form": "frågetecken"
+        },
+        {
+          "form": "frågetecknen"
+        }
+      ],
+      "translations": {
+        "ru": "вопросительный знак",
+        "en": "question mark",
+        "uk": "знак питання",
+        "ar": "علامة استفهام",
+        "fa": "علامت سوال",
+        "so": "calaamadda su'aasha",
+        "es": "signo de interrogación",
+        "de": "Fragezeichen",
+        "fr": "point d'interrogation",
+        "pl": "znak zapytania",
+        "id": "tanda tanya",
+        "hi": "प्रश्नवाचक चिह्न",
+        "zh": "问号",
+        "it": "punto interrogativo",
+        "tr": "soru işareti",
+        "sr": "знак питања",
+        "fi": "kysymysmerkki",
+        "et": "küsimärk",
+        "be": "знак пытання",
+        "lv": "jautājuma zīme",
+        "lt": "klaustukas"
+      },
+      "examples": [
+        {
+          "text": "Ett frågetecken används i slutet av en fråga"
+        },
+        {
+          "text": "Varför satte du ett frågetecken här?"
+        },
+        {
+          "text": "Frågetecknet i meningen är felplacerat"
+        },
+        {
+          "text": "Det är ett stort frågetecken om han kommer på mötet"
+        },
+        {
+          "text": "Planens genomförande är fortfarande ett frågetecken"
+        },
+        {
+          "text": "Efter hennes uttalande är det många frågetecken."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6f912605-18bf-4d4b-82de-d6194615aebd",
+      "version": 1,
+      "word": "ett utropstecken",
+      "forms": [
+        {
+          "form": "utropstecknet"
+        },
+        {
+          "form": "utropstecken"
+        },
+        {
+          "form": "utropstecknen"
+        }
+      ],
+      "translations": {
+        "ru": "восклицательный знак",
+        "en": "exclamation mark",
+        "uk": "знак оклику",
+        "ar": "علامة تعجب",
+        "fa": "علامت تعجب",
+        "so": "calaamadda qaylo",
+        "es": "signo de exclamación",
+        "de": "Ausrufezeichen",
+        "fr": "point d'exclamation",
+        "pl": "wykrzyknik",
+        "id": "tanda seru",
+        "hi": "विस्मयादिबोधक चिह्न",
+        "zh": "感叹号",
+        "it": "punto esclamativo",
+        "tr": "ünlem işareti",
+        "sr": "узвичник",
+        "fi": "huutomerkki",
+        "et": "hüüumärk",
+        "be": "знак клічніка",
+        "lv": "izsaukuma zīme",
+        "lt": "šauktukas"
+      },
+      "examples": [
+        {
+          "text": "Glöm inte att sätta ett utropstecken i slutet av meningen"
+        },
+        {
+          "text": "Hon frågade om det verkligen behövdes ett utropstecken där"
+        },
+        {
+          "text": "Läraren strök över mitt utropstecken och skrev en punkt istället"
+        },
+        {
+          "text": "Jag skrev bara ”Hej” utan ett utropstecken, för att inte låta för glad"
+        },
+        {
+          "text": "I sms använder han alltid minst ett utropstecken!"
+        },
+        {
+          "text": "Ett utropstecken kan ändra tonen i hela meningen"
+        },
+        {
+          "text": "Det här mejlet hade fem utropstecken – det känns lite överdrivet"
+        },
+        {
+          "text": "I formella texter ska man helst undvika mer än ett utropstecken"
+        },
+        {
+          "text": "Barnet ritade ett stort utropstecken med röd penna"
+        },
+        {
+          "text": "När jag såg priset skrev jag direkt ett utropstecken i marginalen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "faf269ce-d573-41af-b642-46097993083f",
+      "version": 1,
+      "word": "ett alfabet",
+      "forms": [
+        {
+          "form": "alfabetet"
+        },
+        {
+          "form": "alfabet"
+        },
+        {
+          "form": "alfabeten"
+        }
+      ],
+      "translations": {
+        "ru": "алфавит",
+        "en": "alphabet",
+        "uk": "алфавіт",
+        "ar": "أبجدية",
+        "fa": "الفبا",
+        "so": "alifbeetada",
+        "es": "alfabeto",
+        "de": "Alphabet",
+        "fr": "alphabet",
+        "pl": "alfabet",
+        "id": "alfabet",
+        "hi": "वर्णमाला",
+        "zh": "字母表",
+        "it": "alfabeto",
+        "tr": "alfabe",
+        "sr": "азбука",
+        "fi": "aakkoset",
+        "et": "tähestik",
+        "be": "алфавіт",
+        "lv": "alfabēts",
+        "lt": "abėcėlė"
+      },
+      "examples": [
+        {
+          "text": "Det svenska alfabetet har 29 bokstäver"
+        },
+        {
+          "text": "Hur många alfabet finns det i världen?"
+        },
+        {
+          "text": "Barnen lär sig alfabetet i skolan"
+        },
+        {
+          "text": "Det svenska alfabetet skiljer sig från det engelska"
+        },
+        {
+          "text": "Kan du säga hela alfabetet utantill?"
+        },
+        {
+          "text": "Bokstäverna Å, Ä och Ö finns bara i det svenska alfabetet"
+        },
+        {
+          "text": "Alfabetet är grunden till att kunna läsa och skriva"
+        },
+        {
+          "text": "Hon började med att lära sig det latinska alfabetet"
+        },
+        {
+          "text": "Det finns många olika alfabet i världen"
+        },
+        {
+          "text": "Alfabetet används för att organisera ord i ordlistor"
+        },
+        {
+          "text": "I matematik används ibland det grekiska alfabetet"
+        },
+        {
+          "text": "Vi övade på alfabetet genom att sjunga en sång."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4c06a9ad-a341-4a27-a815-0dda98fdc0f2",
+      "version": -1,
+      "word": "ett uttal",
+      "forms": [
+        {
+          "form": "uttalet"
+        }
+      ],
+      "translations": {
+        "ru": "произношение",
+        "en": "pronunciation",
+        "uk": "вимова",
+        "ar": "النطق",
+        "fa": "تلفظ",
+        "so": "ku dhawaaqid",
+        "es": "pronunciación",
+        "de": "Aussprache",
+        "fr": "prononciation",
+        "pl": "wymowa",
+        "id": "pengucapan",
+        "hi": "उच्चारण",
+        "zh": "发音",
+        "it": "pronuncia",
+        "tr": "telaffuz",
+        "sr": "изговор",
+        "fi": "ääntäminen",
+        "et": "hääldus",
+        "be": "вымаўленне",
+        "lv": "izruna",
+        "lt": "tartis"
+      },
+      "examples": [
+        {
+          "text": "Hans uttal är nästan perfekt"
+        },
+        {
+          "text": "Uttalet av vokaler i svenska är svårt för mig"
+        },
+        {
+          "text": "Jag vill förbättra mitt uttal på svenska"
+        },
+        {
+          "text": "Hon har ett väldigt tydligt uttal"
+        },
+        {
+          "text": "Det svenska uttalet kan vara svårt för nybörjare"
+        },
+        {
+          "text": "Hans uttal avslöjar att han kommer från Norge"
+        },
+        {
+          "text": "Läraren korrigerade mitt uttal"
+        },
+        {
+          "text": "Uttalet av \"sj-ljudet\" varierar i olika dialekter"
+        },
+        {
+          "text": "Jag lyssnar på ljudböcker för att förbättra mitt uttal"
+        },
+        {
+          "text": "Ditt uttal låter väldigt naturligt"
+        },
+        {
+          "text": "Uttalet är viktigt för att bli förstådd"
+        },
+        {
+          "text": "Det finns små skillnader i uttalet mellan svenska och norska."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "74ff1d2a-9c4d-49ba-ac8b-b937a0c6c4d3",
+      "version": -1,
+      "word": "en påminnelse",
+      "forms": [
+        {
+          "form": "påminnelser"
+        }
+      ],
+      "translations": {
+        "ru": "напоминание",
+        "en": "reminder",
+        "uk": "нагадування",
+        "ar": "تذكير",
+        "fa": "یادآوری",
+        "so": "xusuusin",
+        "es": "recordatorio",
+        "de": "Erinnerung",
+        "fr": "rappel",
+        "pl": "przypomnienie",
+        "id": "pengingat",
+        "hi": "अनुस्मारक",
+        "zh": "提醒",
+        "it": "promemoria",
+        "tr": "hatırlatma",
+        "sr": "подсетник",
+        "fi": "muistutus",
+        "et": "meeldetuletus",
+        "be": "напамін",
+        "lv": "atgādinājums",
+        "lt": "primenimas"
+      },
+      "examples": [
+        {
+          "text": "Jag fick en påminnelse om mötet"
+        },
+        {
+          "text": "Påminnelsen kom via e-post"
+        },
+        {
+          "text": "Jag har skickat flera påminnelser"
+        },
+        {
+          "text": "Jag fick en påminnelse om att betala räkningen"
+        },
+        {
+          "text": "Kan du skicka en påminnelse till mig imorgon? Påminnelsen om läkarbesöket kom i morse"
+        },
+        {
+          "text": "Hon satte en påminnelse i mobilen"
+        },
+        {
+          "text": "Jag fick en påminnelse från banken om lånet"
+        },
+        {
+          "text": "Påminnelsen var nödvändig eftersom jag hade glömt mötet"
+        },
+        {
+          "text": "Han ignorerade alla påminnelser om att betala hyran"
+        },
+        {
+          "text": "Det här är en viktig påminnelse om vikten av att vara punktlig"
+        },
+        {
+          "text": "Jag ställer alltid en påminnelse när jag har något viktigt att göra"
+        },
+        {
+          "text": "Påminnelser hjälper mig att hålla ordning på mina uppgifter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0fbfd6ba-276d-42ec-8e6f-ebce51e7732a",
+      "version": -1,
+      "word": "en enkät",
+      "forms": [
+        {
+          "form": "enkäter"
+        }
+      ],
+      "translations": {
+        "ru": "анкета, опрос",
+        "en": "questionnaire, survey",
+        "uk": "анкета, опитування",
+        "ar": "استبيان، مسح",
+        "fa": "پرسشنامه، نظرسنجی",
+        "so": "su'aalaha, sahanka",
+        "es": "cuestionario, encuesta",
+        "de": "Fragebogen, Umfrage",
+        "fr": "questionnaire, enquête",
+        "pl": "kwestionariusz, ankieta",
+        "id": "kuesioner, survei",
+        "hi": "प्रश्नावली, सर्वेक्षण",
+        "zh": "问卷, 调查",
+        "it": "questionario, sondaggio",
+        "tr": "anket, araştırma",
+        "sr": "анкета, истраживање",
+        "fi": "kyselylomake, kysely",
+        "et": "küsimustik, uuring",
+        "be": "анкетаванне, апытанне",
+        "lv": "anketa, aptauja",
+        "lt": "anketa, apklausa"
+      },
+      "examples": [
+        {
+          "text": "Jag har fyllt i en enkät om kundnöjdhet"
+        },
+        {
+          "text": "Enkäten innehåller tio frågor"
+        },
+        {
+          "text": "Vi skickade ut enkäter till alla deltagare"
+        },
+        {
+          "text": "Kan du fylla i enkäten innan fredag? Företaget genomför en enkät om kundens åsikter"
+        },
+        {
+          "text": "Vi har skickat en enkät till alla anställda"
+        },
+        {
+          "text": "Enkäten handlar om arbetsmiljön på företaget"
+        },
+        {
+          "text": "Resultaten från enkäten kommer att publiceras nästa vecka"
+        },
+        {
+          "text": "Jag fick en enkät från skolan om distansundervisning"
+        },
+        {
+          "text": "Vi vill att så många som möjligt svarar på enkäten"
+        },
+        {
+          "text": "Enkäterna analyseras för att förstå kundernas behov"
+        },
+        {
+          "text": "Enkäten är anonym, så du kan svara ärligt"
+        },
+        {
+          "text": "Har du tid att delta i en kort enkät?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "cf591f67-ea90-45fd-bb3d-596ab1c39849",
+      "version": -1,
+      "word": "en sammanfattning",
+      "forms": [
+        {
+          "form": "sammanfattningar"
+        }
+      ],
+      "translations": {
+        "ru": "краткое содержание, резюме, краткое изложение",
+        "en": "summary, synopsis, abstract",
+        "uk": "резюме, короткий зміст, анотація",
+        "ar": "ملخص، موجز، خلاصة",
+        "fa": "خلاصه، چکیده، مختصر",
+        "so": "kooban, dulmar, faahfaahin",
+        "es": "resumen, sinopsis, abstracto",
+        "de": "Zusammenfassung, Synopsis, Abstrakt",
+        "fr": "résumé, synopsis, abstrait",
+        "pl": "streszczenie, synopsa, abstrakt",
+        "id": "ringkasan, sinopsis, abstrak",
+        "hi": "सारांश, संक्षेप, सार",
+        "zh": "摘要, 概要, 简介",
+        "it": "riassunto, sinossi, astratto",
+        "tr": "özet, sinopsis, soyut",
+        "sr": "резиме, синопсис, апстракт",
+        "fi": "yhteenveto, synopsi, abstrakti",
+        "et": "kokkuvõte, sünopsis, abstrakt",
+        "be": "рэзюмэ, кароткае змест, анатацыя",
+        "lv": "kopsavilkums, sinopse, abstrakts",
+        "lt": "santrauka, sinopsis, abstraktas"
+      },
+      "examples": [
+        {
+          "text": "Kan du ge en kort sammanfattning av mötet? Här är en sammanfattning av kapitlet"
+        },
+        {
+          "text": "Vi avslutar lektionen med en sammanfattning"
+        },
+        {
+          "text": "Jag skrev en sammanfattning av artikeln"
+        },
+        {
+          "text": "Sammanfattningen hjälpte mig att förstå texten bättre"
+        },
+        {
+          "text": "De skickade ut en sammanfattning via mejl"
+        },
+        {
+          "text": "I sammanfattning kan vi säga att projektet lyckades"
+        },
+        {
+          "text": "Läraren bad oss skriva en sammanfattning av filmen"
+        },
+        {
+          "text": "Det finns en bra sammanfattning på sista sidan"
+        },
+        {
+          "text": "Sammanfattningen bör vara tydlig och kortfattad."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

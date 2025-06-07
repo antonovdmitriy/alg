@@ -1,0 +1,3213 @@
+{
+  "id": "277a1359-762e-4fb5-87bc-21684535315c",
+  "translations": {
+    "ru": "люди и отношения",
+    "en": "People and relationships",
+    "uk": "люди та стосунки",
+    "ar": "الناس والعلاقات",
+    "fa": "مردم و روابط",
+    "so": "dad iyo xiriir",
+    "es": "personas y relaciones",
+    "de": "Menschen und Beziehungen",
+    "fr": "les gens et les relations",
+    "pl": "ludzie i relacje",
+    "id": "orang dan hubungan",
+    "hi": "लोग और रिश्ते",
+    "zh": "人和关系",
+    "it": "persone e relazioni",
+    "tr": "insanlar ve ilişkiler",
+    "sr": "људи и односи",
+    "fi": "ihmiset ja suhteet",
+    "et": "inimesed ja suhted",
+    "be": "людзі і адносіны",
+    "lv": "cilvēki un attiecības",
+    "lt": "žmonės ir santykiai"
+  },
+  "entries": [
+    {
+      "id": "99b34d41-f4b1-44f2-8232-c5de47a720fa",
+      "version": -1,
+      "word": "en människa",
+      "forms": [
+        {
+          "form": "människor"
+        }
+      ],
+      "translations": {
+        "ru": "люди",
+        "en": "people",
+        "uk": "люди",
+        "ar": "الناس",
+        "fa": "مردم",
+        "so": "dadka",
+        "es": "gente",
+        "de": "Menschen",
+        "fr": "gens",
+        "pl": "ludzie",
+        "id": "orang-orang",
+        "hi": "लोग",
+        "zh": "人们",
+        "it": "persone",
+        "tr": "insanlar",
+        "sr": "људи",
+        "fi": "ihmiset",
+        "et": "inimesed",
+        "be": "людзі",
+        "lv": "cilvēki",
+        "lt": "žmonės"
+      },
+      "examples": [
+        {
+          "text": "Det finns många människor i parken idag"
+        },
+        {
+          "text": "Människorna i byn är mycket vänliga"
+        },
+        {
+          "text": "Alla människor har rätt till frihet och respekt"
+        },
+        {
+          "text": "Jag tycker om att studera hur människor beter sig i olika situationer"
+        },
+        {
+          "text": "Människor från hela världen besöker denna plats"
+        },
+        {
+          "text": "Det finns både goda och dåliga människor i världen"
+        },
+        {
+          "text": "Människorna på festen verkade väldigt glada"
+        },
+        {
+          "text": "Jag tycker om att prata med nya människor"
+        },
+        {
+          "text": "Människor behöver naturen för att må bra"
+        },
+        {
+          "text": "Det är viktigt att respektera andra människor."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c401317b-84f5-48de-bf2a-4f42d40eb083",
+      "version": -1,
+      "word": "en kvinna",
+      "forms": [
+        {
+          "form": "kvinnan"
+        },
+        {
+          "form": "kvinnor"
+        },
+        {
+          "form": "kvinnorna"
+        }
+      ],
+      "translations": {
+        "ru": "Женщина",
+        "en": "woman",
+        "uk": "жінка",
+        "ar": "امرأة",
+        "fa": "زن",
+        "so": "haweeney",
+        "es": "mujer",
+        "de": "Frau",
+        "fr": "femme",
+        "pl": "kobieta",
+        "id": "wanita",
+        "hi": "महिला",
+        "zh": "女人",
+        "it": "donna",
+        "tr": "kadın",
+        "sr": "жена",
+        "fi": "nainen",
+        "et": "naine",
+        "be": "жанчына",
+        "lv": "sieviete",
+        "lt": "moteris"
+      },
+      "examples": [
+        {
+          "text": "Kvinnan är sextio år gammal"
+        },
+        {
+          "text": "Hon är en stark kvinna"
+        },
+        {
+          "text": "Kvinnan på bilden är min mamma"
+        },
+        {
+          "text": "Det finns fler kvinnor än män på mötet"
+        },
+        {
+          "text": "Hon är en kvinna med stor erfarenhet"
+        },
+        {
+          "text": "Kvinnorna kämpade för sina rättigheter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a4b1fe9f-d48d-4a99-9a4f-cb9d32e4b965",
+      "version": -1,
+      "word": "man",
+      "forms": [
+        {
+          "form": "mannen"
+        },
+        {
+          "form": "män"
+        },
+        {
+          "form": "männen"
+        }
+      ],
+      "translations": {
+        "ru": "Мужчина человек муж",
+        "en": "man, person, husband",
+        "uk": "чоловік, людина, чоловік",
+        "ar": "رجل، شخص، زوج",
+        "fa": "مرد، شخص، شوهر",
+        "so": "nin, qof, ninka",
+        "es": "hombre, persona, esposo",
+        "de": "Mann, Person, Ehemann",
+        "fr": "homme, personne, mari",
+        "pl": "mężczyzna, osoba, mąż",
+        "id": "pria, orang, suami",
+        "hi": "आदमी, व्यक्ति, पति",
+        "zh": "男人, 人, 丈夫",
+        "it": "uomo, persona, marito",
+        "tr": "adam, kişi, koca",
+        "sr": "човек, особа, муж",
+        "fi": "mies, henkilö, aviomies",
+        "et": "mees, inimene, abikaasa",
+        "be": "мужчына, чалавек, муж",
+        "lv": "vīrietis, persona, vīrs",
+        "lt": "vyras, asmuo, vyras"
+      },
+      "examples": [
+        {
+          "text": "en gammal man sitter vid disken"
+        },
+        {
+          "text": "Han är en snäll man som alltid hjälper andra"
+        },
+        {
+          "text": "Mannen på gatan frågade mig om vägen"
+        },
+        {
+          "text": "Män och kvinnor har lika rättigheter i samhället"
+        },
+        {
+          "text": "Hennes man arbetar som läkare"
+        },
+        {
+          "text": "Det var många män på mötet"
+        },
+        {
+          "text": "Mannen i den svarta kostymen såg bekant ut"
+        },
+        {
+          "text": "Vissa män gillar att laga mat, andra inte"
+        },
+        {
+          "text": "Min man och jag har varit gifta i tio år"
+        },
+        {
+          "text": "Han ville bli en stark och modig man"
+        },
+        {
+          "text": "Männen på fabriken arbetar långa skift."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e0c10278-4965-46e5-8dc2-5d0be5fbb326",
+      "version": -1,
+      "word": "en bäbis",
+      "forms": [
+        {
+          "form": "bäbisar"
+        }
+      ],
+      "translations": {
+        "ru": "малыш, новорожденный (неформальное)",
+        "en": "baby, newborn (informal)",
+        "uk": "малюк, новонароджений (неформально)",
+        "ar": "طفل، مولود جديد (غير رسمي)",
+        "fa": "بچه، نوزاد (غیررسمی)",
+        "so": "ilmo yar, dhallaanka cusub (aan rasmi ahayn)",
+        "es": "bebé, recién nacido (informal)",
+        "de": "Baby, Neugeborenes (informell)",
+        "fr": "bébé, nouveau-né (informel)",
+        "pl": "dziecko, noworodek (nieformalnie)",
+        "id": "bayi, baru lahir (informal)",
+        "hi": "बच्चा, नवजात (अनौपचारिक)",
+        "zh": "宝宝，新生儿（非正式）",
+        "it": "bambino, neonato (informale)",
+        "tr": "bebek, yeni doğan (resmi olmayan)",
+        "sr": "беба, новорођенче (неформално)",
+        "fi": "vauva, vastasyntynyt (epävirallinen)",
+        "et": "beebi, vastsündinu (mitteametlik)",
+        "be": "маляня, нованароджаны (нефармальна)",
+        "lv": "mazulis, jaundzimušais (neformāli)",
+        "lt": "kūdikis, naujagimis (neformalus)"
+      },
+      "examples": [
+        {
+          "text": "Bäbisen sov på filten"
+        },
+        {
+          "text": "Min syster fick en bäbis förra veckan"
+        },
+        {
+          "text": "Bäbisen sover större delen av dagen"
+        },
+        {
+          "text": "Det är viktigt att bäbisen får tillräckligt med näring"
+        },
+        {
+          "text": "Vi köpte en ny vagn till vår bäbis"
+        },
+        {
+          "text": "När bäbisen skriker, är det ofta för att den är hungrig"
+        },
+        {
+          "text": "Bäbisen log för första gången idag! De är glada över att ha en nyfödd bäbis hemma."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "67ac8ed8-9fcd-4112-aa69-c9866d8aebe0",
+      "version": -1,
+      "word": "ett barn",
+      "forms": [
+        {
+          "form": "barnet"
+        },
+        {
+          "form": "barn"
+        },
+        {
+          "form": "barnen"
+        }
+      ],
+      "translations": {
+        "ru": "Ребенок",
+        "en": "child",
+        "uk": "дитина",
+        "ar": "طفل",
+        "fa": "کودک",
+        "so": "ilmo",
+        "es": "niño",
+        "de": "Kind",
+        "fr": "enfant",
+        "pl": "dziecko",
+        "id": "anak",
+        "hi": "बच्चा",
+        "zh": "孩子",
+        "it": "bambino",
+        "tr": "çocuk",
+        "sr": "дете",
+        "fi": "lapsi",
+        "et": "laps",
+        "be": "дзіця",
+        "lv": "bērns",
+        "lt": "vaikas"
+      },
+      "examples": [
+        {
+          "text": "Barnet räcker upp sin hand"
+        },
+        {
+          "text": "Jag har ett barn"
+        },
+        {
+          "text": "De har tre barn"
+        },
+        {
+          "text": "Barnet leker i parken"
+        },
+        {
+          "text": "Ett barn behöver mycket kärlek"
+        },
+        {
+          "text": "Barnen går till skolan varje dag"
+        },
+        {
+          "text": "Många barn älskar att läsa sagor"
+        },
+        {
+          "text": "Små barn sover mycket"
+        },
+        {
+          "text": "Biblioteket har en avdelning för barn och ungdomar."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "505069f3-2c0a-44b8-b8ea-1d395d3e743e",
+      "version": 1,
+      "word": "en flicka",
+      "forms": [
+        {
+          "form": "flickor"
+        }
+      ],
+      "translations": {
+        "ru": "Девочка",
+        "en": "girl",
+        "uk": "дівчинка",
+        "ar": "فتاة",
+        "fa": "دختر",
+        "so": "gabar",
+        "es": "niña",
+        "de": "Mädchen",
+        "fr": "fille",
+        "pl": "dziewczynka",
+        "id": "gadis",
+        "hi": "लड़की",
+        "zh": "女孩",
+        "it": "ragazza",
+        "tr": "kız",
+        "sr": "девојчица",
+        "fi": "tyttö",
+        "et": "tüdruk",
+        "be": "дзяўчынка",
+        "lv": "meitene",
+        "lt": "mergaitė"
+      },
+      "examples": [
+        {
+          "text": "Hon är en snäll flicka"
+        },
+        {
+          "text": "Flickan är bara fem år gammal"
+        },
+        {
+          "text": "De såg en liten flicka som lekte i parken"
+        },
+        {
+          "text": "Hon är en mycket klok flicka för sin ålder"
+        },
+        {
+          "text": "Flickan hjälpte sin mamma med att bära kassar"
+        },
+        {
+          "text": "Har du en flicka eller en pojke?"
+        },
+        {
+          "text": "Det var en flickas dröm att bli prinsessa."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "157d5c63-476d-4978-a61e-5935ed44857c",
+      "version": -1,
+      "word": "en pojke",
+      "forms": [
+        {
+          "form": "pojkar"
+        }
+      ],
+      "translations": {
+        "ru": "Мальчик",
+        "en": "boy",
+        "uk": "хлопчик",
+        "ar": "صبي",
+        "fa": "پسر",
+        "so": "wiil",
+        "es": "niño",
+        "de": "Junge",
+        "fr": "garçon",
+        "pl": "chłopiec",
+        "id": "anak laki-laki",
+        "hi": "लड़का",
+        "zh": "男孩",
+        "it": "ragazzo",
+        "tr": "oğlan",
+        "sr": "дечак",
+        "fi": "poika",
+        "et": "poiss",
+        "be": "хлопчык",
+        "lv": "zēns",
+        "lt": "berniukas"
+      },
+      "examples": [
+        {
+          "text": "En pojke lekte i parken med sin hund"
+        },
+        {
+          "text": "Pojken gick till skolan med sin ryggsäck"
+        },
+        {
+          "text": "Det var många pojkar på fotbollsplanen"
+        },
+        {
+          "text": "Pojkarna skrattade åt skämtet"
+        },
+        {
+          "text": "Min bror var en busig pojke när han var liten"
+        },
+        {
+          "text": "Pojken tappade sin mössa på vägen hem"
+        },
+        {
+          "text": "Hon har två barn – en pojke och en flicka"
+        },
+        {
+          "text": "Pojken såg ledsen ut, så jag frågade vad som hänt"
+        },
+        {
+          "text": "Alla pojkar i klassen älskar att spela datorspel"
+        },
+        {
+          "text": "En liten pojke vinkade till mig från fönstret."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1cf7404e-10c6-46ba-b366-01db500f85fa",
+      "version": -1,
+      "word": "en kille",
+      "forms": [
+        {
+          "form": "killar"
+        }
+      ],
+      "translations": {
+        "ru": "мальчик подросток",
+        "en": "teenage boy",
+        "uk": "підліток хлопець",
+        "ar": "فتى مراهق",
+        "fa": "پسر نوجوان",
+        "so": "wiil dhallinyaro ah",
+        "es": "chico adolescente",
+        "de": "Teenager-Junge",
+        "fr": "garçon adolescent",
+        "pl": "chłopiec nastolatek",
+        "id": "anak laki-laki remaja",
+        "hi": "किशोर लड़का",
+        "zh": "青少年男孩",
+        "it": "ragazzo adolescente",
+        "tr": "ergen erkek",
+        "sr": "тинејџер дечак",
+        "fi": "teini-poika",
+        "et": "teismeline poiss",
+        "be": "падлетак хлопец",
+        "lv": "pusaudzis zēns",
+        "lt": "paauglys berniukas"
+      },
+      "examples": [
+        {
+          "text": "Han är en rolig kille som alltid får oss att skratta"
+        },
+        {
+          "text": "Killen i affären hjälpte mig att hitta rätt storlek"
+        },
+        {
+          "text": "Jag såg några killar spela fotboll i parken"
+        },
+        {
+          "text": "Hon har en ny kille, och de verkar väldigt kära"
+        },
+        {
+          "text": "Killarna bestämde sig för att gå på bio ikväll"
+        },
+        {
+          "text": "Jag träffade en trevlig kille på festen igår"
+        },
+        {
+          "text": "Min lillasyster har börjat dejta en kille från sin skola"
+        },
+        {
+          "text": "Han är en av de smartaste killarna i klassen"
+        },
+        {
+          "text": "Jag och några killar ska spela basket efter skolan"
+        },
+        {
+          "text": "Hon pratar alltid om sin kille, de verkar ha det bra ihop."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "79c8559f-9345-47a6-b712-5fc667450c2d",
+      "version": -1,
+      "word": "en tonåring",
+      "forms": [
+        {
+          "form": "tonåringar"
+        }
+      ],
+      "translations": {
+        "ru": "подросток",
+        "en": "teenager",
+        "uk": "підліток",
+        "ar": "مراهق",
+        "fa": "نوجوان",
+        "so": "dhallinyaro",
+        "es": "adolescente",
+        "de": "Jugendlicher",
+        "fr": "adolescent",
+        "pl": "nastolatek",
+        "id": "remaja",
+        "hi": "किशोर",
+        "zh": "青少年",
+        "it": "adolescente",
+        "tr": "ergen",
+        "sr": "тинејџер",
+        "fi": "teini",
+        "et": "teismeline",
+        "be": "падлетак",
+        "lv": "pusaudzis",
+        "lt": "paauglys"
+      },
+      "examples": [
+        {
+          "text": "Hon undervisar tonåringar i matematik"
+        },
+        {
+          "text": "Min son är en tonåring nu och börjar bli mer självständig"
+        },
+        {
+          "text": "Tonåringar tillbringar mycket tid på sociala medier"
+        },
+        {
+          "text": "När jag var tonåring älskade jag att lyssna på rockmusik"
+        },
+        {
+          "text": "Tonåringen i huset bredvid spelar alltid hög musik"
+        },
+        {
+          "text": "Många tonåringar tycker att skolan är tråkig"
+        },
+        {
+          "text": "Hon är en typisk tonåring – hon vill ha mer frihet men fortfarande behöver stöd"
+        },
+        {
+          "text": "Föräldrar har ofta svårt att förstå sina tonåringar"
+        },
+        {
+          "text": "Tonåringen ville ha en ny mobiltelefon i födelsedagspresent"
+        },
+        {
+          "text": "Tonåringar går ofta och lägger sig sent"
+        },
+        {
+          "text": "Att vara tonåring kan vara både spännande och svårt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0d9838ff-9a8a-415c-8f72-f0951beb1340",
+      "version": -1,
+      "word": "en flickvän",
+      "forms": [
+        {
+          "form": "flickvänner"
+        }
+      ],
+      "translations": {
+        "ru": "девушка подружка, романтический партнер",
+        "en": "girl, girlfriend, romantic partner",
+        "uk": "дівчина, подруга, романтичний партнер",
+        "ar": "فتاة، صديقة، شريكة رومانسية",
+        "fa": "دختر، دوست‌دختر، شریک رمانتیک",
+        "so": "gabar, saaxiibad, lammaane jacayl",
+        "es": "chica, novia, pareja romántica",
+        "de": "Mädchen, Freundin, romantische Partnerin",
+        "fr": "fille, petite amie, partenaire romantique",
+        "pl": "dziewczyna, dziewczyna, partnerka romantyczna",
+        "id": "gadis, pacar, pasangan romantis",
+        "hi": "लड़की, प्रेमिका, रोमांटिक साथी",
+        "zh": "女孩, 女朋友, 浪漫伴侣",
+        "it": "ragazza, fidanzata, partner romantico",
+        "tr": "kız, kız arkadaş, romantik partner",
+        "sr": "девојка, девојка, романтични партнер",
+        "fi": "tyttö, tyttöystävä, romanttinen kumppani",
+        "et": "tüdruk, tüdruksõber, romantiline partner",
+        "be": "дзяўчына, сяброўка, рамантычны партнёр",
+        "lv": "meitene, draudzene, romantisks partneris",
+        "lt": "mergina, draugė, romantiškas partneris"
+      },
+      "examples": [
+        {
+          "text": "Din flickvän är ett år äldre än dig, eller hur? Han har en flickvän som heter Lisa"
+        },
+        {
+          "text": "Min flickvän och jag firar två år tillsammans idag"
+        },
+        {
+          "text": "Har du en flickvän eller är du singel? Hans flickvän bor i en annan stad, så de har ett distansförhållande"
+        },
+        {
+          "text": "Flickvännerna bestämde sig för att gå ut och äta tillsammans"
+        },
+        {
+          "text": "Han träffade sin flickvän på universitetet"
+        },
+        {
+          "text": "Min flickvän älskar att resa och vi planerar en semester ihop"
+        },
+        {
+          "text": "Han köpte en fin present till sin flickvän på Alla hjärtans dag"
+        },
+        {
+          "text": "Hans föräldrar gillar verkligen hans flickvän"
+        },
+        {
+          "text": "De har varit tillsammans i fem år, men han har fortfarande inte friat till sin flickvän."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "95c761b8-a47f-4d2e-a3ad-13dec9a9ef25",
+      "version": -1,
+      "word": "en pojkvän",
+      "forms": [
+        {
+          "form": "pojkvänner"
+        }
+      ],
+      "translations": {
+        "ru": "парень романтический партнер",
+        "en": "boyfriend, romantic partner",
+        "uk": "хлопець, романтичний партнер",
+        "ar": "صديق، شريك رومانسي",
+        "fa": "دوست‌پسر، شریک عاشقانه",
+        "so": "saaxiib, lammaane jacayl",
+        "es": "novio, pareja romántica",
+        "de": "Freund, romantischer Partner",
+        "fr": "petit ami, partenaire romantique",
+        "pl": "chłopak, partner romantyczny",
+        "id": "pacar, pasangan romantis",
+        "hi": "प्रेमी, रोमांटिक साथी",
+        "zh": "男朋友，浪漫伴侣",
+        "it": "fidanzato, partner romantico",
+        "tr": "erkek arkadaş, romantik partner",
+        "sr": "дечко, романтични партнер",
+        "fi": "poikaystävä, romanttinen kumppani",
+        "et": "poissõber, romantiline partner",
+        "be": "хлопец, рамантычны партнёр",
+        "lv": "draugs, romantisks partneris",
+        "lt": "vaikinas, romantiškas partneris"
+      },
+      "examples": [
+        {
+          "text": "Hon har en pojkvän som bor i Göteborg"
+        },
+        {
+          "text": "Min pojkvän och jag firar tre år tillsammans idag"
+        },
+        {
+          "text": "Har du en pojkvän eller är du singel? Hennes pojkvän köpte en vacker ring till henne"
+        },
+        {
+          "text": "Pojkvännerna satt och pratade medan tjejerna handlade"
+        },
+        {
+          "text": "Hon träffade sin pojkvän på en fest förra året"
+        },
+        {
+          "text": "Min pojkvän gillar att laga mat, vilket jag tycker är fantastiskt"
+        },
+        {
+          "text": "De har varit tillsammans i fem år, men hon väntar fortfarande på att hennes pojkvän ska fria"
+        },
+        {
+          "text": "Hans pojkvän bor i en annan stad, så de träffas bara på helgerna"
+        },
+        {
+          "text": "Min pojkvän överraskade mig med biljetter till en konsert."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "38370d01-4175-4073-a669-7277c7cabf57",
+      "version": 1,
+      "word": "en vuxen",
+      "forms": [
+        {
+          "form": "vuxna"
+        }
+      ],
+      "translations": {
+        "ru": "взрослый (adult)",
+        "en": "adult",
+        "uk": "дорослий",
+        "ar": "بالغ",
+        "fa": "بزرگسال",
+        "so": "qaangaar",
+        "es": "adulto",
+        "de": "Erwachsener",
+        "fr": "adulte",
+        "pl": "dorosły",
+        "id": "dewasa",
+        "hi": "वयस्क",
+        "zh": "成年人",
+        "it": "adulto",
+        "tr": "yetişkin",
+        "sr": "одрасли",
+        "fi": "aikuinen",
+        "et": "täiskasvanu",
+        "be": "дарослы",
+        "lv": "pieaugušais",
+        "lt": "suaugęs"
+      },
+      "examples": [
+        {
+          "text": "När blir man egentligen vuxen?"
+        },
+        {
+          "text": "Han är inte ett barn längre, han är en vuxen nu"
+        },
+        {
+          "text": "Vuxna har mer ansvar än barn"
+        },
+        {
+          "text": "Jag känner mig inte vuxen, trots att jag är 30 år"
+        },
+        {
+          "text": "De vuxna satt och pratade medan barnen lekte"
+        },
+        {
+          "text": "Det är en väldigt vuxen sak att tänka på sin framtid"
+        },
+        {
+          "text": "Han försöker bete sig vuxet, men egentligen är han ganska omogen"
+        },
+        {
+          "text": "Jag vill ha en vuxen relation, utan onödiga bråk"
+        },
+        {
+          "text": "I Sverige blir man myndig och räknas som vuxen vid 18 års ålder"
+        },
+        {
+          "text": "Hon gillar att läsa vuxenböcker istället för ungdomsböcker."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a3ba533b-eb50-4687-9874-92945870cc5f",
+      "version": -1,
+      "word": "en ungdom",
+      "forms": [
+        {
+          "form": "ungdomar"
+        }
+      ],
+      "translations": {
+        "ru": "молодежь",
+        "en": "youth",
+        "uk": "молодь",
+        "ar": "الشباب",
+        "fa": "جوانان",
+        "so": "dhallinyarada",
+        "es": "juventud",
+        "de": "Jugend",
+        "fr": "jeunesse",
+        "pl": "młodzież",
+        "id": "pemuda",
+        "hi": "युवा",
+        "zh": "青年",
+        "it": "gioventù",
+        "tr": "gençlik",
+        "sr": "младост",
+        "fi": "nuoriso",
+        "et": "noored",
+        "be": "моладзь",
+        "lv": "jaunatne",
+        "lt": "jaunimas"
+      },
+      "examples": [
+        {
+          "text": "Många ungdomar gillar att umgås på sociala medier"
+        },
+        {
+          "text": "Som ungdom är det viktigt att få vara självständig"
+        },
+        {
+          "text": "Ungdomarna spelade fotboll i parken hela eftermiddagen"
+        },
+        {
+          "text": "Jag minns min ungdom som en rolig och spännande tid"
+        },
+        {
+          "text": "Ungdomar har ofta andra intressen än vuxna"
+        },
+        {
+          "text": "På helgerna samlas många ungdomar i centrum"
+        },
+        {
+          "text": "Min son är fortfarande ungdom, men han börjar bli vuxen"
+        },
+        {
+          "text": "Ungdomarna i Sverige får rösta från 18 års ålder"
+        },
+        {
+          "text": "Hon arbetar med ungdomar och hjälper dem att hitta jobb"
+        },
+        {
+          "text": "Ungdomarna lyssnade på musik och skrattade."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d02db824-8939-4c48-ac36-707aa4c8a8bc",
+      "version": -1,
+      "word": "en kompis",
+      "forms": [
+        {
+          "form": "kompisar"
+        }
+      ],
+      "translations": {
+        "ru": "друг",
+        "en": "friend",
+        "uk": "друг",
+        "ar": "صديق",
+        "fa": "دوست",
+        "so": "saaxiib",
+        "es": "amigo",
+        "de": "Freund",
+        "fr": "ami",
+        "pl": "przyjaciel",
+        "id": "teman",
+        "hi": "दोस्त",
+        "zh": "朋友",
+        "it": "amico",
+        "tr": "arkadaş",
+        "sr": "пријатељ",
+        "fi": "ystävä",
+        "et": "sõber",
+        "be": "сябар",
+        "lv": "draugs",
+        "lt": "draugas"
+      },
+      "examples": [
+        {
+          "text": "Han har varit min kompis i tjugo år Jag ska träffa mina kompisar i kväll"
+        },
+        {
+          "text": "Hon är min bästa kompis"
+        },
+        {
+          "text": "Vi har varit kompisar sedan barndomen"
+        },
+        {
+          "text": "Jag går på bio med några kompisar"
+        },
+        {
+          "text": "Mina kompisar och jag gillar att spela fotboll"
+        },
+        {
+          "text": "Har du många kompisar i skolan?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f9d8bba5-3f5c-4b6d-bafe-45f544f62626",
+      "version": -1,
+      "word": "ett kamratskap",
+      "forms": [
+        {
+          "form": "kamratskapet"
+        }
+      ],
+      "translations": {
+        "ru": "дружба товарищество дух товарищества",
+        "en": "friendship, companionship, spirit of camaraderie",
+        "uk": "дружба, товариськість, дух товариства",
+        "ar": "الصداقة، الرفقة، روح الزمالة",
+        "fa": "دوستی، همراهی، روح رفاقت",
+        "so": "saaxiibtinimo, saaxiibtinimo, ruuxa saaxiibtinimo",
+        "es": "amistad, compañerismo, espíritu de camaradería",
+        "de": "Freundschaft, Kameradschaft, Geist der Kameradschaft",
+        "fr": "amitié, camaraderie, esprit de camaraderie",
+        "pl": "przyjaźń, towarzystwo, duch koleżeństwa",
+        "id": "persahabatan, persahabatan, semangat kebersamaan",
+        "hi": "मित्रता, साथ, साथियों की भावना",
+        "zh": "友谊，陪伴，友爱精神",
+        "it": "amicizia, compagnia, spirito di cameratismo",
+        "tr": "arkadaşlık, yoldaşlık, yoldaşlık ruhu",
+        "sr": "пријатељство, другарство, дух другарства",
+        "fi": "ystävyys, toveruus, toveruuden henki",
+        "et": "sõprus, seltsimehelikkus, seltsimehelikkuse vaim",
+        "be": "сяброўства, таварыскасць, дух таварыскасці",
+        "lv": "draudzība, biedriskums, biedriskuma gars",
+        "lt": "draugystė, draugija, draugystės dvasia"
+      },
+      "examples": [
+        {
+          "text": "Kamratskap är viktigt i ett lag"
+        },
+        {
+          "text": "Vi har ett starkt kamratskap i vår grupp"
+        },
+        {
+          "text": "Kamratskap betyder mycket i idrottslag"
+        },
+        {
+          "text": "På jobbet värderar vi kamratskap högt"
+        },
+        {
+          "text": "I militären är kamratskap avgörande"
+        },
+        {
+          "text": "Barnen lär sig kamratskap genom att spela tillsammans"
+        },
+        {
+          "text": "Kamratskapet mellan oss växte under resan"
+        },
+        {
+          "text": "God kamratskap skapar en bättre arbetsmiljö"
+        },
+        {
+          "text": "Sport handlar inte bara om att vinna, utan också om kamratskap"
+        },
+        {
+          "text": "Kamratskap och respekt är viktiga värderingar i föreningen"
+        },
+        {
+          "text": "Vi har ett starkt kamratskap i vårt fotbollslag"
+        },
+        {
+          "text": "Laget byggde sitt framgång på samarbete och kamratskap."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0f2ba1c1-6845-4063-a2d2-3eaacc5ce5e2",
+      "version": -1,
+      "word": "en bekant",
+      "forms": [
+        {
+          "form": "bekanta"
+        }
+      ],
+      "translations": {
+        "ru": "знакомый (человек)",
+        "en": "acquaintance (person)",
+        "uk": "знайомий (людина)",
+        "ar": "معرفة (شخص)",
+        "fa": "آشنا (شخص)",
+        "so": "aqoon (qof)",
+        "es": "conocido (persona)",
+        "de": "Bekannter (Person)",
+        "fr": "connaissance (personne)",
+        "pl": "znajomy (osoba)",
+        "id": "kenalan (orang)",
+        "hi": "परिचित (व्यक्ति)",
+        "zh": "熟人（人）",
+        "it": "conoscente (persona)",
+        "tr": "tanıdık (kişi)",
+        "sr": "познаник (особа)",
+        "fi": "tuttava (henkilö)",
+        "et": "tuttav (inimene)",
+        "be": "знаёмы (чалавек)",
+        "lv": "pazīstams (persona)",
+        "lt": "pažįstamas (asmuo)"
+      },
+      "examples": [
+        {
+          "text": "Vi träffade några gemensamma bekanta på festen"
+        },
+        {
+          "text": "Hon är en gammal bekant från min barndom"
+        },
+        {
+          "text": "Vi mötte en bekant på tåget i morse"
+        },
+        {
+          "text": "Han är inte en nära vän, bara en bekant"
+        },
+        {
+          "text": "En av mina bekanta kan hjälpa dig med det här projektet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8723acfa-4bdc-49bc-ba52-0fdfa02c085c",
+      "version": -1,
+      "word": "en släkt",
+      "translations": {
+        "ru": "расширенная семья родня ( с дядями, тетями, двоюродными, шуриными и тд)",
+        "en": "extended family, relatives (including uncles, aunts, cousins, in-laws, etc.)",
+        "uk": "розширена сім'я, родичі (включаючи дядьків, тіток, двоюрідних братів і сестер, свояків тощо)",
+        "ar": "العائلة الممتدة، الأقارب (بما في ذلك الأعمام، العمات، أبناء العمومة، الأصهار، إلخ.)",
+        "fa": "خانواده گسترده، بستگان (شامل عموها، عمه‌ها، پسرعموها، خویشاوندان سببی و غیره)",
+        "so": "qoys ballaaran, qaraabo (oo ay ku jiraan adeerada, eeddooyinka, ilma adeerada, xigaalka, iwm.)",
+        "es": "familia extendida, parientes (incluyendo tíos, tías, primos, cuñados, etc.)",
+        "de": "erweiterte Familie, Verwandte (einschließlich Onkel, Tanten, Cousins, Schwäger usw.)",
+        "fr": "famille élargie, parents (y compris oncles, tantes, cousins, beaux-parents, etc.)",
+        "pl": "rodzina rozszerzona, krewni (w tym wujkowie, ciotki, kuzyni, powinowaci itp.)",
+        "id": "keluarga besar, kerabat (termasuk paman, bibi, sepupu, ipar, dll.)",
+        "hi": "विस्तारित परिवार, रिश्तेदार (जिसमें चाचा, चाची, चचेरे भाई, ससुराल वाले आदि शामिल हैं)",
+        "zh": "大家庭，亲戚（包括叔叔、阿姨、堂兄弟姐妹、姻亲等）",
+        "it": "famiglia allargata, parenti (inclusi zii, zie, cugini, parenti acquisiti, ecc.)",
+        "tr": "geniş aile, akrabalar (amcalar, teyzeler, kuzenler, kayınlar vb. dahil)",
+        "sr": "проширена породица, рођаци (укључујући ујаке, тетке, рођаке, тазбину итд.)",
+        "fi": "laajennettu perhe, sukulaiset (mukaan lukien sedät, tädit, serkut, appivanhemmat jne.)",
+        "et": "laiendatud perekond, sugulased (sealhulgas onud, tädid, nõod, hõimlased jne.)",
+        "be": "пашыраная сям'я, сваякі (уключаючы дзядзькоў, цётак, стрыечных братоў і сясцёр, сватоў і г.д.)",
+        "lv": "paplašinātā ģimene, radinieki (ieskaitot onkuļus, tantes, brālēnus, svainus utt.)",
+        "lt": "išplėstinė šeima, giminaičiai (įskaitant dėdes, tetas, pusbrolius, svainius ir kt.)"
+      },
+      "examples": [
+        {
+          "text": "Min släkt kommer från norra Sverige"
+        },
+        {
+          "text": "Hela släkten samlades för julfirandet"
+        },
+        {
+          "text": "Hela släkten samlades för julfirandet"
+        },
+        {
+          "text": "Jag känner inte hela min släkt, eftersom vissa bor utomlands"
+        },
+        {
+          "text": "Han är den enda i sin släkt som bor i Stockholm"
+        },
+        {
+          "text": "Vi har en släktträff varje sommar"
+        },
+        {
+          "text": "Min släkt på min mammas sida är väldigt musikaliska"
+        },
+        {
+          "text": "Släkten har en lång historia som går tillbaka till 1600-talet"
+        },
+        {
+          "text": "Han forskar om sin släkt och har hittat gamla släktträd"
+        },
+        {
+          "text": "Det är viktigt att hålla kontakt med sin släkt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e3f2a98a-c118-443a-b06e-386189fe5cdf",
+      "version": -1,
+      "word": "En släkting",
+      "forms": [
+        {
+          "form": "släktingar"
+        }
+      ],
+      "translations": {
+        "ru": "родственник, родственник",
+        "en": "relative",
+        "uk": "родич",
+        "ar": "قريب",
+        "fa": "خویشاوند",
+        "so": "qaraabo",
+        "es": "pariente",
+        "de": "Verwandter",
+        "fr": "parent",
+        "pl": "krewny",
+        "id": "kerabat",
+        "hi": "रिश्तेदार",
+        "zh": "亲戚",
+        "it": "parente",
+        "tr": "akraba",
+        "sr": "рођак",
+        "fi": "sukulainen",
+        "et": "sugulane",
+        "be": "сваяк",
+        "lv": "radinieks",
+        "lt": "giminaitis"
+      },
+      "examples": [
+        {
+          "text": "Mina släktingar bor i Uppsala"
+        },
+        {
+          "text": "Vi besöker våra släktingar varje sommar"
+        },
+        {
+          "text": "Har du några släktingar i Sverige?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "64d89163-5e79-4925-8a57-fc11cb321a1e",
+      "version": -1,
+      "word": "(de) närmaste",
+      "translations": {
+        "ru": "самые близкие",
+        "en": "closest ones",
+        "uk": "найближчі",
+        "ar": "الأقرب",
+        "fa": "نزدیک‌ترین‌ها",
+        "so": "kuwa ugu dhow",
+        "es": "los más cercanos",
+        "de": "die Nächsten",
+        "fr": "les plus proches",
+        "pl": "najbliżsi",
+        "id": "yang terdekat",
+        "hi": "सबसे करीबी",
+        "zh": "最亲近的",
+        "it": "i più vicini",
+        "tr": "en yakınlar",
+        "sr": "најближи",
+        "fi": "lähimmät",
+        "et": "kõige lähedasemad",
+        "be": "самыя блізкія",
+        "lv": "tuvākie",
+        "lt": "artimiausi"
+      },
+      "examples": [
+        {
+          "text": "Endast hennes närmaste krets visste om hennes planer"
+        },
+        {
+          "text": "Hon berättade det bara för sina närmaste vänner"
+        },
+        {
+          "text": "Vid bröllopet bjöd de bara in den närmaste familjen"
+        },
+        {
+          "text": "De närmaste anhöriga informerades om situationen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "26fde960-961f-407e-ac47-3f3e0cf47449",
+      "version": -1,
+      "word": "en krets",
+      "forms": [
+        {
+          "form": "kretsar"
+        }
+      ],
+      "translations": {
+        "ru": "Круг людей, социальный круг. сообщество (основное значение круг окружность)",
+        "en": "circle of people, social circle, community (primary meaning: circle, circumference)",
+        "uk": "коло людей, соціальне коло, спільнота (основне значення: коло, окружність)",
+        "ar": "دائرة من الناس، دائرة اجتماعية، مجتمع (المعنى الأساسي: دائرة، محيط)",
+        "fa": "دایره‌ای از افراد، دایره اجتماعی، جامعه (معنی اصلی: دایره، محیط)",
+        "so": "koox dad ah, koox bulsho, bulsho (macnaha ugu weyn: goobo, wareeg)",
+        "es": "círculo de personas, círculo social, comunidad (significado principal: círculo, circunferencia)",
+        "de": "Kreis von Menschen, sozialer Kreis, Gemeinschaft (Hauptbedeutung: Kreis, Umfang)",
+        "fr": "cercle de personnes, cercle social, communauté (sens principal : cercle, circonférence)",
+        "pl": "krąg ludzi, krąg społeczny, społeczność (główne znaczenie: koło, obwód)",
+        "id": "lingkaran orang, lingkaran sosial, komunitas (arti utama: lingkaran, keliling)",
+        "hi": "लोगों का घेरा, सामाजिक घेरा, समुदाय (मुख्य अर्थ: घेरा, परिधि)",
+        "zh": "人群圈，社交圈，社区（主要意思：圆，周长）",
+        "it": "cerchia di persone, cerchia sociale, comunità (significato principale: cerchio, circonferenza)",
+        "tr": "insan çemberi, sosyal çevre, topluluk (ana anlam: çember, çevre)",
+        "sr": "круг људи, социјални круг, заједница (примарно значење: круг, обим)",
+        "fi": "ihmispiiri, sosiaalinen piiri, yhteisö (ensisijainen merkitys: ympyrä, ympärysmitta)",
+        "et": "inimeste ring, sotsiaalne ring, kogukond (esmane tähendus: ring, ümbermõõt)",
+        "be": "круг людзей, сацыяльны круг, супольнасць (асноўнае значэнне: круг, акружнасць)",
+        "lv": "cilvēku loks, sociālais loks, kopiena (galvenā nozīme: aplis, apkārtmērs)",
+        "lt": "žmonių ratas, socialinis ratas, bendruomenė (pagrindinė reikšmė: ratas, perimetras)"
+      },
+      "examples": [
+        {
+          "text": "Hon är känd inom politiska kretsar"
+        },
+        {
+          "text": "Jag har en liten men nära vänkrets"
+        },
+        {
+          "text": "Inom vetenskapliga kretsar diskuteras detta ofta"
+        },
+        {
+          "text": "Han rör sig i exklusiva kretsar"
+        },
+        {
+          "text": "Han är känd inom juridiska kretsar"
+        },
+        {
+          "text": "Min vänkrets är ganska liten."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ca91314d-4846-4df9-9a44-c5cfff0b60b5",
+      "version": 1,
+      "word": "ett par",
+      "forms": [
+        {
+          "form": "paret"
+        },
+        {
+          "form": "par"
+        },
+        {
+          "form": "paren"
+        }
+      ],
+      "translations": {
+        "ru": "пара",
+        "en": "couple, pair",
+        "uk": "пара",
+        "ar": "زوج",
+        "fa": "زوج",
+        "so": "lamaane",
+        "es": "pareja",
+        "de": "Paar",
+        "fr": "couple",
+        "pl": "para",
+        "id": "pasangan",
+        "hi": "जोड़ा",
+        "zh": "对",
+        "it": "coppia",
+        "tr": "çift",
+        "sr": "пар",
+        "fi": "pari",
+        "et": "paar",
+        "be": "пара",
+        "lv": "pāris",
+        "lt": "pora"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte ett par nya skor"
+        },
+        {
+          "text": "Hon behöver ett par handskar för vintern"
+        },
+        {
+          "text": "Ett par glasögon ligger på bordet"
+        },
+        {
+          "text": "Vi ses om ett par minuter"
+        },
+        {
+          "text": "Jag har ett par frågor om projektet"
+        },
+        {
+          "text": "Ett par vänner kom över på middag"
+        },
+        {
+          "text": "De är ett lyckligt par"
+        },
+        {
+          "text": "Ett par satt vid bordet bredvid oss"
+        },
+        {
+          "text": "Jag har varit där ett par gånger"
+        },
+        {
+          "text": "Kan du köpa ett par stycken äpplen?"
+        },
+        {
+          "text": "Ett par nyheter nådde oss sent på kvällen"
+        },
+        {
+          "text": "Han har ett par jeans som han alltid bär"
+        },
+        {
+          "text": "Ett par dagar till, så blir det semester"
+        },
+        {
+          "text": "Vi köpte ett par biljetter till konserten"
+        },
+        {
+          "text": "Kan du låna mig ett par minuter av din tid?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e653e7a2-1282-42c4-900e-10ba2ab20423",
+      "version": -1,
+      "word": "en mamma",
+      "forms": [
+        {
+          "form": "mammor"
+        }
+      ],
+      "translations": {
+        "ru": "мама",
+        "en": "mom",
+        "uk": "мама",
+        "ar": "أمي",
+        "fa": "مامان",
+        "so": "hooyo",
+        "es": "mamá",
+        "de": "Mama",
+        "fr": "maman",
+        "pl": "mama",
+        "id": "ibu",
+        "hi": "माँ",
+        "zh": "妈妈",
+        "it": "mamma",
+        "tr": "anne",
+        "sr": "мама",
+        "fi": "äiti",
+        "et": "ema",
+        "be": "мама",
+        "lv": "mamma",
+        "lt": "mama"
+      },
+      "examples": [
+        {
+          "text": "Min mamma heter Anna"
+        },
+        {
+          "text": "Mamman kramade sitt barn innan läggdags"
+        },
+        {
+          "text": "Jag ringer min mamma varje dag"
+        },
+        {
+          "text": "Mammor gör så mycket för sina barn"
+        },
+        {
+          "text": "Min mamma lagar världens godaste mat"
+        },
+        {
+          "text": "Barnet ropade \"Mamma!\" och sprang fram till henne"
+        },
+        {
+          "text": "Mammorna pratade medan barnen lekte på lekplatsen"
+        },
+        {
+          "text": "Jag saknar min mamma när jag är borta länge"
+        },
+        {
+          "text": "Mamma, kan du hjälpa mig med läxorna? Alla mammor är speciella på sitt sätt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0e895614-f725-4df1-b0e4-ac392e4eb015",
+      "version": -1,
+      "word": "en mor",
+      "forms": [
+        {
+          "form": "modern"
+        },
+        {
+          "form": "mödrar"
+        },
+        {
+          "form": "mödrarna"
+        }
+      ],
+      "translations": {
+        "ru": "мать",
+        "en": "mother",
+        "uk": "мати",
+        "ar": "أم",
+        "fa": "مادر",
+        "so": "hooyo",
+        "es": "madre",
+        "de": "Mutter",
+        "fr": "mère",
+        "pl": "matka",
+        "id": "ibu",
+        "hi": "माँ",
+        "zh": "母亲",
+        "it": "madre",
+        "tr": "anne",
+        "sr": "мајка",
+        "fi": "äiti",
+        "et": "ema",
+        "be": "маці",
+        "lv": "māte",
+        "lt": "motina"
+      },
+      "examples": [
+        {
+          "text": "Min mor föddes i Stockholm"
+        },
+        {
+          "text": "Modern tog hand om sina barn med stor kärlek"
+        },
+        {
+          "text": "Han besökte sin gamla mor på landet"
+        },
+        {
+          "text": "Mödrar spelar en viktig roll i familjen"
+        },
+        {
+          "text": "Min mor och far träffades på universitetet"
+        },
+        {
+          "text": "I äldre texter används ofta ordet \"mor\" istället för \"mamma\""
+        },
+        {
+          "text": "Han är sin mors stolthet"
+        },
+        {
+          "text": "Mödrarna samlades för att diskutera skolfrågor"
+        },
+        {
+          "text": "Modern såg på sitt barn med tårar i ögonen"
+        },
+        {
+          "text": "Mor och dotter har en speciell relation."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9ee5c696-c166-49a1-bc85-1f1dbde46d92",
+      "version": -1,
+      "word": "en far",
+      "forms": [
+        {
+          "form": "fadern"
+        },
+        {
+          "form": "fäder"
+        },
+        {
+          "form": "fäderna"
+        }
+      ],
+      "translations": {
+        "ru": "отец",
+        "en": "father",
+        "uk": "батько",
+        "ar": "أب",
+        "fa": "پدر",
+        "so": "aabbe",
+        "es": "padre",
+        "de": "Vater",
+        "fr": "père",
+        "pl": "ojciec",
+        "id": "ayah",
+        "hi": "पिता",
+        "zh": "父亲",
+        "it": "padre",
+        "tr": "baba",
+        "sr": "отац",
+        "fi": "isä",
+        "et": "isa",
+        "be": "бацька",
+        "lv": "tēvs",
+        "lt": "tėvas"
+      },
+      "examples": [
+        {
+          "text": "Min far är läkare"
+        },
+        {
+          "text": "Fadern tog hand om sitt barn medan modern arbetade"
+        },
+        {
+          "text": "Min far och jag brukade fiska tillsammans när jag var liten"
+        },
+        {
+          "text": "Fäder har en viktig roll i barnens liv"
+        },
+        {
+          "text": "Han ville hedra sin far genom att följa i hans fotspår"
+        },
+        {
+          "text": "Jag besökte min gamle far på landsbygden"
+        },
+        {
+          "text": "Hans far var en sträng men rättvis man"
+        },
+        {
+          "text": "Fäderna samlades för att diskutera skolans framtid"
+        },
+        {
+          "text": "Min far lärde mig att cykla"
+        },
+        {
+          "text": "Far och son gick på fotbollsmatch tillsammans."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d5cf389e-5178-49ff-8c41-e2f597e29d02",
+      "version": -1,
+      "word": "en pappa",
+      "forms": [
+        {
+          "form": "pappan"
+        },
+        {
+          "form": "pappor"
+        },
+        {
+          "form": "papporna"
+        }
+      ],
+      "translations": {
+        "ru": "папа",
+        "en": "dad",
+        "uk": "тато",
+        "ar": "أب",
+        "fa": "پدر",
+        "so": "aabe",
+        "es": "papá",
+        "de": "Papa",
+        "fr": "papa",
+        "pl": "tata",
+        "id": "ayah",
+        "hi": "पापा",
+        "zh": "爸爸",
+        "it": "papà",
+        "tr": "baba",
+        "sr": "тата",
+        "fi": "isä",
+        "et": "isa",
+        "be": "тата",
+        "lv": "tētis",
+        "lt": "tėtis"
+      },
+      "examples": [
+        {
+          "text": "Min pappa jobbar som ingenjör"
+        },
+        {
+          "text": "Har du träffat hennes pappa? Pappa lagar middag ikväll"
+        },
+        {
+          "text": "Vi ska fira pappas födelsedag på lördag"
+        },
+        {
+          "text": "När jag var liten läste min pappa alltid godnattsagor för mig"
+        },
+        {
+          "text": "Min pappa tycker om att fiska på helgerna"
+        },
+        {
+          "text": "Hon är väldigt lik sin pappa"
+        },
+        {
+          "text": "Pappa, kan du hjälpa mig med läxorna? Han blev pappa för första gången förra året"
+        },
+        {
+          "text": "Papporna på lekplatsen pratade om sina barn."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b94c2b8a-8eeb-4b37-8ac1-b177d632e6d3",
+      "version": -1,
+      "word": "en dotter",
+      "forms": [
+        {
+          "form": "dottern"
+        },
+        {
+          "form": "döttrar"
+        },
+        {
+          "form": "döttrarna"
+        }
+      ],
+      "translations": {
+        "ru": "дочь",
+        "en": "daughter",
+        "uk": "дочка",
+        "ar": "ابنة",
+        "fa": "دختر",
+        "so": "gabar",
+        "es": "hija",
+        "de": "Tochter",
+        "fr": "fille",
+        "pl": "córka",
+        "id": "putri",
+        "hi": "बेटी",
+        "zh": "女儿",
+        "it": "figlia",
+        "tr": "kız",
+        "sr": "ћерка",
+        "fi": "tytär",
+        "et": "tütar",
+        "be": "дачка",
+        "lv": "meita",
+        "lt": "dukra"
+      },
+      "examples": [
+        {
+          "text": "Min dotter är fem år gammal"
+        },
+        {
+          "text": "Har du träffat min dotter? Dottern studerar vid universitetet i Stockholm"
+        },
+        {
+          "text": "Vi har två döttrar och en son"
+        },
+        {
+          "text": "Hon är sin mammas dotter – de är så lika! Kungens dotter gifte sig med en prins"
+        },
+        {
+          "text": "Dottern ringde hem varje söndag"
+        },
+        {
+          "text": "Min dotter älskar att rita och måla"
+        },
+        {
+          "text": "De hade en stark relation mellan far och dotter"
+        },
+        {
+          "text": "Företaget har flera dotterbolag i Europa."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c56b78c3-757c-43c4-8989-95075f924b58",
+      "version": -1,
+      "word": "en son",
+      "forms": [
+        {
+          "form": "sonen"
+        },
+        {
+          "form": "söner"
+        },
+        {
+          "form": "sönerna"
+        }
+      ],
+      "translations": {
+        "ru": "сын",
+        "en": "son",
+        "uk": "син",
+        "ar": "ابن",
+        "fa": "پسر",
+        "so": "wiil",
+        "es": "hijo",
+        "de": "Sohn",
+        "fr": "fils",
+        "pl": "syn",
+        "id": "anak laki-laki",
+        "hi": "बेटा",
+        "zh": "儿子",
+        "it": "figlio",
+        "tr": "oğul",
+        "sr": "син",
+        "fi": "poika",
+        "et": "poeg",
+        "be": "сын",
+        "lv": "dēls",
+        "lt": "sūnus"
+      },
+      "examples": [
+        {
+          "text": "Min son heter Erik"
+        },
+        {
+          "text": "Sonen hjälper sin pappa i garaget"
+        },
+        {
+          "text": "De är stolta över sina söner"
+        },
+        {
+          "text": "Familjen har två döttrar och en son"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "976f9289-7b3c-4878-afc7-c006e9a64019",
+      "version": -1,
+      "word": "en bror",
+      "forms": [
+        {
+          "form": "brodern"
+        },
+        {
+          "form": "bröder"
+        },
+        {
+          "form": "bröderna"
+        }
+      ],
+      "translations": {
+        "ru": "брат",
+        "en": "brother",
+        "uk": "брат",
+        "ar": "أخ",
+        "fa": "برادر",
+        "so": "walaal",
+        "es": "hermano",
+        "de": "Bruder",
+        "fr": "frère",
+        "pl": "brat",
+        "id": "saudara laki-laki",
+        "hi": "भाई",
+        "zh": "兄弟",
+        "it": "fratello",
+        "tr": "kardeş",
+        "sr": "брат",
+        "fi": "veli",
+        "et": "vend",
+        "be": "брат",
+        "lv": "brālis",
+        "lt": "brolis"
+      },
+      "examples": [
+        {
+          "text": "Min bror är två år äldre än jag"
+        },
+        {
+          "text": "Jag har två bröder och en syster"
+        },
+        {
+          "text": "Min bror bor i Stockholm"
+        },
+        {
+          "text": "Min storebror hjälper mig alltid med läxorna"
+        },
+        {
+          "text": "Min lillebror är bara fem år gammal"
+        },
+        {
+          "text": "Min bror älskar att spela fotboll."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "b68ce7f7-68f7-49af-bdc0-8c5491eccc7f",
+      "version": -1,
+      "word": "eb syster",
+      "forms": [
+        {
+          "form": "systern"
+        },
+        {
+          "form": "systrar"
+        },
+        {
+          "form": "systrarna"
+        }
+      ],
+      "translations": {
+        "ru": "сестра",
+        "en": "sister",
+        "uk": "сестра",
+        "ar": "أخت",
+        "fa": "خواهر",
+        "so": "walaal",
+        "es": "hermana",
+        "de": "Schwester",
+        "fr": "sœur",
+        "pl": "siostra",
+        "id": "saudara perempuan",
+        "hi": "बहन",
+        "zh": "姐姐",
+        "it": "sorella",
+        "tr": "kız kardeş",
+        "sr": "сестра",
+        "fi": "sisko",
+        "et": "õde",
+        "be": "сястра",
+        "lv": "māsa",
+        "lt": "sesuo"
+      },
+      "examples": [
+        {
+          "text": "Min syster bor i Göteborg"
+        },
+        {
+          "text": "Har du en syster eller en bror? Min lillasyster är bara fem år gammal"
+        },
+        {
+          "text": "Storasystern hjälper alltid sina småsyskon"
+        },
+        {
+          "text": "Systrarna älskar att baka tillsammans"
+        },
+        {
+          "text": "Hon är sjuksköterska och jobbar på sjukhuset"
+        },
+        {
+          "text": "Min syster och jag reser ofta tillsammans"
+        },
+        {
+          "text": "Hennes syster studerar till läkare"
+        },
+        {
+          "text": "Jag har tre systrar och två bröder"
+        },
+        {
+          "text": "Systrarna har ett starkt band mellan sig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a2cb2742-e89b-4ad9-968f-87f67517e011",
+      "version": 1,
+      "word": "ett syskon",
+      "forms": [
+        {
+          "form": "syskonet"
+        },
+        {
+          "form": "syskon"
+        },
+        {
+          "form": "syskonen"
+        }
+      ],
+      "translations": {
+        "ru": "родной брат или сестра",
+        "en": "biological brother or sister",
+        "uk": "рідний брат або сестра",
+        "ar": "أخ أو أخت بيولوجية",
+        "fa": "برادر یا خواهر بیولوژیکی",
+        "so": "walaal ama walaasha dhabta ah",
+        "es": "hermano o hermana biológico",
+        "de": "leiblicher Bruder oder Schwester",
+        "fr": "frère ou sœur biologique",
+        "pl": "biologiczny brat lub siostra",
+        "id": "saudara kandung laki-laki atau perempuan",
+        "hi": "जैविक भाई या बहन",
+        "zh": "亲生兄弟或姐妹",
+        "it": "fratello o sorella biologico",
+        "tr": "biyolojik erkek veya kız kardeş",
+        "sr": "биолошки брат или сестра",
+        "fi": "biologinen veli tai sisko",
+        "et": "bioloogiline vend või õde",
+        "be": "родны брат або сястра",
+        "lv": "bioloģiskais brālis vai māsa",
+        "lt": "biologinis brolis arba sesuo"
+      },
+      "examples": [
+        {
+          "text": "Har du några syskon?"
+        },
+        {
+          "text": "Jag har ett syskon, en äldre bror"
+        },
+        {
+          "text": "Min bästa vän är ensambarn och har inga syskon"
+        },
+        {
+          "text": "Våra syskon bor i olika länder"
+        },
+        {
+          "text": "Syskonen leker tillsammans i trädgården"
+        },
+        {
+          "text": "Vi är tre syskon i familjen"
+        },
+        {
+          "text": "Jag är det yngsta syskonet i min familj"
+        },
+        {
+          "text": "Syskonkärlek kan vara både fin och jobbig ibland"
+        },
+        {
+          "text": "Mina syskon och jag pratar med varandra varje vecka"
+        },
+        {
+          "text": "Hon har två syskon, en syster och en bror."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7700baff-eac5-445d-b92d-9f30d3dbecaf",
+      "version": -1,
+      "word": "en man",
+      "forms": [
+        {
+          "form": "mannen"
+        },
+        {
+          "form": "män"
+        },
+        {
+          "form": "männen"
+        }
+      ],
+      "translations": {
+        "ru": "муж",
+        "en": "husband",
+        "uk": "чоловік",
+        "ar": "زوج",
+        "fa": "شوهر",
+        "so": "ninkeeda",
+        "es": "esposo",
+        "de": "Ehemann",
+        "fr": "mari",
+        "pl": "mąż",
+        "id": "suami",
+        "hi": "पति",
+        "zh": "丈夫",
+        "it": "marito",
+        "tr": "koca",
+        "sr": "муж",
+        "fi": "aviomies",
+        "et": "abikaasa",
+        "be": "муж",
+        "lv": "vīrs",
+        "lt": "vyras"
+      },
+      "examples": [
+        {
+          "text": "Min man och jag har varit gifta i tio år"
+        },
+        {
+          "text": "Hennes man arbetar som läkare"
+        },
+        {
+          "text": "Jag älskar min man väldigt mycket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3617b7a3-de6a-4500-a5b0-5453f62b971f",
+      "version": -1,
+      "word": "en fru",
+      "forms": [
+        {
+          "form": "frun"
+        },
+        {
+          "form": "fruar"
+        },
+        {
+          "form": "fruarna"
+        }
+      ],
+      "translations": {
+        "ru": "жена (второе значение госпожа как вежливое обращение)",
+        "en": "wife (also madam as polite address)",
+        "uk": "дружина (також пані як ввічливе звернення)",
+        "ar": "زوجة (أيضًا سيدة كعنوان مهذب)",
+        "fa": "همسر (همچنین خانم به عنوان خطاب محترمانه)",
+        "so": "xaas (sidoo kale marwo sida cinwaan edeb leh)",
+        "es": "esposa (también señora como dirección cortés)",
+        "de": "Ehefrau (auch Frau als höfliche Anrede)",
+        "fr": "épouse (aussi madame comme adresse polie)",
+        "pl": "żona (również pani jako grzeczne zwroty)",
+        "id": "istri (juga nyonya sebagai sapaan sopan)",
+        "hi": "पत्नी (साथ ही मैडम के रूप में विनम्र संबोधन)",
+        "zh": "妻子（也可作为礼貌称呼的女士）",
+        "it": "moglie (anche signora come indirizzo cortese)",
+        "tr": "eş (aynı zamanda kibar bir hitap olarak hanımefendi)",
+        "sr": "жена (такође госпођа као учтиво обраћање)",
+        "fi": "vaimo (myös rouva kohteliaana puhutteluna)",
+        "et": "naine (ka ka proua kui viisakas pöördumine)",
+        "be": "жонка (таксама пані як ветлівае зварот)",
+        "lv": "sieva (arī kundze kā pieklājīgs uzrunas veids)",
+        "lt": "žmona (taip pat ponia kaip mandagus kreipinys)"
+      },
+      "examples": [
+        {
+          "text": "Min fru och jag har varit gifta i fem år"
+        },
+        {
+          "text": "Han köpte blommor till sin fru"
+        },
+        {
+          "text": "Fru Karlsson är vår granne"
+        },
+        {
+          "text": "Min fru älskar att resa"
+        },
+        {
+          "text": "Han presenterade sin fru för kollegorna"
+        },
+        {
+          "text": "Herr och fru Svensson bor i Stockholm"
+        },
+        {
+          "text": "Frun i huset lagade en fantastisk middag"
+        },
+        {
+          "text": "Jag är en lyckligt gift man med en underbar fru"
+        },
+        {
+          "text": "Hon är både en fantastisk mor och en kärleksfull fru"
+        },
+        {
+          "text": "Min fru är min bästa vän."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5833014d-b2ff-4442-8457-4aa2ea37ee87",
+      "version": -1,
+      "word": "en svåger",
+      "forms": [
+        {
+          "form": "svågern"
+        },
+        {
+          "form": "svågrar"
+        },
+        {
+          "form": "svågrarna"
+        }
+      ],
+      "translations": {
+        "ru": "брат мужа или жены (шурин деверь зять)",
+        "en": "brother-in-law (husband's or wife's brother)",
+        "uk": "шурин або деверь",
+        "ar": "شقيق الزوج أو الزوجة",
+        "fa": "برادر شوهر یا زن",
+        "so": "walaalka ninka ama xaaska",
+        "es": "cuñado (hermano del esposo o esposa)",
+        "de": "Schwager (Bruder des Ehemanns oder der Ehefrau)",
+        "fr": "beau-frère (frère du mari ou de la femme)",
+        "pl": "szwagier (brat męża lub żony)",
+        "id": "ipar (saudara laki-laki suami atau istri)",
+        "hi": "साला (पति या पत्नी का भाई)",
+        "zh": "姐夫或妹夫（丈夫或妻子的兄弟）",
+        "it": "cognato (fratello del marito o della moglie)",
+        "tr": "kayınbirader (kocanın veya karının erkek kardeşi)",
+        "sr": "шурак или девер",
+        "fi": "lanko (aviomiehen tai vaimon veli)",
+        "et": "õemees või naisevend",
+        "be": "шурын або дзевер",
+        "lv": "svainis (vīra vai sievas brālis)",
+        "lt": "svainis (vyro arba žmonos brolis)"
+      },
+      "examples": [
+        {
+          "text": "Min svåger är väldigt trevlig"
+        },
+        {
+          "text": "Har du träffat min svåger? Han är gift med min syster, så han är min svåger"
+        },
+        {
+          "text": "Hennes man och min svåger är bästa vänner"
+        },
+        {
+          "text": "Min svåger och jag gillar att fiska tillsammans"
+        },
+        {
+          "text": "Min svåger hjälpte oss att renovera huset"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "347c4415-0c47-4d48-b757-6071ac965bb6",
+      "version": -1,
+      "word": "en svägerska",
+      "forms": [
+        {
+          "form": "svägerskan"
+        },
+        {
+          "form": "svägerskor"
+        },
+        {
+          "form": "svägerskorna"
+        }
+      ],
+      "translations": {
+        "ru": "сестра мужа или жены (золовка, свояченица)",
+        "en": "sister-in-law (husband's or wife's sister)",
+        "uk": "сестра чоловіка або дружини",
+        "ar": "أخت الزوج أو الزوجة",
+        "fa": "خواهر شوهر یا خواهر زن",
+        "so": "walaasha ninka ama xaaska",
+        "es": "cuñada (hermana del esposo o de la esposa)",
+        "de": "Schwägerin (Schwester des Ehemanns oder der Ehefrau)",
+        "fr": "belle-sœur (sœur du mari ou de la femme)",
+        "pl": "szwagierka (siostra męża lub żony)",
+        "id": "ipar perempuan (saudara perempuan suami atau istri)",
+        "hi": "ननद या साली (पति या पत्नी की बहन)",
+        "zh": "嫂子或小姑（丈夫或妻子的姐妹）",
+        "it": "cognata (sorella del marito o della moglie)",
+        "tr": "baldız veya görümce (kocanın veya karının kız kardeşi)",
+        "sr": "сестра мужа или жене (заова или свастика)",
+        "fi": "käly (aviomiehen tai vaimon sisar)",
+        "et": "mehe või naise õde (vennanaine või naiseõde)",
+        "be": "сястра мужа або жонкі (залоўка, своячка)",
+        "lv": "vīra vai sievas māsa (svainīte)",
+        "lt": "vyro arba žmonos sesuo (svainė)"
+      },
+      "examples": [
+        {
+          "text": "Min svägerska och jag kommer bra överens"
+        },
+        {
+          "text": "Har du träffat min svägerska? Min brors fru, alltså min svägerska, är läkare"
+        },
+        {
+          "text": "Min mans syster är min svägerska"
+        },
+        {
+          "text": "Vi ska fira jul med mina svägerskor"
+        },
+        {
+          "text": "Min svägerska bor i Danmark"
+        },
+        {
+          "text": "Jag har två svägerskor, en i Malmö och en i Göteborg"
+        },
+        {
+          "text": "Min svägerska är väldigt snäll och hjälpsam"
+        },
+        {
+          "text": "Vi ska resa med min svägerska och hennes familj"
+        },
+        {
+          "text": "Mina svägerskor har alltid stöttat mig."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ef08c467-19b9-4c86-a52f-004a1686a6c1",
+      "version": -1,
+      "word": "en mormor",
+      "forms": [
+        {
+          "form": "mormodern"
+        },
+        {
+          "form": "mormödrar"
+        },
+        {
+          "form": "mormödrarna"
+        }
+      ],
+      "translations": {
+        "ru": "бабушка со стороны матери",
+        "en": "maternal grandmother",
+        "uk": "бабуся з боку матері",
+        "ar": "الجدة من جهة الأم",
+        "fa": "مادربزرگ مادری",
+        "so": "ayeeyo dhinaca hooyada",
+        "es": "abuela materna",
+        "de": "Großmutter mütterlicherseits",
+        "fr": "grand-mère maternelle",
+        "pl": "babcia ze strony matki",
+        "id": "nenek dari pihak ibu",
+        "hi": "मातृ पक्ष की दादी",
+        "zh": "外祖母",
+        "it": "nonna materna",
+        "tr": "anneanne",
+        "sr": "бака са мајчине стране",
+        "fi": "äidinäiti",
+        "et": "emaema",
+        "be": "бабуля з боку маці",
+        "lv": "vecmāmiņa no mātes puses",
+        "lt": "močiutė iš motinos pusės"
+      },
+      "examples": [
+        {
+          "text": "Min mormor bakar de godaste kanelbullarna"
+        },
+        {
+          "text": "Har du träffat min mormor? Mormor och morfar bor i en liten stuga vid havet"
+        },
+        {
+          "text": "Jag älskade att spendera somrarna hos min mormor"
+        },
+        {
+          "text": "Min mormor är 85 år gammal men fortfarande mycket aktiv"
+        },
+        {
+          "text": "Vi ska hälsa på mormor i helgen"
+        },
+        {
+          "text": "Min mormor lärde mig att sticka"
+        },
+        {
+          "text": "Barnen älskar att lyssna på mormors berättelser"
+        },
+        {
+          "text": "Mormors trädgård är full av blommor och fruktträd"
+        },
+        {
+          "text": "Jag saknar min mormor väldigt mycket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "74016570-0f1a-4689-9a32-9ab3306e143b",
+      "version": -1,
+      "word": "en farmor",
+      "forms": [
+        {
+          "form": "farmodern"
+        },
+        {
+          "form": "farmödrar"
+        },
+        {
+          "form": "farmödrarna"
+        }
+      ],
+      "translations": {
+        "ru": "бабушка со стороны отца",
+        "en": "paternal grandmother",
+        "uk": "бабуся з боку батька",
+        "ar": "الجدة من جهة الأب",
+        "fa": "مادربزرگ پدری",
+        "so": "ayeeyo aabbaha",
+        "es": "abuela paterna",
+        "de": "Großmutter väterlicherseits",
+        "fr": "grand-mère paternelle",
+        "pl": "babcia ze strony ojca",
+        "id": "nenek dari pihak ayah",
+        "hi": "पैतृक दादी",
+        "zh": "祖父母（父亲一方）",
+        "it": "nonna paterna",
+        "tr": "baba tarafından büyükanne",
+        "sr": "бака са очеве стране",
+        "fi": "isän puoleinen isoäiti",
+        "et": "isaema",
+        "be": "бабуля з боку бацькі",
+        "lv": "tēva vecmāmiņa",
+        "lt": "tėvo močiutė"
+      },
+      "examples": [
+        {
+          "text": "Min farmor älskar att baka pepparkakor"
+        },
+        {
+          "text": "Har du träffat min farmor? Farmor och farfar bor i en liten by på landet"
+        },
+        {
+          "text": "Jag brukade leka i farmors trädgård när jag var barn"
+        },
+        {
+          "text": "Min farmor är 90 år gammal men fortfarande pigg och glad"
+        },
+        {
+          "text": "Vi åker till farmor i helgen"
+        },
+        {
+          "text": "Min farmor berättade alltid spännande sagor för mig"
+        },
+        {
+          "text": "Barnen ser fram emot att träffa sin farmor"
+        },
+        {
+          "text": "Farmors gamla fotoalbum är fullt av minnen"
+        },
+        {
+          "text": "Jag saknar min farmor och vill ringa henne ikväll."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "85998563-c5ee-41f6-9664-89158b30051b",
+      "version": -1,
+      "word": "en morfar",
+      "forms": [
+        {
+          "form": "morfadern"
+        },
+        {
+          "form": "morfäder"
+        },
+        {
+          "form": "morfäderna"
+        }
+      ],
+      "translations": {
+        "ru": "дедушка со стороны матери",
+        "en": "maternal grandfather",
+        "uk": "дідусь з боку матері",
+        "ar": "الجد من جهة الأم",
+        "fa": "پدربزرگ مادری",
+        "so": "awoowaha dhinaca hooyada",
+        "es": "abuelo materno",
+        "de": "Großvater mütterlicherseits",
+        "fr": "grand-père maternel",
+        "pl": "dziadek ze strony matki",
+        "id": "kakek dari pihak ibu",
+        "hi": "मातृ पक्ष के दादा",
+        "zh": "外祖父",
+        "it": "nonno materno",
+        "tr": "anne tarafından büyükbaba",
+        "sr": "деда по мајциној страни",
+        "fi": "äidin isä",
+        "et": "ema poolne vanaisa",
+        "be": "дзед з боку маці",
+        "lv": "vectēvs no mātes puses",
+        "lt": "senelis iš motinos pusės"
+      },
+      "examples": [
+        {
+          "text": "Min morfar var en mycket vänlig man"
+        },
+        {
+          "text": "Har du träffat min morfar? Morfar och mormor bodde i ett litet hus vid sjön"
+        },
+        {
+          "text": "Jag brukade fiska med min morfar när jag var liten"
+        },
+        {
+          "text": "Min morfar var snickare och byggde sitt eget hus"
+        },
+        {
+          "text": "Vi ska besöka morfar i helgen"
+        },
+        {
+          "text": "Barnen älskar att lyssna på morfars berättelser"
+        },
+        {
+          "text": "Min morfar lärde mig att spela schack"
+        },
+        {
+          "text": "Morfars gamla radio fungerar fortfarande"
+        },
+        {
+          "text": "Jag saknar min morfar väldigt mycket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e37c3a00-c1ec-4560-9eb8-5a8def1c0a7f",
+      "version": -1,
+      "word": "en farfar",
+      "forms": [
+        {
+          "form": "farfadern"
+        },
+        {
+          "form": "farfäder"
+        },
+        {
+          "form": "farfäderna"
+        }
+      ],
+      "translations": {
+        "ru": "дедушка со стороны отца",
+        "en": "paternal grandfather",
+        "uk": "дідусь з боку батька",
+        "ar": "الجد من جهة الأب",
+        "fa": "پدربزرگ پدری",
+        "so": "awoowaha aabbaha",
+        "es": "abuelo paterno",
+        "de": "väterlicher Großvater",
+        "fr": "grand-père paternel",
+        "pl": "dziadek ze strony ojca",
+        "id": "kakek dari pihak ayah",
+        "hi": "पैतृक दादा",
+        "zh": "祖父",
+        "it": "nonno paterno",
+        "tr": "baba tarafından büyükbaba",
+        "sr": "деда по оцу",
+        "fi": "isänpuoleinen isoisä",
+        "et": "isa poolne vanaisa",
+        "be": "дзед з боку бацькі",
+        "lv": "tēva tēvs",
+        "lt": "senelis iš tėvo pusės"
+      },
+      "examples": [
+        {
+          "text": "Min farfar var en mycket klok man"
+        },
+        {
+          "text": "Har du träffat min farfar? Farfar och farmor bodde i en liten stuga på landet"
+        },
+        {
+          "text": "Jag brukade hjälpa min farfar i trädgården"
+        },
+        {
+          "text": "Min farfar var en duktig jägare och älskade naturen"
+        },
+        {
+          "text": "Vi ska besöka farfar i helgen"
+        },
+        {
+          "text": "Barnen älskar att leka i farfars trädgård"
+        },
+        {
+          "text": "Min farfar lärde mig att snickra"
+        },
+        {
+          "text": "Farfars gamla klocka hänger fortfarande på väggen"
+        },
+        {
+          "text": "Jag saknar min farfar väldigt mycket."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c98c3f83-9c68-4bb9-84cf-a455e32836ab",
+      "version": -1,
+      "word": "en svärfar",
+      "forms": [
+        {
+          "form": "svärfadern"
+        },
+        {
+          "form": "svärfäder"
+        },
+        {
+          "form": "svärfäderna"
+        }
+      ],
+      "translations": {
+        "ru": "тесть или свекр",
+        "en": "father-in-law",
+        "uk": "тесть або свекор",
+        "ar": "حمو",
+        "fa": "پدرزن یا پدرشوهر",
+        "so": "aabe sodog",
+        "es": "suegro",
+        "de": "Schwiegervater",
+        "fr": "beau-père",
+        "pl": "teść",
+        "id": "ayah mertua",
+        "hi": "ससुर",
+        "zh": "岳父或公公",
+        "it": "suocero",
+        "tr": "kayınpeder",
+        "sr": "свекар или таст",
+        "fi": "appiukko",
+        "et": "äiapapa",
+        "be": "цесць або свёкар",
+        "lv": "vīratēvs vai sievastēvs",
+        "lt": "uošvis"
+      },
+      "examples": [
+        {
+          "text": "Min svärfar är en mycket trevlig man"
+        },
+        {
+          "text": "Har du träffat min svärfar? Min svärfar och svärmor bor i en annan stad"
+        },
+        {
+          "text": "Jag fick ett gott råd från min svärfar"
+        },
+        {
+          "text": "Min svärfar tycker om att fiska"
+        },
+        {
+          "text": "Vi ska fira jul tillsammans med min svärfar"
+        },
+        {
+          "text": "Min svärfar lagar fantastisk mat"
+        },
+        {
+          "text": "Svärfadern och jag har alltid haft en bra relation"
+        },
+        {
+          "text": "Min svärfar är pensionär och har mycket fritid"
+        },
+        {
+          "text": "Svärfars gamla bil fungerar fortfarande perfekt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fda22a4c-3e57-4da3-9f2e-dc3c904d3c28",
+      "version": -1,
+      "word": "en svärmor",
+      "forms": [
+        {
+          "form": "svärmodern"
+        },
+        {
+          "form": "svärmödrar"
+        }
+      ],
+      "translations": {
+        "ru": "теща или свекровь",
+        "en": "mother-in-law",
+        "uk": "теща або свекруха",
+        "ar": "الحماة",
+        "fa": "مادرشوهر یا مادرزن",
+        "so": "hooyo sharci ah",
+        "es": "suegra",
+        "de": "Schwiegermutter",
+        "fr": "belle-mère",
+        "pl": "teściowa",
+        "id": "ibu mertua",
+        "hi": "सास",
+        "zh": "岳母或婆婆",
+        "it": "suocera",
+        "tr": "kayınvalide",
+        "sr": "свекрва или ташта",
+        "fi": "anoppi",
+        "et": "ämm või äi",
+        "be": "цешча або свякроў",
+        "lv": "vīramāte vai sievasmāte",
+        "lt": "uošvė arba anyta"
+      },
+      "examples": [
+        {
+          "text": "Min svärmor bor i en annan stad"
+        },
+        {
+          "text": "Svärmodern hjälpte oss att flytta"
+        },
+        {
+          "text": "Jag har en bra relation med min svärmor"
+        },
+        {
+          "text": "Mina svärmödrar har aldrig träffats"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f4144c3e-047e-458f-891a-fc3813a63e0d",
+      "version": -1,
+      "word": "ett bonusbarn",
+      "forms": [
+        {
+          "form": "bonusbarnet"
+        },
+        {
+          "form": "bonusbarn"
+        },
+        {
+          "form": "bonusbarnen"
+        }
+      ],
+      "translations": {
+        "ru": "приемный ребенок пасынок или падчерица.",
+        "en": "adopted child, stepson or stepdaughter",
+        "uk": "усиновлена дитина, пасинок або падчерка",
+        "ar": "طفل متبنى، ابن زوج أو ابنة زوج",
+        "fa": "فرزندخوانده، پسرخوانده یا دخترخوانده",
+        "so": "ilmo korsasho, wiil soddog ama gabadh soddog",
+        "es": "niño adoptado, hijastro o hijastra",
+        "de": "adoptiertes Kind, Stiefsohn oder Stieftochter",
+        "fr": "enfant adopté, beau-fils ou belle-fille",
+        "pl": "adoptowane dziecko, pasierb lub pasierbica",
+        "id": "anak angkat, anak tiri laki-laki atau perempuan",
+        "hi": "गोद लिया हुआ बच्चा, सौतेला बेटा या सौतेली बेटी",
+        "zh": "领养的孩子，继子或继女",
+        "it": "bambino adottato, figliastro o figliastra",
+        "tr": "evlatlık çocuk, üvey oğul veya üvey kız",
+        "sr": "усвојено дете, пасторак или пасторка",
+        "fi": "adoptoitu lapsi, poikapuoli tai tytärpuoli",
+        "et": "lapsendatud laps, kasupoeg või kasutütar",
+        "be": "прыёмнае дзіця, пасынак або падчарка",
+        "lv": "adoptēts bērns, patēvs vai pamāte",
+        "lt": "įvaikintas vaikas, posūnis arba podukra"
+      },
+      "examples": [
+        {
+          "text": "Jag har två egna barn och ett bonusbarn"
+        },
+        {
+          "text": "Min frus dotter från hennes tidigare äktenskap är mitt bonusbarn"
+        },
+        {
+          "text": "Vi är en stor bonusfamilj med fyra bonusbarn"
+        },
+        {
+          "text": "Min man har en son sedan tidigare, och han är nu mitt bonusbarn"
+        },
+        {
+          "text": "Mina bonusbarn bor hos oss varannan vecka"
+        },
+        {
+          "text": "Jag älskar mina bonusbarn som om de vore mina egna"
+        },
+        {
+          "text": "Att ha bonusbarn kan vara både utmanande och fantastiskt"
+        },
+        {
+          "text": "Min bonusson och jag delar samma intresse för fotboll"
+        },
+        {
+          "text": "Mina bonusbarn och mina egna barn kommer bra överens"
+        },
+        {
+          "text": "Vi firade jul tillsammans med hela bonusfamiljen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "39af4a0e-1d61-4b64-8e52-cbc436d4dbaa",
+      "version": -1,
+      "word": "en bonuspappa",
+      "forms": [
+        {
+          "form": "bonuspappan"
+        },
+        {
+          "form": "bonuspappor"
+        },
+        {
+          "form": "bonuspapporna"
+        }
+      ],
+      "translations": {
+        "ru": "приемный отец",
+        "en": "adoptive father",
+        "uk": "прийомний батько",
+        "ar": "أب بالتبني",
+        "fa": "پدرخوانده",
+        "so": "aabe korsan",
+        "es": "padre adoptivo",
+        "de": "Adoptivvater",
+        "fr": "père adoptif",
+        "pl": "ojciec adopcyjny",
+        "id": "ayah angkat",
+        "hi": "दत्तक पिता",
+        "zh": "养父",
+        "it": "padre adottivo",
+        "tr": "evlat edinen baba",
+        "sr": "усвојитељ",
+        "fi": "adopti-isä",
+        "et": "adoptivisa",
+        "be": "прыёмны бацька",
+        "lv": "adoptētājs tēvs",
+        "lt": "įtėvis"
+      },
+      "examples": [
+        {
+          "text": "Min bonuspappa har alltid behandlat mig som sitt eget barn"
+        },
+        {
+          "text": "Har du en bra relation med din bonuspappa? Min mamma gifte sig igen, så nu har jag en bonuspappa"
+        },
+        {
+          "text": "Bonuspappan och min pappa kommer faktiskt bra överens"
+        },
+        {
+          "text": "Jag är så tacksam för att ha en kärleksfull bonuspappa"
+        },
+        {
+          "text": "Min bonuspappa har hjälpt mig mycket genom åren"
+        },
+        {
+          "text": "Vi firade midsommar med min bonuspappa och hans familj"
+        },
+        {
+          "text": "Min bonuspappa och jag gillar att spela schack tillsammans"
+        },
+        {
+          "text": "Att vara bonuspappa är inte alltid lätt, men det kan vara väldigt givande"
+        },
+        {
+          "text": "Barnen ser sin bonuspappa som en riktig pappa."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5caf5cc9-cae9-4955-961a-fbd9ebf06782",
+      "version": -1,
+      "word": "ett halvsyskon",
+      "forms": [
+        {
+          "form": "halvsyskonet"
+        },
+        {
+          "form": "halvsyskon"
+        },
+        {
+          "form": "halvsyskonen"
+        }
+      ],
+      "translations": {
+        "ru": "сводный брат или сестра",
+        "en": "stepbrother or stepsister",
+        "uk": "зведений брат або сестра",
+        "ar": "أخ غير شقيق أو أخت غير شقيقة",
+        "fa": "برادر ناتنی یا خواهر ناتنی",
+        "so": "walaal soddog ah ama walaal soddog ah",
+        "es": "hermanastro o hermanastra",
+        "de": "Stiefbruder oder Stiefschwester",
+        "fr": "demi-frère ou demi-sœur",
+        "pl": "przyrodni brat lub siostra",
+        "id": "saudara tiri laki-laki atau perempuan",
+        "hi": "सौतेला भाई या बहन",
+        "zh": "继兄弟或继姐妹",
+        "it": "fratellastro o sorellastra",
+        "tr": "üvey erkek kardeş veya üvey kız kardeş",
+        "sr": "полубрат или полусестра",
+        "fi": "velipuoli tai sisarpuoli",
+        "et": "kasuvend või kasuõde",
+        "be": "зводны брат або сястра",
+        "lv": "pusbrālis vai pusmāsa",
+        "lt": "pabrolis arba pusseserė"
+      },
+      "examples": [
+        {
+          "text": "Jag har ett halvsyskon från min pappas sida"
+        },
+        {
+          "text": "Vi är halvsyskon, men vi har alltid sett varandra som riktiga syskon"
+        },
+        {
+          "text": "Min mamma fick ett barn med sin nya man, så nu har jag ett halvsyskon"
+        },
+        {
+          "text": "Mina halvsyskon och jag bor i olika städer"
+        },
+        {
+          "text": "Att ha ett halvsyskon kan vara både utmanande och givande"
+        },
+        {
+          "text": "Min pappa har ett annat barn från sitt tidigare äktenskap, så jag har ett halvsyskon"
+        },
+        {
+          "text": "Vi träffar vårt halvsyskon bara under loven"
+        },
+        {
+          "text": "Mina föräldrar är skilda, men jag har fortfarande bra kontakt med mitt halvsyskon"
+        },
+        {
+          "text": "Vi har samma mamma men olika pappor, så vi är halvsyskon"
+        },
+        {
+          "text": "Jag är äldst bland mina halvsyskon."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "d0a24959-c2d3-48ac-a876-f3eaf9a46f97",
+      "version": -1,
+      "word": "en svärdotter",
+      "forms": [
+        {
+          "form": "svärdottern"
+        },
+        {
+          "form": "svärdöttrar"
+        },
+        {
+          "form": "svärdöttrarna"
+        }
+      ],
+      "translations": {
+        "ru": "невестка, жена сына.",
+        "en": "daughter-in-law, son's wife",
+        "uk": "невістка, дружина сина",
+        "ar": "كنة، زوجة الابن",
+        "fa": "عروس، همسر پسر",
+        "so": "dumaashi, xaaska wiilka",
+        "es": "nuera, esposa del hijo",
+        "de": "Schwiegertochter, Frau des Sohnes",
+        "fr": "belle-fille, femme du fils",
+        "pl": "synowa, żona syna",
+        "id": "menantu perempuan, istri anak laki-laki",
+        "hi": "बहू, बेटे की पत्नी",
+        "zh": "儿媳, 儿子的妻子",
+        "it": "nuora, moglie del figlio",
+        "tr": "gelin, oğlun eşi",
+        "sr": "снаја, жена сина",
+        "fi": "miniä, pojan vaimo",
+        "et": "minia, poja naine",
+        "be": "нявестка, жонка сына",
+        "lv": "vedekla, dēla sieva",
+        "lt": "marti, sūnaus žmona"
+      },
+      "examples": [
+        {
+          "text": "Min svärdotter är en mycket trevlig person"
+        },
+        {
+          "text": "Har du träffat min svärdotter? Vi firade jul tillsammans med vår svärdotter och son"
+        },
+        {
+          "text": "Svärdottern hjälpte oss att renovera huset"
+        },
+        {
+          "text": "Min svärdotter älskar att baka"
+        },
+        {
+          "text": "Min man och min svärdotter kommer väldigt bra överens"
+        },
+        {
+          "text": "Svärdöttrarna i familjen hjälpte till med bröllopsplaneringen"
+        },
+        {
+          "text": "Vi bjöd in vår svärdotter på middag"
+        },
+        {
+          "text": "Min svärdotter och jag delar intresset för trädgårdsarbete"
+        },
+        {
+          "text": "Det är viktigt att ha en bra relation med sin svärdotter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7fb7dc9c-7d5c-437c-a0d9-416ee8350e2f",
+      "version": -1,
+      "word": "en svärson",
+      "forms": [
+        {
+          "form": "svärsonen"
+        },
+        {
+          "form": "svärsöner"
+        },
+        {
+          "form": "svärsönerna"
+        }
+      ],
+      "translations": {
+        "ru": "зять, муж дочери",
+        "en": "son-in-law, daughter's husband",
+        "uk": "зять, чоловік дочки",
+        "ar": "صهر، زوج الابنة",
+        "fa": "داماد، شوهر دختر",
+        "so": "wiilka sodogga ah, ninka gabadha",
+        "es": "yerno, esposo de la hija",
+        "de": "Schwiegersohn, Ehemann der Tochter",
+        "fr": "gendre, mari de la fille",
+        "pl": "zięć, mąż córki",
+        "id": "menantu laki-laki, suami dari anak perempuan",
+        "hi": "दामाद, बेटी का पति",
+        "zh": "女婿，女儿的丈夫",
+        "it": "genero, marito della figlia",
+        "tr": "damat, kızın kocası",
+        "sr": "зет, муж ћерке",
+        "fi": "vävy, tyttären aviomies",
+        "et": "väimees, tütre mees",
+        "be": "зять, муж дачкі",
+        "lv": "znots, meitas vīrs",
+        "lt": "žentas, dukters vyras"
+      },
+      "examples": [
+        {
+          "text": "Min svärson är en mycket trevlig man"
+        },
+        {
+          "text": "Har du träffat min svärson? Vi firade jul tillsammans med vår dotter och svärson"
+        },
+        {
+          "text": "Svärsonen hjälpte oss att bygga en ny altan"
+        },
+        {
+          "text": "Min svärson älskar att laga mat"
+        },
+        {
+          "text": "Min man och min svärson kommer väldigt bra överens"
+        },
+        {
+          "text": "Svärsönerna i familjen är alltid hjälpsamma"
+        },
+        {
+          "text": "Vi bjöd in vår svärson på middag"
+        },
+        {
+          "text": "Min svärson och jag delar intresset för fotboll"
+        },
+        {
+          "text": "Det är viktigt att ha en bra relation med sin svärson."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2129253f-618b-4c7e-88d6-85093444583a",
+      "version": -1,
+      "word": "en granne",
+      "forms": [
+        {
+          "form": "grannar"
+        }
+      ],
+      "translations": {
+        "ru": "соседи",
+        "en": "neighbors",
+        "uk": "сусіди",
+        "ar": "جيران",
+        "fa": "همسایگان",
+        "so": "deriska",
+        "es": "vecinos",
+        "de": "Nachbarn",
+        "fr": "voisins",
+        "pl": "sąsiedzi",
+        "id": "tetangga",
+        "hi": "पड़ोसी",
+        "zh": "邻居",
+        "it": "vicini",
+        "tr": "komşular",
+        "sr": "комшије",
+        "fi": "naapurit",
+        "et": "naabrid",
+        "be": "суседзі",
+        "lv": "kaimiņi",
+        "lt": "kaimynai"
+      },
+      "examples": [
+        {
+          "text": "Min granne är mycket vänlig och hjälpsam"
+        },
+        {
+          "text": "Har du pratat med din granne? Våra grannar bjöd oss på kaffe"
+        },
+        {
+          "text": "Jag hörde att grannen renoverar sin lägenhet"
+        },
+        {
+          "text": "Vi har bott här i fem år och har alltid haft bra grannar"
+        },
+        {
+          "text": "Sverige och Norge är grannländer"
+        },
+        {
+          "text": "Grannarna samlades för att fira midsommar tillsammans"
+        },
+        {
+          "text": "Vi delar trädgården med våra grannar"
+        },
+        {
+          "text": "Det är viktigt att ha god grannsämja"
+        },
+        {
+          "text": "Min granne spelar musik sent på kvällen, vilket kan vara störande."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "5204a96a-675f-4709-be43-3bff70fa1657",
+      "version": -1,
+      "word": "en vårdnadshavare",
+      "forms": [
+        {
+          "form": "vårdnadshavare"
+        }
+      ],
+      "translations": {
+        "ru": "законные представитель (родитель, опекун)",
+        "en": "legal guardian (parent, custodian)",
+        "uk": "законний представник (батько, опікун)",
+        "ar": "الوصي القانوني (الوالد، الوصي)",
+        "fa": "قیم قانونی (والدین، سرپرست)",
+        "so": "ilaaliye sharci ah (waalid, masuul)",
+        "es": "tutor legal (padre, custodio)",
+        "de": "gesetzlicher Vertreter (Elternteil, Vormund)",
+        "fr": "tuteur légal (parent, gardien)",
+        "pl": "opiekun prawny (rodzic, opiekun)",
+        "id": "wali hukum (orang tua, pengasuh)",
+        "hi": "कानूनी अभिभावक (माता-पिता, संरक्षक)",
+        "zh": "法定监护人（父母，监护人）",
+        "it": "tutore legale (genitore, custode)",
+        "tr": "yasal veli (ebeveyn, vasi)",
+        "sr": "законски старатељ (родитељ, старатељ)",
+        "fi": "laillinen edustaja (vanhempi, huoltaja)",
+        "et": "seaduslik esindaja (vanem, hooldaja)",
+        "be": "законны прадстаўнік (бацька, апякун)",
+        "lv": "likumīgais pārstāvis (vecāks, aizbildnis)",
+        "lt": "teisėtas atstovas (tėvas, globėjas)"
+      },
+      "examples": [
+        {
+          "text": "Om du sjuk måste vårdnadshavare berätta det för skolan"
+        },
+        {
+          "text": "Barnets vårdnadshavare ska informeras om skolans beslut"
+        },
+        {
+          "text": "Båda föräldrarna är vårdnadshavare för barnet"
+        },
+        {
+          "text": "Om vårdnadshavarna inte är överens, kan socialtjänsten hjälpa till"
+        },
+        {
+          "text": "Vårdnadshavaren ansvarar för barnets säkerhet och utbildning"
+        },
+        {
+          "text": "Domstolen beslutade att tilldela en ny vårdnadshavare."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "78ee2e17-4dce-4c80-994e-78be5db38c64",
+      "version": -1,
+      "word": "ett familjehem",
+      "forms": [
+        {
+          "form": "familjehemmet"
+        },
+        {
+          "form": "familjehem"
+        },
+        {
+          "form": "familjehemmen"
+        }
+      ],
+      "translations": {
+        "ru": "приёмная семья, берущая ребёнка под опеку по договору с социальной службой.",
+        "en": "foster family, taking a child under guardianship by agreement with social services",
+        "uk": "прийомна сім'я, яка бере дитину під опіку за договором із соціальною службою",
+        "ar": "عائلة حاضنة تأخذ طفلًا تحت الوصاية باتفاق مع الخدمات الاجتماعية",
+        "fa": "خانواده سرپرست، که کودکی را تحت سرپرستی با توافق خدمات اجتماعی می‌گیرد",
+        "so": "qoyska korsada, oo qaata ilmo hoos yimaada daryeelka heshiis la leh adeegyada bulshada",
+        "es": "familia de acogida, que toma a un niño bajo tutela por acuerdo con los servicios sociales",
+        "de": "Pflegefamilie, die ein Kind unter Vormundschaft durch Vereinbarung mit den Sozialdiensten nimmt",
+        "fr": "famille d'accueil, prenant un enfant sous tutelle par accord avec les services sociaux",
+        "pl": "rodzina zastępcza, biorąca dziecko pod opiekę na mocy umowy z usługami społecznymi",
+        "id": "keluarga asuh, mengambil anak di bawah perwalian dengan kesepakatan dengan layanan sosial",
+        "hi": "पालक परिवार, जो सामाजिक सेवाओं के साथ समझौते के तहत एक बच्चे को अभिरक्षा में लेता है",
+        "zh": "寄养家庭，通过与社会服务的协议接管孩子的监护权",
+        "it": "famiglia affidataria, che prende un bambino sotto tutela per accordo con i servizi sociali",
+        "tr": "sosyal hizmetlerle anlaşma yoluyla bir çocuğu vesayet altına alan koruyucu aile",
+        "sr": "хранитељска породица, која узима дете под старатељство по договору са социјалним службама",
+        "fi": "sijaisperhe, joka ottaa lapsen huostaan sosiaalipalveluiden kanssa tehdyn sopimuksen perusteella",
+        "et": "kasupere, kes võtab lapse hooldusse sotsiaalteenustega sõlmitud lepingu alusel",
+        "be": "прыёмная сям'я, якая бярэ дзіця пад апеку па дамове з сацыяльнай службай",
+        "lv": "aizbildņu ģimene, kas uzņemas bērnu aizbildnībā pēc vienošanās ar sociālajiem dienestiem",
+        "lt": "globėjų šeima, priimanti vaiką globai pagal susitarimą su socialinėmis tarnybomis"
+      },
+      "examples": [
+        {
+          "text": "Många barn i Sverige bor i familjehem"
+        },
+        {
+          "text": "De blev ett familjehem för en 10-årig pojke"
+        },
+        {
+          "text": "Socialtjänsten letar efter fler familjehem"
+        },
+        {
+          "text": "Ett familjehem ger barnet trygghet och stabilitet"
+        },
+        {
+          "text": "Vi har varit ett familjehem i fem år"
+        },
+        {
+          "text": "Barnet placerades i ett familjehem eftersom föräldrarna inte kunde ta hand om det"
+        },
+        {
+          "text": "Det finns en brist på familjehem i Sverige"
+        },
+        {
+          "text": "Alla familjehem måste genomgå en utredning innan de godkänns"
+        },
+        {
+          "text": "Hon bodde i flera familjehem under sin barndom"
+        },
+        {
+          "text": "Kommunen hjälper familjehem ekonomiskt."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

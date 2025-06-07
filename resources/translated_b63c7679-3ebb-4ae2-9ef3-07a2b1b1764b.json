@@ -1,0 +1,1835 @@
+{
+  "id": "b63c7679-3ebb-4ae2-9ef3-07a2b1b1764b",
+  "translations": {
+    "ru": "Вспомогательные слова",
+    "en": "Helper words",
+    "uk": "Допоміжні слова",
+    "ar": "كلمات مساعدة",
+    "fa": "کلمات کمکی",
+    "so": "Ereyada caawinta",
+    "es": "Palabras auxiliares",
+    "de": "Hilfswörter",
+    "fr": "Mots d'aide",
+    "pl": "Słowa pomocnicze",
+    "id": "Kata bantu",
+    "hi": "सहायक शब्द",
+    "zh": "辅助词",
+    "it": "Parole di aiuto",
+    "tr": "Yardımcı kelimeler",
+    "sr": "Помоћне речи",
+    "fi": "Apusanoja",
+    "et": "Abisõnad",
+    "be": "Дапаможныя словы",
+    "lv": "Palīgvārdi",
+    "lt": "Pagalbiniai žodžiai"
+  },
+  "entries": [
+    {
+      "id": "3beb7865-a12a-49b6-9152-dc9673acae1a",
+      "version": -1,
+      "word": "måste  var tvungen att",
+      "translations": {
+        "ru": "должен , обязан",
+        "en": "must, obliged to",
+        "uk": "повинен, зобов'язаний",
+        "ar": "يجب، ملزم",
+        "fa": "باید، موظف به",
+        "so": "waa inuu, ku qasban yahay",
+        "es": "debe, obligado a",
+        "de": "muss, verpflichtet zu",
+        "fr": "doit, obligé de",
+        "pl": "musi, zobowiązany do",
+        "id": "harus, wajib",
+        "hi": "चाहिए, बाध्य",
+        "zh": "必须, 有义务",
+        "it": "deve, obbligato a",
+        "tr": "zorunda, mecbur",
+        "sr": "мора, обавезан",
+        "fi": "täytyy, velvollinen",
+        "et": "peab, kohustatud",
+        "be": "павінен, абавязаны",
+        "lv": "jā, pienākums",
+        "lt": "turi, privalo"
+      },
+      "examples": [
+        {
+          "text": "Jag måste gå hem nu"
+        },
+        {
+          "text": "Du måste vila lite"
+        },
+        {
+          "text": "Vi måste prata om det här"
+        },
+        {
+          "text": "Barnen måste borsta tänderna"
+        },
+        {
+          "text": "Han måste jobba i helgen"
+        },
+        {
+          "text": "Man måste vara försiktig"
+        },
+        {
+          "text": "Det måste vara kallt ute"
+        },
+        {
+          "text": "Jag måste hinna med bussen"
+        },
+        {
+          "text": "Vi måste städa innan gästerna kommer"
+        },
+        {
+          "text": "Du måste inte göra det ensam"
+        },
+        {
+          "text": "Jag var tvungen att gå tidigare"
+        },
+        {
+          "text": "Hon var tvungen att lämna jobbet"
+        },
+        {
+          "text": "Vi var tvungna att sälja bilen"
+        },
+        {
+          "text": "De var tvungna att ändra planerna"
+        },
+        {
+          "text": "Du var tvungen att ringa, eller hur? Barnet var tvunget att stanna hemma"
+        },
+        {
+          "text": "Jag var tvungen att erkänna mitt misstag"
+        },
+        {
+          "text": "Han var tvungen att jobba hela natten"
+        },
+        {
+          "text": "Vi var tvungna att börja om från början"
+        },
+        {
+          "text": "Jag var tvungen att ta ett svårt beslut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f6ee656a-8233-427f-8d14-5d65e4fb856f",
+      "version": 1,
+      "word": "få",
+      "forms": [
+        {
+          "form": "får"
+        },
+        {
+          "form": "fick"
+        },
+        {
+          "form": "fått"
+        }
+      ],
+      "translations": {
+        "ru": "можно, позволительно",
+        "en": "may, allowed",
+        "uk": "можна, дозволено",
+        "ar": "يجوز، مسموح",
+        "fa": "ممکن است، مجاز",
+        "so": "waa la oggol yahay, waa la oggol yahay",
+        "es": "puede, permitido",
+        "de": "darf, erlaubt",
+        "fr": "peut, autorisé",
+        "pl": "można, dozwolone",
+        "id": "boleh, diizinkan",
+        "hi": "हो सकता है, अनुमति है",
+        "zh": "可以, 允许",
+        "it": "può, permesso",
+        "tr": "olabilir, izinli",
+        "sr": "може, дозвољено",
+        "fi": "saa, sallittu",
+        "et": "võib, lubatud",
+        "be": "можна, дазволена",
+        "lv": "var, atļauts",
+        "lt": "gali, leidžiama"
+      },
+      "examples": [
+        {
+          "text": "Elsa  fick inte äta godis i lördags"
+        },
+        {
+          "text": "Du får inte röka här"
+        },
+        {
+          "text": "Får jag gå nu?"
+        },
+        {
+          "text": "Får jag sitta här?"
+        },
+        {
+          "text": "Får vi parkera här?"
+        },
+        {
+          "text": "Barnen får inte leka på vägen"
+        },
+        {
+          "text": "Får man använda mobilen under lektionen?"
+        },
+        {
+          "text": "Du får gå hem nu"
+        },
+        {
+          "text": "Får jag lov att dansa med dig"
+        },
+        {
+          "text": "Får man ta med hunden in?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "03d0f5c3-08cd-4ed2-b71c-3b7472341e1b",
+      "version": -1,
+      "word": "få",
+      "forms": [
+        {
+          "form": "får"
+        },
+        {
+          "form": "fick"
+        },
+        {
+          "form": "fått"
+        }
+      ],
+      "translations": {
+        "ru": "нужно вынужден (от внешних обстоятельств)",
+        "en": "need to, forced (due to external circumstances)",
+        "uk": "потрібно, змушений (через зовнішні обставини)",
+        "ar": "يحتاج إلى، مجبر (بسبب الظروف الخارجية)",
+        "fa": "نیاز به، مجبور (به دلیل شرایط خارجی)",
+        "so": "u baahan, qasbaya (sabab la xiriirta duruufaha dibadda)",
+        "es": "necesitar, forzado (debido a circunstancias externas)",
+        "de": "müssen, gezwungen (aufgrund äußerer Umstände)",
+        "fr": "besoin de, forcé (en raison de circonstances extérieures)",
+        "pl": "potrzeba, zmuszony (z powodu zewnętrznych okoliczności)",
+        "id": "perlu, terpaksa (karena keadaan eksternal)",
+        "hi": "ज़रूरत है, मजबूर (बाहरी परिस्थितियों के कारण)",
+        "zh": "需要，被迫（由于外部情况）",
+        "it": "bisogno di, costretto (a causa di circostanze esterne)",
+        "tr": "ihtiyaç duymak, zorunda kalmak (dış etkenler nedeniyle)",
+        "sr": "потребно, приморан (због спољашњих околности)",
+        "fi": "tarve, pakotettu (ulkoisten olosuhteiden vuoksi)",
+        "et": "vajadus, sunnitud (väliste asjaolude tõttu)",
+        "be": "патрэбна, вымушаны (з-за знешніх абставін)",
+        "lv": "vajadzība, spiests (ārēju apstākļu dēļ)",
+        "lt": "reikia, priverstas (dėl išorinių aplinkybių)"
+      },
+      "examples": [
+        {
+          "text": "Jag får vänta här tills tåget kommer"
+        },
+        {
+          "text": "Jag får jobba sent ikväll eftersom det är mycket att göra"
+        },
+        {
+          "text": "Om det regnar får vi stanna hemma."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8f3d62cd-1145-426b-86f0-e726a8dfafe3",
+      "version": 1,
+      "word": "behöva",
+      "forms": [
+        {
+          "form": "behöver"
+        },
+        {
+          "form": "behövde"
+        },
+        {
+          "form": "behövt"
+        }
+      ],
+      "translations": {
+        "ru": "необходимо, нуждаюсь (не от внешний вынуждающий фактор), требуется",
+        "en": "necessary, required (not external pressure)",
+        "uk": "необхідно, потрібно (не зовнішній примус)",
+        "ar": "ضروري، مطلوب (ليس ضغط خارجي)",
+        "fa": "ضروری، مورد نیاز (نه فشار خارجی)",
+        "so": "lagama maarmaan, loo baahan yahay (ma aha cadaadis dibadda ah)",
+        "es": "necesario, requerido (no presión externa)",
+        "de": "notwendig, erforderlich (kein äußerer Druck)",
+        "fr": "nécessaire, requis (pas de pression externe)",
+        "pl": "konieczne, wymagane (nie zewnętrzna presja)",
+        "id": "diperlukan, diperlukan (bukan tekanan eksternal)",
+        "hi": "आवश्यक, आवश्यक (बाहरी दबाव नहीं)",
+        "zh": "必要的，所需的（不是外部压力）",
+        "it": "necessario, richiesto (non pressione esterna)",
+        "tr": "gerekli, ihtiyaç duyulan (dış baskı değil)",
+        "sr": "неопходно, потребно (не спољашњи притисак)",
+        "fi": "tarpeellinen, vaadittu (ei ulkoista painetta)",
+        "et": "vajalik, nõutav (mitte väline surve)",
+        "be": "неабходна, патрабуецца (не знешні ціск)",
+        "lv": "nepieciešams, vajadzīgs (ne ārējs spiediens)",
+        "lt": "būtina, reikalinga (ne išorinis spaudimas)"
+      },
+      "examples": [
+        {
+          "text": "Marco behövde inte jobba i lördags"
+        },
+        {
+          "text": "Jag behöver sova mer"
+        },
+        {
+          "text": "Hon behöver inte säga något"
+        },
+        {
+          "text": "Vi behöver pengar för att resa"
+        },
+        {
+          "text": "Behöver du hjälp med läxan?"
+        },
+        {
+          "text": "Han behöver vila efter operationen"
+        },
+        {
+          "text": "Du behöver inte stressa"
+        },
+        {
+          "text": "Jag behöver bara fem minuter till"
+        },
+        {
+          "text": "De behöver mer tid för projektet"
+        },
+        {
+          "text": "Behöver vi verkligen det här?"
+        },
+        {
+          "text": "Jag behöver tänka lite."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f9e7fd1a-a75d-47aa-ba20-3e71aa1408de",
+      "version": 1,
+      "word": "böra",
+      "forms": [
+        {
+          "form": "bör"
+        },
+        {
+          "form": "borde"
+        }
+      ],
+      "translations": {
+        "ru": "следует (рекомендация совет), желательно, было бы хорошо",
+        "en": "should (recommendation), advisable, it would be good",
+        "uk": "слід (рекомендація), бажано, було б добре",
+        "ar": "يجب (توصية)، من المستحسن، سيكون من الجيد",
+        "fa": "باید (توصیه)، توصیه‌شده، خوب است",
+        "so": "waa in (talo), lagula talinayaa, waxay noqon lahayd mid wanaagsan",
+        "es": "debería (recomendación), aconsejable, sería bueno",
+        "de": "sollte (Empfehlung), ratsam, es wäre gut",
+        "fr": "devrait (recommandation), conseillé, ce serait bien",
+        "pl": "powinno się (rekomendacja), wskazane, byłoby dobrze",
+        "id": "sebaiknya (rekomendasi), disarankan, akan baik",
+        "hi": "चाहिए (सिफारिश), सलाहनीय, यह अच्छा होगा",
+        "zh": "应该（建议），可取，最好",
+        "it": "dovrebbe (raccomandazione), consigliabile, sarebbe bene",
+        "tr": "olmalı (tavsiye), tavsiye edilir, iyi olurdu",
+        "sr": "требало би (препорука), пожељно, било би добро",
+        "fi": "pitäisi (suositus), suositeltavaa, olisi hyvä",
+        "et": "peaks (soovitus), soovitatav, oleks hea",
+        "be": "слід (рэкамендацыя), пажадана, было б добра",
+        "lv": "vajadzētu (ieteikums), ieteicams, būtu labi",
+        "lt": "reikėtų (rekomendacija), patartina, būtų gerai"
+      },
+      "examples": [
+        {
+          "text": "Jag borde ha pratat med mamma"
+        },
+        {
+          "text": "Du bör dricka mer vatten"
+        },
+        {
+          "text": "Man bör visa respekt för andra"
+        },
+        {
+          "text": "Vi bör fatta ett beslut snart"
+        },
+        {
+          "text": "Han bör veta sanningen"
+        },
+        {
+          "text": "Bör jag oroa mig?"
+        },
+        {
+          "text": "Det bör inte vara något problem"
+        },
+        {
+          "text": "Hon bör få en chans"
+        },
+        {
+          "text": "Barn bör få leka utomhus"
+        },
+        {
+          "text": "Vi bör börja i tid"
+        },
+        {
+          "text": "Det bör nämnas att detta är frivilligt"
+        },
+        {
+          "text": "– Jag sover bara fyra timmar per natt"
+        },
+        {
+          "text": "– Det är inte bra"
+        },
+        {
+          "text": "Du bör sova minst sju."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e2c91122-9d18-4d81-84f2-e6b295e40326",
+      "version": 1,
+      "word": "vilja",
+      "forms": [
+        {
+          "form": "vill"
+        },
+        {
+          "form": "ville"
+        },
+        {
+          "form": "velat"
+        }
+      ],
+      "translations": {
+        "ru": "хочу (модальный) хотеть  желать иметь намерение",
+        "en": "want (modal), desire, intend",
+        "uk": "хочу (модальний), бажати, мати намір",
+        "ar": "أريد (صيغة فعلية)، أرغب، أنوي",
+        "fa": "می‌خواهم (فعلی)، آرزو کردن، قصد داشتن",
+        "so": "rabo (qaab dhismeed), doonid, ujeeddo",
+        "es": "quiero (modal), desear, tener la intención",
+        "de": "möchte (modal), wünschen, beabsichtigen",
+        "fr": "veux (modal), désirer, avoir l'intention",
+        "pl": "chcę (modalny), pragnąć, zamierzać",
+        "id": "ingin (modal), menginginkan, berniat",
+        "hi": "चाहता हूँ (मोडल), इच्छा करना, इरादा करना",
+        "zh": "想要（情态），渴望，打算",
+        "it": "voglio (modale), desiderare, intendere",
+        "tr": "istemek (modal), arzulamak, niyet etmek",
+        "sr": "желим (модални), желети, имати намеру",
+        "fi": "haluan (modaali), haluta, aikoa",
+        "et": "tahan (modaalne), soovida, kavatsema",
+        "be": "хачу (мадальны), жадаць, мець намер",
+        "lv": "vēlos (modāls), vēlēties, iecerēt",
+        "lt": "noriu (modalinis), trokšti, ketinti"
+      },
+      "examples": [
+        {
+          "text": "Jag ville börja studera"
+        },
+        {
+          "text": "Jag vill sova längre i morgon"
+        },
+        {
+          "text": "Vill du följa med till stan?"
+        },
+        {
+          "text": "Vi vill köpa ett hus på landet"
+        },
+        {
+          "text": "Hon vill inte prata om det"
+        },
+        {
+          "text": "De ville resa till Spanien i somras"
+        },
+        {
+          "text": "Jag har velat träffa dig länge"
+        },
+        {
+          "text": "Vad vill du bli när du blir stor?"
+        },
+        {
+          "text": "Barnen vill leka i parken"
+        },
+        {
+          "text": "Han vill ha en kopp te"
+        },
+        {
+          "text": "Jag vill bara säga tack."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "cbcae60a-78dd-4842-9069-f418e2fa7892",
+      "version": -1,
+      "word": "får lov att",
+      "translations": {
+        "ru": "иметь право, разрешается, можно",
+        "en": "have the right, permitted, may",
+        "uk": "мати право, дозволено, можна",
+        "ar": "لديه الحق، مسموح، قد",
+        "fa": "حق داشتن، مجاز، ممکن است",
+        "so": "leh xaq, la ogolaaday, laga yaabaa",
+        "es": "tener derecho, permitido, puede",
+        "de": "das Recht haben, erlaubt, darf",
+        "fr": "avoir le droit, permis, peut",
+        "pl": "mieć prawo, dozwolone, może",
+        "id": "memiliki hak, diizinkan, boleh",
+        "hi": "अधिकार है, अनुमति है, सकता है",
+        "zh": "有权, 允许, 可以",
+        "it": "avere il diritto, permesso, può",
+        "tr": "hakkı var, izinli, olabilir",
+        "sr": "имати право, дозвољено, може",
+        "fi": "olla oikeus, sallittu, voi",
+        "et": "omama õigust, lubatud, võib",
+        "be": "мець права, дазволена, можна",
+        "lv": "ir tiesības, atļauts, var",
+        "lt": "turėti teisę, leidžiama, gali"
+      },
+      "examples": [
+        {
+          "text": "Om en av personerna som gifter sig är medlem i Svenska kyrkan, får man lov att gifta sig i kyrkan"
+        },
+        {
+          "text": "Får jag lov att komma in? Får vi lov att ta med våra barn? Får man lov att röka här? Du får lov att använda datorn en timme"
+        },
+        {
+          "text": "Ingen får lov att prata under provet"
+        },
+        {
+          "text": "Jag fick inte lov att gå ut igår"
+        },
+        {
+          "text": "Får jag lov att fråga något personligt? Får jag lov att presentera mig? Får hon lov att vara med i projektet? Vi får lov att använda rummet till klockan nio"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "631617de-9c97-4045-bcab-5a63ba0d8c6a",
+      "version": 1,
+      "word": "kunna",
+      "forms": [
+        {
+          "form": "kan"
+        },
+        {
+          "form": "kunde"
+        },
+        {
+          "form": "kunnat"
+        }
+      ],
+      "translations": {
+        "ru": "мочь, уметь, быть способным,  разрешено (в значении «можно»)",
+        "en": "can, be able, allowed (meaning 'may')",
+        "uk": "могти, вміти, бути здатним, дозволено",
+        "ar": "يمكن، قادر، مسموح",
+        "fa": "توانستن، قادر بودن، مجاز",
+        "so": "awoodi kara, awood u leh, la oggol yahay",
+        "es": "poder, ser capaz, permitido",
+        "de": "können, fähig sein, erlaubt",
+        "fr": "pouvoir, être capable, autorisé",
+        "pl": "móc, być w stanie, dozwolone",
+        "id": "bisa, mampu, diizinkan",
+        "hi": "सकना, सक्षम होना, अनुमति",
+        "zh": "能, 能够, 允许",
+        "it": "potere, essere in grado, permesso",
+        "tr": "yapabilmek, yetenekli olmak, izinli",
+        "sr": "могу, бити способан, дозвољено",
+        "fi": "voida, kyetä, sallittu",
+        "et": "võima, suutma, lubatud",
+        "be": "могчы, умець, быць здольным, дазволена",
+        "lv": "varēt, spēt, atļauts",
+        "lt": "galėti, mokėti, leista"
+      },
+      "examples": [
+        {
+          "text": "Kan du göra köttbullar? Vet du hur man gör köttbullar? Jag kan prata lite svenska"
+        },
+        {
+          "text": "Kan du öppna fönstret?"
+        },
+        {
+          "text": "Hon kan spela piano"
+        },
+        {
+          "text": "Vi kunde inte hitta nycklarna"
+        },
+        {
+          "text": "Jag har kunnat springa längre nu"
+        },
+        {
+          "text": "Kan man parkera här?"
+        },
+        {
+          "text": "Barnet kan räkna till tio"
+        },
+        {
+          "text": "De kunde inte komma i tid"
+        },
+        {
+          "text": "Du kan alltid fråga mig"
+        },
+        {
+          "text": "Jag vill kunna simma."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fe29019e-9103-4cf1-849d-30db9067fca7",
+      "version": 1,
+      "word": "kommer",
+      "translations": {
+        "ru": "буду делать что-то, произойдёт в будущем, случится (факт)",
+        "en": "will do something, will happen (fact)",
+        "uk": "буду робити щось, станеться в майбутньому, станеться (факт)",
+        "ar": "سأفعل شيئًا، سيحدث في المستقبل، سيحدث (حقيقة)",
+        "fa": "کاری انجام خواهم داد، در آینده اتفاق خواهد افتاد، رخ خواهد داد (واقعیت)",
+        "so": "waxaan sameyn doonaa wax, waxay dhici doontaa mustaqbalka, way dhici doontaa (xaqiiqo)",
+        "es": "haré algo, sucederá en el futuro, sucederá (hecho)",
+        "de": "werde etwas tun, wird in der Zukunft passieren, wird passieren (Tatsache)",
+        "fr": "ferai quelque chose, se produira à l'avenir, se produira (fait)",
+        "pl": "zrobię coś, stanie się w przyszłości, stanie się (fakt)",
+        "id": "akan melakukan sesuatu, akan terjadi di masa depan, akan terjadi (fakta)",
+        "hi": "कुछ करूंगा, भविष्य में होगा, होगा (तथ्य)",
+        "zh": "会做某事，将来会发生，会发生（事实）",
+        "it": "farò qualcosa, accadrà in futuro, accadrà (fatto)",
+        "tr": "bir şey yapacağım, gelecekte olacak, olacak (gerçek)",
+        "sr": "урадићу нешто, десиће се у будућности, десиће се (чињеница)",
+        "fi": "teen jotain, tapahtuu tulevaisuudessa, tapahtuu (fakta)",
+        "et": "teen midagi, juhtub tulevikus, juhtub (fakt)",
+        "be": "буду рабіць нешта, адбудзецца ў будучыні, адбудзецца (факт)",
+        "lv": "darīšu kaut ko, notiks nākotnē, notiks (fakts)",
+        "lt": "darysiu kažką, įvyks ateityje, įvyks (faktas)"
+      },
+      "examples": [
+        {
+          "text": "Jag kommer att börja jobba i juni"
+        },
+        {
+          "text": "Det kommer att bli kallt i morgon"
+        },
+        {
+          "text": "Vi kommer att sakna dig!"
+        },
+        {
+          "text": "Hon kommer att klara testet"
+        },
+        {
+          "text": "Kommer du att komma i tid?"
+        },
+        {
+          "text": "De kommer att älska presenten"
+        },
+        {
+          "text": "Jag kommer att vara hemma hela dagen"
+        },
+        {
+          "text": "Vi kommer att åka till Spanien i sommar"
+        },
+        {
+          "text": "Bilen kommer att kosta mycket pengar"
+        },
+        {
+          "text": "Kommer det att regna i kväll?"
+        },
+        {
+          "text": "Du kommer att klara det!"
+        },
+        {
+          "text": "Hon kommer att bli glad"
+        },
+        {
+          "text": "Vi kommer att träffas igen"
+        },
+        {
+          "text": "Jag kommer inte att glömma dig"
+        },
+        {
+          "text": "Det kommer att ta tid."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "519813e8-89a9-443e-b7ac-04f684ec3e62",
+      "version": 1,
+      "word": "ska",
+      "forms": [
+        {
+          "form": "skulle"
+        }
+      ],
+      "translations": {
+        "ru": "буду планирую собираюсь (skulle для прошедшего или для сослагательного в будущем)",
+        "en": "will, plan to, going to (skulle for past or subjunctive future)",
+        "uk": "буду, планую, збираюся (skulle для минулого або умовного в майбутньому)",
+        "ar": "سوف، أخطط ل، سأذهب إلى (skulle للماضي أو الشرطية في المستقبل)",
+        "fa": "خواهم، برنامه‌ریزی می‌کنم، قصد دارم (skulle برای گذشته یا شرطی در آینده)",
+        "so": "waxa aan, qorsheynayaa, doonayaa (skulle ee la soo dhaafay ama mustaqbalka shardi)",
+        "es": "voy a, planeo, voy a (skulle para pasado o subjuntivo futuro)",
+        "de": "werde, plane zu, werde gehen (skulle für Vergangenheit oder Konjunktiv Zukunft)",
+        "fr": "vais, prévois, vais (skulle pour le passé ou le subjonctif futur)",
+        "pl": "będę, planuję, zamierzam (skulle dla przeszłości lub trybu przypuszczającego w przyszłości)",
+        "id": "akan, berencana, akan pergi (skulle untuk masa lalu atau subjunktif masa depan)",
+        "hi": "करूँगा, योजना बनाना, जाने वाला हूँ (skulle अतीत या भविष्य के संभावित के लिए)",
+        "zh": "将, 计划, 打算 (skulle 用于过去或虚拟未来)",
+        "it": "sarò, pianifico, andrò (skulle per passato o congiuntivo futuro)",
+        "tr": "olacak, planlamak, gidecek (skulle geçmiş veya gelecek için şart kipi)",
+        "sr": "ћу, планирам, намеравам (skulle за прошлост или за потенцијалну будућност)",
+        "fi": "aion, suunnittelen, aion mennä (skulle menneelle tai konditionaalille tulevaisuudessa)",
+        "et": "hakkan, plaanin, kavatsen (skulle mineviku või tingiva tuleviku jaoks)",
+        "be": "буду, планую, збіраюся (skulle для мінулага або ўмоўнага ў будучыні)",
+        "lv": "būšu, plānoju, došos (skulle pagātnei vai konjunktīvam nākotnē)",
+        "lt": "būsiu, planuoju, ruošiuosi (skulle praeičiai arba tariamajai būčiai ateityje)"
+      },
+      "examples": [
+        {
+          "text": "Magnus skulle träffa en kompis efter jobbet i fredags  Jag ska resa till Stockholm imorgon"
+        },
+        {
+          "text": "Vi ska träffas på fredag"
+        },
+        {
+          "text": "Jag ska gå till jobbet klockan åtta"
+        },
+        {
+          "text": "Vad ska ni göra i sommar?"
+        },
+        {
+          "text": "Vi ska flytta nästa månad"
+        },
+        {
+          "text": "Han ska träffa läkaren imorgon"
+        },
+        {
+          "text": "Du ska inte glömma nycklarna!"
+        },
+        {
+          "text": "Ska vi ses ikväll?"
+        },
+        {
+          "text": "De ska åka till Norge i helgen"
+        },
+        {
+          "text": "Jag ska börja träna snart"
+        },
+        {
+          "text": "Vi ska inte prata om det nu"
+        },
+        {
+          "text": "Ska jag ta med något?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "ae3bc7de-5910-496e-baf6-d37ac7522883",
+      "version": -1,
+      "word": "ska",
+      "forms": [
+        {
+          "form": "skulle"
+        }
+      ],
+      "translations": {
+        "ru": "второе значение ska это правило или обязанность",
+        "en": "second meaning of ska is rule or obligation",
+        "uk": "друге значення ska - це правило або обов'язок",
+        "ar": "المعنى الثاني لـ ska هو قاعدة أو التزام",
+        "fa": "معنی دوم ska قاعده یا تعهد است",
+        "so": "macnaha labaad ee ska waa xeer ama waajib",
+        "es": "el segundo significado de ska es regla u obligación",
+        "de": "die zweite Bedeutung von ska ist Regel oder Verpflichtung",
+        "fr": "le deuxième sens de ska est règle ou obligation",
+        "pl": "drugie znaczenie ska to zasada lub obowiązek",
+        "id": "arti kedua dari ska adalah aturan atau kewajiban",
+        "hi": "ska का दूसरा अर्थ नियम या दायित्व है",
+        "zh": "ska 的第二个意思是规则或义务",
+        "it": "il secondo significato di ska è regola o obbligo",
+        "tr": "ska'nın ikinci anlamı kural veya yükümlülüktür",
+        "sr": "drugo značenje ska je pravilo ili obaveza",
+        "fi": "ska:n toinen merkitys on sääntö tai velvollisuus",
+        "et": "ska teine tähendus on reegel või kohustus",
+        "be": "другое значэнне ska - гэта правіла або абавязак",
+        "lv": "otra ska nozīme ir noteikums vai pienākums",
+        "lt": "antra ska reikšmė yra taisyklė arba pareiga"
+      },
+      "examples": [
+        {
+          "text": "Alla ska gå i skolan"
+        },
+        {
+          "text": "Du ska göra dina läxor"
+        },
+        {
+          "text": "Du ska hjälpa dina vänner"
+        },
+        {
+          "text": "Alla elever ska lämna in uppgiften på måndag"
+        },
+        {
+          "text": "Du ska ha hjälm när du cyklar"
+        },
+        {
+          "text": "Bilen ska besiktigas vartannat år"
+        },
+        {
+          "text": "Patienten ska ta medicinen tre gånger om dagen"
+        },
+        {
+          "text": "Du ska vara här klockan åtta."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fa6251a2-acdd-4a18-9abe-82fe7c71a424",
+      "version": -1,
+      "word": "Skulle du kunna ... ?",
+      "translations": {
+        "ru": "Не мог бы ты ...? / Могли бы Вы ...?",
+        "en": "Could you...? / Would you...?",
+        "uk": "Чи не міг би ти ...? / Чи не могли б Ви ...?",
+        "ar": "هل يمكنك ...؟ / هل يمكنك ...؟",
+        "fa": "آیا می‌توانی ...؟ / آیا می‌توانید ...؟",
+        "so": "Ma awoodi kartaa ...? / Ma awoodi kartaa ...?",
+        "es": "¿Podrías ...? / ¿Podría usted ...?",
+        "de": "Könntest du ...? / Könnten Sie ...?",
+        "fr": "Pourrais-tu ...? / Pourriez-vous ...?",
+        "pl": "Czy mógłbyś ...? / Czy mógłby Pan ...?",
+        "id": "Bisakah kamu ...? / Bisakah Anda ...?",
+        "hi": "क्या तुम ... सकते हो? / क्या आप ... सकते हैं?",
+        "zh": "你能...吗？/ 您能...吗？",
+        "it": "Potresti ...? / Potrebbe ...?",
+        "tr": "Yapabilir misin ...? / Yapabilir misiniz ...?",
+        "sr": "Могао би ...? / Могли бисте ...?",
+        "fi": "Voisitko ...? / Voisitteko ...?",
+        "et": "Kas sa saaksid ...? / Kas te saaksite ...?",
+        "be": "Ці не мог бы ты ...? / Ці не маглі б Вы ...?",
+        "lv": "Vai tu varētu ...? / Vai jūs varētu ...?",
+        "lt": "Ar galėtum ...? / Ar galėtumėte ...?"
+      },
+      "examples": [
+        {
+          "text": "Skulle du kunna hjälpa mig med den här lådan? Skulle du kunna skicka mig filen? Skulle du kunna förklara det en gång till? Skulle du kunna ge mig ett glas vatten? Skulle du kunna tala lite långsammare? Skulle du kunna hjälpa mig att bära den här väskan? Skulle du kunna säga var närmaste apotek finns? Skulle du kunna kolla om butiken är öppen? Skulle du kunna vänta en stund? Skulle du kunna ge mig notan, tack?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f514c997-2dec-43fa-a38d-01f6a3abe0d1",
+      "version": -1,
+      "word": ".... vara snäll och ... ?",
+      "translations": {
+        "ru": "Не мог бы ты ...? / Будь добр и ...?",
+        "en": "Could you...? / Please...",
+        "uk": "Чи не міг би ти...? / Будь ласка...",
+        "ar": "هل يمكنك ...؟ / من فضلك...",
+        "fa": "آیا می‌توانی ...؟ / لطفاً...",
+        "so": "Ma awoodaa...? / Fadlan...",
+        "es": "¿Podrías...? / Por favor...",
+        "de": "Könntest du...? / Bitte...",
+        "fr": "Pourrais-tu...? / S'il te plaît...",
+        "pl": "Czy mógłbyś...? / Proszę...",
+        "id": "Bisakah kamu...? / Tolong...",
+        "hi": "क्या आप...? / कृपया...",
+        "zh": "你能...? / 请...",
+        "it": "Potresti...? / Per favore...",
+        "tr": "Yapabilir misin...? / Lütfen...",
+        "sr": "Можеш ли...? / Молим те...",
+        "fi": "Voisitko...? / Ole hyvä...",
+        "et": "Kas sa saaksid...? / Palun...",
+        "be": "Ці не мог бы ты...? / Калі ласка...",
+        "lv": "Vai tu varētu...? / Lūdzu...",
+        "lt": "Ar galėtum...? / Prašau..."
+      },
+      "examples": [
+        {
+          "text": "Skulle du kunna vara snäll och stänga fönstret? Kan du vara snäll och hjälpa mig med väskan? Kan du vara snäll och tala lite långsammare? Skulle du kunna vara snäll och skicka mig saltet? Kan du vara snäll och hålla dörren öppen? Kan du vara snäll och visa mig vägen? Skulle du kunna vara snäll och förklara det en gång till? Var snäll och vänta här en stund"
+        },
+        {
+          "text": "Var snälla och sätt er, så börjar vi snart"
+        },
+        {
+          "text": "Kan du vara snäll och låsa dörren när du går ut?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3fd0338f-f1ca-4a2e-93d2-aadbc0797b8a",
+      "version": -1,
+      "word": ".... vara vänlig och ... ?",
+      "translations": {
+        "ru": "Будьте добры и ... / Будь любезен и ... (более формально)",
+        "en": "Be so kind as to... (more formal)",
+        "uk": "Будьте такі ласкаві і...",
+        "ar": "كن لطيفًا و...",
+        "fa": "لطفاً و...",
+        "so": "Noqo mid naxariis leh oo...",
+        "es": "Sea tan amable de...",
+        "de": "Seien Sie so freundlich und...",
+        "fr": "Soyez assez aimable pour...",
+        "pl": "Bądź tak uprzejmy i...",
+        "id": "Bersikaplah baik dan...",
+        "hi": "कृपया इतना दयालु बनें और...",
+        "zh": "请您善意地...",
+        "it": "Sii così gentile da...",
+        "tr": "Lütfen nazik olun ve...",
+        "sr": "Будите љубазни и...",
+        "fi": "Olkaa niin ystävällinen ja...",
+        "et": "Olge nii lahke ja...",
+        "be": "Будзьце такія ласкавыя і...",
+        "lv": "Esiet tik laipni un...",
+        "lt": "Būkite toks malonus ir..."
+      },
+      "examples": [
+        {
+          "text": "Kan du vara vänlig och skicka mig dokumentet? Skulle du kunna vara vänlig och tala långsammare? Kan du vara vänlig och öppna dörren? Var vänlig och fyll i formuläret innan du går"
+        },
+        {
+          "text": "Var vänlig och ta en kölapp"
+        },
+        {
+          "text": "Var vänliga och sätt er, vi börjar strax"
+        },
+        {
+          "text": "Skulle du kunna vara vänlig och förklara detta igen? Kan du vara vänlig och släcka ljuset när du går? Var vänlig och vänta på din tur"
+        },
+        {
+          "text": "Kan du vara vänlig och hjälpa mig att bära väskan?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dd74febf-e79d-4f64-979d-57a7a6c0564d",
+      "version": 1,
+      "word": "inte",
+      "translations": {
+        "ru": "Добавление вежливости в вопрос (не .. что-то сделать)",
+        "en": "Adding politeness to a question (not .. to do something)",
+        "uk": "Додавання ввічливості до питання (не .. щось зробити)",
+        "ar": "إضافة اللباقة إلى السؤال (ليس .. لفعل شيء)",
+        "fa": "افزودن ادب به یک سوال (نه .. انجام دادن چیزی)",
+        "so": "Kudarista edebta su'aal (maahan .. in la sameeyo wax)",
+        "es": "Añadiendo cortesía a una pregunta (no .. hacer algo)",
+        "de": "Hinzufügen von Höflichkeit zu einer Frage (nicht .. etwas tun)",
+        "fr": "Ajouter de la politesse à une question (ne pas .. faire quelque chose)",
+        "pl": "Dodawanie grzeczności do pytania (nie .. zrobić czegoś)",
+        "id": "Menambahkan kesopanan pada pertanyaan (tidak .. melakukan sesuatu)",
+        "hi": "प्रश्न में शिष्टाचार जोड़ना (नहीं .. कुछ करना)",
+        "zh": "在问题中添加礼貌（不..做某事）",
+        "it": "Aggiungere cortesia a una domanda (non .. fare qualcosa)",
+        "tr": "Bir soruya nezaket ekleme (bir şey yapmamak ..)",
+        "sr": "Додавање учтивости у питање (не .. урадити нешто)",
+        "fi": "Kohteliaisuuden lisääminen kysymykseen (ei .. tehdä jotain)",
+        "et": "Viisakuse lisamine küsimusele (mitte .. midagi teha)",
+        "be": "Даданне ветлівасці ў пытанне (не .. зрабіць нешта)",
+        "lv": "Pievienot pieklājību jautājumam (ne .. darīt kaut ko)",
+        "lt": "Pridėti mandagumą klausimui (ne .. daryti kažką)"
+      },
+      "examples": [
+        {
+          "text": "Kan du inte hjälpa mig med en sak?"
+        },
+        {
+          "text": "Skulle jag inte kunna åka hem nu?"
+        },
+        {
+          "text": "Vill du inte ses på Espresso House på söndag?"
+        },
+        {
+          "text": "Skulle ni inte vilja komma hem till oss nästa vecka?"
+        },
+        {
+          "text": "Kan vi inte ta det lite lugnare ikväll?"
+        },
+        {
+          "text": "Skulle jag inte kunna få betala nu?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "3e0700e8-90e9-4af7-944e-be5b4e7d5815",
+      "version": -1,
+      "word": "Jag undrar om ...",
+      "translations": {
+        "ru": "Мне интересно, ... / Я хотел бы узнать, ... (как вежливое обращение)",
+        "en": "I wonder... / I would like to know... (polite expression)",
+        "uk": "Мені цікаво, ... / Я хотів би дізнатися, ...",
+        "ar": "أتساءل... / أود أن أعرف...",
+        "fa": "من کنجکاوم... / دوست دارم بدانم...",
+        "so": "Waxaan la yaabanahay... / Waxaan jeclaan lahaa inaan ogaado...",
+        "es": "Me pregunto... / Me gustaría saber...",
+        "de": "Ich frage mich... / Ich würde gerne wissen...",
+        "fr": "Je me demande... / J'aimerais savoir...",
+        "pl": "Zastanawiam się... / Chciałbym wiedzieć...",
+        "id": "Saya bertanya-tanya... / Saya ingin tahu...",
+        "hi": "मुझे आश्चर्य है... / मैं जानना चाहूँगा...",
+        "zh": "我想知道... / 我想了解...",
+        "it": "Mi chiedo... / Vorrei sapere...",
+        "tr": "Merak ediyorum... / Bilmek isterim...",
+        "sr": "Питам се... / Волео бих да знам...",
+        "fi": "Mietin... / Haluaisin tietää...",
+        "et": "Ma mõtlen... / Tahaksin teada...",
+        "be": "Мне цікава, ... / Я хацеў бы даведацца, ...",
+        "lv": "Es brīnos... / Es vēlētos zināt...",
+        "lt": "Įdomu... / Norėčiau sužinoti..."
+      },
+      "examples": [
+        {
+          "text": "Jag undrar om du kan hjälpa mig med den här uppgiften"
+        },
+        {
+          "text": "Jag undrar om det kommer att regna imorgon"
+        },
+        {
+          "text": "Jag undrar om vi kan boka bord för fyra personer"
+        },
+        {
+          "text": "Jag undrar om det finns några lediga rum på hotellet"
+        },
+        {
+          "text": "Jag undrar om tåget är försenat"
+        },
+        {
+          "text": "Jag undrar om han har fått mitt meddelande"
+        },
+        {
+          "text": "Jag undrar om du har tid att träffas i helgen"
+        },
+        {
+          "text": "Jag undrar om vi borde ta en taxi istället för bussen"
+        },
+        {
+          "text": "Jag undrar om det är möjligt att ändra beställningen"
+        },
+        {
+          "text": "Jag undrar om jag kan få notan, tack."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "fe480fd4-94e7-475d-9d49-2fd3bb6a1d20",
+      "version": -1,
+      "word": "Går det bra om jag ...",
+      "translations": {
+        "ru": "Можно ли мне ...? / Не возражаете, если я ...?  Нормально ли, если я ...?",
+        "en": "May I...? / Do you mind if I...? / Is it okay if I...?",
+        "uk": "Чи можу я...? / Ви не заперечуєте, якщо я...? / Це нормально, якщо я...?",
+        "ar": "هل يمكنني ...؟ / هل تمانع إذا ...؟ / هل من المقبول إذا ...؟",
+        "fa": "آیا می‌توانم ...؟ / آیا اشکالی دارد اگر من ...؟ / آیا اشکالی ندارد اگر من ...؟",
+        "so": "Ma ii oggolaan karaa...? / Ma dhib baa haddii aan...? / Ma caadi baa haddii aan...?",
+        "es": "¿Puedo...? / ¿Te importa si...? / ¿Está bien si...?",
+        "de": "Darf ich...? / Stört es dich, wenn ich...? / Ist es in Ordnung, wenn ich...?",
+        "fr": "Puis-je...? / Ça te dérange si je...? / Est-ce que ça va si je...?",
+        "pl": "Czy mogę...? / Czy masz coś przeciwko, jeśli...? / Czy to w porządku, jeśli...?",
+        "id": "Bolehkah saya...? / Apakah Anda keberatan jika saya...? / Apakah tidak apa-apa jika saya...?",
+        "hi": "क्या मैं...? / क्या आपको बुरा लगेगा अगर मैं...? / क्या यह ठीक है अगर मैं...?",
+        "zh": "我可以...? / 你介意我...? / 如果我...可以吗?",
+        "it": "Posso...? / Ti dispiace se...? / Va bene se...?",
+        "tr": "Yapabilir miyim...? / Eğer ben... sakıncası var mı? / Eğer ben... sorun olur mu?",
+        "sr": "Могу ли...? / Да ли ти смета ако ја...? / Да ли је у реду ако ја...?",
+        "fi": "Voinko...? / Haittaako, jos...? / Onko ok, jos...?",
+        "et": "Kas ma võin...? / Kas sul on midagi selle vastu, kui ma...? / Kas on okei, kui ma...?",
+        "be": "Ці магу я...? / Вы не супраць, калі я...? / Гэта нармальна, калі я...?",
+        "lv": "Vai es varu...? / Vai tev ir iebildumi, ja es...? / Vai ir labi, ja es...?",
+        "lt": "Ar galiu...? / Ar neprieštaraujate, jei aš...? / Ar gerai, jei aš...?"
+      },
+      "examples": [
+        {
+          "text": "Går det bra om jag öppnar fönstret? Det är lite varmt här"
+        },
+        {
+          "text": "Går det bra om jag ringer dig senare?  Går det bra om jag tar en paus nu? Går det bra om jag ställer en fråga? Går det bra om jag använder din dator en stund?  Går det bra om jag sitter här? Går det bra om jag ändrar mötestiden? Går det bra om jag lånar din penna? Går det bra om jag betalar med kort? Går det bra om jag kommer lite senare?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "eb3e776d-b04d-42ce-b2fc-fa998a07cff5",
+      "version": 1,
+      "word": "om det är okej",
+      "translations": {
+        "ru": "если это нормально, если это ок",
+        "en": "if it's okay",
+        "uk": "якщо це нормально",
+        "ar": "إذا كان ذلك بخير",
+        "fa": "اگر مشکلی نیست",
+        "so": "haddii ay hagaagsan tahay",
+        "es": "si está bien",
+        "de": "wenn es in Ordnung ist",
+        "fr": "si c'est d'accord",
+        "pl": "jeśli to w porządku",
+        "id": "jika tidak apa-apa",
+        "hi": "अगर यह ठीक है",
+        "zh": "如果可以",
+        "it": "se va bene",
+        "tr": "eğer uygunsa",
+        "sr": "ако је у реду",
+        "fi": "jos se on ok",
+        "et": "kui see on okei",
+        "be": "калі гэта нармальна",
+        "lv": "ja tas ir labi",
+        "lt": "jei tai gerai"
+      },
+      "examples": [
+        {
+          "text": "Kan jag komma lite senare, om det är okej?"
+        },
+        {
+          "text": "Om det är okej för dig, skulle jag vilja låna din bok"
+        },
+        {
+          "text": "Vi kan byta bord, om det är okej med dig"
+        },
+        {
+          "text": "Om det är okej, kan vi ta en paus nu?"
+        },
+        {
+          "text": "Jag kan sitta här, om det är okej för er"
+        },
+        {
+          "text": "Får jag fråga något personligt, om det är okej?"
+        },
+        {
+          "text": "Om det är okej för dig, skulle jag vilja ringa senare"
+        },
+        {
+          "text": "Vi kan diskutera det imorgon, om det är okej för alla"
+        },
+        {
+          "text": "Om det är okej, kan jag ta en ledig dag nästa vecka?"
+        },
+        {
+          "text": "Kan vi ändra planerna lite, om det är okej med dig?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dc3b6d2c-ff34-4b0a-8d7b-15d5dfd36870",
+      "version": 1,
+      "word": "om det går bra",
+      "translations": {
+        "ru": "если это подойдёт, если это нормально / не проблема",
+        "en": "if it suits, if it's okay / no problem",
+        "uk": "якщо це підходить, якщо це нормально / без проблем",
+        "ar": "إذا كان يناسب، إذا كان لا بأس / لا مشكلة",
+        "fa": "اگر مناسب است، اگر مشکلی نیست / بدون مشکل",
+        "so": "haddii ay ku habboon tahay, haddii ay fiican tahay / dhibaato ma leh",
+        "es": "si se adapta, si está bien / no hay problema",
+        "de": "wenn es passt, wenn es in Ordnung ist / kein Problem",
+        "fr": "si cela convient, si c'est d'accord / pas de problème",
+        "pl": "jeśli pasuje, jeśli jest w porządku / nie ma problemu",
+        "id": "jika cocok, jika tidak apa-apa / tidak masalah",
+        "hi": "अगर यह उपयुक्त है, अगर यह ठीक है / कोई समस्या नहीं",
+        "zh": "如果合适，如果可以 / 没问题",
+        "it": "se va bene, se è a posto / nessun problema",
+        "tr": "uygunsa, sorun yoksa / sorun değil",
+        "sr": "ако одговара, ако је у реду / нема проблема",
+        "fi": "jos se sopii, jos se on ok / ei ongelmaa",
+        "et": "kui see sobib, kui see on okei / pole probleemi",
+        "be": "калі гэта падыходзіць, калі гэта нармальна / няма праблем",
+        "lv": "ja tas der, ja tas ir labi / nav problēmu",
+        "lt": "jei tinka, jei gerai / nėra problemų"
+      },
+      "examples": [
+        {
+          "text": "Jag kommer lite senare, om det går bra"
+        },
+        {
+          "text": "Om det går bra, vill jag ställa en fråga"
+        },
+        {
+          "text": "Vi ses på fredag, om det går bra för dig"
+        },
+        {
+          "text": "Kan jag komma förbi i kväll, om det går bra?"
+        },
+        {
+          "text": "Om det går bra, kan vi börja nu"
+        },
+        {
+          "text": "Jag jobbar hemma i morgon, om det går bra"
+        },
+        {
+          "text": "Om det går bra, lånar jag din bok"
+        },
+        {
+          "text": "Vi åker i helgen, om det går bra med vädret"
+        },
+        {
+          "text": "Om det går bra, stannar vi en natt till"
+        },
+        {
+          "text": "Jag skickar dokumentet i morgon, om det går bra."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f065c5f1-74e8-4588-9185-30d97d77fabd",
+      "version": 1,
+      "word": "om det funkar",
+      "translations": {
+        "ru": "если получится, если удобно / возможно",
+        "en": "if it works out, if convenient / possible",
+        "uk": "якщо вийде, якщо зручно / можливо",
+        "ar": "إذا نجح الأمر، إذا كان مناسبًا / ممكنًا",
+        "fa": "اگر ممکن شد، اگر راحت / ممکن است",
+        "so": "haddii ay suurtagal tahay, haddii ay ku habboon tahay / suurtagal tahay",
+        "es": "si funciona, si es conveniente / posible",
+        "de": "wenn es klappt, wenn es bequem / möglich ist",
+        "fr": "si ça marche, si c'est pratique / possible",
+        "pl": "jeśli się uda, jeśli wygodne / możliwe",
+        "id": "jika berhasil, jika nyaman / mungkin",
+        "hi": "अगर संभव हो, अगर सुविधाजनक / संभव है",
+        "zh": "如果可以，如果方便/可能",
+        "it": "se funziona, se conveniente / possibile",
+        "tr": "eğer işe yararsa, eğer uygun / mümkünse",
+        "sr": "ако успе, ако је згодно / могуће",
+        "fi": "jos onnistuu, jos on kätevää / mahdollista",
+        "et": "kui see õnnestub, kui mugav / võimalik",
+        "be": "калі атрымаецца, калі зручна / магчыма",
+        "lv": "ja izdodas, ja ērti / iespējams",
+        "lt": "jei pavyks, jei patogu / įmanoma"
+      },
+      "examples": [
+        {
+          "text": "Vi kan träffas kl"
+        },
+        {
+          "text": "18, om det funkar"
+        },
+        {
+          "text": "Jag kan komma vid nio, om det funkar"
+        },
+        {
+          "text": "Om det funkar, lånar jag din cykel"
+        },
+        {
+          "text": "Vi tar mötet imorgon, om det funkar för dig"
+        },
+        {
+          "text": "Om det funkar, jobbar jag hemifrån på fredag"
+        },
+        {
+          "text": "Vi hörs på måndag, om det funkar"
+        },
+        {
+          "text": "Jag kan hjälpa dig på kvällen, om det funkar"
+        },
+        {
+          "text": "Kan vi äta tillsammans i kväll, om det funkar?"
+        },
+        {
+          "text": "Jag skickar filerna senare, om det funkar"
+        },
+        {
+          "text": "Om det funkar, reser vi redan på torsdag"
+        },
+        {
+          "text": "Vi tränar ihop på lördag, om det funkar!"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "888065c6-b01a-408c-a89d-8476228d02b2",
+      "version": -1,
+      "word": "om det passar dig",
+      "translations": {
+        "ru": "Если это тебе удобно, если вписывается в твои планы / расписание",
+        "en": "If it's convenient for you, fits your plans / schedule",
+        "uk": "Якщо це тобі зручно, якщо вписується в твої плани / розклад",
+        "ar": "إذا كان ذلك مناسبًا لك، ويتماشى مع خططك / جدولك",
+        "fa": "اگر برایت راحت است و در برنامه‌ها / زمان‌بندی‌ات جا می‌گیرد",
+        "so": "Haddii ay kugu habboon tahay, haddii ay ku habboon tahay qorshayaashaada / jadwalkaaga",
+        "es": "Si te resulta conveniente, si encaja en tus planes / horario",
+        "de": "Wenn es dir passt, wenn es in deine Pläne / deinen Zeitplan passt",
+        "fr": "Si cela te convient, si cela s'intègre dans tes plans / ton emploi du temps",
+        "pl": "Jeśli to dla ciebie wygodne, jeśli pasuje do twoich planów / harmonogramu",
+        "id": "Jika itu nyaman untukmu, sesuai dengan rencana / jadwalmu",
+        "hi": "यदि यह आपके लिए सुविधाजनक है, आपके योजनाओं / समय-सारणी में फिट बैठता है",
+        "zh": "如果这对你方便，符合你的计划/时间表",
+        "it": "Se ti è comodo, se si adatta ai tuoi piani / al tuo programma",
+        "tr": "Eğer senin için uygunsa, planlarına / programına uyuyorsa",
+        "sr": "Ако ти одговара, ако се уклапа у твоје планове / распоред",
+        "fi": "Jos se sopii sinulle, jos se sopii suunnitelmiisi / aikatauluusi",
+        "et": "Kui see on sulle mugav, kui see sobib sinu plaanidesse / ajakavasse",
+        "be": "Калі гэта табе зручна, калі ўпісваецца ў твае планы / расклад",
+        "lv": "Ja tas tev ir ērti, ja tas iekļaujas tavos plānos / grafikā",
+        "lt": "Jei tau patogu, jei tai atitinka tavo planus / tvarkaraštį"
+      },
+      "examples": [
+        {
+          "text": "Vi kan ses klockan tre, om det passar"
+        },
+        {
+          "text": "Jag kommer gärna i morgon, om det passar dig"
+        },
+        {
+          "text": "Om det passar, tar vi mötet på måndag"
+        },
+        {
+          "text": "Vi flyttar träningen till onsdag, om det passar bättre"
+        },
+        {
+          "text": "Jag kan börja jobba tidigare, om det passar chefen"
+        },
+        {
+          "text": "Kan vi boka bord till klockan sex, om det passar dig? Vi åker gärna tillsammans, om det passar för dig"
+        },
+        {
+          "text": "Jag skickar rapporten i kväll, om det passar"
+        },
+        {
+          "text": "Vi tar ett kort möte efter lunch, om det passar"
+        },
+        {
+          "text": "Jag hör av mig i morgon, om det passar dig bättre då."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e4effb84-65bc-44e5-b333-584f305f7011",
+      "version": 1,
+      "word": "bruka",
+      "forms": [
+        {
+          "form": "brukar"
+        },
+        {
+          "form": "brukade"
+        },
+        {
+          "form": "brukat"
+        }
+      ],
+      "translations": {
+        "ru": "склоняюсь к, часто делаю, обычно делаю (модальный глагол!)",
+        "en": "tend to, often do, usually do (modal verb!)",
+        "uk": "схильний до, часто роблю, зазвичай роблю (модальне дієслово!)",
+        "ar": "يميل إلى، يفعل غالبًا، يفعل عادةً (فعل مساعد!)",
+        "fa": "تمایل دارم به، اغلب انجام می‌دهم، معمولاً انجام می‌دهم (فعل کمکی!)",
+        "so": "u janjeera, badanaa sameeya, caadi ahaan sameeya (falka modalka!)",
+        "es": "tender a, hacer a menudo, hacer usualmente (verbo modal!)",
+        "de": "neigen zu, oft tun, gewöhnlich tun (Modalverb!)",
+        "fr": "avoir tendance à, faire souvent, faire habituellement (verbe modal!)",
+        "pl": "mieć tendencję do, często robić, zwykle robić (czasownik modalny!)",
+        "id": "cenderung untuk, sering melakukan, biasanya melakukan (kata kerja modal!)",
+        "hi": "प्रवृत्त होना, अक्सर करना, आमतौर पर करना (मोडल क्रिया!)",
+        "zh": "倾向于，经常做，通常做（情态动词！）",
+        "it": "tendere a, fare spesso, fare di solito (verbo modale!)",
+        "tr": "eğiliminde olmak, sık sık yapmak, genellikle yapmak (modal fiil!)",
+        "sr": "имати тенденцију, често радити, обично радити (модални глагол!)",
+        "fi": "olla taipumus, tehdä usein, tehdä yleensä (modaaliverbi!)",
+        "et": "kalduvus, sageli teha, tavaliselt teha (modaalverb!)",
+        "be": "схільны да, часта раблю, звычайна раблю (мадальны дзеяслоў!)",
+        "lv": "tiekties uz, bieži darīt, parasti darīt (modālais darbības vārds!)",
+        "lt": "linkęs į, dažnai daryti, paprastai daryti (modalinis veiksmažodis!)"
+      },
+      "examples": [
+        {
+          "text": "Jag brukar dricka kaffe på morgonen"
+        },
+        {
+          "text": "Hon brukar läsa en bok innan hon somnar"
+        },
+        {
+          "text": "Vi brukar åka till stugan på sommaren"
+        },
+        {
+          "text": "Brukar ni ofta bo i er sommarstuga?"
+        },
+        {
+          "text": "Jag brukade gå till gymmet varje dag"
+        },
+        {
+          "text": "De brukar inte vara sena till möten"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a6719480-3afb-4291-bf05-8d2153ba0054",
+      "version": 1,
+      "word": "någon",
+      "forms": [
+        {
+          "form": "något"
+        }
+      ],
+      "translations": {
+        "ru": "кто-то, что-то , кто-нибудь, что-нибудь",
+        "en": "someone, something, anybody, anything",
+        "uk": "хтось, щось, будь-хто, будь-що",
+        "ar": "شخص ما، شيء ما، أي شخص، أي شيء",
+        "fa": "کسی، چیزی، هرکسی، هرچیزی",
+        "so": "qof, wax, qof kasta, wax kasta",
+        "es": "alguien, algo, cualquiera, cualquier cosa",
+        "de": "jemand, etwas, irgendjemand, irgendetwas",
+        "fr": "quelqu'un, quelque chose, n'importe qui, n'importe quoi",
+        "pl": "ktoś, coś, ktokolwiek, cokolwiek",
+        "id": "seseorang, sesuatu, siapa saja, apa saja",
+        "hi": "कोई, कुछ, कोई भी, कुछ भी",
+        "zh": "某人, 某物, 任何人, 任何事",
+        "it": "qualcuno, qualcosa, chiunque, qualsiasi cosa",
+        "tr": "biri, bir şey, herhangi biri, herhangi bir şey",
+        "sr": "неко, нешто, било ко, било шта",
+        "fi": "joku, jotain, kuka tahansa, mitä tahansa",
+        "et": "keegi, midagi, keegi, midagi",
+        "be": "хтось, нешта, хто-небудзь, што-небудзь",
+        "lv": "kāds, kaut kas, jebkurš, jebkas",
+        "lt": "kažkas, kažkas, bet kas, bet kas"
+      },
+      "examples": [
+        {
+          "text": "Är det någon som vill följa med?"
+        },
+        {
+          "text": "Jag hörde någon i rummet"
+        },
+        {
+          "text": "Har du något att äta?"
+        },
+        {
+          "text": "Vill du ha något att dricka?"
+        },
+        {
+          "text": "Någon ringde när du var ute"
+        },
+        {
+          "text": "Vet du något om filmen?"
+        },
+        {
+          "text": "Jag känner inte någon där"
+        },
+        {
+          "text": "Några av mina vänner bor i Göteborg"
+        },
+        {
+          "text": "Vill du köpa något annat?"
+        },
+        {
+          "text": "Jag har något viktigt att säga."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "00fc3aad-58bc-41b8-a702-b66216e64d1f",
+      "version": 1,
+      "word": "några",
+      "translations": {
+        "ru": "несколько, какие-то, какие-нибудь",
+        "en": "some, several, any",
+        "uk": "деякі, кілька, будь-які",
+        "ar": "بعض، عدة، أي",
+        "fa": "برخی، چند، هر",
+        "so": "qaar, dhowr, wax kasta",
+        "es": "algunos, varios, cualquier",
+        "de": "einige, mehrere, irgendwelche",
+        "fr": "quelques, plusieurs, n'importe quel",
+        "pl": "kilka, kilka, jakiekolwiek",
+        "id": "beberapa, beberapa, mana saja",
+        "hi": "कुछ, कई, कोई भी",
+        "zh": "一些, 几个, 任何",
+        "it": "alcuni, diversi, qualsiasi",
+        "tr": "bazı, birkaç, herhangi",
+        "sr": "неколико, неки, било који",
+        "fi": "joitakin, useita, mitä tahansa",
+        "et": "mõned, mitu, ükskõik millised",
+        "be": "некалькі, некалькі, любыя",
+        "lv": "daži, vairāki, jebkuri",
+        "lt": "keletas, keli, bet kurie"
+      },
+      "examples": [
+        {
+          "text": "Jag har några böcker hemma"
+        },
+        {
+          "text": "Jag har några vänner i Malmö"
+        },
+        {
+          "text": "Vi köpte några nya stolar till köket"
+        },
+        {
+          "text": "Har du några frågor?"
+        },
+        {
+          "text": "Finns det några lediga platser?"
+        },
+        {
+          "text": "Jag behöver några stycken papper."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "1cc5245e-8915-40db-b1b1-05a6ddf8a278",
+      "version": -1,
+      "word": "ingen",
+      "forms": [
+        {
+          "form": "inget"
+        }
+      ],
+      "translations": {
+        "ru": "ничто никто никакой",
+        "en": "nothing, nobody, none",
+        "uk": "нічого, ніхто, жоден",
+        "ar": "لا شيء، لا أحد، لا شيء",
+        "fa": "هیچ‌چیز، هیچ‌کس، هیچ‌کدام",
+        "so": "waxba, qofna, midna",
+        "es": "nada, nadie, ninguno",
+        "de": "nichts, niemand, keiner",
+        "fr": "rien, personne, aucun",
+        "pl": "nic, nikt, żaden",
+        "id": "tidak ada, tidak ada orang, tidak ada",
+        "hi": "कुछ नहीं, कोई नहीं, कोई नहीं",
+        "zh": "没有东西, 没有人, 没有一个",
+        "it": "niente, nessuno, nessuno",
+        "tr": "hiçbir şey, hiç kimse, hiçbiri",
+        "sr": "ништа, нико, ниједан",
+        "fi": "ei mitään, ei kukaan, ei mikään",
+        "et": "mitte midagi, mitte keegi, mitte ükski",
+        "be": "нічога, ніхто, ніякі",
+        "lv": "nekas, neviens, neviens",
+        "lt": "nieko, niekas, nė vienas"
+      },
+      "examples": [
+        {
+          "text": "Ingen var hemma när jag kom"
+        },
+        {
+          "text": "Jag har ingen bil"
+        },
+        {
+          "text": "Ingen vet vad som hände"
+        },
+        {
+          "text": "Det finns ingen här som kan hjälpa dig"
+        },
+        {
+          "text": "Jag hittade ingen bok jag ville läsa"
+        },
+        {
+          "text": "Hon har inget jobb just nu."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9ec68f86-14cb-4b93-8ee6-ecb484bf6873",
+      "version": -1,
+      "word": "inga",
+      "translations": {
+        "ru": "никакие, не одни, ни одного, ни одной",
+        "en": "none, no one, not a single",
+        "uk": "жоден, жодна, жодного, жодної",
+        "ar": "لا أحد، لا شيء، ليس واحدًا",
+        "fa": "هیچ‌کدام، هیچ‌یک، نه یک",
+        "so": "midna, ma jiro, ma jiro hal",
+        "es": "ninguno, nadie, ni uno solo",
+        "de": "keiner, niemand, nicht ein einziger",
+        "fr": "aucun, personne, pas un seul",
+        "pl": "żaden, nikt, ani jeden",
+        "id": "tidak ada, tidak seorang pun, tidak satu pun",
+        "hi": "कोई नहीं, कोई एक नहीं, एक भी नहीं",
+        "zh": "没有, 没有人, 没有一个",
+        "it": "nessuno, nessuna, neanche uno",
+        "tr": "hiçbiri, kimse, tek bir",
+        "sr": "ниједан, нико, ниједан једини",
+        "fi": "ei mitään, ei kukaan, ei yhtäkään",
+        "et": "mitte ükski, mitte keegi, mitte üksainus",
+        "be": "ніводзін, ніхто, ніводнага",
+        "lv": "neviens, neviens, neviens vienīgais",
+        "lt": "nė vienas, niekas, nė vienas"
+      },
+      "examples": [
+        {
+          "text": "Jag har inga planer för helgen"
+        },
+        {
+          "text": "Det fanns inga biljetter kvar"
+        },
+        {
+          "text": "Jag har inga syskon"
+        },
+        {
+          "text": "Vi såg inga djur i skogen"
+        },
+        {
+          "text": "Hon har inga frågor"
+        },
+        {
+          "text": "Det finns inga platser kvar"
+        },
+        {
+          "text": "Jag har inga nyheter"
+        },
+        {
+          "text": "Inga barn får vara här utan vuxen"
+        },
+        {
+          "text": "Inga bussar går efter midnatt"
+        },
+        {
+          "text": "Han känner inga där."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "48bb1222-32f8-4dd8-a724-c57e0907e03c",
+      "version": -1,
+      "word": "allting",
+      "translations": {
+        "ru": "всё, всё на свете, все вещи",
+        "en": "everything, all things",
+        "uk": "все, всі речі",
+        "ar": "كل شيء، جميع الأشياء",
+        "fa": "همه چیز، تمام چیزها",
+        "so": "wax walba, dhammaan waxyaalaha",
+        "es": "todo, todas las cosas",
+        "de": "alles, alle Dinge",
+        "fr": "tout, toutes les choses",
+        "pl": "wszystko, wszystkie rzeczy",
+        "id": "segala sesuatu, semua hal",
+        "hi": "सब कुछ, सभी चीजें",
+        "zh": "一切, 所有事物",
+        "it": "tutto, tutte le cose",
+        "tr": "her şey, tüm şeyler",
+        "sr": "све, све ствари",
+        "fi": "kaikki, kaikki asiat",
+        "et": "kõik, kõik asjad",
+        "be": "усё, усе рэчы",
+        "lv": "viss, visas lietas",
+        "lt": "viskas, visi dalykai"
+      },
+      "examples": [
+        {
+          "text": "Allting är möjligt om man försöker"
+        },
+        {
+          "text": "Jag tappade allting jag hade i väskan"
+        },
+        {
+          "text": "Allting känns så svårt just nu"
+        },
+        {
+          "text": "Allting blev bättre efteråt"
+        },
+        {
+          "text": "Han sålde allting han ägde"
+        },
+        {
+          "text": "Allting gick fel på en gång"
+        },
+        {
+          "text": "Vi städade allting i helgen"
+        },
+        {
+          "text": "Allting jag gör känns meningslöst"
+        },
+        {
+          "text": "Allting är nytt för mig här"
+        },
+        {
+          "text": "Allting ordnade sig till slut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "64a876f9-83df-4e3a-baf5-bf0dd5120a21",
+      "version": 1,
+      "word": "på",
+      "translations": {
+        "ru": "смелее, продолжай, мотивирующая фраза",
+        "en": "be bolder, keep going, motivational phrase",
+        "uk": "будь сміливішим, продовжуй",
+        "ar": "كن أكثر جرأة، استمر",
+        "fa": "جسورتر باش، ادامه بده",
+        "so": "noqo geesi, sii wad",
+        "es": "sé más valiente, sigue adelante",
+        "de": "sei mutiger, mach weiter",
+        "fr": "sois plus audacieux, continue",
+        "pl": "bądź odważniejszy, idź dalej",
+        "id": "lebih berani, teruskan",
+        "hi": "और साहसी बनो, चलते रहो",
+        "zh": "更大胆，继续前进",
+        "it": "sii più audace, continua",
+        "tr": "daha cesur ol, devam et",
+        "sr": "буди смелији, настави",
+        "fi": "ole rohkeampi, jatka eteenpäin",
+        "et": "ole julgem, jätka",
+        "be": "будзь смялейшы, працягвай",
+        "lv": "esi drosmīgāks, turpini",
+        "lt": "būk drąsesnis, tęsk"
+      },
+      "examples": [
+        {
+          "text": "Prata på!"
+        },
+        {
+          "text": "Lärare gillar att elever frågar, så fråga på"
+        },
+        {
+          "text": "Du klarar det!"
+        },
+        {
+          "text": "Kämpa på!"
+        },
+        {
+          "text": "Kör på!"
+        },
+        {
+          "text": "Det blir bra"
+        },
+        {
+          "text": "Trött? Jobba på, snart är du klar"
+        },
+        {
+          "text": "Jag vet att det är svårt, men kämpa på lite till."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "9504bf64-d9d1-47b9-8ca6-f07de89db756",
+      "version": -1,
+      "word": "Om ... så",
+      "translations": {
+        "ru": "Если ... то",
+        "en": "If ... then",
+        "uk": "Якщо ... то",
+        "ar": "إذا ... إذًا",
+        "fa": "اگر ... سپس",
+        "so": "Haddii ... markaa",
+        "es": "Si ... entonces",
+        "de": "Wenn ... dann",
+        "fr": "Si ... alors",
+        "pl": "Jeśli ... to",
+        "id": "Jika ... maka",
+        "hi": "यदि ... तो",
+        "zh": "如果 ... 那么",
+        "it": "Se ... allora",
+        "tr": "Eğer ... o zaman",
+        "sr": "Ако ... онда",
+        "fi": "Jos ... niin",
+        "et": "Kui ... siis",
+        "be": "Калі ... то",
+        "lv": "Ja ... tad",
+        "lt": "Jei ... tada"
+      },
+      "examples": [
+        {
+          "text": "Om du vill ha hjälp, så säg till"
+        },
+        {
+          "text": "Om det regnar, så stannar vi hemma"
+        },
+        {
+          "text": "Om du tränar regelbundet, så blir du starkare"
+        },
+        {
+          "text": "Om vi har tid, så kan vi gå på bio"
+        },
+        {
+          "text": "Om du är hungrig, så kan vi laga mat"
+        },
+        {
+          "text": "Om jag får ett jobb, så köper jag en ny dator"
+        },
+        {
+          "text": "Om du vill följa med, så säg till i förväg"
+        },
+        {
+          "text": "Om du inte gillar filmen, så kan vi titta på något annat"
+        },
+        {
+          "text": "Om jag har råd, så reser jag till Japan nästa år"
+        },
+        {
+          "text": "Om du pluggar mer, så klarar du provet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

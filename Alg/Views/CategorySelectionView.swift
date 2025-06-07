@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct CategorySelectionView: View {
+    
+    @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @Environment(\.dismiss) private var dismiss
     @Environment(\.locale) private var locale
 
@@ -40,9 +42,7 @@ struct CategorySelectionView: View {
 
     var body: some View {
         VStack(spacing: 24) {
-            Text("select_categories")
-                .font(.title2)
-                .multilineTextAlignment(.center)
+            EmptyView()
 
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 12) {
@@ -86,7 +86,7 @@ struct CategorySelectionView: View {
                                 selected.insert(category.id)
                             }
                         }) {
-                            Text((category.translations[locale.language.languageCode?.identifier ?? ""] ?? category.translations["en"] ?? "").capitalized)
+                            Text((category.translations[selectedLanguage] ?? category.translations["en"] ?? "").capitalized)
                                 .font(.system(size: 16, weight: .medium))
                                 .multilineTextAlignment(.center)
                                 .lineLimit(2)
@@ -125,6 +125,8 @@ struct CategorySelectionView: View {
         .onAppear {
             loadSelectedCategories()
         }
+        .navigationTitle(Text(NSLocalizedString("select_categories", comment: "")))
+        .navigationBarTitleDisplayMode(.inline)
     }
 
     func backgroundForTile(color: Color, isSelected: Bool) -> some View {

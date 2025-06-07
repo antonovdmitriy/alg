@@ -1,0 +1,386 @@
+{
+  "id": "d6c19bb6-1c5f-4a84-9b6b-10cef7c6220b",
+  "translations": {
+    "ru": "документы",
+    "en": "Documents",
+    "uk": "документи",
+    "ar": "وثائق",
+    "fa": "اسناد",
+    "so": "dukumentiyo",
+    "es": "documentos",
+    "de": "Dokumente",
+    "fr": "documents",
+    "pl": "dokumenty",
+    "id": "dokumen",
+    "hi": "दस्तावेज़",
+    "zh": "文件",
+    "it": "documenti",
+    "tr": "belgeler",
+    "sr": "документи",
+    "fi": "asiakirjat",
+    "et": "dokumendid",
+    "be": "дакументы",
+    "lv": "dokumenti",
+    "lt": "dokumentai"
+  },
+  "entries": [
+    {
+      "id": "feeecc00-5c37-46c6-bdea-4398d08de8c9",
+      "version": 1,
+      "word": "ett pass",
+      "forms": [
+        {
+          "form": "passet"
+        },
+        {
+          "form": "pass"
+        },
+        {
+          "form": "passen"
+        }
+      ],
+      "translations": {
+        "ru": "паспорт  смена (на работе), тренировка",
+        "en": "passport, shift (at work), training",
+        "uk": "паспорт, зміна (на роботі), тренування",
+        "ar": "جواز سفر، وردية (في العمل)، تدريب",
+        "fa": "پاسپورت، شیفت (در محل کار)، آموزش",
+        "so": "baasaboor, wareeg (shaqo), tababar",
+        "es": "pasaporte, turno (en el trabajo), entrenamiento",
+        "de": "Pass, Schicht (bei der Arbeit), Training",
+        "fr": "passeport, quart (au travail), formation",
+        "pl": "paszport, zmiana (w pracy), szkolenie",
+        "id": "paspor, shift (di tempat kerja), pelatihan",
+        "hi": "पासपोर्ट, शिफ्ट (काम पर), प्रशिक्षण",
+        "zh": "护照, 班次（工作中）, 培训",
+        "it": "passaporto, turno (al lavoro), formazione",
+        "tr": "pasaport, vardiya (işte), eğitim",
+        "sr": "пасош, смена (на послу), тренинг",
+        "fi": "passi, vuoro (työssä), koulutus",
+        "et": "pass, vahetus (tööl), koolitus",
+        "be": "пашпарт, змена (на працы), трэніроўка",
+        "lv": "pase, maiņa (darbā), apmācība",
+        "lt": "pasas, pamaina (darbo vietoje), mokymai"
+      },
+      "examples": [
+        {
+          "text": "Har du ett pass?"
+        },
+        {
+          "text": "Jag måste förnya mitt pass innan resan"
+        },
+        {
+          "text": "Hon glömde sitt pass hemma och kunde inte flyga"
+        },
+        {
+          "text": "Mitt pass har gått ut, så jag måste ansöka om ett nytt"
+        },
+        {
+          "text": "Han jobbar nattpass på sjukhuset"
+        },
+        {
+          "text": "Jag har ett långt pass på jobbet idag"
+        },
+        {
+          "text": "Vi har bokat ett yogapass imorgon"
+        },
+        {
+          "text": "Efter ett hårt träningspass var han helt slut"
+        },
+        {
+          "text": "Hon missade sitt pass i gymmet i morse"
+        },
+        {
+          "text": "Vid gränsen måste du alltid visa ditt pass."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0916c1d4-faf8-4565-a286-266aec2efbdf",
+      "version": 1,
+      "word": "ett körkort",
+      "forms": [
+        {
+          "form": "körkortet"
+        },
+        {
+          "form": "körkort"
+        },
+        {
+          "form": "körkorten"
+        }
+      ],
+      "translations": {
+        "ru": "водительные права",
+        "en": "driver's license",
+        "uk": "водійські права",
+        "ar": "رخصة قيادة",
+        "fa": "گواهینامه رانندگی",
+        "so": "laysinka darawalnimada",
+        "es": "licencia de conducir",
+        "de": "Führerschein",
+        "fr": "permis de conduire",
+        "pl": "prawo jazdy",
+        "id": "surat izin mengemudi",
+        "hi": "ड्राइविंग लाइसेंस",
+        "zh": "驾驶执照",
+        "it": "patente di guida",
+        "tr": "sürücü belgesi",
+        "sr": "возачка дозвола",
+        "fi": "ajokortti",
+        "et": "juhiluba",
+        "be": "вадзіцельскае пасведчанне",
+        "lv": "vadītāja apliecība",
+        "lt": "vairuotojo pažymėjimas"
+      },
+      "examples": [
+        {
+          "text": "Har du ett körkort?"
+        },
+        {
+          "text": "Jag behöver mitt körkort för att kunna köra bil"
+        },
+        {
+          "text": "Hon tog körkort när hon var 18 år"
+        },
+        {
+          "text": "Jag tappade mitt körkort och måste ansöka om ett nytt"
+        },
+        {
+          "text": "För att få köra lastbil behöver man ett särskilt körkort."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "76d1b37c-d0eb-4733-b2ad-5371b0684c18",
+      "version": 1,
+      "word": "ett dokument",
+      "forms": [
+        {
+          "form": "dokumentet"
+        },
+        {
+          "form": "dokument"
+        },
+        {
+          "form": "dokumenten"
+        }
+      ],
+      "translations": {
+        "ru": "документ",
+        "en": "document",
+        "uk": "документ",
+        "ar": "وثيقة",
+        "fa": "سند",
+        "so": "dukumenti",
+        "es": "documento",
+        "de": "Dokument",
+        "fr": "document",
+        "pl": "dokument",
+        "id": "dokumen",
+        "hi": "दस्तावेज़",
+        "zh": "文件",
+        "it": "documento",
+        "tr": "belge",
+        "sr": "документ",
+        "fi": "asiakirja",
+        "et": "dokument",
+        "be": "дакумент",
+        "lv": "dokuments",
+        "lt": "dokumentas"
+      },
+      "examples": [
+        {
+          "text": "Jag behöver skriva ut ett dokument till mötet"
+        },
+        {
+          "text": "Dokumentet innehåller viktig information"
+        },
+        {
+          "text": "Alla dokument finns sparade på datorn"
+        },
+        {
+          "text": "Var snäll och skicka mig dokumentet via e-post"
+        },
+        {
+          "text": "Företaget kräver kopior av juridiska dokument"
+        },
+        {
+          "text": "Hon arbetade länge med att sammanställa ett dokument"
+        },
+        {
+          "text": "Har du läst igenom dokumenten från förra mötet?"
+        },
+        {
+          "text": "Det här är ett historiskt dokument från 1800-talet"
+        },
+        {
+          "text": "Jag har laddat upp alla dokument på molntjänsten"
+        },
+        {
+          "text": "Kan du visa mig dokumentet som handlar om projektet?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "8d69de5d-f97a-4578-823e-ff07af5789aa",
+      "version": 1,
+      "word": "ett förnamn",
+      "forms": [
+        {
+          "form": "förnamnet"
+        },
+        {
+          "form": "förnamn"
+        },
+        {
+          "form": "förnamnen"
+        }
+      ],
+      "translations": {
+        "ru": "имя",
+        "en": "first name",
+        "uk": "ім'я",
+        "ar": "الاسم الأول",
+        "fa": "نام",
+        "so": "magaca hore",
+        "es": "nombre",
+        "de": "Vorname",
+        "fr": "prénom",
+        "pl": "imię",
+        "id": "nama depan",
+        "hi": "पहला नाम",
+        "zh": "名字",
+        "it": "nome",
+        "tr": "ad",
+        "sr": "име",
+        "fi": "etunimi",
+        "et": "eesnimi",
+        "be": "імя",
+        "lv": "vārds",
+        "lt": "vardas"
+      },
+      "examples": [
+        {
+          "text": "Mitt förnamn är Jonas"
+        },
+        {
+          "text": "Vad är ditt förnamn?"
+        },
+        {
+          "text": "Mitt förnamn är Anna och mitt efternamn är Svensson"
+        },
+        {
+          "text": "Förnamnen i klassen är väldigt internationella"
+        },
+        {
+          "text": "De ropade upp hans förnamn vid prisutdelningen"
+        },
+        {
+          "text": "På blanketten ska du fylla i ditt förnamn och efternamn"
+        },
+        {
+          "text": "Hon har ett väldigt ovanligt förnamn"
+        },
+        {
+          "text": "Vi använder bara förnamn i vår grupp"
+        },
+        {
+          "text": "Har du fyllt i ditt förnamn på listan?"
+        },
+        {
+          "text": "Många förnamn har en historisk betydelse"
+        },
+        {
+          "text": "Vad är det vanligaste förnamnet i Sverige?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "23758002-372f-452f-b35b-400f5b2138ef",
+      "version": 1,
+      "word": "ett efternamn",
+      "forms": [
+        {
+          "form": "efternamnet"
+        },
+        {
+          "form": "efternamn"
+        },
+        {
+          "form": "efternamnen"
+        }
+      ],
+      "translations": {
+        "ru": "фамилия",
+        "en": "last name, surname",
+        "uk": "прізвище",
+        "ar": "اسم العائلة",
+        "fa": "نام خانوادگی",
+        "so": "magaca qoyska",
+        "es": "apellido",
+        "de": "Nachname",
+        "fr": "nom de famille",
+        "pl": "nazwisko",
+        "id": "nama belakang",
+        "hi": "उपनाम",
+        "zh": "姓",
+        "it": "cognome",
+        "tr": "soyadı",
+        "sr": "презиме",
+        "fi": "sukunimi",
+        "et": "perekonnanimi",
+        "be": "прозвішча",
+        "lv": "uzvārds",
+        "lt": "pavardė"
+      },
+      "examples": [
+        {
+          "text": "Vad är ditt efternamn?"
+        },
+        {
+          "text": "Hennes efternamn är Andersson"
+        },
+        {
+          "text": "I Sverige är efternamn som Johansson och Karlsson mycket vanliga"
+        },
+        {
+          "text": "Han bytte efternamn efter att han gifte sig"
+        },
+        {
+          "text": "I passet står både förnamn och efternamn"
+        },
+        {
+          "text": "Det är viktigt att skriva sitt efternamn tydligt på formuläret"
+        },
+        {
+          "text": "I vissa länder är det vanligt att ha dubbla efternamn"
+        },
+        {
+          "text": "Efternamnet kommer oftast från fadern i traditionella familjer"
+        },
+        {
+          "text": "Hon ville behålla sitt efternamn efter bröllopet"
+        },
+        {
+          "text": "Många adliga efternamn i Sverige slutar på \"-sköld\" eller \"-berg\"."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}

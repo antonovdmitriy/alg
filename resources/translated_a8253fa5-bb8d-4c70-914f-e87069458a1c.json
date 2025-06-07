@@ -1,0 +1,1309 @@
+{
+  "id": "a8253fa5-bb8d-4c70-914f-e87069458a1c",
+  "translations": {
+    "ru": "коммуникация",
+    "en": "Communication",
+    "uk": "комунікація",
+    "ar": "اتصال",
+    "fa": "ارتباطات",
+    "so": "isgaarsiinta",
+    "es": "comunicación",
+    "de": "Kommunikation",
+    "fr": "communication",
+    "pl": "komunikacja",
+    "id": "komunikasi",
+    "hi": "संचार",
+    "zh": "沟通",
+    "it": "comunicazione",
+    "tr": "iletişim",
+    "sr": "комуникација",
+    "fi": "viestintä",
+    "et": "kommunikatsioon",
+    "be": "камунікацыя",
+    "lv": "komunikācija",
+    "lt": "komunikacija"
+  },
+  "entries": [
+    {
+      "id": "fd5c5a9a-ff3a-4ab2-9b91-8cbeb8952cbf",
+      "version": 1,
+      "word": "ett språk",
+      "forms": [
+        {
+          "form": "språket"
+        },
+        {
+          "form": "språk"
+        },
+        {
+          "form": "språken"
+        }
+      ],
+      "translations": {
+        "ru": "язык",
+        "en": "language, tongue",
+        "uk": "мова",
+        "ar": "لغة",
+        "fa": "زبان",
+        "so": "af",
+        "es": "idioma",
+        "de": "Sprache",
+        "fr": "langue",
+        "pl": "język",
+        "id": "bahasa",
+        "hi": "भाषा",
+        "zh": "语言",
+        "it": "lingua",
+        "tr": "dil",
+        "sr": "језик",
+        "fi": "kieli",
+        "et": "keel",
+        "be": "мова",
+        "lv": "valoda",
+        "lt": "kalba"
+      },
+      "examples": [
+        {
+          "text": "Koreanska är det officiella språket"
+        },
+        {
+          "text": "Svenska är ett nordiskt språk"
+        },
+        {
+          "text": "Hur många språk kan du tala?"
+        },
+        {
+          "text": "Engelska är ett globalt språk som används över hela världen"
+        },
+        {
+          "text": "Java är ett populärt programmeringsspråk"
+        },
+        {
+          "text": "Hans språk var grovt och olämpligt för situationen"
+        },
+        {
+          "text": "Politiker bör använda ett tydligt och enkelt språk"
+        },
+        {
+          "text": "Hon har ett rikt och vackert språk när hon skriver."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "db1249bd-b7ce-4b30-9a0f-efe0ea9c993c",
+      "version": 1,
+      "word": "ett brev",
+      "forms": [
+        {
+          "form": "brevet"
+        },
+        {
+          "form": "brev"
+        },
+        {
+          "form": "breven"
+        }
+      ],
+      "translations": {
+        "ru": "письмо",
+        "en": "letter, writing",
+        "uk": "лист, письмо",
+        "ar": "رسالة, كتابة",
+        "fa": "نامه, نوشتن",
+        "so": "warqad, qoraal",
+        "es": "carta, escritura",
+        "de": "Brief, Schreiben",
+        "fr": "lettre, écriture",
+        "pl": "list, pisanie",
+        "id": "surat, tulisan",
+        "hi": "पत्र, लेखन",
+        "zh": "信, 写作",
+        "it": "lettera, scrittura",
+        "tr": "mektup, yazı",
+        "sr": "писмо, писање",
+        "fi": "kirje, kirjoitus",
+        "et": "kiri, kirjutamine",
+        "be": "ліст, пісьмо",
+        "lv": "vēstule, rakstīšana",
+        "lt": "laiškas, rašymas"
+      },
+      "examples": [
+        {
+          "text": "Jag skrev ett brev till min vän i går"
+        },
+        {
+          "text": "Brevet kom fram efter tre dagar"
+        },
+        {
+          "text": "Har du fått något brev från banken?"
+        },
+        {
+          "text": "Det finns ett gammalt brev från din farfar i lådan"
+        },
+        {
+          "text": "Jag gillar att skriva brev för hand"
+        },
+        {
+          "text": "De skickade ett långt brev med alla instruktioner"
+        },
+        {
+          "text": "Breven från henne är alltid så välskrivna"
+        },
+        {
+          "text": "Han läste upp ett brev som han fått av en vän"
+        },
+        {
+          "text": "Företaget skickar ut brev till alla sina kunder varje månad"
+        },
+        {
+          "text": "Du kan lägga brevet i brevlådan vid hörnet."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "f2ff261f-a0fb-4152-ae61-e12188bd41cd",
+      "version": -1,
+      "word": "en lapp",
+      "forms": [
+        {
+          "form": "lappar"
+        }
+      ],
+      "translations": {
+        "ru": "записка (небольшое сообщение на бумаге)",
+        "en": "note (small message on paper)",
+        "uk": "записка (невелике повідомлення на папері)",
+        "ar": "ملاحظة (رسالة صغيرة على الورق)",
+        "fa": "یادداشت (پیام کوچک روی کاغذ)",
+        "so": "qoraal (farriin yar oo warqad ku qoran)",
+        "es": "nota (mensaje pequeño en papel)",
+        "de": "Notiz (kleine Nachricht auf Papier)",
+        "fr": "note (petit message sur papier)",
+        "pl": "notatka (mała wiadomość na papierze)",
+        "id": "catatan (pesan kecil di atas kertas)",
+        "hi": "नोट (कागज पर छोटा संदेश)",
+        "zh": "便条（纸上的小信息）",
+        "it": "nota (piccolo messaggio su carta)",
+        "tr": "not (kağıt üzerinde küçük mesaj)",
+        "sr": "белешка (мала порука на папиру)",
+        "fi": "muistilappu (pieni viesti paperilla)",
+        "et": "märkus (väike sõnum paberil)",
+        "be": "запіска (невялікае паведамленне на паперы)",
+        "lv": "piezīme (mazs ziņojums uz papīra)",
+        "lt": "raštu (maža žinutė ant popieriaus)"
+      },
+      "examples": [
+        {
+          "text": "Han lämnade en lapp på bordet med ett meddelande"
+        },
+        {
+          "text": "Jag hittade en lapp på kylskåpet: \"Kommer hem sent\""
+        },
+        {
+          "text": "De satte en lapp på dörren med texten \"Stängt\""
+        },
+        {
+          "text": "Jag skrev en lapp till honom"
+        },
+        {
+          "text": "De hittade en gammal lapp med en inköpslista på vinden"
+        },
+        {
+          "text": "Efter mötet skrev han en kort lapp med viktiga punkter."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "e58d7f65-4043-4da9-be88-5b324eedea0e",
+      "version": 1,
+      "word": "ett mail",
+      "forms": [
+        {
+          "form": "mailet"
+        },
+        {
+          "form": "mail"
+        },
+        {
+          "form": "mailen"
+        }
+      ],
+      "translations": {
+        "ru": "электронная почта, электронное письмо",
+        "en": "email, electronic mail",
+        "uk": "електронна пошта, електронний лист",
+        "ar": "بريد إلكتروني، رسالة إلكترونية",
+        "fa": "ایمیل، نامه الکترونیکی",
+        "so": "iimayl, boostada elektarooniga ah",
+        "es": "correo electrónico, mensaje electrónico",
+        "de": "E-Mail, elektronische Post",
+        "fr": "courriel, courrier électronique",
+        "pl": "e-mail, poczta elektroniczna",
+        "id": "email, surat elektronik",
+        "hi": "ईमेल, इलेक्ट्रॉनिक मेल",
+        "zh": "电子邮件, 电子信件",
+        "it": "email, posta elettronica",
+        "tr": "e-posta, elektronik posta",
+        "sr": "имејл, електронска пошта",
+        "fi": "sähköposti, sähköinen posti",
+        "et": "e-kiri, elektrooniline kiri",
+        "be": "электронная пошта, электронны ліст",
+        "lv": "e-pasts, elektroniskais pasts",
+        "lt": "el. paštas, elektroninis laiškas"
+      },
+      "examples": [
+        {
+          "text": "Programmeraren skrev ett mail"
+        },
+        {
+          "text": "Jag fick ett mail från min chef"
+        },
+        {
+          "text": "Kan du svara på mitt mail?"
+        },
+        {
+          "text": "Mailen kom fram sent på kvällen"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6ff537d5-a083-43b8-892c-94acb03b4b8d",
+      "version": -1,
+      "word": "ett meddelande",
+      "forms": [
+        {
+          "form": "meddelandet"
+        },
+        {
+          "form": "meddelanden"
+        },
+        {
+          "form": "meddelandena"
+        }
+      ],
+      "translations": {
+        "ru": "сообщение, уведомление, обьявление",
+        "en": "message, notification, announcement",
+        "uk": "повідомлення, сповіщення, оголошення",
+        "ar": "رسالة، إشعار، إعلان",
+        "fa": "پیام، اعلان، اطلاعیه",
+        "so": "farriin, ogeysiis, ku dhawaaqid",
+        "es": "mensaje, notificación, anuncio",
+        "de": "Nachricht, Benachrichtigung, Ankündigung",
+        "fr": "message, notification, annonce",
+        "pl": "wiadomość, powiadomienie, ogłoszenie",
+        "id": "pesan, pemberitahuan, pengumuman",
+        "hi": "संदेश, सूचना, घोषणा",
+        "zh": "信息, 通知, 公告",
+        "it": "messaggio, notifica, annuncio",
+        "tr": "mesaj, bildirim, duyuru",
+        "sr": "порука, обавештење, најава",
+        "fi": "viesti, ilmoitus, tiedotus",
+        "et": "sõnum, teavitus, teadaanne",
+        "be": "паведамленне, апавяшчэнне, аб'ява",
+        "lv": "ziņojums, paziņojums, sludinājums",
+        "lt": "pranešimas, pranešimas, skelbimas"
+      },
+      "examples": [
+        {
+          "text": "Jag skickade ett meddelande till henne"
+        },
+        {
+          "text": "Meddelandet var viktigt"
+        },
+        {
+          "text": "Har du fått mitt meddelande? Han fick flera meddelanden idag"
+        },
+        {
+          "text": "Ett meddelande från företaget skickades till alla anställda"
+        },
+        {
+          "text": "Ett meddelande lästes upp i radion"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0719b3e6-533b-4ee6-a64c-74c4ec5080cb",
+      "version": -1,
+      "word": "en mobiltelefon",
+      "forms": [
+        {
+          "form": "mobiltelefoner"
+        }
+      ],
+      "translations": {
+        "ru": "мобильный телефон",
+        "en": "mobile phone",
+        "uk": "мобільний телефон",
+        "ar": "هاتف محمول",
+        "fa": "تلفن همراه",
+        "so": "telefoonka gacanta",
+        "es": "teléfono móvil",
+        "de": "Handy",
+        "fr": "téléphone portable",
+        "pl": "telefon komórkowy",
+        "id": "telepon genggam",
+        "hi": "मोबाइल फोन",
+        "zh": "手机",
+        "it": "telefono cellulare",
+        "tr": "cep telefonu",
+        "sr": "мобилни телефон",
+        "fi": "matkapuhelin",
+        "et": "mobiiltelefon",
+        "be": "мабільны тэлефон",
+        "lv": "mobilais telefons",
+        "lt": "mobilusis telefonas"
+      },
+      "examples": [
+        {
+          "text": "Kvinnan skickade ett SMS med sin mobiltelefon"
+        },
+        {
+          "text": "Jag glömde min mobiltelefon hemma"
+        },
+        {
+          "text": "Hon köpte en ny mobiltelefon igår"
+        },
+        {
+          "text": "Mobiltelefoner har utvecklats mycket under de senaste åren"
+        },
+        {
+          "text": "Min mobiltelefon är nästan alltid på ljudlös"
+        },
+        {
+          "text": "Jag laddar min mobiltelefon varje natt"
+        },
+        {
+          "text": "Hans mobiltelefon dog mitt i samtalet"
+        },
+        {
+          "text": "Kan du ringa mig på min mobiltelefon? Jag hörde inte min mobiltelefon ringa"
+        },
+        {
+          "text": "Många använder sin mobiltelefon mer för att skriva än att ringa"
+        },
+        {
+          "text": "Jag använder min mobiltelefon för att ta bilder"
+        },
+        {
+          "text": "Mobiltelefoner har ersatt många andra enheter, som kameror och GPS"
+        },
+        {
+          "text": "Min mobiltelefon har ansiktsigenkänning."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "6c5a1dce-0d9e-4e7c-8e1a-22b6f8076d56",
+      "version": -1,
+      "word": "en mobil",
+      "forms": [
+        {
+          "form": "mobiler"
+        }
+      ],
+      "translations": {
+        "ru": ""
+      },
+      "examples": [
+        {
+          "text": "Jag glömde min mobil hemma"
+        },
+        {
+          "text": "Har du laddat mobilen? Min mobil har slut på batteri"
+        },
+        {
+          "text": "Jag tappade min mobil i vattnet"
+        },
+        {
+          "text": "Den senaste modellen av mobilen är jättedyr."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c2c6fd6e-fb0c-4069-aa42-d982cbe0a92e",
+      "version": 1,
+      "word": "ett telefonnummer",
+      "forms": [
+        {
+          "form": "telefonnumret"
+        },
+        {
+          "form": "telefonnummer"
+        },
+        {
+          "form": "telefonnummer"
+        }
+      ],
+      "translations": {
+        "ru": "номер телефона",
+        "en": "phone number",
+        "uk": "номер телефону",
+        "ar": "رقم الهاتف",
+        "fa": "شماره تلفن",
+        "so": "lambarka telefoonka",
+        "es": "número de teléfono",
+        "de": "Telefonnummer",
+        "fr": "numéro de téléphone",
+        "pl": "numer telefonu",
+        "id": "nomor telepon",
+        "hi": "फोन नंबर",
+        "zh": "电话号码",
+        "it": "numero di telefono",
+        "tr": "telefon numarası",
+        "sr": "број телефона",
+        "fi": "puhelinnumero",
+        "et": "telefoninumber",
+        "be": "нумар тэлефона",
+        "lv": "telefona numurs",
+        "lt": "telefono numeris"
+      },
+      "examples": [
+        {
+          "text": "Kan jag få ditt telefonnummer?"
+        },
+        {
+          "text": "Vad är ditt telefonnummer?"
+        },
+        {
+          "text": "Jag glömde skriva ner hans telefonnummer"
+        },
+        {
+          "text": "Spara mitt telefonnummer i din mobil"
+        },
+        {
+          "text": "Hon bytte telefonnummer efter flytten"
+        },
+        {
+          "text": "Ring mig på det här telefonnumret"
+        },
+        {
+          "text": "Vad är ditt mobiltelefonnummer?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "7d8aeeba-6e3a-4c3f-928e-05333d44b876",
+      "version": -1,
+      "word": "en telefon",
+      "forms": [
+        {
+          "form": "telefoner"
+        }
+      ],
+      "translations": {
+        "ru": "телефон",
+        "en": "telephone",
+        "uk": "телефон",
+        "ar": "هاتف",
+        "fa": "تلفن",
+        "so": "taleefan",
+        "es": "teléfono",
+        "de": "Telefon",
+        "fr": "téléphone",
+        "pl": "telefon",
+        "id": "telepon",
+        "hi": "टेलीफोन",
+        "zh": "电话",
+        "it": "telefono",
+        "tr": "telefon",
+        "sr": "телефон",
+        "fi": "puhelin",
+        "et": "telefon",
+        "be": "тэлефон",
+        "lv": "telefons",
+        "lt": "telefonas"
+      },
+      "examples": [
+        {
+          "text": "Kan du svara i telefonen? Jag glömde min telefon hemma"
+        },
+        {
+          "text": "Var är min telefon? Jag köpte en ny telefon igår"
+        },
+        {
+          "text": "Hon pratar ofta i telefon med sin mamma"
+        },
+        {
+          "text": "Telefonerna på kontoret är gamla och behöver bytas ut."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "83637758-f813-43f5-a8e0-57dd07f267f9",
+      "version": 1,
+      "word": "ett sms",
+      "forms": [
+        {
+          "form": "smset"
+        },
+        {
+          "form": "sms"
+        },
+        {
+          "form": "smsen"
+        }
+      ],
+      "translations": {
+        "ru": "смс",
+        "en": "SMS",
+        "uk": "смс",
+        "ar": "رسالة نصية",
+        "fa": "پیامک",
+        "so": "farriin qoraal ah",
+        "es": "SMS",
+        "de": "SMS",
+        "fr": "SMS",
+        "pl": "SMS",
+        "id": "SMS",
+        "hi": "एसएमएस",
+        "zh": "短信",
+        "it": "SMS",
+        "tr": "SMS",
+        "sr": "СМС",
+        "fi": "tekstiviesti",
+        "et": "SMS",
+        "be": "смс",
+        "lv": "SMS",
+        "lt": "SMS"
+      },
+      "examples": [
+        {
+          "text": "Hon kontaktade mig via sms"
+        },
+        {
+          "text": "Jag skickade ett sms till dig"
+        },
+        {
+          "text": "Kan du läsa mitt sms?"
+        },
+        {
+          "text": "Hon fick ett sms från sin chef"
+        },
+        {
+          "text": "Jag brukar skicka sms istället för att ringa"
+        },
+        {
+          "text": "Han fick ett sms mitt i natten och vaknade"
+        },
+        {
+          "text": "Om jag inte svarar, skicka ett sms"
+        },
+        {
+          "text": "Hon betalar räkningar via sms"
+        },
+        {
+          "text": "Många företag skickar bekräftelser via sms"
+        },
+        {
+          "text": "Jag fick en kod på sms för att logga in"
+        },
+        {
+          "text": "Vi håller kontakt genom sms"
+        },
+        {
+          "text": "Han gillar inte att prata i telefon, så vi skickar sms"
+        },
+        {
+          "text": "Jag skickar ett snabbt sms och ser om han är vaken."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "dccce21f-0626-4401-bb62-3431bacf949c",
+      "version": -1,
+      "word": "en radio",
+      "forms": [
+        {
+          "form": "radioapparater"
+        },
+        {
+          "form": "radios"
+        }
+      ],
+      "translations": {
+        "ru": "радио",
+        "en": "radio",
+        "uk": "радіо",
+        "ar": "راديو",
+        "fa": "رادیو",
+        "so": "raadiyaha",
+        "es": "radio",
+        "de": "Radio",
+        "fr": "radio",
+        "pl": "radio",
+        "id": "radio",
+        "hi": "रेडियो",
+        "zh": "收音机",
+        "it": "radio",
+        "tr": "radyo",
+        "sr": "радио",
+        "fi": "radio",
+        "et": "raadio",
+        "be": "радыё",
+        "lv": "radio",
+        "lt": "radijas"
+      },
+      "examples": [
+        {
+          "text": "De kommer sända det på radio imorgon"
+        },
+        {
+          "text": "Jag lyssnar på radio varje morgon"
+        },
+        {
+          "text": "Programmet sänds direkt på radio"
+        },
+        {
+          "text": "Min gamla radio fungerar fortfarande"
+        },
+        {
+          "text": "Jag behöver köpa en ny radio till köket"
+        },
+        {
+          "text": "Vilken radiokanal brukar du lyssna på?"
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "2dd309e9-1fcd-4b71-acf7-49327b1083ff",
+      "version": -1,
+      "word": "en TV",
+      "forms": [
+        {
+          "form": "TVn"
+        },
+        {
+          "form": "TVapparater"
+        }
+      ],
+      "translations": {
+        "ru": "телевидение",
+        "en": "television",
+        "uk": "телебачення",
+        "ar": "تلفزيون",
+        "fa": "تلویزیون",
+        "so": "telefishin",
+        "es": "televisión",
+        "de": "Fernsehen",
+        "fr": "télévision",
+        "pl": "telewizja",
+        "id": "televisi",
+        "hi": "टेलीविजन",
+        "zh": "电视",
+        "it": "televisione",
+        "tr": "televizyon",
+        "sr": "телевизија",
+        "fi": "televisio",
+        "et": "televisioon",
+        "be": "тэлебачанне",
+        "lv": "televīzija",
+        "lt": "televizija"
+      },
+      "examples": [
+        {
+          "text": "Jag köpte just en fyrtio-tums plasma TV"
+        },
+        {
+          "text": "Jag har köpt en ny TV till vardagsrummet"
+        },
+        {
+          "text": "Barnen tittar på TV hela dagen"
+        },
+        {
+          "text": "Min TV slutade fungera efter åskvädret"
+        },
+        {
+          "text": "Jag jobbar inom TV-branschen"
+        },
+        {
+          "text": "Svensk TV sänder många bra dokumentärer"
+        },
+        {
+          "text": "Många unga tittar mindre på TV och mer på YouTube"
+        },
+        {
+          "text": "Vad går det på TV ikväll? Jag följer en spännande serie på TV"
+        },
+        {
+          "text": "De flesta nyheter ser jag på TV eller i mobilen"
+        },
+        {
+          "text": "SVT är en av de största TV-kanalerna i Sverige"
+        },
+        {
+          "text": "Det finns hundratals TV-kanaler att välja mellan"
+        },
+        {
+          "text": "Min favorit-TV-kanal sänder mest sport"
+        },
+        {
+          "text": "Vi har en Smart TV med Netflix och YouTube"
+        },
+        {
+          "text": "TV:n är kopplad till internet, så vi kan streama filmer"
+        },
+        {
+          "text": "Många ser inte längre på traditionell TV, utan använder streamingtjänster."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "aed8a7ae-348d-43c4-b206-9173a0c2e0f9",
+      "version": -1,
+      "word": "ett tvprogram",
+      "forms": [
+        {
+          "form": "tvprogrammet"
+        },
+        {
+          "form": "tvprogram"
+        },
+        {
+          "form": "tvprogrammen"
+        }
+      ],
+      "translations": {
+        "ru": "тв шоу",
+        "en": "TV show",
+        "uk": "телешоу",
+        "ar": "برنامج تلفزيوني",
+        "fa": "برنامه تلویزیونی",
+        "so": "barnaamij TV",
+        "es": "programa de televisión",
+        "de": "Fernsehsendung",
+        "fr": "émission de télévision",
+        "pl": "program telewizyjny",
+        "id": "acara TV",
+        "hi": "टीवी शो",
+        "zh": "电视节目",
+        "it": "programma televisivo",
+        "tr": "TV programı",
+        "sr": "ТВ емисија",
+        "fi": "TV-ohjelma",
+        "et": "telesaade",
+        "be": "тэлешоу",
+        "lv": "televīzijas šovs",
+        "lt": "televizijos laida"
+      },
+      "examples": [
+        {
+          "text": "Hennes favorit tv-program är på ikväll"
+        },
+        {
+          "text": "Vilket tv-program tittar du på just nu? Det här tv-programmet är väldigt populärt i Sverige"
+        },
+        {
+          "text": "Vi tittade på ett tv-program om historia i går"
+        },
+        {
+          "text": "Jag missade kvällens tv-program"
+        },
+        {
+          "text": "Tv-programmet spelades in i Stockholm."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "55db7c65-d566-4fe6-991c-87581de5f59e",
+      "version": 1,
+      "word": "ett internet",
+      "forms": [
+        {
+          "form": "internet"
+        }
+      ],
+      "translations": {
+        "ru": "интернет",
+        "en": "internet",
+        "uk": "інтернет",
+        "ar": "إنترنت",
+        "fa": "اینترنت",
+        "so": "internet",
+        "es": "internet",
+        "de": "Internet",
+        "fr": "internet",
+        "pl": "internet",
+        "id": "internet",
+        "hi": "इंटरनेट",
+        "zh": "互联网",
+        "it": "internet",
+        "tr": "internet",
+        "sr": "интернет",
+        "fi": "internet",
+        "et": "internet",
+        "be": "інтэрнэт",
+        "lv": "internets",
+        "lt": "internetas"
+      },
+      "examples": [
+        {
+          "text": "Är du ansluten till internet?"
+        },
+        {
+          "text": "Internet har förändrat hur vi kommunicerar"
+        },
+        {
+          "text": "Hur snabbt är ditt internet hemma?"
+        },
+        {
+          "text": "Internet gör det möjligt att arbeta var som helst i världen"
+        },
+        {
+          "text": "Jag har inget internet just nu"
+        },
+        {
+          "text": "Vi behöver en bättre internetuppkoppling"
+        },
+        {
+          "text": "Mobiloperatören erbjuder obegränsat internet"
+        },
+        {
+          "text": "Jag googlade det på internet"
+        },
+        {
+          "text": "Man kan hitta nästan all information på internet"
+        },
+        {
+          "text": "Internet är en fantastisk källa till kunskap"
+        },
+        {
+          "text": "Många unga spenderar timmar på internet varje dag"
+        },
+        {
+          "text": "Jag tittar på filmer via internet istället för TV"
+        },
+        {
+          "text": "Sociala medier är en stor del av internet idag"
+        },
+        {
+          "text": "Man måste vara försiktig med personlig information på internet"
+        },
+        {
+          "text": "Det finns mycket falsk information på internet"
+        },
+        {
+          "text": "Internetbedrägerier blir allt vanligare."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "a8416952-436b-41e8-a568-c2d6d48d9632",
+      "version": -1,
+      "word": "en tidning",
+      "forms": [
+        {
+          "form": "tidningar"
+        }
+      ],
+      "translations": {
+        "ru": "газета (журнал)",
+        "en": "newspaper (magazine)",
+        "uk": "газета (журнал)",
+        "ar": "صحيفة (مجلة)",
+        "fa": "روزنامه (مجله)",
+        "so": "wargeys (jariid)",
+        "es": "periódico (revista)",
+        "de": "Zeitung (Zeitschrift)",
+        "fr": "journal (magazine)",
+        "pl": "gazeta (czasopismo)",
+        "id": "koran (majalah)",
+        "hi": "अखबार (पत्रिका)",
+        "zh": "报纸（杂志）",
+        "it": "giornale (rivista)",
+        "tr": "gazete (dergi)",
+        "sr": "новине (часопис)",
+        "fi": "sanomalehti (aikakauslehti)",
+        "et": "ajaleht (ajakiri)",
+        "be": "газета (часопіс)",
+        "lv": "avīze (žurnāls)",
+        "lt": "laikraštis (žurnalas)"
+      },
+      "examples": [
+        {
+          "text": "Kan du hämta tidningen? Kvinnan läser en tidningen"
+        },
+        {
+          "text": "Jag läser tidningen varje morgon"
+        },
+        {
+          "text": "Vilken tidning brukar du prenumerera på? Det stod i tidningen att det blir regn imorgon"
+        },
+        {
+          "text": "Hon köpte en modetidning på flygplatsen"
+        },
+        {
+          "text": "Det finns många olika tidningar om vetenskap och teknik"
+        },
+        {
+          "text": "Barn älskar serietidningar"
+        },
+        {
+          "text": "Jag läser oftast nyheter i en digital tidning"
+        },
+        {
+          "text": "Många tidningar finns både i pappersformat och online"
+        },
+        {
+          "text": "Har du sett dagens rubriker på tidningens hemsida? Han jobbar på en stor tidning i Stockholm"
+        },
+        {
+          "text": "Tidningen publicerade en intervju med statsministern"
+        },
+        {
+          "text": "Hon är journalist på en internationell tidning"
+        },
+        {
+          "text": "Jag såg en jobbannons i tidningen"
+        },
+        {
+          "text": "Många tidningar har en sektion för bostadsannonser"
+        },
+        {
+          "text": "Vi annonserade i lokaltidningen."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "c49413c3-b99e-4909-b7e2-1a88940d58eb",
+      "version": 1,
+      "word": "en ljudbok",
+      "forms": [
+        {
+          "form": "ljudböcker"
+        }
+      ],
+      "translations": {
+        "ru": "аудио книга",
+        "en": "audiobook",
+        "uk": "аудіокнига",
+        "ar": "كتاب صوتي",
+        "fa": "کتاب صوتی",
+        "so": "buug maqal ah",
+        "es": "audiolibro",
+        "de": "Hörbuch",
+        "fr": "livre audio",
+        "pl": "audiobook",
+        "id": "buku audio",
+        "hi": "ऑडियोबुक",
+        "zh": "有声书",
+        "it": "audiolibro",
+        "tr": "sesli kitap",
+        "sr": "аудио књига",
+        "fi": "äänikirja",
+        "et": "audiokiri",
+        "be": "аўдыёкніга",
+        "lv": "audiogrāmata",
+        "lt": "audioknyga"
+      },
+      "examples": [
+        {
+          "text": "Jag lyssnar på ljudböcker under min resa till jobbet"
+        },
+        {
+          "text": "Jag lyssnar på en ljudbok istället för att läsa"
+        },
+        {
+          "text": "Många föredrar ljudböcker eftersom de kan lyssna medan de gör andra saker"
+        },
+        {
+          "text": "Har du hört talas om den nya ljudboken av Kepler? Jag lyssnar på ljudböcker när jag pendlar till jobbet"
+        },
+        {
+          "text": "Barn älskar ljudböcker med ljudeffekter och musik"
+        },
+        {
+          "text": "Ljudböcker gör det lättare att ta till sig långa romaner"
+        },
+        {
+          "text": "Jag har en prenumeration på en tjänst med ljudböcker"
+        },
+        {
+          "text": "Vilken app använder du för att lyssna på ljudböcker?"
+        },
+        {
+          "text": "Ljudböcker finns både som nedladdningsbara filer och som strömningstjänster"
+        },
+        {
+          "text": "Ljudboken är inläst av en professionell skådespelare"
+        },
+        {
+          "text": "Jag föredrar ljudböcker med författarens egen röst"
+        },
+        {
+          "text": "Vissa ljudböcker har dramatisering och flera röster"
+        },
+        {
+          "text": "Om du har svårt att läsa kan ljudböcker vara ett bra alternativ"
+        },
+        {
+          "text": "Ljudböcker passar perfekt för blinda och synskadade"
+        },
+        {
+          "text": "Jag älskar att somna till en bra ljudbok."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4c1457bc-ba9f-46a7-a71b-bb2d27aa2f62",
+      "version": -1,
+      "word": "ett tvspel",
+      "forms": [
+        {
+          "form": "TVspelet"
+        },
+        {
+          "form": "TVspel"
+        },
+        {
+          "form": "TVspelen"
+        }
+      ],
+      "translations": {
+        "ru": "видео игра (консольная)",
+        "en": "video game (console)",
+        "uk": "відеогра (консольна)",
+        "ar": "لعبة فيديو (كونسول)",
+        "fa": "بازی ویدئویی (کنسول)",
+        "so": "ciyaarta fiidiyowga (konsol)",
+        "es": "videojuego (consola)",
+        "de": "Videospiel (Konsole)",
+        "fr": "jeu vidéo (console)",
+        "pl": "gra wideo (konsola)",
+        "id": "permainan video (konsol)",
+        "hi": "वीडियो गेम (कंसोल)",
+        "zh": "电子游戏（主机）",
+        "it": "videogioco (console)",
+        "tr": "video oyunu (konsol)",
+        "sr": "видео игра (конзола)",
+        "fi": "videopeli (konsoli)",
+        "et": "videomäng (konsool)",
+        "be": "відэагульня (кансольная)",
+        "lv": "videospēle (konsole)",
+        "lt": "vaizdo žaidimas (konsolė)"
+      },
+      "examples": [
+        {
+          "text": "Jag ska köpa ett nytt tv-spel i helgen"
+        },
+        {
+          "text": "Han spelar TV-spel varje kväll"
+        },
+        {
+          "text": "Vi köpte ett nytt TV-spel till barnen"
+        },
+        {
+          "text": "TV-spelen har blivit mycket populära bland ungdomar"
+        },
+        {
+          "text": "Har du några favorit-TV-spel? De satt framför TV:n och spelade TV-spel hela helgen"
+        },
+        {
+          "text": "Vilket är ditt favorit-TV-spel? Han köpte en ny spelkonsol för att spela de senaste TV-spelen"
+        },
+        {
+          "text": "Barnen spenderade timmar framför TV:n med sina TV-spel"
+        },
+        {
+          "text": "De tävlade mot varandra i ett populärt TV-spel"
+        },
+        {
+          "text": "Jag tycker om att spela TV-spel på helgerna för att koppla av."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "0cd61412-cea8-4d5a-bfbb-d9e8968d7311",
+      "version": 1,
+      "word": "ett dataspel",
+      "forms": [
+        {
+          "form": "dataspelet"
+        },
+        {
+          "form": "dataspel"
+        },
+        {
+          "form": "dataspelen"
+        }
+      ],
+      "translations": {
+        "ru": "видео игра (компьютерная)",
+        "en": "video game (computer)",
+        "uk": "відеогра (комп'ютерна)",
+        "ar": "لعبة فيديو (كمبيوتر)",
+        "fa": "بازی ویدئویی (رایانه‌ای)",
+        "so": "ciyaarta fiidiyowga (kombiyuutarka)",
+        "es": "videojuego (computadora)",
+        "de": "Videospiel (Computer)",
+        "fr": "jeu vidéo (ordinateur)",
+        "pl": "gra wideo (komputerowa)",
+        "id": "permainan video (komputer)",
+        "hi": "वीडियो गेम (कंप्यूटर)",
+        "zh": "电子游戏（电脑）",
+        "it": "videogioco (computer)",
+        "tr": "video oyunu (bilgisayar)",
+        "sr": "видео игра (рачунарска)",
+        "fi": "videopeli (tietokone)",
+        "et": "videomäng (arvuti)",
+        "be": "відэагульня (камп'ютарная)",
+        "lv": "videospēle (dators)",
+        "lt": "vaizdo žaidimas (kompiuteris)"
+      },
+      "examples": [
+        {
+          "text": "Han köpte ett nytt dataspel igår"
+        },
+        {
+          "text": "Dataspel är en populär hobby bland ungdomar"
+        },
+        {
+          "text": "De spelar dataspel tillsammans varje kväll"
+        },
+        {
+          "text": "Vilket dataspel är din favorit?"
+        },
+        {
+          "text": "Dataspelen blir alltmer realistiska"
+        },
+        {
+          "text": "Han spenderar många timmar på att spela dataspel"
+        },
+        {
+          "text": "Dataspelen utvecklas snabbt med ny teknik"
+        },
+        {
+          "text": "Föräldrarna försöker begränsa barnens tid framför dataspel"
+        },
+        {
+          "text": "Det här dataspelet har fantastiska grafiska effekter"
+        },
+        {
+          "text": "De arrangerade en tävling i dataspel på skolan."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    },
+    {
+      "id": "4c5376a7-83de-41a2-88b9-791c6ecd275b",
+      "version": -1,
+      "word": "en nyhetskanal",
+      "forms": [
+        {
+          "form": "nyhetskanaler"
+        }
+      ],
+      "translations": {
+        "ru": "канал новостей",
+        "en": "news channel",
+        "uk": "новинний канал",
+        "ar": "قناة إخبارية",
+        "fa": "کانال خبری",
+        "so": "kanaalka wararka",
+        "es": "canal de noticias",
+        "de": "Nachrichtenkanal",
+        "fr": "chaîne d'information",
+        "pl": "kanał informacyjny",
+        "id": "saluran berita",
+        "hi": "समाचार चैनल",
+        "zh": "新闻频道",
+        "it": "canale di notizie",
+        "tr": "haber kanalı",
+        "sr": "информативни канал",
+        "fi": "uutiskanava",
+        "et": "uudistekanal",
+        "be": "навінавы канал",
+        "lv": "ziņu kanāls",
+        "lt": "naujienų kanalas"
+      },
+      "examples": [
+        {
+          "text": "Jag sätter på nyhetskanalen på kvällarna"
+        },
+        {
+          "text": "Jag brukar titta på en nyhetskanal varje morgon"
+        },
+        {
+          "text": "Nyhetskanalen rapporterade om en stor olycka i staden"
+        },
+        {
+          "text": "Det finns många internationella nyhetskanaler att välja mellan"
+        },
+        {
+          "text": "Har du sett rapporten om klimatförändringar på nyhetskanalen? De lanserade en ny digital nyhetskanal för unga"
+        },
+        {
+          "text": "Nyhetskanalerna tävlar om att vara först med nyheterna"
+        },
+        {
+          "text": "Hon jobbar som reporter för en känd nyhetskanal"
+        },
+        {
+          "text": "Under krisen följde jag uppdateringar från olika nyhetskanaler"
+        },
+        {
+          "text": "Nyhetskanalen sände direktsändning från platsen"
+        },
+        {
+          "text": "Jag föredrar att få mina nyheter från oberoende nyhetskanaler."
+        }
+      ],
+      "voiceEntries": [
+        "a1e12345-1111-4e00-aaaa-000000000001"
+      ]
+    }
+  ]
+}
