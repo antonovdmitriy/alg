@@ -46,7 +46,10 @@ class LocalJSONWordProvider: WordProvider {
                 insertIntoTrie(form.form, id: entry.id)
             }
             for (lang, translation) in entry.translations {
-                insertIntoTranslationTrie(translation, lang: lang, id: entry.id)
+                let subtranslations = translation.split(separator: ",").map { $0.trimmingCharacters(in: .whitespaces) }
+                for sub in subtranslations {
+                    insertIntoTranslationTrie(sub, lang: lang, id: entry.id)
+                }
             }
         }
         self.wordByIdIndex = Dictionary(uniqueKeysWithValues: entries.map { ($0.id, $0) })

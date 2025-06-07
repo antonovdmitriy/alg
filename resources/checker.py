@@ -1,43 +1,35 @@
-
-
 import json
-import os
+from collections import defaultdict
 
-def validate_and_count(filepath):
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"❌ Ошибка в JSON файле {filepath}: {e}")
-        return None
-    except Exception as e:
-        print(f"⚠️ Не удалось открыть {filepath}: {e}")
-        return None
+# Путь к файлу
+file_path = "word.json"
 
-    if not isinstance(data, list):
-        print(f"❌ {filepath} должен содержать список категорий")
-        return None
+# Словари для проверки дубликатов
+id_counts = defaultdict(int)
 
-    total_categories = len(data)
+try:
+    with open(file_path, "r", encoding="utf-8") as f:
+        categories = json.load(f)
+
     total_words = 0
-    total_examples = 0
+    duplicate_ids = []
 
-    for category in data:
-        if not isinstance(category, dict) or "entries" not in category:
-            print(f"❌ Категория некорректна: {category}")
-            return None
-        total_words += len(category["entries"])
-        for entry in category["entries"]:
-            if not isinstance(entry, dict) or "examples" not in entry:
-                print(f"❌ Слово некорректно: {entry}")
-                return None
-            total_examples += len(entry["examples"])
+    for category in categories:
+        for entry in category.get("entries", []):
+            entry_id = entry.get("id")
+            if entry_id:
+                id_counts[entry_id] += 1
+                if id_counts[entry_id] == 2:
+                    duplicate_ids.append(entry_id)
+                total_words += 1
 
-    print("✅ JSON файл корректен.")
-    print(f"📚 Категорий: {total_categories}")
-    print(f"🗂️ Слов: {total_words}")
-    print(f"💬 Примеров: {total_examples}")
+    print(f"🔍 Всего слов: {total_words}")
+    if duplicate_ids:
+        print(f"⚠️ Найдены дубликаты ID ({len(duplicate_ids)}):")
+        for dup_id in duplicate_ids:
+            print(f"  - {dup_id}")
+    else:
+        print("✅ Дубликатов ID не найдено.")
 
-if __name__ == "__main__":
-    filepath = "word_translated.json"  # замените на путь к своему файлу
-    validate_and_count(filepath)
+except Exception as e:
+    print(f"Ошибка при обработке файла: {e}")

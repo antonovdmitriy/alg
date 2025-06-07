@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-
-    },
     "%@ – %@" : {
       "localizations" : {
         "en" : {
@@ -30,9 +27,6 @@
           }
         }
       }
-    },
-    "10" : {
-
     },
     "added_to_favorites" : {
       "extractionState" : "manual",
@@ -322,29 +316,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsätt"
-          }
-        }
-      }
-    },
-    "daily_goal_hint" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This is the number of words you aim to learn daily."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Это количество слов, которое вы хотите выучить каждый день."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Detta är antalet ord du vill lära dig varje dag."
           }
         }
       }
