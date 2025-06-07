@@ -48,6 +48,8 @@
 				generate_azure_tts.py,
 				"images/4608c662-219f-4740-bcb7-f37cb19fa2c1/e2cf21f3-31fa-406c-b42c-f683eb4c233c.png",
 				migrator.py,
+				translate_all.py,
+				translate.py,
 				upload_audio_to_azure_for_id_list.sh,
 				upload_audio_to_azure.sh,
 				upload_images_to_azure.sh,
