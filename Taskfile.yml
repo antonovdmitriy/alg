@@ -46,3 +46,33 @@ tasks:
       - python3 scripts/word/add_word.py --category-id "{{.CATEGORY_ID}}" --word "{{.WORD}}" --file "{{.WORD_BASE_PATH}}"
     requires:
       vars: [CATEGORY_ID, WORD]
+
+  fill-word-details:
+    desc: 📝 Fill in word details (forms, examples, translation)
+    summary: |
+      Automatically fill in the word structure for a given word ID.
+      This includes:
+      - Setting version = 1
+      - Generating English translation
+      - Filling in inflected forms
+      - Adding at least 10 example sentences
+
+      Example:
+        WORD_ID="..." task fill-word-details
+    cmds:
+      - python3 scripts/word/fill_word_details.py --id "{{.WORD_ID}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [WORD_ID]
+
+  translate-word:
+    desc: 🌍 Translate word into all supported languages
+    summary: |
+      Translate a word (given by ID) into all supported languages based on English and optionally Russian.
+      Uses GPT API to generate translations.
+
+      Example:
+        WORD_ID="..." task translate-word
+    cmds:
+      - python3 scripts/word/translate_word_only.py --id "{{.WORD_ID}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [WORD_ID]
