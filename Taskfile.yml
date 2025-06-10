@@ -1,0 +1,33 @@
+version: '3'
+
+tasks:
+
+  add-and-translate-category:
+    desc: |
+      ➕ Add new category (with English translation), auto-translate to all other languages
+    summary: |
+      Add a new category with English translation and auto-translate it to all supported languages. Updates the file only on success.
+
+      Example:
+        TITLE="Pronouns" task add-and-translate-category
+    cmds:
+      - python3 scripts/add_category_and_translate.py --title "{{.TITLE}}" --file "{{.FILE}}"
+    vars:
+      FILE: ./resources/word.json
+    requires:
+      vars: [TITLE]
+
+  translate-category:
+    desc: |
+      🌐 Translate existing category (based on English and Russian translations) to all supported languages
+    summary: |
+      Translate an existing category using its English and Russian translations. Updates the file only on success.
+
+      Example:
+        CATEGORY_ID="your-uuid" task translate-category
+    cmds:
+      - python3 scripts/translate_all.py --category "{{.CATEGORY_ID}}" --category-only --input "{{.FILE}}" --output "{{.FILE}}"
+    vars:
+      FILE: ./resources/word.json
+    requires:
+      vars: [CATEGORY_ID]

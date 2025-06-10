@@ -35,6 +35,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		044E78DE2DF7585400CD252D /* Exceptions for "scripts" folder in "Älg" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				translate_all_based_on_english.py,
+			);
+			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
+		};
 		0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Älg" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -66,9 +73,25 @@
 				generate_audio_for_words.py,
 			);
 		};
+		044E78DF2DF7585400CD252D /* Exceptions for "scripts" folder in "Compile Sources" phase from "Älg" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 0474E54C2DD4BC9900DBE6E4 /* Sources */;
+			membershipExceptions = (
+				translate_all_based_on_english.py,
+			);
+		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		044E78D52DF73A5800CD252D /* scripts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				044E78DE2DF7585400CD252D /* Exceptions for "scripts" folder in "Älg" target */,
+				044E78DF2DF7585400CD252D /* Exceptions for "scripts" folder in "Compile Sources" phase from "Älg" target */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
 		0474E5522DD4BC9900DBE6E4 /* Alg */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Alg;
@@ -126,6 +149,7 @@
 		0474E5472DD4BC9900DBE6E4 = {
 			isa = PBXGroup;
 			children = (
+				044E78D52DF73A5800CD252D /* scripts */,
 				0474E9302DDA537200DBE6E4 /* Media.xcassets */,
 				0474E5902DD4CCB500DBE6E4 /* resources */,
 				0474E5522DD4BC9900DBE6E4 /* Alg */,
@@ -161,6 +185,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				044E78D52DF73A5800CD252D /* scripts */,
 				0474E5522DD4BC9900DBE6E4 /* Alg */,
 				0474E5902DD4CCB500DBE6E4 /* resources */,
 			);
@@ -472,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.0;
+				MARKETING_VERSION = 1.7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -509,7 +534,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.0;
+				MARKETING_VERSION = 1.7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
