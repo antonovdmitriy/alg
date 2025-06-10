@@ -1,19 +1,21 @@
 version: '3'
 
+vars:
+  WORD_BASE_PATH: ./resources/word.json
+
 tasks:
 
   add-and-translate-category:
-    desc: |
-      ➕ Add new category (with English translation), auto-translate to all other languages
+    desc: ➕ Add new category and auto-translate to all supported languages
     summary: |
       Add a new category with English translation and auto-translate it to all supported languages. Updates the file only on success.
 
       Example:
         TITLE="Pronouns" task add-and-translate-category
     cmds:
-      - python3 scripts/add_category_and_translate.py --title "{{.TITLE}}" --file "{{.FILE}}"
-    vars:
-      FILE: ./resources/word.json
+      - |
+        CATEGORY_ID=$(python3 scripts/category/add_category.py --title "{{.TITLE}}" --file "{{.WORD_BASE_PATH}}")
+        python3 scripts/category/translate_category.py --id "$CATEGORY_ID" --file "{{.WORD_BASE_PATH}}"
     requires:
       vars: [TITLE]
 
@@ -21,17 +23,13 @@ tasks:
     desc: |
       🌐 Translate existing category (based on English) to all supported languages
     cmds:
-      - python3 scripts/category/translate_category.py --id "{{.CATEGORY_ID}}" --file "{{.FILE}}"
-    vars:
-      FILE: ./resources/word.json
+      - python3 scripts/category/translate_category.py --id "{{.CATEGORY_ID}}" --file "{{.WORD_BASE_PATH}}"
     requires:
       vars: [CATEGORY_ID]
 
   add-category:
     desc: ➕ Add a new category and return its UUID
     cmds:
-      - python3 scripts/category/add_category.py --title "{{.TITLE}}" --file "{{.FILE}}"
-    vars:
-      FILE: ./resources/word.json
+      - python3 scripts/category/add_category.py --title "{{.TITLE}}" --file "{{.WORD_BASE_PATH}}"
     requires:
       vars: [TITLE]

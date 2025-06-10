@@ -35,13 +35,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		044E78DE2DF7585400CD252D /* Exceptions for "scripts" folder in "Älg" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				translate_all_based_on_english.py,
-			);
-			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
-		};
 		0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Älg" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -73,22 +66,11 @@
 				generate_audio_for_words.py,
 			);
 		};
-		044E78DF2DF7585400CD252D /* Exceptions for "scripts" folder in "Compile Sources" phase from "Älg" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 0474E54C2DD4BC9900DBE6E4 /* Sources */;
-			membershipExceptions = (
-				translate_all_based_on_english.py,
-			);
-		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		044E78D52DF73A5800CD252D /* scripts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				044E78DE2DF7585400CD252D /* Exceptions for "scripts" folder in "Älg" target */,
-				044E78DF2DF7585400CD252D /* Exceptions for "scripts" folder in "Compile Sources" phase from "Älg" target */,
-			);
 			path = scripts;
 			sourceTree = "<group>";
 		};
