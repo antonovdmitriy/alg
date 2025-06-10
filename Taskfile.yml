@@ -76,3 +76,26 @@ tasks:
       - python3 scripts/word/translate_word_only.py --id "{{.WORD_ID}}" --file "{{.WORD_BASE_PATH}}"
     requires:
       vars: [WORD_ID]
+
+  generate-audio_for_word:
+    desc: 🔊 Generate voice for word, forms, and examples
+    summary: |
+      Generate audio files for all words in the word base (or a single word by ID).
+      Optionally limit generation by category name.
+
+      Example:
+        task generate-voice
+        task generate-voice -- ID="..." AUDIO_DIR_NAME="audio" VOICE_CONFIG_PATH="voice.json"
+    cmds:
+      - |
+        python3 scripts/word/generate_audio_for_words.py \
+          --input "{{.WORD_BASE_PATH}}" \
+          --audio-dir "{{.AUDIO_PATH}}" \
+          --overwrite
+          --voice-config "{{.VOICE_CONFIG_PATH | default "voice.json"}}" \
+          --id "{{.ID}}"
+    vars:
+      AUDIO_PATH: '{{default "../resources/audio" .AUDIO_PATH}}'
+      VOICE_CONFIG_PATH: '{{default "./resources/voice.json" .VOICE_CONFIG_PATH}}'
+    requires:
+      vars: [WORD_ID]

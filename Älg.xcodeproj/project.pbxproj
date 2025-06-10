@@ -41,9 +41,6 @@
 				audio,
 				checker.py,
 				generate_audio_for_id_list.py,
-				generate_audio_for_words.py,
-				generate_aws_tts.py,
-				generate_azure_tts.py,
 				"images/4608c662-219f-4740-bcb7-f37cb19fa2c1/e2cf21f3-31fa-406c-b42c-f683eb4c233c.png",
 				migrator.py,
 				translate_all_locales.py,
@@ -63,7 +60,6 @@
 			buildPhase = 0474E54C2DD4BC9900DBE6E4 /* Sources */;
 			membershipExceptions = (
 				generate_audio_for_id_list.py,
-				generate_audio_for_words.py,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
