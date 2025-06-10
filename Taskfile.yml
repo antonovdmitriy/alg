@@ -19,15 +19,19 @@ tasks:
 
   translate-category:
     desc: |
-      🌐 Translate existing category (based on English and Russian translations) to all supported languages
-    summary: |
-      Translate an existing category using its English and Russian translations. Updates the file only on success.
-
-      Example:
-        CATEGORY_ID="your-uuid" task translate-category
+      🌐 Translate existing category (based on English) to all supported languages
     cmds:
-      - python3 scripts/translate_all.py --category "{{.CATEGORY_ID}}" --category-only --input "{{.FILE}}" --output "{{.FILE}}"
+      - python3 scripts/category/translate_category.py --id "{{.CATEGORY_ID}}" --file "{{.FILE}}"
     vars:
       FILE: ./resources/word.json
     requires:
       vars: [CATEGORY_ID]
+
+  add-category:
+    desc: ➕ Add a new category and return its UUID
+    cmds:
+      - python3 scripts/category/add_category.py --title "{{.TITLE}}" --file "{{.FILE}}"
+    vars:
+      FILE: ./resources/word.json
+    requires:
+      vars: [TITLE]
