@@ -141,3 +141,15 @@ tasks:
     vars:
       AUDIO_PATH: ./resources/audio
       VOICE_CONFIG_PATH: ./resources/voice.json
+
+  batch-add-words:
+    desc: ➕ Add many words to a category from file
+    summary: |
+      Add many words to a single category from a file. The first line in the file must be the category ID. Each following line must be a word to add. All words will be added with full metadata (forms, examples, translation, audio).
+
+      Example:
+        FILE="resources/batch_words.txt" task batch-add-words
+    cmds:
+      - python3 scripts/word/batch_add_words.py --file "{{.FILE}}"
+    requires:
+      vars: [FILE]
