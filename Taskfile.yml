@@ -97,3 +97,20 @@ tasks:
       VOICE_CONFIG_PATH: ./resources/voice.json
     requires:
       vars: [WORD_ID]
+
+  upload-audio-for-word:
+    desc: ☁️ Upload audio files to Azure Blob Storage
+    summary: |
+      Upload audio files to Azure Blob Storage.
+
+      Examples:
+        WORD_ID="..." task upload-audio-to-azure
+    cmds:
+      - bash scripts/word/upload_audio_to_azure.sh --id "{{.WORD_ID}}" --overwrite --source_dir "{{.AUDIO_PATH}}"
+    vars:
+      AUDIO_PATH: ./resources/audio
+      SOURCE_DIR: ./resources/audio
+    env:
+      AZURE_STORAGE_KEY: "{{.AZURE_STORAGE_KEY}}"
+    requires:
+      vars: [WORD_ID]
