@@ -1,0 +1,155 @@
+version: '3'
+
+vars:
+  WORD_BASE_PATH: ./resources/word.json
+
+tasks:
+
+  add-and-translate-category:
+    desc: ➕ Add new category and auto-translate to all supported languages
+    summary: |
+      Add a new category with English translation and auto-translate it to all supported languages. Updates the file only on success.
+
+      Example:
+        TITLE="Pronouns" task add-and-translate-category
+    cmds:
+      - |
+        CATEGORY_ID=$(python3 scripts/category/add_category.py --title "{{.TITLE}}" --file "{{.WORD_BASE_PATH}}")
+        python3 scripts/category/translate_category.py --id "$CATEGORY_ID" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [TITLE]
+
+  translate-category:
+    desc: |
+      🌐 Translate existing category (based on English) to all supported languages
+    cmds:
+      - python3 scripts/category/translate_category.py --id "{{.CATEGORY_ID}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [CATEGORY_ID]
+
+  add-category:
+    desc: ➕ Add a new category and return its UUID
+    cmds:
+      - python3 scripts/category/add_category.py --title "{{.TITLE}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [TITLE]
+
+  add-word:
+    desc: ➕ Add a new word to an existing category
+    summary: |
+      Add a Swedish word to a given category by its ID.
+      Only adds the word structure. Translations, examples, and forms can be added later.
+
+      Example:
+        CATEGORY_ID="..." WORD="en bok" task add-word
+    cmds:
+      - python3 scripts/word/add_word.py --category-id "{{.CATEGORY_ID}}" --word "{{.WORD}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [CATEGORY_ID, WORD]
+
+  fill-word-details:
+    desc: 📝 Fill in word details (forms, examples, translation)
+    summary: |
+      Automatically fill in the word structure for a given word ID.
+      This includes:
+      - Setting version = 1
+      - Generating English translation
+      - Filling in inflected forms
+      - Adding at least 10 example sentences
+
+      Example:
+        WORD_ID="..." task fill-word-details
+    cmds:
+      - python3 scripts/word/fill_word_details.py --id "{{.WORD_ID}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [WORD_ID]
+
+  translate-word:
+    desc: 🌍 Translate word into all supported languages
+    summary: |
+      Translate a word (given by ID) into all supported languages based on English and optionally Russian.
+      Uses GPT API to generate translations.
+
+      Example:
+        WORD_ID="..." task translate-word
+    cmds:
+      - python3 scripts/word/translate_word_only.py --id "{{.WORD_ID}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [WORD_ID]
+
+  generate-audio-for-word:
+    desc: 🔊 Generate voice for word, forms, and examples
+    summary: |
+      Generate audio for a specific word (by ID).
+
+      Example:
+        WORD_ID="..." task generate-audio_for_word
+    cmds:
+      - |
+        python3 scripts/word/generate_audio_for_words.py \
+          --input "{{.WORD_BASE_PATH}}" \
+          --audio_dir "{{.AUDIO_PATH}}" \
+          --overwrite \
+          --voice_config "{{.VOICE_CONFIG_PATH}}" \
+          --id "{{.WORD_ID}}"
+    vars:
+      AUDIO_PATH: ./resources/audio
+      VOICE_CONFIG_PATH: ./resources/voice.json
+    requires:
+      vars: [WORD_ID]
+
+  upload-audio-for-word:
+    desc: ☁️ Upload audio files to Azure Blob Storage
+    summary: |
+      Upload audio files to Azure Blob Storage.
+
+      Examples:
+        WORD_ID="..." task upload-audio-to-azure
+    cmds:
+      - bash scripts/word/upload_audio_to_azure.sh --id "{{.WORD_ID}}" --overwrite --source_dir "{{.AUDIO_PATH}}"
+    vars:
+      AUDIO_PATH: ./resources/audio
+    env:
+      AZURE_STORAGE_KEY: "{{.AZURE_STORAGE_KEY}}"
+    requires:
+      vars: [WORD_ID]
+
+  add-word-full:
+    desc: 🚀 Add word and complete all metadata
+    summary: |
+      Add a new word, generate forms, examples, translation, and upload audio to Azure.
+
+      Example:
+        CATEGORY_ID="..." WORD="..." task add-word-full
+    cmds:
+      - |
+        WORD_ID=$(python3 scripts/word/add_word.py --category-id "{{.CATEGORY_ID}}" --word "{{.WORD}}" --file "{{.WORD_BASE_PATH}}" --quiet)
+        python3 scripts/word/fill_word_details.py --id "$WORD_ID" --file "{{.WORD_BASE_PATH}}"
+        python3 scripts/word/translate_word_only.py --id "$WORD_ID" --file "{{.WORD_BASE_PATH}}"
+        python3 scripts/word/generate_audio_for_words.py \
+          --input "{{.WORD_BASE_PATH}}" \
+          --audio_dir "{{.AUDIO_PATH}}" \
+          --overwrite \
+          --voice_config "{{.VOICE_CONFIG_PATH}}" \
+          --id "$WORD_ID"
+        bash scripts/word/upload_audio_to_azure.sh \
+          --id "$WORD_ID" \
+          --overwrite \
+          --source_dir "{{.AUDIO_PATH}}"
+    requires:
+      vars: [CATEGORY_ID, WORD]
+    vars:
+      AUDIO_PATH: ./resources/audio
+      VOICE_CONFIG_PATH: ./resources/voice.json
+
+  batch-add-words:
+    desc: ➕ Add many words to a category from file
+    summary: |
+      Add many words to a single category from a file. The first line in the file must be the category ID. Each following line must be a word to add. All words will be added with full metadata (forms, examples, translation, audio).
+
+      Example:
+        FILE="resources/batch_words.txt" task batch-add-words
+    cmds:
+      - python3 scripts/word/batch_add_words.py --file "{{.FILE}}"
+    requires:
+      vars: [FILE]
