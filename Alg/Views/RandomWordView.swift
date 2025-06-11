@@ -23,6 +23,7 @@ struct RandomWordView: View {
     @State private var showGoalCelebration = false
     @State private var showGoalVideo = false
     @State private var exampleIndex: Int? = nil
+    @State private var shownExampleIndices: [Int] = []
     @State private var history: [HistoryItem] = []
     @State private var historyIndex: Int = 0
     
@@ -335,35 +336,31 @@ struct RandomWordView: View {
         }
     }
     
-    private func proceedToNextExample(){
-        // 1. Если включён showExamplesAfterWord и exampleIndex == nil, показываем первый пример.
-        // 2. Если уже показан пример, показываем следующий (до лимита), иначе переходим к новому слову.
-        
-            if exampleIndex == nil {
-                // Показываем первый пример
-                exampleIndex = 0
-                history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .example(currentEntry, currentCategoryId, 0))]
-                historyIndex += 1
-                if playSoundOnWordChange {
-                    audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: 1)
-                }
-            } else if let idx = exampleIndex {
-                let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
-                if idx + 1 < limit {
-                    let nextIdx = idx + 1
-                    exampleIndex = nextIdx
-                    history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .example(currentEntry, currentCategoryId, nextIdx))]
-                    historyIndex += 1
-                    if playSoundOnWordChange {
-                        audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: nextIdx + 1)
-                    }
-                } else {
-                    // Заканчиваем просмотр примеров и сбрасываем exampleIndex
-                    exampleIndex = nil
-                    proceedToNextWord()
-                }
-            }
-        
+    private func proceedToNextExample() {
+        let limit = examplesToShowCount == -1 ? currentEntry.examples.count : min(currentEntry.examples.count, examplesToShowCount)
+
+        if shownExampleIndices.count >= limit || shownExampleIndices.count >= currentEntry.examples.count {
+            exampleIndex = nil
+            proceedToNextWord()
+            return
+        }
+
+        var availableIndices = Array(currentEntry.examples.indices).filter { !shownExampleIndices.contains($0) }
+
+        guard let nextIdx = availableIndices.randomElement() else {
+            exampleIndex = nil
+            proceedToNextWord()
+            return
+        }
+
+        exampleIndex = nextIdx
+        shownExampleIndices.append(nextIdx)
+        history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .example(currentEntry, currentCategoryId, nextIdx))]
+        historyIndex += 1
+
+        if playSoundOnWordChange {
+            audioPlayerHelper.playExample(entryId: currentEntry.id, exampleIndex: nextIdx + 1)
+        }
     }
     
     private func proceedToNextWord() {
@@ -372,6 +369,7 @@ struct RandomWordView: View {
             currentEntry = next
             currentCategoryId = nextId
             exampleIndex = nil
+            shownExampleIndices = []
 
             history = Array(history.prefix(historyIndex + 1)) + [HistoryItem(kind: .word(currentEntry, currentCategoryId))]
             historyIndex += 1
