@@ -1,41 +1,32 @@
 import json
 import subprocess
 import os
-import argparse
 from pathlib import Path
 import sys
+import argparse
 
 DEFAULT_VOICE_ID = "a1e12345-1111-4e00-aaaa-000000000001"
 
-parser = argparse.ArgumentParser(description="Генерация озвучки слов, форм и примеров.")
-parser.add_argument("--input", default="./word.json", help="Путь к файлу со словами")
-parser.add_argument("--audio-dir", default="audio", help="Папка для сохранения аудиофайлов")
-parser.add_argument("--voice-config", default="voice.json", help="Файл конфигурации голосов")
-parser.add_argument("--categories", nargs="*", help="Список названий категорий (по name)")
-parser.add_argument("--overwrite", action="store_true", help="Перезаписывать существующие файлы")
-parser.add_argument("--id", help="Генерация озвучки только для конкретного слова по ID")
-args = parser.parse_args()
-
-def generate_audio(text, phoneme, output_path, voice_id):
+def generate_audio(text, phoneme, output_path, voice_id, voice_config_path):
     # Определяем провайдера по voice_id (если есть)
     tts_script = "generate_azure_tts.py"  # по умолчанию
     if voice_id is not None:
-        with open(args.voice_config, encoding="utf-8") as vf:
+        with open(voice_config_path, encoding="utf-8") as vf:
             voices = json.load(vf)
             voice_info = next((v for v in voices if v.get("id") == voice_id), None)
             if voice_info:
                 provider = voice_info.get("provider")
                 if provider == "azure":
-                    tts_script = "generate_azure_tts.py"
+                    tts_script = "./scripts/sound/generate_azure_tts.py"
                 elif provider == "aws":
-                    tts_script = "generate_aws_tts.py"
+                    tts_script = "./scripts/sound/generate_aws_tts.py"
     command = [sys.executable, tts_script, text, str(output_path)]
     if phoneme:
         command += ["--phoneme", phoneme]
     subprocess.run(command, check=True)
 
-def main(category_filter=None, overwrite=False, single_id=None):
-    with open(args.input, encoding="utf-8") as f:
+def main(input_path, audio_dir, voice_config, category_filter=None, overwrite=False, single_id=None):
+    with open(input_path, encoding="utf-8") as f:
         data = json.load(f)
 
     if single_id:
@@ -66,7 +57,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
                 continue
 
             voice_id = voice_entries[0] if version > -1 and voice_entries else DEFAULT_VOICE_ID
-            base_path = Path(args.audio_dir) / category_id
+            base_path = Path(audio_dir) / category_id
             if version > -1:
                 base_path = base_path / word_base / str(version) / str(voice_id)
             base_path.mkdir(parents=True, exist_ok=True)
@@ -77,7 +68,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
             if not word_output_path.exists() or overwrite:
                 try:
                     print(f"▶️ Генерация слова: {word_output_path}")
-                    generate_audio(word, phoneme, word_output_path, voice_id)
+                    generate_audio(word, phoneme, word_output_path, voice_id, voice_config)
                 except subprocess.CalledProcessError as e:
                     print(f"⚠️ Ошибка генерации для слова '{word}': {e}")
             else:
@@ -92,7 +83,7 @@ def main(category_filter=None, overwrite=False, single_id=None):
                 if not form_output_path.exists() or overwrite:
                     try:
                         print(f"▶️ Генерация формы: {form_output_path}")
-                        generate_audio(form_text, form_phoneme, form_output_path, voice_id)
+                        generate_audio(form_text, form_phoneme, form_output_path, voice_id, voice_config)
                     except subprocess.CalledProcessError as e:
                         print(f"⚠️ Ошибка генерации формы '{form_text}': {e}")
                 else:
@@ -107,11 +98,27 @@ def main(category_filter=None, overwrite=False, single_id=None):
                 if not example_output_path.exists() or overwrite:
                     try:
                         print(f"▶️ Генерация примера: {example_output_path}")
-                        generate_audio(example_text, example_phoneme, example_output_path, voice_id)
+                        generate_audio(example_text, example_phoneme, example_output_path, voice_id, voice_config)
                     except subprocess.CalledProcessError as e:
                         print(f"⚠️ Ошибка генерации примера '{example_text}': {e}")
                 else:
                     print(f"✅ Уже существует: {example_output_path}")
 
 if __name__ == "__main__":
-    main(category_filter=args.categories, overwrite=args.overwrite, single_id=args.id)
+    parser = argparse.ArgumentParser(description="Generate audio for words, forms, and examples.")
+    parser.add_argument("--input", required=True, help="Path to the word file")
+    parser.add_argument("--audio_dir", required=True, help="Directory to save audio files")
+    parser.add_argument("--voice_config", required=True, help="Voice configuration file")
+    parser.add_argument("--categories", nargs="*", help="List of category names (by name)")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files")
+    parser.add_argument("--id", help="Generate audio only for a specific word by ID")
+    args = parser.parse_args()
+
+    main(
+        input_path=args.input,
+        audio_dir=args.audio_dir,
+        voice_config=args.voice_config,
+        category_filter=args.categories,
+        overwrite=args.overwrite,
+        single_id=args.id
+    )

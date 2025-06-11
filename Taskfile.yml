@@ -77,25 +77,23 @@ tasks:
     requires:
       vars: [WORD_ID]
 
-  generate-audio_for_word:
+  generate-audio-for-word:
     desc: 🔊 Generate voice for word, forms, and examples
     summary: |
-      Generate audio files for all words in the word base (or a single word by ID).
-      Optionally limit generation by category name.
+      Generate audio for a specific word (by ID).
 
       Example:
-        task generate-voice
-        task generate-voice -- ID="..." AUDIO_DIR_NAME="audio" VOICE_CONFIG_PATH="voice.json"
+        WORD_ID="..." task generate-audio_for_word
     cmds:
       - |
         python3 scripts/word/generate_audio_for_words.py \
           --input "{{.WORD_BASE_PATH}}" \
-          --audio-dir "{{.AUDIO_PATH}}" \
-          --overwrite
-          --voice-config "{{.VOICE_CONFIG_PATH | default "voice.json"}}" \
-          --id "{{.ID}}"
+          --audio_dir "{{.AUDIO_PATH}}" \
+          --overwrite \
+          --voice_config "{{.VOICE_CONFIG_PATH}}" \
+          --id "{{.WORD_ID}}"
     vars:
-      AUDIO_PATH: '{{default "../resources/audio" .AUDIO_PATH}}'
-      VOICE_CONFIG_PATH: '{{default "./resources/voice.json" .VOICE_CONFIG_PATH}}'
+      AUDIO_PATH: ./resources/audio
+      VOICE_CONFIG_PATH: ./resources/voice.json
     requires:
       vars: [WORD_ID]
