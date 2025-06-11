@@ -109,8 +109,35 @@ tasks:
       - bash scripts/word/upload_audio_to_azure.sh --id "{{.WORD_ID}}" --overwrite --source_dir "{{.AUDIO_PATH}}"
     vars:
       AUDIO_PATH: ./resources/audio
-      SOURCE_DIR: ./resources/audio
     env:
       AZURE_STORAGE_KEY: "{{.AZURE_STORAGE_KEY}}"
     requires:
       vars: [WORD_ID]
+
+  add-word-full:
+    desc: 🚀 Add word and complete all metadata
+    summary: |
+      Add a new word, generate forms, examples, translation, and upload audio to Azure.
+
+      Example:
+        CATEGORY_ID="..." WORD="..." task add-word-full
+    cmds:
+      - |
+        WORD_ID=$(python3 scripts/word/add_word.py --category-id "{{.CATEGORY_ID}}" --word "{{.WORD}}" --file "{{.WORD_BASE_PATH}}" --quiet)
+        python3 scripts/word/fill_word_details.py --id "$WORD_ID" --file "{{.WORD_BASE_PATH}}"
+        python3 scripts/word/translate_word_only.py --id "$WORD_ID" --file "{{.WORD_BASE_PATH}}"
+        python3 scripts/word/generate_audio_for_words.py \
+          --input "{{.WORD_BASE_PATH}}" \
+          --audio_dir "{{.AUDIO_PATH}}" \
+          --overwrite \
+          --voice_config "{{.VOICE_CONFIG_PATH}}" \
+          --id "$WORD_ID"
+        bash scripts/word/upload_audio_to_azure.sh \
+          --id "$WORD_ID" \
+          --overwrite \
+          --source_dir "{{.AUDIO_PATH}}"
+    requires:
+      vars: [CATEGORY_ID, WORD]
+    vars:
+      AUDIO_PATH: ./resources/audio
+      VOICE_CONFIG_PATH: ./resources/voice.json

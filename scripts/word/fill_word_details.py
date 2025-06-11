@@ -72,7 +72,7 @@ def find_word_by_id(data, word_id):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--id", required=True, help="UUID of the word to fill")
-    parser.add_argument("--file", default="resources/word.json", help="Path to the word base JSON file")
+    parser.add_argument("--file", default="word.json", help="Path to the word base JSON file")
     args = parser.parse_args()
 
     print(f"🔍 Loading word base from {args.file}")
