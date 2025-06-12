@@ -20,6 +20,7 @@ class LearningGoalManager: ObservableObject {
         }
     }
     @AppStorage("goalAnimationShownDate") var goalAnimationShownDate: String = ""
+    @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
 
     private var currentDateString: String {
         let formatter = DateFormatter()
@@ -44,7 +45,7 @@ class LearningGoalManager: ObservableObject {
     }
 
     var shouldShowGoalAnimation: Bool {
-        isGoalReached && goalAnimationShownDate != currentDateString
+        hasSelectedDailyGoal && isGoalReached && goalAnimationShownDate != currentDateString
     }
 
     func markGoalAnimationShown() {

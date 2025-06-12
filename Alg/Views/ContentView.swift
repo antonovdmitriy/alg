@@ -6,6 +6,7 @@ struct ContentView: View {
     let learningStateManager: WordLearningStateManager
     let audioPlayerHelper: AudioPlayerHelper
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
     @State private var showTabBar = false
     @State private var selectedTab: Int = 0
     @Environment(\.locale) private var locale
@@ -60,7 +61,7 @@ struct ContentView: View {
                 .tag(2)
             }
             
-            DailyProgressBar(goalManager: goalManager, showTabBar: showTabBar, isVisible: showTabBar && selectedTab == 0 && goalManager.dailyGoal > 0)
+            DailyProgressBar(goalManager: goalManager, showTabBar: showTabBar, isVisible: showTabBar && selectedTab == 0 && goalManager.dailyGoal > 0 && hasSelectedDailyGoal)
         }
         .animation(.easeInOut(duration: 0.3), value: showTabBar)
         .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)

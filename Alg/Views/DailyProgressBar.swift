@@ -1,12 +1,3 @@
-//
-//  DailyProgressBar.swift.swift
-//  Älg
-//
-//  Created by Dmitrii Antonov on 2025-05-31.
-//
-
-
-
 import SwiftUI
 
 struct DailyProgressBar: View {

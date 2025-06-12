@@ -13,6 +13,7 @@ struct RootRouterView: View {
     @AppStorage("hasSelectedTranslationLanguage") private var hasSelectedLanguage = false
     @AppStorage("hasSelectedCategories") private var hasSelectedCategories = false
     @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
+    @AppStorage("dailyGoalSelectionShown") private var hasShownDailyGoalSelection = false
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
     let audioPlayerHelper: AudioPlayerHelper
@@ -32,9 +33,9 @@ struct RootRouterView: View {
             NavigationStack {
                 CategorySelectionView(wordService: wordService)
             }
-        } else if !hasSelectedDailyGoal {
-            DailyGoalSelectionView(allowsDismiss: false) {
-                hasSelectedDailyGoal = true
+        } else if !hasShownDailyGoalSelection {
+            DailyGoalSelectionView(mode: .firstLaunch, allowsDismiss: false) {
+                hasShownDailyGoalSelection = true
             }
         } else {
             ContentView(wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
