@@ -136,7 +136,6 @@ struct DictionaryView: View {
                     }
                 }
             }
-            // Removed hidden TextField as focus is now handled on .searchable
         }
         .navigationTitle("dictionary_title")
         .searchable(text: $searchText, prompt: Text("search_prompt")){

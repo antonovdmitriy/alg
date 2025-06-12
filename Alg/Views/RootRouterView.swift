@@ -33,7 +33,7 @@ struct RootRouterView: View {
             NavigationStack {
                 CategorySelectionView(wordService: wordService)
             }
-        } else if !hasShownDailyGoalSelection {
+        } else if !hasShownDailyGoalSelection && !hasSelectedDailyGoal {
             DailyGoalSelectionView(mode: .firstLaunch, allowsDismiss: false) {
                 hasShownDailyGoalSelection = true
             }
