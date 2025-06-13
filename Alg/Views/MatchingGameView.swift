@@ -213,57 +213,86 @@ struct MatchingGameView: View {
             HStack( alignment: .top, spacing: 30) {
                 VStack(spacing: 12) {
                     ForEach(viewModel.leftColumn) { pair in
-                        Text(pair.left)
-                            .font(.body)
-                            .multilineTextAlignment(.center)
-                            .lineLimit(nil)
-                            .minimumScaleFactor(0.5)
-                            .padding()
-                            .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-                            .background(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .fill(Color(UIColor.secondarySystemBackground))
-                            )
-                            .foregroundColor(.primary)
-                            .cornerRadius(8)
-                            .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .stroke(viewModel.selectedLeft?.id == pair.id ? Color.accentColor : Color.clear, lineWidth: 2)
-                            )
-                            .onTapGesture {
-                                viewModel.select(pair: pair, isLeft: true)
-                            }
+                        if !pair.isMatched {
+                            Text(pair.left)
+                                .font(.body)
+                                .multilineTextAlignment(.center)
+                                .lineLimit(nil)
+                                .minimumScaleFactor(0.5)
+                                .padding()
+                                .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .fill(
+                                            Color(UIColor {
+                                                $0.userInterfaceStyle == .dark
+                                                    ? UIColor.systemGray5
+                                                    : UIColor.secondarySystemBackground
+                                            })
+                                        )
+                                )
+                                .foregroundColor(.primary)
+                                .cornerRadius(8)
+                                .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .strokeBorder(viewModel.selectedLeft?.id == pair.id ? Color.accentColor : Color.clear, lineWidth: 2)
+                                )
+                                .shadow(color:
+                                    viewModel.selectedLeft?.id == pair.id ? Color.accentColor.opacity(0.4) : Color.clear,
+                                    radius: viewModel.selectedLeft?.id == pair.id ? 6 : 0,
+                                    x: 0, y: 0
+                                )
+                                .transition(.scale.combined(with: .opacity))
+                                .onTapGesture {
+                                    viewModel.select(pair: pair, isLeft: true)
+                                }
+                        }
                     }
                 }
 
                 VStack(spacing: 12) {
                     ForEach(viewModel.rightColumn) { pair in
-                        Text(pair.right)
-                            .font(.body)
-                            .multilineTextAlignment(.center)
-                            .lineLimit(nil)
-                            .minimumScaleFactor(0.5)
-                            .padding()
-                            .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-                            .background(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .fill(Color(UIColor.secondarySystemBackground))
-                            )
-                            .foregroundColor(.primary)
-                            .cornerRadius(8)
-                            .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .stroke(viewModel.selectedRight?.id == pair.id ? Color.accentColor : Color.clear, lineWidth: 2)
-                            )
-                            .onTapGesture {
-                                viewModel.select(pair: pair, isLeft: false)
-                            }
+                        if !pair.isMatched {
+                            Text(pair.right)
+                                .font(.body)
+                                .multilineTextAlignment(.center)
+                                .lineLimit(nil)
+                                .minimumScaleFactor(0.5)
+                                .padding()
+                                .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .fill(
+                                            Color(UIColor {
+                                                $0.userInterfaceStyle == .dark
+                                                    ? UIColor.systemGray5
+                                                    : UIColor.secondarySystemBackground
+                                            })
+                                        )
+                                )
+                                .foregroundColor(.primary)
+                                .cornerRadius(8)
+                                .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .strokeBorder(viewModel.selectedRight?.id == pair.id ? Color.accentColor : Color.clear, lineWidth: 2)
+                                )
+                                .shadow(color:
+                                    viewModel.selectedRight?.id == pair.id ? Color.accentColor.opacity(0.4) : Color.clear,
+                                    radius: viewModel.selectedRight?.id == pair.id ? 6 : 0,
+                                    x: 0, y: 0
+                                )
+                                .transition(.scale.combined(with: .opacity))
+                                .onTapGesture {
+                                    viewModel.select(pair: pair, isLeft: false)
+                                }
+                        }
                     }
                 }
             }
             .padding()
+            .animation(.easeInOut(duration: 0.25), value: viewModel.pairs)
             .onChange(of: selectedLanguage) { _ in
                 viewModel.generatePairs(preserveIds: true)
             }
