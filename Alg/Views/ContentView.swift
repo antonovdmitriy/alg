@@ -82,6 +82,7 @@ struct DictionaryView: View {
     @State private var searchText = ""
     @AppStorage("selectedSearchLanguage") private var selectedSearchLang = "sv"
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+    @State private var hasInitializedSearchLang = false
     @State private var isSearchFocused: Bool = false
 
     var filteredResults: [WordEntry] {
@@ -135,6 +136,21 @@ struct DictionaryView: View {
                         }
                     }
                 }
+            }
+        }
+        .onAppear {
+            if !hasInitializedSearchLang {
+                let validValues = ["sv", selectedLanguage]
+                if !validValues.contains(selectedSearchLang) {
+                    selectedSearchLang = selectedLanguage
+                }
+                hasInitializedSearchLang = true
+            }
+        }
+        .onChange(of: selectedLanguage) { oldLang, newLang in
+            let validValues = ["sv", newLang]
+            if !validValues.contains(selectedSearchLang) {
+                selectedSearchLang = newLang
             }
         }
         .navigationTitle("dictionary_title")
