@@ -17,7 +17,6 @@ struct WordDetailView: View {
                 audioPlayerHelper: audioPlayerHelper
             )
         }
-        .navigationTitle(entry.word)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
