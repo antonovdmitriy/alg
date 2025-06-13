@@ -261,13 +261,13 @@ struct MatchingGameView: View {
                                             .foregroundColor(.clear)
                                             .contentShape(Rectangle())
                                         Text(pair.left)
-                                            .font(.body)
+                                            .font(.system(size: 20, weight: .regular))
                                             .multilineTextAlignment(.center)
                                             .lineLimit(nil)
-                                            .minimumScaleFactor(0.5)
+                                            .minimumScaleFactor(0.8)
                                     }
                                     .padding()
-                                    .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                                    .frame(maxWidth: .infinity, minHeight: 75, maxHeight: 75)
                                     .background(
                                         RoundedRectangle(cornerRadius: 8)
                                             .fill(
@@ -331,18 +331,18 @@ struct MatchingGameView: View {
                                 if !pair.isMatched {
                                     let isSelected = viewModel.selectedRight?.id == pair.id
                                     let isLight = UITraitCollection.current.userInterfaceStyle == .light
-                                    ZStack {
-                                        Rectangle()
-                                            .foregroundColor(.clear)
-                                            .contentShape(Rectangle())
-                                        Text(pair.right)
-                                            .font(.body)
-                                            .multilineTextAlignment(.center)
-                                            .lineLimit(nil)
-                                            .minimumScaleFactor(0.5)
-                                    }
-                                    .padding()
-                                    .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                                ZStack {
+                                    Rectangle()
+                                        .foregroundColor(.clear)
+                                        .contentShape(Rectangle())
+                                    Text(pair.right)
+                                        .font(.system(size: 20, weight: .regular))
+                                        .multilineTextAlignment(.center)
+                                        .lineLimit(nil)
+                                        .minimumScaleFactor(0.8)
+                                }
+                                .padding()
+                                .frame(maxWidth: .infinity, minHeight: 75, maxHeight: 75)
                                     .background(
                                         RoundedRectangle(cornerRadius: 8)
                                             .fill(
