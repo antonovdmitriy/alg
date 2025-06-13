@@ -90,6 +90,19 @@ struct SettingsView: View {
                         )
                     }
             }
+            Section {
+                Button {
+                    if let url = URL(string: "https://apps.apple.com/app/id6746169818?action=write-review") {
+                        UIApplication.shared.open(url)
+                    }
+                } label: {
+                    Label {
+                        Text("leave_review").foregroundColor(.primary)
+                    } icon: {
+                        Image(systemName: "heart")
+                    }
+                }
+            }
         }
         .onReceive(NotificationCenter.default.publisher(for: .didDeleteDailyGoal)) { _ in
             withAnimation {
