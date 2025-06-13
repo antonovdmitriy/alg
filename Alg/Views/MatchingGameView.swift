@@ -63,7 +63,7 @@ class MatchingGameViewModel: ObservableObject {
             availableWords = allEntries.filter { !usedIds.contains($0.id) }.shuffled()
             shuffledRight = pairs.shuffled()
             // Добираем недостающие пары, если какие-то были удалены
-            while pairs.count < 6, let entry = availableWords.popLast() {
+            while pairs.count < 5, let entry = availableWords.popLast() {
                 let newPair = MatchingPair(id: entry.id, left: entry.word, right: entry.translations[selectedLanguage] ?? "-")
                 pairs.append(newPair)
                 activeWordIds.append(entry.id)
@@ -75,7 +75,7 @@ class MatchingGameViewModel: ObservableObject {
             shuffledRight = []
             activeWordIds = []
 
-            while pairs.count < 6, let entry = availableWords.popLast() {
+            while pairs.count < 5, let entry = availableWords.popLast() {
                 let pair = MatchingPair(id: entry.id, left: entry.word, right: entry.translations[selectedLanguage] ?? "-")
                 pairs.append(pair)
                 shuffledRight.append(pair)
@@ -248,7 +248,7 @@ struct MatchingGameView: View {
             GeometryReader { geometry in
                 let bottomSafeArea = geometry.safeAreaInsets.bottom
                 VStack {
-                    Spacer().frame(height: (geometry.size.height - bottomSafeArea) * 0.15)
+                    Spacer().frame(height: (geometry.size.height - bottomSafeArea) * 0.25)
 
                     HStack(alignment: .top, spacing: 30) {
                         VStack(spacing: 12) {
@@ -404,16 +404,17 @@ struct MatchingGameView: View {
                             }
                         }
                     }
+                    .padding(.horizontal, 16)
                     .padding(.bottom, 20)
 
                     Spacer()
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .animation(.easeInOut(duration: 0.25), value: viewModel.pairs)
-                .onChange(of: selectedLanguage) { _ in
+                .onChange(of: selectedLanguage) {
                     viewModel.generatePairs(preserveIds: true)
                 }
-                .onChange(of: selectedCategoriesData) { _ in
+                .onChange(of: selectedCategoriesData) {
                     viewModel.generatePairs(preserveIds: true)
                 }
             }
