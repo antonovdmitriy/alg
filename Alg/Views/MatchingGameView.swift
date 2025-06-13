@@ -256,7 +256,6 @@ struct MatchingGameView: View {
                                 if !pair.isMatched {
                                     let isSelected = viewModel.selectedLeft?.id == pair.id
                                     let isLight = UITraitCollection.current.userInterfaceStyle == .light
-                                    let useGradient = !visualStyleManager.useSolidColorBackground
                                     ZStack {
                                         Rectangle()
                                             .foregroundColor(.clear)
@@ -332,7 +331,6 @@ struct MatchingGameView: View {
                                 if !pair.isMatched {
                                     let isSelected = viewModel.selectedRight?.id == pair.id
                                     let isLight = UITraitCollection.current.userInterfaceStyle == .light
-                                    let useGradient = !visualStyleManager.useSolidColorBackground
                                     ZStack {
                                         Rectangle()
                                             .foregroundColor(.clear)
