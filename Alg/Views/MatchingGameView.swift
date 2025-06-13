@@ -252,68 +252,73 @@ struct MatchingGameView: View {
                             let isSelected = viewModel.selectedLeft?.id == pair.id
                             let isLight = UITraitCollection.current.userInterfaceStyle == .light
                             let useGradient = !visualStyleManager.useSolidColorBackground
-                            Text(pair.left)
-                                .font(.body)
-                                .multilineTextAlignment(.center)
-                                .lineLimit(nil)
-                                .minimumScaleFactor(0.5)
-                                .padding()
-                                .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-                                .background(
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .fill(
-                                            (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
+                            ZStack {
+                                Rectangle()
+                                    .foregroundColor(.clear)
+                                    .contentShape(Rectangle())
+                                Text(pair.left)
+                                    .font(.body)
+                                    .multilineTextAlignment(.center)
+                                    .lineLimit(nil)
+                                    .minimumScaleFactor(0.5)
+                            }
+                            .padding()
+                            .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                            .background(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(
+                                        (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
+                                            ? Color.clear
+                                            : (UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground)
                                                 ? Color.clear
-                                                : (UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground)
-                                                    ? Color.clear
-                                                    : isSelected && isLight && !visualStyleManager.useSolidColorBackground
-                                                        ? Color.accentColor.opacity(0.2)
-                                                        : Color(UIColor {
-                                                            $0.userInterfaceStyle == .dark
-                                                                ? UIColor.systemGray5
-                                                                : UIColor.systemGray6
-                                                        })
-                                        )
-                                )
-                                .foregroundColor(.primary)
-                                .cornerRadius(8)
-                                .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
-                                .overlay(
-                                    Group {
-                                        if UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground {
-                                            RoundedRectangle(cornerRadius: 8)
-                                                .strokeBorder(
-                                                    isSelected ? Color.white : Color.white.opacity(0.25),
-                                                    lineWidth: 2
-                                                )
-                                        } else if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
-                                            RoundedRectangle(cornerRadius: 8)
-                                                .strokeBorder(
-                                                    isSelected ? Color.primary : Color.primary.opacity(0.25),
-                                                    lineWidth: 1
-                                                )
-                                        } else if !(isLight && !visualStyleManager.useSolidColorBackground) {
-                                            RoundedRectangle(cornerRadius: 8)
-                                                .strokeBorder(
-                                                    isSelected
-                                                        ? Color.accentColor.opacity(UITraitCollection.current.userInterfaceStyle == .dark ? 1 : 0.4)
-                                                        : Color.clear,
-                                                    lineWidth: 2
-                                                )
-                                        }
+                                                : isSelected && isLight && !visualStyleManager.useSolidColorBackground
+                                                    ? Color.accentColor.opacity(0.2)
+                                                    : Color(UIColor {
+                                                        $0.userInterfaceStyle == .dark
+                                                            ? UIColor.systemGray5
+                                                            : UIColor.systemGray6
+                                                    })
+                                    )
+                            )
+                            .foregroundColor(.primary)
+                            .cornerRadius(8)
+                            .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
+                            .overlay(
+                                Group {
+                                    if UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .strokeBorder(
+                                                isSelected ? Color.white : Color.white.opacity(0.25),
+                                                lineWidth: 2
+                                            )
+                                    } else if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .strokeBorder(
+                                                isSelected ? Color.primary : Color.primary.opacity(0.25),
+                                                lineWidth: 1
+                                            )
+                                    } else if !(isLight && !visualStyleManager.useSolidColorBackground) {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .strokeBorder(
+                                                isSelected
+                                                    ? Color.accentColor.opacity(UITraitCollection.current.userInterfaceStyle == .dark ? 1 : 0.4)
+                                                    : Color.clear,
+                                                lineWidth: 2
+                                            )
                                     }
-                                )
-                                .shadow(color:
-                                    (isSelected && UITraitCollection.current.userInterfaceStyle == .dark)
-                                        ? Color.accentColor.opacity(0.4)
-                                        : Color.clear,
-                                    radius: (isSelected && UITraitCollection.current.userInterfaceStyle == .dark) ? 6 : 0,
-                                    x: 0, y: 0
-                                )
-                                .transition(.scale.combined(with: .opacity))
-                                .onTapGesture {
-                                    viewModel.select(pair: pair, isLeft: true)
                                 }
+                            )
+                            .shadow(color:
+                                (isSelected && UITraitCollection.current.userInterfaceStyle == .dark)
+                                    ? Color.accentColor.opacity(0.4)
+                                    : Color.clear,
+                                radius: (isSelected && UITraitCollection.current.userInterfaceStyle == .dark) ? 6 : 0,
+                                x: 0, y: 0
+                            )
+                            .transition(.scale.combined(with: .opacity))
+                            .onTapGesture {
+                                viewModel.select(pair: pair, isLeft: true)
+                            }
                         }
                     }
                 }
@@ -324,68 +329,73 @@ struct MatchingGameView: View {
                             let isSelected = viewModel.selectedRight?.id == pair.id
                             let isLight = UITraitCollection.current.userInterfaceStyle == .light
                             let useGradient = !visualStyleManager.useSolidColorBackground
-                            Text(pair.right)
-                                .font(.body)
-                                .multilineTextAlignment(.center)
-                                .lineLimit(nil)
-                                .minimumScaleFactor(0.5)
-                                .padding()
-                                .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-                                .background(
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .fill(
-                                            (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
+                            ZStack {
+                                Rectangle()
+                                    .foregroundColor(.clear)
+                                    .contentShape(Rectangle())
+                                Text(pair.right)
+                                    .font(.body)
+                                    .multilineTextAlignment(.center)
+                                    .lineLimit(nil)
+                                    .minimumScaleFactor(0.5)
+                            }
+                            .padding()
+                            .frame(maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                            .background(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(
+                                        (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
+                                            ? Color.clear
+                                            : (UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground)
                                                 ? Color.clear
-                                                : (UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground)
-                                                    ? Color.clear
-                                                    : isSelected && isLight && !visualStyleManager.useSolidColorBackground
-                                                        ? Color.accentColor.opacity(0.2)
-                                                        : Color(UIColor {
-                                                            $0.userInterfaceStyle == .dark
-                                                                ? UIColor.systemGray5
-                                                                : UIColor.systemGray6
-                                                        })
-                                        )
-                                )
-                                .foregroundColor(.primary)
-                                .cornerRadius(8)
-                                .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
-                                .overlay(
-                                    Group {
-                                        if UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground {
-                                            RoundedRectangle(cornerRadius: 8)
-                                                .strokeBorder(
-                                                    isSelected ? Color.white : Color.white.opacity(0.25),
-                                                    lineWidth: 2
-                                                )
-                                        } else if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
-                                            RoundedRectangle(cornerRadius: 8)
-                                                .strokeBorder(
-                                                    isSelected ? Color.primary : Color.primary.opacity(0.25),
-                                                    lineWidth: 1
-                                                )
-                                        } else if !(isLight && !visualStyleManager.useSolidColorBackground) {
-                                            RoundedRectangle(cornerRadius: 8)
-                                                .strokeBorder(
-                                                    isSelected
-                                                        ? Color.accentColor.opacity(UITraitCollection.current.userInterfaceStyle == .dark ? 1 : 0.4)
-                                                        : Color.clear,
-                                                    lineWidth: 2
-                                                )
-                                        }
+                                                : isSelected && isLight && !visualStyleManager.useSolidColorBackground
+                                                    ? Color.accentColor.opacity(0.2)
+                                                    : Color(UIColor {
+                                                        $0.userInterfaceStyle == .dark
+                                                            ? UIColor.systemGray5
+                                                            : UIColor.systemGray6
+                                                    })
+                                    )
+                            )
+                            .foregroundColor(.primary)
+                            .cornerRadius(8)
+                            .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
+                            .overlay(
+                                Group {
+                                    if UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .strokeBorder(
+                                                isSelected ? Color.white : Color.white.opacity(0.25),
+                                                lineWidth: 2
+                                            )
+                                    } else if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .strokeBorder(
+                                                isSelected ? Color.primary : Color.primary.opacity(0.25),
+                                                lineWidth: 1
+                                            )
+                                    } else if !(isLight && !visualStyleManager.useSolidColorBackground) {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .strokeBorder(
+                                                isSelected
+                                                    ? Color.accentColor.opacity(UITraitCollection.current.userInterfaceStyle == .dark ? 1 : 0.4)
+                                                    : Color.clear,
+                                                lineWidth: 2
+                                            )
                                     }
-                                )
-                                .shadow(color:
-                                    (isSelected && UITraitCollection.current.userInterfaceStyle == .dark)
-                                        ? Color.accentColor.opacity(0.4)
-                                        : Color.clear,
-                                    radius: (isSelected && UITraitCollection.current.userInterfaceStyle == .dark) ? 6 : 0,
-                                    x: 0, y: 0
-                                )
-                                .transition(.scale.combined(with: .opacity))
-                                .onTapGesture {
-                                    viewModel.select(pair: pair, isLeft: false)
                                 }
+                            )
+                            .shadow(color:
+                                (isSelected && UITraitCollection.current.userInterfaceStyle == .dark)
+                                    ? Color.accentColor.opacity(0.4)
+                                    : Color.clear,
+                                radius: (isSelected && UITraitCollection.current.userInterfaceStyle == .dark) ? 6 : 0,
+                                x: 0, y: 0
+                            )
+                            .transition(.scale.combined(with: .opacity))
+                            .onTapGesture {
+                                viewModel.select(pair: pair, isLeft: false)
+                            }
                         }
                     }
                 }
