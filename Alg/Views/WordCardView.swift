@@ -124,7 +124,10 @@ var body: some View {
                                     .padding(.top, 4)
                                 }
                                 .padding()
-                                .background(Color(.systemBackground))
+                                .background(
+                                    Color(.systemBackground)
+                                        .shadow(color: Color.black.opacity(0.05), radius: 4, y: 2)
+                                )
                         ) {
                             VStack(alignment: .leading, spacing: 20) {
                                 VStack(alignment: .leading, spacing: 8) {
