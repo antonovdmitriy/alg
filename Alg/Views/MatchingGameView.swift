@@ -11,7 +11,7 @@ class MatchingGameViewModel: ObservableObject {
     @Published var pairs: [MatchingPair] = []
     @Published var selectedLeft: MatchingPair?
     @Published var selectedRight: MatchingPair?
-    
+    @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     
     private let wordService: WordService
@@ -28,11 +28,29 @@ class MatchingGameViewModel: ObservableObject {
     }
 
     func generatePairs(preserveIds: Bool = false) {
-        let allIgnored = learningStateManager.ignoredWords
-        let allKnown = learningStateManager.knownWords
-        let allEntries = wordService.allWords()
-            .filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
-            .filter { ($0.translations[selectedLanguage] ?? "").isEmpty == false }
+        let selectedCategoryIds = (try? JSONDecoder().decode([UUID].self, from: selectedCategoriesData)) ?? []
+        let useAll = selectedCategoryIds.contains(Category.allCategoryId)
+        let categories = wordService.allCategories()
+        var entries: [WordEntry]
+
+        if useAll {
+            let allIgnored = learningStateManager.ignoredWords
+            let allKnown = learningStateManager.knownWords
+            entries = wordService.allWords()
+                .filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
+                .filter { ($0.translations[selectedLanguage] ?? "").isEmpty == false }
+        } else {
+            let allIgnored = learningStateManager.ignoredWords
+            let allKnown = learningStateManager.knownWords
+            entries = categories
+                .filter { selectedCategoryIds.contains($0.id) }
+                .flatMap { $0.entries }
+                .filter { !allIgnored.contains($0.id) && !allKnown.contains($0.id) }
+                .filter { ($0.translations[selectedLanguage] ?? "").isEmpty == false }
+                .shuffled()
+        }
+
+        let allEntries = entries
 
         if preserveIds {
             let entryMap = Dictionary(uniqueKeysWithValues: allEntries.map { ($0.id, $0) })
@@ -40,7 +58,17 @@ class MatchingGameViewModel: ObservableObject {
                 guard let entry = entryMap[id] else { return nil }
                 return MatchingPair(id: entry.id, left: entry.word, right: entry.translations[selectedLanguage] ?? "-")
             }
+            // Обновляем availableWords оставшимися словами, которые не используются
+            let usedIds = Set(activeWordIds)
+            availableWords = allEntries.filter { !usedIds.contains($0.id) }.shuffled()
             shuffledRight = pairs.shuffled()
+            // Добираем недостающие пары, если какие-то были удалены
+            while pairs.count < 9, let entry = availableWords.popLast() {
+                let newPair = MatchingPair(id: entry.id, left: entry.word, right: entry.translations[selectedLanguage] ?? "-")
+                pairs.append(newPair)
+                activeWordIds.append(entry.id)
+                shuffledRight.append(newPair)
+            }
         } else {
             availableWords = allEntries.shuffled()
             pairs = []
@@ -119,6 +147,8 @@ struct MatchingGameView: View {
 
     @StateObject private var viewModel: MatchingGameViewModel
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
+
+    @AppStorage("selectedCategories") private var selectedCategoriesData: Data = Data()
     @EnvironmentObject var visualStyleManager: VisualStyleManager
     
     init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager) {
@@ -363,6 +393,9 @@ struct MatchingGameView: View {
             .padding()
             .animation(.easeInOut(duration: 0.25), value: viewModel.pairs)
             .onChange(of: selectedLanguage) { _ in
+                viewModel.generatePairs(preserveIds: true)
+            }
+            .onChange(of: selectedCategoriesData) { _ in
                 viewModel.generatePairs(preserveIds: true)
             }
         }
