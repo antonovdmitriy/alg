@@ -295,6 +295,7 @@ struct AnimatedGradientBackground: View {
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
+        .ignoresSafeArea()
         .onAppear {
             print("[AnimatedGradientBackground] View appeared. Starting gradient timer.")
 

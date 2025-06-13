@@ -50,7 +50,7 @@ struct ContentView: View {
                 .tag(1)
 
                 NavigationView {
-                    MatchingGameView(wordService: wordService, learningStateManager: learningStateManager)
+                    MatchingGameView(showTabBar: $showTabBar, wordService: wordService, learningStateManager: learningStateManager)
                 }
                 .onAppear {
                     audioPlayerHelper.stop()

@@ -110,6 +110,10 @@ class MatchingGameViewModel: ObservableObject {
 }
 
 struct MatchingGameView: View {
+    @Binding var showTabBar: Bool
+    @State private var lastTapDate: Date = .distantPast
+    private let tapThreshold: TimeInterval = 0.4
+
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
 
@@ -117,7 +121,8 @@ struct MatchingGameView: View {
     @AppStorage("preferredTranslationLanguage") private var selectedLanguage = "en"
     @EnvironmentObject var visualStyleManager: VisualStyleManager
     
-    init(wordService: WordService, learningStateManager: WordLearningStateManager) {
+    init(showTabBar: Binding<Bool>, wordService: WordService, learningStateManager: WordLearningStateManager) {
+        self._showTabBar = showTabBar
         _viewModel = StateObject(wrappedValue: MatchingGameViewModel(wordService: wordService, learningStateManager: learningStateManager))
         self.wordService = wordService
         self.learningStateManager = learningStateManager
@@ -214,6 +219,9 @@ struct MatchingGameView: View {
                 VStack(spacing: 12) {
                     ForEach(viewModel.leftColumn) { pair in
                         if !pair.isMatched {
+                            let isSelected = viewModel.selectedLeft?.id == pair.id
+                            let isLight = UITraitCollection.current.userInterfaceStyle == .light
+                            let useGradient = !visualStyleManager.useSolidColorBackground
                             Text(pair.left)
                                 .font(.body)
                                 .multilineTextAlignment(.center)
@@ -224,23 +232,36 @@ struct MatchingGameView: View {
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
                                         .fill(
-                                            Color(UIColor {
-                                                $0.userInterfaceStyle == .dark
-                                                    ? UIColor.systemGray5
-                                                    : UIColor.secondarySystemBackground
-                                            })
+                                            isSelected && isLight && useGradient
+                                                ? Color.accentColor.opacity(0.2)
+                                                : Color(UIColor {
+                                                    $0.userInterfaceStyle == .dark
+                                                        ? UIColor.systemGray5
+                                                        : UIColor.systemGray6
+                                                })
                                         )
                                 )
                                 .foregroundColor(.primary)
                                 .cornerRadius(8)
                                 .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
                                 .overlay(
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .strokeBorder(viewModel.selectedLeft?.id == pair.id ? Color.accentColor : Color.clear, lineWidth: 2)
+                                    Group {
+                                        if !(isLight && useGradient) {
+                                            RoundedRectangle(cornerRadius: 8)
+                                                .strokeBorder(
+                                                    isSelected
+                                                        ? Color.accentColor.opacity(UITraitCollection.current.userInterfaceStyle == .dark ? 1 : 0.4)
+                                                        : Color.clear,
+                                                    lineWidth: 2
+                                                )
+                                        }
+                                    }
                                 )
                                 .shadow(color:
-                                    viewModel.selectedLeft?.id == pair.id ? Color.accentColor.opacity(0.4) : Color.clear,
-                                    radius: viewModel.selectedLeft?.id == pair.id ? 6 : 0,
+                                    (isSelected && UITraitCollection.current.userInterfaceStyle == .dark)
+                                        ? Color.accentColor.opacity(0.4)
+                                        : Color.clear,
+                                    radius: (isSelected && UITraitCollection.current.userInterfaceStyle == .dark) ? 6 : 0,
                                     x: 0, y: 0
                                 )
                                 .transition(.scale.combined(with: .opacity))
@@ -254,6 +275,9 @@ struct MatchingGameView: View {
                 VStack(spacing: 12) {
                     ForEach(viewModel.rightColumn) { pair in
                         if !pair.isMatched {
+                            let isSelected = viewModel.selectedRight?.id == pair.id
+                            let isLight = UITraitCollection.current.userInterfaceStyle == .light
+                            let useGradient = !visualStyleManager.useSolidColorBackground
                             Text(pair.right)
                                 .font(.body)
                                 .multilineTextAlignment(.center)
@@ -264,23 +288,36 @@ struct MatchingGameView: View {
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
                                         .fill(
-                                            Color(UIColor {
-                                                $0.userInterfaceStyle == .dark
-                                                    ? UIColor.systemGray5
-                                                    : UIColor.secondarySystemBackground
-                                            })
+                                            isSelected && isLight && useGradient
+                                                ? Color.accentColor.opacity(0.2)
+                                                : Color(UIColor {
+                                                    $0.userInterfaceStyle == .dark
+                                                        ? UIColor.systemGray5
+                                                        : UIColor.systemGray6
+                                                })
                                         )
                                 )
                                 .foregroundColor(.primary)
                                 .cornerRadius(8)
                                 .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
                                 .overlay(
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .strokeBorder(viewModel.selectedRight?.id == pair.id ? Color.accentColor : Color.clear, lineWidth: 2)
+                                    Group {
+                                        if !(isLight && useGradient) {
+                                            RoundedRectangle(cornerRadius: 8)
+                                                .strokeBorder(
+                                                    isSelected
+                                                        ? Color.accentColor.opacity(UITraitCollection.current.userInterfaceStyle == .dark ? 1 : 0.4)
+                                                        : Color.clear,
+                                                    lineWidth: 2
+                                                )
+                                        }
+                                    }
                                 )
                                 .shadow(color:
-                                    viewModel.selectedRight?.id == pair.id ? Color.accentColor.opacity(0.4) : Color.clear,
-                                    radius: viewModel.selectedRight?.id == pair.id ? 6 : 0,
+                                    (isSelected && UITraitCollection.current.userInterfaceStyle == .dark)
+                                        ? Color.accentColor.opacity(0.4)
+                                        : Color.clear,
+                                    radius: (isSelected && UITraitCollection.current.userInterfaceStyle == .dark) ? 6 : 0,
                                     x: 0, y: 0
                                 )
                                 .transition(.scale.combined(with: .opacity))
@@ -297,5 +334,15 @@ struct MatchingGameView: View {
                 viewModel.generatePairs(preserveIds: true)
             }
         }
+        .onTapGesture {
+            let now = Date()
+            if now.timeIntervalSince(lastTapDate) > tapThreshold {
+                lastTapDate = now
+                withAnimation {
+                    showTabBar.toggle()
+                }
+            }
+        }
+        .toolbar(showTabBar ? .visible : .hidden, for: .tabBar)
     }
 }
