@@ -50,6 +50,7 @@ class LearningGoalManager: ObservableObject {
 
     func markGoalAnimationShown() {
         goalAnimationShownDate = currentDateString
+        AppReviewManager.requestReviewIfAppropriate()
     }
 
     func resetIfNewDay() {
