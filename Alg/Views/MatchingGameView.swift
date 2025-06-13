@@ -232,13 +232,17 @@ struct MatchingGameView: View {
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
                                         .fill(
-                                            isSelected && isLight && useGradient
-                                                ? Color.accentColor.opacity(0.2)
-                                                : Color(UIColor {
-                                                    $0.userInterfaceStyle == .dark
-                                                        ? UIColor.systemGray5
-                                                        : UIColor.systemGray6
-                                                })
+                                            (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
+                                                ? Color.clear
+                                                : (UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground)
+                                                    ? Color.clear
+                                                    : isSelected && isLight && !visualStyleManager.useSolidColorBackground
+                                                        ? Color.accentColor.opacity(0.2)
+                                                        : Color(UIColor {
+                                                            $0.userInterfaceStyle == .dark
+                                                                ? UIColor.systemGray5
+                                                                : UIColor.systemGray6
+                                                        })
                                         )
                                 )
                                 .foregroundColor(.primary)
@@ -246,7 +250,19 @@ struct MatchingGameView: View {
                                 .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
                                 .overlay(
                                     Group {
-                                        if !(isLight && useGradient) {
+                                        if UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground {
+                                            RoundedRectangle(cornerRadius: 8)
+                                                .strokeBorder(
+                                                    isSelected ? Color.white : Color.white.opacity(0.25),
+                                                    lineWidth: 2
+                                                )
+                                        } else if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
+                                            RoundedRectangle(cornerRadius: 8)
+                                                .strokeBorder(
+                                                    isSelected ? Color.primary : Color.primary.opacity(0.25),
+                                                    lineWidth: 1
+                                                )
+                                        } else if !(isLight && !visualStyleManager.useSolidColorBackground) {
                                             RoundedRectangle(cornerRadius: 8)
                                                 .strokeBorder(
                                                     isSelected
@@ -288,13 +304,17 @@ struct MatchingGameView: View {
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
                                         .fill(
-                                            isSelected && isLight && useGradient
-                                                ? Color.accentColor.opacity(0.2)
-                                                : Color(UIColor {
-                                                    $0.userInterfaceStyle == .dark
-                                                        ? UIColor.systemGray5
-                                                        : UIColor.systemGray6
-                                                })
+                                            (UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground)
+                                                ? Color.clear
+                                                : (UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground)
+                                                    ? Color.clear
+                                                    : isSelected && isLight && !visualStyleManager.useSolidColorBackground
+                                                        ? Color.accentColor.opacity(0.2)
+                                                        : Color(UIColor {
+                                                            $0.userInterfaceStyle == .dark
+                                                                ? UIColor.systemGray5
+                                                                : UIColor.systemGray6
+                                                        })
                                         )
                                 )
                                 .foregroundColor(.primary)
@@ -302,7 +322,19 @@ struct MatchingGameView: View {
                                 .shadow(color: .black.opacity(0.05), radius: 1, x: 0, y: 1)
                                 .overlay(
                                     Group {
-                                        if !(isLight && useGradient) {
+                                        if UITraitCollection.current.userInterfaceStyle == .dark && visualStyleManager.useSolidColorBackground {
+                                            RoundedRectangle(cornerRadius: 8)
+                                                .strokeBorder(
+                                                    isSelected ? Color.white : Color.white.opacity(0.25),
+                                                    lineWidth: 2
+                                                )
+                                        } else if UITraitCollection.current.userInterfaceStyle == .light && visualStyleManager.useSolidColorBackground {
+                                            RoundedRectangle(cornerRadius: 8)
+                                                .strokeBorder(
+                                                    isSelected ? Color.primary : Color.primary.opacity(0.25),
+                                                    lineWidth: 1
+                                                )
+                                        } else if !(isLight && !visualStyleManager.useSolidColorBackground) {
                                             RoundedRectangle(cornerRadius: 8)
                                                 .strokeBorder(
                                                     isSelected
