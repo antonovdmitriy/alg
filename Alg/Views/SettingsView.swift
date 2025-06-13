@@ -22,6 +22,7 @@ struct SettingsView: View {
     @AppStorage("examplesToShowCount") private var examplesToShowCount = 3
     @State private var showResetConfirmation = false
     @State private var showResetMessage = false
+    @State private var showDeleteGoalMessage = false
 
     @AppStorage("showTranslationOnPreview") private var showTranslationOnPreview = false
     var body: some View {
@@ -55,7 +56,7 @@ struct SettingsView: View {
                 NavigationLink(destination: CategorySelectionView(wordService: wordService)) {
                     Text("settings_edit_categories")
                 }
-                NavigationLink(destination: DailyGoalSelectionView(allowsDismiss: true, onGoalSelected: {})) {
+                NavigationLink(destination: DailyGoalSelectionView(mode: .settings, onGoalSelected: {})) {
                     Text("settings_edit_daily_goal")
                 }
                 Toggle("settings_hide_links_to_known_words", isOn: $hideLinksToKnownWords)
@@ -90,6 +91,16 @@ struct SettingsView: View {
                     }
             }
         }
+        .onReceive(NotificationCenter.default.publisher(for: .didDeleteDailyGoal)) { _ in
+            withAnimation {
+                showDeleteGoalMessage = true
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                withAnimation {
+                    showDeleteGoalMessage = false
+                }
+            }
+        }
         .navigationTitle("settings_title")
         .overlay(
             Group {
@@ -107,6 +118,14 @@ struct SettingsView: View {
                                 }
                             }
                         }
+                }
+                if showDeleteGoalMessage {
+                    Text(NSLocalizedString("daily_goal_deleted_success", comment: ""))
+                        .font(.subheadline)
+                        .padding()
+                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 10))
+                        .foregroundColor(.primary)
+                        .transition(.opacity)
                 }
             }
             .padding(),

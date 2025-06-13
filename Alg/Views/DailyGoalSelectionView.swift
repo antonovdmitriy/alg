@@ -1,3 +1,7 @@
+extension Notification.Name {
+    static let didDeleteDailyGoal = Notification.Name("didDeleteDailyGoal")
+}
+
 //
 //  DailyGoalSelectionView.swift
 //  Älg
@@ -7,20 +11,29 @@
 
 import SwiftUI
 
+public enum DailyGoalSelectionMode {
+    case firstLaunch
+    case settings
+}
+
 struct DailyGoalSelectionView: View {
     @Environment(\.presentationMode) private var presentationMode
     @AppStorage("dailyGoal") private var dailyGoal = 10
+    @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
     @State private var inputText: String
     @State private var sliderValue: Double
+    @State private var showDeleteConfirmation = false
+    let mode: DailyGoalSelectionMode
     let allowsDismiss: Bool
     var onGoalSelected: () -> Void
 
-    init(allowsDismiss: Bool = true, onGoalSelected: @escaping () -> Void) {
+    init(mode: DailyGoalSelectionMode = .settings, allowsDismiss: Bool = true, onGoalSelected: @escaping () -> Void) {
         let storedGoal = UserDefaults.standard.object(forKey: "dailyGoal") != nil
             ? UserDefaults.standard.integer(forKey: "dailyGoal")
             : 10
         _inputText = State(initialValue: "\(storedGoal)")
         _sliderValue = State(initialValue: Double(storedGoal))
+        self.mode = mode
         self.allowsDismiss = allowsDismiss
         self.onGoalSelected = onGoalSelected
     }
@@ -57,21 +70,18 @@ struct DailyGoalSelectionView: View {
                                     inputText = newValue
                                     if let intVal = Int(newValue), intVal >= 1, intVal <= 100 {
                                         sliderValue = Double(intVal)
-                                        dailyGoal = intVal
                                     }
                                 })
                             )
                             .keyboardType(.numberPad)
                             .textFieldStyle(.roundedBorder)
-
-                            Text(NSLocalizedString("words", comment: ""))
-                                .foregroundColor(.secondary)
                         }
                     }
                     .padding(.horizontal)
 
                     Button(action: {
                         dailyGoal = Int(sliderValue)
+                        hasSelectedDailyGoal = true
                         withAnimation {
                             onGoalSelected()
                             if allowsDismiss {
@@ -87,6 +97,51 @@ struct DailyGoalSelectionView: View {
                             .foregroundColor(.white)
                             .cornerRadius(12)
                             .padding(.horizontal)
+                    }
+
+                    if mode == .firstLaunch {
+                        Button(action: {
+                            withAnimation {
+                                onGoalSelected()
+                                if allowsDismiss {
+                                    presentationMode.wrappedValue.dismiss()
+                                }
+                            }
+                        }) {
+                            Text(NSLocalizedString("continue_without_goal", comment: ""))
+                                .font(.headline)
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(Color.gray.opacity(0.2))
+                                .foregroundColor(.primary)
+                                .cornerRadius(12)
+                                .padding(.horizontal)
+                        }
+                    } else {
+                        Group {
+                            Button(action: {
+                                showDeleteConfirmation = true
+                            }) {
+                                Text(NSLocalizedString("delete_goal_button", comment: ""))
+                                    .font(.subheadline)
+                                    .foregroundColor(hasSelectedDailyGoal ? .red : .gray)
+                                    .padding(.top, 8)
+                            }
+                            .disabled(!hasSelectedDailyGoal)
+                        }
+                        .alert(isPresented: $showDeleteConfirmation) {
+                            Alert(
+                                title: Text(NSLocalizedString("confirm_delete_goal_title", comment: "")),
+                                message: Text(NSLocalizedString("confirm_delete_goal_message", comment: "")),
+                                primaryButton: .destructive(Text(NSLocalizedString("delete_goal_button_yes", comment: ""))) {
+                                    UserDefaults.standard.removeObject(forKey: "dailyGoal")
+                                    hasSelectedDailyGoal = false
+                                    NotificationCenter.default.post(name: .didDeleteDailyGoal, object: nil)
+                                    presentationMode.wrappedValue.dismiss()
+                                },
+                                secondaryButton: .cancel()
+                            )
+                        }
                     }
                 }
                 

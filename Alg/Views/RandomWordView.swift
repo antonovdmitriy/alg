@@ -345,7 +345,7 @@ struct RandomWordView: View {
             return
         }
 
-        var availableIndices = Array(currentEntry.examples.indices).filter { !shownExampleIndices.contains($0) }
+        let availableIndices = Array(currentEntry.examples.indices).filter { !shownExampleIndices.contains($0) }
 
         guard let nextIdx = availableIndices.randomElement() else {
             exampleIndex = nil
