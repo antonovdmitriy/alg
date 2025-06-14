@@ -7,11 +7,7 @@ struct OnboardingIntroView: View {
     @Environment(\.colorScheme) var colorScheme
 
     private var gradientColorsForTheme: [[Color]] {
-        return [
-            [Color.blue, Color.indigo],
-            [Color.indigo, Color.teal],
-            [Color.teal, Color.cyan]
-        ]
+        return [[Color.blue, Color.indigo]]
     }
 
     private let icons: [String] = [
