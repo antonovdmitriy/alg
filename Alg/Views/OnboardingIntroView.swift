@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct OnboardingIntroView: View {
@@ -9,9 +8,9 @@ struct OnboardingIntroView: View {
 
     private var gradientColorsForTheme: [[Color]] {
         return [
-            [Color.blue, Color.purple],
+            [Color.blue, Color.indigo],
             [Color.indigo, Color.teal],
-            [Color.pink, Color.orange]
+            [Color.teal, Color.cyan]
         ]
     }
 
@@ -32,32 +31,18 @@ struct OnboardingIntroView: View {
 
             TabView(selection: $currentPage) {
                 onboardingPage(
-                    title: "Добро пожаловать",
-                    text: """
-Älg — это пространство, где можно учить шведский язык.
-
-Оно создано с уважением к твоему уникальному пути, твоему стилю изучения нового.
-
-Здесь никто не будет тебя сравнивать или подгонять.
-""",
+                    title: String(localized: "onboarding.welcome.title"),
+                    text: String(localized: "onboarding.welcome.text"),
                     tag: 0
                 )
                 onboardingPage(
-                    title: "Слова, примеры и игра",
-                    text: """
-В приложении есть словарь с примерами, игра на сопоставление и режим случайного слова. 
-
-Ты можешь поставить цель на день, если тебе это подходит.
-""",
+                    title: String(localized: "onboarding.features.title"),
+                    text: String(localized: "onboarding.features.text"),
                     tag: 1
                 )
                 onboardingPage(
-                    title: "Настройки",
-                    text: """
-Ненужные, выученные или просто нелюбимые слова можно убрать. Любимые — отметить. 
-
-Почти всё можно изменить в настройках, если захочется.
-""",
+                    title: String(localized: "onboarding.settings.title"),
+                    text: String(localized: "onboarding.settings.text"),
                     tag: 2,
                     isLast: true
                 )
@@ -88,7 +73,7 @@ struct OnboardingIntroView: View {
                     .padding(.horizontal)
                 Spacer()
                 if isLast {
-                    Button("Продолжить") {
+                    Button(String(localized: "onboarding.continue.button")) {
                         onFinish()
                     }
                     .font(.headline)

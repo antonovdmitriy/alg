@@ -8931,8 +8931,670 @@
         }
       }
     },
-    "Продолжить" : {
-
+    "onboarding.welcome.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أهلاً بك"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Willkommen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bienvenido"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tervetuloa"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bienvenue"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपका स्वागत है"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selamat datang"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benvenuto"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Witamy"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добро пожаловать"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välkommen"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoş geldin"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ласкаво просимо"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "欢迎"
+          }
+        }
+      }
+    },
+    "onboarding.welcome.text": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg هو مساحة يمكنك من خلالها تعلم اللغة السويدية.\n\nتم إنشاؤه باحترام لمسارك الفريد وأسلوبك في التعلم.\n\nلن يقارنك أحد أو يضغط عليك هنا."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg ist ein Raum, in dem du Schwedisch lernen kannst.\n\nEr wurde mit Respekt für deinen individuellen Lernweg geschaffen.\n\nNiemand wird dich hier vergleichen oder antreiben."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg is a space where you can learn Swedish.\n\nIt’s created with respect for your unique path and learning style.\n\nNo one will compare you or rush you here."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg es un espacio donde puedes aprender sueco.\n\nEstá creado con respeto por tu camino y estilo de aprendizaje únicos.\n\nAquí nadie te comparará ni te apresurará."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg on tila, jossa voit oppia ruotsia.\n\nSe on luotu kunnioittaen sinun ainutlaatuista oppimispolkuasi.\n\nTäällä kukaan ei vertaile tai kiirehdi sinua."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg est un espace où tu peux apprendre le suédois.\n\nIl a été créé dans le respect de ton chemin et de ton style d’apprentissage.\n\nPersonne ne te comparera ou ne te pressera ici."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg एक ऐसा स्थान है जहाँ आप स्वीडिश सीख सकते हैं।\n\nयह आपकी अनोखी यात्रा और सीखने की शैली के सम्मान के साथ बनाया गया है।\n\nयहाँ कोई आपकी तुलना नहीं करेगा या आपको जल्दी नहीं कराएगा।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg adalah tempat untuk belajar bahasa Swedia.\n\nDibuat dengan menghormati perjalanan dan gaya belajar unikmu.\n\nTidak ada yang akan membandingkan atau mendesakmu di sini."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg è uno spazio dove puoi imparare lo svedese.\n\nÈ stato creato nel rispetto del tuo percorso unico e del tuo stile di apprendimento.\n\nNessuno ti confronterà o ti metterà fretta."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg to przestrzeń, w której możesz uczyć się szwedzkiego.\n\nZostała stworzona z szacunkiem dla twojej unikalnej drogi i stylu nauki.\n\nNikt nie będzie cię tutaj porównywał ani poganiał."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg — это пространство, где можно учить шведский язык.\n\nОно создано с уважением к твоему уникальному пути, твоему стилю изучения нового.\n\nЗдесь никто не будет тебя сравнивать или подгонять."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg är en plats där du kan lära dig svenska.\n\nDen är skapad med respekt för din unika väg och ditt sätt att lära dig.\n\nIngen kommer att jämföra dig eller stressa dig här."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg, İsveççe öğrenebileceğin bir alan.\n\nSenin benzersiz öğrenme tarzına ve yolculuğuna saygı duyarak oluşturuldu.\n\nBurada kimse seni kıyaslamaz ya da acele ettirmez."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg — це простір, де можна вивчати шведську мову.\n\nЙого створено з повагою до твого унікального шляху та стилю навчання.\n\nТут тебе ніхто не буде порівнювати чи підганяти."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älg 是一个可以学习瑞典语的空间。\n\n它尊重你独特的学习路径和风格。\n\n在这里，没有人会拿你与他人比较或催促你。"
+          }
+        }
+      }
+    },
+    "onboarding.features.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كلمات، أمثلة ولعبة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wörter, Beispiele und Spiel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Words, examples, and game"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palabras, ejemplos y juego"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sanat, esimerkit ja peli"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mots, exemples et jeu"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "शब्द, उदाहरण और खेल"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kata, contoh, dan permainan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parole, esempi e gioco"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słowa, przykłady i gra"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слова, примеры и игра"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ord, exempel och spel"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kelimeler, örnekler ve oyun"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слова, приклади й гра"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "单词、例句和游戏"
+          }
+        }
+      }
+    },
+    "onboarding.features.text": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يحتوي التطبيق على قاموس بأمثلة، ولعبة مطابقة، ووضع الكلمة العشوائية.\n\nيمكنك تحديد هدف يومي إن أردت."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die App enthält ein Wörterbuch mit Beispielen, ein Zuordnungsspiel und einen Zufallswortmodus.\n\nDu kannst dir ein Tagesziel setzen, wenn du möchtest."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The app includes a dictionary with examples, a matching game, and a random word mode.\n\nYou can set a daily goal if that works for you."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La aplicación incluye un diccionario con ejemplos, un juego de emparejar y un modo de palabra aleatoria.\n\nPuedes establecer una meta diaria si lo deseas."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sovelluksessa on esimerkkisanakirja, yhdistelypeli ja satunnaissanatila.\n\nVoit asettaa päivittäisen tavoitteen, jos se sopii sinulle."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'application comprend un dictionnaire avec des exemples, un jeu d'association et un mode mot aléatoire.\n\nTu peux te fixer un objectif quotidien si cela te convient."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ऐप में उदाहरणों के साथ एक शब्दकोश, एक मिलान खेल और एक यादृच्छिक शब्द मोड है।\n\nयदि यह आपको उपयुक्त लगे तो आप एक दैनिक लक्ष्य निर्धारित कर सकते हैं।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplikasi ini memiliki kamus dengan contoh, permainan mencocokkan, dan mode kata acak.\n\nKamu bisa menetapkan tujuan harian jika itu cocok untukmu."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'app include un dizionario con esempi, un gioco di associazione e una modalità parola casuale.\n\nPuoi impostare un obiettivo giornaliero se lo desideri."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplikacja zawiera słownik z przykładami, grę w dopasowywanie i tryb losowego słowa.\n\nMożesz ustawić cel dzienny, jeśli chcesz."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В приложении есть словарь с примерами, игра на сопоставление и режим случайного слова. \n\nТы можешь поставить цель на день, если тебе это подходит."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appen innehåller en ordbok med exempel, ett matchningsspel och ett slumpmässigt ordläge.\n\nDu kan sätta ett dagligt mål om det passar dig."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamada örneklerle bir sözlük, eşleştirme oyunu ve rastgele kelime modu bulunmaktadır.\n\nİstersen günlük bir hedef belirleyebilirsin."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У додатку є словник із прикладами, гра на відповідність і режим випадкового слова.\n\nТи можеш встановити ціль на день, якщо це тобі підходить."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "应用中包含带有示例的词典、配对游戏和随机单词模式。\n\n如果你愿意，也可以设定每日目标。"
+          }
+        }
+      }
+    },
+    "onboarding.settings.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإعدادات"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asetukset"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paramètres"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेटिंग्स"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengaturan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inställningar"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Налаштування"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
+          }
+        }
+      }
+    },
+    "onboarding.settings.text": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يمكنك إخفاء الكلمات غير الضرورية أو التي تم تعلمها أو التي لا تحبها. ويمكنك تمييز الكلمات المفضلة.\n\nيمكنك تعديل معظم الإعدادات لاحقًا إذا رغبت في ذلك."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unnötige, gelernte oder ungeliebte Wörter kannst du ausblenden. Lieblingswörter kannst du markieren.\n\nFast alles kannst du später in den Einstellungen anpassen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can hide unnecessary, learned, or disliked words. Mark your favorites.\n\nAlmost everything can be changed in the settings if you wish."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puedes ocultar palabras innecesarias, aprendidas o que no te gusten. Marca tus favoritas.\n\nCasi todo se puede cambiar en la configuración si lo deseas."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voit piilottaa tarpeettomat, opitut tai ei-mieluisat sanat. Merkitse suosikkisi.\n\nLähes kaiken voi muuttaa asetuksista myöhemmin."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu peux cacher les mots inutiles, appris ou que tu n’aimes pas. Marque ceux que tu préfères.\n\nPresque tout peut être modifié dans les paramètres si tu le souhaites."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आप अनावश्यक, सीखे हुए या नापसंद शब्दों को छुपा सकते हैं। पसंदीदा शब्दों को चिह्नित करें।\n\nआप चाहें तो लगभग सब कुछ सेटिंग्स में बदल सकते हैं।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kamu bisa menyembunyikan kata yang tidak diperlukan, sudah dipelajari, atau yang tidak disukai. Tandai kata favoritmu.\n\nHampir semua bisa diubah di pengaturan jika kamu mau."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puoi nascondere le parole inutili, già imparate o che non ti piacciono. Segna le preferite.\n\nQuasi tutto può essere modificato nelle impostazioni se lo desideri."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możesz ukryć niepotrzebne, poznane lub nielubiane słowa. Ulubione możesz oznaczyć.\n\nPrawie wszystko można zmienić w ustawieniach, jeśli chcesz."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ненужные, выученные или просто нелюбимые слова можно убрать. Любимые — отметить. \n\nПочти всё можно изменить в настройках, если захочется."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du kan dölja onödiga, inlärda eller ogillade ord. Markera dina favoriter.\n\nNästan allt kan ändras i inställningarna om du vill."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gereksiz, öğrenilmiş veya sevilmeyen kelimeleri gizleyebilirsin. Favorilerini işaretleyebilirsin.\n\nİstersen ayarlardan neredeyse her şeyi değiştirebilirsin."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Можна прибрати непотрібні, вивчені або просто нелюбі слова. Улюблені — позначити.\n\nМайже все можна змінити в налаштуваннях, якщо захочеться."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你可以隐藏不需要的、已掌握的或不喜欢的单词。喜欢的可以标记。\n\n几乎所有内容都可以在设置中更改。"
+          }
+        }
+      }
+    },
+    "onboarding.continue.button": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "متابعة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiter"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuar"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatka"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuer"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "जारी रखें"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lanjutkan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continua"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontynuuj"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsätt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Devam et"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продовжити"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "继续"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
