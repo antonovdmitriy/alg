@@ -14,6 +14,7 @@ struct RootRouterView: View {
     @AppStorage("hasSelectedCategories") private var hasSelectedCategories = false
     @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
     @AppStorage("dailyGoalSelectionShown") private var hasShownDailyGoalSelection = false
+    @AppStorage("hasSeenIntro") private var hasSeenIntro = false
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
     let audioPlayerHelper: AudioPlayerHelper
@@ -27,6 +28,10 @@ struct RootRouterView: View {
     var body: some View {
         if showSplash || wordService.allCategories().isEmpty {
             SplashView(showSplash: $showSplash)
+        } else if !hasSeenIntro {
+            OnboardingIntroView(onFinish: {
+                hasSeenIntro = true
+            })
         } else if !hasSelectedLanguage {
             LanguageSelectionView(showNextButton: true, fromSettings: false)
         } else if !hasSelectedCategories {
