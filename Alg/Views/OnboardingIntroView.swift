@@ -63,6 +63,7 @@ struct OnboardingIntroView: View {
                 Text(title)
                     .font(colorScheme == .dark ? .largeTitle.bold() : .title2.weight(.regular))
                     .foregroundColor(textColor)
+                    .multilineTextAlignment(.center)
                 Text(text)
                     .multilineTextAlignment(.center)
                     .foregroundColor(textColor)
