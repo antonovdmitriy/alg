@@ -38,14 +38,17 @@
 		044E78FF2DF9A8BF00CD252D /* Exceptions for "scripts" folder in "Älg" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				batch_words,
 				category/add_category.py,
 				category/translate_category.py,
 				sound/generate_aws_tts.py,
 				sound/generate_azure_tts.py,
 				word/add_word.py,
+				word/batch_add_words.py,
 				word/fill_word_details.py,
 				word/generate_audio_for_words.py,
 				word/translate_word_only.py,
+				word/upload_audio_to_azure.sh,
 			);
 			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
 		};
@@ -495,7 +498,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -532,7 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
