@@ -98,6 +98,33 @@ tasks:
     requires:
       vars: [WORD_ID]
 
+  generate-audio-and-upload-for-word:
+    desc: 🔊☁️ Generate and upload audio for a specific word
+    summary: |
+      Generate audio for a specific word (by ID) and upload it to Azure.
+
+      Example:
+        WORD_ID="..." task generate-audio-and-upload-for-word
+    cmds:
+      - |
+        python3 scripts/word/generate_audio_for_words.py \
+          --input "{{.WORD_BASE_PATH}}" \
+          --audio_dir "{{.AUDIO_PATH}}" \
+          --overwrite \
+          --voice_config "{{.VOICE_CONFIG_PATH}}" \
+          --id "{{.WORD_ID}}"
+        bash scripts/word/upload_audio_to_azure.sh \
+          --id "{{.WORD_ID}}" \
+          --overwrite \
+          --source_dir "{{.AUDIO_PATH}}"
+    vars:
+      AUDIO_PATH: ./resources/audio
+      VOICE_CONFIG_PATH: ./resources/voice.json
+    env:
+      AZURE_STORAGE_KEY: "{{.AZURE_STORAGE_KEY}}"
+    requires:
+      vars: [WORD_ID]
+
   upload-audio-for-word:
     desc: ☁️ Upload audio files to Azure Blob Storage
     summary: |
