@@ -1,6 +1,9 @@
 import SwiftUI
 
 struct LanguageLevelSettingsView: View {
+    var fromSettings: Bool = true
+    var onFinish: (() -> Void)? = nil
+
     @AppStorage("selectedLanguageLevel") private var selectedLevel = "all"
     @AppStorage("includeLowerLevels") private var includeLowerLevels = true
     
@@ -35,13 +38,18 @@ struct LanguageLevelSettingsView: View {
                 }
             }
             
-            Section {
-                Toggle(NSLocalizedString("language_level_include_lower_levels", comment: ""), isOn: $includeLowerLevels)
+            if fromSettings {
+                Section {
+                    Toggle(NSLocalizedString("language_level_include_lower_levels", comment: ""), isOn: $includeLowerLevels)
+                }
             }
         }
-        .navigationTitle(NSLocalizedString("language_level_title", comment: ""))
+        .navigationBarTitle(NSLocalizedString("language_level_title", comment: ""), displayMode: .inline)
         .toolbar {
             Button(NSLocalizedString("language_level_continue_button", comment: "")) {
+                if !fromSettings {
+                    onFinish?()
+                }
                 dismiss()
             }
         }
