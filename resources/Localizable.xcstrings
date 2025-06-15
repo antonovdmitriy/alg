@@ -3611,91 +3611,91 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "الكل"
+            "value" : "لا أعرف أو لا أريد الاختيار"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alle"
+            "value" : "Ich weiß es nicht oder möchte nicht wählen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "All"
+            "value" : "I don't know or don't want to choose"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Todos"
+            "value" : "No sé o no quiero elegir"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kaikki"
+            "value" : "En tiedä tai en halua valita"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tous"
+            "value" : "Je ne sais pas ou je ne veux pas choisir"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "सभी"
+            "value" : "मुझे नहीं पता या मैं चुनना नहीं चाहता"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Semua"
+            "value" : "Saya tidak tahu atau tidak ingin memilih"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tutti"
+            "value" : "Non lo so o non voglio scegliere"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wszystkie"
+            "value" : "Nie wiem lub nie chcę wybierać"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Все"
+            "value" : "Я не знаю или не хочу выбирать"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alla"
+            "value" : "Jag vet inte eller vill inte välja"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tümü"
+            "value" : "Bilmiyorum veya seçmek istemiyorum"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Усі"
+            "value" : "Я не знаю або не хочу обирати"
           }
         },
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "全部"
+            "value" : "我不知道或不想选择"
           }
         }
       }
