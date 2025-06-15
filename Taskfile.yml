@@ -180,3 +180,36 @@ tasks:
       - python3 scripts/word/batch_add_words.py --file "{{.FILE}}"
     requires:
       vars: [FILE]
+
+  determine-level-for-word:
+    desc: 📈 Determine CEFR level for a specific word
+    summary: |
+      Determines the CEFR language level (A1–C2) for a single word by its ID using GPT.
+
+      Example:
+        WORD_ID="..." task determine-level-for-word
+    cmds:
+      - python3 scripts/word/compute_level_word.py --id "{{.WORD_ID}}" --file "{{.WORD_BASE_PATH}}"
+    requires:
+      vars: [WORD_ID]
+
+  determine-level-for-all:
+    desc: 📈 Determine CEFR level for all words
+    summary: |
+      Determines CEFR language levels (A1–C2) for all words in the dictionary using GPT.
+
+      Example:
+        task determine-level-for-all
+    cmds:
+      - python3 scripts/word/compute_level_word.py --all --overwrite --file "{{.WORD_BASE_PATH}}"
+      
+  determine-level-for-all-fallback:
+    desc: 📈 Determine CEFR level for all words (fallback to word only if no translation)
+    summary: |
+      Determines CEFR language levels (A1–C2) for all words in the dictionary using GPT.
+      If translation is missing, uses only the word.
+
+      Example:
+        task determine-level-for-all-fallback
+    cmds:
+      - python3 scripts/word/compute_level_word.py --all --fallback-to-word-only --file "{{.WORD_BASE_PATH}}"

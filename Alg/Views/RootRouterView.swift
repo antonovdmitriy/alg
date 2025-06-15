@@ -1,10 +1,3 @@
-//
-//  RootRouterView.swift
-//  Älg
-//
-//  Created by Dmitrii Antonov on 2025-05-29.
-//
-
 import SwiftUI
 
 struct RootRouterView: View {
@@ -15,6 +8,9 @@ struct RootRouterView: View {
     @AppStorage("hasSelectedDailyGoal") private var hasSelectedDailyGoal = false
     @AppStorage("dailyGoalSelectionShown") private var hasShownDailyGoalSelection = false
     @AppStorage("hasSeenIntro") private var hasSeenIntro = false
+    @AppStorage("hasShownLanguageLevelSelection") private var hasShownLanguageLevelSelection = false
+    
+    
     let wordService: WordService
     let learningStateManager: WordLearningStateManager
     let audioPlayerHelper: AudioPlayerHelper
@@ -34,13 +30,22 @@ struct RootRouterView: View {
             })
         } else if !hasSelectedLanguage {
             LanguageSelectionView(showNextButton: true, fromSettings: false)
+        } else if !hasShownLanguageLevelSelection {
+            NavigationView {
+                LanguageLevelSettingsView(fromSettings: false, onFinish: {
+                    hasShownLanguageLevelSelection = true
+                })
+                .navigationBarTitleDisplayMode(.inline)
+            }
         } else if !hasSelectedCategories {
             NavigationStack {
                 CategorySelectionView(wordService: wordService)
             }
         } else if !hasShownDailyGoalSelection && !hasSelectedDailyGoal {
-            DailyGoalSelectionView(mode: .firstLaunch, allowsDismiss: false) {
-                hasShownDailyGoalSelection = true
+            NavigationView {
+                DailyGoalSelectionView(mode: .firstLaunch, allowsDismiss: false) {
+                    hasShownDailyGoalSelection = true
+                }
             }
         } else {
             ContentView(wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
