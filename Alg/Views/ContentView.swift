@@ -50,7 +50,7 @@ struct ContentView: View {
                 .tag(1)
 
                 NavigationView {
-                    MatchingGameView(showTabBar: $showTabBar, wordService: wordService, learningStateManager: learningStateManager)
+                    MatchingGameView(showTabBar: $showTabBar, wordService: wordService, learningStateManager: learningStateManager, audioPlayerHelper: audioPlayerHelper)
                 }
                 .onAppear {
                     audioPlayerHelper.stop()
