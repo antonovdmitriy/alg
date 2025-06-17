@@ -45,6 +45,8 @@
 				sound/generate_azure_tts.py,
 				word/add_word.py,
 				word/batch_add_words.py,
+				word/batch_compute_level_words.py,
+				word/compute_level_word.py,
 				word/fill_word_details.py,
 				word/generate_audio_for_words.py,
 				word/translate_word_only.py,
@@ -71,16 +73,6 @@
 			target = 0474E54F2DD4BC9900DBE6E4 /* Älg */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		0406A2642DF04ADA0045626A /* Exceptions for "resources" folder in "Compile Sources" phase from "Älg" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 0474E54C2DD4BC9900DBE6E4 /* Sources */;
-			membershipExceptions = (
-				generate_audio_for_id_list.py,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		044E78D52DF73A5800CD252D /* scripts */ = {
@@ -110,7 +102,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				0474E6432DD5427B00DBE6E4 /* Exceptions for "resources" folder in "Älg" target */,
-				0406A2642DF04ADA0045626A /* Exceptions for "resources" folder in "Compile Sources" phase from "Älg" target */,
 			);
 			explicitFolders = (
 				audio,
@@ -498,7 +489,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 1.9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -535,7 +526,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 1.9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antonov.swedishwords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
