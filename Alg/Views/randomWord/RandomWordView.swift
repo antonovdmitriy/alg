@@ -239,7 +239,7 @@ struct RandomWordView: View {
             previousLanguageLevel = selectedLanguageLevel
             previousIncludeLowerLevels = includeLowerLevels
         }
-        .onChange(of: selectedLanguageLevel) { newValue in
+        .onChange(of: selectedLanguageLevel) { _, newValue in
             if newValue != previousLanguageLevel {
                 previousLanguageLevel = newValue
                 // Ensure the selected topic matches the new word level filters
@@ -253,7 +253,7 @@ struct RandomWordView: View {
                 }
             }
         }
-        .onChange(of: includeLowerLevels) { newValue in
+        .onChange(of: includeLowerLevels) { _, newValue in
             if newValue != previousIncludeLowerLevels {
                 previousIncludeLowerLevels = newValue
                 // Ensure the selected topic matches the new word level filters
@@ -364,7 +364,6 @@ struct RandomWordView: View {
         print("Initial entries count:", entries.count)
 
         // 3. After applying CEFR filtering
-        let entriesBeforeLevelFiltering = entries
         entries = entries.filter { entry in
             guard let level = entry.level else {
                 return self.selectedLanguageLevel == "all"
