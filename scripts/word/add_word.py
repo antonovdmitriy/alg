@@ -39,7 +39,8 @@ new_word = {
     "forms": [],
     "translations": {},
     "examples": [],
-    "voiceEntries": []
+    "voiceEntries": [],
+    "level": ""
 }
 
 category["entries"].append(new_word)
